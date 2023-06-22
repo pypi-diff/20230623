@@ -707,3 +707,69 @@
 [2023-06-23 00:50:35] INFO root fetch - processPackages [popari]: Remove: archive file [/home/abi/fetcher/tmp/popari-0.0.9.tar.gz]
 [2023-06-23 00:50:35] INFO root fetch - main [MainThread]: End processing [popari]: success
 [2023-06-23 00:50:35] INFO root fetch - main [MainThread]: Store serial: [18611147]
+[2023-06-23 00:55:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611147]
+[2023-06-23 00:55:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 00:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indexed-png-stats
+[2023-06-23 00:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apollo-sdk
+[2023-06-23 00:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clickhouse-connect
+[2023-06-23 00:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdx-python-utilities
+[2023-06-23 00:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-06-23 00:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ghananews-scraper
+[2023-06-23 00:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openlrc
+[2023-06-23 00:55:43] INFO root fetch - processPackages [indexed-png-stats]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 00:55:43] INFO root fetch - processPackages [apollo-sdk]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-23 00:55:43] INFO root fetch - processPackages [openlrc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 00:55:43] INFO root fetch - processPackages [clickhouse-connect]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-23 00:55:43] INFO root fetch - processPackages [hdx-python-utilities]: New version: [3.5.9] Old Version: [3.5.8]
+[2023-06-23 00:55:43] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 00:55:43] INFO root fetch - processPackages [ghananews-scraper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 00:55:43] INFO root fetch - processPackages [ghananews-scraper]: Downloading https://files.pythonhosted.org/packages/83/2d/d094b0c80c03ed4ddc4544a63140d47a1193dfc55f5489eb9b0b68a3e8d7/ghananews-scraper-1.0.8.tar.gz
+[2023-06-23 00:55:43] INFO root fetch - processPackages [indexed-png-stats]: Downloading https://files.pythonhosted.org/packages/a0/6f/4b4d9fadd1e07de12ffb3466fc0042d9e08fcebea8211d26e6ff9e609768/indexed-png-stats-0.0.2.tar.gz
+[2023-06-23 00:55:43] INFO root fetch - processPackages [apollo-sdk]: Downloading https://files.pythonhosted.org/packages/20/1f/3008da39bcdd99e37ea55057ac1a618d0b2a75b97d6dfd9152ed80137dff/apollo-sdk-0.2.8.tar.gz
+[2023-06-23 00:55:43] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/5e/7d/de0ac026b208212b97808270cacb01ba674a49aeab902d751423aafc6473/openlrc-0.1.1.tar.gz
+[2023-06-23 00:55:43] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/c6/7c/f548af09296e08048f14e921719f841d7725f3f8f446699037f98774cb3e/clickhouse-connect-0.6.3.tar.gz
+[2023-06-23 00:55:43] INFO root fetch - processPackages [hdx-python-utilities]: Downloading https://files.pythonhosted.org/packages/db/19/787bca9ecd5205ac0dde1864e36e927615fb2586b1ac04ca046d92ce4d4e/hdx-python-utilities-3.5.8.tar.gz
+[2023-06-23 00:55:44] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-23 00:55:44] INFO root fetch - processPackages [ghananews-scraper]: Downloading https://files.pythonhosted.org/packages/e0/b6/878f5dbca6bf8dae7e132e857d785abcef5601d293dc4ce6a8ffe5e61655/ghananews-scraper-1.0.9.tar.gz
+[2023-06-23 00:55:44] INFO root fetch - processPackages [ghananews-scraper]: executing diffoscope
+[2023-06-23 00:55:44] INFO root fetch - processPackages [ghananews-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghananews-scraper-1.0.8.tar.gz tmp/ghananews-scraper-1.0.9.tar.gz --markdown 20230623/g/ghananews-scraper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-23 00:55:44] INFO root fetch - processPackages [indexed-png-stats]: Downloading https://files.pythonhosted.org/packages/d5/68/e8e9bcb6a1063027ce8e8eadbbc31fe1d44458c53a78a7337bbd8013c496/indexed-png-stats-0.0.3.tar.gz
+[2023-06-23 00:55:44] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/62/3b/cf86571c46b9a1dfc4f0caa8e80187b7f4eedbb9ec65071ad4ce49fe4ece/openlrc-0.1.2.tar.gz
+[2023-06-23 00:55:44] INFO root fetch - processPackages [apollo-sdk]: Downloading https://files.pythonhosted.org/packages/fd/d2/517e0a28cfee331dfeb2186a60d78caa9a23975ba34a4cc073ee80806e9a/apollo-sdk-0.2.9.tar.gz
+[2023-06-23 00:55:44] INFO root fetch - processPackages [indexed-png-stats]: executing diffoscope
+[2023-06-23 00:55:44] INFO root fetch - processPackages [indexed-png-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexed-png-stats-0.0.2.tar.gz tmp/indexed-png-stats-0.0.3.tar.gz --markdown 20230623/i/indexed-png-stats/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 00:55:44] INFO root fetch - processPackages [apollo-sdk]: executing diffoscope
+[2023-06-23 00:55:44] INFO root fetch - processPackages [apollo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-sdk-0.2.8.tar.gz tmp/apollo-sdk-0.2.9.tar.gz --markdown 20230623/a/apollo-sdk/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-23 00:55:44] INFO root fetch - processPackages [hdx-python-utilities]: Downloading https://files.pythonhosted.org/packages/32/8d/e42462ba64bd80c04bb592ab9fcf1982f22d6cf029525b2f70c7eed4bcab/hdx_python_utilities-3.5.9.tar.gz
+[2023-06-23 00:55:44] INFO root fetch - processPackages [openlrc]: executing diffoscope
+[2023-06-23 00:55:44] INFO root fetch - processPackages [openlrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlrc-0.1.1.tar.gz tmp/openlrc-0.1.2.tar.gz --markdown 20230623/o/openlrc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 00:55:44] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/6e/67/10deee1c88d65fd8e1c6da27d4952029ed0447400c1b972efe2432ac14e4/clickhouse_connect-0.6.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 00:55:44] INFO root fetch - processPackages [hdx-python-utilities]: executing diffoscope
+[2023-06-23 00:55:44] INFO root fetch - processPackages [hdx-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx-python-utilities-3.5.8.tar.gz tmp/hdx_python_utilities-3.5.9.tar.gz --markdown 20230623/h/hdx-python-utilities/3.5.8-3.5.9/diff.md --exclude *.pyd
+[2023-06-23 00:55:45] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-23 00:55:45] INFO root fetch - processPackages [indexed-png-stats]: Remove: archive file [/home/abi/fetcher/tmp/indexed-png-stats-0.0.2.tar.gz]
+[2023-06-23 00:55:45] INFO root fetch - processPackages [indexed-png-stats]: Remove: archive file [/home/abi/fetcher/tmp/indexed-png-stats-0.0.3.tar.gz]
+[2023-06-23 00:55:45] INFO root fetch - main [MainThread]: End processing [indexed-png-stats]: success
+[2023-06-23 00:55:45] INFO root fetch - processPackages [clickhouse-connect]: executing diffoscope
+[2023-06-23 00:55:45] INFO root fetch - processPackages [clickhouse-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-connect-0.6.3.tar.gz tmp/clickhouse_connect-0.6.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230623/c/clickhouse-connect/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-23 00:55:45] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.1.1.tar.gz]
+[2023-06-23 00:55:45] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.1.2.tar.gz]
+[2023-06-23 00:55:45] INFO root fetch - main [MainThread]: End processing [openlrc]: success
+[2023-06-23 00:55:45] INFO root fetch - processPackages [apollo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/apollo-sdk-0.2.8.tar.gz]
+[2023-06-23 00:55:45] INFO root fetch - processPackages [apollo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/apollo-sdk-0.2.9.tar.gz]
+[2023-06-23 00:55:45] INFO root fetch - main [MainThread]: End processing [apollo-sdk]: success
+[2023-06-23 00:55:45] INFO root fetch - processPackages [ghananews-scraper]: Remove: archive file [/home/abi/fetcher/tmp/ghananews-scraper-1.0.8.tar.gz]
+[2023-06-23 00:55:45] INFO root fetch - processPackages [ghananews-scraper]: Remove: archive file [/home/abi/fetcher/tmp/ghananews-scraper-1.0.9.tar.gz]
+[2023-06-23 00:55:45] INFO root fetch - main [MainThread]: End processing [ghananews-scraper]: success
+[2023-06-23 00:55:46] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-23 00:55:46] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230623/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 00:55:46] INFO root fetch - processPackages [hdx-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hdx-python-utilities-3.5.8.tar.gz]
+[2023-06-23 00:55:46] INFO root fetch - processPackages [hdx-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_utilities-3.5.9.tar.gz]
+[2023-06-23 00:55:46] INFO root fetch - main [MainThread]: End processing [hdx-python-utilities]: success
+[2023-06-23 00:55:46] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.6.3.tar.gz]
+[2023-06-23 00:55:46] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse_connect-0.6.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 00:55:46] INFO root fetch - main [MainThread]: End processing [clickhouse-connect]: success
+[2023-06-23 00:55:51] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-23 00:55:51] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-23 00:55:51] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-23 00:55:51] INFO root fetch - main [MainThread]: Store serial: [18611207]
