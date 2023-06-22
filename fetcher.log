@@ -1059,3 +1059,87 @@
 [2023-06-23 01:16:48] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.799.tar.gz]
 [2023-06-23 01:16:48] INFO root fetch - main [MainThread]: End processing [dequeai]: success
 [2023-06-23 01:16:48] INFO root fetch - main [MainThread]: Store serial: [18611341]
+[2023-06-23 01:21:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611341]
+[2023-06-23 01:21:56] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-23 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqscraper
+[2023-06-23 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-oci
+[2023-06-23 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inboard
+[2023-06-23 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DiadFit
+[2023-06-23 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xGPR
+[2023-06-23 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwiqc
+[2023-06-23 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: advpruebitaa6
+[2023-06-23 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: monopoly-simulator-test
+[2023-06-23 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: feiertage-de
+[2023-06-23 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asole
+[2023-06-23 01:21:56] WARNING root fetch - processPackages [advpruebitaa6]: Skipping, unable to determine old version
+[2023-06-23 01:21:56] INFO root fetch - processPackages [advpruebitaa6]: Start processing: captif-cpx-db
+[2023-06-23 01:21:56] INFO root fetch - main [MainThread]: End processing [advpruebitaa6] error
+[2023-06-23 01:21:56] WARNING root fetch - processPackages [monopoly-simulator-test]: Skipping, unable to determine old version
+[2023-06-23 01:21:56] INFO root fetch - main [MainThread]: End processing [monopoly-simulator-test] error
+[2023-06-23 01:21:56] INFO root fetch - processPackages [sqscraper]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-23 01:21:56] INFO root fetch - processPackages [dwiqc]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-23 01:21:56] INFO root fetch - processPackages [feiertage-de]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 01:21:56] INFO root fetch - processPackages [pulumi-oci]: New version: [1.1.0a1687471141] Old Version: [1.1.0a1687457552]
+[2023-06-23 01:21:56] WARNING root fetch - processPackages [asole]: Skipping, unable to determine old version
+[2023-06-23 01:21:56] INFO root fetch - main [MainThread]: End processing [asole] error
+[2023-06-23 01:21:56] INFO root fetch - processPackages [DiadFit]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-06-23 01:21:56] INFO root fetch - processPackages [xGPR]: New version: [0.1.2.2] Old Version: [0.1.2.1]
+[2023-06-23 01:21:56] INFO root fetch - processPackages [inboard]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-23 01:21:57] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/a5/92/c6498a2925d58695538e1c3fe249b1b1324cebf56d5e71b08ab8c82bbe98/pulumi_oci-1.1.0a1687457552.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/0c/63/4ff0a876d12002fc8380d7aebad3bb53e3f42557ddab096b6b9385bd7408/dwiqc-0.4.8-py2.py3-none-any.whl
+[2023-06-23 01:21:57] INFO root fetch - processPackages [feiertage-de]: Downloading https://files.pythonhosted.org/packages/36/5f/bacfb645be98435beb95bb7bcc463f5279f6eb3d1b85a933dcb9eaf009da/feiertage-de-0.1.1.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [DiadFit]: Downloading https://files.pythonhosted.org/packages/13/88/b89ed4bc247d5c4a693181843f055e59d7444c4b328d4711889039f21893/DiadFit-0.0.61.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [captif-cpx-db]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 01:21:57] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/5e/52/5e28ba5eed44dec8ef7bc29bb34f3e73b20c12fecacef9907d924e0d58d6/xGPR-0.1.2.1.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [sqscraper]: Downloading https://files.pythonhosted.org/packages/21/bb/6d95b2930889b6e8a147275f9ef804dcd468e90c78750a282eaaf49b02aa/sqscraper-0.4.0.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/99/9d/fb37a586f01eb149c76c7d2c33540429c2169a9054118ee740f457b29f19/dwiqc-0.4.9-py2.py3-none-any.whl
+[2023-06-23 01:21:57] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/56/75/520a4f343869032bde441c1e003f04318f43c9e63f8fbc876f5cb3f83289/captif_cpx_db-0.8.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [feiertage-de]: Downloading https://files.pythonhosted.org/packages/70/61/1125a03f2390db53c6e976ba0d11bf1098f6e0af21f2c413be736c54ed1f/feiertage-de-0.1.2.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/2d/04/d8a8d97e3c94ad0464959e95501ed6f1a8b2cb54bf4bfdd63c9ce8ed149f/inboard-0.9.4.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-23 01:21:57] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip --markdown 20230623/d/dwiqc/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-23 01:21:57] INFO root fetch - processPackages [DiadFit]: Downloading https://files.pythonhosted.org/packages/64/54/60e391b8bc3e640f1f15369553e348da1fa463c18761760a78b78304e2bc/DiadFit-0.0.62.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [feiertage-de]: executing diffoscope
+[2023-06-23 01:21:57] INFO root fetch - processPackages [feiertage-de]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feiertage-de-0.1.1.tar.gz tmp/feiertage-de-0.1.2.tar.gz --markdown 20230623/f/feiertage-de/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 01:21:57] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/5a/90/87e12db177dc172a22f23dfefef067217b06c877075dfca171819dc61517/pulumi_oci-1.1.0a1687471141.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [DiadFit]: executing diffoscope
+[2023-06-23 01:21:57] INFO root fetch - processPackages [DiadFit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DiadFit-0.0.61.tar.gz tmp/DiadFit-0.0.62.tar.gz --markdown 20230623/D/DiadFit/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-06-23 01:21:57] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/00/ad/997d19a346793211cc64953266435085d2ba17d72eed3a47cff8ba0522ca/xGPR-0.1.2.2.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [sqscraper]: Downloading https://files.pythonhosted.org/packages/55/5f/0434df3ecaceddd05b6e258254db331c00369dd27dbecf353988bece6631/sqscraper-0.4.1.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-06-23 01:21:57] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.1.0a1687457552.tar.gz tmp/pulumi_oci-1.1.0a1687471141.tar.gz --markdown 20230623/p/pulumi-oci/1.1.0a1687457552-1.1.0a1687471141/diff.md --exclude *.pyd
+[2023-06-23 01:21:57] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/13/2d/bfd1ce82d1877d5c33ba5d16cc355203b48146e1b37fc019560379c8f923/captif_cpx_db-0.9.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/bd/3c/4f127e9b555a0dd390f7b8fdd4358631b1782a5681df4c0281fd2e433489/inboard-0.9.5.tar.gz
+[2023-06-23 01:21:57] INFO root fetch - processPackages [sqscraper]: executing diffoscope
+[2023-06-23 01:21:57] INFO root fetch - processPackages [sqscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqscraper-0.4.0.tar.gz tmp/sqscraper-0.4.1.tar.gz --markdown 20230623/s/sqscraper/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-23 01:21:57] INFO root fetch - processPackages [captif-cpx-db]: executing diffoscope
+[2023-06-23 01:21:57] INFO root fetch - processPackages [captif-cpx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_db-0.8.tar.gz tmp/captif_cpx_db-0.9.tar.gz --markdown 20230623/c/captif-cpx-db/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-23 01:21:57] INFO root fetch - processPackages [xGPR]: executing diffoscope
+[2023-06-23 01:21:57] INFO root fetch - processPackages [xGPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xGPR-0.1.2.1.tar.gz tmp/xGPR-0.1.2.2.tar.gz --markdown 20230623/x/xGPR/0.1.2.1-0.1.2.2/diff.md --exclude *.pyd
+[2023-06-23 01:21:57] INFO root fetch - processPackages [inboard]: executing diffoscope
+[2023-06-23 01:21:57] INFO root fetch - processPackages [inboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inboard-0.9.4.tar.gz tmp/inboard-0.9.5.tar.gz --markdown 20230623/i/inboard/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-23 01:21:58] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip]
+[2023-06-23 01:21:58] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip]
+[2023-06-23 01:21:58] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-23 01:21:58] INFO root fetch - processPackages [feiertage-de]: Remove: archive file [/home/abi/fetcher/tmp/feiertage-de-0.1.1.tar.gz]
+[2023-06-23 01:21:58] INFO root fetch - processPackages [feiertage-de]: Remove: archive file [/home/abi/fetcher/tmp/feiertage-de-0.1.2.tar.gz]
+[2023-06-23 01:21:58] INFO root fetch - main [MainThread]: End processing [feiertage-de]: success
+[2023-06-23 01:21:58] INFO root fetch - processPackages [DiadFit]: Remove: archive file [/home/abi/fetcher/tmp/DiadFit-0.0.61.tar.gz]
+[2023-06-23 01:21:58] INFO root fetch - processPackages [DiadFit]: Remove: archive file [/home/abi/fetcher/tmp/DiadFit-0.0.62.tar.gz]
+[2023-06-23 01:21:58] INFO root fetch - main [MainThread]: End processing [DiadFit]: success
+[2023-06-23 01:21:59] INFO root fetch - processPackages [sqscraper]: Remove: archive file [/home/abi/fetcher/tmp/sqscraper-0.4.0.tar.gz]
+[2023-06-23 01:21:59] INFO root fetch - processPackages [sqscraper]: Remove: archive file [/home/abi/fetcher/tmp/sqscraper-0.4.1.tar.gz]
+[2023-06-23 01:21:59] INFO root fetch - main [MainThread]: End processing [sqscraper]: success
+[2023-06-23 01:21:59] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.8.tar.gz]
+[2023-06-23 01:21:59] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.9.tar.gz]
+[2023-06-23 01:21:59] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
+[2023-06-23 01:21:59] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.4.tar.gz]
+[2023-06-23 01:21:59] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.5.tar.gz]
+[2023-06-23 01:21:59] INFO root fetch - main [MainThread]: End processing [inboard]: success
+[2023-06-23 01:21:59] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.2.1.tar.gz]
+[2023-06-23 01:21:59] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.2.2.tar.gz]
+[2023-06-23 01:21:59] INFO root fetch - main [MainThread]: End processing [xGPR]: success
+[2023-06-23 01:22:52] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.1.0a1687457552.tar.gz]
+[2023-06-23 01:22:52] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.1.0a1687471141.tar.gz]
+[2023-06-23 01:22:52] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-06-23 01:22:52] INFO root fetch - main [MainThread]: Store serial: [18611376]
