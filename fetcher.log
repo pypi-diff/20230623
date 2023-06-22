@@ -937,3 +937,104 @@
 [2023-06-23 01:06:26] INFO root fetch - processPackages [napari]: Remove: archive file [/home/abi/fetcher/tmp/napari-0.4.9rc3.tar.gz]
 [2023-06-23 01:06:26] INFO root fetch - main [MainThread]: End processing [napari]: success
 [2023-06-23 01:06:26] INFO root fetch - main [MainThread]: Store serial: [18611295]
+[2023-06-23 01:11:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611295]
+[2023-06-23 01:11:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-23 01:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: makolator
+[2023-06-23 01:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trading212-rest
+[2023-06-23 01:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heaserver
+[2023-06-23 01:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hat-aio
+[2023-06-23 01:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-crm-lead-currency
+[2023-06-23 01:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: econdata
+[2023-06-23 01:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytak
+[2023-06-23 01:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-23 01:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: synthax
+[2023-06-23 01:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yandil
+[2023-06-23 01:11:35] INFO root fetch - processPackages [makolator]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-23 01:11:35] INFO root fetch - processPackages [hat-aio]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-23 01:11:35] WARNING root fetch - processPackages [odoo-addon-crm-lead-currency]: Skipping, unable to determine old version
+[2023-06-23 01:11:35] INFO root fetch - processPackages [odoo-addon-crm-lead-currency]: Start processing: Flask-Limit
+[2023-06-23 01:11:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-lead-currency] error
+[2023-06-23 01:11:35] INFO root fetch - processPackages [synthax]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 01:11:35] INFO root fetch - processPackages [yandil]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 01:11:35] INFO root fetch - processPackages [pytak]: New version: [5.7.0b5] Old Version: [5.7.0b4]
+[2023-06-23 01:11:35] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-23 01:11:35] WARNING root fetch - processPackages [trading212-rest]: Skipping, unable to determine old version
+[2023-06-23 01:11:35] INFO root fetch - processPackages [trading212-rest]: Start processing: mathpub
+[2023-06-23 01:11:35] INFO root fetch - main [MainThread]: End processing [trading212-rest] error
+[2023-06-23 01:11:35] INFO root fetch - processPackages [econdata]: New version: [1.0.5.post0] Old Version: [1.0.4]
+[2023-06-23 01:11:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.374] Old Version: [0.3.373]
+[2023-06-23 01:11:35] INFO root fetch - processPackages [Flask-Limit]: New version: [2.0.1] Old Version: [2.0]
+[2023-06-23 01:11:35] INFO root fetch - processPackages [mathpub]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 01:11:35] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/29/7f/c2f478f3fc3ca6075efde40cdbbd67c915267cf3ce23a0b44f11c4fb1389/yandil-0.1.1.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [pytak]: Downloading https://files.pythonhosted.org/packages/b4/9d/7c12a35140bbb6cf1c917644773f393c50aedf8fd09d125391952de21c5d/pytak-5.7.0b4.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/df/69/f64859b4f1d9ed63efa3698ccbb6b38efc77a08a1b57d5ff9aeaebe4cfc3/pepperize.cdk-ses-smtp-credentials-0.3.373.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [Flask-Limit]: Downloading https://files.pythonhosted.org/packages/a9/79/2d1909aa835682e56516d019ae9a982028aba4ad9ef9790e796649318952/Flask_Limit-2.0.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [mathpub]: Downloading https://files.pythonhosted.org/packages/f5/95/b1d7e4fe81ba44d767ccbd0647cb261b3ac675c94a47544edbf93a510763/mathpub-0.0.3.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [makolator]: Downloading https://files.pythonhosted.org/packages/50/88/4fb773aee35b78a6da5143969936b24e266e5b420ecf7d241dd123c5eed3/makolator-1.0.0.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [synthax]: Downloading https://files.pythonhosted.org/packages/ef/89/e06d602d5a81db89a890b6ba0a30ce93062b76b669e5388040b40a1a7f37/synthax-0.1.1.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [hat-aio]: Downloading https://files.pythonhosted.org/packages/5b/7c/8ed3f6ed2eae61e5b3822f215cd686bc5085175c694db5848e947531b888/hat_aio-0.7.7-cp38.cp39.cp310.cp311-none-any.whl
+[2023-06-23 01:11:35] INFO root fetch - processPackages [econdata]: Downloading https://files.pythonhosted.org/packages/16/54/ccd63ea51acc844535988b6bd4825a8d53cffad8e11b87a0049789ef6d9e/econdata-1.0.4.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/94/89/90b74035dafe17bdbdcbe1e863a31edf4c06b62a1f261810a7f967221100/yandil-0.1.2.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b6/3a/fb93853e46e90de2bea38790a08d65d6f6bf6baeebf54a7628417815b42c/pepperize.cdk-ses-smtp-credentials-0.3.374.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [pytak]: Downloading https://files.pythonhosted.org/packages/39/4f/1f7ed267a3524dbbe7f702cdc9c6c19af4f0efc19ff8065ede63fdee425f/pytak-5.7.0b5.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [mathpub]: executing diffoscope
+[2023-06-23 01:11:35] INFO root fetch - processPackages [mathpub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathpub-0.0.3.tar.gz tmp/mathpub-0.0.4.tar.gz --markdown 20230623/m/mathpub/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 01:11:35] INFO root fetch - processPackages [Flask-Limit]: Downloading https://files.pythonhosted.org/packages/65/52/4e6f4f2b3a905d5660744967ec19791033654229d510aae23a73e54f04b5/Flask_Limit-2.0.1.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-23 01:11:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.373.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.374.tar.gz --markdown 20230623/p/pepperize.cdk-ses-smtp-credentials/0.3.373-0.3.374/diff.md --exclude *.pyd
+[2023-06-23 01:11:35] INFO root fetch - processPackages [yandil]: executing diffoscope
+[2023-06-23 01:11:35] INFO root fetch - processPackages [yandil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandil-0.1.1.tar.gz tmp/yandil-0.1.2.tar.gz --markdown 20230623/y/yandil/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 01:11:35] INFO root fetch - processPackages [makolator]: Downloading https://files.pythonhosted.org/packages/9a/fd/0de2bce8b80b28d6004372e0204c5d7a8f892c4e3ae5a47b6903ef09be5c/makolator-1.1.0.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [synthax]: Downloading https://files.pythonhosted.org/packages/a8/12/78e99c735c02dbb3a03929300b292c733beaef892df6dca37d8a47856788/synthax-0.1.2.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [econdata]: Downloading https://files.pythonhosted.org/packages/4f/11/37e96e2f55a3ffbb337b8429e61d5edfb472b606ececae076efc8e47b7d7/econdata-1.0.5.post0.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [hat-aio]: Downloading https://files.pythonhosted.org/packages/7f/40/834f86b914509e5e515ea27b321580ab7f17379831fd42636297046c3c04/hat_aio-0.7.8-cp310.cp311-none-any.whl
+[2023-06-23 01:11:35] INFO root fetch - processPackages [pytak]: executing diffoscope
+[2023-06-23 01:11:35] INFO root fetch - processPackages [pytak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytak-5.7.0b4.tar.gz tmp/pytak-5.7.0b5.tar.gz --markdown 20230623/p/pytak/5.7.0b4-5.7.0b5/diff.md --exclude *.pyd
+[2023-06-23 01:11:35] INFO root fetch - processPackages [makolator]: executing diffoscope
+[2023-06-23 01:11:35] INFO root fetch - processPackages [makolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makolator-1.0.0.tar.gz tmp/makolator-1.1.0.tar.gz --markdown 20230623/m/makolator/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 01:11:35] INFO root fetch - processPackages [synthax]: executing diffoscope
+[2023-06-23 01:11:35] INFO root fetch - processPackages [synthax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthax-0.1.1.tar.gz tmp/synthax-0.1.2.tar.gz --markdown 20230623/s/synthax/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 01:11:35] INFO root fetch - processPackages [Flask-Limit]: executing diffoscope
+[2023-06-23 01:11:35] INFO root fetch - processPackages [Flask-Limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask_Limit-2.0.tar.gz tmp/Flask_Limit-2.0.1.tar.gz --markdown 20230623/F/Flask-Limit/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-23 01:11:35] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-23 01:11:35] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-23 01:11:35] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230623/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-23 01:11:35] INFO root fetch - processPackages [econdata]: executing diffoscope
+[2023-06-23 01:11:35] INFO root fetch - processPackages [econdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econdata-1.0.4.tar.gz tmp/econdata-1.0.5.post0.tar.gz --markdown 20230623/e/econdata/1.0.4-1.0.5.post0/diff.md --exclude *.pyd
+[2023-06-23 01:11:35] INFO root fetch - processPackages [hat-aio]: executing diffoscope
+[2023-06-23 01:11:35] INFO root fetch - processPackages [hat-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_aio-0.7.7-cp38.cp39.cp310.cp311-none-any.whl.zip tmp/hat_aio-0.7.8-cp310.cp311-none-any.whl.zip --markdown 20230623/h/hat-aio/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-23 01:11:36] INFO root fetch - processPackages [mathpub]: Remove: archive file [/home/abi/fetcher/tmp/mathpub-0.0.3.tar.gz]
+[2023-06-23 01:11:36] INFO root fetch - processPackages [mathpub]: Remove: archive file [/home/abi/fetcher/tmp/mathpub-0.0.4.tar.gz]
+[2023-06-23 01:11:36] INFO root fetch - processPackages [mathpub]: Start processing: qax
+[2023-06-23 01:11:36] INFO root fetch - main [MainThread]: End processing [mathpub]: success
+[2023-06-23 01:11:36] WARNING root fetch - processPackages [qax]: Skipping, unable to determine old version
+[2023-06-23 01:11:36] INFO root fetch - main [MainThread]: End processing [qax] error
+[2023-06-23 01:11:37] INFO root fetch - processPackages [makolator]: Remove: archive file [/home/abi/fetcher/tmp/makolator-1.0.0.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - processPackages [makolator]: Remove: archive file [/home/abi/fetcher/tmp/makolator-1.1.0.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - main [MainThread]: End processing [makolator]: success
+[2023-06-23 01:11:37] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.373.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.374.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-23 01:11:37] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.1.1.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.1.2.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - main [MainThread]: End processing [yandil]: success
+[2023-06-23 01:11:37] INFO root fetch - processPackages [synthax]: Remove: archive file [/home/abi/fetcher/tmp/synthax-0.1.1.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - processPackages [synthax]: Remove: archive file [/home/abi/fetcher/tmp/synthax-0.1.2.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - main [MainThread]: End processing [synthax]: success
+[2023-06-23 01:11:37] INFO root fetch - processPackages [Flask-Limit]: Remove: archive file [/home/abi/fetcher/tmp/Flask_Limit-2.0.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - processPackages [Flask-Limit]: Remove: archive file [/home/abi/fetcher/tmp/Flask_Limit-2.0.1.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - main [MainThread]: End processing [Flask-Limit]: success
+[2023-06-23 01:11:37] INFO root fetch - processPackages [hat-aio]: Remove: archive file [/home/abi/fetcher/tmp/hat_aio-0.7.7-cp38.cp39.cp310.cp311-none-any.whl.zip]
+[2023-06-23 01:11:37] INFO root fetch - processPackages [hat-aio]: Remove: archive file [/home/abi/fetcher/tmp/hat_aio-0.7.8-cp310.cp311-none-any.whl.zip]
+[2023-06-23 01:11:37] INFO root fetch - main [MainThread]: End processing [hat-aio]: success
+[2023-06-23 01:11:37] INFO root fetch - processPackages [pytak]: Remove: archive file [/home/abi/fetcher/tmp/pytak-5.7.0b4.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - processPackages [pytak]: Remove: archive file [/home/abi/fetcher/tmp/pytak-5.7.0b5.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - main [MainThread]: End processing [pytak]: success
+[2023-06-23 01:11:37] INFO root fetch - processPackages [econdata]: Remove: archive file [/home/abi/fetcher/tmp/econdata-1.0.4.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - processPackages [econdata]: Remove: archive file [/home/abi/fetcher/tmp/econdata-1.0.5.post0.tar.gz]
+[2023-06-23 01:11:37] INFO root fetch - main [MainThread]: End processing [econdata]: success
+[2023-06-23 01:11:38] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-23 01:11:38] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-23 01:11:38] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-23 01:11:38] INFO root fetch - main [MainThread]: Store serial: [18611335]
