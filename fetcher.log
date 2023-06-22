@@ -1464,3 +1464,57 @@
 [2023-06-23 01:49:16] INFO root fetch - processPackages [xml2rfc]: Remove: archive file [/home/abi/fetcher/tmp/xml2rfc-3.9.1.tar.gz]
 [2023-06-23 01:49:16] INFO root fetch - main [MainThread]: End processing [xml2rfc]: success
 [2023-06-23 01:49:16] INFO root fetch - main [MainThread]: Store serial: [18611484]
+[2023-06-23 01:54:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611484]
+[2023-06-23 01:54:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymg
+[2023-06-23 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-pandas-utils
+[2023-06-23 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atlaspy
+[2023-06-23 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: srsgui
+[2023-06-23 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tap-betterstack
+[2023-06-23 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unkey-py
+[2023-06-23 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chalkpy
+[2023-06-23 01:54:25] INFO root fetch - processPackages [srsgui]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-23 01:54:25] WARNING root fetch - processPackages [unkey-py]: Skipping, unable to determine old version
+[2023-06-23 01:54:25] INFO root fetch - main [MainThread]: End processing [unkey-py] error
+[2023-06-23 01:54:25] INFO root fetch - processPackages [atlaspy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 01:54:25] INFO root fetch - processPackages [cjm-pandas-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 01:54:25] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-23 01:54:25] WARNING root fetch - processPackages [tap-betterstack]: Skipping, unable to determine old version
+[2023-06-23 01:54:25] INFO root fetch - processPackages [pymg]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-23 01:54:25] INFO root fetch - main [MainThread]: End processing [tap-betterstack] error
+[2023-06-23 01:54:25] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-06-23 01:54:25] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/2b/24/441ff6a7680a2d119399f3beaaa707ac9d147a3dd3cc0bd8a61cd34ca55f/atlaspy-0.0.2.tar.gz
+[2023-06-23 01:54:25] INFO root fetch - processPackages [srsgui]: Downloading https://files.pythonhosted.org/packages/07/74/f34a9b3b19cc65e48e2a15eef3d9d211314ec7102ddf596a145ddc34b096/srsgui-0.3.3.tar.gz
+[2023-06-23 01:54:25] INFO root fetch - processPackages [pymg]: Downloading https://files.pythonhosted.org/packages/dc/19/c4a34d5fbf5b7ae8da4fdaca40ec2d26b9bf932b5a173c29b451bbd3c074/pymg-1.1.0.tar.gz
+[2023-06-23 01:54:25] INFO root fetch - processPackages [cjm-pandas-utils]: Downloading https://files.pythonhosted.org/packages/f4/95/e1b0ccb139e285929913b973dda0134c9188c043b0c980ca55826f3c7cac/cjm-pandas-utils-0.0.2.tar.gz
+[2023-06-23 01:54:25] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-06-23 01:54:25] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/3c/0f/df2a793d6166be760d3030e549af0a77ef01960cd73b070c9bc71c6dc1f7/atlaspy-0.0.3.tar.gz
+[2023-06-23 01:54:25] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-23 01:54:25] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230623/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-23 01:54:25] INFO root fetch - processPackages [atlaspy]: executing diffoscope
+[2023-06-23 01:54:25] INFO root fetch - processPackages [atlaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlaspy-0.0.2.tar.gz tmp/atlaspy-0.0.3.tar.gz --markdown 20230623/a/atlaspy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 01:54:26] INFO root fetch - processPackages [srsgui]: Downloading https://files.pythonhosted.org/packages/ab/69/0a272b8f9c9a18e1dd47081da8cb0da4cb663983399564960b08a6b90bc3/srsgui-0.4.0.tar.gz
+[2023-06-23 01:54:26] INFO root fetch - processPackages [pymg]: Downloading https://files.pythonhosted.org/packages/bd/32/a3ad52f4f4c633a098ef2131a944291b35728bfcd1d4952761b39db01604/pymg-1.1.1.tar.gz
+[2023-06-23 01:54:26] INFO root fetch - processPackages [cjm-pandas-utils]: Downloading https://files.pythonhosted.org/packages/6e/9d/b1ce015f2b28791a4d90c9da96d351961d53723fbc1a03e6103565a0bafd/cjm-pandas-utils-0.0.3.tar.gz
+[2023-06-23 01:54:26] INFO root fetch - processPackages [cjm-pandas-utils]: executing diffoscope
+[2023-06-23 01:54:26] INFO root fetch - processPackages [cjm-pandas-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-pandas-utils-0.0.2.tar.gz tmp/cjm-pandas-utils-0.0.3.tar.gz --markdown 20230623/c/cjm-pandas-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 01:54:26] INFO root fetch - processPackages [pymg]: executing diffoscope
+[2023-06-23 01:54:26] INFO root fetch - processPackages [pymg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymg-1.1.0.tar.gz tmp/pymg-1.1.1.tar.gz --markdown 20230623/p/pymg/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-23 01:54:26] INFO root fetch - processPackages [srsgui]: executing diffoscope
+[2023-06-23 01:54:26] INFO root fetch - processPackages [srsgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srsgui-0.3.3.tar.gz tmp/srsgui-0.4.0.tar.gz --markdown 20230623/s/srsgui/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 01:54:27] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.2.tar.gz]
+[2023-06-23 01:54:27] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.3.tar.gz]
+[2023-06-23 01:54:27] INFO root fetch - main [MainThread]: End processing [atlaspy]: success
+[2023-06-23 01:54:27] INFO root fetch - processPackages [cjm-pandas-utils]: Remove: archive file [/home/abi/fetcher/tmp/cjm-pandas-utils-0.0.2.tar.gz]
+[2023-06-23 01:54:27] INFO root fetch - processPackages [cjm-pandas-utils]: Remove: archive file [/home/abi/fetcher/tmp/cjm-pandas-utils-0.0.3.tar.gz]
+[2023-06-23 01:54:27] INFO root fetch - main [MainThread]: End processing [cjm-pandas-utils]: success
+[2023-06-23 01:54:27] INFO root fetch - processPackages [pymg]: Remove: archive file [/home/abi/fetcher/tmp/pymg-1.1.0.tar.gz]
+[2023-06-23 01:54:27] INFO root fetch - processPackages [pymg]: Remove: archive file [/home/abi/fetcher/tmp/pymg-1.1.1.tar.gz]
+[2023-06-23 01:54:27] INFO root fetch - main [MainThread]: End processing [pymg]: success
+[2023-06-23 01:54:27] INFO root fetch - processPackages [srsgui]: Remove: archive file [/home/abi/fetcher/tmp/srsgui-0.3.3.tar.gz]
+[2023-06-23 01:54:27] INFO root fetch - processPackages [srsgui]: Remove: archive file [/home/abi/fetcher/tmp/srsgui-0.4.0.tar.gz]
+[2023-06-23 01:54:27] INFO root fetch - main [MainThread]: End processing [srsgui]: success
+[2023-06-23 01:54:32] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-06-23 01:54:32] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-06-23 01:54:32] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-23 01:54:32] INFO root fetch - main [MainThread]: Store serial: [18611509]
