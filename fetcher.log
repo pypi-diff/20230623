@@ -1518,3 +1518,65 @@
 [2023-06-23 01:54:32] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2023-06-23 01:54:32] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-23 01:54:32] INFO root fetch - main [MainThread]: Store serial: [18611509]
+[2023-06-23 01:59:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611509]
+[2023-06-23 01:59:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 01:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yangsuite
+[2023-06-23 01:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monopoly-simulator-test
+[2023-06-23 01:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tahoe-idp
+[2023-06-23 01:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: truss
+[2023-06-23 01:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hat-json
+[2023-06-23 01:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pint-pulsar
+[2023-06-23 01:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cfr-graphem
+[2023-06-23 01:59:41] INFO root fetch - processPackages [monopoly-simulator-test]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 01:59:41] INFO root fetch - processPackages [hat-json]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-23 01:59:41] INFO root fetch - processPackages [tahoe-idp]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-23 01:59:41] INFO root fetch - processPackages [cfr-graphem]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-23 01:59:41] INFO root fetch - processPackages [yangsuite]: New version: [2.9.9] Old Version: [2.9.8.post0.dev8]
+[2023-06-23 01:59:41] INFO root fetch - processPackages [pint-pulsar]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-23 01:59:41] INFO root fetch - processPackages [truss]: New version: [0.4.9rc5] Old Version: [0.4.9rc2]
+[2023-06-23 01:59:41] INFO root fetch - processPackages [monopoly-simulator-test]: Downloading https://files.pythonhosted.org/packages/ad/77/d40ef98ea8732e1af5a804095eabcec0acb2a7371317f090750544c58964/monopoly_simulator_test-0.0.4.tar.gz
+[2023-06-23 01:59:42] INFO root fetch - processPackages [tahoe-idp]: Downloading https://files.pythonhosted.org/packages/df/d1/f3b6653979902e78c67d6b5f3148fc0f33dda8097202f043edbfce456d70/tahoe-idp-2.4.0.tar.gz
+[2023-06-23 01:59:42] INFO root fetch - processPackages [hat-json]: Downloading https://files.pythonhosted.org/packages/d2/35/bf8e3dbcb7fe0dc10fd6faf4dfb732a5bd935a49e72efeda31422e4d6cc0/hat_json-0.5.8-cp38.cp39.cp310-none-any.whl
+[2023-06-23 01:59:42] INFO root fetch - processPackages [yangsuite]: Downloading https://files.pythonhosted.org/packages/e8/b8/7f02e283a84cfc303c186b9be837b75fa32b1c783cf33ab85c52db9fa3e2/yangsuite-2.9.8.post0.dev8-py3-none-any.whl
+[2023-06-23 01:59:42] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a3/f6/8ecbc0cd43a66c31d42458f9f5929a8f1a1b25996d84479c0113bf7241b1/truss-0.4.9rc2.tar.gz
+[2023-06-23 01:59:42] INFO root fetch - processPackages [pint-pulsar]: Downloading https://files.pythonhosted.org/packages/6c/e4/616402d924bf0cea2159f54a2c35d0fe0692af08fd67822311f33f62d78b/pint-pulsar-0.9.5.tar.gz
+[2023-06-23 01:59:42] INFO root fetch - processPackages [cfr-graphem]: Downloading https://files.pythonhosted.org/packages/95/9b/bb8495626f687817dd0a51d2e2392bd052d39b162ac3eff4fccb1d5d48d2/cfr-graphem-0.2.8.tar.gz
+[2023-06-23 01:59:42] INFO root fetch - processPackages [tahoe-idp]: Downloading https://files.pythonhosted.org/packages/5e/1c/3358292b51a32109c7b1d736ac6f7d690322dfff970b38caec3f4a36464e/tahoe-idp-2.4.1.tar.gz
+[2023-06-23 01:59:42] INFO root fetch - processPackages [monopoly-simulator-test]: Downloading https://files.pythonhosted.org/packages/b7/90/f7572782871d03a493a25afca762f13d0baeeb9a304ab40f4572bf0b4c7f/monopoly_simulator_test-0.0.5.tar.gz
+[2023-06-23 01:59:42] INFO root fetch - processPackages [tahoe-idp]: executing diffoscope
+[2023-06-23 01:59:42] INFO root fetch - processPackages [tahoe-idp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tahoe-idp-2.4.0.tar.gz tmp/tahoe-idp-2.4.1.tar.gz --markdown 20230623/t/tahoe-idp/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-23 01:59:42] WARNING root fetch - processPackages [pint-pulsar]: Skipping package: exceeds size limit 11616126>=10485760
+[2023-06-23 01:59:42] INFO root fetch - main [MainThread]: End processing [pint-pulsar] error
+[2023-06-23 01:59:42] INFO root fetch - processPackages [monopoly-simulator-test]: executing diffoscope
+[2023-06-23 01:59:42] INFO root fetch - processPackages [monopoly-simulator-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monopoly_simulator_test-0.0.4.tar.gz tmp/monopoly_simulator_test-0.0.5.tar.gz --markdown 20230623/m/monopoly-simulator-test/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 01:59:42] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a5/ac/6da658c05b328c158997857f4315d9203f0c68cfcb1a90b247c8966bad5b/truss-0.4.9rc5.tar.gz
+[2023-06-23 01:59:42] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-06-23 01:59:42] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.9rc2.tar.gz tmp/truss-0.4.9rc5.tar.gz --markdown 20230623/t/truss/0.4.9rc2-0.4.9rc5/diff.md --exclude *.pyd
+[2023-06-23 01:59:42] INFO root fetch - processPackages [hat-json]: Downloading https://files.pythonhosted.org/packages/5f/cd/36aeb5271c2ec930b94f8cba23fc1562e92e04dc9ac29540a5eb7012ecb1/hat_json-0.5.9-cp38.cp39.cp310-none-any.whl
+[2023-06-23 01:59:42] INFO root fetch - processPackages [cfr-graphem]: Downloading https://files.pythonhosted.org/packages/7f/0a/7d73a29f913ac2c45b85f29927e046ede315f87a8a6606a08b0fcd940313/cfr-graphem-0.2.9.tar.gz
+[2023-06-23 01:59:42] INFO root fetch - processPackages [hat-json]: executing diffoscope
+[2023-06-23 01:59:42] INFO root fetch - processPackages [hat-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_json-0.5.8-cp38.cp39.cp310-none-any.whl.zip tmp/hat_json-0.5.9-cp38.cp39.cp310-none-any.whl.zip --markdown 20230623/h/hat-json/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-23 01:59:42] INFO root fetch - processPackages [cfr-graphem]: executing diffoscope
+[2023-06-23 01:59:42] INFO root fetch - processPackages [cfr-graphem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-graphem-0.2.8.tar.gz tmp/cfr-graphem-0.2.9.tar.gz --markdown 20230623/c/cfr-graphem/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-23 01:59:43] INFO root fetch - processPackages [tahoe-idp]: Remove: archive file [/home/abi/fetcher/tmp/tahoe-idp-2.4.0.tar.gz]
+[2023-06-23 01:59:43] INFO root fetch - processPackages [tahoe-idp]: Remove: archive file [/home/abi/fetcher/tmp/tahoe-idp-2.4.1.tar.gz]
+[2023-06-23 01:59:43] INFO root fetch - main [MainThread]: End processing [tahoe-idp]: success
+[2023-06-23 01:59:43] INFO root fetch - processPackages [hat-json]: Remove: archive file [/home/abi/fetcher/tmp/hat_json-0.5.8-cp38.cp39.cp310-none-any.whl.zip]
+[2023-06-23 01:59:43] INFO root fetch - processPackages [hat-json]: Remove: archive file [/home/abi/fetcher/tmp/hat_json-0.5.9-cp38.cp39.cp310-none-any.whl.zip]
+[2023-06-23 01:59:43] INFO root fetch - main [MainThread]: End processing [hat-json]: success
+[2023-06-23 01:59:43] INFO root fetch - processPackages [cfr-graphem]: Remove: archive file [/home/abi/fetcher/tmp/cfr-graphem-0.2.8.tar.gz]
+[2023-06-23 01:59:43] INFO root fetch - processPackages [cfr-graphem]: Remove: archive file [/home/abi/fetcher/tmp/cfr-graphem-0.2.9.tar.gz]
+[2023-06-23 01:59:43] INFO root fetch - main [MainThread]: End processing [cfr-graphem]: success
+[2023-06-23 01:59:43] INFO root fetch - processPackages [monopoly-simulator-test]: Remove: archive file [/home/abi/fetcher/tmp/monopoly_simulator_test-0.0.4.tar.gz]
+[2023-06-23 01:59:43] INFO root fetch - processPackages [monopoly-simulator-test]: Remove: archive file [/home/abi/fetcher/tmp/monopoly_simulator_test-0.0.5.tar.gz]
+[2023-06-23 01:59:43] INFO root fetch - main [MainThread]: End processing [monopoly-simulator-test]: success
+[2023-06-23 01:59:44] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc2.tar.gz]
+[2023-06-23 01:59:44] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc5.tar.gz]
+[2023-06-23 01:59:44] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-06-23 01:59:46] INFO root fetch - processPackages [yangsuite]: Downloading https://files.pythonhosted.org/packages/8c/e2/9f4a3cadfdfd2adfda81faf4cac3e1c9f150f6669ce547a7329eb3339960/yangsuite-2.9.9-py3-none-any.whl
+[2023-06-23 01:59:49] INFO root fetch - processPackages [yangsuite]: executing diffoscope
+[2023-06-23 01:59:49] INFO root fetch - processPackages [yangsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite-2.9.8.post0.dev8-py3-none-any.whl.zip tmp/yangsuite-2.9.9-py3-none-any.whl.zip --markdown 20230623/y/yangsuite/2.9.8.post0.dev8-2.9.9/diff.md --exclude *.pyd
+[2023-06-23 01:59:57] INFO root fetch - processPackages [yangsuite]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite-2.9.8.post0.dev8-py3-none-any.whl.zip]
+[2023-06-23 01:59:57] INFO root fetch - processPackages [yangsuite]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite-2.9.9-py3-none-any.whl.zip]
+[2023-06-23 01:59:57] INFO root fetch - main [MainThread]: End processing [yangsuite]: success
+[2023-06-23 01:59:57] INFO root fetch - main [MainThread]: Store serial: [18611526]
