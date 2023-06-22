@@ -521,3 +521,59 @@
 [2023-06-23 00:34:57] INFO root fetch - processPackages [andes]: Remove: archive file [/home/abi/fetcher/tmp/andes-1.8.9.tar.gz]
 [2023-06-23 00:34:57] INFO root fetch - main [MainThread]: End processing [andes]: success
 [2023-06-23 00:34:57] INFO root fetch - main [MainThread]: Store serial: [18611037]
+[2023-06-23 00:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611037]
+[2023-06-23 00:40:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-06-23 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arlas-api
+[2023-06-23 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vocab-coverage
+[2023-06-23 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eats-worm
+[2023-06-23 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hat-util
+[2023-06-23 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ubelt
+[2023-06-23 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: selfcord.py
+[2023-06-23 00:40:06] WARNING root fetch - processPackages [eats-worm]: Skipping, unable to determine old version
+[2023-06-23 00:40:06] INFO root fetch - main [MainThread]: End processing [eats-worm] error
+[2023-06-23 00:40:06] INFO root fetch - processPackages [ubelt]: New version: [1.3.2] Old Version: [1.3.0]
+[2023-06-23 00:40:06] INFO root fetch - processPackages [arlas-api]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-23 00:40:06] INFO root fetch - processPackages [vocab-coverage]: New version: [0.5] Old Version: [0.4]
+[2023-06-23 00:40:06] INFO root fetch - processPackages [hat-util]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-23 00:40:06] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-23 00:40:06] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-23 00:40:06] INFO root fetch - processPackages [selfcord.py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-23 00:40:06] INFO root fetch - processPackages [arlas-api]: Downloading https://files.pythonhosted.org/packages/41/b3/a16891e4b7ecc7acf9bf54e9235e34eb55517e9daae7d61bce7f4dc83658/arlas-api-9.0.0.tar.gz
+[2023-06-23 00:40:06] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-23 00:40:06] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-23 00:40:06] INFO root fetch - processPackages [hat-util]: Downloading https://files.pythonhosted.org/packages/84/81/d2114c8bafae8f29fd0d0ea7d5c773f29a312b881a8c56fbbd522767b86d/hat_util-0.6.8-cp38.cp39.cp310-none-any.whl
+[2023-06-23 00:40:07] INFO root fetch - processPackages [vocab-coverage]: Downloading https://files.pythonhosted.org/packages/9b/df/1ebd1f2298feb52358ddf48054f321f4195a9aa5c77bef38c31734f6116e/vocab-coverage-0.4.tar.gz
+[2023-06-23 00:40:07] INFO root fetch - processPackages [ubelt]: Downloading https://files.pythonhosted.org/packages/5e/74/8b3441abd5380b5b0f859af069967589ee00e17eff7a41037b91e0cb26cf/ubelt-1.3.0.tar.gz
+[2023-06-23 00:40:07] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/02/5a/d4719c468770a243d1c6c0b49c7bc373116cba7ceb5fd1c5ee467b6f8c1e/selfcord.py-0.2.0.tar.gz
+[2023-06-23 00:40:07] INFO root fetch - processPackages [arlas-api]: Downloading https://files.pythonhosted.org/packages/65/61/567a1ab174fb9a27204bdbe4d8e9135ff540ac517e0c50255c3b25dbdf3c/arlas-api-9.0.1.tar.gz
+[2023-06-23 00:40:07] INFO root fetch - processPackages [hat-util]: Downloading https://files.pythonhosted.org/packages/af/9d/97713d522316ea2d547f47e0e6a51b70c75a29bcc44ab072aa6924447133/hat_util-0.6.9-cp38.cp39.cp310.cp311-none-any.whl
+[2023-06-23 00:40:07] INFO root fetch - processPackages [vocab-coverage]: Downloading https://files.pythonhosted.org/packages/bd/a4/7ffe5bb676ace642a51e9fff4253514aa4781b41322c1a635960172b89b8/vocab-coverage-0.5.tar.gz
+[2023-06-23 00:40:07] INFO root fetch - processPackages [ubelt]: Downloading https://files.pythonhosted.org/packages/00/49/03b61a1863473ab64e56b5bb86bfde0c8a94d8b0e5b5b71705ed65bf8880/ubelt-1.3.2.tar.gz
+[2023-06-23 00:40:07] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/10/86/5704a04070e2dd6827655b3202ecb6d6667793e4b35bdf2506a787a8a541/selfcord.py-0.2.1.tar.gz
+[2023-06-23 00:40:07] INFO root fetch - processPackages [vocab-coverage]: executing diffoscope
+[2023-06-23 00:40:07] INFO root fetch - processPackages [vocab-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocab-coverage-0.4.tar.gz tmp/vocab-coverage-0.5.tar.gz --markdown 20230623/v/vocab-coverage/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-23 00:40:07] INFO root fetch - processPackages [hat-util]: executing diffoscope
+[2023-06-23 00:40:07] INFO root fetch - processPackages [hat-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_util-0.6.8-cp38.cp39.cp310-none-any.whl.zip tmp/hat_util-0.6.9-cp38.cp39.cp310.cp311-none-any.whl.zip --markdown 20230623/h/hat-util/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-23 00:40:07] INFO root fetch - processPackages [arlas-api]: executing diffoscope
+[2023-06-23 00:40:07] INFO root fetch - processPackages [arlas-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arlas-api-9.0.0.tar.gz tmp/arlas-api-9.0.1.tar.gz --markdown 20230623/a/arlas-api/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-23 00:40:07] INFO root fetch - processPackages [ubelt]: executing diffoscope
+[2023-06-23 00:40:07] INFO root fetch - processPackages [ubelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubelt-1.3.0.tar.gz tmp/ubelt-1.3.2.tar.gz --markdown 20230623/u/ubelt/1.3.0-1.3.2/diff.md --exclude *.pyd
+[2023-06-23 00:40:07] INFO root fetch - processPackages [selfcord.py]: executing diffoscope
+[2023-06-23 00:40:07] INFO root fetch - processPackages [selfcord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfcord.py-0.2.0.tar.gz tmp/selfcord.py-0.2.1.tar.gz --markdown 20230623/s/selfcord.py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-23 00:40:08] INFO root fetch - processPackages [hat-util]: Remove: archive file [/home/abi/fetcher/tmp/hat_util-0.6.8-cp38.cp39.cp310-none-any.whl.zip]
+[2023-06-23 00:40:08] INFO root fetch - processPackages [hat-util]: Remove: archive file [/home/abi/fetcher/tmp/hat_util-0.6.9-cp38.cp39.cp310.cp311-none-any.whl.zip]
+[2023-06-23 00:40:08] INFO root fetch - main [MainThread]: End processing [hat-util]: success
+[2023-06-23 00:40:08] INFO root fetch - processPackages [vocab-coverage]: Remove: archive file [/home/abi/fetcher/tmp/vocab-coverage-0.4.tar.gz]
+[2023-06-23 00:40:08] INFO root fetch - processPackages [vocab-coverage]: Remove: archive file [/home/abi/fetcher/tmp/vocab-coverage-0.5.tar.gz]
+[2023-06-23 00:40:08] INFO root fetch - main [MainThread]: End processing [vocab-coverage]: success
+[2023-06-23 00:40:08] INFO root fetch - processPackages [selfcord.py]: Remove: archive file [/home/abi/fetcher/tmp/selfcord.py-0.2.0.tar.gz]
+[2023-06-23 00:40:08] INFO root fetch - processPackages [selfcord.py]: Remove: archive file [/home/abi/fetcher/tmp/selfcord.py-0.2.1.tar.gz]
+[2023-06-23 00:40:08] INFO root fetch - main [MainThread]: End processing [selfcord.py]: success
+[2023-06-23 00:40:09] INFO root fetch - processPackages [ubelt]: Remove: archive file [/home/abi/fetcher/tmp/ubelt-1.3.0.tar.gz]
+[2023-06-23 00:40:09] INFO root fetch - processPackages [ubelt]: Remove: archive file [/home/abi/fetcher/tmp/ubelt-1.3.2.tar.gz]
+[2023-06-23 00:40:09] INFO root fetch - main [MainThread]: End processing [ubelt]: success
+[2023-06-23 00:40:12] INFO root fetch - processPackages [arlas-api]: Remove: archive file [/home/abi/fetcher/tmp/arlas-api-9.0.0.tar.gz]
+[2023-06-23 00:40:12] INFO root fetch - processPackages [arlas-api]: Remove: archive file [/home/abi/fetcher/tmp/arlas-api-9.0.1.tar.gz]
+[2023-06-23 00:40:12] INFO root fetch - main [MainThread]: End processing [arlas-api]: success
+[2023-06-23 00:40:12] INFO root fetch - main [MainThread]: Store serial: [18611061]
