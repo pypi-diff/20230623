@@ -886,3 +886,54 @@
 [2023-06-23 01:01:08] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622225753.tar.gz]
 [2023-06-23 01:01:08] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-23 01:01:08] INFO root fetch - main [MainThread]: Store serial: [18611272]
+[2023-06-23 01:06:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611272]
+[2023-06-23 01:06:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-23 01:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt-cu101
+[2023-06-23 01:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tum-esm-signal
+[2023-06-23 01:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari
+[2023-06-23 01:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2023-06-23 01:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Flask-Limit
+[2023-06-23 01:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lotr-api-toolkit
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tum-esm-signal]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-23 01:06:17] INFO root fetch - processPackages [Flask-Limit]: New version: [2.0] Old Version: [1.0.5]
+[2023-06-23 01:06:17] WARNING root fetch - processPackages [lotr-api-toolkit]: Skipping, unable to determine old version
+[2023-06-23 01:06:17] INFO root fetch - main [MainThread]: End processing [lotr-api-toolkit] error
+[2023-06-23 01:06:17] INFO root fetch - processPackages [napari]: New version: [0.4.9rc3] Old Version: [0.4.9rc2]
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230622] Old Version: [0.7.0b20230621]
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230622] Old Version: [0.7.0b20230621]
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tum-esm-signal]: Downloading https://files.pythonhosted.org/packages/ba/c9/80234775ce1438eb49f666d0c3ab2d50b8130b21445601075e8a4007bde5/tum_esm_signal-0.2.0.tar.gz
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/be/fc/6235e9c7f69eb6164900f1a180962ce2c15bbe21fe8b5a9fe3470ea3f2b7/tmnt-cu101-0.7.0b20230621.tar.gz
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/7d/86/43c3f9b1cb96e3fbbe29e600637105c04e2a6cde1baf0a2d03d0c0f431be/tmnt-0.7.0b20230621.tar.gz
+[2023-06-23 01:06:17] INFO root fetch - processPackages [Flask-Limit]: Downloading https://files.pythonhosted.org/packages/25/2b/b9981f54a065368d8f8f72e9d360996563458f725cddef8a60b3e0c91588/Flask_Limit-1.0.5.tar.gz
+[2023-06-23 01:06:17] INFO root fetch - processPackages [napari]: Downloading https://files.pythonhosted.org/packages/94/ac/67158daa5bba519575c9e11e0808998d7f4ee311acffd1b8512e91cffcdf/napari-0.4.9rc2.tar.gz
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tum-esm-signal]: Downloading https://files.pythonhosted.org/packages/7b/ce/c00415faf499b3d2da5ac1ed526ee82b632b055f915df9ccf27f02ecd884/tum_esm_signal-0.3.0.tar.gz
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/45/42/c4c6eac9064ec67e35f6341eb71634a9792f1051bd91304b6f96a90c23e0/tmnt-0.7.0b20230622.tar.gz
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/4d/00/25ca25391844006a057b9c0e28daf73211285b71c0ba64f01d272000c340/tmnt-cu101-0.7.0b20230622.tar.gz
+[2023-06-23 01:06:17] INFO root fetch - processPackages [Flask-Limit]: Downloading https://files.pythonhosted.org/packages/a9/79/2d1909aa835682e56516d019ae9a982028aba4ad9ef9790e796649318952/Flask_Limit-2.0.tar.gz
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230621.tar.gz tmp/tmnt-cu101-0.7.0b20230622.tar.gz --markdown 20230623/t/tmnt-cu101/0.7.0b20230621-0.7.0b20230622/diff.md --exclude *.pyd
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tum-esm-signal]: executing diffoscope
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tum-esm-signal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tum_esm_signal-0.2.0.tar.gz tmp/tum_esm_signal-0.3.0.tar.gz --markdown 20230623/t/tum-esm-signal/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-23 01:06:17] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230621.tar.gz tmp/tmnt-0.7.0b20230622.tar.gz --markdown 20230623/t/tmnt/0.7.0b20230621-0.7.0b20230622/diff.md --exclude *.pyd
+[2023-06-23 01:06:17] INFO root fetch - processPackages [Flask-Limit]: executing diffoscope
+[2023-06-23 01:06:17] INFO root fetch - processPackages [Flask-Limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask_Limit-1.0.5.tar.gz tmp/Flask_Limit-2.0.tar.gz --markdown 20230623/F/Flask-Limit/1.0.5-2.0/diff.md --exclude *.pyd
+[2023-06-23 01:06:18] INFO root fetch - processPackages [napari]: Downloading https://files.pythonhosted.org/packages/1b/4c/d0eb81702c5009d60f3ef04222671898f04d97d6cf073aac05a3b7376526/napari-0.4.9rc3.tar.gz
+[2023-06-23 01:06:18] INFO root fetch - processPackages [tum-esm-signal]: Remove: archive file [/home/abi/fetcher/tmp/tum_esm_signal-0.2.0.tar.gz]
+[2023-06-23 01:06:18] INFO root fetch - processPackages [tum-esm-signal]: Remove: archive file [/home/abi/fetcher/tmp/tum_esm_signal-0.3.0.tar.gz]
+[2023-06-23 01:06:18] INFO root fetch - main [MainThread]: End processing [tum-esm-signal]: success
+[2023-06-23 01:06:18] INFO root fetch - processPackages [Flask-Limit]: Remove: archive file [/home/abi/fetcher/tmp/Flask_Limit-1.0.5.tar.gz]
+[2023-06-23 01:06:18] INFO root fetch - processPackages [Flask-Limit]: Remove: archive file [/home/abi/fetcher/tmp/Flask_Limit-2.0.tar.gz]
+[2023-06-23 01:06:18] INFO root fetch - main [MainThread]: End processing [Flask-Limit]: success
+[2023-06-23 01:06:18] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230621.tar.gz]
+[2023-06-23 01:06:18] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230622.tar.gz]
+[2023-06-23 01:06:18] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-23 01:06:18] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230621.tar.gz]
+[2023-06-23 01:06:18] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230622.tar.gz]
+[2023-06-23 01:06:18] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-23 01:06:19] INFO root fetch - processPackages [napari]: executing diffoscope
+[2023-06-23 01:06:19] INFO root fetch - processPackages [napari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-0.4.9rc2.tar.gz tmp/napari-0.4.9rc3.tar.gz --markdown 20230623/n/napari/0.4.9rc2-0.4.9rc3/diff.md --exclude *.pyd
+[2023-06-23 01:06:26] INFO root fetch - processPackages [napari]: Remove: archive file [/home/abi/fetcher/tmp/napari-0.4.9rc2.tar.gz]
+[2023-06-23 01:06:26] INFO root fetch - processPackages [napari]: Remove: archive file [/home/abi/fetcher/tmp/napari-0.4.9rc3.tar.gz]
+[2023-06-23 01:06:26] INFO root fetch - main [MainThread]: End processing [napari]: success
+[2023-06-23 01:06:26] INFO root fetch - main [MainThread]: Store serial: [18611295]
