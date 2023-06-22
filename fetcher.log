@@ -773,3 +773,116 @@
 [2023-06-23 00:55:51] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-23 00:55:51] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-23 00:55:51] INFO root fetch - main [MainThread]: Store serial: [18611207]
+[2023-06-23 01:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611207]
+[2023-06-23 01:01:00] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mathpub
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spyx
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghananews-scraper
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dkist-processing-common
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: framework-reproducibility
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: navigator-api
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-snowflake
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: citros
+[2023-06-23 01:01:00] INFO root fetch - processPackages [mathpub]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 01:01:00] INFO root fetch - processPackages [spyx]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ghananews-scraper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 01:01:00] INFO root fetch - processPackages [framework-reproducibility]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-23 01:01:00] INFO root fetch - processPackages [dkist-processing-common]: New version: [3.0.0rc7] Old Version: [3.0.0rc6]
+[2023-06-23 01:01:00] INFO root fetch - processPackages [citros]: New version: [23.25.6] Old Version: [23.25.4]
+[2023-06-23 01:01:00] INFO root fetch - processPackages [kfish]: New version: [99.0.202306222257] Old Version: [99.0.202306221557]
+[2023-06-23 01:01:00] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230622225753] Old Version: [2.1.1.dev20230622201917]
+[2023-06-23 01:01:00] INFO root fetch - processPackages [navigator-api]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-06-23 01:01:00] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/c5/3e/10efc680ef170d80ee26e04ae2f2342b8df784cf54553935092b576b99ae/spyx-0.0.4.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [dkist-processing-common]: Downloading https://files.pythonhosted.org/packages/8c/f6/ff2635e076a3f41e0b5bb9152cc29b03f8104b2983192fc5798c36fda78b/dkist-processing-common-3.0.0rc6.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ghananews-scraper]: Downloading https://files.pythonhosted.org/packages/83/2d/d094b0c80c03ed4ddc4544a63140d47a1193dfc55f5489eb9b0b68a3e8d7/ghananews-scraper-1.0.8.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0e/70/f1677361bbbdd9ce22d9c60fd0a3df52f8b711874d961de7957ef9fb2059/localstack-core-2.1.1.dev20230622201917.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-06-23 01:01:00] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/2a/32/a622b3133f3e8689c77f548041cf21a99b63f3c24e513d28590788484dd8/citros-23.25.4.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [mathpub]: Downloading https://files.pythonhosted.org/packages/e3/47/e22118c1ab596709b7e7b37ccbf83535b7660bca9580401315f0e91e0f2c/mathpub-0.0.2.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ghananews-scraper]: Downloading https://files.pythonhosted.org/packages/e0/b6/878f5dbca6bf8dae7e132e857d785abcef5601d293dc4ce6a8ffe5e61655/ghananews-scraper-1.0.9.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [framework-reproducibility]: Downloading https://files.pythonhosted.org/packages/0a/a5/cd245ff6ce5872a81288c59e17dd7c39361cc840a9eb7bcebd5e58d47dd4/framework-reproducibility-0.4.0.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/26/a7/54881082ec586274906ca3bbfb42b857329fa91deb950def9493936b8bfc/kfish-99.0.202306221557-py3-none-any.whl
+[2023-06-23 01:01:00] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/43/b3/6dda4f55e1d3faa57d98d8c8339b3a8c2e280e12edcb071cf369a6eab3b8/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 01:01:00] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ghananews-scraper]: executing diffoscope
+[2023-06-23 01:01:00] INFO root fetch - processPackages [ghananews-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghananews-scraper-1.0.8.tar.gz tmp/ghananews-scraper-1.0.9.tar.gz --markdown 20230623/g/ghananews-scraper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-23 01:01:00] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/ef/92/afcc8940805e9ab745fcc13775580986e12b2857c9f9803203d111c83794/citros-23.25.6.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/b8/87/c2d4ecc5877bffe6a52cae4a99e341e3900c53ee51feea9a662f176c9e24/spyx-0.0.5.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [dkist-processing-common]: Downloading https://files.pythonhosted.org/packages/a5/d3/9f510648ed36d5c091cf781a6c2343ba17607d011cd7665c49d003bfab4c/dkist-processing-common-3.0.0rc7.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/62/23/ab1b679c03943ffa72280774afac0c098b3f34efb82619ed31b0d628516a/localstack-core-2.1.1.dev20230622225753.tar.gz
+[2023-06-23 01:01:00] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-06-23 01:01:00] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.25.4.tar.gz tmp/citros-23.25.6.tar.gz --markdown 20230623/c/citros/23.25.4-23.25.6/diff.md --exclude *.pyd
+[2023-06-23 01:01:00] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-06-23 01:01:00] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.4.tar.gz tmp/spyx-0.0.5.tar.gz --markdown 20230623/s/spyx/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 01:01:01] INFO root fetch - processPackages [framework-reproducibility]: Downloading https://files.pythonhosted.org/packages/af/58/03759a430b36ff7ef0693a086d9b6c0f92cf0fc43611bcbce10384735e51/framework-reproducibility-0.5.0.tar.gz
+[2023-06-23 01:01:01] INFO root fetch - processPackages [mathpub]: Downloading https://files.pythonhosted.org/packages/f5/95/b1d7e4fe81ba44d767ccbd0647cb261b3ac675c94a47544edbf93a510763/mathpub-0.0.3.tar.gz
+[2023-06-23 01:01:01] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/53/97/94d0fcf674c240aaba006db3e01d99319e528dee26119ab4dd8aed4e87e4/kfish-99.0.202306222257-py3-none-any.whl
+[2023-06-23 01:01:01] INFO root fetch - processPackages [dkist-processing-common]: executing diffoscope
+[2023-06-23 01:01:01] INFO root fetch - processPackages [dkist-processing-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-common-3.0.0rc6.tar.gz tmp/dkist-processing-common-3.0.0rc7.tar.gz --markdown 20230623/d/dkist-processing-common/3.0.0rc6-3.0.0rc7/diff.md --exclude *.pyd
+[2023-06-23 01:01:01] INFO root fetch - processPackages [framework-reproducibility]: executing diffoscope
+[2023-06-23 01:01:01] INFO root fetch - processPackages [framework-reproducibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framework-reproducibility-0.4.0.tar.gz tmp/framework-reproducibility-0.5.0.tar.gz --markdown 20230623/f/framework-reproducibility/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-23 01:01:01] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-23 01:01:01] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306221557-py3-none-any.whl.zip tmp/kfish-99.0.202306222257-py3-none-any.whl.zip --markdown 20230623/k/kfish/99.0.202306221557-99.0.202306222257/diff.md --exclude *.pyd
+[2023-06-23 01:01:01] INFO root fetch - processPackages [mathpub]: executing diffoscope
+[2023-06-23 01:01:01] INFO root fetch - processPackages [mathpub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathpub-0.0.2.tar.gz tmp/mathpub-0.0.3.tar.gz --markdown 20230623/m/mathpub/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 01:01:01] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/e1/98/0334482971a969cfa2dfd38298d37844a48ae8a8052b69f9cfb99fc44292/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 01:01:01] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-23 01:01:01] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230622201917.tar.gz tmp/localstack-core-2.1.1.dev20230622225753.tar.gz --markdown 20230623/l/localstack-core/2.1.1.dev20230622201917-2.1.1.dev20230622225753/diff.md --exclude *.pyd
+[2023-06-23 01:01:01] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-06-23 01:01:02] INFO root fetch - processPackages [ghananews-scraper]: Remove: archive file [/home/abi/fetcher/tmp/ghananews-scraper-1.0.8.tar.gz]
+[2023-06-23 01:01:02] INFO root fetch - processPackages [ghananews-scraper]: Remove: archive file [/home/abi/fetcher/tmp/ghananews-scraper-1.0.9.tar.gz]
+[2023-06-23 01:01:02] INFO root fetch - processPackages [ghananews-scraper]: Start processing: querysource
+[2023-06-23 01:01:02] INFO root fetch - main [MainThread]: End processing [ghananews-scraper]: success
+[2023-06-23 01:01:02] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-06-23 01:01:02] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230623/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-06-23 01:01:02] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-23 01:01:02] INFO root fetch - processPackages [citros]: Remove: archive file [/home/abi/fetcher/tmp/citros-23.25.4.tar.gz]
+[2023-06-23 01:01:02] INFO root fetch - processPackages [citros]: Remove: archive file [/home/abi/fetcher/tmp/citros-23.25.6.tar.gz]
+[2023-06-23 01:01:02] INFO root fetch - processPackages [citros]: Start processing: Optimo-API-Testing
+[2023-06-23 01:01:02] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-06-23 01:01:02] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2023-06-23 01:01:02] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230623/n/navigator-api/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-06-23 01:01:02] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 01:01:02] WARNING root fetch - processPackages [Optimo-API-Testing]: Skipping, unable to determine old version
+[2023-06-23 01:01:02] INFO root fetch - processPackages [Optimo-API-Testing]: Start processing: mathpub
+[2023-06-23 01:01:02] INFO root fetch - main [MainThread]: End processing [Optimo-API-Testing] error
+[2023-06-23 01:01:02] INFO root fetch - processPackages [mathpub]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 01:01:02] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.4.tar.gz]
+[2023-06-23 01:01:02] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.5.tar.gz]
+[2023-06-23 01:01:02] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-06-23 01:01:02] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221557-py3-none-any.whl.zip]
+[2023-06-23 01:01:02] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306222257-py3-none-any.whl.zip]
+[2023-06-23 01:01:02] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-23 01:01:02] INFO root fetch - processPackages [mathpub]: Remove: archive file [/home/abi/fetcher/tmp/mathpub-0.0.2.tar.gz]
+[2023-06-23 01:01:02] INFO root fetch - processPackages [mathpub]: Remove: archive file [/home/abi/fetcher/tmp/mathpub-0.0.3.tar.gz]
+[2023-06-23 01:01:02] INFO root fetch - main [MainThread]: End processing [mathpub]: success
+[2023-06-23 01:01:02] INFO root fetch - processPackages [framework-reproducibility]: Remove: archive file [/home/abi/fetcher/tmp/framework-reproducibility-0.4.0.tar.gz]
+[2023-06-23 01:01:02] INFO root fetch - processPackages [framework-reproducibility]: Remove: archive file [/home/abi/fetcher/tmp/framework-reproducibility-0.5.0.tar.gz]
+[2023-06-23 01:01:02] INFO root fetch - main [MainThread]: End processing [framework-reproducibility]: success
+[2023-06-23 01:01:02] INFO root fetch - processPackages [mathpub]: Downloading https://files.pythonhosted.org/packages/c2/49/a018a8296e5aa4e1cef0b3d8fdadef30e9dec1a976dfdf0223ee77ec2e01/mathpub-0.0.4.tar.gz
+[2023-06-23 01:01:02] INFO root fetch - processPackages [mathpub]: executing diffoscope
+[2023-06-23 01:01:02] INFO root fetch - processPackages [mathpub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathpub-0.0.3.tar.gz tmp/mathpub-0.0.4.tar.gz --markdown 20230623/m/mathpub/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 01:01:03] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-3.0.0rc6.tar.gz]
+[2023-06-23 01:01:03] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-3.0.0rc7.tar.gz]
+[2023-06-23 01:01:03] INFO root fetch - main [MainThread]: End processing [dkist-processing-common]: success
+[2023-06-23 01:01:03] ERROR root fetch - processPackages [mathpub]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/mathpub-0.0.3.tar.gz: No such file or directory
+
+[2023-06-23 01:01:03] INFO root fetch - main [MainThread]: End processing [mathpub] error
+[2023-06-23 01:01:04] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 01:01:04] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 01:01:04] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 01:01:04] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2023-06-23 01:01:04] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2023-06-23 01:01:04] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2023-06-23 01:01:04] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-06-23 01:01:04] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-23 01:01:04] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230623/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-23 01:01:07] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 01:01:07] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 01:01:07] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-23 01:01:08] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622201917.tar.gz]
+[2023-06-23 01:01:08] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622225753.tar.gz]
+[2023-06-23 01:01:08] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-23 01:01:08] INFO root fetch - main [MainThread]: Store serial: [18611272]
