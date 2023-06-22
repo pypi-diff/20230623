@@ -671,3 +671,39 @@
 [2023-06-23 00:45:23] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
 [2023-06-23 00:45:23] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
 [2023-06-23 00:45:23] INFO root fetch - main [MainThread]: Store serial: [18611124]
+[2023-06-23 00:50:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611124]
+[2023-06-23 00:50:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-23 00:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: popari
+[2023-06-23 00:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fish1
+[2023-06-23 00:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chilitools
+[2023-06-23 00:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-playground
+[2023-06-23 00:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spyx
+[2023-06-23 00:50:33] INFO root fetch - processPackages [popari]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 00:50:33] WARNING root fetch - processPackages [gpt-playground]: Skipping, unable to determine old version
+[2023-06-23 00:50:33] INFO root fetch - main [MainThread]: End processing [gpt-playground] error
+[2023-06-23 00:50:33] INFO root fetch - processPackages [chilitools]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-06-23 00:50:33] INFO root fetch - processPackages [spyx]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 00:50:33] INFO root fetch - processPackages [chilitools]: Downloading https://files.pythonhosted.org/packages/26/63/0fbd042045ff992628118294e1f95ed3d3051355104a588d3f7c6fb0bcbf/chilitools-0.2.1.tar.gz
+[2023-06-23 00:50:33] ERROR root fetch - processPackages [fish1]: Unable to get metadata: No such project 'fish1'
+[2023-06-23 00:50:33] INFO root fetch - main [MainThread]: End processing [fish1] error
+[2023-06-23 00:50:33] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/99/aa/f373c80b9673769c6bc7d5b4b927210928e3c75c1334ddc81d6c21634e21/spyx-0.0.3.tar.gz
+[2023-06-23 00:50:33] INFO root fetch - processPackages [popari]: Downloading https://files.pythonhosted.org/packages/65/f5/68787d0eb687fa6534508cde4244cf24659ad0a55bb61543bda2f0768e5b/popari-0.0.8.tar.gz
+[2023-06-23 00:50:33] INFO root fetch - processPackages [chilitools]: Downloading https://files.pythonhosted.org/packages/75/c4/bc0fe02171c78aa759a44b59c15a533a82f0248f3179cddae71e3673f579/chilitools-0.2.3.tar.gz
+[2023-06-23 00:50:33] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/c5/3e/10efc680ef170d80ee26e04ae2f2342b8df784cf54553935092b576b99ae/spyx-0.0.4.tar.gz
+[2023-06-23 00:50:33] INFO root fetch - processPackages [chilitools]: executing diffoscope
+[2023-06-23 00:50:33] INFO root fetch - processPackages [chilitools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chilitools-0.2.1.tar.gz tmp/chilitools-0.2.3.tar.gz --markdown 20230623/c/chilitools/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-06-23 00:50:34] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-06-23 00:50:34] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.3.tar.gz tmp/spyx-0.0.4.tar.gz --markdown 20230623/s/spyx/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 00:50:34] INFO root fetch - processPackages [popari]: Downloading https://files.pythonhosted.org/packages/32/90/548a88df5e1bb4876e07dc08dd3a6dcdf5c38aa7475663db4eb10bb88caf/popari-0.0.9.tar.gz
+[2023-06-23 00:50:34] INFO root fetch - processPackages [popari]: executing diffoscope
+[2023-06-23 00:50:34] INFO root fetch - processPackages [popari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popari-0.0.8.tar.gz tmp/popari-0.0.9.tar.gz --markdown 20230623/p/popari/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 00:50:35] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.3.tar.gz]
+[2023-06-23 00:50:35] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.4.tar.gz]
+[2023-06-23 00:50:35] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-06-23 00:50:35] INFO root fetch - processPackages [chilitools]: Remove: archive file [/home/abi/fetcher/tmp/chilitools-0.2.1.tar.gz]
+[2023-06-23 00:50:35] INFO root fetch - processPackages [chilitools]: Remove: archive file [/home/abi/fetcher/tmp/chilitools-0.2.3.tar.gz]
+[2023-06-23 00:50:35] INFO root fetch - main [MainThread]: End processing [chilitools]: success
+[2023-06-23 00:50:35] INFO root fetch - processPackages [popari]: Remove: archive file [/home/abi/fetcher/tmp/popari-0.0.8.tar.gz]
+[2023-06-23 00:50:35] INFO root fetch - processPackages [popari]: Remove: archive file [/home/abi/fetcher/tmp/popari-0.0.9.tar.gz]
+[2023-06-23 00:50:35] INFO root fetch - main [MainThread]: End processing [popari]: success
+[2023-06-23 00:50:35] INFO root fetch - main [MainThread]: Store serial: [18611147]
