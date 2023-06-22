@@ -208,3 +208,105 @@
 [2023-06-23 00:10:16] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.1.0rc7.tar.gz]
 [2023-06-23 00:10:16] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-06-23 00:10:16] INFO root fetch - main [MainThread]: Store serial: [18610875]
+[2023-06-23 00:15:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18610875]
+[2023-06-23 00:15:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-23 00:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastplotlib
+[2023-06-23 00:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bob.pad.base
+[2023-06-23 00:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphreduce
+[2023-06-23 00:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: function-analyser
+[2023-06-23 00:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: general-superstaq
+[2023-06-23 00:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qiskit-superstaq
+[2023-06-23 00:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-superstaq
+[2023-06-23 00:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SupermarQ
+[2023-06-23 00:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: braintrust
+[2023-06-23 00:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-glue
+[2023-06-23 00:15:26] INFO root fetch - processPackages [fastplotlib]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-06-23 00:15:26] INFO root fetch - processPackages [function-analyser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 00:15:26] INFO root fetch - processPackages [graphreduce]: New version: [0.2] Old Version: [0.1]
+[2023-06-23 00:15:26] INFO root fetch - processPackages [bob.pad.base]: New version: [6.0.0] Old Version: [5.0.4]
+[2023-06-23 00:15:26] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-23 00:15:26] INFO root fetch - processPackages [django-glue]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-06-23 00:15:26] INFO root fetch - processPackages [general-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-23 00:15:26] INFO root fetch - processPackages [SupermarQ]: New version: [0.3.33] Old Version: [0.3.32]
+[2023-06-23 00:15:26] INFO root fetch - processPackages [braintrust]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 00:15:26] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-23 00:15:26] INFO root fetch - processPackages [function-analyser]: Downloading https://files.pythonhosted.org/packages/5c/c6/fc0f9e0a1b156f9fe55d9a1373afa3605111299b1bdbcc6b40ba208f88e1/function-analyser-0.0.8.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [SupermarQ]: Downloading https://files.pythonhosted.org/packages/8d/ae/8a2b1e91260460795ec4ff1cb1a053a171d81292bf5316a77d95418fb0cd/SupermarQ-0.3.32-py3-none-any.whl
+[2023-06-23 00:15:26] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/24/23/2e53aa7d71a86e1b918795598b7e648a3c8b392493d0399d085b8a34a69f/cirq_superstaq-0.3.8-py3-none-any.whl
+[2023-06-23 00:15:26] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/87/05/cd59ba3d55d20ac1221d7dbd1216dc5e2bfecd1d1bbdafcc4e49114575ae/general_superstaq-0.3.8-py3-none-any.whl
+[2023-06-23 00:15:26] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/33/d9/9afdc846fffea309c28e8f6c909c0db105ac4da2afb792672fef85880186/qiskit_superstaq-0.3.8-py3-none-any.whl
+[2023-06-23 00:15:26] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/ac/b7/eb6a8c9d868470e6986174e97eaa2217429ff34d761c3629fb674e2aef0d/graphreduce-0.1.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [fastplotlib]: Downloading https://files.pythonhosted.org/packages/0b/84/898acb72a2a1145f0c580e234b444b40eb062afa3ac4f62746f258a09d84/fastplotlib-0.1.0a8.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/5f/d7/90cf6503b553892d091d3ad8ba050b2ec5744880829c43fa4090da82ce8b/cirq_superstaq-0.3.9-py3-none-any.whl
+[2023-06-23 00:15:26] INFO root fetch - processPackages [django-glue]: Downloading https://files.pythonhosted.org/packages/e6/78/a39c6f6d632804b4b31b19a6dc0271196086578b08ea264abec8c5bfea56/django-glue-0.2.6.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/d3/61/5004f0f681b41698dc740d5c70e69d5eef3be2a6bb1c9b142d04914b67ff/general_superstaq-0.3.9-py3-none-any.whl
+[2023-06-23 00:15:26] INFO root fetch - processPackages [bob.pad.base]: Downloading https://files.pythonhosted.org/packages/6a/24/713539f58caeca8aaa28c4b8f1da11f706a0771a71571455234605d8e8f2/bob.pad.base-5.0.4.zip
+[2023-06-23 00:15:26] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/6f/b8/fe5a4fde8595073811330c887f35bb9e69195701e868c74c98a8b3a63007/braintrust-0.0.5.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/06/a8/93bc82c36803b1fdfe08be69e96d149fb909954aab455e01b4163459073b/qiskit_superstaq-0.3.9-py3-none-any.whl
+[2023-06-23 00:15:26] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2023-06-23 00:15:26] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_superstaq-0.3.8-py3-none-any.whl.zip tmp/cirq_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230623/c/cirq-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-23 00:15:26] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2023-06-23 00:15:26] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_superstaq-0.3.8-py3-none-any.whl.zip tmp/general_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230623/g/general-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-23 00:15:26] INFO root fetch - processPackages [SupermarQ]: Downloading https://files.pythonhosted.org/packages/2b/2c/2b30fd7a549cc5177f3de4fd50b270460a4958836b6cff1e261e90b35a63/SupermarQ-0.3.33-py3-none-any.whl
+[2023-06-23 00:15:26] INFO root fetch - processPackages [function-analyser]: Downloading https://files.pythonhosted.org/packages/30/31/347ed942d4c093d20555c333fb2bceddd0b235ed0ae2f7d3e512c702156b/function-analyser-0.0.9.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2023-06-23 00:15:26] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_superstaq-0.3.8-py3-none-any.whl.zip tmp/qiskit_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230623/q/qiskit-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-23 00:15:26] INFO root fetch - processPackages [SupermarQ]: executing diffoscope
+[2023-06-23 00:15:26] INFO root fetch - processPackages [SupermarQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SupermarQ-0.3.32-py3-none-any.whl.zip tmp/SupermarQ-0.3.33-py3-none-any.whl.zip --markdown 20230623/S/SupermarQ/0.3.32-0.3.33/diff.md --exclude *.pyd
+[2023-06-23 00:15:26] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/6e/c6/93ab4b09e3b7fb102ab9b457172b75a271ca770595467ec8d197a87708c7/graphreduce-0.2.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [function-analyser]: executing diffoscope
+[2023-06-23 00:15:26] INFO root fetch - processPackages [function-analyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function-analyser-0.0.8.tar.gz tmp/function-analyser-0.0.9.tar.gz --markdown 20230623/f/function-analyser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 00:15:26] INFO root fetch - processPackages [django-glue]: Downloading https://files.pythonhosted.org/packages/87/e4/e4559469488f028dadbbc2c3d5b96a3ace11b2810049b26e980f6676b450/django-glue-0.3.0.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [graphreduce]: executing diffoscope
+[2023-06-23 00:15:26] INFO root fetch - processPackages [graphreduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphreduce-0.1.tar.gz tmp/graphreduce-0.2.tar.gz --markdown 20230623/g/graphreduce/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-23 00:15:26] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/1f/e2/f3611e6aad4d2cc67592ab66284e111cc0624cd10584c147b5d44e9c4039/braintrust-0.0.6.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [bob.pad.base]: Downloading https://files.pythonhosted.org/packages/1f/8e/32575f78dccee92789368fe4c41c67f0dbc803ec846aec2b1f5695d68041/bob.pad.base-6.0.0.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2023-06-23 00:15:26] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.5.tar.gz tmp/braintrust-0.0.6.tar.gz --markdown 20230623/b/braintrust/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 00:15:26] INFO root fetch - processPackages [fastplotlib]: Downloading https://files.pythonhosted.org/packages/62/32/95d7703ea95c3576435ba54e0a389c244fd3befb0ef51d3319919a75bf27/fastplotlib-0.1.0a9.tar.gz
+[2023-06-23 00:15:26] INFO root fetch - processPackages [bob.pad.base]: executing diffoscope
+[2023-06-23 00:15:26] INFO root fetch - processPackages [bob.pad.base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bob.pad.base-5.0.4.zip tmp/bob.pad.base-6.0.0.tar.gz --markdown 20230623/b/bob.pad.base/5.0.4-6.0.0/diff.md --exclude *.pyd
+[2023-06-23 00:15:26] INFO root fetch - processPackages [django-glue]: executing diffoscope
+[2023-06-23 00:15:26] INFO root fetch - processPackages [django-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-glue-0.2.6.tar.gz tmp/django-glue-0.3.0.tar.gz --markdown 20230623/d/django-glue/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 00:15:26] INFO root fetch - processPackages [fastplotlib]: executing diffoscope
+[2023-06-23 00:15:26] INFO root fetch - processPackages [fastplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastplotlib-0.1.0a8.tar.gz tmp/fastplotlib-0.1.0a9.tar.gz --markdown 20230623/f/fastplotlib/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-06-23 00:15:28] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.3.8-py3-none-any.whl.zip]
+[2023-06-23 00:15:28] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.3.9-py3-none-any.whl.zip]
+[2023-06-23 00:15:28] INFO root fetch - processPackages [cirq-superstaq]: Start processing: tensorstore
+[2023-06-23 00:15:28] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2023-06-23 00:15:28] INFO root fetch - processPackages [tensorstore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 00:15:28] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.3.8-py3-none-any.whl.zip]
+[2023-06-23 00:15:28] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.3.9-py3-none-any.whl.zip]
+[2023-06-23 00:15:28] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2023-06-23 00:15:28] INFO root fetch - processPackages [tensorstore]: Downloading https://files.pythonhosted.org/packages/91/85/d520af7c93cb7ea407f4a7814fb740d2773739bf5fcb8ce8d3ea05bfbbea/tensorstore-0.1.8.tar.gz
+[2023-06-23 00:15:28] INFO root fetch - processPackages [SupermarQ]: Remove: archive file [/home/abi/fetcher/tmp/SupermarQ-0.3.32-py3-none-any.whl.zip]
+[2023-06-23 00:15:28] INFO root fetch - processPackages [SupermarQ]: Remove: archive file [/home/abi/fetcher/tmp/SupermarQ-0.3.33-py3-none-any.whl.zip]
+[2023-06-23 00:15:28] INFO root fetch - main [MainThread]: End processing [SupermarQ]: success
+[2023-06-23 00:15:28] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.3.8-py3-none-any.whl.zip]
+[2023-06-23 00:15:28] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.3.9-py3-none-any.whl.zip]
+[2023-06-23 00:15:28] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2023-06-23 00:15:28] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-0.1.tar.gz]
+[2023-06-23 00:15:28] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-0.2.tar.gz]
+[2023-06-23 00:15:28] INFO root fetch - main [MainThread]: End processing [graphreduce]: success
+[2023-06-23 00:15:28] INFO root fetch - processPackages [function-analyser]: Remove: archive file [/home/abi/fetcher/tmp/function-analyser-0.0.8.tar.gz]
+[2023-06-23 00:15:28] INFO root fetch - processPackages [function-analyser]: Remove: archive file [/home/abi/fetcher/tmp/function-analyser-0.0.9.tar.gz]
+[2023-06-23 00:15:28] INFO root fetch - main [MainThread]: End processing [function-analyser]: success
+[2023-06-23 00:15:28] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.5.tar.gz]
+[2023-06-23 00:15:28] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.6.tar.gz]
+[2023-06-23 00:15:28] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2023-06-23 00:15:28] INFO root fetch - processPackages [django-glue]: Remove: archive file [/home/abi/fetcher/tmp/django-glue-0.2.6.tar.gz]
+[2023-06-23 00:15:28] INFO root fetch - processPackages [django-glue]: Remove: archive file [/home/abi/fetcher/tmp/django-glue-0.3.0.tar.gz]
+[2023-06-23 00:15:28] INFO root fetch - main [MainThread]: End processing [django-glue]: success
+[2023-06-23 00:15:29] INFO root fetch - processPackages [bob.pad.base]: Remove: archive file [/home/abi/fetcher/tmp/bob.pad.base-5.0.4.zip]
+[2023-06-23 00:15:29] INFO root fetch - processPackages [bob.pad.base]: Remove: archive file [/home/abi/fetcher/tmp/bob.pad.base-6.0.0.tar.gz]
+[2023-06-23 00:15:29] INFO root fetch - main [MainThread]: End processing [bob.pad.base]: success
+[2023-06-23 00:15:29] INFO root fetch - processPackages [tensorstore]: Downloading https://files.pythonhosted.org/packages/b2/32/db4d88bd55abe82dd0df19cb8e9db65c99760a695385a6e9ed867b36b052/tensorstore-0.1.9.tar.gz
+[2023-06-23 00:15:30] INFO root fetch - processPackages [tensorstore]: executing diffoscope
+[2023-06-23 00:15:30] INFO root fetch - processPackages [tensorstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorstore-0.1.8.tar.gz tmp/tensorstore-0.1.9.tar.gz --markdown 20230623/t/tensorstore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 00:15:30] INFO root fetch - processPackages [fastplotlib]: Remove: archive file [/home/abi/fetcher/tmp/fastplotlib-0.1.0a8.tar.gz]
+[2023-06-23 00:15:30] INFO root fetch - processPackages [fastplotlib]: Remove: archive file [/home/abi/fetcher/tmp/fastplotlib-0.1.0a9.tar.gz]
+[2023-06-23 00:15:30] INFO root fetch - main [MainThread]: End processing [fastplotlib]: success
+[2023-06-23 00:15:43] INFO root fetch - processPackages [tensorstore]: Remove: archive file [/home/abi/fetcher/tmp/tensorstore-0.1.8.tar.gz]
+[2023-06-23 00:15:43] INFO root fetch - processPackages [tensorstore]: Remove: archive file [/home/abi/fetcher/tmp/tensorstore-0.1.9.tar.gz]
+[2023-06-23 00:15:43] INFO root fetch - main [MainThread]: End processing [tensorstore]: success
+[2023-06-23 00:15:43] INFO root fetch - main [MainThread]: Store serial: [18610917]
