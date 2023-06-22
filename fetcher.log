@@ -310,3 +310,68 @@
 [2023-06-23 00:15:43] INFO root fetch - processPackages [tensorstore]: Remove: archive file [/home/abi/fetcher/tmp/tensorstore-0.1.9.tar.gz]
 [2023-06-23 00:15:43] INFO root fetch - main [MainThread]: End processing [tensorstore]: success
 [2023-06-23 00:15:43] INFO root fetch - main [MainThread]: Store serial: [18610917]
+[2023-06-23 00:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18610917]
+[2023-06-23 00:20:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-23 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-menu-visibility-restriction
+[2023-06-23 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yangsuite-coverage
+[2023-06-23 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk
+[2023-06-23 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk-preview
+[2023-06-23 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: palmers-agents-general
+[2023-06-23 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: function-analyser
+[2023-06-23 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-phal-plugin-ipgeo
+[2023-06-23 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ABOTP
+[2023-06-23 00:20:55] INFO root fetch - processPackages [odoo-addon-base-menu-visibility-restriction]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-06-23 00:20:55] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 00:20:55] WARNING root fetch - processPackages [ABOTP]: Skipping, unable to determine old version
+[2023-06-23 00:20:55] INFO root fetch - main [MainThread]: End processing [ABOTP] error
+[2023-06-23 00:20:55] INFO root fetch - processPackages [yangsuite-coverage]: New version: [3.0.9.post0.dev2] Old Version: [3.0.9]
+[2023-06-23 00:20:55] INFO root fetch - processPackages [ovos-phal-plugin-ipgeo]: New version: [0.0.2a4] Old Version: [0.0.2a3]
+[2023-06-23 00:20:55] INFO root fetch - processPackages [function-analyser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 00:20:55] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-23 00:20:55] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-23 00:20:55] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/a0/ba/bb9972f2c344a2bfc6289bc81301dc0b876b6cc6c50834a9b71e5b5ffdf4/palmers_agents_general-0.0.8.tar.gz
+[2023-06-23 00:20:55] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-06-23 00:20:55] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-06-23 00:20:55] INFO root fetch - processPackages [odoo-addon-base-menu-visibility-restriction]: Downloading https://files.pythonhosted.org/packages/e7/92/940622080ad60c3e8f2abf64ba99ef8a378a3472c914cee94a9ab770e4bd/odoo_addon_base_menu_visibility_restriction-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-23 00:20:55] INFO root fetch - processPackages [ovos-phal-plugin-ipgeo]: Downloading https://files.pythonhosted.org/packages/b6/8d/27b5cffeb7875b851122045f3feba69c87b3a5c3db98e571ba7aa88421dc/ovos-phal-plugin-ipgeo-0.0.2a3.tar.gz
+[2023-06-23 00:20:55] INFO root fetch - processPackages [yangsuite-coverage]: Downloading https://files.pythonhosted.org/packages/d0/9b/c0f963d3535b117eef30800b9dfdf490325376b28d8fb0957c9fffa4f969/yangsuite_coverage-3.0.9-py3-none-any.whl
+[2023-06-23 00:20:55] INFO root fetch - processPackages [function-analyser]: Downloading https://files.pythonhosted.org/packages/5c/c6/fc0f9e0a1b156f9fe55d9a1373afa3605111299b1bdbcc6b40ba208f88e1/function-analyser-0.0.8.tar.gz
+[2023-06-23 00:20:56] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/61/cd/e3e3e79d25eaa13474a77df36729a9c49c52bf78a9aabee81eb71e0e9622/palmers_agents_general-0.0.9.tar.gz
+[2023-06-23 00:20:56] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-06-23 00:20:56] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-06-23 00:20:56] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-06-23 00:20:56] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.8.tar.gz tmp/palmers_agents_general-0.0.9.tar.gz --markdown 20230623/p/palmers-agents-general/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 00:20:56] INFO root fetch - processPackages [odoo-addon-base-menu-visibility-restriction]: Downloading https://files.pythonhosted.org/packages/98/27/24b1d6f0b423f225fe8009817477d39acc374b94e3ee9b4d78561f4dc7e7/odoo_addon_base_menu_visibility_restriction-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-23 00:20:56] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-23 00:20:56] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230623/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-23 00:20:56] INFO root fetch - processPackages [odoo-addon-base-menu-visibility-restriction]: executing diffoscope
+[2023-06-23 00:20:56] INFO root fetch - processPackages [odoo-addon-base-menu-visibility-restriction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_menu_visibility_restriction-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_menu_visibility_restriction-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-base-menu-visibility-restriction/15.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-23 00:20:56] INFO root fetch - processPackages [ovos-phal-plugin-ipgeo]: Downloading https://files.pythonhosted.org/packages/44/97/b9f2f5b0850bcf51153b38ede9feef476ce14954f8052e32880832d163b7/ovos-phal-plugin-ipgeo-0.0.2a4.tar.gz
+[2023-06-23 00:20:56] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-23 00:20:56] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230623/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-23 00:20:56] INFO root fetch - processPackages [ovos-phal-plugin-ipgeo]: executing diffoscope
+[2023-06-23 00:20:56] INFO root fetch - processPackages [ovos-phal-plugin-ipgeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-phal-plugin-ipgeo-0.0.2a3.tar.gz tmp/ovos-phal-plugin-ipgeo-0.0.2a4.tar.gz --markdown 20230623/o/ovos-phal-plugin-ipgeo/0.0.2a3-0.0.2a4/diff.md --exclude *.pyd
+[2023-06-23 00:20:56] INFO root fetch - processPackages [function-analyser]: Downloading https://files.pythonhosted.org/packages/30/31/347ed942d4c093d20555c333fb2bceddd0b235ed0ae2f7d3e512c702156b/function-analyser-0.0.9.tar.gz
+[2023-06-23 00:20:56] WARNING root fetch - processPackages [yangsuite-coverage]: Skipping package: exceeds size limit 14794051>=10485760
+[2023-06-23 00:20:56] INFO root fetch - main [MainThread]: End processing [yangsuite-coverage] error
+[2023-06-23 00:20:56] INFO root fetch - processPackages [function-analyser]: executing diffoscope
+[2023-06-23 00:20:56] INFO root fetch - processPackages [function-analyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function-analyser-0.0.8.tar.gz tmp/function-analyser-0.0.9.tar.gz --markdown 20230623/f/function-analyser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 00:20:57] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.8.tar.gz]
+[2023-06-23 00:20:57] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.9.tar.gz]
+[2023-06-23 00:20:57] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-06-23 00:20:57] INFO root fetch - processPackages [ovos-phal-plugin-ipgeo]: Remove: archive file [/home/abi/fetcher/tmp/ovos-phal-plugin-ipgeo-0.0.2a3.tar.gz]
+[2023-06-23 00:20:57] INFO root fetch - processPackages [ovos-phal-plugin-ipgeo]: Remove: archive file [/home/abi/fetcher/tmp/ovos-phal-plugin-ipgeo-0.0.2a4.tar.gz]
+[2023-06-23 00:20:57] INFO root fetch - main [MainThread]: End processing [ovos-phal-plugin-ipgeo]: success
+[2023-06-23 00:20:57] INFO root fetch - processPackages [odoo-addon-base-menu-visibility-restriction]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_menu_visibility_restriction-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-23 00:20:57] INFO root fetch - processPackages [odoo-addon-base-menu-visibility-restriction]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_menu_visibility_restriction-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-23 00:20:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-menu-visibility-restriction]: success
+[2023-06-23 00:20:57] INFO root fetch - processPackages [function-analyser]: Remove: archive file [/home/abi/fetcher/tmp/function-analyser-0.0.8.tar.gz]
+[2023-06-23 00:20:57] INFO root fetch - processPackages [function-analyser]: Remove: archive file [/home/abi/fetcher/tmp/function-analyser-0.0.9.tar.gz]
+[2023-06-23 00:20:57] INFO root fetch - main [MainThread]: End processing [function-analyser]: success
+[2023-06-23 00:21:16] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-06-23 00:21:16] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-06-23 00:21:16] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-23 00:21:30] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-06-23 00:21:30] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-06-23 00:21:30] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-23 00:21:30] INFO root fetch - main [MainThread]: Store serial: [18610973]
