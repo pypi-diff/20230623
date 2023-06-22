@@ -375,3 +375,57 @@
 [2023-06-23 00:21:30] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-06-23 00:21:30] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-06-23 00:21:30] INFO root fetch - main [MainThread]: Store serial: [18610973]
+[2023-06-23 00:26:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18610973]
+[2023-06-23 00:26:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 00:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ABOTP
+[2023-06-23 00:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mathpub
+[2023-06-23 00:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcs-sdk-python
+[2023-06-23 00:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: npex
+[2023-06-23 00:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reliableGPT
+[2023-06-23 00:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bob.bio.vein
+[2023-06-23 00:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abacusai
+[2023-06-23 00:26:39] INFO root fetch - processPackages [ABOTP]: New version: [2.1] Old Version: [1.0]
+[2023-06-23 00:26:39] WARNING root fetch - processPackages [npex]: Skipping, unable to determine old version
+[2023-06-23 00:26:39] INFO root fetch - main [MainThread]: End processing [npex] error
+[2023-06-23 00:26:39] WARNING root fetch - processPackages [mathpub]: Skipping, unable to determine old version
+[2023-06-23 00:26:39] INFO root fetch - main [MainThread]: End processing [mathpub] error
+[2023-06-23 00:26:39] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.0rc2] Old Version: [0.9.0rc1]
+[2023-06-23 00:26:39] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-23 00:26:39] INFO root fetch - processPackages [abacusai]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-23 00:26:39] INFO root fetch - processPackages [bob.bio.vein]: New version: [5.0.0] Old Version: [4.0.3]
+[2023-06-23 00:26:39] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/45/24/db4474c3cc0ddaf2fb954ae447330f3968f9a676cdc8417eaf6a98c70891/reliableGPT-0.2.8.tar.gz
+[2023-06-23 00:26:39] INFO root fetch - processPackages [ABOTP]: Downloading https://files.pythonhosted.org/packages/6e/36/a7601dbb8caa8b8baf11fac8e98fb0fee79520d657751fd77477628c0d54/ABOTP-1.0.tar.gz
+[2023-06-23 00:26:39] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/95/ed/83a8e4ca1b0aab6c278b648f71a32a724acf69e04a133978a15fb2d73321/qcs_sdk_python-0.9.0rc1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 00:26:39] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/20/05/12e6e66d0f2b20efe2d4562023d068bd5ea84aba0ae3272ff7660d944e48/abacusai-0.9.1.tar.gz
+[2023-06-23 00:26:39] INFO root fetch - processPackages [bob.bio.vein]: Downloading https://files.pythonhosted.org/packages/05/ad/13e6effd89ead35238486720f7b5014a8883dbabe1b9af7545170c07a193/bob.bio.vein-4.0.3.zip
+[2023-06-23 00:26:40] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/a5/3a/460ed54fafcc9b6c5842586f6061d80ef49d9c3a20c18968d659019a7177/reliableGPT-0.2.9.tar.gz
+[2023-06-23 00:26:40] INFO root fetch - processPackages [ABOTP]: Downloading https://files.pythonhosted.org/packages/4f/b6/be3b8946a78756aa72c4a8d5fd22269225fad6efb273fecd7e2087afeecd/ABOTP-2.1.tar.gz
+[2023-06-23 00:26:40] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/2f/8d/d78246b87fef32ca67a6fb9bdb4bfda9bdd690736e1f658aac9fd292cf85/abacusai-0.9.2.tar.gz
+[2023-06-23 00:26:40] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-23 00:26:40] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.8.tar.gz tmp/reliableGPT-0.2.9.tar.gz --markdown 20230623/r/reliableGPT/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-23 00:26:40] INFO root fetch - processPackages [ABOTP]: executing diffoscope
+[2023-06-23 00:26:40] INFO root fetch - processPackages [ABOTP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ABOTP-1.0.tar.gz tmp/ABOTP-2.1.tar.gz --markdown 20230623/A/ABOTP/1.0-2.1/diff.md --exclude *.pyd
+[2023-06-23 00:26:40] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/80/4c/f09cd1539e60e6afc9938c4a443fa0c724eba2a238997c8f1a32b159bfe4/qcs_sdk_python-0.9.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 00:26:40] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2023-06-23 00:26:40] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-0.9.1.tar.gz tmp/abacusai-0.9.2.tar.gz --markdown 20230623/a/abacusai/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-23 00:26:40] INFO root fetch - processPackages [bob.bio.vein]: Downloading https://files.pythonhosted.org/packages/f3/88/e602cadbaa9b2777846c7d31f28f51b4018f66e524c794c022dde797ddb5/bob.bio.vein-5.0.0.tar.gz
+[2023-06-23 00:26:40] INFO root fetch - processPackages [bob.bio.vein]: executing diffoscope
+[2023-06-23 00:26:40] INFO root fetch - processPackages [bob.bio.vein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bob.bio.vein-4.0.3.zip tmp/bob.bio.vein-5.0.0.tar.gz --markdown 20230623/b/bob.bio.vein/4.0.3-5.0.0/diff.md --exclude *.pyd
+[2023-06-23 00:26:41] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.8.tar.gz]
+[2023-06-23 00:26:41] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.9.tar.gz]
+[2023-06-23 00:26:41] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-23 00:26:41] INFO root fetch - processPackages [ABOTP]: Remove: archive file [/home/abi/fetcher/tmp/ABOTP-1.0.tar.gz]
+[2023-06-23 00:26:41] INFO root fetch - processPackages [ABOTP]: Remove: archive file [/home/abi/fetcher/tmp/ABOTP-2.1.tar.gz]
+[2023-06-23 00:26:41] INFO root fetch - main [MainThread]: End processing [ABOTP]: success
+[2023-06-23 00:26:41] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-0.9.1.tar.gz]
+[2023-06-23 00:26:41] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-0.9.2.tar.gz]
+[2023-06-23 00:26:41] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2023-06-23 00:26:42] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2023-06-23 00:26:42] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.9.0rc1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230623/q/qcs-sdk-python/0.9.0rc1-0.9.0rc2/diff.md --exclude *.pyd
+[2023-06-23 00:26:44] INFO root fetch - processPackages [bob.bio.vein]: Remove: archive file [/home/abi/fetcher/tmp/bob.bio.vein-4.0.3.zip]
+[2023-06-23 00:26:44] INFO root fetch - processPackages [bob.bio.vein]: Remove: archive file [/home/abi/fetcher/tmp/bob.bio.vein-5.0.0.tar.gz]
+[2023-06-23 00:26:44] INFO root fetch - main [MainThread]: End processing [bob.bio.vein]: success
+[2023-06-23 00:29:15] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.0rc1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 00:29:15] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 00:29:15] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2023-06-23 00:29:15] INFO root fetch - main [MainThread]: Store serial: [18611006]
