@@ -1,0 +1,99 @@
+[2023-06-23 00:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18610785]
+[2023-06-23 00:04:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-23 00:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windmill-api
+[2023-06-23 00:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wmill
+[2023-06-23 00:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill-pg
+[2023-06-23 00:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uddr-client
+[2023-06-23 00:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: temp-econdata
+[2023-06-23 00:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: api-master
+[2023-06-23 00:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lanablas
+[2023-06-23 00:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: citros
+[2023-06-23 00:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: globus-sdk
+[2023-06-23 00:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: weni-rp-apps
+[2023-06-23 00:04:06] INFO root fetch - processPackages [lanablas]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-23 00:04:06] INFO root fetch - processPackages [uddr-client]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-23 00:04:06] INFO root fetch - processPackages [citros]: New version: [23.25.4] Old Version: [23.25.3]
+[2023-06-23 00:04:06] INFO root fetch - processPackages [temp-econdata]: New version: [1.5] Old Version: [1.4]
+[2023-06-23 00:04:06] INFO root fetch - processPackages [api-master]: New version: [1.9] Old Version: [1.8]
+[2023-06-23 00:04:06] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-23 00:04:06] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-23 00:04:06] INFO root fetch - processPackages [globus-sdk]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-23 00:04:06] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-23 00:04:06] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.7.0] Old Version: [2.6.0a2]
+[2023-06-23 00:04:06] INFO root fetch - processPackages [temp-econdata]: Downloading https://files.pythonhosted.org/packages/31/d0/02b22177724a17d068cf0f02a0f0ab010b700fd8fffe3d6f5b1b05967eec/temp_econdata-1.4.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/57/19/de213e414be66022c40b6c3eb28034308b6386c71efb0452315a7ba975b9/citros-23.25.3.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/70/01/a89f683e22a3f4618f83b5aa8327d03f6f1b191608dc8715483e82e8c854/weni_rp_apps-2.6.0a2.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/22/ac/39d72ee325288cc2a9438b44d547715f1e2de1287996c32c9f2892f970a2/lanablas-0.0.1.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [uddr-client]: Downloading https://files.pythonhosted.org/packages/3f/d9/1b93251881d367a5ccd63323713ad06df23ba6f89b8467d93a5d070a4b25/uddr_client-0.1.0.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [api-master]: Downloading https://files.pythonhosted.org/packages/f6/83/f887d5fe51e59c39834a1c7e6c50a55d9b7bbcd9cc7aba13324ca2e36989/api_master-1.8.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [globus-sdk]: Downloading https://files.pythonhosted.org/packages/0e/69/a18f6f005ad4042544dfee250cc0ad7b1dfa15b020e91635cb852df8b39b/globus-sdk-3.8.0.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [temp-econdata]: Downloading https://files.pythonhosted.org/packages/62/7f/0689b891b092c322d8e52b310b8812f18b35b88d89d9f53843f9143dc2ab/temp_econdata-1.5.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/d6/c4/f9a8d17b289c65d3e7418e107f8349a2f31612d146cae23dd268362bdcfa/weni_rp_apps-2.7.0.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [temp-econdata]: executing diffoscope
+[2023-06-23 00:04:06] INFO root fetch - processPackages [temp-econdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temp_econdata-1.4.tar.gz tmp/temp_econdata-1.5.tar.gz --markdown 20230623/t/temp-econdata/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-23 00:04:06] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/cb/ab/94503d3ecfef85f5c20d522b98197a3a2aac920a39cbd4f55cbbab22f340/lanablas-0.0.2.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/2a/32/a622b3133f3e8689c77f548041cf21a99b63f3c24e513d28590788484dd8/citros-23.25.4.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [uddr-client]: Downloading https://files.pythonhosted.org/packages/6d/5d/740efbfeb24338cb411f46c87ba46321b50afca20794705b20c9d03684c2/uddr_client-0.2.0.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-06-23 00:04:06] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.6.0a2.tar.gz tmp/weni_rp_apps-2.7.0.tar.gz --markdown 20230623/w/weni-rp-apps/2.6.0a2-2.7.0/diff.md --exclude *.pyd
+[2023-06-23 00:04:06] INFO root fetch - processPackages [lanablas]: executing diffoscope
+[2023-06-23 00:04:06] INFO root fetch - processPackages [lanablas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanablas-0.0.1.tar.gz tmp/lanablas-0.0.2.tar.gz --markdown 20230623/l/lanablas/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 00:04:06] INFO root fetch - processPackages [api-master]: Downloading https://files.pythonhosted.org/packages/50/ed/575eb6892ac1dbbed5802bb9785410028f5b48d6e92401d775d40282f76d/api_master-1.9.tar.gz
+[2023-06-23 00:04:06] INFO root fetch - processPackages [uddr-client]: executing diffoscope
+[2023-06-23 00:04:06] INFO root fetch - processPackages [uddr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uddr_client-0.1.0.tar.gz tmp/uddr_client-0.2.0.tar.gz --markdown 20230623/u/uddr-client/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-23 00:04:06] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-06-23 00:04:07] INFO root fetch - processPackages [globus-sdk]: Downloading https://files.pythonhosted.org/packages/25/14/aabdb79c17bfdf79dfb1d76a57ae9f7c4fabe3edacc2c68efe1df4e9efa2/globus-sdk-3.9.0.tar.gz
+[2023-06-23 00:04:07] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-06-23 00:04:07] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.25.3.tar.gz tmp/citros-23.25.4.tar.gz --markdown 20230623/c/citros/23.25.3-23.25.4/diff.md --exclude *.pyd
+[2023-06-23 00:04:07] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-06-23 00:04:07] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230623/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-23 00:04:07] INFO root fetch - processPackages [api-master]: executing diffoscope
+[2023-06-23 00:04:07] INFO root fetch - processPackages [api-master]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_master-1.8.tar.gz tmp/api_master-1.9.tar.gz --markdown 20230623/a/api-master/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-23 00:04:07] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-06-23 00:04:07] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230623/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-23 00:04:07] INFO root fetch - processPackages [globus-sdk]: executing diffoscope
+[2023-06-23 00:04:07] INFO root fetch - processPackages [globus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-sdk-3.8.0.tar.gz tmp/globus-sdk-3.9.0.tar.gz --markdown 20230623/g/globus-sdk/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-23 00:04:07] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-06-23 00:04:07] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-06-23 00:04:07] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230623/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-23 00:04:08] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.1.tar.gz]
+[2023-06-23 00:04:08] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.2.tar.gz]
+[2023-06-23 00:04:08] INFO root fetch - processPackages [lanablas]: Start processing: comp-chem-utils
+[2023-06-23 00:04:08] INFO root fetch - main [MainThread]: End processing [lanablas]: success
+[2023-06-23 00:04:08] WARNING root fetch - processPackages [comp-chem-utils]: Skipping, unable to determine old version
+[2023-06-23 00:04:08] INFO root fetch - processPackages [comp-chem-utils]: Start processing: multi-maths
+[2023-06-23 00:04:08] INFO root fetch - main [MainThread]: End processing [comp-chem-utils] error
+[2023-06-23 00:04:08] WARNING root fetch - processPackages [multi-maths]: Skipping, unable to determine old version
+[2023-06-23 00:04:08] INFO root fetch - main [MainThread]: End processing [multi-maths] error
+[2023-06-23 00:04:08] INFO root fetch - processPackages [temp-econdata]: Remove: archive file [/home/abi/fetcher/tmp/temp_econdata-1.4.tar.gz]
+[2023-06-23 00:04:08] INFO root fetch - processPackages [temp-econdata]: Remove: archive file [/home/abi/fetcher/tmp/temp_econdata-1.5.tar.gz]
+[2023-06-23 00:04:08] INFO root fetch - main [MainThread]: End processing [temp-econdata]: success
+[2023-06-23 00:04:08] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-06-23 00:04:08] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-06-23 00:04:08] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-06-23 00:04:08] INFO root fetch - processPackages [uddr-client]: Remove: archive file [/home/abi/fetcher/tmp/uddr_client-0.1.0.tar.gz]
+[2023-06-23 00:04:08] INFO root fetch - processPackages [uddr-client]: Remove: archive file [/home/abi/fetcher/tmp/uddr_client-0.2.0.tar.gz]
+[2023-06-23 00:04:08] INFO root fetch - main [MainThread]: End processing [uddr-client]: success
+[2023-06-23 00:04:08] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-06-23 00:04:08] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-06-23 00:04:08] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-06-23 00:04:09] INFO root fetch - processPackages [globus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/globus-sdk-3.8.0.tar.gz]
+[2023-06-23 00:04:09] INFO root fetch - processPackages [globus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/globus-sdk-3.9.0.tar.gz]
+[2023-06-23 00:04:09] INFO root fetch - main [MainThread]: End processing [globus-sdk]: success
+[2023-06-23 00:04:10] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.6.0a2.tar.gz]
+[2023-06-23 00:04:10] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.7.0.tar.gz]
+[2023-06-23 00:04:10] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-06-23 00:04:10] INFO root fetch - processPackages [api-master]: Remove: archive file [/home/abi/fetcher/tmp/api_master-1.8.tar.gz]
+[2023-06-23 00:04:10] INFO root fetch - processPackages [api-master]: Remove: archive file [/home/abi/fetcher/tmp/api_master-1.9.tar.gz]
+[2023-06-23 00:04:10] INFO root fetch - main [MainThread]: End processing [api-master]: success
+[2023-06-23 00:04:24] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-06-23 00:04:24] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-06-23 00:04:24] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-06-23 00:04:59] INFO root fetch - processPackages [citros]: Remove: archive file [/home/abi/fetcher/tmp/citros-23.25.3.tar.gz]
+[2023-06-23 00:04:59] INFO root fetch - processPackages [citros]: Remove: archive file [/home/abi/fetcher/tmp/citros-23.25.4.tar.gz]
+[2023-06-23 00:04:59] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-06-23 00:04:59] INFO root fetch - main [MainThread]: Store serial: [18610826]
