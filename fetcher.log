@@ -1038,3 +1038,24 @@
 [2023-06-23 01:11:38] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
 [2023-06-23 01:11:38] INFO root fetch - main [MainThread]: End processing [heaserver]: success
 [2023-06-23 01:11:38] INFO root fetch - main [MainThread]: Store serial: [18611335]
+[2023-06-23 01:16:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611335]
+[2023-06-23 01:16:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-23 01:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dequeai
+[2023-06-23 01:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: econdata
+[2023-06-23 01:16:46] INFO root fetch - processPackages [econdata]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-06-23 01:16:46] INFO root fetch - processPackages [dequeai]: New version: [0.799] Old Version: [0.798]
+[2023-06-23 01:16:46] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/4d/eb/eb21b0a66cb8781fb7a24dff93ba7d15c3828715389670fafce9b3caeccd/dequeai-0.798.tar.gz
+[2023-06-23 01:16:47] INFO root fetch - processPackages [econdata]: Downloading https://files.pythonhosted.org/packages/16/54/ccd63ea51acc844535988b6bd4825a8d53cffad8e11b87a0049789ef6d9e/econdata-1.0.4.tar.gz
+[2023-06-23 01:16:47] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/24/1e/6776bd51a0219651ca63f3794b1c564e894f552a930c2865de3217964d51/dequeai-0.799.tar.gz
+[2023-06-23 01:16:47] INFO root fetch - processPackages [econdata]: Downloading https://files.pythonhosted.org/packages/1a/07/235ded9f814f1ac82f9c2711c873864c7c8ef7dec6aadbb026b75dea5da9/econdata-1.0.6.tar.gz
+[2023-06-23 01:16:47] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-06-23 01:16:47] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.798.tar.gz tmp/dequeai-0.799.tar.gz --markdown 20230623/d/dequeai/0.798-0.799/diff.md --exclude *.pyd
+[2023-06-23 01:16:47] INFO root fetch - processPackages [econdata]: executing diffoscope
+[2023-06-23 01:16:47] INFO root fetch - processPackages [econdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econdata-1.0.4.tar.gz tmp/econdata-1.0.6.tar.gz --markdown 20230623/e/econdata/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-06-23 01:16:48] INFO root fetch - processPackages [econdata]: Remove: archive file [/home/abi/fetcher/tmp/econdata-1.0.4.tar.gz]
+[2023-06-23 01:16:48] INFO root fetch - processPackages [econdata]: Remove: archive file [/home/abi/fetcher/tmp/econdata-1.0.6.tar.gz]
+[2023-06-23 01:16:48] INFO root fetch - main [MainThread]: End processing [econdata]: success
+[2023-06-23 01:16:48] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.798.tar.gz]
+[2023-06-23 01:16:48] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.799.tar.gz]
+[2023-06-23 01:16:48] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-06-23 01:16:48] INFO root fetch - main [MainThread]: Store serial: [18611341]
