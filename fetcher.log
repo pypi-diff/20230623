@@ -18035,3 +18035,140 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 14:45:15] INFO root fetch - processPackages [qoqo-qasm]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qasm-0.8.0.tar.gz]
 [2023-06-23 14:45:15] INFO root fetch - main [MainThread]: End processing [qoqo-qasm]: success
 [2023-06-23 14:45:15] INFO root fetch - main [MainThread]: Store serial: [18617936]
+[2023-06-23 14:50:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617936]
+[2023-06-23 14:50:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-23 14:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PVNet
+[2023-06-23 14:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eptools
+[2023-06-23 14:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pp-project-pkg
+[2023-06-23 14:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raga-testing-platform
+[2023-06-23 14:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idms
+[2023-06-23 14:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-contributor-assets
+[2023-06-23 14:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-cloudwatch-metrics
+[2023-06-23 14:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geofetch
+[2023-06-23 14:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agent-summarizer
+[2023-06-23 14:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kortical
+[2023-06-23 14:50:25] INFO root fetch - processPackages [PVNet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 14:50:25] INFO root fetch - processPackages [eptools]: New version: [8.6.6] Old Version: [8.6.4]
+[2023-06-23 14:50:25] INFO root fetch - processPackages [idms]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 14:50:25] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 14:50:25] INFO root fetch - processPackages [kortical]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-06-23 14:50:25] INFO root fetch - processPackages [django-cloudwatch-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 14:50:25] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306231244] Old Version: [1.0.202306231241]
+[2023-06-23 14:50:25] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post863] Old Version: [1.0.0.post862]
+[2023-06-23 14:50:25] INFO root fetch - processPackages [kortical]: Downloading https://files.pythonhosted.org/packages/68/9d/4f2df79cb699fd1c0e8c087442f0c81856307f5584994da47dab2729948a/kortical-2.1.4-py3-none-any.whl
+[2023-06-23 14:50:25] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/b4/9f/8b1e10d6897cc28c21cf107285420c98684c4f383a8f87c1b3d505b1477c/idms-0.1.8.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/fc/a6/e71661db192eece9f6cbc69b37384eaaeeeb5b2132e45e11afe8d5e56f59/django_cloudwatch_metrics-0.0.8.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/fe/b5/fcff4b1e343306b56452d9a60e452510c5f7a6e421f4f3f6680d17d1a039/nucliadb_contributor_assets-1.0.0.post862-py3-none-any.whl
+[2023-06-23 14:50:25] INFO root fetch - processPackages [geofetch]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-23 14:50:25] WARNING root fetch - processPackages [agent-summarizer]: Skipping, unable to determine old version
+[2023-06-23 14:50:25] INFO root fetch - processPackages [agent-summarizer]: Start processing: nifpga-fast-fifo-recv
+[2023-06-23 14:50:25] WARNING root fetch - processPackages [kortical]: Skipping package: exceeds size limit 46880902>=10485760
+[2023-06-23 14:50:25] INFO root fetch - processPackages [kortical]: Start processing: pp-project-pkg
+[2023-06-23 14:50:25] INFO root fetch - main [MainThread]: End processing [agent-summarizer] error
+[2023-06-23 14:50:25] INFO root fetch - main [MainThread]: End processing [kortical] error
+[2023-06-23 14:50:25] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306231249] Old Version: [1.0.202306231244]
+[2023-06-23 14:50:25] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/b5/78/e7de022559c693ccda08710b9f7e4278ee7e99c56991d0682ce8ef8c544f/pp_project_pkg-1.0.202306231241-py3-none-any.whl
+[2023-06-23 14:50:25] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/7b/6d/f6d2d68316979c477278e36b1a98abe9b6e86c9472055ba4e1e93132a78a/PVNet-0.1.8.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [eptools]: Downloading https://files.pythonhosted.org/packages/4a/bf/de41ee9f87df717b479ee360a31791c17c3553502857d0fd194569ef3471/eptools-8.6.4.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: New version: [0.99.4] Old Version: [0.99.3]
+[2023-06-23 14:50:25] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/7d/9c/b24fb76a698bc7d2690d65bab162abbb6bd61f67aa44c600512a5f629d78/idms-0.1.9.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/cf/47/0d9fd7c2037e74a601cc5b747960d903dee296813eeec5de5f7724c8ea13/pp_project_pkg-1.0.202306231244-py3-none-any.whl
+[2023-06-23 14:50:25] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/74/4b/5f3264df30160988e74ad1d8f223469e139a6e4e42c6b3572e6795077998/django_cloudwatch_metrics-0.0.9.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [geofetch]: Downloading https://files.pythonhosted.org/packages/5d/d2/852fba2c9c07dddeb8e68c7906fdab8009ef8a8e0191d3a22c73c6b1630c/geofetch-0.8.0.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/45/16/a624063494117bfde2743925567e10204145ba057d1970d03ebf37222c77/nucliadb_contributor_assets-1.0.0.post863-py3-none-any.whl
+[2023-06-23 14:50:25] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/cf/47/0d9fd7c2037e74a601cc5b747960d903dee296813eeec5de5f7724c8ea13/pp_project_pkg-1.0.202306231244-py3-none-any.whl
+[2023-06-23 14:50:25] INFO root fetch - processPackages [idms]: executing diffoscope
+[2023-06-23 14:50:25] INFO root fetch - processPackages [idms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idms-0.1.8.tar.gz tmp/idms-0.1.9.tar.gz --markdown 20230623/i/idms/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 14:50:25] INFO root fetch - processPackages [django-cloudwatch-metrics]: executing diffoscope
+[2023-06-23 14:50:25] INFO root fetch - processPackages [django-cloudwatch-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloudwatch_metrics-0.0.8.tar.gz tmp/django_cloudwatch_metrics-0.0.9.tar.gz --markdown 20230623/d/django-cloudwatch-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 14:50:25] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/c6/37/bb0e2f42299627d7359ef8815ade68db8b1002a65e429f8f2756360780f7/nifpga_fast_fifo_recv-0.99.3.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/22/47/90df65af5c3e3947e52879c7daf7788464a87a25ffcce9bcd1519242a781/PVNet-0.1.9.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-23 14:50:25] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306231241-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306231244-py3-none-any.whl.zip --markdown 20230623/p/pp-project-pkg/1.0.202306231241-1.0.202306231244/diff.md --exclude *.pyd
+[2023-06-23 14:50:25] INFO root fetch - processPackages [eptools]: Downloading https://files.pythonhosted.org/packages/fa/3d/a9dda0e5df9ab4407b66f7235a3603f3d7468fd84a5025840317522f1adc/eptools-8.6.6.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/9d/b5/ec0c35f2a389eac19989e471003e07b4da7654f73e1fec70bb507e780581/pp_project_pkg-1.0.202306231249-py3-none-any.whl
+[2023-06-23 14:50:25] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-23 14:50:25] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.1.8.tar.gz tmp/PVNet-0.1.9.tar.gz --markdown 20230623/P/PVNet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 14:50:25] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-23 14:50:25] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post862-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post863-py3-none-any.whl.zip --markdown 20230623/n/nucliadb-contributor-assets/1.0.0.post862-1.0.0.post863/diff.md --exclude *.pyd
+[2023-06-23 14:50:25] INFO root fetch - processPackages [eptools]: executing diffoscope
+[2023-06-23 14:50:25] INFO root fetch - processPackages [eptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eptools-8.6.4.tar.gz tmp/eptools-8.6.6.tar.gz --markdown 20230623/e/eptools/8.6.4-8.6.6/diff.md --exclude *.pyd
+[2023-06-23 14:50:25] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-06-23 14:50:25] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230623/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-23 14:50:25] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/62/2f/70e9900aa7d7430391ec39b68df6e799fc9d652f82f3415d17de8ef5109f/nifpga_fast_fifo_recv-0.99.4.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [geofetch]: Downloading https://files.pythonhosted.org/packages/05/6d/8586f3f8120954e6ca0481aa0101ead33c445a34c4be496edd07b9967fa9/geofetch-0.9.0.tar.gz
+[2023-06-23 14:50:25] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-23 14:50:25] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306231244-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306231249-py3-none-any.whl.zip --markdown 20230623/p/pp-project-pkg/1.0.202306231244-1.0.202306231249/diff.md --exclude *.pyd
+[2023-06-23 14:50:25] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: executing diffoscope
+[2023-06-23 14:50:25] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifpga_fast_fifo_recv-0.99.3.tar.gz tmp/nifpga_fast_fifo_recv-0.99.4.tar.gz --markdown 20230623/n/nifpga-fast-fifo-recv/0.99.3-0.99.4/diff.md --exclude *.pyd
+[2023-06-23 14:50:25] INFO root fetch - processPackages [geofetch]: executing diffoscope
+[2023-06-23 14:50:25] INFO root fetch - processPackages [geofetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofetch-0.8.0.tar.gz tmp/geofetch-0.9.0.tar.gz --markdown 20230623/g/geofetch/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 14:50:26] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.8.tar.gz]
+[2023-06-23 14:50:26] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.9.tar.gz]
+[2023-06-23 14:50:26] INFO root fetch - processPackages [django-cloudwatch-metrics]: Start processing: lightcon
+[2023-06-23 14:50:26] INFO root fetch - main [MainThread]: End processing [django-cloudwatch-metrics]: success
+[2023-06-23 14:50:27] INFO root fetch - processPackages [lightcon]: New version: [1.4.1] Old Version: [1.3.3]
+[2023-06-23 14:50:27] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306231241-py3-none-any.whl.zip]
+[2023-06-23 14:50:27] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306231244-py3-none-any.whl.zip]
+[2023-06-23 14:50:27] INFO root fetch - processPackages [pp-project-pkg]: Start processing: acceldata-airflow-sdk
+[2023-06-23 14:50:27] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-23 14:50:27] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.1.8.tar.gz]
+[2023-06-23 14:50:27] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.1.9.tar.gz]
+[2023-06-23 14:50:27] INFO root fetch - main [MainThread]: End processing [idms]: success
+[2023-06-23 14:50:27] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.8.tar.gz]
+[2023-06-23 14:50:27] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.9.tar.gz]
+[2023-06-23 14:50:27] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-23 14:50:27] INFO root fetch - processPackages [acceldata-airflow-sdk]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-06-23 14:50:27] INFO root fetch - processPackages [lightcon]: Downloading https://files.pythonhosted.org/packages/9c/9f/31c0760703cb171c54382ecc206e656240c409500351fc008ef060b5519a/lightcon-1.3.3.tar.gz
+[2023-06-23 14:50:27] ERROR root fetch - processPackages [pp-project-pkg]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/pp_project_pkg-1.0.202306231244-py3-none-any.whl.zip does not exist
+
+[2023-06-23 14:50:27] INFO root fetch - main [MainThread]: End processing [pp-project-pkg] error
+[2023-06-23 14:50:27] INFO root fetch - processPackages [acceldata-airflow-sdk]: Downloading https://files.pythonhosted.org/packages/71/1e/1f085318be46600af5306107011243afb49ee298b91006595dc70dd45d3d/acceldata_airflow_sdk-2.6.0.tar.gz
+[2023-06-23 14:50:27] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Remove: archive file [/home/abi/fetcher/tmp/nifpga_fast_fifo_recv-0.99.3.tar.gz]
+[2023-06-23 14:50:27] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Remove: archive file [/home/abi/fetcher/tmp/nifpga_fast_fifo_recv-0.99.4.tar.gz]
+[2023-06-23 14:50:27] INFO root fetch - main [MainThread]: End processing [nifpga-fast-fifo-recv]: success
+[2023-06-23 14:50:27] INFO root fetch - processPackages [lightcon]: Downloading https://files.pythonhosted.org/packages/5f/dc/445a14a18e703c078774fd1c063257650bbb30fd1f7f3966fa639c0d57d7/lightcon-1.4.1.tar.gz
+[2023-06-23 14:50:27] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-06-23 14:50:27] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-06-23 14:50:27] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-06-23 14:50:27] INFO root fetch - processPackages [eptools]: Remove: archive file [/home/abi/fetcher/tmp/eptools-8.6.4.tar.gz]
+[2023-06-23 14:50:27] INFO root fetch - processPackages [eptools]: Remove: archive file [/home/abi/fetcher/tmp/eptools-8.6.6.tar.gz]
+[2023-06-23 14:50:27] INFO root fetch - main [MainThread]: End processing [eptools]: success
+[2023-06-23 14:50:27] INFO root fetch - processPackages [lightcon]: executing diffoscope
+[2023-06-23 14:50:27] INFO root fetch - processPackages [lightcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightcon-1.3.3.tar.gz tmp/lightcon-1.4.1.tar.gz --markdown 20230623/l/lightcon/1.3.3-1.4.1/diff.md --exclude *.pyd
+[2023-06-23 14:50:27] INFO root fetch - processPackages [acceldata-airflow-sdk]: Downloading https://files.pythonhosted.org/packages/81/55/f4bf469334dd1dafae0050b4272340ffa0abe2368e3e624fc28ab5d83a5c/acceldata_airflow_sdk-2.7.0.tar.gz
+[2023-06-23 14:50:28] INFO root fetch - processPackages [acceldata-airflow-sdk]: executing diffoscope
+[2023-06-23 14:50:28] INFO root fetch - processPackages [acceldata-airflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acceldata_airflow_sdk-2.6.0.tar.gz tmp/acceldata_airflow_sdk-2.7.0.tar.gz --markdown 20230623/a/acceldata-airflow-sdk/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-06-23 14:50:28] INFO root fetch - processPackages [geofetch]: Remove: archive file [/home/abi/fetcher/tmp/geofetch-0.8.0.tar.gz]
+[2023-06-23 14:50:28] INFO root fetch - processPackages [geofetch]: Remove: archive file [/home/abi/fetcher/tmp/geofetch-0.9.0.tar.gz]
+[2023-06-23 14:50:28] INFO root fetch - main [MainThread]: End processing [geofetch]: success
+[2023-06-23 14:50:28] INFO root fetch - processPackages [lightcon]: Remove: archive file [/home/abi/fetcher/tmp/lightcon-1.3.3.tar.gz]
+[2023-06-23 14:50:28] INFO root fetch - processPackages [lightcon]: Remove: archive file [/home/abi/fetcher/tmp/lightcon-1.4.1.tar.gz]
+[2023-06-23 14:50:28] INFO root fetch - main [MainThread]: End processing [lightcon]: success
+[2023-06-23 14:50:29] INFO root fetch - processPackages [acceldata-airflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_airflow_sdk-2.6.0.tar.gz]
+[2023-06-23 14:50:29] INFO root fetch - processPackages [acceldata-airflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_airflow_sdk-2.7.0.tar.gz]
+[2023-06-23 14:50:29] INFO root fetch - main [MainThread]: End processing [acceldata-airflow-sdk]: success
+[2023-06-23 14:50:42] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post862-py3-none-any.whl.zip]
+[2023-06-23 14:50:42] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post863-py3-none-any.whl.zip]
+[2023-06-23 14:50:42] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-23 14:50:42] INFO root fetch - main [MainThread]: Store serial: [18617981]
