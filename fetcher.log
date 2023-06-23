@@ -23362,3 +23362,155 @@ EOFError: EOF read where object expected
 [2023-06-23 17:39:30] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.18.3.tar.gz]
 [2023-06-23 17:39:30] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
 [2023-06-23 17:39:30] INFO root fetch - main [MainThread]: Store serial: [18620236]
+[2023-06-23 17:44:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18620236]
+[2023-06-23 17:44:48] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-23 17:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azureml-assets
+[2023-06-23 17:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-functions
+[2023-06-23 17:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SmartDriveML
+[2023-06-23 17:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-06-23 17:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TestAPackage
+[2023-06-23 17:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synthesized
+[2023-06-23 17:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FLUID-project-upprpo
+[2023-06-23 17:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libmozdata
+[2023-06-23 17:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djwebdapp
+[2023-06-23 17:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SmartDriveML
+[2023-06-23 17:44:48] WARNING root fetch - processPackages [TestAPackage]: Skipping, unable to determine old version
+[2023-06-23 17:44:48] INFO root fetch - processPackages [TestAPackage]: Start processing: dsws
+[2023-06-23 17:44:48] INFO root fetch - main [MainThread]: End processing [TestAPackage] error
+[2023-06-23 17:44:48] INFO root fetch - processPackages [openai-functions]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [azureml-assets]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [FLUID-project-upprpo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [SmartDriveML]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [SmartDriveML]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [djwebdapp]: New version: [1.0.0rc6] Old Version: [1.0.0rc5]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [libmozdata]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [synthesized]: New version: [2.7rc6] Old Version: [2.7rc5]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/e3/a4/c0f15a53dd0624256afa22ecf22bf645bc82b1849f50c5569a5c34a74022/synthesized-2.7rc5-cp39-cp39-win_amd64.whl
+[2023-06-23 17:44:48] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/f4/25/83752ed23acd4d1fb0d8bcae43ae58242044f0376c3616cb14a122117f0d/openai_functions-0.2.1.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [azureml-assets]: Downloading https://files.pythonhosted.org/packages/37/57/2cffca7a5941e4297afa547853625ae4dc68c6f74671e55818f776235824/azureml-assets-1.1.0.tar.gz
+[2023-06-23 17:44:48] ERROR root fetch - processPackages [SmartDriveML]: Unable to fetch info: No such project/version 'SmartDriveML' 0.0.2
+[2023-06-23 17:44:48] INFO root fetch - processPackages [SmartDriveML]: Start processing: dbt-bigquery
+[2023-06-23 17:44:48] INFO root fetch - main [MainThread]: End processing [SmartDriveML] error
+[2023-06-23 17:44:48] ERROR root fetch - processPackages [SmartDriveML]: Unable to fetch info: No such project/version 'SmartDriveML' 0.0.2
+[2023-06-23 17:44:48] INFO root fetch - processPackages [SmartDriveML]: Start processing: nonebot-plugin-maimai
+[2023-06-23 17:44:48] INFO root fetch - main [MainThread]: End processing [SmartDriveML] error
+[2023-06-23 17:44:48] INFO root fetch - processPackages [nonebot-plugin-maimai]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [dbt-bigquery]: New version: [1.6.0b4] Old Version: [1.6.0b3]
+[2023-06-23 17:44:48] INFO root fetch - processPackages [FLUID-project-upprpo]: Downloading https://files.pythonhosted.org/packages/31/81/f703bb10c037cc5d2b8b08a86bcb72bf9df77e61c7907864093e9e49d518/FLUID_project_upprpo-1.0.0.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [libmozdata]: Downloading https://files.pythonhosted.org/packages/4e/4e/d509f308e220b9854a9530a24c7c0b8c4426de5cedec286eb2a1935f7d06/libmozdata-0.2.3.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [djwebdapp]: Downloading https://files.pythonhosted.org/packages/d2/c4/d03688c3123527203f2a270e6b84902c663015b161c5f004b9a0f8d8d56f/djwebdapp-1.0.0rc5.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/05/ca/5665aa192cb516736561c62d6ac57a32d7706d9306b5068378547b277e1d/dbt-bigquery-1.6.0b3.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-06-23 17:44:48] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230623/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-23 17:44:48] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/7b/40/6e542393d567609c2b98bd596195fc0a86afee5f802115f042de257955cb/openai_functions-0.2.2.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [nonebot-plugin-maimai]: Downloading https://files.pythonhosted.org/packages/98/c5/f286a79f4daab827cb32e16b04570564a220ce9e61abb5e323a01e57f972/nonebot_plugin_maimai-0.2.0.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [azureml-assets]: Downloading https://files.pythonhosted.org/packages/ae/cd/8525b71a4e4e862fe0f06c6e1a46fa92e15b189b3e9eb7e75e79dfea7a39/azureml-assets-1.2.0.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/79/33/d5a70fd6ba175c2eb3c879ff91afe22bf6cbc88abec97c8f28d7f0d57b44/synthesized-2.7rc6-cp39-cp39-win_amd64.whl
+[2023-06-23 17:44:48] INFO root fetch - processPackages [FLUID-project-upprpo]: Downloading https://files.pythonhosted.org/packages/2d/74/980eb9969e8859bb1111b858da6b75d5d4d711bb6a9b688e22cbcdff44b3/FLUID_project_upprpo-1.0.1.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-06-23 17:44:48] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.2.1.tar.gz tmp/openai_functions-0.2.2.tar.gz --markdown 20230623/o/openai-functions/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-23 17:44:48] INFO root fetch - processPackages [libmozdata]: Downloading https://files.pythonhosted.org/packages/f0/eb/dde0c930987881b2b5dae57a6d520aada90954a2b702b24eb1aaaf9be9dd/libmozdata-0.2.4.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [azureml-assets]: executing diffoscope
+[2023-06-23 17:44:48] INFO root fetch - processPackages [azureml-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml-assets-1.1.0.tar.gz tmp/azureml-assets-1.2.0.tar.gz --markdown 20230623/a/azureml-assets/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-23 17:44:48] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/e9/64/f2a207c28dd83d23ad178413c912d46c2749ebd9989d74e36c7a9f93fc36/dbt-bigquery-1.6.0b4.tar.gz
+[2023-06-23 17:44:48] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-23 17:44:49] INFO root fetch - processPackages [FLUID-project-upprpo]: executing diffoscope
+[2023-06-23 17:44:49] INFO root fetch - processPackages [FLUID-project-upprpo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLUID_project_upprpo-1.0.0.tar.gz tmp/FLUID_project_upprpo-1.0.1.tar.gz --markdown 20230623/F/FLUID-project-upprpo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-23 17:44:49] INFO root fetch - processPackages [djwebdapp]: Downloading https://files.pythonhosted.org/packages/6e/a0/1fac84f38ca5b908dc02429a56957fa330d5892a018a5a29a811a0379d51/djwebdapp-1.0.0rc6.tar.gz
+[2023-06-23 17:44:49] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-23 17:44:49] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230623/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-23 17:44:49] INFO root fetch - processPackages [nonebot-plugin-maimai]: Downloading https://files.pythonhosted.org/packages/9f/03/20371030b2f1f9ee29c5b966a8e86c77c8337bfe882200ba58795eacb81a/nonebot_plugin_maimai-0.2.1.tar.gz
+[2023-06-23 17:44:49] INFO root fetch - processPackages [djwebdapp]: executing diffoscope
+[2023-06-23 17:44:49] INFO root fetch - processPackages [djwebdapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djwebdapp-1.0.0rc5.tar.gz tmp/djwebdapp-1.0.0rc6.tar.gz --markdown 20230623/d/djwebdapp/1.0.0rc5-1.0.0rc6/diff.md --exclude *.pyd
+[2023-06-23 17:44:49] INFO root fetch - processPackages [libmozdata]: executing diffoscope
+[2023-06-23 17:44:49] INFO root fetch - processPackages [libmozdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmozdata-0.2.3.tar.gz tmp/libmozdata-0.2.4.tar.gz --markdown 20230623/l/libmozdata/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-23 17:44:49] INFO root fetch - processPackages [dbt-bigquery]: executing diffoscope
+[2023-06-23 17:44:49] INFO root fetch - processPackages [dbt-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-bigquery-1.6.0b3.tar.gz tmp/dbt-bigquery-1.6.0b4.tar.gz --markdown 20230623/d/dbt-bigquery/1.6.0b3-1.6.0b4/diff.md --exclude *.pyd
+[2023-06-23 17:44:49] INFO root fetch - processPackages [nonebot-plugin-maimai]: executing diffoscope
+[2023-06-23 17:44:49] INFO root fetch - processPackages [nonebot-plugin-maimai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_maimai-0.2.0.tar.gz tmp/nonebot_plugin_maimai-0.2.1.tar.gz --markdown 20230623/n/nonebot-plugin-maimai/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-23 17:44:49] INFO root fetch - processPackages [synthesized]: executing diffoscope
+[2023-06-23 17:44:49] INFO root fetch - processPackages [synthesized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthesized-2.7rc5-cp39-cp39-win_amd64.whl.zip tmp/synthesized-2.7rc6-cp39-cp39-win_amd64.whl.zip --markdown 20230623/s/synthesized/2.7rc5-2.7rc6/diff.md --exclude *.pyd
+[2023-06-23 17:44:50] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [dsws]: Start processing: yandil
+[2023-06-23 17:44:50] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-06-23 17:44:50] INFO root fetch - processPackages [yandil]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/94/89/90b74035dafe17bdbdcbe1e863a31edf4c06b62a1f261810a7f967221100/yandil-0.1.2.tar.gz
+[2023-06-23 17:44:50] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/77/b2/bc1d807dadb548795ce8212510be4d4ea9e4038f54638b99b568e64f9333/yandil-0.1.3.tar.gz
+[2023-06-23 17:44:50] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.2.1.tar.gz]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.2.2.tar.gz]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [openai-functions]: Start processing: KMLPlus
+[2023-06-23 17:44:50] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-06-23 17:44:50] INFO root fetch - processPackages [yandil]: executing diffoscope
+[2023-06-23 17:44:50] INFO root fetch - processPackages [yandil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandil-0.1.2.tar.gz tmp/yandil-0.1.3.tar.gz --markdown 20230623/y/yandil/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 17:44:50] INFO root fetch - processPackages [KMLPlus]: New version: [3.0.0b5] Old Version: [3.0.0b4]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [FLUID-project-upprpo]: Remove: archive file [/home/abi/fetcher/tmp/FLUID_project_upprpo-1.0.0.tar.gz]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [FLUID-project-upprpo]: Remove: archive file [/home/abi/fetcher/tmp/FLUID_project_upprpo-1.0.1.tar.gz]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [FLUID-project-upprpo]: Start processing: SmartDriveML
+[2023-06-23 17:44:50] INFO root fetch - main [MainThread]: End processing [FLUID-project-upprpo]: success
+[2023-06-23 17:44:50] WARNING root fetch - processPackages [SmartDriveML]: Skipping, unable to determine old version
+[2023-06-23 17:44:50] INFO root fetch - processPackages [SmartDriveML]: Start processing: sqlalchemy-helpers
+[2023-06-23 17:44:50] INFO root fetch - main [MainThread]: End processing [SmartDriveML] error
+[2023-06-23 17:44:50] INFO root fetch - processPackages [azureml-assets]: Remove: archive file [/home/abi/fetcher/tmp/azureml-assets-1.1.0.tar.gz]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [azureml-assets]: Remove: archive file [/home/abi/fetcher/tmp/azureml-assets-1.2.0.tar.gz]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [azureml-assets]: Start processing: pillar1
+[2023-06-23 17:44:50] INFO root fetch - main [MainThread]: End processing [azureml-assets]: success
+[2023-06-23 17:44:50] INFO root fetch - processPackages [sqlalchemy-helpers]: New version: [0.9.0] Old Version: [0.11.0]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [pillar1]: New version: [0.1.7.8] Old Version: [0.1.7.7]
+[2023-06-23 17:44:50] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/01/d8/17b164c4323cda227399e512eeb043ab426510b79c74c0f8f7fe5612bc80/pillar1-0.1.7.7.tar.gz
+[2023-06-23 17:44:50] INFO root fetch - processPackages [KMLPlus]: Downloading https://files.pythonhosted.org/packages/a2/ec/8ceccc6369c2fb5e2db6f206d6507e918d83a1f4bc60af5d728c495e1a0e/KMLPlus-3.0.0b4.tar.gz
+[2023-06-23 17:44:50] INFO root fetch - processPackages [sqlalchemy-helpers]: Downloading https://files.pythonhosted.org/packages/9c/95/99ad0b55ef8b2314a9b8780b5e156d7161a43d766587c51bf8de02e5a26c/sqlalchemy_helpers-0.11.0.tar.gz
+[2023-06-23 17:44:51] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-23 17:44:51] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-23 17:44:51] INFO root fetch - processPackages [always-updates]: Start processing: CTkTable
+[2023-06-23 17:44:51] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-23 17:44:51] INFO root fetch - processPackages [CTkTable]: New version: [0.4] Old Version: [0.3]
+[2023-06-23 17:44:51] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/1b/51/e46fd75d1d79528e6b7698a3678cf28413fcd52a97141046feebc9124636/pillar1-0.1.7.8.tar.gz
+[2023-06-23 17:44:51] INFO root fetch - processPackages [KMLPlus]: Downloading https://files.pythonhosted.org/packages/cf/2b/1a091f906981d8bbb740a06e500772c8e7863bf6577ab3b6672d9c1b23df/KMLPlus-3.0.0b5.tar.gz
+[2023-06-23 17:44:51] INFO root fetch - processPackages [libmozdata]: Remove: archive file [/home/abi/fetcher/tmp/libmozdata-0.2.3.tar.gz]
+[2023-06-23 17:44:51] INFO root fetch - processPackages [libmozdata]: Remove: archive file [/home/abi/fetcher/tmp/libmozdata-0.2.4.tar.gz]
+[2023-06-23 17:44:51] INFO root fetch - main [MainThread]: End processing [libmozdata]: success
+[2023-06-23 17:44:51] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-23 17:44:51] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.7.7.tar.gz tmp/pillar1-0.1.7.8.tar.gz --markdown 20230623/p/pillar1/0.1.7.7-0.1.7.8/diff.md --exclude *.pyd
+[2023-06-23 17:44:51] INFO root fetch - processPackages [djwebdapp]: Remove: archive file [/home/abi/fetcher/tmp/djwebdapp-1.0.0rc5.tar.gz]
+[2023-06-23 17:44:51] INFO root fetch - processPackages [djwebdapp]: Remove: archive file [/home/abi/fetcher/tmp/djwebdapp-1.0.0rc6.tar.gz]
+[2023-06-23 17:44:51] INFO root fetch - main [MainThread]: End processing [djwebdapp]: success
+[2023-06-23 17:44:51] INFO root fetch - processPackages [CTkTable]: Downloading https://files.pythonhosted.org/packages/38/94/6a62526255a7c4f542c6176e497000abfe0c94cab9b43505f46ddb012313/CTkTable-0.3.tar.gz
+[2023-06-23 17:44:51] INFO root fetch - processPackages [KMLPlus]: executing diffoscope
+[2023-06-23 17:44:51] INFO root fetch - processPackages [KMLPlus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KMLPlus-3.0.0b4.tar.gz tmp/KMLPlus-3.0.0b5.tar.gz --markdown 20230623/K/KMLPlus/3.0.0b4-3.0.0b5/diff.md --exclude *.pyd
+[2023-06-23 17:44:51] INFO root fetch - processPackages [sqlalchemy-helpers]: Downloading https://files.pythonhosted.org/packages/22/fd/bfc538be057e076ea2a4576530e17da51552fff257e4bfaa5a772e33e8d2/sqlalchemy-helpers-0.9.0.tar.gz
+[2023-06-23 17:44:51] INFO root fetch - processPackages [CTkTable]: Downloading https://files.pythonhosted.org/packages/b2/15/e427a010f62d2d31a42517af69b4fb68d2f49108374e7df5769db7fa8dfb/CTkTable-0.4.tar.gz
+[2023-06-23 17:44:51] INFO root fetch - processPackages [sqlalchemy-helpers]: executing diffoscope
+[2023-06-23 17:44:51] INFO root fetch - processPackages [sqlalchemy-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_helpers-0.11.0.tar.gz tmp/sqlalchemy-helpers-0.9.0.tar.gz --markdown 20230623/s/sqlalchemy-helpers/0.11.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 17:44:51] INFO root fetch - processPackages [synthesized]: Remove: archive file [/home/abi/fetcher/tmp/synthesized-2.7rc5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 17:44:51] INFO root fetch - processPackages [synthesized]: Remove: archive file [/home/abi/fetcher/tmp/synthesized-2.7rc6-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 17:44:51] INFO root fetch - main [MainThread]: End processing [synthesized]: success
+[2023-06-23 17:44:51] INFO root fetch - processPackages [CTkTable]: executing diffoscope
+[2023-06-23 17:44:51] INFO root fetch - processPackages [CTkTable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTkTable-0.3.tar.gz tmp/CTkTable-0.4.tar.gz --markdown 20230623/C/CTkTable/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-23 17:44:51] INFO root fetch - processPackages [nonebot-plugin-maimai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_maimai-0.2.0.tar.gz]
+[2023-06-23 17:44:51] INFO root fetch - processPackages [nonebot-plugin-maimai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_maimai-0.2.1.tar.gz]
+[2023-06-23 17:44:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-maimai]: success
+[2023-06-23 17:44:52] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.6.0b3.tar.gz]
+[2023-06-23 17:44:52] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.6.0b4.tar.gz]
+[2023-06-23 17:44:52] INFO root fetch - main [MainThread]: End processing [dbt-bigquery]: success
+[2023-06-23 17:44:52] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.1.2.tar.gz]
+[2023-06-23 17:44:52] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.1.3.tar.gz]
+[2023-06-23 17:44:52] INFO root fetch - main [MainThread]: End processing [yandil]: success
+[2023-06-23 17:44:52] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.7.tar.gz]
+[2023-06-23 17:44:52] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.8.tar.gz]
+[2023-06-23 17:44:52] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-23 17:44:52] INFO root fetch - processPackages [KMLPlus]: Remove: archive file [/home/abi/fetcher/tmp/KMLPlus-3.0.0b4.tar.gz]
+[2023-06-23 17:44:52] INFO root fetch - processPackages [KMLPlus]: Remove: archive file [/home/abi/fetcher/tmp/KMLPlus-3.0.0b5.tar.gz]
+[2023-06-23 17:44:52] INFO root fetch - main [MainThread]: End processing [KMLPlus]: success
+[2023-06-23 17:44:53] INFO root fetch - processPackages [CTkTable]: Remove: archive file [/home/abi/fetcher/tmp/CTkTable-0.3.tar.gz]
+[2023-06-23 17:44:53] INFO root fetch - processPackages [CTkTable]: Remove: archive file [/home/abi/fetcher/tmp/CTkTable-0.4.tar.gz]
+[2023-06-23 17:44:53] INFO root fetch - main [MainThread]: End processing [CTkTable]: success
+[2023-06-23 17:44:53] INFO root fetch - processPackages [sqlalchemy-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_helpers-0.11.0.tar.gz]
+[2023-06-23 17:44:53] INFO root fetch - processPackages [sqlalchemy-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-helpers-0.9.0.tar.gz]
+[2023-06-23 17:44:53] INFO root fetch - main [MainThread]: End processing [sqlalchemy-helpers]: success
+[2023-06-23 17:44:53] INFO root fetch - main [MainThread]: Store serial: [18620341]
