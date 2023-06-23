@@ -8484,3 +8484,24 @@
 [2023-06-23 06:21:25] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev4-py3-none-any.whl.zip]
 [2023-06-23 06:21:25] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-sale-inter-company]: success
 [2023-06-23 06:21:25] INFO root fetch - main [MainThread]: Store serial: [18614026]
+[2023-06-23 06:26:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614026]
+[2023-06-23 06:26:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-23 06:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kelvin-rest-api-client
+[2023-06-23 06:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: re2shield
+[2023-06-23 06:26:34] INFO root fetch - processPackages [kelvin-rest-api-client]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-06-23 06:26:34] INFO root fetch - processPackages [re2shield]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-23 06:26:35] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/ae/fb/b6d0eca087d0474e5d5bf6232798dfbdf5fbc8e16361df424bd91dc9d53d/re2shield-0.1.6.tar.gz
+[2023-06-23 06:26:35] INFO root fetch - processPackages [kelvin-rest-api-client]: Downloading https://files.pythonhosted.org/packages/65/9c/1362d12934dcfd701c098ff3904bcd0bb21f4d095538dfd0a2a171f1e5a4/kelvin-rest-api-client-2.2.2.tar.gz
+[2023-06-23 06:26:35] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/10/aa/338a064eaea9531acf3e2621988255168238865a2d8d2381e42d381e8f4f/re2shield-0.1.7.tar.gz
+[2023-06-23 06:26:35] INFO root fetch - processPackages [re2shield]: executing diffoscope
+[2023-06-23 06:26:35] INFO root fetch - processPackages [re2shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re2shield-0.1.6.tar.gz tmp/re2shield-0.1.7.tar.gz --markdown 20230623/r/re2shield/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-23 06:26:35] INFO root fetch - processPackages [kelvin-rest-api-client]: Downloading https://files.pythonhosted.org/packages/ac/d4/cc4bcbf857bcb2d51e5380f4762c0ca76aef85e5696c61a7d9f0ed1a5095/kelvin-rest-api-client-2.2.3.tar.gz
+[2023-06-23 06:26:35] INFO root fetch - processPackages [kelvin-rest-api-client]: executing diffoscope
+[2023-06-23 06:26:35] INFO root fetch - processPackages [kelvin-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelvin-rest-api-client-2.2.2.tar.gz tmp/kelvin-rest-api-client-2.2.3.tar.gz --markdown 20230623/k/kelvin-rest-api-client/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-06-23 06:26:36] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.6.tar.gz]
+[2023-06-23 06:26:36] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.7.tar.gz]
+[2023-06-23 06:26:36] INFO root fetch - main [MainThread]: End processing [re2shield]: success
+[2023-06-23 06:26:36] INFO root fetch - processPackages [kelvin-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/kelvin-rest-api-client-2.2.2.tar.gz]
+[2023-06-23 06:26:36] INFO root fetch - processPackages [kelvin-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/kelvin-rest-api-client-2.2.3.tar.gz]
+[2023-06-23 06:26:36] INFO root fetch - main [MainThread]: End processing [kelvin-rest-api-client]: success
+[2023-06-23 06:26:36] INFO root fetch - main [MainThread]: Store serial: [18614041]
