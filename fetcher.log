@@ -3282,3 +3282,39 @@
 [2023-06-23 03:27:17] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-06-23 03:27:17] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-06-23 03:27:17] INFO root fetch - main [MainThread]: Store serial: [18612191]
+[2023-06-23 03:32:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18612191]
+[2023-06-23 03:32:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-23 03:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s2and
+[2023-06-23 03:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osint-python-starter-service
+[2023-06-23 03:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KergaAI
+[2023-06-23 03:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udmp-parser
+[2023-06-23 03:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-subminute
+[2023-06-23 03:32:26] WARNING root fetch - processPackages [udmp-parser]: Skipping, unable to determine old version
+[2023-06-23 03:32:26] INFO root fetch - main [MainThread]: End processing [udmp-parser] error
+[2023-06-23 03:32:26] INFO root fetch - processPackages [osint-python-starter-service]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-23 03:32:26] INFO root fetch - processPackages [s2and]: New version: [0.23] Old Version: [0.22]
+[2023-06-23 03:32:26] WARNING root fetch - processPackages [KergaAI]: Skipping, unable to determine old version
+[2023-06-23 03:32:26] INFO root fetch - main [MainThread]: End processing [KergaAI] error
+[2023-06-23 03:32:26] INFO root fetch - processPackages [s2and]: Downloading https://files.pythonhosted.org/packages/05/4a/53a32f7485474b44840a0bf38c25b43719ff5b9b632cd46d4d6b018d4eda/s2and-0.22.tar.gz
+[2023-06-23 03:32:26] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-23 03:32:26] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-23 03:32:26] INFO root fetch - processPackages [osint-python-starter-service]: Downloading https://files.pythonhosted.org/packages/66/9d/d400d4095f3acfba7b34ca7ecf322e1bbd6761c51e6fe72d285010feb3aa/osint-python-starter-service-2.1.1.tar.gz
+[2023-06-23 03:32:26] INFO root fetch - processPackages [s2and]: Downloading https://files.pythonhosted.org/packages/aa/48/c12faa77cadcfaf092b0d4ab4847c839a31ca79ae065ff55f49b12f95f87/s2and-0.23.tar.gz
+[2023-06-23 03:32:27] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-23 03:32:27] INFO root fetch - processPackages [s2and]: executing diffoscope
+[2023-06-23 03:32:27] INFO root fetch - processPackages [s2and]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2and-0.22.tar.gz tmp/s2and-0.23.tar.gz --markdown 20230623/s/s2and/0.22-0.23/diff.md --exclude *.pyd
+[2023-06-23 03:32:27] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-23 03:32:27] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230623/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-23 03:32:27] INFO root fetch - processPackages [osint-python-starter-service]: Downloading https://files.pythonhosted.org/packages/0c/2f/3a22ceb43f4b155a1f12312b6d4155717856ff3e4ce531af16120fac523c/osint-python-starter-service-2.2.0.tar.gz
+[2023-06-23 03:32:27] INFO root fetch - processPackages [osint-python-starter-service]: executing diffoscope
+[2023-06-23 03:32:27] INFO root fetch - processPackages [osint-python-starter-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osint-python-starter-service-2.1.1.tar.gz tmp/osint-python-starter-service-2.2.0.tar.gz --markdown 20230623/o/osint-python-starter-service/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-23 03:32:28] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-23 03:32:28] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-23 03:32:28] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-23 03:32:28] INFO root fetch - processPackages [osint-python-starter-service]: Remove: archive file [/home/abi/fetcher/tmp/osint-python-starter-service-2.1.1.tar.gz]
+[2023-06-23 03:32:28] INFO root fetch - processPackages [osint-python-starter-service]: Remove: archive file [/home/abi/fetcher/tmp/osint-python-starter-service-2.2.0.tar.gz]
+[2023-06-23 03:32:28] INFO root fetch - main [MainThread]: End processing [osint-python-starter-service]: success
+[2023-06-23 03:33:21] INFO root fetch - processPackages [s2and]: Remove: archive file [/home/abi/fetcher/tmp/s2and-0.22.tar.gz]
+[2023-06-23 03:33:21] INFO root fetch - processPackages [s2and]: Remove: archive file [/home/abi/fetcher/tmp/s2and-0.23.tar.gz]
+[2023-06-23 03:33:21] INFO root fetch - main [MainThread]: End processing [s2and]: success
+[2023-06-23 03:33:21] INFO root fetch - main [MainThread]: Store serial: [18612211]
