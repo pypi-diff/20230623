@@ -19944,3 +19944,107 @@ EOFError: EOF read where object expected
 [2023-06-23 15:55:02] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306231351.tar.gz]
 [2023-06-23 15:55:02] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-06-23 15:55:02] INFO root fetch - main [MainThread]: Store serial: [18618756]
+[2023-06-23 16:00:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18618756]
+[2023-06-23 16:00:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-23 16:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensordict-nightly
+[2023-06-23 16:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-snapshot-analysis
+[2023-06-23 16:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluecast
+[2023-06-23 16:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remlalib
+[2023-06-23 16:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo11-addon-pos-cashier-login
+[2023-06-23 16:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finops
+[2023-06-23 16:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grpcrest
+[2023-06-23 16:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandasai
+[2023-06-23 16:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-snapshot-analysis
+[2023-06-23 16:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meilisearch-tui
+[2023-06-23 16:00:12] INFO root fetch - processPackages [bluecast]: New version: [0.3] Old Version: [0.2]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [finops]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [pandasai]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [meilisearch-tui]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [remlalib]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [grpcrest]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [dbt-snapshot-analysis]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [odoo11-addon-pos-cashier-login]: New version: [11.0.0.1.2] Old Version: [11.0.0.1.1]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [dbt-snapshot-analysis]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [grpcrest]: Downloading https://files.pythonhosted.org/packages/99/01/f8075a5fd0069f8ba9f50d434bbe41a539e8b8c58a7f891d1ba643113602/grpcrest-0.8.tar.gz
+[2023-06-23 16:00:12] WARNING root fetch - processPackages [grpcrest]: Skipping package: exceeds size limit 21180887>=10485760
+[2023-06-23 16:00:12] INFO root fetch - processPackages [grpcrest]: Start processing: erpbrasil.edoc
+[2023-06-23 16:00:12] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-23 16:00:12] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/1c/53/331386b26c29072cd96c382bfe40d79d80d15a4809827d63625817af2010/bluecast-0.2.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/0c/87/b462b6a351486139ca8d69bb083048dfa97f7c3bd5a1af25bb4b919af1c4/finops-0.1.2.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/cf/47/0f3c68988b84d117dab0a7ee2dd7567ff07eaf7b981cd49ab21140ca5fa0/pandasai-0.6.2.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [meilisearch-tui]: Downloading https://files.pythonhosted.org/packages/cc/ec/1cfafc876bd6aa68ef50cc55efb15242861ec6afb5f77cb8b0d07783d9df/meilisearch_tui-0.7.4.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/52/9f/40b84db4b8623e42164b6b118b6230286f7dc5e856d600d96149adeb8c51/dbt_snapshot_analysis-0.2.2.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/52/9f/40b84db4b8623e42164b6b118b6230286f7dc5e856d600d96149adeb8c51/dbt_snapshot_analysis-0.2.2.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [odoo11-addon-pos-cashier-login]: Downloading https://files.pythonhosted.org/packages/99/67/b72a0cedd928280c6bea3653f0e3f27f30c9a36543a01574e682a938bc17/odoo11_addon_pos_cashier_login-11.0.0.1.1-py2.py3-none-any.whl
+[2023-06-23 16:00:12] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/ff/30/b32844a10951d90914392dfbcca8636b98e17cce1cde26587f3389a428a0/tensordict_nightly-2023.6.7-py39-none-any.whl
+[2023-06-23 16:00:12] INFO root fetch - processPackages [remlalib]: Downloading https://files.pythonhosted.org/packages/05/15/be2a485f491ef00e6471a73a9aee00a9eafac9def9b3677ef520cde27750/remlalib-1.1.5.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [erpbrasil.edoc]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-06-23 16:00:12] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/7a/2d/66c0f809b6e2f25aa4103e41c08c8b5885dc705f71a86b08b29a438a107e/finops-0.1.3.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/c8/73/79fe333ce9e13f2ad979a04d3ab7e2ed718a76640f8265a145c278164c46/bluecast-0.3.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [meilisearch-tui]: Downloading https://files.pythonhosted.org/packages/b5/97/d060d03c50ce17b96a9c096d7bcce1a9ff73bb273dd9bb8573991ae24285/meilisearch_tui-0.8.0.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/c2/16/cb1e32cb9df4e01b12472b619d0295c99f9fedebc2babb9a03864e927019/pandasai-0.6.3.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [erpbrasil.edoc]: Downloading https://files.pythonhosted.org/packages/c2/f5/a6dbe3eacbfd9431eeb6a3534a4c37eb0f04afbe56719c470bddb551d763/erpbrasil.edoc-2.3.1.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [odoo11-addon-pos-cashier-login]: Downloading https://files.pythonhosted.org/packages/42/0a/f0382e206b6702d9eaa5e2824210cde3e469af47548b5302d5bc97968ce0/odoo11_addon_pos_cashier_login-11.0.0.1.2-py2.py3-none-any.whl
+[2023-06-23 16:00:12] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/94/fd/8d513de13c5b6da70a26ef219ae4d25d695555ef96ad00308815c4ee7396/dbt_snapshot_analysis-0.2.3.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/94/fd/8d513de13c5b6da70a26ef219ae4d25d695555ef96ad00308815c4ee7396/dbt_snapshot_analysis-0.2.3.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/39/f4/a81f434361c103e23a2a4dee883bb30ca7b9f26526ad7913607e5a271158/tensordict_nightly-2023.6.8-py39-none-any.whl
+[2023-06-23 16:00:12] INFO root fetch - processPackages [finops]: executing diffoscope
+[2023-06-23 16:00:12] INFO root fetch - processPackages [finops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finops-0.1.2.tar.gz tmp/finops-0.1.3.tar.gz --markdown 20230623/f/finops/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 16:00:12] INFO root fetch - processPackages [remlalib]: Downloading https://files.pythonhosted.org/packages/bf/40/fc61476420b5c891dfd2609549261ef660e029d174eca148147a31e59a9f/remlalib-1.1.6.tar.gz
+[2023-06-23 16:00:12] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2023-06-23 16:00:12] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-0.2.tar.gz tmp/bluecast-0.3.tar.gz --markdown 20230623/b/bluecast/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-23 16:00:12] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-23 16:00:12] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.2.tar.gz tmp/pandasai-0.6.3.tar.gz --markdown 20230623/p/pandasai/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-23 16:00:12] INFO root fetch - processPackages [meilisearch-tui]: executing diffoscope
+[2023-06-23 16:00:12] INFO root fetch - processPackages [meilisearch-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_tui-0.7.4.tar.gz tmp/meilisearch_tui-0.8.0.tar.gz --markdown 20230623/m/meilisearch-tui/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-06-23 16:00:12] INFO root fetch - processPackages [remlalib]: executing diffoscope
+[2023-06-23 16:00:12] INFO root fetch - processPackages [remlalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remlalib-1.1.5.tar.gz tmp/remlalib-1.1.6.tar.gz --markdown 20230623/r/remlalib/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-23 16:00:13] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-23 16:00:13] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip --markdown 20230623/t/tensordict-nightly/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-23 16:00:13] INFO root fetch - processPackages [odoo11-addon-pos-cashier-login]: executing diffoscope
+[2023-06-23 16:00:13] INFO root fetch - processPackages [odoo11-addon-pos-cashier-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_pos_cashier_login-11.0.0.1.1-py2.py3-none-any.whl.zip tmp/odoo11_addon_pos_cashier_login-11.0.0.1.2-py2.py3-none-any.whl.zip --markdown 20230623/o/odoo11-addon-pos-cashier-login/11.0.0.1.1-11.0.0.1.2/diff.md --exclude *.pyd
+[2023-06-23 16:00:13] INFO root fetch - processPackages [dbt-snapshot-analysis]: executing diffoscope
+[2023-06-23 16:00:13] INFO root fetch - processPackages [dbt-snapshot-analysis]: executing diffoscope
+[2023-06-23 16:00:13] INFO root fetch - processPackages [dbt-snapshot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snapshot_analysis-0.2.2.tar.gz tmp/dbt_snapshot_analysis-0.2.3.tar.gz --markdown 20230623/d/dbt-snapshot-analysis/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-23 16:00:13] INFO root fetch - processPackages [dbt-snapshot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snapshot_analysis-0.2.2.tar.gz tmp/dbt_snapshot_analysis-0.2.3.tar.gz --markdown 20230623/d/dbt-snapshot-analysis/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-23 16:00:13] INFO root fetch - processPackages [erpbrasil.edoc]: Downloading https://files.pythonhosted.org/packages/96/ac/773c8a26472dcdc62308c0f3b335b7dd2831858d09b0ad24f0c98b148873/erpbrasil.edoc-2.4.0.tar.gz
+[2023-06-23 16:00:13] INFO root fetch - processPackages [erpbrasil.edoc]: executing diffoscope
+[2023-06-23 16:00:13] INFO root fetch - processPackages [erpbrasil.edoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erpbrasil.edoc-2.3.1.tar.gz tmp/erpbrasil.edoc-2.4.0.tar.gz --markdown 20230623/e/erpbrasil.edoc/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-06-23 16:00:14] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.1.2.tar.gz]
+[2023-06-23 16:00:14] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.1.3.tar.gz]
+[2023-06-23 16:00:14] INFO root fetch - processPackages [finops]: Start processing: remlalib
+[2023-06-23 16:00:14] INFO root fetch - main [MainThread]: End processing [finops]: success
+[2023-06-23 16:00:14] INFO root fetch - processPackages [remlalib]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-23 16:00:14] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.2.tar.gz]
+[2023-06-23 16:00:14] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.3.tar.gz]
+[2023-06-23 16:00:14] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-23 16:00:14] INFO root fetch - processPackages [remlalib]: Downloading https://files.pythonhosted.org/packages/ce/18/a97b288f136d808d85a2423c923df17d11365f28c4ce81742b33670e73c1/remlalib-1.1.7.tar.gz
+[2023-06-23 16:00:14] INFO root fetch - processPackages [remlalib]: executing diffoscope
+[2023-06-23 16:00:14] INFO root fetch - processPackages [remlalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remlalib-1.1.6.tar.gz tmp/remlalib-1.1.7.tar.gz --markdown 20230623/r/remlalib/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-23 16:00:14] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip]
+[2023-06-23 16:00:14] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-23 16:00:14] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-23 16:00:14] INFO root fetch - processPackages [remlalib]: Remove: archive file [/home/abi/fetcher/tmp/remlalib-1.1.5.tar.gz]
+[2023-06-23 16:00:14] INFO root fetch - processPackages [remlalib]: Remove: archive file [/home/abi/fetcher/tmp/remlalib-1.1.6.tar.gz]
+[2023-06-23 16:00:14] INFO root fetch - main [MainThread]: End processing [remlalib]: success
+[2023-06-23 16:00:15] INFO root fetch - processPackages [meilisearch-tui]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_tui-0.7.4.tar.gz]
+[2023-06-23 16:00:15] INFO root fetch - processPackages [meilisearch-tui]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_tui-0.8.0.tar.gz]
+[2023-06-23 16:00:15] INFO root fetch - main [MainThread]: End processing [meilisearch-tui]: success
+[2023-06-23 16:00:15] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.2.tar.gz]
+[2023-06-23 16:00:15] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.3.tar.gz]
+[2023-06-23 16:00:15] INFO root fetch - main [MainThread]: End processing [dbt-snapshot-analysis]: success
+[2023-06-23 16:00:15] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.2.tar.gz]
+[2023-06-23 16:00:15] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.3.tar.gz]
+[2023-06-23 16:00:15] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2023-06-23 16:00:15] INFO root fetch - processPackages [odoo11-addon-pos-cashier-login]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_pos_cashier_login-11.0.0.1.1-py2.py3-none-any.whl.zip]
+[2023-06-23 16:00:15] INFO root fetch - processPackages [odoo11-addon-pos-cashier-login]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_pos_cashier_login-11.0.0.1.2-py2.py3-none-any.whl.zip]
+[2023-06-23 16:00:15] INFO root fetch - main [MainThread]: End processing [odoo11-addon-pos-cashier-login]: success
+[2023-06-23 16:00:15] INFO root fetch - main [MainThread]: End processing [dbt-snapshot-analysis]: success
+[2023-06-23 16:00:15] INFO root fetch - processPackages [erpbrasil.edoc]: Remove: archive file [/home/abi/fetcher/tmp/erpbrasil.edoc-2.3.1.tar.gz]
+[2023-06-23 16:00:15] INFO root fetch - processPackages [erpbrasil.edoc]: Remove: archive file [/home/abi/fetcher/tmp/erpbrasil.edoc-2.4.0.tar.gz]
+[2023-06-23 16:00:15] INFO root fetch - main [MainThread]: End processing [erpbrasil.edoc]: success
+[2023-06-23 16:00:16] ERROR root fetch - processPackages [remlalib]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/remlalib-1.1.6.tar.gz: No such file or directory
+
+[2023-06-23 16:00:16] INFO root fetch - main [MainThread]: End processing [remlalib] error
+[2023-06-23 16:00:16] INFO root fetch - main [MainThread]: Store serial: [18618797]
