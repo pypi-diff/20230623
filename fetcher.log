@@ -21416,3 +21416,63 @@ EOFError: EOF read where object expected
 [2023-06-23 16:54:38] INFO root fetch - processPackages [idtrackerai]: Remove: archive file [/home/abi/fetcher/tmp/idtrackerai-5.1.6.tar.gz]
 [2023-06-23 16:54:38] INFO root fetch - main [MainThread]: End processing [idtrackerai]: success
 [2023-06-23 16:54:38] INFO root fetch - main [MainThread]: Store serial: [18619351]
+[2023-06-23 16:59:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18619351]
+[2023-06-23 16:59:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 16:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crispr-ambiguous-mapping
+[2023-06-23 16:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillar1
+[2023-06-23 16:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capsula
+[2023-06-23 16:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: claimer
+[2023-06-23 16:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meshed
+[2023-06-23 16:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-functions
+[2023-06-23 16:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coshiota
+[2023-06-23 16:59:47] INFO root fetch - processPackages [pillar1]: New version: [0.1.7.5] Old Version: [0.1.7.4]
+[2023-06-23 16:59:47] INFO root fetch - processPackages [openai-functions]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-23 16:59:47] INFO root fetch - processPackages [crispr-ambiguous-mapping]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 16:59:47] INFO root fetch - processPackages [coshiota]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 16:59:47] WARNING root fetch - processPackages [capsula]: Skipping, unable to determine old version
+[2023-06-23 16:59:47] INFO root fetch - processPackages [claimer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-23 16:59:47] INFO root fetch - main [MainThread]: End processing [capsula] error
+[2023-06-23 16:59:47] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-23 16:59:47] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Downloading https://files.pythonhosted.org/packages/12/ad/f34d1f237b39929980cd5deecc3b434c716acb36e405f9fbe4b7821237b2/crispr_ambiguous_mapping-0.0.8.tar.gz
+[2023-06-23 16:59:47] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/b7/c2/0c97e6805599a7a6a6c404fdb1e1ed3969705591c7104319ab08c06ccd2f/openai_functions-0.1.3.tar.gz
+[2023-06-23 16:59:47] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/f4/11/e7ebd604e36dc69a0b452aadd09ad3e2a651290f4b4832dbaf2ece6834f5/pillar1-0.1.7.4.tar.gz
+[2023-06-23 16:59:47] INFO root fetch - processPackages [claimer]: Downloading https://files.pythonhosted.org/packages/84/ed/a6d06fcbba2b2adc64a056907d2f738136f0a00f8e2c48683775527ed021/claimer-0.0.1.tar.gz
+[2023-06-23 16:59:48] INFO root fetch - processPackages [coshiota]: Downloading https://files.pythonhosted.org/packages/88/aa/5e9ec7ec775c7882db6e84712b18915f992ec50c33249a5e53d4801e30d8/coshiota-0.0.5.tar.gz
+[2023-06-23 16:59:48] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/ec/66/ec18e469de7a31199ec17594f774aa629498f1f4b963deea16117918bef2/meshed-0.1.98.tar.gz
+[2023-06-23 16:59:48] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Downloading https://files.pythonhosted.org/packages/8c/37/7c922970e1637790fde9b16efadc57abfe5445977e8938dc8e695aeca492/crispr_ambiguous_mapping-0.0.9.tar.gz
+[2023-06-23 16:59:48] INFO root fetch - processPackages [crispr-ambiguous-mapping]: executing diffoscope
+[2023-06-23 16:59:48] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/7f/1a/92f946acca794ebce4b1093a25d39cda0d62d2d59d943a8c1e0e9b489197/pillar1-0.1.7.5.tar.gz
+[2023-06-23 16:59:48] INFO root fetch - processPackages [crispr-ambiguous-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_ambiguous_mapping-0.0.8.tar.gz tmp/crispr_ambiguous_mapping-0.0.9.tar.gz --markdown 20230623/c/crispr-ambiguous-mapping/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 16:59:48] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/f9/f0/e607cb164d0e41e7248d899092c36741c72bf070581c60be02d9728c0ee9/openai_functions-0.2.0.tar.gz
+[2023-06-23 16:59:48] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-23 16:59:48] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.7.4.tar.gz tmp/pillar1-0.1.7.5.tar.gz --markdown 20230623/p/pillar1/0.1.7.4-0.1.7.5/diff.md --exclude *.pyd
+[2023-06-23 16:59:48] INFO root fetch - processPackages [claimer]: Downloading https://files.pythonhosted.org/packages/0b/75/11c470ae30b5100fb55e3ea32043fdd79d04a26ecb145658fda40d4e33e7/claimer-0.0.2.tar.gz
+[2023-06-23 16:59:48] INFO root fetch - processPackages [coshiota]: Downloading https://files.pythonhosted.org/packages/00/ef/8c18c5a2bf79438796d37f5f05583061236923aa43ba27aa650748c57760/coshiota-0.0.6.tar.gz
+[2023-06-23 16:59:48] INFO root fetch - processPackages [claimer]: executing diffoscope
+[2023-06-23 16:59:48] INFO root fetch - processPackages [claimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claimer-0.0.1.tar.gz tmp/claimer-0.0.2.tar.gz --markdown 20230623/c/claimer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 16:59:48] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-06-23 16:59:48] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.1.3.tar.gz tmp/openai_functions-0.2.0.tar.gz --markdown 20230623/o/openai-functions/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-23 16:59:48] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/52/c3/21e2c03ab6607bd25fb9f6efb994798b3e75db906daf491bf961ee733450/meshed-0.1.99.tar.gz
+[2023-06-23 16:59:48] INFO root fetch - processPackages [coshiota]: executing diffoscope
+[2023-06-23 16:59:48] INFO root fetch - processPackages [coshiota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coshiota-0.0.5.tar.gz tmp/coshiota-0.0.6.tar.gz --markdown 20230623/c/coshiota/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 16:59:48] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-06-23 16:59:48] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230623/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-23 16:59:49] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.4.tar.gz]
+[2023-06-23 16:59:49] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.5.tar.gz]
+[2023-06-23 16:59:49] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-23 16:59:49] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Remove: archive file [/home/abi/fetcher/tmp/crispr_ambiguous_mapping-0.0.8.tar.gz]
+[2023-06-23 16:59:49] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Remove: archive file [/home/abi/fetcher/tmp/crispr_ambiguous_mapping-0.0.9.tar.gz]
+[2023-06-23 16:59:49] INFO root fetch - main [MainThread]: End processing [crispr-ambiguous-mapping]: success
+[2023-06-23 16:59:49] INFO root fetch - processPackages [claimer]: Remove: archive file [/home/abi/fetcher/tmp/claimer-0.0.1.tar.gz]
+[2023-06-23 16:59:49] INFO root fetch - processPackages [claimer]: Remove: archive file [/home/abi/fetcher/tmp/claimer-0.0.2.tar.gz]
+[2023-06-23 16:59:49] INFO root fetch - main [MainThread]: End processing [claimer]: success
+[2023-06-23 16:59:49] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.1.3.tar.gz]
+[2023-06-23 16:59:49] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.2.0.tar.gz]
+[2023-06-23 16:59:49] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-06-23 16:59:49] INFO root fetch - processPackages [coshiota]: Remove: archive file [/home/abi/fetcher/tmp/coshiota-0.0.5.tar.gz]
+[2023-06-23 16:59:49] INFO root fetch - processPackages [coshiota]: Remove: archive file [/home/abi/fetcher/tmp/coshiota-0.0.6.tar.gz]
+[2023-06-23 16:59:49] INFO root fetch - main [MainThread]: End processing [coshiota]: success
+[2023-06-23 16:59:50] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.98.tar.gz]
+[2023-06-23 16:59:50] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.99.tar.gz]
+[2023-06-23 16:59:50] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-06-23 16:59:50] INFO root fetch - main [MainThread]: Store serial: [18619393]
