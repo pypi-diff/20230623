@@ -1646,3 +1646,170 @@
 [2023-06-23 02:06:06] INFO root fetch - processPackages [wozoxutils]: Remove: archive file [/home/abi/fetcher/tmp/wozoxutils-0.2.6.tar.gz]
 [2023-06-23 02:06:06] INFO root fetch - main [MainThread]: End processing [wozoxutils]: success
 [2023-06-23 02:06:06] INFO root fetch - main [MainThread]: Store serial: [18611547]
+[2023-06-23 02:11:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611547]
+[2023-06-23 02:11:15] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trulens-eval
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trulens-eval
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: srsinst.uga
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fb-python-sdk
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-compiler-opt
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metrics-layer
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-compiler-opt
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-aws-discord-notifiers
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiCode
+[2023-06-23 02:11:15] INFO root fetch - processPackages [trulens-eval]: New version: [0.3.0rc0] Old Version: [0.3.0b0]
+[2023-06-23 02:11:15] INFO root fetch - processPackages [srsinst.uga]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-23 02:11:15] INFO root fetch - processPackages [fb-python-sdk]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202306230008] Old Version: [0.0.1.dev202306230007]
+[2023-06-23 02:11:15] INFO root fetch - processPackages [metrics-layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202306230008] Old Version: [0.0.1.dev202306230007]
+[2023-06-23 02:11:15] WARNING root fetch - processPackages [aiCode]: Skipping, unable to determine old version
+[2023-06-23 02:11:15] INFO root fetch - processPackages [trulens-eval]: New version: [0.3.0rc0] Old Version: [0.3.0b0]
+[2023-06-23 02:11:15] INFO root fetch - processPackages [aiCode]: Start processing: torchlayers-nightly
+[2023-06-23 02:11:15] INFO root fetch - main [MainThread]: End processing [aiCode] error
+[2023-06-23 02:11:15] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230622] Old Version: [0.0.8.dev20230621]
+[2023-06-23 02:11:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 02:11:15] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1687478935] Old Version: [1687392478]
+[2023-06-23 02:11:15] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c7/03/726b619e5986e64582e6437aa978f16eec32e58d01b4a2b2bf8cc6eb80cb/jaxutils-nightly-0.0.8.dev20230621.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/d7/54/db89c8fbfbd03ff428191b9ce0c95319438ee853c436e66e5a7b23e5867c/ml-compiler-opt-0.0.1.dev202306230007.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [srsinst.uga]: Downloading https://files.pythonhosted.org/packages/0d/f8/365e57a93abe0364a34361e850ca12c075f374e8e2db621fff6116e64ac7/srsinst.uga-0.0.5.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/d7/54/db89c8fbfbd03ff428191b9ce0c95319438ee853c436e66e5a7b23e5867c/ml-compiler-opt-0.0.1.dev202306230007.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/c9/03/2a143a099937fab6abe33ca0037cc2fc2c4c2212e5cc9fa68853355feb88/trulens_eval-0.3.0b0-py3-none-any.whl
+[2023-06-23 02:11:15] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/c9/03/2a143a099937fab6abe33ca0037cc2fc2c4c2212e5cc9fa68853355feb88/trulens_eval-0.3.0b0-py3-none-any.whl
+[2023-06-23 02:11:15] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/ef/f8/d0dba4f3305d9cee88fa2651e0af12a19081a7829a00f06d6fed17f12200/jaxutils-nightly-0.0.8.dev20230622.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [fb-python-sdk]: Downloading https://files.pythonhosted.org/packages/b1/c5/2a833856522efc4f349ab9af3f7bb5a12966f6d4715d4bdde17b3bb1cbd3/fb-python-sdk-1.1.3.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/e3/96/ffe97c8f1955d7a1b32ae5f326f40d21961b80e0d429c3073ab30f4e1b83/torchlayers-nightly-1687392478.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-23 02:11:15] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230621.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230622.tar.gz --markdown 20230623/j/jaxutils-nightly/0.0.8.dev20230621-0.0.8.dev20230622/diff.md --exclude *.pyd
+[2023-06-23 02:11:15] INFO root fetch - processPackages [srsinst.uga]: Downloading https://files.pythonhosted.org/packages/8f/d4/dbd20117f1c01018d73553e5f1eae908d2df2ec8f4210bcbe72974591323/srsinst.uga-0.1.0.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/f2/fb/8b7c83241709dc499aa43cddacc0f9eba8378e4e0f89e861d052c14ae40c/trulens_eval-0.3.0rc0-py3-none-any.whl
+[2023-06-23 02:11:15] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/f2/fb/8b7c83241709dc499aa43cddacc0f9eba8378e4e0f89e861d052c14ae40c/trulens_eval-0.3.0rc0-py3-none-any.whl
+[2023-06-23 02:11:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-23 02:11:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230623/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 02:11:15] INFO root fetch - processPackages [srsinst.uga]: executing diffoscope
+[2023-06-23 02:11:15] INFO root fetch - processPackages [srsinst.uga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srsinst.uga-0.0.5.tar.gz tmp/srsinst.uga-0.1.0.tar.gz --markdown 20230623/s/srsinst.uga/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/77/9a/6656ff511b133674523b1f4158b2fada4adcc4f219d4dd42196a4a5f1a89/ml_compiler_opt-0.0.1.dev202306230008-py3-none-any.whl
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/77/9a/6656ff511b133674523b1f4158b2fada4adcc4f219d4dd42196a4a5f1a89/ml_compiler_opt-0.0.1.dev202306230008-py3-none-any.whl
+[2023-06-23 02:11:15] INFO root fetch - processPackages [fb-python-sdk]: Downloading https://files.pythonhosted.org/packages/e3/04/584e5bc036b7192af25394cd60dd0dd697aa3b6c332b8c6f5015e7c864f2/fb-python-sdk-1.1.4.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [fb-python-sdk]: executing diffoscope
+[2023-06-23 02:11:15] INFO root fetch - processPackages [fb-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb-python-sdk-1.1.3.tar.gz tmp/fb-python-sdk-1.1.4.tar.gz --markdown 20230623/f/fb-python-sdk/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-23 02:11:15] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/58/18/941fb5a3984d3849942389504483dc46b2b49ded6011f9796e0128cfda7f/torchlayers-nightly-1687478935.tar.gz
+[2023-06-23 02:11:15] INFO root fetch - processPackages [metrics-layer]: executing diffoscope
+[2023-06-23 02:11:15] INFO root fetch - processPackages [metrics-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20230623/m/metrics-layer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 02:11:15] INFO root fetch - processPackages [trulens-eval]: executing diffoscope
+[2023-06-23 02:11:15] INFO root fetch - processPackages [trulens-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trulens_eval-0.3.0b0-py3-none-any.whl.zip tmp/trulens_eval-0.3.0rc0-py3-none-any.whl.zip --markdown 20230623/t/trulens-eval/0.3.0b0-0.3.0rc0/diff.md --exclude *.pyd
+[2023-06-23 02:11:15] INFO root fetch - processPackages [trulens-eval]: executing diffoscope
+[2023-06-23 02:11:15] INFO root fetch - processPackages [trulens-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trulens_eval-0.3.0b0-py3-none-any.whl.zip tmp/trulens_eval-0.3.0rc0-py3-none-any.whl.zip --markdown 20230623/t/trulens-eval/0.3.0b0-0.3.0rc0/diff.md --exclude *.pyd
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202306230007.tar.gz tmp/ml_compiler_opt-0.0.1.dev202306230008-py3-none-any.whl.zip --markdown 20230623/m/ml-compiler-opt/0.0.1.dev202306230007-0.0.1.dev202306230008/diff.md --exclude *.pyd
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-06-23 02:11:15] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202306230007.tar.gz tmp/ml_compiler_opt-0.0.1.dev202306230008-py3-none-any.whl.zip --markdown 20230623/m/ml-compiler-opt/0.0.1.dev202306230007-0.0.1.dev202306230008/diff.md --exclude *.pyd
+[2023-06-23 02:11:16] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-23 02:11:16] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1687392478.tar.gz tmp/torchlayers-nightly-1687478935.tar.gz --markdown 20230623/t/torchlayers-nightly/1687392478-1687478935/diff.md --exclude *.pyd
+[2023-06-23 02:11:17] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230621.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230622.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: ebbs
+[2023-06-23 02:11:17] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-23 02:11:17] INFO root fetch - processPackages [ebbs]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Start processing: cdk-common
+[2023-06-23 02:11:17] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-23 02:11:17] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306230007.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml_compiler_opt-0.0.1.dev202306230008-py3-none-any.whl.zip]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: vesselapi
+[2023-06-23 02:11:17] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-06-23 02:11:17] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/e4/4d/600e9b8522cb5e4288fadbaae0e9d2b951d0b79be24416d8b78414a5efb6/ebbs-2.2.8.tar.gz
+[2023-06-23 02:11:17] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.30.0]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-23 02:11:17] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: GlitchTech-AI
+[2023-06-23 02:11:17] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-06-23 02:11:17] INFO root fetch - processPackages [GlitchTech-AI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687392478.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687478935.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: cdk8s
+[2023-06-23 02:11:17] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-23 02:11:17] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/fd/dd/22c2b750a6affec6ca4a18a566cb725adf2848af6aa3ed36f28bc8e7e547/vesselapi-3.30.0.tar.gz
+[2023-06-23 02:11:17] INFO root fetch - processPackages [trulens-eval]: Remove: archive file [/home/abi/fetcher/tmp/trulens_eval-0.3.0b0-py3-none-any.whl.zip]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [trulens-eval]: Remove: archive file [/home/abi/fetcher/tmp/trulens_eval-0.3.0rc0-py3-none-any.whl.zip]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [trulens-eval]: Start processing: cdk8s-grafana
+[2023-06-23 02:11:17] INFO root fetch - main [MainThread]: End processing [trulens-eval]: success
+[2023-06-23 02:11:17] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.81]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [GlitchTech-AI]: Downloading https://files.pythonhosted.org/packages/50/4f/7ae6abbe565e73d7404cacf6f85acb8a8394fa30e43663beba7e2a9ece10/GlitchTech-AI-0.0.8.tar.gz
+[2023-06-23 02:11:17] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [metrics-layer]: Start processing: geci-data
+[2023-06-23 02:11:17] INFO root fetch - main [MainThread]: End processing [metrics-layer]: success
+[2023-06-23 02:11:17] INFO root fetch - processPackages [trulens-eval]: Start processing: constructs
+[2023-06-23 02:11:17] INFO root fetch - main [MainThread]: End processing [trulens-eval]: success
+[2023-06-23 02:11:17] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-06-23 02:11:17] ERROR root fetch - processPackages [geci-data]: Unable to get metadata: No such project 'geci-data'
+[2023-06-23 02:11:17] INFO root fetch - processPackages [geci-data]: Start processing: dsws
+[2023-06-23 02:11:17] INFO root fetch - main [MainThread]: End processing [geci-data] error
+[2023-06-23 02:11:17] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/a1/17/09488d6e7c260166edfebc9cb5a173db17c6d6a621677ea3280cda9da438/ebbs-2.2.9.tar.gz
+[2023-06-23 02:11:17] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-06-23 02:11:17] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-06-23 02:11:17] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/45/7b/f637314f146b5f4965eac2398798e56746f47fdb30f3f962b85782ec0fe0/cdk8s-2.7.81.tar.gz
+[2023-06-23 02:11:17] INFO root fetch - processPackages [srsinst.uga]: Remove: archive file [/home/abi/fetcher/tmp/srsinst.uga-0.0.5.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - processPackages [srsinst.uga]: Remove: archive file [/home/abi/fetcher/tmp/srsinst.uga-0.1.0.tar.gz]
+[2023-06-23 02:11:17] INFO root fetch - main [MainThread]: End processing [srsinst.uga]: success
+[2023-06-23 02:11:18] INFO root fetch - processPackages [fb-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fb-python-sdk-1.1.3.tar.gz]
+[2023-06-23 02:11:18] INFO root fetch - processPackages [fb-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fb-python-sdk-1.1.4.tar.gz]
+[2023-06-23 02:11:18] INFO root fetch - main [MainThread]: End processing [fb-python-sdk]: success
+[2023-06-23 02:11:18] INFO root fetch - processPackages [GlitchTech-AI]: Downloading https://files.pythonhosted.org/packages/79/2d/ada1b2bf9dd32781de157673867e228e2ee9a692c7f79d1c9bd189ec0f4e/GlitchTech-AI-0.0.9.tar.gz
+[2023-06-23 02:11:18] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-23 02:11:18] INFO root fetch - processPackages [GlitchTech-AI]: executing diffoscope
+[2023-06-23 02:11:18] INFO root fetch - processPackages [GlitchTech-AI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GlitchTech-AI-0.0.8.tar.gz tmp/GlitchTech-AI-0.0.9.tar.gz --markdown 20230623/G/GlitchTech-AI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 02:11:18] INFO root fetch - processPackages [ebbs]: executing diffoscope
+[2023-06-23 02:11:18] INFO root fetch - processPackages [ebbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbs-2.2.8.tar.gz tmp/ebbs-2.2.9.tar.gz --markdown 20230623/e/ebbs/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-23 02:11:18] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/e6/c8/05cf61f36e0e0457efb63d90051ef801f55cf0db4e5f92c27a28a57c5501/constructs-3.4.98.tar.gz
+[2023-06-23 02:11:18] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-06-23 02:11:18] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-06-23 02:11:18] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-06-23 02:11:18] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230623/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-23 02:11:18] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-06-23 02:11:18] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.30.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230623/v/vesselapi/3.30.0-3.5.2/diff.md --exclude *.pyd
+[2023-06-23 02:11:18] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/71/30/02a1bcc270c53f6b55cd50dc45c426ecdc5d520a1a3f21057474d46e3de9/cdk8s-2.7.9.tar.gz
+[2023-06-23 02:11:18] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-06-23 02:11:18] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.81.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230623/c/cdk8s/2.7.81-2.7.9/diff.md --exclude *.pyd
+[2023-06-23 02:11:18] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-06-23 02:11:18] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/0a/98/a9a1408d0c31908cc2c2129ea9ab047e19bc2d51b19406637848339f5c37/constructs-3.4.99.tar.gz
+[2023-06-23 02:11:18] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-06-23 02:11:18] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230623/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-06-23 02:11:18] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-06-23 02:11:18] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230623/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-23 02:11:18] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-23 02:11:18] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230623/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-23 02:11:19] INFO root fetch - processPackages [GlitchTech-AI]: Remove: archive file [/home/abi/fetcher/tmp/GlitchTech-AI-0.0.8.tar.gz]
+[2023-06-23 02:11:19] INFO root fetch - processPackages [GlitchTech-AI]: Remove: archive file [/home/abi/fetcher/tmp/GlitchTech-AI-0.0.9.tar.gz]
+[2023-06-23 02:11:19] INFO root fetch - main [MainThread]: End processing [GlitchTech-AI]: success
+[2023-06-23 02:11:19] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.8.tar.gz]
+[2023-06-23 02:11:19] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.9.tar.gz]
+[2023-06-23 02:11:19] INFO root fetch - main [MainThread]: End processing [ebbs]: success
+[2023-06-23 02:11:19] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-06-23 02:11:19] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-06-23 02:11:19] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-06-23 02:11:19] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.81.tar.gz]
+[2023-06-23 02:11:19] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.9.tar.gz]
+[2023-06-23 02:11:19] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-06-23 02:11:19] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-06-23 02:11:19] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-06-23 02:11:19] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-06-23 02:11:20] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-23 02:11:20] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-23 02:11:20] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-23 02:11:20] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.98.tar.gz]
+[2023-06-23 02:11:20] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.99.tar.gz]
+[2023-06-23 02:11:20] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-06-23 02:11:23] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.30.0.tar.gz]
+[2023-06-23 02:11:23] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-06-23 02:11:23] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-06-23 02:11:23] INFO root fetch - main [MainThread]: Store serial: [18611603]
