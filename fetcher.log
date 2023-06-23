@@ -10334,3 +10334,69 @@
 [2023-06-23 08:45:21] INFO root fetch - processPackages [jijbench]: Remove: archive file [/home/abi/fetcher/tmp/jijbench-0.5.7.tar.gz]
 [2023-06-23 08:45:21] INFO root fetch - main [MainThread]: End processing [jijbench]: success
 [2023-06-23 08:45:21] INFO root fetch - main [MainThread]: Store serial: [18614769]
+[2023-06-23 08:50:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614769]
+[2023-06-23 08:50:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 08:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiosumma
+[2023-06-23 08:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybpsapi
+[2023-06-23 08:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylemmy
+[2023-06-23 08:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sakyum
+[2023-06-23 08:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-space-toolkit-core
+[2023-06-23 08:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: circlecigen
+[2023-06-23 08:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cushy-storage
+[2023-06-23 08:50:31] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-23 08:50:31] INFO root fetch - processPackages [pylemmy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 08:50:31] INFO root fetch - processPackages [sakyum]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 08:50:31] INFO root fetch - processPackages [cushy-storage]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-23 08:50:31] INFO root fetch - processPackages [circlecigen]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-23 08:50:31] INFO root fetch - processPackages [open-space-toolkit-core]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-23 08:50:31] INFO root fetch - processPackages [pybpsapi]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-23 08:50:31] INFO root fetch - processPackages [sakyum]: Downloading https://files.pythonhosted.org/packages/7b/12/230c24dc259bcc0c914b25ce3f7ddc4f82a10a9ddec11f23930cb9c73d5f/sakyum-0.0.8.tar.gz
+[2023-06-23 08:50:31] INFO root fetch - processPackages [cushy-storage]: Downloading https://files.pythonhosted.org/packages/14/87/3833d76922bce848a878af46b0220e4f2ea77b1b18a3436f5d98e3098996/cushy-storage-1.2.0.tar.gz
+[2023-06-23 08:50:31] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-06-23 08:50:31] INFO root fetch - processPackages [sakyum]: Downloading https://files.pythonhosted.org/packages/e3/97/97f52247b5925c77cb818a048d368df3b6a6e5197683ee9542c67ea717c9/sakyum-0.0.9.tar.gz
+[2023-06-23 08:50:31] INFO root fetch - processPackages [open-space-toolkit-core]: Downloading https://files.pythonhosted.org/packages/4b/9a/009a50f4740bdadf6d3199eacb1395ddabde6ab96e842a4bcf238a093c02/open_space_toolkit_core-0.7.0-py39-none-any.whl
+[2023-06-23 08:50:31] INFO root fetch - processPackages [pylemmy]: Downloading https://files.pythonhosted.org/packages/50/f4/f322fd3c0597773f1ab9adfa570ec7d41dbb25d81ba3ccc5d2f356e90317/pylemmy-0.0.2.tar.gz
+[2023-06-23 08:50:31] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/15/a4/2df923ab776f49ebfd52f766c8424fb66669eb3bd9c0681c15a91ebe35d8/circlecigen-0.0.6.tar.gz
+[2023-06-23 08:50:31] INFO root fetch - processPackages [sakyum]: executing diffoscope
+[2023-06-23 08:50:31] INFO root fetch - processPackages [sakyum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sakyum-0.0.8.tar.gz tmp/sakyum-0.0.9.tar.gz --markdown 20230623/s/sakyum/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 08:50:31] INFO root fetch - processPackages [pybpsapi]: Downloading https://files.pythonhosted.org/packages/c7/f3/d591e4f5ada574fe50dff44349438042f978bc0f2a195ace58ed5b4922dc/pybpsapi-1.3.0.tar.gz
+[2023-06-23 08:50:32] INFO root fetch - processPackages [cushy-storage]: Downloading https://files.pythonhosted.org/packages/85/99/6189dee8495b96fd1d4560b8268f0c5051df17762bb6b18dafcc3e7c5d8e/cushy-storage-1.2.1.tar.gz
+[2023-06-23 08:50:32] INFO root fetch - processPackages [cushy-storage]: executing diffoscope
+[2023-06-23 08:50:32] INFO root fetch - processPackages [cushy-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cushy-storage-1.2.0.tar.gz tmp/cushy-storage-1.2.1.tar.gz --markdown 20230623/c/cushy-storage/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-23 08:50:32] INFO root fetch - processPackages [pylemmy]: Downloading https://files.pythonhosted.org/packages/c1/49/311b83b99020e1deb666613789b4de4cb94e6116a301d0ea5ba4267c8dbf/pylemmy-0.0.3.tar.gz
+[2023-06-23 08:50:32] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-06-23 08:50:32] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/d7/d0/cc1dc10ef15a1059182ac3356eaef8765f990749615f4148d372e4770ee8/circlecigen-0.0.7.tar.gz
+[2023-06-23 08:50:32] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-06-23 08:50:32] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230623/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-23 08:50:32] INFO root fetch - processPackages [open-space-toolkit-core]: Downloading https://files.pythonhosted.org/packages/6f/8f/9b54774b88e7230a30d9a57405cc6826b84fe391b29d6b5e60d79ecee76a/open_space_toolkit_core-0.7.1-py39-none-any.whl
+[2023-06-23 08:50:32] INFO root fetch - processPackages [pybpsapi]: Downloading https://files.pythonhosted.org/packages/65/3b/6106bd3725b7be57d1b681e689156a9ddd062a8edc81c988e5b3d29b8c17/pybpsapi-1.3.1.tar.gz
+[2023-06-23 08:50:32] INFO root fetch - processPackages [pylemmy]: executing diffoscope
+[2023-06-23 08:50:32] INFO root fetch - processPackages [pylemmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylemmy-0.0.2.tar.gz tmp/pylemmy-0.0.3.tar.gz --markdown 20230623/p/pylemmy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 08:50:32] INFO root fetch - processPackages [circlecigen]: executing diffoscope
+[2023-06-23 08:50:32] INFO root fetch - processPackages [circlecigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circlecigen-0.0.6.tar.gz tmp/circlecigen-0.0.7.tar.gz --markdown 20230623/c/circlecigen/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-23 08:50:32] INFO root fetch - processPackages [pybpsapi]: executing diffoscope
+[2023-06-23 08:50:32] INFO root fetch - processPackages [pybpsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybpsapi-1.3.0.tar.gz tmp/pybpsapi-1.3.1.tar.gz --markdown 20230623/p/pybpsapi/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-23 08:50:33] INFO root fetch - processPackages [open-space-toolkit-core]: executing diffoscope
+[2023-06-23 08:50:33] INFO root fetch - processPackages [open-space-toolkit-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_core-0.7.0-py39-none-any.whl.zip tmp/open_space_toolkit_core-0.7.1-py39-none-any.whl.zip --markdown 20230623/o/open-space-toolkit-core/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-23 08:50:33] INFO root fetch - processPackages [cushy-storage]: Remove: archive file [/home/abi/fetcher/tmp/cushy-storage-1.2.0.tar.gz]
+[2023-06-23 08:50:33] INFO root fetch - processPackages [cushy-storage]: Remove: archive file [/home/abi/fetcher/tmp/cushy-storage-1.2.1.tar.gz]
+[2023-06-23 08:50:33] INFO root fetch - main [MainThread]: End processing [cushy-storage]: success
+[2023-06-23 08:50:33] INFO root fetch - processPackages [sakyum]: Remove: archive file [/home/abi/fetcher/tmp/sakyum-0.0.8.tar.gz]
+[2023-06-23 08:50:33] INFO root fetch - processPackages [sakyum]: Remove: archive file [/home/abi/fetcher/tmp/sakyum-0.0.9.tar.gz]
+[2023-06-23 08:50:33] INFO root fetch - main [MainThread]: End processing [sakyum]: success
+[2023-06-23 08:50:33] INFO root fetch - processPackages [pylemmy]: Remove: archive file [/home/abi/fetcher/tmp/pylemmy-0.0.2.tar.gz]
+[2023-06-23 08:50:33] INFO root fetch - processPackages [pylemmy]: Remove: archive file [/home/abi/fetcher/tmp/pylemmy-0.0.3.tar.gz]
+[2023-06-23 08:50:33] INFO root fetch - main [MainThread]: End processing [pylemmy]: success
+[2023-06-23 08:50:33] INFO root fetch - processPackages [pybpsapi]: Remove: archive file [/home/abi/fetcher/tmp/pybpsapi-1.3.0.tar.gz]
+[2023-06-23 08:50:33] INFO root fetch - processPackages [pybpsapi]: Remove: archive file [/home/abi/fetcher/tmp/pybpsapi-1.3.1.tar.gz]
+[2023-06-23 08:50:33] INFO root fetch - main [MainThread]: End processing [pybpsapi]: success
+[2023-06-23 08:50:33] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-06-23 08:50:33] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-06-23 08:50:33] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-06-23 08:50:33] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.6.tar.gz]
+[2023-06-23 08:50:33] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.7.tar.gz]
+[2023-06-23 08:50:33] INFO root fetch - main [MainThread]: End processing [circlecigen]: success
+[2023-06-23 08:51:26] INFO root fetch - processPackages [open-space-toolkit-core]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_core-0.7.0-py39-none-any.whl.zip]
+[2023-06-23 08:51:26] INFO root fetch - processPackages [open-space-toolkit-core]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_core-0.7.1-py39-none-any.whl.zip]
+[2023-06-23 08:51:26] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-core]: success
+[2023-06-23 08:51:26] INFO root fetch - main [MainThread]: Store serial: [18614792]
