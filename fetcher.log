@@ -18750,3 +18750,207 @@ EOFError: EOF read where object expected
 [2023-06-23 15:12:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.23-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-23 15:12:37] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-06-23 15:12:37] INFO root fetch - main [MainThread]: Store serial: [18618194]
+[2023-06-23 15:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18618194]
+[2023-06-23 15:17:51] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-23 15:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edustudio
+[2023-06-23 15:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shakenbreak
+[2023-06-23 15:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-numpy
+[2023-06-23 15:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gchar
+[2023-06-23 15:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grpcrest
+[2023-06-23 15:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: windmill-api
+[2023-06-23 15:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wmill
+[2023-06-23 15:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmill-pg
+[2023-06-23 15:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-pandas
+[2023-06-23 15:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nowcasting-datamodel
+[2023-06-23 15:17:51] INFO root fetch - processPackages [shakenbreak]: New version: [23.6.3] Old Version: [23.6.23]
+[2023-06-23 15:17:51] INFO root fetch - processPackages [gchar]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 15:17:51] INFO root fetch - processPackages [grpcrest]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 15:17:51] INFO root fetch - processPackages [edustudio]: New version: [1.0.0a1] Old Version: [0.0.1a1]
+[2023-06-23 15:17:51] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-23 15:17:51] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-06-23 15:17:52] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 15:17:52] INFO root fetch - processPackages [edustudio]: Downloading https://files.pythonhosted.org/packages/27/c3/ee514ed684894e3692d43e244f33118348fabda840d9d83ea39c264b5044/edustudio-0.0.1a1-py3-none-any.whl
+[2023-06-23 15:17:52] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/9a/e3/667c76dd05a10e08720a48067006e1e851895846f5ad06e696ec16780488/nowcasting_datamodel-1.4.5.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [shakenbreak]: Downloading https://files.pythonhosted.org/packages/f6/f1/a08070c8df2b3191cb726864a5990ce10c15c5e1a808646b0c720be7293d/shakenbreak-23.6.23.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [grpcrest]: Downloading https://files.pythonhosted.org/packages/99/01/f8075a5fd0069f8ba9f50d434bbe41a539e8b8c58a7f891d1ba643113602/grpcrest-0.8.tar.gz
+[2023-06-23 15:17:52] WARNING root fetch - processPackages [shakenbreak]: Skipping package: exceeds size limit 33312041>=10485760
+[2023-06-23 15:17:52] INFO root fetch - processPackages [shakenbreak]: Start processing: dwiqc
+[2023-06-23 15:17:52] INFO root fetch - main [MainThread]: End processing [shakenbreak] error
+[2023-06-23 15:17:52] INFO root fetch - processPackages [gchar]: Downloading https://files.pythonhosted.org/packages/ae/5a/903194432211916623ed97c008cbb442bafb2e8733c7da5619bc1a235b20/gchar-0.0.8.tar.gz
+[2023-06-23 15:17:52] WARNING root fetch - processPackages [grpcrest]: Skipping package: exceeds size limit 21180887>=10485760
+[2023-06-23 15:17:52] INFO root fetch - processPackages [grpcrest]: Start processing: thipster
+[2023-06-23 15:17:52] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-23 15:17:52] INFO root fetch - processPackages [dwiqc]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-23 15:17:52] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [thipster]: New version: [0.19.1] Old Version: [0.19.0]
+[2023-06-23 15:17:52] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [edustudio]: Downloading https://files.pythonhosted.org/packages/d6/aa/038ad4a926423e40ee0d1b5054c244814c6595ab616646be09275aea96d6/edustudio-1.0.0a1-py3-none-any.whl
+[2023-06-23 15:17:52] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/0c/63/4ff0a876d12002fc8380d7aebad3bb53e3f42557ddab096b6b9385bd7408/dwiqc-0.4.8-py2.py3-none-any.whl
+[2023-06-23 15:17:52] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/df/02/798bce59dd650318f03279d9263828de969283a79f6a340ade55d57cfd61/thipster-0.19.0.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-06-23 15:17:52] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230623/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-06-23 15:17:52] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230623/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/19/f4/4cc5f046060fad5a10934ea1687954459f71de628d57c17fcc6fbb739bd2/nowcasting_datamodel-1.4.6.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [edustudio]: executing diffoscope
+[2023-06-23 15:17:52] INFO root fetch - processPackages [edustudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edustudio-0.0.1a1-py3-none-any.whl.zip tmp/edustudio-1.0.0a1-py3-none-any.whl.zip --markdown 20230623/e/edustudio/0.0.1a1-1.0.0a1/diff.md --exclude *.pyd
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230623/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 15:17:52] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.5.tar.gz tmp/nowcasting_datamodel-1.4.6.tar.gz --markdown 20230623/n/nowcasting-datamodel/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-06-23 15:17:52] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/99/9d/fb37a586f01eb149c76c7d2c33540429c2169a9054118ee740f457b29f19/dwiqc-0.4.9-py2.py3-none-any.whl
+[2023-06-23 15:17:52] INFO root fetch - processPackages [gchar]: Downloading https://files.pythonhosted.org/packages/1e/57/e781937065817437442984c0ffedcb7379bae60270c17e2be12cc4319021/gchar-0.0.9.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/41/15/b719b27769abccd70c7fa00b32923c147f358f6e0d27195669ddab068af4/thipster-0.19.1.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-23 15:17:52] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip --markdown 20230623/d/dwiqc/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-23 15:17:52] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-06-23 15:17:52] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230623/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-23 15:17:52] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-23 15:17:52] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.19.0.tar.gz tmp/thipster-0.19.1.tar.gz --markdown 20230623/t/thipster/0.19.0-0.19.1/diff.md --exclude *.pyd
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-23 15:17:52] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230623/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 15:17:52] INFO root fetch - processPackages [gchar]: executing diffoscope
+[2023-06-23 15:17:52] INFO root fetch - processPackages [gchar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gchar-0.0.8.tar.gz tmp/gchar-0.0.9.tar.gz --markdown 20230623/g/gchar/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 15:17:53] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-06-23 15:17:53] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-06-23 15:17:53] INFO root fetch - processPackages [wmill-pg]: Start processing: tellosync
+[2023-06-23 15:17:53] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-06-23 15:17:53] INFO root fetch - processPackages [tellosync]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-23 15:17:53] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-06-23 15:17:53] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-06-23 15:17:53] INFO root fetch - processPackages [wmill]: Start processing: codeforlife-portal
+[2023-06-23 15:17:53] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-06-23 15:17:53] INFO root fetch - processPackages [tellosync]: Downloading https://files.pythonhosted.org/packages/e4/82/53607048dbcff0e21efd3b6b825d2f0844d9eac05b47fece26f33e7dc897/tellosync-0.0.1.tar.gz
+[2023-06-23 15:17:53] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-pandas]: Start processing: nbdev-pytorch
+[2023-06-23 15:17:54] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-23 15:17:54] INFO root fetch - processPackages [tellosync]: Downloading https://files.pythonhosted.org/packages/34/de/dd3b3fc9d236e0884376ff7b9fe98f892209277582cdb03f7e1460ca334b/tellosync-0.0.2.tar.gz
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [tellosync]: executing diffoscope
+[2023-06-23 15:17:54] INFO root fetch - processPackages [tellosync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tellosync-0.0.1.tar.gz tmp/tellosync-0.0.2.tar.gz --markdown 20230623/t/tellosync/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-23 15:17:54] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [dwiqc]: Start processing: cfl-common
+[2023-06-23 15:17:54] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230623/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 15:17:54] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [nbdev-numpy]: Start processing: cloud2earth
+[2023-06-23 15:17:54] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-23 15:17:54] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2023-06-23 15:17:54] WARNING root fetch - processPackages [cloud2earth]: Skipping, unable to determine old version
+[2023-06-23 15:17:54] INFO root fetch - processPackages [cloud2earth]: Start processing: aimmo
+[2023-06-23 15:17:54] INFO root fetch - main [MainThread]: End processing [cloud2earth] error
+[2023-06-23 15:17:54] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.19.0.tar.gz]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.19.1.tar.gz]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [thipster]: Start processing: grpcrest
+[2023-06-23 15:17:54] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-23 15:17:54] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [grpcrest]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 15:17:54] INFO root fetch - processPackages [grpcrest]: Downloading https://files.pythonhosted.org/packages/99/01/f8075a5fd0069f8ba9f50d434bbe41a539e8b8c58a7f891d1ba643113602/grpcrest-0.8.tar.gz
+[2023-06-23 15:17:54] WARNING root fetch - processPackages [grpcrest]: Skipping package: exceeds size limit 21180887>=10485760
+[2023-06-23 15:17:54] INFO root fetch - processPackages [grpcrest]: Start processing: Boombers
+[2023-06-23 15:17:54] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-23 15:17:54] INFO root fetch - processPackages [Boombers]: New version: [0.2] Old Version: [0.1]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/ae/20/64f46e6e224facaa0a512efc2d1dddb4eb0b7c62c45d7cd7ad7c33874d10/aimmo-v0.1.1-alpha.post.dev8.tar.gz
+[2023-06-23 15:17:55] WARNING root fetch - processPackages [Boombers]: fallback to get urls: [0.1]
+[2023-06-23 15:17:55] WARNING root fetch - processPackages [Boombers]: None
+[2023-06-23 15:17:55] WARNING root fetch - processPackages [Boombers]: None
+[2023-06-23 15:17:55] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2023-06-23 15:17:55] WARNING root fetch - processPackages [Boombers]: unable to get url for both version [0.1]
+[2023-06-23 15:17:55] WARNING root fetch - processPackages [Boombers]: None
+[2023-06-23 15:17:55] INFO root fetch - processPackages [Boombers]: Start processing: venv-modulefile
+[2023-06-23 15:17:55] INFO root fetch - main [MainThread]: End processing [Boombers] error
+[2023-06-23 15:17:55] INFO root fetch - processPackages [venv-modulefile]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [edustudio]: Remove: archive file [/home/abi/fetcher/tmp/edustudio-0.0.1a1-py3-none-any.whl.zip]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [edustudio]: Remove: archive file [/home/abi/fetcher/tmp/edustudio-1.0.0a1-py3-none-any.whl.zip]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [edustudio]: Start processing: nbdev-scipy
+[2023-06-23 15:17:55] INFO root fetch - main [MainThread]: End processing [edustudio]: success
+[2023-06-23 15:17:55] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/80/23/14dc12f78e542484cb6d32a416afedf1ee4ea53b87476f141cf6231e7355/aimmo-v0.1.1-alpha.post.dev9.tar.gz
+[2023-06-23 15:17:55] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-06-23 15:17:55] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230623/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-06-23 15:17:55] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-23 15:17:55] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-06-23 15:17:55] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230623/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-06-23 15:17:55] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/38/44/d7072a877de0088d7d4d408e19032a3cc4d17f0b6257ceed48f8be384c8d/venv-modulefile-0.1.2.tar.gz
+[2023-06-23 15:17:55] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.5.tar.gz]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.6.tar.gz]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [nowcasting-datamodel]: Start processing: almavik
+[2023-06-23 15:17:55] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-06-23 15:17:55] INFO root fetch - processPackages [almavik]: New version: [358] Old Version: [357]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-23 15:17:55] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-23 15:17:55] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230623/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 15:17:55] INFO root fetch - processPackages [tellosync]: Remove: archive file [/home/abi/fetcher/tmp/tellosync-0.0.1.tar.gz]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [tellosync]: Remove: archive file [/home/abi/fetcher/tmp/tellosync-0.0.2.tar.gz]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [tellosync]: Start processing: buteo
+[2023-06-23 15:17:55] INFO root fetch - main [MainThread]: End processing [tellosync]: success
+[2023-06-23 15:17:55] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/78/e6/be9abc46a2dbe5e6eda865b6be679d2df371f54cd353e325d7a996c3dd38/venv-modulefile-0.1.3.tar.gz
+[2023-06-23 15:17:55] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-23 15:17:55] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/e8/6e/798278c248cb84ea3e39cbbd07ab7a7869bed8aeadd139890ae2f52fcb19/almavik-357.tar.gz
+[2023-06-23 15:17:55] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-06-23 15:17:55] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.1.2.tar.gz tmp/venv-modulefile-0.1.3.tar.gz --markdown 20230623/v/venv-modulefile/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 15:17:55] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85078428>=10485760
+[2023-06-23 15:17:55] INFO root fetch - processPackages [almavik]: Start processing: opuscleaner
+[2023-06-23 15:17:55] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-23 15:17:55] INFO root fetch - processPackages [opuscleaner]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-23 15:17:55] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-23 15:17:55] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-23 15:17:55] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-23 15:17:56] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-23 15:17:56] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230623/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 15:17:56] INFO root fetch - processPackages [opuscleaner]: Downloading https://files.pythonhosted.org/packages/5f/cf/4375a01c7ab24059f18bb3eb4144bfd94e32dea0683b611754a8f773566e/opuscleaner-0.2.2.tar.gz
+[2023-06-23 15:17:56] INFO root fetch - processPackages [opuscleaner]: Downloading https://files.pythonhosted.org/packages/0d/74/5890160bcd32a61f18d2aa31b96811087720865c9ae9998d83742fb8cc24/opuscleaner-0.3.0.tar.gz
+[2023-06-23 15:17:56] INFO root fetch - processPackages [opuscleaner]: executing diffoscope
+[2023-06-23 15:17:56] INFO root fetch - processPackages [opuscleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opuscleaner-0.2.2.tar.gz tmp/opuscleaner-0.3.0.tar.gz --markdown 20230623/o/opuscleaner/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 15:17:56] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2023-06-23 15:17:56] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2023-06-23 15:17:56] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2023-06-23 15:17:56] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-06-23 15:17:57] INFO root fetch - processPackages [aimmo]: Remove: archive file [/home/abi/fetcher/tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz]
+[2023-06-23 15:17:57] INFO root fetch - processPackages [aimmo]: Remove: archive file [/home/abi/fetcher/tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz]
+[2023-06-23 15:17:57] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-06-23 15:17:57] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.2.tar.gz]
+[2023-06-23 15:17:57] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.3.tar.gz]
+[2023-06-23 15:17:57] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-06-23 15:17:57] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-23 15:17:57] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-23 15:17:57] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-23 15:17:58] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-23 15:17:58] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-23 15:17:58] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-23 15:17:59] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-06-23 15:17:59] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230623/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-06-23 15:18:02] INFO root fetch - processPackages [opuscleaner]: Remove: archive file [/home/abi/fetcher/tmp/opuscleaner-0.2.2.tar.gz]
+[2023-06-23 15:18:02] INFO root fetch - processPackages [opuscleaner]: Remove: archive file [/home/abi/fetcher/tmp/opuscleaner-0.3.0.tar.gz]
+[2023-06-23 15:18:02] INFO root fetch - main [MainThread]: End processing [opuscleaner]: success
+[2023-06-23 15:18:04] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2023-06-23 15:18:04] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2023-06-23 15:18:04] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-06-23 15:18:12] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-06-23 15:18:12] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-06-23 15:18:12] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-06-23 15:20:52] ERROR root fetch - processPackages [gchar]: Timeout during execution of pkgdiff
+[2023-06-23 15:20:52] INFO root fetch - main [MainThread]: End processing [gchar] error
+[2023-06-23 15:20:52] INFO root fetch - main [MainThread]: Store serial: [18618273]
