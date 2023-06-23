@@ -3167,3 +3167,67 @@
 [2023-06-23 03:16:54] INFO root fetch - processPackages [polyglot-piranha]: Remove: archive file [/home/abi/fetcher/tmp/polyglot_piranha-0.3.9.tar.gz]
 [2023-06-23 03:16:54] INFO root fetch - main [MainThread]: End processing [polyglot-piranha]: success
 [2023-06-23 03:16:54] INFO root fetch - main [MainThread]: Store serial: [18612148]
+[2023-06-23 03:21:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18612148]
+[2023-06-23 03:22:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 03:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixelpro
+[2023-06-23 03:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixelpro
+[2023-06-23 03:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: querysource
+[2023-06-23 03:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsws
+[2023-06-23 03:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: demosaicnet
+[2023-06-23 03:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpcontribs-client
+[2023-06-23 03:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twitchify
+[2023-06-23 03:22:03] INFO root fetch - processPackages [pixelpro]: New version: [3.0] Old Version: [1.0]
+[2023-06-23 03:22:03] INFO root fetch - processPackages [demosaicnet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 03:22:03] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 03:22:03] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-23 03:22:03] INFO root fetch - processPackages [pixelpro]: New version: [3.0] Old Version: [1.0]
+[2023-06-23 03:22:03] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-06-23 03:22:03] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 03:22:03] INFO root fetch - processPackages [mpcontribs-client]: New version: [5.4.0] Old Version: [5.3.5]
+[2023-06-23 03:22:03] INFO root fetch - processPackages [twitchify]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-06-23 03:22:03] INFO root fetch - processPackages [pixelpro]: Downloading https://files.pythonhosted.org/packages/ff/ab/fc297aee77dcbf77e8ccaecb64ff34a96c6b42b43f47b60c2fd67870343d/pixelpro-1.0-py3-none-any.whl
+[2023-06-23 03:22:03] INFO root fetch - processPackages [pixelpro]: Downloading https://files.pythonhosted.org/packages/ff/ab/fc297aee77dcbf77e8ccaecb64ff34a96c6b42b43f47b60c2fd67870343d/pixelpro-1.0-py3-none-any.whl
+[2023-06-23 03:22:03] INFO root fetch - processPackages [demosaicnet]: Downloading https://files.pythonhosted.org/packages/01/46/0e22a422e813a3db389efbb488c26c69df84d1e4a959905997cacbeadeef/demosaicnet-0.0.8.tar.gz
+[2023-06-23 03:22:03] INFO root fetch - processPackages [twitchify]: Downloading https://files.pythonhosted.org/packages/4f/7a/8d61219b9fc3f98db491f2a2dc25f3a75972d6551010212ec9912148f3fe/twitchify-1.0.5.tar.gz
+[2023-06-23 03:22:03] INFO root fetch - processPackages [mpcontribs-client]: Downloading https://files.pythonhosted.org/packages/3e/22/d46988f4840643cd4184bb5c53db2c9815f05e571dcadc8e9652a85e3d88/mpcontribs-client-5.3.5.tar.gz
+[2023-06-23 03:22:03] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-06-23 03:22:04] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 03:22:04] INFO root fetch - processPackages [pixelpro]: Downloading https://files.pythonhosted.org/packages/a2/1a/1eaf075e7677bde6df32a9ccb9ecb9d8483bf0dc52f059ac77bb455c330e/pixelpro-3.0-py3-none-any.whl
+[2023-06-23 03:22:04] INFO root fetch - processPackages [pixelpro]: Downloading https://files.pythonhosted.org/packages/a2/1a/1eaf075e7677bde6df32a9ccb9ecb9d8483bf0dc52f059ac77bb455c330e/pixelpro-3.0-py3-none-any.whl
+[2023-06-23 03:22:04] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-06-23 03:22:04] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230623/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-23 03:22:04] INFO root fetch - processPackages [pixelpro]: executing diffoscope
+[2023-06-23 03:22:04] INFO root fetch - processPackages [pixelpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelpro-1.0-py3-none-any.whl.zip tmp/pixelpro-3.0-py3-none-any.whl.zip --markdown 20230623/p/pixelpro/1.0-3.0/diff.md --exclude *.pyd
+[2023-06-23 03:22:04] INFO root fetch - processPackages [pixelpro]: executing diffoscope
+[2023-06-23 03:22:04] INFO root fetch - processPackages [pixelpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelpro-1.0-py3-none-any.whl.zip tmp/pixelpro-3.0-py3-none-any.whl.zip --markdown 20230623/p/pixelpro/1.0-3.0/diff.md --exclude *.pyd
+[2023-06-23 03:22:04] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-23 03:22:04] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230623/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-23 03:22:04] INFO root fetch - processPackages [mpcontribs-client]: Downloading https://files.pythonhosted.org/packages/04/6b/9ad237a6d63951488238dae6f9dc5693fd9a1fcfdc7bc157b9f48e9fc013/mpcontribs-client-5.4.0.tar.gz
+[2023-06-23 03:22:04] INFO root fetch - processPackages [twitchify]: Downloading https://files.pythonhosted.org/packages/b9/7e/60b2b78db1b2066b6993b6f0492ef75e553053c5726e6547b98562a647af/twitchify-1.1.0.tar.gz
+[2023-06-23 03:22:04] INFO root fetch - processPackages [mpcontribs-client]: executing diffoscope
+[2023-06-23 03:22:04] INFO root fetch - processPackages [mpcontribs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpcontribs-client-5.3.5.tar.gz tmp/mpcontribs-client-5.4.0.tar.gz --markdown 20230623/m/mpcontribs-client/5.3.5-5.4.0/diff.md --exclude *.pyd
+[2023-06-23 03:22:04] INFO root fetch - processPackages [twitchify]: executing diffoscope
+[2023-06-23 03:22:04] INFO root fetch - processPackages [twitchify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitchify-1.0.5.tar.gz tmp/twitchify-1.1.0.tar.gz --markdown 20230623/t/twitchify/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 03:22:04] INFO root fetch - processPackages [demosaicnet]: Downloading https://files.pythonhosted.org/packages/dc/6d/a07812d5128ce16674834c0db094574ad325c2b4dfae2cf5bcb0df643309/demosaicnet-0.0.9.tar.gz
+[2023-06-23 03:22:05] INFO root fetch - processPackages [demosaicnet]: executing diffoscope
+[2023-06-23 03:22:05] INFO root fetch - processPackages [demosaicnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demosaicnet-0.0.8.tar.gz tmp/demosaicnet-0.0.9.tar.gz --markdown 20230623/d/demosaicnet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 03:22:05] INFO root fetch - processPackages [pixelpro]: Remove: archive file [/home/abi/fetcher/tmp/pixelpro-1.0-py3-none-any.whl.zip]
+[2023-06-23 03:22:05] INFO root fetch - processPackages [pixelpro]: Remove: archive file [/home/abi/fetcher/tmp/pixelpro-3.0-py3-none-any.whl.zip]
+[2023-06-23 03:22:05] INFO root fetch - main [MainThread]: End processing [pixelpro]: success
+[2023-06-23 03:22:05] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-06-23 03:22:05] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-06-23 03:22:05] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-06-23 03:22:05] INFO root fetch - main [MainThread]: End processing [pixelpro]: success
+[2023-06-23 03:22:05] INFO root fetch - processPackages [mpcontribs-client]: Remove: archive file [/home/abi/fetcher/tmp/mpcontribs-client-5.3.5.tar.gz]
+[2023-06-23 03:22:05] INFO root fetch - processPackages [mpcontribs-client]: Remove: archive file [/home/abi/fetcher/tmp/mpcontribs-client-5.4.0.tar.gz]
+[2023-06-23 03:22:05] INFO root fetch - main [MainThread]: End processing [mpcontribs-client]: success
+[2023-06-23 03:22:05] INFO root fetch - processPackages [twitchify]: Remove: archive file [/home/abi/fetcher/tmp/twitchify-1.0.5.tar.gz]
+[2023-06-23 03:22:05] INFO root fetch - processPackages [twitchify]: Remove: archive file [/home/abi/fetcher/tmp/twitchify-1.1.0.tar.gz]
+[2023-06-23 03:22:05] INFO root fetch - main [MainThread]: End processing [twitchify]: success
+[2023-06-23 03:22:06] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 03:22:06] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 03:22:06] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-23 03:22:06] INFO root fetch - processPackages [demosaicnet]: Remove: archive file [/home/abi/fetcher/tmp/demosaicnet-0.0.8.tar.gz]
+[2023-06-23 03:22:06] INFO root fetch - processPackages [demosaicnet]: Remove: archive file [/home/abi/fetcher/tmp/demosaicnet-0.0.9.tar.gz]
+[2023-06-23 03:22:06] INFO root fetch - main [MainThread]: End processing [demosaicnet]: success
+[2023-06-23 03:22:06] INFO root fetch - main [MainThread]: Store serial: [18612171]
