@@ -15102,3 +15102,100 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 12:35:22] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.72.0.tar.gz]
 [2023-06-23 12:35:22] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-06-23 12:35:22] INFO root fetch - main [MainThread]: Store serial: [18616641]
+[2023-06-23 12:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616641]
+[2023-06-23 12:40:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-23 12:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nexusdb
+[2023-06-23 12:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taipy-gui
+[2023-06-23 12:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diffenator2
+[2023-06-23 12:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: documentdataextraction
+[2023-06-23 12:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kalm
+[2023-06-23 12:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grpcrest
+[2023-06-23 12:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: playsongs
+[2023-06-23 12:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: packageint
+[2023-06-23 12:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: few-shot-priming
+[2023-06-23 12:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-ocgbot-v2
+[2023-06-23 12:40:31] INFO root fetch - processPackages [nexusdb]: New version: [1.3.5] Old Version: [1.3.2]
+[2023-06-23 12:40:31] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 12:40:31] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-23 12:40:31] INFO root fetch - processPackages [diffenator2]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-23 12:40:31] WARNING root fetch - processPackages [packageint]: Skipping, unable to determine old version
+[2023-06-23 12:40:31] WARNING root fetch - processPackages [grpcrest]: Skipping, unable to determine old version
+[2023-06-23 12:40:31] INFO root fetch - processPackages [packageint]: Start processing: rtdip-sdk
+[2023-06-23 12:40:31] INFO root fetch - main [MainThread]: End processing [packageint] error
+[2023-06-23 12:40:31] INFO root fetch - processPackages [grpcrest]: Start processing: kalm
+[2023-06-23 12:40:31] INFO root fetch - processPackages [taipy-gui]: New version: [3.0.0.dev0] Old Version: [2.3.0.dev6]
+[2023-06-23 12:40:31] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-23 12:40:31] INFO root fetch - processPackages [playsongs]: New version: [2023.1.0.0] Old Version: [2021.1.4.1]
+[2023-06-23 12:40:31] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:40:31] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 12:40:31] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:40:31] INFO root fetch - processPackages [rtdip-sdk]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-23 12:40:31] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Downloading https://files.pythonhosted.org/packages/6c/10/04735ad9f49ff9cb0b1b049066d36e487ffe204195ae903abc92d263f57c/nonebot_plugin_ocgbot_v2-0.1.5.tar.gz
+[2023-06-23 12:40:31] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-06-23 12:40:31] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 12:40:31] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 12:40:31] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 12:40:31] INFO root fetch - processPackages [nexusdb]: Downloading https://files.pythonhosted.org/packages/d6/a9/e15456fc5253a91cda503cfa679f73c6f8a68b808c5a0795d66fda55a151/nexusdb-1.3.2.tar.gz
+[2023-06-23 12:40:31] INFO root fetch - processPackages [playsongs]: Downloading https://files.pythonhosted.org/packages/77/2b/c103d434944cce0ecb93d2b387369a4ba819b482ddfb75c14dad18199dd5/PlaySongs-2021.1.4.1.tar.gz
+[2023-06-23 12:40:31] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/f0/d2/b54a83618616209d96fc0773e8953e18fc3bac5a0cc09c3c3c59a397136b/taipy-gui-2.3.0.dev6.tar.gz
+[2023-06-23 12:40:31] INFO root fetch - processPackages [diffenator2]: Downloading https://files.pythonhosted.org/packages/76/ec/f90e8aa7ff40256e2cf7bd0237abd0b39f3dd648db22d627b115c647ac87/diffenator2-0.2.4.tar.gz
+[2023-06-23 12:40:31] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 12:40:31] INFO root fetch - processPackages [rtdip-sdk]: Downloading https://files.pythonhosted.org/packages/92/ac/f9e9404cfeb9515d290341ee76368790a34830051c240a46f6fc07c087b3/rtdip-sdk-0.4.2.tar.gz
+[2023-06-23 12:40:32] WARNING root fetch - processPackages [diffenator2]: Skipping package: exceeds size limit 12794307>=10485760
+[2023-06-23 12:40:32] WARNING root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Skipping package: exceeds size limit 51954445>=10485760
+[2023-06-23 12:40:32] INFO root fetch - processPackages [diffenator2]: Start processing: hhnk-research-tools
+[2023-06-23 12:40:32] INFO root fetch - main [MainThread]: End processing [diffenator2] error
+[2023-06-23 12:40:32] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Start processing: postgre-test-container
+[2023-06-23 12:40:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ocgbot-v2] error
+[2023-06-23 12:40:32] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 12:40:32] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-06-23 12:40:32] WARNING root fetch - processPackages [postgre-test-container]: Skipping, unable to determine old version
+[2023-06-23 12:40:32] INFO root fetch - main [MainThread]: End processing [postgre-test-container] error
+[2023-06-23 12:40:32] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 12:40:32] INFO root fetch - processPackages [nexusdb]: Downloading https://files.pythonhosted.org/packages/26/36/8c9304c3fe482a05386094ffc9a6c02f2baa4002d48f24fb6cb6ff1c56bd/nexusdb-1.3.5.tar.gz
+[2023-06-23 12:40:32] WARNING root fetch - processPackages [rtdip-sdk]: Skipping package: exceeds size limit 14335913>=10485760
+[2023-06-23 12:40:32] INFO root fetch - main [MainThread]: End processing [rtdip-sdk] error
+[2023-06-23 12:40:32] INFO root fetch - processPackages [hhnk-research-tools]: New version: [2023.3.1] Old Version: [2023.3]
+[2023-06-23 12:40:32] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:40:32] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:40:32] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-06-23 12:40:32] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230623/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 12:40:32] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:40:32] INFO root fetch - processPackages [playsongs]: Downloading https://files.pythonhosted.org/packages/10/6f/d67f39cba13598af34ba98665a537114e1d960f45c9d35ee680332d4dd52/playsongs-2023.1.0.0.tar.gz
+[2023-06-23 12:40:32] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:40:32] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 12:40:32] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 12:40:32] INFO root fetch - processPackages [nexusdb]: executing diffoscope
+[2023-06-23 12:40:32] INFO root fetch - processPackages [nexusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexusdb-1.3.2.tar.gz tmp/nexusdb-1.3.5.tar.gz --markdown 20230623/n/nexusdb/1.3.2-1.3.5/diff.md --exclude *.pyd
+[2023-06-23 12:40:32] INFO root fetch - processPackages [hhnk-research-tools]: Downloading https://files.pythonhosted.org/packages/f3/0f/e842edcfd1d6c61b5db4e50f4be634aa453af1b831d664487d6b602efeb8/hhnk_research_tools-2023.3.tar.gz
+[2023-06-23 12:40:32] INFO root fetch - processPackages [playsongs]: executing diffoscope
+[2023-06-23 12:40:32] INFO root fetch - processPackages [playsongs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlaySongs-2021.1.4.1.tar.gz tmp/playsongs-2023.1.0.0.tar.gz --markdown 20230623/p/playsongs/2021.1.4.1-2023.1.0.0/diff.md --exclude *.pyd
+[2023-06-23 12:40:32] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/4f/2d/30bc3b1c66159755e0721df60dc111f297c572ee4aa09b0d21b4e08b041c/taipy-gui-3.0.0.dev0.tar.gz
+[2023-06-23 12:40:32] INFO root fetch - processPackages [hhnk-research-tools]: Downloading https://files.pythonhosted.org/packages/b4/0e/47f4f418f88a718a514df7673884d94ecc55c56066d2fa15347375c1c8b9/hhnk_research_tools-2023.3.1.tar.gz
+[2023-06-23 12:40:32] INFO root fetch - processPackages [taipy-gui]: executing diffoscope
+[2023-06-23 12:40:32] INFO root fetch - processPackages [taipy-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-gui-2.3.0.dev6.tar.gz tmp/taipy-gui-3.0.0.dev0.tar.gz --markdown 20230623/t/taipy-gui/2.3.0.dev6-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-23 12:40:32] INFO root fetch - processPackages [hhnk-research-tools]: executing diffoscope
+[2023-06-23 12:40:32] INFO root fetch - processPackages [hhnk-research-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhnk_research_tools-2023.3.tar.gz tmp/hhnk_research_tools-2023.3.1.tar.gz --markdown 20230623/h/hhnk-research-tools/2023.3-2023.3.1/diff.md --exclude *.pyd
+[2023-06-23 12:40:33] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 12:40:33] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 12:40:33] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 12:40:33] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 12:40:33] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 12:40:33] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 12:40:33] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-06-23 12:40:33] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-06-23 12:40:33] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-06-23 12:40:33] INFO root fetch - processPackages [playsongs]: Remove: archive file [/home/abi/fetcher/tmp/PlaySongs-2021.1.4.1.tar.gz]
+[2023-06-23 12:40:33] INFO root fetch - processPackages [playsongs]: Remove: archive file [/home/abi/fetcher/tmp/playsongs-2023.1.0.0.tar.gz]
+[2023-06-23 12:40:33] INFO root fetch - main [MainThread]: End processing [playsongs]: success
+[2023-06-23 12:40:33] INFO root fetch - processPackages [nexusdb]: Remove: archive file [/home/abi/fetcher/tmp/nexusdb-1.3.2.tar.gz]
+[2023-06-23 12:40:33] INFO root fetch - processPackages [nexusdb]: Remove: archive file [/home/abi/fetcher/tmp/nexusdb-1.3.5.tar.gz]
+[2023-06-23 12:40:33] INFO root fetch - main [MainThread]: End processing [nexusdb]: success
+[2023-06-23 12:40:34] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 12:40:34] INFO root fetch - processPackages [hhnk-research-tools]: Remove: archive file [/home/abi/fetcher/tmp/hhnk_research_tools-2023.3.tar.gz]
+[2023-06-23 12:40:34] INFO root fetch - processPackages [hhnk-research-tools]: Remove: archive file [/home/abi/fetcher/tmp/hhnk_research_tools-2023.3.1.tar.gz]
+[2023-06-23 12:40:34] INFO root fetch - main [MainThread]: End processing [hhnk-research-tools]: success
+[2023-06-23 12:40:46] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-2.3.0.dev6.tar.gz]
+[2023-06-23 12:40:46] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-3.0.0.dev0.tar.gz]
+[2023-06-23 12:40:46] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
+[2023-06-23 12:40:46] INFO root fetch - main [MainThread]: Store serial: [18616685]
