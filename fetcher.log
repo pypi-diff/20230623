@@ -10453,3 +10453,87 @@
 [2023-06-23 08:57:44] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-4.9.0b0.tar.gz]
 [2023-06-23 08:57:44] INFO root fetch - main [MainThread]: End processing [slpkg]: success
 [2023-06-23 08:57:44] INFO root fetch - main [MainThread]: Store serial: [18614809]
+[2023-06-23 09:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614809]
+[2023-06-23 09:02:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-23 09:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-jokes-py
+[2023-06-23 09:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panda-client-light
+[2023-06-23 09:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panda-client
+[2023-06-23 09:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remotemanager
+[2023-06-23 09:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Lab-3419
+[2023-06-23 09:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-comments
+[2023-06-23 09:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: switch-api
+[2023-06-23 09:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fdlogger
+[2023-06-23 09:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seqio-nightly
+[2023-06-23 09:02:53] INFO root fetch - processPackages [st-comments]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-23 09:02:53] INFO root fetch - processPackages [py-jokes-py]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-23 09:02:53] INFO root fetch - processPackages [switch-api]: New version: [0.4.6b2] Old Version: [0.4.5]
+[2023-06-23 09:02:53] INFO root fetch - processPackages [panda-client-light]: New version: [1.5.61] Old Version: [1.5.60]
+[2023-06-23 09:02:53] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-23 09:02:53] INFO root fetch - processPackages [fdlogger]: New version: [23.6.9] Old Version: [23.6.4]
+[2023-06-23 09:02:53] INFO root fetch - processPackages [panda-client]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-23 09:02:53] INFO root fetch - processPackages [remotemanager]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-23 09:02:53] INFO root fetch - processPackages [Lab-3419]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-23 09:02:53] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-23 09:02:53] INFO root fetch - processPackages [py-jokes-py]: Downloading https://files.pythonhosted.org/packages/61/50/cf6663387a738285ac7961e8e160418d21b8333d9435c666233185a5ad05/py_jokes_py-1.1.2.tar.gz
+[2023-06-23 09:02:53] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/0d/92/2e92b738306bf6317822aa462d5751fc8d1fe7d470cb917c5fc9725a4bdf/switch_api-0.4.5.tar.gz
+[2023-06-23 09:02:53] INFO root fetch - processPackages [st-comments]: Downloading https://files.pythonhosted.org/packages/59/a9/793f982f849d9d03ec60c166485dd613275534beaad469854705a8ba9336/st_comments-0.0.1-py3-none-any.whl
+[2023-06-23 09:02:53] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/42/68/efaacc907591b37293622e8015fd2f5b8cd84e52f4eebc31de3da9209541/panda-client-1.5.8.tar.gz
+[2023-06-23 09:02:53] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/7a/a9/70ef1dd24ea9d4109dced815141942da193b865bce593409d4188f2c7c29/fdlogger-23.6.4.tar.gz
+[2023-06-23 09:02:53] INFO root fetch - processPackages [panda-client-light]: Downloading https://files.pythonhosted.org/packages/68/f7/da2f2c297b1e14748412d46a54f23517cb4170fe9c6384aca904d7374d3e/panda_client_light-1.5.60-py2.py3-none-any.whl
+[2023-06-23 09:02:53] INFO root fetch - processPackages [Lab-3419]: Downloading https://files.pythonhosted.org/packages/45/b8/cea14a202e2fbe0e9324ace98b8ce2f922346f258f7006bff3100d2d48f3/Lab_3419-1.0.1-py3-none-any.whl
+[2023-06-23 09:02:53] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/0f/79/700a22be8bd7c0557c34d151909b27fd7c1ba476a93a3f9512c08044b883/remotemanager-0.7.0.tar.gz
+[2023-06-23 09:02:54] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-23 09:02:54] INFO root fetch - processPackages [Lab-3419]: Downloading https://files.pythonhosted.org/packages/9e/9b/0ccc487b44ab32de81fd52402dcf608dedf5a9bd5f0201f04a6ecf5f4845/Lab_3419-1.0.2-py3-none-any.whl
+[2023-06-23 09:02:54] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/65/d6/3a78661507871f8e83b6c5bf907e11a05b89df75dd8aa662f3b4b5c756c9/switch_api-0.4.6b2.tar.gz
+[2023-06-23 09:02:54] INFO root fetch - processPackages [py-jokes-py]: Downloading https://files.pythonhosted.org/packages/0e/49/5aeefd406c579428ea366aa425f1a2746ce6822a72f4f3814c95055aff89/py_jokes_py-1.1.3.tar.gz
+[2023-06-23 09:02:54] INFO root fetch - processPackages [panda-client-light]: Downloading https://files.pythonhosted.org/packages/94/87/f8c2ad00f62883a31383a54a3dfd62eba75c3b8047576c41da8e58dc9ab7/panda_client_light-1.5.61-py2.py3-none-any.whl
+[2023-06-23 09:02:54] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-23 09:02:54] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230623/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-23 09:02:54] INFO root fetch - processPackages [st-comments]: Downloading https://files.pythonhosted.org/packages/17/48/682c3927a952efd6e511576c597829792c89c67e570b83a860201b797cb5/st_comments-0.0.2-py3-none-any.whl
+[2023-06-23 09:02:54] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/23/5d/36990542663e11f1d62f11923ffd1c6b1b0f3a7207e4f277d4deb1acc852/fdlogger-23.6.9.tar.gz
+[2023-06-23 09:02:54] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/d8/3d/b204abdb970252a362db69aa6fbae64332235ba22a575e3aac779564c21c/panda-client-1.5.9.tar.gz
+[2023-06-23 09:02:54] INFO root fetch - processPackages [panda-client-light]: executing diffoscope
+[2023-06-23 09:02:54] INFO root fetch - processPackages [panda-client-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_client_light-1.5.60-py2.py3-none-any.whl.zip tmp/panda_client_light-1.5.61-py2.py3-none-any.whl.zip --markdown 20230623/p/panda-client-light/1.5.60-1.5.61/diff.md --exclude *.pyd
+[2023-06-23 09:02:54] INFO root fetch - processPackages [py-jokes-py]: executing diffoscope
+[2023-06-23 09:02:54] INFO root fetch - processPackages [py-jokes-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_jokes_py-1.1.2.tar.gz tmp/py_jokes_py-1.1.3.tar.gz --markdown 20230623/p/py-jokes-py/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-23 09:02:54] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/e5/47/6858cf50638e9425190040efca66474a13ea60ef06d7de6a3efcd3aa7521/remotemanager-0.7.1.tar.gz
+[2023-06-23 09:02:54] INFO root fetch - processPackages [Lab-3419]: executing diffoscope
+[2023-06-23 09:02:54] INFO root fetch - processPackages [Lab-3419]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lab_3419-1.0.1-py3-none-any.whl.zip tmp/Lab_3419-1.0.2-py3-none-any.whl.zip --markdown 20230623/L/Lab-3419/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-23 09:02:54] INFO root fetch - processPackages [switch-api]: executing diffoscope
+[2023-06-23 09:02:54] INFO root fetch - processPackages [switch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_api-0.4.5.tar.gz tmp/switch_api-0.4.6b2.tar.gz --markdown 20230623/s/switch-api/0.4.5-0.4.6b2/diff.md --exclude *.pyd
+[2023-06-23 09:02:54] INFO root fetch - processPackages [panda-client]: executing diffoscope
+[2023-06-23 09:02:54] INFO root fetch - processPackages [panda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-client-1.5.8.tar.gz tmp/panda-client-1.5.9.tar.gz --markdown 20230623/p/panda-client/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-23 09:02:54] INFO root fetch - processPackages [fdlogger]: executing diffoscope
+[2023-06-23 09:02:54] INFO root fetch - processPackages [fdlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdlogger-23.6.4.tar.gz tmp/fdlogger-23.6.9.tar.gz --markdown 20230623/f/fdlogger/23.6.4-23.6.9/diff.md --exclude *.pyd
+[2023-06-23 09:02:54] INFO root fetch - processPackages [st-comments]: executing diffoscope
+[2023-06-23 09:02:54] INFO root fetch - processPackages [st-comments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_comments-0.0.1-py3-none-any.whl.zip tmp/st_comments-0.0.2-py3-none-any.whl.zip --markdown 20230623/s/st-comments/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 09:02:54] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-06-23 09:02:54] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.7.0.tar.gz tmp/remotemanager-0.7.1.tar.gz --markdown 20230623/r/remotemanager/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-23 09:02:55] INFO root fetch - processPackages [Lab-3419]: Remove: archive file [/home/abi/fetcher/tmp/Lab_3419-1.0.1-py3-none-any.whl.zip]
+[2023-06-23 09:02:55] INFO root fetch - processPackages [Lab-3419]: Remove: archive file [/home/abi/fetcher/tmp/Lab_3419-1.0.2-py3-none-any.whl.zip]
+[2023-06-23 09:02:55] INFO root fetch - main [MainThread]: End processing [Lab-3419]: success
+[2023-06-23 09:02:55] INFO root fetch - processPackages [py-jokes-py]: Remove: archive file [/home/abi/fetcher/tmp/py_jokes_py-1.1.2.tar.gz]
+[2023-06-23 09:02:55] INFO root fetch - processPackages [py-jokes-py]: Remove: archive file [/home/abi/fetcher/tmp/py_jokes_py-1.1.3.tar.gz]
+[2023-06-23 09:02:55] INFO root fetch - main [MainThread]: End processing [py-jokes-py]: success
+[2023-06-23 09:02:56] INFO root fetch - processPackages [panda-client-light]: Remove: archive file [/home/abi/fetcher/tmp/panda_client_light-1.5.60-py2.py3-none-any.whl.zip]
+[2023-06-23 09:02:56] INFO root fetch - processPackages [panda-client-light]: Remove: archive file [/home/abi/fetcher/tmp/panda_client_light-1.5.61-py2.py3-none-any.whl.zip]
+[2023-06-23 09:02:56] INFO root fetch - main [MainThread]: End processing [panda-client-light]: success
+[2023-06-23 09:02:56] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.4.5.tar.gz]
+[2023-06-23 09:02:56] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.4.6b2.tar.gz]
+[2023-06-23 09:02:56] INFO root fetch - main [MainThread]: End processing [switch-api]: success
+[2023-06-23 09:02:56] INFO root fetch - processPackages [panda-client]: Remove: archive file [/home/abi/fetcher/tmp/panda-client-1.5.8.tar.gz]
+[2023-06-23 09:02:56] INFO root fetch - processPackages [panda-client]: Remove: archive file [/home/abi/fetcher/tmp/panda-client-1.5.9.tar.gz]
+[2023-06-23 09:02:56] INFO root fetch - main [MainThread]: End processing [panda-client]: success
+[2023-06-23 09:02:56] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.4.tar.gz]
+[2023-06-23 09:02:56] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.9.tar.gz]
+[2023-06-23 09:02:56] INFO root fetch - main [MainThread]: End processing [fdlogger]: success
+[2023-06-23 09:02:56] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.7.0.tar.gz]
+[2023-06-23 09:02:56] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.7.1.tar.gz]
+[2023-06-23 09:02:56] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-06-23 09:02:56] INFO root fetch - processPackages [st-comments]: Remove: archive file [/home/abi/fetcher/tmp/st_comments-0.0.1-py3-none-any.whl.zip]
+[2023-06-23 09:02:56] INFO root fetch - processPackages [st-comments]: Remove: archive file [/home/abi/fetcher/tmp/st_comments-0.0.2-py3-none-any.whl.zip]
+[2023-06-23 09:02:56] INFO root fetch - main [MainThread]: End processing [st-comments]: success
+[2023-06-23 09:02:57] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-23 09:02:57] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-23 09:02:57] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-23 09:02:57] INFO root fetch - main [MainThread]: Store serial: [18614836]
