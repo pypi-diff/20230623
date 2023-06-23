@@ -21833,3 +21833,174 @@ EOFError: EOF read where object expected
 [2023-06-23 17:11:26] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230623.165457.tar.gz]
 [2023-06-23 17:11:26] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-06-23 17:11:26] INFO root fetch - main [MainThread]: Store serial: [18619513]
+[2023-06-23 17:16:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18619513]
+[2023-06-23 17:16:35] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-23 17:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gofigr
+[2023-06-23 17:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-support-plugin
+[2023-06-23 17:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thipster
+[2023-06-23 17:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-auth-jwt-demo
+[2023-06-23 17:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-auth-jwt
+[2023-06-23 17:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scipion-em
+[2023-06-23 17:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xclim
+[2023-06-23 17:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scancode-toolkit
+[2023-06-23 17:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyttsx4
+[2023-06-23 17:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scancode-toolkit-mini
+[2023-06-23 17:16:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 17:16:35] INFO root fetch - processPackages [scipion-em]: New version: [3.1.0] Old Version: [3.0.9]
+[2023-06-23 17:16:35] INFO root fetch - processPackages [gofigr]: New version: [0.11.2] Old Version: [0.11.1]
+[2023-06-23 17:16:35] INFO root fetch - processPackages [thipster]: New version: [0.19.3] Old Version: [0.19.2]
+[2023-06-23 17:16:35] INFO root fetch - processPackages [odoo-addon-auth-jwt-demo]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.3]
+[2023-06-23 17:16:35] INFO root fetch - processPackages [scancode-toolkit]: New version: [32.0.5rc3] Old Version: [32.0.5rc1]
+[2023-06-23 17:16:35] INFO root fetch - processPackages [odoo-addon-auth-jwt]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.3]
+[2023-06-23 17:16:35] INFO root fetch - processPackages [pyttsx4]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-23 17:16:35] INFO root fetch - processPackages [xclim]: New version: [0.9b0] Old Version: [0.7b0]
+[2023-06-23 17:16:35] INFO root fetch - processPackages [scancode-toolkit-mini]: New version: [32.0.5rc3] Old Version: [32.0.5rc1]
+[2023-06-23 17:16:35] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/90/fc/538122c47123b5f68af70237fbb32b19012f67e3d607f4a1223cd24b83c5/thipster-0.19.2.tar.gz
+[2023-06-23 17:16:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-23 17:16:35] INFO root fetch - processPackages [gofigr]: Downloading https://files.pythonhosted.org/packages/4d/02/d645f318f7b62fedbd973c7bdbdafe7c1dcd8a2b98caccd89f92e4113c46/gofigr-0.11.1.tar.gz
+[2023-06-23 17:16:35] INFO root fetch - processPackages [odoo-addon-auth-jwt-demo]: Downloading https://files.pythonhosted.org/packages/f7/e1/493322abad10772ff9a39ff691b0aa59da13b93393a83288385521cbb10f/odoo_addon_auth_jwt_demo-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-23 17:16:35] INFO root fetch - processPackages [scipion-em]: Downloading https://files.pythonhosted.org/packages/08/8a/23357ef1524e9d7564598f3f80aacf38b42fb76b8d5208f64f0114ae8353/scipion-em-3.0.9.tar.gz
+[2023-06-23 17:16:35] INFO root fetch - processPackages [pyttsx4]: Downloading https://files.pythonhosted.org/packages/dd/de/26b39dd5fed630ddc10980a3093173d56f7db5dc952f2b7a56690f60e300/pyttsx4-3.0.8-py3-none-any.whl
+[2023-06-23 17:16:35] INFO root fetch - processPackages [scancode-toolkit]: Downloading https://files.pythonhosted.org/packages/22/3f/46fcce4f910f93844992dd8ef6b9d55117c555dbfba641c5ee4d5180a4d4/scancode-toolkit-32.0.5rc1.tar.gz
+[2023-06-23 17:16:35] INFO root fetch - processPackages [xclim]: Downloading https://files.pythonhosted.org/packages/5d/4e/77680ed4e2f5e471112ae620e3980b6aca7b46ff78319284ea5a46eb7efc/xclim-0.7b0.tar.gz
+[2023-06-23 17:16:35] INFO root fetch - processPackages [scancode-toolkit-mini]: Downloading https://files.pythonhosted.org/packages/c7/63/8e454d9d14afdb82268688ca8b44a60e2c885a07e34f2248a9313c7b34dc/scancode-toolkit-mini-32.0.5rc1.tar.gz
+[2023-06-23 17:16:35] INFO root fetch - processPackages [odoo-addon-auth-jwt]: Downloading https://files.pythonhosted.org/packages/c4/a6/cdb0de2f6f4dc3fadab7daf6b02b99743ab0d76650c7d2e7de06a583d7e6/odoo_addon_auth_jwt-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-23 17:16:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-23 17:16:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-23 17:16:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230623/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 17:16:35] WARNING root fetch - processPackages [xclim]: Skipping package: exceeds size limit 25047895>=10485760
+[2023-06-23 17:16:35] INFO root fetch - processPackages [xclim]: Start processing: cloudify-common
+[2023-06-23 17:16:35] INFO root fetch - main [MainThread]: End processing [xclim] error
+[2023-06-23 17:16:35] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/6f/b0/8ab094a57cb10e16f7c523fc33e4d9ccd1c191d7ab9dd59b40c78c3359d5/thipster-0.19.3.tar.gz
+[2023-06-23 17:16:36] WARNING root fetch - processPackages [scancode-toolkit]: Skipping package: exceeds size limit 14649232>=10485760
+[2023-06-23 17:16:36] INFO root fetch - processPackages [scancode-toolkit]: Start processing: cellworld
+[2023-06-23 17:16:36] INFO root fetch - main [MainThread]: End processing [scancode-toolkit] error
+[2023-06-23 17:16:36] INFO root fetch - processPackages [pyttsx4]: Downloading https://files.pythonhosted.org/packages/2a/ee/0e644ebf5b6bccad1a1ec24ecdb41ac104667d81bd2b27df29d036edd58a/pyttsx4-3.0.9-py3-none-any.whl
+[2023-06-23 17:16:36] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-23 17:16:36] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.19.2.tar.gz tmp/thipster-0.19.3.tar.gz --markdown 20230623/t/thipster/0.19.2-0.19.3/diff.md --exclude *.pyd
+[2023-06-23 17:16:36] INFO root fetch - processPackages [cloudify-common]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-06-23 17:16:36] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 17:16:36] INFO root fetch - processPackages [odoo-addon-auth-jwt-demo]: Downloading https://files.pythonhosted.org/packages/ae/ed/5e149705838fbee47abd6b453b16cd455889830966a1bbd93ab9fc0e92ac/odoo_addon_auth_jwt_demo-16.0.1.1.0-py3-none-any.whl
+[2023-06-23 17:16:36] INFO root fetch - processPackages [pyttsx4]: executing diffoscope
+[2023-06-23 17:16:36] INFO root fetch - processPackages [pyttsx4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyttsx4-3.0.8-py3-none-any.whl.zip tmp/pyttsx4-3.0.9-py3-none-any.whl.zip --markdown 20230623/p/pyttsx4/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-23 17:16:36] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-06-23 17:16:36] INFO root fetch - processPackages [gofigr]: Downloading https://files.pythonhosted.org/packages/45/82/bc3f5eec7c36b769ff7eab0a1d910db1a50cbc9ef546bbd1d14c77a73971/gofigr-0.11.2.tar.gz
+[2023-06-23 17:16:36] INFO root fetch - processPackages [odoo-addon-auth-jwt-demo]: executing diffoscope
+[2023-06-23 17:16:36] INFO root fetch - processPackages [odoo-addon-auth-jwt-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_jwt_demo-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_auth_jwt_demo-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-auth-jwt-demo/16.0.1.0.0.3-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-23 17:16:36] INFO root fetch - processPackages [scipion-em]: Downloading https://files.pythonhosted.org/packages/5b/d5/22bee5df929132dd9957bb4c794a27b2e8acd678ca8b00c154e5a1fcc087/scipion-em-3.1.0.tar.gz
+[2023-06-23 17:16:36] INFO root fetch - processPackages [odoo-addon-auth-jwt]: Downloading https://files.pythonhosted.org/packages/d4/87/396aae05e7b4c2fd776e4066ff7dbbdab65a75f65a410f7bf602eab75b6e/odoo_addon_auth_jwt-16.0.1.1.0-py3-none-any.whl
+[2023-06-23 17:16:36] INFO root fetch - processPackages [gofigr]: executing diffoscope
+[2023-06-23 17:16:36] INFO root fetch - processPackages [gofigr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gofigr-0.11.1.tar.gz tmp/gofigr-0.11.2.tar.gz --markdown 20230623/g/gofigr/0.11.1-0.11.2/diff.md --exclude *.pyd
+[2023-06-23 17:16:36] INFO root fetch - processPackages [odoo-addon-auth-jwt]: executing diffoscope
+[2023-06-23 17:16:36] INFO root fetch - processPackages [odoo-addon-auth-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_jwt-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_auth_jwt-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-auth-jwt/16.0.1.0.0.3-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-23 17:16:36] WARNING root fetch - processPackages [scancode-toolkit-mini]: Skipping package: exceeds size limit 14653064>=10485760
+[2023-06-23 17:16:36] INFO root fetch - processPackages [scancode-toolkit-mini]: Start processing: casanova
+[2023-06-23 17:16:36] INFO root fetch - main [MainThread]: End processing [scancode-toolkit-mini] error
+[2023-06-23 17:16:36] INFO root fetch - processPackages [cloudify-common]: Downloading https://files.pythonhosted.org/packages/04/67/34e912b257765402b3cf0e3bb8a7772107b6218286899ac0e5edbd93f224/cloudify-common-7.0.0.tar.gz
+[2023-06-23 17:16:36] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-06-23 17:16:36] INFO root fetch - processPackages [scipion-em]: executing diffoscope
+[2023-06-23 17:16:36] INFO root fetch - processPackages [scipion-em]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-3.0.9.tar.gz tmp/scipion-em-3.1.0.tar.gz --markdown 20230623/s/scipion-em/3.0.9-3.1.0/diff.md --exclude *.pyd
+[2023-06-23 17:16:36] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-06-23 17:16:36] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230623/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 17:16:36] INFO root fetch - processPackages [casanova]: New version: [1.9.0] Old Version: [1.8.0a2]
+[2023-06-23 17:16:36] INFO root fetch - processPackages [cloudify-common]: Downloading https://files.pythonhosted.org/packages/86/53/f6352f032075030ca46d8a81f6f6f03e4a5cfae456ad7d14f5778e84a6e0/cloudify-common-7.0.1.tar.gz
+[2023-06-23 17:16:36] INFO root fetch - processPackages [casanova]: Downloading https://files.pythonhosted.org/packages/fb/e8/c52fea40c67476e09546e63acb26b0213e2c617d6c502ecf2e42bae106e2/casanova-1.8.0a2.tar.gz
+[2023-06-23 17:16:36] INFO root fetch - processPackages [cloudify-common]: executing diffoscope
+[2023-06-23 17:16:36] INFO root fetch - processPackages [cloudify-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudify-common-7.0.0.tar.gz tmp/cloudify-common-7.0.1.tar.gz --markdown 20230623/c/cloudify-common/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-06-23 17:16:36] INFO root fetch - processPackages [casanova]: Downloading https://files.pythonhosted.org/packages/7e/5f/e68464a254c011a4a22861be0db3b63c50a70a55b62605a92564c60bdc02/casanova-1.9.0.tar.gz
+[2023-06-23 17:16:37] INFO root fetch - processPackages [casanova]: executing diffoscope
+[2023-06-23 17:16:37] INFO root fetch - processPackages [casanova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casanova-1.8.0a2.tar.gz tmp/casanova-1.9.0.tar.gz --markdown 20230623/c/casanova/1.8.0a2-1.9.0/diff.md --exclude *.pyd
+[2023-06-23 17:16:37] INFO root fetch - processPackages [pyttsx4]: Remove: archive file [/home/abi/fetcher/tmp/pyttsx4-3.0.8-py3-none-any.whl.zip]
+[2023-06-23 17:16:37] INFO root fetch - processPackages [pyttsx4]: Remove: archive file [/home/abi/fetcher/tmp/pyttsx4-3.0.9-py3-none-any.whl.zip]
+[2023-06-23 17:16:37] INFO root fetch - processPackages [pyttsx4]: Start processing: lameenc
+[2023-06-23 17:16:37] INFO root fetch - main [MainThread]: End processing [pyttsx4]: success
+[2023-06-23 17:16:37] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-23 17:16:37] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-23 17:16:37] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: plastik
+[2023-06-23 17:16:37] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-23 17:16:37] INFO root fetch - processPackages [plastik]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-23 17:16:37] INFO root fetch - processPackages [lameenc]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-06-23 17:16:37] INFO root fetch - processPackages [plastik]: Downloading https://files.pythonhosted.org/packages/56/37/9c541aef01fd23f88f41355cc5247800f7918f6b1081a19a610e44d3b13f/plastik-0.4.0.tar.gz
+[2023-06-23 17:16:38] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.19.2.tar.gz]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.19.3.tar.gz]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [thipster]: Start processing: abstra
+[2023-06-23 17:16:38] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-23 17:16:38] INFO root fetch - processPackages [abstra]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [odoo-addon-auth-jwt-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_jwt_demo-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [odoo-addon-auth-jwt-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_jwt_demo-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [odoo-addon-auth-jwt-demo]: Start processing: notion-pinecone
+[2023-06-23 17:16:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-jwt-demo]: success
+[2023-06-23 17:16:38] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [lameenc]: Downloading https://files.pythonhosted.org/packages/a9/a7/f780d492dc12fd1186fef759717a9cb9b44c8c02d464b5097349ee792f9d/lameenc-1.4.2-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_24_i686.whl
+[2023-06-23 17:16:38] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-23 17:16:38] INFO root fetch - processPackages [plastik]: Downloading https://files.pythonhosted.org/packages/f9/81/691d93f4e2c76b928952dadbc4a4ebe3c56d7bb5eed30940d3b976c8086c/plastik-0.4.1.tar.gz
+[2023-06-23 17:16:38] INFO root fetch - processPackages [odoo-addon-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_jwt-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [odoo-addon-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_jwt-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [odoo-addon-auth-jwt]: Start processing: pybiolib
+[2023-06-23 17:16:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-jwt]: success
+[2023-06-23 17:16:38] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [plastik]: executing diffoscope
+[2023-06-23 17:16:38] INFO root fetch - processPackages [plastik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plastik-0.4.0.tar.gz tmp/plastik-0.4.1.tar.gz --markdown 20230623/p/plastik/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-23 17:16:38] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/05/28/f72832c041e0b2b0b63df0d3511c62d5fcbca5ba96f7d4a263a7454e6806/abstra-0.8.0.tar.gz
+[2023-06-23 17:16:38] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2023-06-23 17:16:38] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-23 17:16:38] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2023-06-23 17:16:38] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-23 17:16:38] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230623/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 17:16:38] INFO root fetch - processPackages [lameenc]: Downloading https://files.pythonhosted.org/packages/2b/f7/a265d03bde7421899ba5586619d09717c70229ddc68e3b7333e21502ec08/lameenc-1.5.0-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_24_i686.whl
+[2023-06-23 17:16:38] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-06-23 17:16:38] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20230623/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2023-06-23 17:16:38] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/53/b0/210e93eceb08f1666cd15ef523580965cb7020363a0db1d10cd50c9a5b2e/abstra-0.9.0.tar.gz
+[2023-06-23 17:16:38] INFO root fetch - processPackages [lameenc]: executing diffoscope
+[2023-06-23 17:16:38] INFO root fetch - processPackages [casanova]: Remove: archive file [/home/abi/fetcher/tmp/casanova-1.8.0a2.tar.gz]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [lameenc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lameenc-1.4.2-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_24_i686.whl.zip tmp/lameenc-1.5.0-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_24_i686.whl.zip --markdown 20230623/l/lameenc/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-06-23 17:16:38] INFO root fetch - processPackages [casanova]: Remove: archive file [/home/abi/fetcher/tmp/casanova-1.9.0.tar.gz]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [casanova]: Start processing: execution-time-wrapper
+[2023-06-23 17:16:38] INFO root fetch - main [MainThread]: End processing [casanova]: success
+[2023-06-23 17:16:38] INFO root fetch - processPackages [abstra]: executing diffoscope
+[2023-06-23 17:16:38] INFO root fetch - processPackages [abstra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-0.8.0.tar.gz tmp/abstra-0.9.0.tar.gz --markdown 20230623/a/abstra/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 17:16:38] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [cellworld]: Start processing: mkdocs-dark-enhanced-dirtree
+[2023-06-23 17:16:38] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-06-23 17:16:38] INFO root fetch - processPackages [execution-time-wrapper]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-23 17:16:38] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-23 17:16:39] INFO root fetch - processPackages [execution-time-wrapper]: Downloading https://files.pythonhosted.org/packages/89/0d/1c807b584df220579f1fd5223da87f2e32c3043117c8fd03fdc0d8dee33c/execution_time_wrapper-1.0.0.tar.gz
+[2023-06-23 17:16:39] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: Downloading https://files.pythonhosted.org/packages/51/f2/727533218e41f41cfe97f28d5db5b92901a06f24ae6b7feac763f3823be3/mkdocs-dark_enhanced_dirtree-1.1.1.tar.gz
+[2023-06-23 17:16:39] INFO root fetch - processPackages [execution-time-wrapper]: Downloading https://files.pythonhosted.org/packages/75/16/a5d631fdc76f8ea0ef2a152fc327eb95926c8ab0ded92b9adeffcae0a343/execution_time_wrapper-1.0.1.tar.gz
+[2023-06-23 17:16:39] INFO root fetch - processPackages [execution-time-wrapper]: executing diffoscope
+[2023-06-23 17:16:39] INFO root fetch - processPackages [execution-time-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execution_time_wrapper-1.0.0.tar.gz tmp/execution_time_wrapper-1.0.1.tar.gz --markdown 20230623/e/execution-time-wrapper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-23 17:16:39] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: Downloading https://files.pythonhosted.org/packages/a9/a7/306366774da00eedc0080a338dab3b850ebf3f8749d6f161cb855df12081/mkdocs-dark_enhanced_dirtree-1.2.0.tar.gz
+[2023-06-23 17:16:39] INFO root fetch - processPackages [gofigr]: Remove: archive file [/home/abi/fetcher/tmp/gofigr-0.11.1.tar.gz]
+[2023-06-23 17:16:39] INFO root fetch - processPackages [gofigr]: Remove: archive file [/home/abi/fetcher/tmp/gofigr-0.11.2.tar.gz]
+[2023-06-23 17:16:39] INFO root fetch - main [MainThread]: End processing [gofigr]: success
+[2023-06-23 17:16:40] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: executing diffoscope
+[2023-06-23 17:16:40] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-dark_enhanced_dirtree-1.1.1.tar.gz tmp/mkdocs-dark_enhanced_dirtree-1.2.0.tar.gz --markdown 20230623/m/mkdocs-dark-enhanced-dirtree/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-23 17:16:40] INFO root fetch - processPackages [cloudify-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudify-common-7.0.0.tar.gz]
+[2023-06-23 17:16:40] INFO root fetch - processPackages [cloudify-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudify-common-7.0.1.tar.gz]
+[2023-06-23 17:16:40] INFO root fetch - main [MainThread]: End processing [cloudify-common]: success
+[2023-06-23 17:16:40] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.8.tar.gz]
+[2023-06-23 17:16:40] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.9.tar.gz]
+[2023-06-23 17:16:40] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-23 17:16:40] INFO root fetch - processPackages [plastik]: Remove: archive file [/home/abi/fetcher/tmp/plastik-0.4.0.tar.gz]
+[2023-06-23 17:16:40] INFO root fetch - processPackages [plastik]: Remove: archive file [/home/abi/fetcher/tmp/plastik-0.4.1.tar.gz]
+[2023-06-23 17:16:40] INFO root fetch - main [MainThread]: End processing [plastik]: success
+[2023-06-23 17:16:40] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2023-06-23 17:16:40] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2023-06-23 17:16:40] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-06-23 17:16:41] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.8.0.tar.gz]
+[2023-06-23 17:16:41] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.9.0.tar.gz]
+[2023-06-23 17:16:41] INFO root fetch - main [MainThread]: End processing [abstra]: success
+[2023-06-23 17:16:41] INFO root fetch - processPackages [scipion-em]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-3.0.9.tar.gz]
+[2023-06-23 17:16:41] INFO root fetch - processPackages [scipion-em]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-3.1.0.tar.gz]
+[2023-06-23 17:16:41] INFO root fetch - main [MainThread]: End processing [scipion-em]: success
+[2023-06-23 17:16:42] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-dark_enhanced_dirtree-1.1.1.tar.gz]
+[2023-06-23 17:16:42] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-dark_enhanced_dirtree-1.2.0.tar.gz]
+[2023-06-23 17:16:42] INFO root fetch - main [MainThread]: End processing [mkdocs-dark-enhanced-dirtree]: success
+[2023-06-23 17:16:43] INFO root fetch - processPackages [lameenc]: Remove: archive file [/home/abi/fetcher/tmp/lameenc-1.4.2-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_24_i686.whl.zip]
+[2023-06-23 17:16:43] INFO root fetch - processPackages [lameenc]: Remove: archive file [/home/abi/fetcher/tmp/lameenc-1.5.0-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_24_i686.whl.zip]
+[2023-06-23 17:16:43] INFO root fetch - main [MainThread]: End processing [lameenc]: success
+[2023-06-23 17:17:33] INFO root fetch - processPackages [execution-time-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/execution_time_wrapper-1.0.0.tar.gz]
+[2023-06-23 17:17:33] INFO root fetch - processPackages [execution-time-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/execution_time_wrapper-1.0.1.tar.gz]
+[2023-06-23 17:17:33] INFO root fetch - main [MainThread]: End processing [execution-time-wrapper]: success
+[2023-06-23 17:17:33] INFO root fetch - main [MainThread]: Store serial: [18619628]
