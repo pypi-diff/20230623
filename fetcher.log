@@ -19786,3 +19786,161 @@ EOFError: EOF read where object expected
 [2023-06-23 15:49:36] INFO root fetch - processPackages [ledfx]: Remove: archive file [/home/abi/fetcher/tmp/ledfx-2.0.69.tar.gz]
 [2023-06-23 15:49:36] INFO root fetch - main [MainThread]: End processing [ledfx]: success
 [2023-06-23 15:49:36] INFO root fetch - main [MainThread]: Store serial: [18618698]
+[2023-06-23 15:54:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18618698]
+[2023-06-23 15:54:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iosense-connect
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DigLabTools
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plotscanner
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GPTConnect
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: symbolic
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: almavik
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastestimator-nightly
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ai-services
+[2023-06-23 15:54:53] INFO root fetch - processPackages [pillar1]: New version: [0.1.7.1] Old Version: [0.1.7]
+[2023-06-23 15:54:53] INFO root fetch - processPackages [iosense-connect]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-06-23 15:54:53] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 15:54:53] INFO root fetch - processPackages [symbolic]: New version: [9.2.1] Old Version: [9.2.0]
+[2023-06-23 15:54:53] INFO root fetch - processPackages [GPTConnect]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 15:54:53] INFO root fetch - processPackages [DigLabTools]: New version: [0.0.2] Old Version: [0.0.1a7]
+[2023-06-23 15:54:53] INFO root fetch - processPackages [plotscanner]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-23 15:54:53] INFO root fetch - processPackages [almavik]: New version: [361] Old Version: [360]
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ai-services]: New version: [0.5.0rc9] Old Version: [0.5.0rc8]
+[2023-06-23 15:54:53] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 15:54:53] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/78/26/e4610d29147e11556f35f9ae7f39784d78d6a73b04e4ff5fc731f7bbbd75/almavik-360.tar.gz
+[2023-06-23 15:54:53] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202306231351] Old Version: [1.6.0.dev202306221350]
+[2023-06-23 15:54:53] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85082530>=10485760
+[2023-06-23 15:54:53] INFO root fetch - processPackages [almavik]: Start processing: grpcrest
+[2023-06-23 15:54:53] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-23 15:54:53] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/58/ab/30d15db946dc0c8449e1da25864568db4e100c69b776b3b05e0de192dc66/pillar1-0.1.7.tar.gz
+[2023-06-23 15:54:53] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/4c/a0/5974bafccc70f9f095efeaf2fc9916d6d6d21a42bca5b9b8eb1ea54da4ce/fastestimator-nightly-1.6.0.dev202306221350.tar.gz
+[2023-06-23 15:54:53] INFO root fetch - processPackages [DigLabTools]: Downloading https://files.pythonhosted.org/packages/85/66/398524a3c40146409822deea629b33c4fd22bde69d071d8aee0f7c3f1775/DigLabTools-0.0.1a7.tar.gz
+[2023-06-23 15:54:53] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/9d/66/993223b2c67a4283adbafa6446c1f1f37ac2e50d7777a31f90d2385f24ca/iosense_connect-4.0.3.tar.gz
+[2023-06-23 15:54:53] INFO root fetch - processPackages [grpcrest]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 15:54:53] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/b1/b5/50167a428a17f01d9e37a4efa79c5b61f4c0ba5c68ae209169a326d3cc93/GPTConnect-0.1.1.tar.gz
+[2023-06-23 15:54:53] INFO root fetch - processPackages [symbolic]: Downloading https://files.pythonhosted.org/packages/6d/ec/d114975aab46135d8af81c2477215b7b4c6c527f8653792de6b1d1035cb0/symbolic-9.2.0.zip
+[2023-06-23 15:54:53] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/77/c5/a81e3c1016a728128de1001a0672005901ca96685966233a57826ceba4e2/ai_services-0.5.0rc8.tar.gz
+[2023-06-23 15:54:53] INFO root fetch - processPackages [plotscanner]: Downloading https://files.pythonhosted.org/packages/11/a5/d632cdc9cee39debd7bca7e78d451d5e5a13819d3dd9e9d5153b520a0be0/plotscanner-0.0.0.tar.gz
+[2023-06-23 15:54:53] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 15:54:53] INFO root fetch - processPackages [grpcrest]: Downloading https://files.pythonhosted.org/packages/99/01/f8075a5fd0069f8ba9f50d434bbe41a539e8b8c58a7f891d1ba643113602/grpcrest-0.8.tar.gz
+[2023-06-23 15:54:53] WARNING root fetch - processPackages [grpcrest]: Skipping package: exceeds size limit 21180887>=10485760
+[2023-06-23 15:54:53] INFO root fetch - processPackages [grpcrest]: Start processing: fusionprov
+[2023-06-23 15:54:53] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-23 15:54:53] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 15:54:53] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 15:54:54] INFO root fetch - processPackages [fusionprov]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-23 15:54:54] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/4f/c3/1b0929510e02291a3b03c75669d12aaec9f95473b5a717a8da116108de1d/iosense_connect-4.0.4.tar.gz
+[2023-06-23 15:54:54] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/77/1e/65195292f95b38a9ed6b0e63f33b35de3835c25b3902b71cd66daf2616e2/pillar1-0.1.7.1.tar.gz
+[2023-06-23 15:54:54] INFO root fetch - processPackages [plotscanner]: Downloading https://files.pythonhosted.org/packages/0f/7d/3232cfd91fe605db49c6e5b81ce988769a30730c1f74924bd7f25d7ddbce/plotscanner-0.0.1.tar.gz
+[2023-06-23 15:54:54] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/73/dc/991002bccb4d935d90c8ee0480b12e3e1b8b909baefab583532e3ef9a2a7/GPTConnect-0.1.2.tar.gz
+[2023-06-23 15:54:54] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/a5/da/5641be100ea5a4d70f307c1e89574a4a598bc90b974bfbb4cfbebbbc1f03/fastestimator-nightly-1.6.0.dev202306231351.tar.gz
+[2023-06-23 15:54:54] INFO root fetch - processPackages [DigLabTools]: Downloading https://files.pythonhosted.org/packages/65/65/33b85afad80f3adadf8e4dd69245446203af7ce853df939ecf8d058e677a/DigLabTools-0.0.2.tar.gz
+[2023-06-23 15:54:54] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-06-23 15:54:54] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-4.0.3.tar.gz tmp/iosense_connect-4.0.4.tar.gz --markdown 20230623/i/iosense-connect/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-06-23 15:54:54] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-23 15:54:54] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.7.tar.gz tmp/pillar1-0.1.7.1.tar.gz --markdown 20230623/p/pillar1/0.1.7-0.1.7.1/diff.md --exclude *.pyd
+[2023-06-23 15:54:54] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/c2/e2/78cfce554b3c81f6240f71231bcdbdaa59f36309e81fcc627c63823a5d6c/ai_services-0.5.0rc9.tar.gz
+[2023-06-23 15:54:54] INFO root fetch - processPackages [fusionprov]: Downloading https://files.pythonhosted.org/packages/ad/73/4bc12e2d8aaff9d063b2bb247e078a818d5523df1a61b22c551089d5138e/fusionprov-1.2.0.tar.gz
+[2023-06-23 15:54:54] INFO root fetch - processPackages [DigLabTools]: executing diffoscope
+[2023-06-23 15:54:54] INFO root fetch - processPackages [DigLabTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DigLabTools-0.0.1a7.tar.gz tmp/DigLabTools-0.0.2.tar.gz --markdown 20230623/D/DigLabTools/0.0.1a7-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 15:54:54] INFO root fetch - processPackages [GPTConnect]: executing diffoscope
+[2023-06-23 15:54:54] INFO root fetch - processPackages [GPTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTConnect-0.1.1.tar.gz tmp/GPTConnect-0.1.2.tar.gz --markdown 20230623/G/GPTConnect/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 15:54:54] INFO root fetch - processPackages [plotscanner]: executing diffoscope
+[2023-06-23 15:54:54] INFO root fetch - processPackages [plotscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotscanner-0.0.0.tar.gz tmp/plotscanner-0.0.1.tar.gz --markdown 20230623/p/plotscanner/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-23 15:54:54] INFO root fetch - processPackages [ai-services]: executing diffoscope
+[2023-06-23 15:54:54] INFO root fetch - processPackages [ai-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_services-0.5.0rc8.tar.gz tmp/ai_services-0.5.0rc9.tar.gz --markdown 20230623/a/ai-services/0.5.0rc8-0.5.0rc9/diff.md --exclude *.pyd
+[2023-06-23 15:54:54] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-06-23 15:54:54] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202306221350.tar.gz tmp/fastestimator-nightly-1.6.0.dev202306231351.tar.gz --markdown 20230623/f/fastestimator-nightly/1.6.0.dev202306221350-1.6.0.dev202306231351/diff.md --exclude *.pyd
+[2023-06-23 15:54:54] INFO root fetch - processPackages [symbolic]: Downloading https://files.pythonhosted.org/packages/52/77/4f03eeba7d6f01f7576b02d5173a172c828c71fa64297f22a1a8100855d9/symbolic-9.2.1.zip
+[2023-06-23 15:54:54] INFO root fetch - processPackages [fusionprov]: Downloading https://files.pythonhosted.org/packages/a8/a5/22e953c22c482994645a399041d2d061a611815f598c716d51885a53a2f6/fusionprov-1.2.1-py3-none-any.whl
+[2023-06-23 15:54:54] INFO root fetch - processPackages [fusionprov]: executing diffoscope
+[2023-06-23 15:54:54] INFO root fetch - processPackages [fusionprov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusionprov-1.2.0.tar.gz tmp/fusionprov-1.2.1-py3-none-any.whl.zip --markdown 20230623/f/fusionprov/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-23 15:54:55] INFO root fetch - processPackages [symbolic]: executing diffoscope
+[2023-06-23 15:54:55] INFO root fetch - processPackages [symbolic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolic-9.2.0.zip tmp/symbolic-9.2.1.zip --markdown 20230623/s/symbolic/9.2.0-9.2.1/diff.md --exclude *.pyd
+[2023-06-23 15:54:55] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-4.0.3.tar.gz]
+[2023-06-23 15:54:55] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-4.0.4.tar.gz]
+[2023-06-23 15:54:55] INFO root fetch - processPackages [iosense-connect]: Start processing: delaunay-watershed-3d
+[2023-06-23 15:54:55] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-06-23 15:54:55] INFO root fetch - processPackages [delaunay-watershed-3d]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-23 15:54:55] INFO root fetch - processPackages [delaunay-watershed-3d]: Downloading https://files.pythonhosted.org/packages/c0/14/a3aab46296ecc38a21a449a9520982e032cbecb06d119d1772194c008137/delaunay_watershed_3d-0.2.4.tar.gz
+[2023-06-23 15:54:55] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.tar.gz]
+[2023-06-23 15:54:55] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.1.tar.gz]
+[2023-06-23 15:54:55] INFO root fetch - processPackages [pillar1]: Start processing: few-shot-priming
+[2023-06-23 15:54:55] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-23 15:54:55] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 15:54:55] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.1.tar.gz]
+[2023-06-23 15:54:55] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.2.tar.gz]
+[2023-06-23 15:54:55] INFO root fetch - processPackages [GPTConnect]: Start processing: redis-rate-limiters
+[2023-06-23 15:54:55] INFO root fetch - main [MainThread]: End processing [GPTConnect]: success
+[2023-06-23 15:54:55] INFO root fetch - processPackages [redis-rate-limiters]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-23 15:54:55] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 15:54:55] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 15:54:56] INFO root fetch - processPackages [delaunay-watershed-3d]: Downloading https://files.pythonhosted.org/packages/a8/7e/d922a1e85a38856479c872a6812f3e7cd4c52571307a0dcfa5a0c8be5365/delaunay_watershed_3d-0.2.5.tar.gz
+[2023-06-23 15:54:56] INFO root fetch - processPackages [DigLabTools]: Remove: archive file [/home/abi/fetcher/tmp/DigLabTools-0.0.1a7.tar.gz]
+[2023-06-23 15:54:56] INFO root fetch - processPackages [DigLabTools]: Remove: archive file [/home/abi/fetcher/tmp/DigLabTools-0.0.2.tar.gz]
+[2023-06-23 15:54:56] INFO root fetch - processPackages [DigLabTools]: Start processing: edx-when
+[2023-06-23 15:54:56] INFO root fetch - main [MainThread]: End processing [DigLabTools]: success
+[2023-06-23 15:54:56] INFO root fetch - processPackages [edx-when]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-06-23 15:54:56] INFO root fetch - processPackages [redis-rate-limiters]: Downloading https://files.pythonhosted.org/packages/6a/9b/a6ec5d4a208df6d2c0e625445f2b37e0bf8e742ea66a35e048dbaaacd68c/redis_rate_limiters-0.3.0.tar.gz
+[2023-06-23 15:54:56] INFO root fetch - processPackages [delaunay-watershed-3d]: executing diffoscope
+[2023-06-23 15:54:56] INFO root fetch - processPackages [delaunay-watershed-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delaunay_watershed_3d-0.2.4.tar.gz tmp/delaunay_watershed_3d-0.2.5.tar.gz --markdown 20230623/d/delaunay-watershed-3d/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-23 15:54:56] INFO root fetch - processPackages [fusionprov]: Remove: archive file [/home/abi/fetcher/tmp/fusionprov-1.2.0.tar.gz]
+[2023-06-23 15:54:56] INFO root fetch - processPackages [fusionprov]: Remove: archive file [/home/abi/fetcher/tmp/fusionprov-1.2.1-py3-none-any.whl.zip]
+[2023-06-23 15:54:56] INFO root fetch - processPackages [fusionprov]: Start processing: mat_discover
+[2023-06-23 15:54:56] INFO root fetch - main [MainThread]: End processing [fusionprov]: success
+[2023-06-23 15:54:56] INFO root fetch - processPackages [mat_discover]: New version: [2.2.9] Old Version: [2.2.7]
+[2023-06-23 15:54:56] INFO root fetch - processPackages [edx-when]: Downloading https://files.pythonhosted.org/packages/2b/e0/780e13a91164d20c1f5d908d7be6148e910bc0178507a01eb5e0042e9674/edx-when-2.3.0.tar.gz
+[2023-06-23 15:54:56] INFO root fetch - processPackages [redis-rate-limiters]: Downloading https://files.pythonhosted.org/packages/d0/04/bd561c815600d3c3c46d5baac3db7e7a9765c9f07008300a447bbe861e09/redis_rate_limiters-0.3.1.tar.gz
+[2023-06-23 15:54:56] INFO root fetch - processPackages [mat_discover]: Downloading https://files.pythonhosted.org/packages/1b/55/9ef7c59f9093ceb5837c3e803953c980e51c0db4e4b88c4c58ff78121a10/mat_discover-2.2.7.tar.gz
+[2023-06-23 15:54:56] INFO root fetch - processPackages [plotscanner]: Remove: archive file [/home/abi/fetcher/tmp/plotscanner-0.0.0.tar.gz]
+[2023-06-23 15:54:56] INFO root fetch - processPackages [plotscanner]: Remove: archive file [/home/abi/fetcher/tmp/plotscanner-0.0.1.tar.gz]
+[2023-06-23 15:54:56] INFO root fetch - processPackages [plotscanner]: Start processing: wodoo
+[2023-06-23 15:54:56] INFO root fetch - main [MainThread]: End processing [plotscanner]: success
+[2023-06-23 15:54:56] INFO root fetch - processPackages [wodoo]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 15:54:56] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/7c/72/7b39bf072f221bb2dfad900a6cc3d5d12a1e6b331b8925dc9172fe30d8f0/wodoo-0.4.3.tar.gz
+[2023-06-23 15:54:56] INFO root fetch - processPackages [redis-rate-limiters]: executing diffoscope
+[2023-06-23 15:54:56] INFO root fetch - processPackages [redis-rate-limiters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_rate_limiters-0.3.0.tar.gz tmp/redis_rate_limiters-0.3.1.tar.gz --markdown 20230623/r/redis-rate-limiters/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-23 15:54:56] INFO root fetch - processPackages [edx-when]: Downloading https://files.pythonhosted.org/packages/0a/f0/78af54c0c20d08322b6a28b74d457ce64265e765c176a31e140092763a4e/edx-when-2.4.0.tar.gz
+[2023-06-23 15:54:56] WARNING root fetch - processPackages [mat_discover]: Skipping package: exceeds size limit 16990925>=10485760
+[2023-06-23 15:54:56] INFO root fetch - processPackages [mat_discover]: Start processing: foambryo
+[2023-06-23 15:54:56] INFO root fetch - main [MainThread]: End processing [mat_discover] error
+[2023-06-23 15:54:56] INFO root fetch - processPackages [edx-when]: executing diffoscope
+[2023-06-23 15:54:56] INFO root fetch - processPackages [edx-when]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-when-2.3.0.tar.gz tmp/edx-when-2.4.0.tar.gz --markdown 20230623/e/edx-when/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-06-23 15:54:56] INFO root fetch - processPackages [foambryo]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-06-23 15:54:56] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/85/43/6cac4f0fe389883a2e93e4d9a79c5cd2bb9e2e22fa8e8270ca4a63c74664/wodoo-0.4.4.tar.gz
+[2023-06-23 15:54:56] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/62/72/b05a49cf0be364c77144e7322a1e12bc921b4b17a8cf9a282d0e2d108835/foambryo-0.2.3.tar.gz
+[2023-06-23 15:54:57] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-06-23 15:54:57] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.3.tar.gz tmp/wodoo-0.4.4.tar.gz --markdown 20230623/w/wodoo/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 15:54:57] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/2c/7d/3d04cae14c9756ba686dc453a669a30c397a17191cf0b6e183b3730fff3e/foambryo-0.2.5.tar.gz
+[2023-06-23 15:54:57] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 15:54:57] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 15:54:57] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 15:54:57] INFO root fetch - processPackages [foambryo]: executing diffoscope
+[2023-06-23 15:54:57] INFO root fetch - processPackages [foambryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foambryo-0.2.3.tar.gz tmp/foambryo-0.2.5.tar.gz --markdown 20230623/f/foambryo/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-06-23 15:54:57] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 15:54:58] INFO root fetch - processPackages [redis-rate-limiters]: Remove: archive file [/home/abi/fetcher/tmp/redis_rate_limiters-0.3.0.tar.gz]
+[2023-06-23 15:54:58] INFO root fetch - processPackages [redis-rate-limiters]: Remove: archive file [/home/abi/fetcher/tmp/redis_rate_limiters-0.3.1.tar.gz]
+[2023-06-23 15:54:58] INFO root fetch - main [MainThread]: End processing [redis-rate-limiters]: success
+[2023-06-23 15:54:58] INFO root fetch - processPackages [edx-when]: Remove: archive file [/home/abi/fetcher/tmp/edx-when-2.3.0.tar.gz]
+[2023-06-23 15:54:58] INFO root fetch - processPackages [edx-when]: Remove: archive file [/home/abi/fetcher/tmp/edx-when-2.4.0.tar.gz]
+[2023-06-23 15:54:58] INFO root fetch - main [MainThread]: End processing [edx-when]: success
+[2023-06-23 15:54:58] INFO root fetch - processPackages [delaunay-watershed-3d]: Remove: archive file [/home/abi/fetcher/tmp/delaunay_watershed_3d-0.2.4.tar.gz]
+[2023-06-23 15:54:58] INFO root fetch - processPackages [delaunay-watershed-3d]: Remove: archive file [/home/abi/fetcher/tmp/delaunay_watershed_3d-0.2.5.tar.gz]
+[2023-06-23 15:54:58] INFO root fetch - main [MainThread]: End processing [delaunay-watershed-3d]: success
+[2023-06-23 15:54:58] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.3.tar.gz]
+[2023-06-23 15:54:58] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.5.tar.gz]
+[2023-06-23 15:54:58] INFO root fetch - main [MainThread]: End processing [foambryo]: success
+[2023-06-23 15:54:58] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.3.tar.gz]
+[2023-06-23 15:54:58] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.4.tar.gz]
+[2023-06-23 15:54:58] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-06-23 15:54:59] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc8.tar.gz]
+[2023-06-23 15:54:59] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc9.tar.gz]
+[2023-06-23 15:54:59] INFO root fetch - main [MainThread]: End processing [ai-services]: success
+[2023-06-23 15:55:00] INFO root fetch - processPackages [symbolic]: Remove: archive file [/home/abi/fetcher/tmp/symbolic-9.2.0.zip]
+[2023-06-23 15:55:00] INFO root fetch - processPackages [symbolic]: Remove: archive file [/home/abi/fetcher/tmp/symbolic-9.2.1.zip]
+[2023-06-23 15:55:00] INFO root fetch - main [MainThread]: End processing [symbolic]: success
+[2023-06-23 15:55:02] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306221350.tar.gz]
+[2023-06-23 15:55:02] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306231351.tar.gz]
+[2023-06-23 15:55:02] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-06-23 15:55:02] INFO root fetch - main [MainThread]: Store serial: [18618756]
