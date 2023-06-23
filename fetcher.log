@@ -16489,3 +16489,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 13:35:01] INFO root fetch - processPackages [hhnk-threedi-tools]: Remove: archive file [/home/abi/fetcher/tmp/hhnk-threedi-tools-2023.3.2.tar.gz]
 [2023-06-23 13:35:01] INFO root fetch - main [MainThread]: End processing [hhnk-threedi-tools]: success
 [2023-06-23 13:35:01] INFO root fetch - main [MainThread]: Store serial: [18617325]
+[2023-06-23 13:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617325]
+[2023-06-23 13:40:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-23 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2023-06-23 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-nano
+[2023-06-23 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ima-predeployed
+[2023-06-23 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-avro-schema
+[2023-06-23 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grpcrest
+[2023-06-23 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brainglobe-utils
+[2023-06-23 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pelican-katex
+[2023-06-23 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: filecabinet
+[2023-06-23 13:40:10] WARNING root fetch - processPackages [grpcrest]: Skipping, unable to determine old version
+[2023-06-23 13:40:10] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-23 13:40:10] INFO root fetch - processPackages [py-avro-schema]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-06-23 13:40:10] INFO root fetch - processPackages [brainglobe-utils]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-23 13:40:10] INFO root fetch - processPackages [pelican-katex]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-23 13:40:10] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 13:40:10] INFO root fetch - processPackages [ima-predeployed]: New version: [2.0.0b0] Old Version: [2.0.0.dev3144677632594513]
+[2023-06-23 13:40:10] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230623] Old Version: [2.4.0b20230622]
+[2023-06-23 13:40:10] INFO root fetch - processPackages [filecabinet]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-06-23 13:40:10] INFO root fetch - processPackages [brainglobe-utils]: Downloading https://files.pythonhosted.org/packages/53/7a/5173ee9c5154bcc6e8f6bd05463d3e67b7676106217c57960768ffc805b6/brainglobe-utils-0.2.3.tar.gz
+[2023-06-23 13:40:10] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/5c/6b/2255fb120f8585ab366bc4f58684914e058108c7a8ff4201af94121f41b3/bigdl_nano-2.4.0b20230622-py3-none-win_amd64.whl
+[2023-06-23 13:40:10] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 13:40:10] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/64/b9/ebe10307b892300ae0b25e825134a88ec97aaac6cdfc4a24b98240a352d6/ima-predeployed-2.0.0.dev3144677632594513.tar.gz
+[2023-06-23 13:40:10] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/85/e4/4ec82920bff734cdd7efce997af315ad2c0a05fc02978c4a5c1d6f626a4e/py-avro-schema-2.0.2.tar.gz
+[2023-06-23 13:40:10] INFO root fetch - processPackages [pelican-katex]: Downloading https://files.pythonhosted.org/packages/8e/6f/10a6d695d2b164de57124428c39b82046a3134b7b3e86a0674431699dfc7/pelican_katex-1.8.0.tar.gz
+[2023-06-23 13:40:10] INFO root fetch - processPackages [filecabinet]: Downloading https://files.pythonhosted.org/packages/4e/cc/faf46a5bd6450a5960ea144cef8ad2c91cd0560a2e01a34ac3f01f1ab7f0/filecabinet-2.0.1.tar.gz
+[2023-06-23 13:40:10] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 13:40:10] INFO root fetch - processPackages [brainglobe-utils]: Downloading https://files.pythonhosted.org/packages/ab/b1/d7eaf7532563bae84a1e0db4df70d9c11782d64034fb1de157d59754c248/brainglobe-utils-0.2.4.tar.gz
+[2023-06-23 13:40:11] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 13:40:11] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 13:40:11] INFO root fetch - processPackages [brainglobe-utils]: executing diffoscope
+[2023-06-23 13:40:11] INFO root fetch - processPackages [brainglobe-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainglobe-utils-0.2.3.tar.gz tmp/brainglobe-utils-0.2.4.tar.gz --markdown 20230623/b/brainglobe-utils/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-23 13:40:11] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/34/b0/347a109b63d5825784d678918b0247bbc3bf536df76c9332a085b9b1db5c/py-avro-schema-2.1.0.tar.gz
+[2023-06-23 13:40:11] INFO root fetch - processPackages [pelican-katex]: Downloading https://files.pythonhosted.org/packages/f0/0b/0bd3b0d7c002ce1b9dad6fbb17d211c207efa178b861daadb60b10195851/pelican_katex-1.8.1.tar.gz
+[2023-06-23 13:40:11] INFO root fetch - processPackages [py-avro-schema]: executing diffoscope
+[2023-06-23 13:40:11] INFO root fetch - processPackages [py-avro-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-avro-schema-2.0.2.tar.gz tmp/py-avro-schema-2.1.0.tar.gz --markdown 20230623/p/py-avro-schema/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-06-23 13:40:11] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/8f/f4/94d7178ca353f8e945399182448be9a82d8f03981cbe46676f13c5ef161a/bigdl_nano-2.4.0b20230623-py3-none-win_amd64.whl
+[2023-06-23 13:40:11] INFO root fetch - processPackages [filecabinet]: Downloading https://files.pythonhosted.org/packages/de/fe/149f77940f59df218bc391eeded446c681596c5d7772588a9aa394f3414d/filecabinet-2.1.0.tar.gz
+[2023-06-23 13:40:11] INFO root fetch - processPackages [pelican-katex]: executing diffoscope
+[2023-06-23 13:40:11] INFO root fetch - processPackages [pelican-katex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican_katex-1.8.0.tar.gz tmp/pelican_katex-1.8.1.tar.gz --markdown 20230623/p/pelican-katex/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-23 13:40:11] INFO root fetch - processPackages [filecabinet]: executing diffoscope
+[2023-06-23 13:40:11] INFO root fetch - processPackages [filecabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filecabinet-2.0.1.tar.gz tmp/filecabinet-2.1.0.tar.gz --markdown 20230623/f/filecabinet/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-06-23 13:40:11] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/15/22/bf7fb5c3d34ffce55ba837c02d2c57f9065f884e05aaaa45ef415bd54c22/ima-predeployed-2.0.0b0.tar.gz
+[2023-06-23 13:40:11] INFO root fetch - processPackages [ima-predeployed]: executing diffoscope
+[2023-06-23 13:40:11] INFO root fetch - processPackages [ima-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ima-predeployed-2.0.0.dev3144677632594513.tar.gz tmp/ima-predeployed-2.0.0b0.tar.gz --markdown 20230623/i/ima-predeployed/2.0.0.dev3144677632594513-2.0.0b0/diff.md --exclude *.pyd
+[2023-06-23 13:40:11] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-23 13:40:11] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230622-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230623-py3-none-win_amd64.whl.zip --markdown 20230623/b/bigdl-nano/2.4.0b20230622-2.4.0b20230623/diff.md --exclude *.pyd
+[2023-06-23 13:40:12] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 13:40:12] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 13:40:12] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 13:40:12] INFO root fetch - processPackages [pelican-katex]: Remove: archive file [/home/abi/fetcher/tmp/pelican_katex-1.8.0.tar.gz]
+[2023-06-23 13:40:12] INFO root fetch - processPackages [pelican-katex]: Remove: archive file [/home/abi/fetcher/tmp/pelican_katex-1.8.1.tar.gz]
+[2023-06-23 13:40:12] INFO root fetch - main [MainThread]: End processing [pelican-katex]: success
+[2023-06-23 13:40:12] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-2.0.2.tar.gz]
+[2023-06-23 13:40:12] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-2.1.0.tar.gz]
+[2023-06-23 13:40:12] INFO root fetch - main [MainThread]: End processing [py-avro-schema]: success
+[2023-06-23 13:40:12] INFO root fetch - processPackages [brainglobe-utils]: Remove: archive file [/home/abi/fetcher/tmp/brainglobe-utils-0.2.3.tar.gz]
+[2023-06-23 13:40:12] INFO root fetch - processPackages [brainglobe-utils]: Remove: archive file [/home/abi/fetcher/tmp/brainglobe-utils-0.2.4.tar.gz]
+[2023-06-23 13:40:12] INFO root fetch - main [MainThread]: End processing [brainglobe-utils]: success
+[2023-06-23 13:40:13] INFO root fetch - processPackages [filecabinet]: Remove: archive file [/home/abi/fetcher/tmp/filecabinet-2.0.1.tar.gz]
+[2023-06-23 13:40:13] INFO root fetch - processPackages [filecabinet]: Remove: archive file [/home/abi/fetcher/tmp/filecabinet-2.1.0.tar.gz]
+[2023-06-23 13:40:13] INFO root fetch - main [MainThread]: End processing [filecabinet]: success
+[2023-06-23 13:40:14] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230622-py3-none-win_amd64.whl.zip]
+[2023-06-23 13:40:14] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230623-py3-none-win_amd64.whl.zip]
+[2023-06-23 13:40:14] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-23 13:40:15] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0.dev3144677632594513.tar.gz]
+[2023-06-23 13:40:15] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b0.tar.gz]
+[2023-06-23 13:40:15] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
+[2023-06-23 13:40:15] INFO root fetch - main [MainThread]: Store serial: [18617348]
