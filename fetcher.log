@@ -9246,3 +9246,39 @@
 [2023-06-23 07:17:26] INFO root fetch - processPackages [fast-crossing]: Remove: archive file [/home/abi/fetcher/tmp/fast_crossing-0.0.8.tar.gz]
 [2023-06-23 07:17:26] INFO root fetch - main [MainThread]: End processing [fast-crossing]: success
 [2023-06-23 07:17:26] INFO root fetch - main [MainThread]: Store serial: [18614327]
+[2023-06-23 07:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614327]
+[2023-06-23 07:22:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-23 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kernml
+[2023-06-23 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2023-06-23 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intercode-bench
+[2023-06-23 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-l4d2-server
+[2023-06-23 07:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-stock-request
+[2023-06-23 07:22:36] INFO root fetch - processPackages [openllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 07:22:36] WARNING root fetch - processPackages [kernml]: Skipping, unable to determine old version
+[2023-06-23 07:22:36] INFO root fetch - main [MainThread]: End processing [kernml] error
+[2023-06-23 07:22:36] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.6.8] Old Version: [0.5.6.7]
+[2023-06-23 07:22:36] INFO root fetch - processPackages [odoo12-addon-stock-request]: New version: [12.0.1.5.0.99.dev9] Old Version: [12.0.1.5.0.99.dev8]
+[2023-06-23 07:22:36] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/58/0d/cc1babb191a8b76fe1c8e3729953a97fbb7cabd42219044926d672531fa6/nonebot_plugin_l4d2_server-0.5.6.7.tar.gz
+[2023-06-23 07:22:36] WARNING root fetch - processPackages [intercode-bench]: Skipping, unable to determine old version
+[2023-06-23 07:22:36] INFO root fetch - main [MainThread]: End processing [intercode-bench] error
+[2023-06-23 07:22:36] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/69/cc/09d77e25ca5797059a9243afde624499915528af92e6833e1f1d095be2d5/openllm-0.1.8.tar.gz
+[2023-06-23 07:22:36] INFO root fetch - processPackages [odoo12-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/3a/dc/bc42f5c4c46cdaa7720386252d0f19d321794211e108148c3930ace4cd32/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl
+[2023-06-23 07:22:36] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/53/84/ee7375675da2facff5bf87fe9c677aebe1c10969f0e2b02b312a4a8036cf/nonebot_plugin_l4d2_server-0.5.6.8.tar.gz
+[2023-06-23 07:22:36] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-06-23 07:22:36] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.6.7.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.6.8.tar.gz --markdown 20230623/n/nonebot-plugin-l4d2-server/0.5.6.7-0.5.6.8/diff.md --exclude *.pyd
+[2023-06-23 07:22:36] INFO root fetch - processPackages [odoo12-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/ac/b2/a9bece9f7386e26cb70f57438f2ad264677d4ce0c0eaec498fc9fb40d7d2/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl
+[2023-06-23 07:22:36] INFO root fetch - processPackages [odoo12-addon-stock-request]: executing diffoscope
+[2023-06-23 07:22:36] INFO root fetch - processPackages [odoo12-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip --markdown 20230623/o/odoo12-addon-stock-request/12.0.1.5.0.99.dev8-12.0.1.5.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-23 07:22:38] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.7.tar.gz]
+[2023-06-23 07:22:38] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.8.tar.gz]
+[2023-06-23 07:22:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-06-23 07:22:38] INFO root fetch - processPackages [odoo12-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-23 07:22:38] INFO root fetch - processPackages [odoo12-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-23 07:22:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-request]: success
+[2023-06-23 07:22:38] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/28/3e/a9330f38c746d3d17186006e87b6db6cd783f6aae338b8e382351a3ce53e/openllm-0.1.9.tar.gz
+[2023-06-23 07:22:39] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-06-23 07:22:39] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.1.8.tar.gz tmp/openllm-0.1.9.tar.gz --markdown 20230623/o/openllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 07:22:42] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.8.tar.gz]
+[2023-06-23 07:22:42] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.9.tar.gz]
+[2023-06-23 07:22:42] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-06-23 07:22:42] INFO root fetch - main [MainThread]: Store serial: [18614352]
