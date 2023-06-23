@@ -9920,3 +9920,51 @@
 [2023-06-23 08:16:54] INFO root fetch - processPackages [buffalo]: Remove: archive file [/home/abi/fetcher/tmp/buffalo-2.0.2rc3.tar.gz]
 [2023-06-23 08:16:54] INFO root fetch - main [MainThread]: End processing [buffalo]: success
 [2023-06-23 08:16:54] INFO root fetch - main [MainThread]: Store serial: [18614586]
+[2023-06-23 08:21:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614586]
+[2023-06-23 08:22:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-23 08:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidal-prediction
+[2023-06-23 08:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langtools
+[2023-06-23 08:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmtiles
+[2023-06-23 08:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spider-st
+[2023-06-23 08:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2023-06-23 08:22:04] INFO root fetch - processPackages [tidal-prediction]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-23 08:22:04] INFO root fetch - processPackages [pmtiles]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-06-23 08:22:04] INFO root fetch - processPackages [langtools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-23 08:22:04] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 08:22:04] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-23 08:22:04] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-23 08:22:04] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-23 08:22:04] INFO root fetch - processPackages [langtools]: Downloading https://files.pythonhosted.org/packages/42/07/a8ae2b4deac5b02b6d5c5dbde83f33b2bc25c0f78ede965576d49c4a77c4/langtools-0.2.0-py3-none-any.whl
+[2023-06-23 08:22:04] INFO root fetch - processPackages [tidal-prediction]: Downloading https://files.pythonhosted.org/packages/ef/7c/d2e6825928731de69831c5fd2bb0bb314102425a452f2f3b251a59665471/tidal-prediction-0.1.5.tar.gz
+[2023-06-23 08:22:04] INFO root fetch - processPackages [pmtiles]: Downloading https://files.pythonhosted.org/packages/19/ef/9e16e7467ba63ec6cc8aa75839bc80762e1668611af4a0a88e6432fd30f8/pmtiles-3.1.1.tar.gz
+[2023-06-23 08:22:04] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-23 08:22:04] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-23 08:22:04] INFO root fetch - processPackages [langtools]: Downloading https://files.pythonhosted.org/packages/fb/70/273c5ab878c74a54784f520f05a9b9dfcb552815e5ee98a2581152d29260/langtools-0.3.0-py3-none-any.whl
+[2023-06-23 08:22:04] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-23 08:22:04] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230623/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-23 08:22:04] INFO root fetch - processPackages [pmtiles]: Downloading https://files.pythonhosted.org/packages/ca/80/071f86b0db17965d1ca0e4a6bedeff2ffa62825962edbae74e63d48c1a4d/pmtiles-3.2.0.tar.gz
+[2023-06-23 08:22:04] INFO root fetch - processPackages [tidal-prediction]: Downloading https://files.pythonhosted.org/packages/d4/c8/8055ac61021fae7148b5b858ec917719e1bb7867d8966b15b7cdc3e6bf30/tidal-prediction-0.1.6.tar.gz
+[2023-06-23 08:22:04] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-23 08:22:04] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230623/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 08:22:04] INFO root fetch - processPackages [pmtiles]: executing diffoscope
+[2023-06-23 08:22:04] INFO root fetch - processPackages [pmtiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmtiles-3.1.1.tar.gz tmp/pmtiles-3.2.0.tar.gz --markdown 20230623/p/pmtiles/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-06-23 08:22:04] INFO root fetch - processPackages [langtools]: executing diffoscope
+[2023-06-23 08:22:04] INFO root fetch - processPackages [langtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtools-0.2.0-py3-none-any.whl.zip tmp/langtools-0.3.0-py3-none-any.whl.zip --markdown 20230623/l/langtools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 08:22:04] INFO root fetch - processPackages [tidal-prediction]: executing diffoscope
+[2023-06-23 08:22:04] INFO root fetch - processPackages [tidal-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal-prediction-0.1.5.tar.gz tmp/tidal-prediction-0.1.6.tar.gz --markdown 20230623/t/tidal-prediction/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-23 08:22:06] INFO root fetch - processPackages [pmtiles]: Remove: archive file [/home/abi/fetcher/tmp/pmtiles-3.1.1.tar.gz]
+[2023-06-23 08:22:06] INFO root fetch - processPackages [pmtiles]: Remove: archive file [/home/abi/fetcher/tmp/pmtiles-3.2.0.tar.gz]
+[2023-06-23 08:22:06] INFO root fetch - main [MainThread]: End processing [pmtiles]: success
+[2023-06-23 08:22:06] INFO root fetch - processPackages [langtools]: Remove: archive file [/home/abi/fetcher/tmp/langtools-0.2.0-py3-none-any.whl.zip]
+[2023-06-23 08:22:06] INFO root fetch - processPackages [langtools]: Remove: archive file [/home/abi/fetcher/tmp/langtools-0.3.0-py3-none-any.whl.zip]
+[2023-06-23 08:22:06] INFO root fetch - main [MainThread]: End processing [langtools]: success
+[2023-06-23 08:22:06] INFO root fetch - processPackages [tidal-prediction]: Remove: archive file [/home/abi/fetcher/tmp/tidal-prediction-0.1.5.tar.gz]
+[2023-06-23 08:22:06] INFO root fetch - processPackages [tidal-prediction]: Remove: archive file [/home/abi/fetcher/tmp/tidal-prediction-0.1.6.tar.gz]
+[2023-06-23 08:22:06] INFO root fetch - main [MainThread]: End processing [tidal-prediction]: success
+[2023-06-23 08:22:10] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-23 08:22:10] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-23 08:22:10] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-23 08:22:17] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-23 08:22:17] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-23 08:22:17] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-23 08:22:17] INFO root fetch - main [MainThread]: Store serial: [18614598]
