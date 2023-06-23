@@ -14672,3 +14672,151 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 12:14:21] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-23 12:14:21] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-23 12:14:21] INFO root fetch - main [MainThread]: Store serial: [18616435]
+[2023-06-23 12:19:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616435]
+[2023-06-23 12:19:32] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swh.web
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: as-mongodb
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eagerx-tutorials
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-restful-translator
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-access-control
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalm
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exem-vault
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databaseRestoreIntegrity
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiavatar
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plastik
+[2023-06-23 12:19:32] INFO root fetch - processPackages [django-restful-translator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 12:19:32] INFO root fetch - processPackages [plastik]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-23 12:19:32] WARNING root fetch - processPackages [as-mongodb]: Skipping, unable to determine old version
+[2023-06-23 12:19:32] INFO root fetch - processPackages [as-mongodb]: Start processing: scientific-plots
+[2023-06-23 12:19:32] INFO root fetch - processPackages [eagerx-tutorials]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 12:19:32] INFO root fetch - main [MainThread]: End processing [as-mongodb] error
+[2023-06-23 12:19:32] INFO root fetch - processPackages [aiavatar]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-06-23 12:19:32] WARNING root fetch - processPackages [exem-vault]: Skipping, unable to determine old version
+[2023-06-23 12:19:32] INFO root fetch - processPackages [exem-vault]: Start processing: JustScan
+[2023-06-23 12:19:32] INFO root fetch - main [MainThread]: End processing [exem-vault] error
+[2023-06-23 12:19:32] INFO root fetch - processPackages [databaseRestoreIntegrity]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-23 12:19:32] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:19:32] INFO root fetch - processPackages [swh.web]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-23 12:19:32] INFO root fetch - processPackages [scientific-plots]: New version: [1.5.1] Old Version: [1.4.9]
+[2023-06-23 12:19:32] INFO root fetch - processPackages [nonebot-plugin-access-control]: New version: [0.5.7.post1] Old Version: [0.5.7]
+[2023-06-23 12:19:32] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-23 12:19:32] INFO root fetch - processPackages [django-restful-translator]: Downloading https://files.pythonhosted.org/packages/d6/da/0bb29c0638ac96fad5f1aa9e81edb68daef5f7634f3cfa501d632b39668c/django_restful_translator-0.1.1.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [plastik]: Downloading https://files.pythonhosted.org/packages/dd/e6/75145a484a1e18c8215a21c31713d9cdd315e34bab738b9712be6b2a69be/plastik-0.3.0.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [databaseRestoreIntegrity]: Downloading https://files.pythonhosted.org/packages/b8/23/6cbdb1749931df0acf614c47802092a1b1a2dd7a42ee16dfba2cb2c4c7b9/databaseRestoreIntegrity-1.0.9.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [eagerx-tutorials]: Downloading https://files.pythonhosted.org/packages/ec/1e/7694f4f067738ed9ed5e1ba17137f873d30bcf853760ab9d972aca0d30f6/eagerx_tutorials-0.1.8.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [aiavatar]: Downloading https://files.pythonhosted.org/packages/a3/d6/7233d41c2476ca73d9ab4775ade3850685bea0fc87203a91d56f2aafe568/aiavatar-0.1.4-py3-none-any.whl
+[2023-06-23 12:19:32] INFO root fetch - processPackages [nonebot-plugin-access-control]: Downloading https://files.pythonhosted.org/packages/e8/a9/a2382416e014945b7e3ffb125b0d0136600aa74db39a7ee31c6c90d32a26/nonebot_plugin_access_control-0.5.7.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [swh.web]: Downloading https://files.pythonhosted.org/packages/66/15/6bc04af12a23337bb393e57e21ffba928a503bf0e3a5106bea151682da0d/swh.web-0.2.8.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [scientific-plots]: Downloading https://files.pythonhosted.org/packages/2b/2e/c1268106a08edb422616f12820838c2c1e95a9594aa0d5a8d2f36fa344b0/scientific_plots-1.4.9.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-23 12:19:32] WARNING root fetch - processPackages [swh.web]: Skipping package: exceeds size limit 13132382>=10485760
+[2023-06-23 12:19:32] INFO root fetch - processPackages [swh.web]: Start processing: ipylivebash
+[2023-06-23 12:19:32] INFO root fetch - main [MainThread]: End processing [swh.web] error
+[2023-06-23 12:19:32] INFO root fetch - processPackages [plastik]: Downloading https://files.pythonhosted.org/packages/56/37/9c541aef01fd23f88f41355cc5247800f7918f6b1081a19a610e44d3b13f/plastik-0.4.0.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [ipylivebash]: New version: [0.2.0a0] Old Version: [0.1.2]
+[2023-06-23 12:19:32] INFO root fetch - processPackages [django-restful-translator]: Downloading https://files.pythonhosted.org/packages/1b/3b/37c1831abc0f8297f233b603f1adba3e8f4886887bba1f96f00f4ba404c6/django_restful_translator-0.1.2.tar.gz
+[2023-06-23 12:19:32] INFO root fetch - processPackages [nonebot-plugin-access-control]: Downloading https://files.pythonhosted.org/packages/d0/95/a77c533002b72b45fac182a639ae21b91ffc5fb536d4904406f89b74cc01/nonebot_plugin_access_control-0.5.7.post1.tar.gz
+[2023-06-23 12:19:33] INFO root fetch - processPackages [databaseRestoreIntegrity]: Downloading https://files.pythonhosted.org/packages/6a/51/aab83c37db62cd2ac11fd1f4b53ee194d932e6b7fada262c16871a49898a/databaseRestoreIntegrity-1.1.0.tar.gz
+[2023-06-23 12:19:33] INFO root fetch - processPackages [aiavatar]: Downloading https://files.pythonhosted.org/packages/80/7a/987b8f6da2548c40e675e8b8fa0b20cb7238ecd1db085da8353210ccdf3c/aiavatar-0.2.0-py3-none-any.whl
+[2023-06-23 12:19:33] INFO root fetch - processPackages [plastik]: executing diffoscope
+[2023-06-23 12:19:33] INFO root fetch - processPackages [plastik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plastik-0.3.0.tar.gz tmp/plastik-0.4.0.tar.gz --markdown 20230623/p/plastik/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 12:19:33] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-23 12:19:33] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230623/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-23 12:19:33] INFO root fetch - processPackages [nonebot-plugin-access-control]: executing diffoscope
+[2023-06-23 12:19:33] INFO root fetch - processPackages [nonebot-plugin-access-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_access_control-0.5.7.tar.gz tmp/nonebot_plugin_access_control-0.5.7.post1.tar.gz --markdown 20230623/n/nonebot-plugin-access-control/0.5.7-0.5.7.post1/diff.md --exclude *.pyd
+[2023-06-23 12:19:33] INFO root fetch - processPackages [django-restful-translator]: executing diffoscope
+[2023-06-23 12:19:33] INFO root fetch - processPackages [django-restful-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restful_translator-0.1.1.tar.gz tmp/django_restful_translator-0.1.2.tar.gz --markdown 20230623/d/django-restful-translator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 12:19:33] INFO root fetch - processPackages [aiavatar]: executing diffoscope
+[2023-06-23 12:19:33] INFO root fetch - processPackages [aiavatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiavatar-0.1.4-py3-none-any.whl.zip tmp/aiavatar-0.2.0-py3-none-any.whl.zip --markdown 20230623/a/aiavatar/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-06-23 12:19:33] INFO root fetch - processPackages [scientific-plots]: Downloading https://files.pythonhosted.org/packages/c5/26/f5c9a70938fb4184e66b14cfe8b4d4c2502380e18d1f10d92d9026c4da22/scientific_plots-1.5.1.tar.gz
+[2023-06-23 12:19:33] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 12:19:33] INFO root fetch - processPackages [eagerx-tutorials]: Downloading https://files.pythonhosted.org/packages/f1/03/37ee3c4b2d5f37fd7729171fc17c83d6ee1d6bfa08ff1f6fa147d94ff2a0/eagerx_tutorials-0.1.9.tar.gz
+[2023-06-23 12:19:33] INFO root fetch - processPackages [ipylivebash]: Downloading https://files.pythonhosted.org/packages/f5/21/3e0468c3108177a46429b4de26a4fd7645d3177378edb76bea414fc349c4/ipylivebash-0.1.2.tar.gz
+[2023-06-23 12:19:33] INFO root fetch - processPackages [databaseRestoreIntegrity]: executing diffoscope
+[2023-06-23 12:19:33] INFO root fetch - processPackages [databaseRestoreIntegrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databaseRestoreIntegrity-1.0.9.tar.gz tmp/databaseRestoreIntegrity-1.1.0.tar.gz --markdown 20230623/d/databaseRestoreIntegrity/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 12:19:33] INFO root fetch - processPackages [scientific-plots]: executing diffoscope
+[2023-06-23 12:19:33] INFO root fetch - processPackages [scientific-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scientific_plots-1.4.9.tar.gz tmp/scientific_plots-1.5.1.tar.gz --markdown 20230623/s/scientific-plots/1.4.9-1.5.1/diff.md --exclude *.pyd
+[2023-06-23 12:19:33] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:19:33] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:19:33] INFO root fetch - processPackages [eagerx-tutorials]: executing diffoscope
+[2023-06-23 12:19:33] INFO root fetch - processPackages [eagerx-tutorials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eagerx_tutorials-0.1.8.tar.gz tmp/eagerx_tutorials-0.1.9.tar.gz --markdown 20230623/e/eagerx-tutorials/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 12:19:33] INFO root fetch - processPackages [ipylivebash]: Downloading https://files.pythonhosted.org/packages/f5/53/5b1a3bfa35780cbf2cff5189bad1ab289803d7e281d79374be22a2372bea/ipylivebash-0.2.0a0.tar.gz
+[2023-06-23 12:19:33] INFO root fetch - processPackages [ipylivebash]: executing diffoscope
+[2023-06-23 12:19:33] INFO root fetch - processPackages [ipylivebash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipylivebash-0.1.2.tar.gz tmp/ipylivebash-0.2.0a0.tar.gz --markdown 20230623/i/ipylivebash/0.1.2-0.2.0a0/diff.md --exclude *.pyd
+[2023-06-23 12:19:34] INFO root fetch - processPackages [plastik]: Remove: archive file [/home/abi/fetcher/tmp/plastik-0.3.0.tar.gz]
+[2023-06-23 12:19:34] INFO root fetch - processPackages [plastik]: Remove: archive file [/home/abi/fetcher/tmp/plastik-0.4.0.tar.gz]
+[2023-06-23 12:19:34] INFO root fetch - processPackages [plastik]: Start processing: kalm
+[2023-06-23 12:19:34] INFO root fetch - main [MainThread]: End processing [plastik]: success
+[2023-06-23 12:19:34] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:19:34] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:19:34] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:19:34] INFO root fetch - processPackages [aiavatar]: Remove: archive file [/home/abi/fetcher/tmp/aiavatar-0.1.4-py3-none-any.whl.zip]
+[2023-06-23 12:19:34] INFO root fetch - processPackages [aiavatar]: Remove: archive file [/home/abi/fetcher/tmp/aiavatar-0.2.0-py3-none-any.whl.zip]
+[2023-06-23 12:19:34] INFO root fetch - processPackages [aiavatar]: Start processing: openai-dbd
+[2023-06-23 12:19:34] INFO root fetch - main [MainThread]: End processing [aiavatar]: success
+[2023-06-23 12:19:34] INFO root fetch - processPackages [django-restful-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_restful_translator-0.1.1.tar.gz]
+[2023-06-23 12:19:34] INFO root fetch - processPackages [django-restful-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_restful_translator-0.1.2.tar.gz]
+[2023-06-23 12:19:34] INFO root fetch - processPackages [django-restful-translator]: Start processing: es-translator
+[2023-06-23 12:19:34] INFO root fetch - main [MainThread]: End processing [django-restful-translator]: success
+[2023-06-23 12:19:35] INFO root fetch - processPackages [es-translator]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [databaseRestoreIntegrity]: Remove: archive file [/home/abi/fetcher/tmp/databaseRestoreIntegrity-1.0.9.tar.gz]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [databaseRestoreIntegrity]: Remove: archive file [/home/abi/fetcher/tmp/databaseRestoreIntegrity-1.1.0.tar.gz]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [databaseRestoreIntegrity]: Start processing: pythorhead
+[2023-06-23 12:19:35] INFO root fetch - main [MainThread]: End processing [databaseRestoreIntegrity]: success
+[2023-06-23 12:19:35] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/bc/41/ceddccc0fd9e3658141fc9d29c1939dad0569154c19036e8b8e937d6b49a/es_translator-1.7.2.tar.gz
+[2023-06-23 12:19:35] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-23 12:19:35] INFO root fetch - processPackages [pythorhead]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-23 12:19:35] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [kalm]: Start processing: petisco
+[2023-06-23 12:19:35] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 12:19:35] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-23 12:19:35] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230623/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 12:19:35] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [scientific-plots]: Remove: archive file [/home/abi/fetcher/tmp/scientific_plots-1.4.9.tar.gz]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [scientific-plots]: Remove: archive file [/home/abi/fetcher/tmp/scientific_plots-1.5.1.tar.gz]
+[2023-06-23 12:19:35] INFO root fetch - main [MainThread]: End processing [scientific-plots]: success
+[2023-06-23 12:19:35] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/b9/84/f44ec4ced9c42d2109d2993d1a00cdcc40f626329bc42aec52c8a9254eb8/es_translator-1.7.3.tar.gz
+[2023-06-23 12:19:35] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/3d/85/bd3bf4ea1f715a5f6c956897d4156e48d9575e436d8b867a871ff53554d9/pythorhead-0.7.1.tar.gz
+[2023-06-23 12:19:35] INFO root fetch - processPackages [nonebot-plugin-access-control]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_access_control-0.5.7.tar.gz]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [nonebot-plugin-access-control]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_access_control-0.5.7.post1.tar.gz]
+[2023-06-23 12:19:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-access-control]: success
+[2023-06-23 12:19:35] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/b3/65/8620d7dc685cc0da6e269f2b45e025f95060054c569247c3fceecf3be30b/petisco-2.0.0rc1.tar.gz
+[2023-06-23 12:19:35] INFO root fetch - processPackages [eagerx-tutorials]: Remove: archive file [/home/abi/fetcher/tmp/eagerx_tutorials-0.1.8.tar.gz]
+[2023-06-23 12:19:35] INFO root fetch - processPackages [eagerx-tutorials]: Remove: archive file [/home/abi/fetcher/tmp/eagerx_tutorials-0.1.9.tar.gz]
+[2023-06-23 12:19:35] INFO root fetch - main [MainThread]: End processing [eagerx-tutorials]: success
+[2023-06-23 12:19:35] INFO root fetch - processPackages [es-translator]: executing diffoscope
+[2023-06-23 12:19:35] INFO root fetch - processPackages [es-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_translator-1.7.2.tar.gz tmp/es_translator-1.7.3.tar.gz --markdown 20230623/e/es-translator/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-23 12:19:35] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/9f/69/e0b679bc00873c4c7a09d2cab4f7ef496d0ad45541fa1318c2c70c58fd33/petisco-2.0.0rc2.tar.gz
+[2023-06-23 12:19:35] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/f0/3f/e0a1adc30f3c1df7d94de5dc26c53a13ace308eb00c0b715ea82ac0aa627/pythorhead-0.7.2.tar.gz
+[2023-06-23 12:19:35] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-23 12:19:35] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc1.tar.gz tmp/petisco-2.0.0rc2.tar.gz --markdown 20230623/p/petisco/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-06-23 12:19:35] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-06-23 12:19:35] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.7.1.tar.gz tmp/pythorhead-0.7.2.tar.gz --markdown 20230623/p/pythorhead/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-23 12:19:35] ERROR root fetch - processPackages [kalm]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/kalm-0.7.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/kalm-0.7.9.tar.gz: No such file or directory
+
+[2023-06-23 12:19:35] INFO root fetch - main [MainThread]: End processing [kalm] error
+[2023-06-23 12:19:36] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-23 12:19:36] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-23 12:19:36] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-23 12:19:36] INFO root fetch - processPackages [ipylivebash]: Remove: archive file [/home/abi/fetcher/tmp/ipylivebash-0.1.2.tar.gz]
+[2023-06-23 12:19:36] INFO root fetch - processPackages [ipylivebash]: Remove: archive file [/home/abi/fetcher/tmp/ipylivebash-0.2.0a0.tar.gz]
+[2023-06-23 12:19:36] INFO root fetch - main [MainThread]: End processing [ipylivebash]: success
+[2023-06-23 12:19:36] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-23 12:19:36] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-23 12:19:36] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-23 12:19:36] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.7.2.tar.gz]
+[2023-06-23 12:19:36] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.7.3.tar.gz]
+[2023-06-23 12:19:36] INFO root fetch - main [MainThread]: End processing [es-translator]: success
+[2023-06-23 12:19:37] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.7.1.tar.gz]
+[2023-06-23 12:19:37] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.7.2.tar.gz]
+[2023-06-23 12:19:37] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-06-23 12:19:39] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc1.tar.gz]
+[2023-06-23 12:19:39] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc2.tar.gz]
+[2023-06-23 12:19:39] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-23 12:19:39] INFO root fetch - main [MainThread]: Store serial: [18616495]
