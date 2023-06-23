@@ -12109,3 +12109,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 10:27:44] INFO root fetch - processPackages [lambeq]: Remove: archive file [/home/abi/fetcher/tmp/lambeq-0.3.2.tar.gz]
 [2023-06-23 10:27:44] INFO root fetch - main [MainThread]: End processing [lambeq]: success
 [2023-06-23 10:27:44] INFO root fetch - main [MainThread]: Store serial: [18615457]
+[2023-06-23 10:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615457]
+[2023-06-23 10:32:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-play-developer-api
+[2023-06-23 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apptools
+[2023-06-23 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kalm
+[2023-06-23 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ikomia-cli
+[2023-06-23 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lys-python
+[2023-06-23 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyspark
+[2023-06-23 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kalm
+[2023-06-23 10:32:54] INFO root fetch - processPackages [apptools]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-06-23 10:32:54] INFO root fetch - processPackages [google-play-developer-api]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-23 10:32:54] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 10:32:54] INFO root fetch - processPackages [ikomia-cli]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-23 10:32:54] WARNING root fetch - processPackages [lys-python]: Skipping, unable to determine old version
+[2023-06-23 10:32:54] INFO root fetch - main [MainThread]: End processing [lys-python] error
+[2023-06-23 10:32:54] INFO root fetch - processPackages [pyspark]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-06-23 10:32:54] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 10:32:54] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 10:32:54] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/66/b1/9662e41618396901874317c85c86a0a6e75a443811279b8a7d9707f56a75/google_play_developer_api-0.3.0.tar.gz
+[2023-06-23 10:32:54] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 10:32:54] INFO root fetch - processPackages [pyspark]: Downloading https://files.pythonhosted.org/packages/e3/c9/3341c9ec67ee7ada69e0fa85236f29e2a59191a90b5d4a7dc723f17fdb0f/pyspark-3.4.0.tar.gz
+[2023-06-23 10:32:54] INFO root fetch - processPackages [ikomia-cli]: Downloading https://files.pythonhosted.org/packages/c3/bb/34d5b136b58d43273d0f220c953e743e66a9e9f41d47cbdadf7dccf00733/ikomia_cli-0.1.0-py3-none-any.whl
+[2023-06-23 10:32:54] INFO root fetch - processPackages [apptools]: Downloading https://files.pythonhosted.org/packages/b1/69/d83eaccb74d82755bb96be3996a8386329424ce067aa1e0ab2179108a2f9/apptools-5.2.0.tar.gz
+[2023-06-23 10:32:54] WARNING root fetch - processPackages [pyspark]: Skipping package: exceeds size limit 310816775>=10485760
+[2023-06-23 10:32:54] INFO root fetch - main [MainThread]: End processing [pyspark] error
+[2023-06-23 10:32:54] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 10:32:54] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 10:32:54] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/22/47/c21e2ebeb502b296f37bad07c999ab7cd353c39a36ffec897c0396c2a6d1/google_play_developer_api-0.4.0.tar.gz
+[2023-06-23 10:32:54] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 10:32:54] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 10:32:54] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 10:32:54] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 10:32:54] INFO root fetch - processPackages [apptools]: Downloading https://files.pythonhosted.org/packages/12/68/f928e20dcf870ca03e13edd2fe28283cdcf335bc1014dffa915723cd5ea6/apptools-5.2.1.tar.gz
+[2023-06-23 10:32:54] INFO root fetch - processPackages [google-play-developer-api]: executing diffoscope
+[2023-06-23 10:32:54] INFO root fetch - processPackages [google-play-developer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_play_developer_api-0.3.0.tar.gz tmp/google_play_developer_api-0.4.0.tar.gz --markdown 20230623/g/google-play-developer-api/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 10:32:54] INFO root fetch - processPackages [apptools]: executing diffoscope
+[2023-06-23 10:32:54] INFO root fetch - processPackages [apptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apptools-5.2.0.tar.gz tmp/apptools-5.2.1.tar.gz --markdown 20230623/a/apptools/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-06-23 10:32:54] INFO root fetch - processPackages [ikomia-cli]: Downloading https://files.pythonhosted.org/packages/de/9c/d79cd62b4bf3c31725f2dc8adb50c041a60660ee3eb7fafb7d10b31d8c7d/ikomia_cli-0.2.0-py3-none-any.whl
+[2023-06-23 10:32:55] INFO root fetch - processPackages [ikomia-cli]: executing diffoscope
+[2023-06-23 10:32:55] INFO root fetch - processPackages [ikomia-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ikomia_cli-0.1.0-py3-none-any.whl.zip tmp/ikomia_cli-0.2.0-py3-none-any.whl.zip --markdown 20230623/i/ikomia-cli/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-23 10:32:55] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 10:32:55] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 10:32:55] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 10:32:55] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 10:32:56] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.3.0.tar.gz]
+[2023-06-23 10:32:56] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.4.0.tar.gz]
+[2023-06-23 10:32:56] INFO root fetch - main [MainThread]: End processing [google-play-developer-api]: success
+[2023-06-23 10:32:56] INFO root fetch - processPackages [ikomia-cli]: Remove: archive file [/home/abi/fetcher/tmp/ikomia_cli-0.1.0-py3-none-any.whl.zip]
+[2023-06-23 10:32:56] INFO root fetch - processPackages [ikomia-cli]: Remove: archive file [/home/abi/fetcher/tmp/ikomia_cli-0.2.0-py3-none-any.whl.zip]
+[2023-06-23 10:32:56] INFO root fetch - main [MainThread]: End processing [ikomia-cli]: success
+[2023-06-23 10:32:58] INFO root fetch - processPackages [apptools]: Remove: archive file [/home/abi/fetcher/tmp/apptools-5.2.0.tar.gz]
+[2023-06-23 10:32:58] INFO root fetch - processPackages [apptools]: Remove: archive file [/home/abi/fetcher/tmp/apptools-5.2.1.tar.gz]
+[2023-06-23 10:32:58] INFO root fetch - main [MainThread]: End processing [apptools]: success
+[2023-06-23 10:32:58] INFO root fetch - main [MainThread]: Store serial: [18615477]
