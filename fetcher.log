@@ -11118,3 +11118,155 @@
 [2023-06-23 09:37:13] INFO root fetch - processPackages [dtcontrol]: Remove: archive file [/home/abi/fetcher/tmp/dtcontrol-2.1.4-py3-none-any.whl.zip]
 [2023-06-23 09:37:13] INFO root fetch - main [MainThread]: End processing [dtcontrol]: success
 [2023-06-23 09:37:13] INFO root fetch - main [MainThread]: Store serial: [18615074]
+[2023-06-23 09:42:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615074]
+[2023-06-23 09:42:23] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-23 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: armonik
+[2023-06-23 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: almavik
+[2023-06-23 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-felleskomponenter
+[2023-06-23 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitbake-language-server
+[2023-06-23 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: walt-client
+[2023-06-23 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: walt-client-g5k
+[2023-06-23 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: walt-common
+[2023-06-23 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: walt-node
+[2023-06-23 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: walt-server
+[2023-06-23 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: walt-virtual
+[2023-06-23 09:42:23] INFO root fetch - processPackages [almavik]: New version: [5.0] Old Version: [351.1]
+[2023-06-23 09:42:23] INFO root fetch - processPackages [dask-felleskomponenter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-node]: New version: [8.0] Old Version: [7]
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-client]: New version: [8.0] Old Version: [7]
+[2023-06-23 09:42:23] WARNING root fetch - processPackages [walt-client-g5k]: Skipping, unable to determine old version
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-client-g5k]: Start processing: walt-vpn
+[2023-06-23 09:42:23] INFO root fetch - main [MainThread]: End processing [walt-client-g5k] error
+[2023-06-23 09:42:23] INFO root fetch - processPackages [armonik]: New version: [3.8.3.dev504] Old Version: [3.8.3.dev470]
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-virtual]: New version: [8.0] Old Version: [7]
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-server]: New version: [8.0] Old Version: [7]
+[2023-06-23 09:42:23] INFO root fetch - processPackages [bitbake-language-server]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-common]: New version: [8.0] Old Version: [7]
+[2023-06-23 09:42:23] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/14/09/1ef2b4c2a013c87dbf867a1c65bbc30fcb73157e60c78f1edf8fd495ee44/almavik-351.1.tar.gz
+[2023-06-23 09:42:23] WARNING root fetch - processPackages [walt-vpn]: Skipping, unable to determine old version
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-vpn]: Start processing: nucliadb-contributor-assets
+[2023-06-23 09:42:23] INFO root fetch - main [MainThread]: End processing [walt-vpn] error
+[2023-06-23 09:42:23] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post860] Old Version: [1.0.0.post859]
+[2023-06-23 09:42:23] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85078284>=10485760
+[2023-06-23 09:42:23] INFO root fetch - processPackages [almavik]: Start processing: kalm
+[2023-06-23 09:42:23] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-23 09:42:23] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/6f/94/cdea59a18fbf500696d429ff5e16224ec11f19ddffb285626b64eae8338f/nucliadb_contributor_assets-1.0.0.post859-py3-none-any.whl
+[2023-06-23 09:42:23] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-server]: Downloading https://files.pythonhosted.org/packages/b9/b2/9aa030292b0442c16cda01330b610e54c401fb7a3d0f9a24916b9ed7ee7b/walt-server-7.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-client]: Downloading https://files.pythonhosted.org/packages/70/2b/6f7e3214bc8661670ee33b5b12194daf712ef0ded1141113947f2493f000/walt-client-7.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-node]: Downloading https://files.pythonhosted.org/packages/28/25/be801ea95d101ce18269d7224084987f40ee2809a82f64113696bdb829ab/walt-node-7.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-common]: Downloading https://files.pythonhosted.org/packages/c7/83/d653f144f88a6263870614777726714b08e719d8e01e2b7ff35f035bfa44/walt-common-7.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [bitbake-language-server]: Downloading https://files.pythonhosted.org/packages/95/64/458a4ed78fbd401cd2d12bb78d5fc9f9dc0fa709f7a07f996acb9a2cd2e2/bitbake-language-server-0.0.1.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [dask-felleskomponenter]: Downloading https://files.pythonhosted.org/packages/c5/d3/4651927e837a8ed5cbee975f4ac5b579f647c347232921c33dc54cdcd16c/dask-felleskomponenter-0.0.8.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-virtual]: Downloading https://files.pythonhosted.org/packages/6d/66/95b67d48d5375027d5d15a7d64f5823badf5a502889e683e3d08e0d59e80/walt-virtual-7.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/23/4f/0c8f27862eb873769936d3e087c5baed37b1907d95eeffc48c0af430c220/armonik-3.8.3.dev470.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-server]: Downloading https://files.pythonhosted.org/packages/f4/00/caa392334c51157eba13c06547dbaeb3050562012bcff3813e6b8a3e6203/walt-server-8.0.tar.gz
+[2023-06-23 09:42:23] INFO root fetch - processPackages [walt-node]: Downloading https://files.pythonhosted.org/packages/09/e5/0e3dda0dc9c24137f454eff03b190fb80458bac131b3a1580b390e576e7a/walt_node-8.0-py3-none-any.whl
+[2023-06-23 09:42:23] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/14/98/fb4feb2a2812c3a8fde1fcd70cd909d4bf4dd692cf427432549002ac1aa6/nucliadb_contributor_assets-1.0.0.post860-py3-none-any.whl
+[2023-06-23 09:42:23] INFO root fetch - processPackages [bitbake-language-server]: Downloading https://files.pythonhosted.org/packages/a9/bc/2355444c64326a0997006588d549fe4f673bddf2b6a100c9148bd112f291/bitbake-language-server-0.0.2.tar.gz
+[2023-06-23 09:42:24] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 09:42:24] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-virtual]: Downloading https://files.pythonhosted.org/packages/e3/39/54f4d5032f093de3c8ae033db2c98b98c66a173ea0a629f6ee8ff8ae5d5b/walt-virtual-8.0.tar.gz
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-common]: Downloading https://files.pythonhosted.org/packages/f6/b8/27e853b99de53c886675f96c8cfff6db72bb1cd8f1d30e66f9bf431146dc/walt-common-8.0.tar.gz
+[2023-06-23 09:42:24] INFO root fetch - processPackages [dask-felleskomponenter]: Downloading https://files.pythonhosted.org/packages/52/c7/697c1b34efd275120407995c87ccede743383540fa84933a3d62128c5be6/dask-felleskomponenter-0.0.9.tar.gz
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-client]: Downloading https://files.pythonhosted.org/packages/b1/86/41f7c2eca054d6a27e3ca6770bf7d06f5871a3585ca72f23a02217354bd4/walt-client-8.0.tar.gz
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-node]: executing diffoscope
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walt-node-7.tar.gz tmp/walt_node-8.0-py3-none-any.whl.zip --markdown 20230623/w/walt-node/7-8.0/diff.md --exclude *.pyd
+[2023-06-23 09:42:24] INFO root fetch - processPackages [bitbake-language-server]: executing diffoscope
+[2023-06-23 09:42:24] INFO root fetch - processPackages [bitbake-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitbake-language-server-0.0.1.tar.gz tmp/bitbake-language-server-0.0.2.tar.gz --markdown 20230623/b/bitbake-language-server/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 09:42:24] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/c0/c6/7c4aa7a5744880959587a0b0371f396fbb55d01f66da4938bd8a98d0a6f6/armonik-3.8.3.dev504.tar.gz
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-virtual]: executing diffoscope
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-virtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walt-virtual-7.tar.gz tmp/walt-virtual-8.0.tar.gz --markdown 20230623/w/walt-virtual/7-8.0/diff.md --exclude *.pyd
+[2023-06-23 09:42:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-common]: executing diffoscope
+[2023-06-23 09:42:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post859-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post860-py3-none-any.whl.zip --markdown 20230623/n/nucliadb-contributor-assets/1.0.0.post859-1.0.0.post860/diff.md --exclude *.pyd
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walt-common-7.tar.gz tmp/walt-common-8.0.tar.gz --markdown 20230623/w/walt-common/7-8.0/diff.md --exclude *.pyd
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-client]: executing diffoscope
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walt-client-7.tar.gz tmp/walt-client-8.0.tar.gz --markdown 20230623/w/walt-client/7-8.0/diff.md --exclude *.pyd
+[2023-06-23 09:42:24] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-06-23 09:42:24] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.3.dev470.tar.gz tmp/armonik-3.8.3.dev504.tar.gz --markdown 20230623/a/armonik/3.8.3.dev470-3.8.3.dev504/diff.md --exclude *.pyd
+[2023-06-23 09:42:24] INFO root fetch - processPackages [dask-felleskomponenter]: executing diffoscope
+[2023-06-23 09:42:24] INFO root fetch - processPackages [dask-felleskomponenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-felleskomponenter-0.0.8.tar.gz tmp/dask-felleskomponenter-0.0.9.tar.gz --markdown 20230623/d/dask-felleskomponenter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-server]: executing diffoscope
+[2023-06-23 09:42:24] INFO root fetch - processPackages [walt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walt-server-7.tar.gz tmp/walt-server-8.0.tar.gz --markdown 20230623/w/walt-server/7-8.0/diff.md --exclude *.pyd
+[2023-06-23 09:42:25] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 09:42:25] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 09:42:25] INFO root fetch - processPackages [kalm]: Start processing: feiertage-de
+[2023-06-23 09:42:25] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 09:42:25] INFO root fetch - processPackages [feiertage-de]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 09:42:25] INFO root fetch - processPackages [feiertage-de]: Downloading https://files.pythonhosted.org/packages/70/61/1125a03f2390db53c6e976ba0d11bf1098f6e0af21f2c413be736c54ed1f/feiertage-de-0.1.2.tar.gz
+[2023-06-23 09:42:25] INFO root fetch - processPackages [walt-node]: Remove: archive file [/home/abi/fetcher/tmp/walt-node-7.tar.gz]
+[2023-06-23 09:42:25] INFO root fetch - processPackages [walt-node]: Remove: archive file [/home/abi/fetcher/tmp/walt_node-8.0-py3-none-any.whl.zip]
+[2023-06-23 09:42:25] INFO root fetch - processPackages [walt-node]: Start processing: sakyum
+[2023-06-23 09:42:25] INFO root fetch - main [MainThread]: End processing [walt-node]: success
+[2023-06-23 09:42:25] INFO root fetch - processPackages [sakyum]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 09:42:25] INFO root fetch - processPackages [feiertage-de]: Downloading https://files.pythonhosted.org/packages/2f/8f/a591874a82fb951dbb462f75546e35ce882756d954d2567bcfe7e1a58a5f/feiertage-de-0.1.3.tar.gz
+[2023-06-23 09:42:25] INFO root fetch - processPackages [sakyum]: Downloading https://files.pythonhosted.org/packages/7b/12/230c24dc259bcc0c914b25ce3f7ddc4f82a10a9ddec11f23930cb9c73d5f/sakyum-0.0.8.tar.gz
+[2023-06-23 09:42:25] INFO root fetch - processPackages [feiertage-de]: executing diffoscope
+[2023-06-23 09:42:25] INFO root fetch - processPackages [feiertage-de]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feiertage-de-0.1.2.tar.gz tmp/feiertage-de-0.1.3.tar.gz --markdown 20230623/f/feiertage-de/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 09:42:25] INFO root fetch - processPackages [sakyum]: Downloading https://files.pythonhosted.org/packages/e3/97/97f52247b5925c77cb818a048d368df3b6a6e5197683ee9542c67ea717c9/sakyum-0.0.9.tar.gz
+[2023-06-23 09:42:26] INFO root fetch - processPackages [bitbake-language-server]: Remove: archive file [/home/abi/fetcher/tmp/bitbake-language-server-0.0.1.tar.gz]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [bitbake-language-server]: Remove: archive file [/home/abi/fetcher/tmp/bitbake-language-server-0.0.2.tar.gz]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [bitbake-language-server]: Start processing: nonebot-plugin-ocgbot-v2
+[2023-06-23 09:42:26] INFO root fetch - main [MainThread]: End processing [bitbake-language-server]: success
+[2023-06-23 09:42:26] INFO root fetch - processPackages [walt-virtual]: Remove: archive file [/home/abi/fetcher/tmp/walt-virtual-7.tar.gz]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [sakyum]: executing diffoscope
+[2023-06-23 09:42:26] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [sakyum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sakyum-0.0.8.tar.gz tmp/sakyum-0.0.9.tar.gz --markdown 20230623/s/sakyum/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 09:42:26] INFO root fetch - processPackages [walt-virtual]: Remove: archive file [/home/abi/fetcher/tmp/walt-virtual-8.0.tar.gz]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [walt-virtual]: Start processing: liberty.py
+[2023-06-23 09:42:26] INFO root fetch - main [MainThread]: End processing [walt-virtual]: success
+[2023-06-23 09:42:26] WARNING root fetch - processPackages [liberty.py]: Skipping, unable to determine old version
+[2023-06-23 09:42:26] INFO root fetch - processPackages [liberty.py]: Start processing: pducontrol
+[2023-06-23 09:42:26] INFO root fetch - main [MainThread]: End processing [liberty.py] error
+[2023-06-23 09:42:26] INFO root fetch - processPackages [pducontrol]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Downloading https://files.pythonhosted.org/packages/34/ea/5c6af81a7896f6a218e3e19808f1bb9d2e6e19137ddb0b012b162accf5a7/nonebot-plugin-ocgbot-v2-0.1.0.tar.gz
+[2023-06-23 09:42:26] INFO root fetch - processPackages [walt-common]: Remove: archive file [/home/abi/fetcher/tmp/walt-common-7.tar.gz]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [walt-common]: Remove: archive file [/home/abi/fetcher/tmp/walt-common-8.0.tar.gz]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [walt-common]: Start processing: miniirc-discord
+[2023-06-23 09:42:26] INFO root fetch - main [MainThread]: End processing [walt-common]: success
+[2023-06-23 09:42:26] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Downloading https://files.pythonhosted.org/packages/0e/7b/7ae7266799e4e93a35990b6127803fe7c3fa6a8cc4977f60e6dc54c2e66e/nonebot-plugin-ocgbot-v2-0.1.1.tar.gz
+[2023-06-23 09:42:26] INFO root fetch - processPackages [miniirc-discord]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [pducontrol]: Downloading https://files.pythonhosted.org/packages/cc/d3/b79e6d228590d8dccde1c330b5f66410a424a923dd4a7b1b7615dfe2c843/pducontrol-1.1.1.tar.gz
+[2023-06-23 09:42:26] INFO root fetch - processPackages [dask-felleskomponenter]: Remove: archive file [/home/abi/fetcher/tmp/dask-felleskomponenter-0.0.8.tar.gz]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [dask-felleskomponenter]: Remove: archive file [/home/abi/fetcher/tmp/dask-felleskomponenter-0.0.9.tar.gz]
+[2023-06-23 09:42:26] INFO root fetch - main [MainThread]: End processing [dask-felleskomponenter]: success
+[2023-06-23 09:42:26] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: executing diffoscope
+[2023-06-23 09:42:26] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-ocgbot-v2-0.1.0.tar.gz tmp/nonebot-plugin-ocgbot-v2-0.1.1.tar.gz --markdown 20230623/n/nonebot-plugin-ocgbot-v2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-23 09:42:26] INFO root fetch - processPackages [pducontrol]: Downloading https://files.pythonhosted.org/packages/09/e0/479ec2e45457c1f0aabbc4a248377223e1c43042180c3df774dcb5e912ba/pducontrol-1.1.2.tar.gz
+[2023-06-23 09:42:26] INFO root fetch - processPackages [miniirc-discord]: Downloading https://files.pythonhosted.org/packages/2a/52/d3421a48047bfe7f2e5a8fce0aa24d02341bba919ea13dc9add85028333d/miniirc_discord-0.6.1.tar.gz
+[2023-06-23 09:42:26] INFO root fetch - processPackages [pducontrol]: executing diffoscope
+[2023-06-23 09:42:26] INFO root fetch - processPackages [pducontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pducontrol-1.1.1.tar.gz tmp/pducontrol-1.1.2.tar.gz --markdown 20230623/p/pducontrol/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-23 09:42:26] INFO root fetch - processPackages [miniirc-discord]: Downloading https://files.pythonhosted.org/packages/a4/d3/984ddf1aa304bd446030714b356b853f089c2895ddceeefef11cd210c1db/miniirc_discord-0.6.2.tar.gz
+[2023-06-23 09:42:26] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.3.dev470.tar.gz]
+[2023-06-23 09:42:26] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.3.dev504.tar.gz]
+[2023-06-23 09:42:26] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-06-23 09:42:26] INFO root fetch - processPackages [miniirc-discord]: executing diffoscope
+[2023-06-23 09:42:26] INFO root fetch - processPackages [miniirc-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniirc_discord-0.6.1.tar.gz tmp/miniirc_discord-0.6.2.tar.gz --markdown 20230623/m/miniirc-discord/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-23 09:42:27] INFO root fetch - processPackages [walt-client]: Remove: archive file [/home/abi/fetcher/tmp/walt-client-7.tar.gz]
+[2023-06-23 09:42:27] INFO root fetch - processPackages [walt-client]: Remove: archive file [/home/abi/fetcher/tmp/walt-client-8.0.tar.gz]
+[2023-06-23 09:42:27] INFO root fetch - main [MainThread]: End processing [walt-client]: success
+[2023-06-23 09:42:27] INFO root fetch - processPackages [walt-server]: Remove: archive file [/home/abi/fetcher/tmp/walt-server-7.tar.gz]
+[2023-06-23 09:42:27] INFO root fetch - processPackages [walt-server]: Remove: archive file [/home/abi/fetcher/tmp/walt-server-8.0.tar.gz]
+[2023-06-23 09:42:27] INFO root fetch - main [MainThread]: End processing [walt-server]: success
+[2023-06-23 09:42:27] INFO root fetch - processPackages [feiertage-de]: Remove: archive file [/home/abi/fetcher/tmp/feiertage-de-0.1.2.tar.gz]
+[2023-06-23 09:42:27] INFO root fetch - processPackages [feiertage-de]: Remove: archive file [/home/abi/fetcher/tmp/feiertage-de-0.1.3.tar.gz]
+[2023-06-23 09:42:27] INFO root fetch - main [MainThread]: End processing [feiertage-de]: success
+[2023-06-23 09:42:27] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-ocgbot-v2-0.1.0.tar.gz]
+[2023-06-23 09:42:27] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-ocgbot-v2-0.1.1.tar.gz]
+[2023-06-23 09:42:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ocgbot-v2]: success
+[2023-06-23 09:42:28] INFO root fetch - processPackages [miniirc-discord]: Remove: archive file [/home/abi/fetcher/tmp/miniirc_discord-0.6.1.tar.gz]
+[2023-06-23 09:42:28] INFO root fetch - processPackages [miniirc-discord]: Remove: archive file [/home/abi/fetcher/tmp/miniirc_discord-0.6.2.tar.gz]
+[2023-06-23 09:42:28] INFO root fetch - main [MainThread]: End processing [miniirc-discord]: success
+[2023-06-23 09:42:28] INFO root fetch - processPackages [pducontrol]: Remove: archive file [/home/abi/fetcher/tmp/pducontrol-1.1.1.tar.gz]
+[2023-06-23 09:42:28] INFO root fetch - processPackages [pducontrol]: Remove: archive file [/home/abi/fetcher/tmp/pducontrol-1.1.2.tar.gz]
+[2023-06-23 09:42:28] INFO root fetch - main [MainThread]: End processing [pducontrol]: success
+[2023-06-23 09:42:28] INFO root fetch - processPackages [sakyum]: Remove: archive file [/home/abi/fetcher/tmp/sakyum-0.0.8.tar.gz]
+[2023-06-23 09:42:28] INFO root fetch - processPackages [sakyum]: Remove: archive file [/home/abi/fetcher/tmp/sakyum-0.0.9.tar.gz]
+[2023-06-23 09:42:28] INFO root fetch - main [MainThread]: End processing [sakyum]: success
+[2023-06-23 09:42:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post859-py3-none-any.whl.zip]
+[2023-06-23 09:42:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post860-py3-none-any.whl.zip]
+[2023-06-23 09:42:38] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-23 09:42:38] INFO root fetch - main [MainThread]: Store serial: [18615136]
