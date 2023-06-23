@@ -9694,3 +9694,30 @@
 [2023-06-23 07:49:50] INFO root fetch - processPackages [spectral-cube]: Remove: archive file [/home/abi/fetcher/tmp/spectral-cube-0.6.2.tar.gz]
 [2023-06-23 07:49:50] INFO root fetch - main [MainThread]: End processing [spectral-cube]: success
 [2023-06-23 07:49:50] INFO root fetch - main [MainThread]: Store serial: [18614489]
+[2023-06-23 07:54:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614489]
+[2023-06-23 07:54:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-23 07:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-geolocalize-company
+[2023-06-23 07:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arts
+[2023-06-23 07:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kotan
+[2023-06-23 07:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowlang
+[2023-06-23 07:54:59] INFO root fetch - processPackages [flowlang]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 07:54:59] WARNING root fetch - processPackages [odoo-addon-base-geolocalize-company]: Skipping, unable to determine old version
+[2023-06-23 07:54:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-geolocalize-company] error
+[2023-06-23 07:54:59] INFO root fetch - processPackages [kotan]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-23 07:54:59] WARNING root fetch - processPackages [arts]: Skipping, unable to determine old version
+[2023-06-23 07:54:59] INFO root fetch - main [MainThread]: End processing [arts] error
+[2023-06-23 07:54:59] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/83/d8/9ba3e2dd778408b1e2704f684296b2e3ac6ff5211392c6007c7d3954a5b7/kotan-1.1.2.tar.gz
+[2023-06-23 07:54:59] INFO root fetch - processPackages [flowlang]: Downloading https://files.pythonhosted.org/packages/dc/c3/56ce162fa8dc6f5f5619eff7203eee2cd35d647586747d19c20756d1a50e/flowlang-0.0.2.tar.gz
+[2023-06-23 07:54:59] INFO root fetch - processPackages [flowlang]: Downloading https://files.pythonhosted.org/packages/44/ea/fb1c4d4496d10f79e217fa3c3b66ae3bcf07358bef87e4da2b9b42075418/flowlang-0.0.3.tar.gz
+[2023-06-23 07:55:00] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/72/97/f8a10290060328e4c1dd7b72f499c718da6c3d11c6f5e7b450b2c514bd37/kotan-1.1.3.tar.gz
+[2023-06-23 07:55:00] INFO root fetch - processPackages [flowlang]: executing diffoscope
+[2023-06-23 07:55:00] INFO root fetch - processPackages [flowlang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowlang-0.0.2.tar.gz tmp/flowlang-0.0.3.tar.gz --markdown 20230623/f/flowlang/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 07:55:00] INFO root fetch - processPackages [kotan]: executing diffoscope
+[2023-06-23 07:55:00] INFO root fetch - processPackages [kotan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kotan-1.1.2.tar.gz tmp/kotan-1.1.3.tar.gz --markdown 20230623/k/kotan/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-23 07:55:01] INFO root fetch - processPackages [flowlang]: Remove: archive file [/home/abi/fetcher/tmp/flowlang-0.0.2.tar.gz]
+[2023-06-23 07:55:01] INFO root fetch - processPackages [flowlang]: Remove: archive file [/home/abi/fetcher/tmp/flowlang-0.0.3.tar.gz]
+[2023-06-23 07:55:01] INFO root fetch - main [MainThread]: End processing [flowlang]: success
+[2023-06-23 07:55:01] INFO root fetch - processPackages [kotan]: Remove: archive file [/home/abi/fetcher/tmp/kotan-1.1.2.tar.gz]
+[2023-06-23 07:55:01] INFO root fetch - processPackages [kotan]: Remove: archive file [/home/abi/fetcher/tmp/kotan-1.1.3.tar.gz]
+[2023-06-23 07:55:01] INFO root fetch - main [MainThread]: End processing [kotan]: success
+[2023-06-23 07:55:01] INFO root fetch - main [MainThread]: Store serial: [18614504]
