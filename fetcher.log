@@ -8328,3 +8328,51 @@
 [2023-06-23 06:00:33] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230621.tar.gz]
 [2023-06-23 06:00:33] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-06-23 06:00:33] INFO root fetch - main [MainThread]: Store serial: [18613973]
+[2023-06-23 06:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613973]
+[2023-06-23 06:05:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-23 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotify-recommender-api
+[2023-06-23 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BLACKFORGE2
+[2023-06-23 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macq
+[2023-06-23 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: watex
+[2023-06-23 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cert-utils
+[2023-06-23 06:05:42] INFO root fetch - processPackages [cert-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-23 06:05:42] INFO root fetch - processPackages [spotify-recommender-api]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-06-23 06:05:42] INFO root fetch - processPackages [watex]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-23 06:05:42] INFO root fetch - processPackages [macq]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-23 06:05:42] INFO root fetch - processPackages [BLACKFORGE2]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-06-23 06:05:42] INFO root fetch - processPackages [cert-utils]: Downloading https://files.pythonhosted.org/packages/1a/fc/7af1c74c39ea673e3b18cbaba912b25bb930c2bf5ea9006c62f58fe06923/cert_utils-0.1.0.tar.gz
+[2023-06-23 06:05:42] INFO root fetch - processPackages [macq]: Downloading https://files.pythonhosted.org/packages/17/54/0ced0044d4197fa7799fc9dfd8d210c6c5d848d5ca2bcd30cb79bae9187d/macq-0.3.4.tar.gz
+[2023-06-23 06:05:42] INFO root fetch - processPackages [watex]: Downloading https://files.pythonhosted.org/packages/e4/81/621e5456700f17f9a52930f3ab6b13c5bb0661b7fba79edc7fc86703536b/watex-0.2.5.tar.gz
+[2023-06-23 06:05:42] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/d1/e4/6290f744d6572ce012a1b058ea13086e96226de280ace1cd9d4292d35a98/BLACKFORGE2-0.2.0.tar.gz
+[2023-06-23 06:05:42] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/4c/14/fd19f056bbe7064ba6331f91b1b1195700394524917f2dd40600e8f32dc2/spotify_recommender_api-4.2.0-py3-none-any.whl
+[2023-06-23 06:05:42] INFO root fetch - processPackages [macq]: Downloading https://files.pythonhosted.org/packages/2c/44/43c49833b69e4167f6c66776c835fb4cd835a40870556317032038ff9eef/macq-0.3.5.tar.gz
+[2023-06-23 06:05:42] INFO root fetch - processPackages [watex]: Downloading https://files.pythonhosted.org/packages/cc/a9/700db414ec0d2687519a0ac8c61ffda1d04ec46b5187d17cd9362acf0fcd/watex-0.2.6.tar.gz
+[2023-06-23 06:05:42] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/e0/8f/aa1f9d4cc36a13bcbaccae0acceb8ecb4f4bedbc36e2a8f5faba7c325176/BLACKFORGE2-0.2.2.tar.gz
+[2023-06-23 06:05:43] INFO root fetch - processPackages [macq]: executing diffoscope
+[2023-06-23 06:05:43] INFO root fetch - processPackages [macq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macq-0.3.4.tar.gz tmp/macq-0.3.5.tar.gz --markdown 20230623/m/macq/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-23 06:05:43] INFO root fetch - processPackages [cert-utils]: Downloading https://files.pythonhosted.org/packages/5f/5d/a30b8afc5d6f6e203f6b1b479ba2aa98750307880eaaaeb43b41748fedf8/cert_utils-0.1.1.tar.gz
+[2023-06-23 06:05:43] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/97/54/1a2d7912790fb09ab4581c3bd1c3cbddf49ccfac4d241f4a618b718261a8/spotify_recommender_api-4.3.0-py3-none-any.whl
+[2023-06-23 06:05:43] INFO root fetch - processPackages [BLACKFORGE2]: executing diffoscope
+[2023-06-23 06:05:43] INFO root fetch - processPackages [BLACKFORGE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLACKFORGE2-0.2.0.tar.gz tmp/BLACKFORGE2-0.2.2.tar.gz --markdown 20230623/B/BLACKFORGE2/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-06-23 06:05:43] INFO root fetch - processPackages [spotify-recommender-api]: executing diffoscope
+[2023-06-23 06:05:43] INFO root fetch - processPackages [spotify-recommender-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_recommender_api-4.2.0-py3-none-any.whl.zip tmp/spotify_recommender_api-4.3.0-py3-none-any.whl.zip --markdown 20230623/s/spotify-recommender-api/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-06-23 06:05:43] INFO root fetch - processPackages [cert-utils]: executing diffoscope
+[2023-06-23 06:05:43] INFO root fetch - processPackages [cert-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cert_utils-0.1.0.tar.gz tmp/cert_utils-0.1.1.tar.gz --markdown 20230623/c/cert-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-23 06:05:44] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.2.0.tar.gz]
+[2023-06-23 06:05:44] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.2.2.tar.gz]
+[2023-06-23 06:05:44] INFO root fetch - main [MainThread]: End processing [BLACKFORGE2]: success
+[2023-06-23 06:05:44] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-4.2.0-py3-none-any.whl.zip]
+[2023-06-23 06:05:44] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-4.3.0-py3-none-any.whl.zip]
+[2023-06-23 06:05:44] INFO root fetch - main [MainThread]: End processing [spotify-recommender-api]: success
+[2023-06-23 06:05:44] INFO root fetch - processPackages [macq]: Remove: archive file [/home/abi/fetcher/tmp/macq-0.3.4.tar.gz]
+[2023-06-23 06:05:44] INFO root fetch - processPackages [macq]: Remove: archive file [/home/abi/fetcher/tmp/macq-0.3.5.tar.gz]
+[2023-06-23 06:05:44] INFO root fetch - main [MainThread]: End processing [macq]: success
+[2023-06-23 06:05:44] INFO root fetch - processPackages [watex]: executing diffoscope
+[2023-06-23 06:05:44] INFO root fetch - processPackages [watex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watex-0.2.5.tar.gz tmp/watex-0.2.6.tar.gz --markdown 20230623/w/watex/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-23 06:05:45] INFO root fetch - processPackages [cert-utils]: Remove: archive file [/home/abi/fetcher/tmp/cert_utils-0.1.0.tar.gz]
+[2023-06-23 06:05:45] INFO root fetch - processPackages [cert-utils]: Remove: archive file [/home/abi/fetcher/tmp/cert_utils-0.1.1.tar.gz]
+[2023-06-23 06:05:45] INFO root fetch - main [MainThread]: End processing [cert-utils]: success
+[2023-06-23 06:05:52] INFO root fetch - processPackages [watex]: Remove: archive file [/home/abi/fetcher/tmp/watex-0.2.5.tar.gz]
+[2023-06-23 06:05:52] INFO root fetch - processPackages [watex]: Remove: archive file [/home/abi/fetcher/tmp/watex-0.2.6.tar.gz]
+[2023-06-23 06:05:52] INFO root fetch - main [MainThread]: End processing [watex]: success
+[2023-06-23 06:05:52] INFO root fetch - main [MainThread]: Store serial: [18613986]
