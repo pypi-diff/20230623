@@ -17149,3 +17149,85 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 14:07:22] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.5.0-cp39-cp39-win_amd64.whl.zip]
 [2023-06-23 14:07:22] INFO root fetch - main [MainThread]: End processing [jijmodeling-transpiler]: success
 [2023-06-23 14:07:22] INFO root fetch - main [MainThread]: Store serial: [18617601]
+[2023-06-23 14:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617601]
+[2023-06-23 14:12:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-23 14:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rpa-cooperativa
+[2023-06-23 14:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-serving
+[2023-06-23 14:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iron-toolbox
+[2023-06-23 14:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-lw-data-provider
+[2023-06-23 14:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netdem
+[2023-06-23 14:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbm-agent
+[2023-06-23 14:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amlopsvueelements
+[2023-06-23 14:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netdem
+[2023-06-23 14:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-agents-nightly
+[2023-06-23 14:12:31] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 14:12:31] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230623] Old Version: [2.4.0b20230622]
+[2023-06-23 14:12:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5356157122]
+[2023-06-23 14:12:31] INFO root fetch - processPackages [netdem]: New version: [1.23] Old Version: [1.22]
+[2023-06-23 14:12:31] INFO root fetch - processPackages [rpa-cooperativa]: New version: [1.0.58] Old Version: [1.0.57]
+[2023-06-23 14:12:31] INFO root fetch - processPackages [netdem]: New version: [1.23] Old Version: [1.22]
+[2023-06-23 14:12:31] INFO root fetch - processPackages [amlopsvueelements]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-23 14:12:31] INFO root fetch - processPackages [dbm-agent]: New version: [8.33.9] Old Version: [8.33.8]
+[2023-06-23 14:12:31] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-23 14:12:31] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/d8/24/2da2e5b9bf5a85653fe1d6eba9fe88097bc2f83a2453999d19e0981402d1/bigdl_serving-2.4.0b20230622-py2.py3-none-any.whl
+[2023-06-23 14:12:31] INFO root fetch - processPackages [iron-toolbox]: Downloading https://files.pythonhosted.org/packages/14/56/607715d5f0a4a64f571ffe260dbd6c986eb107b6942e4a94bd250688ae9d/iron_toolbox-1.0.8.tar.gz
+[2023-06-23 14:12:31] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/14/79/5ff9013289616392a7cb4bc4a5f3b0e82a8b0d1ee126fe53676309a0b0b6/amlopsvueelements-1.2.4.tar.gz
+[2023-06-23 14:12:31] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/43/58/11c021c7dac31ca7cd3242e88405bdaede058ee553261dd6d04ddaf716a1/rpa_cooperativa-1.0.57.tar.gz
+[2023-06-23 14:12:32] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-23 14:12:32] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/91/31/c92e974fc13f194005c66b105e9da6e779aa2ed38d6008b78565991ad88c/th2_grpc_lw_data_provider-2.0.0.dev5356157122.tar.gz
+[2023-06-23 14:12:32] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/96/b4/5d18c8ae0baf6ec55dd17fe5481bea87feb7ea2efe1bf67a841037c6843c/dbm-agent-8.33.8.tar.gz
+[2023-06-23 14:12:32] INFO root fetch - processPackages [netdem]: Downloading https://files.pythonhosted.org/packages/69/b7/d008bb0e6cdb034cf991153949194175402f56a55e33d69f1116562a4514/netdem-1.22-cp311-cp311-manylinux2014_aarch64.whl
+[2023-06-23 14:12:32] INFO root fetch - processPackages [netdem]: Downloading https://files.pythonhosted.org/packages/69/b7/d008bb0e6cdb034cf991153949194175402f56a55e33d69f1116562a4514/netdem-1.22-cp311-cp311-manylinux2014_aarch64.whl
+[2023-06-23 14:12:32] INFO root fetch - processPackages [iron-toolbox]: Downloading https://files.pythonhosted.org/packages/15/c9/6ddb477d6f0ec6bef2b9ab1904ced650193c203c83b26b8b7371a39bbe01/iron_toolbox-1.0.9.tar.gz
+[2023-06-23 14:12:32] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/39/e4/99a9341580993a01ba732d187ba6a13e32faa4fc39f5a72791e6b7af31ef/bigdl_serving-2.4.0b20230623-py2.py3-none-any.whl
+[2023-06-23 14:12:32] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/64/f5/b3d7d6d62aa49e3af742bcd1f24cdd9832f6f66872905b90843e9aea3db9/rpa_cooperativa-1.0.58.tar.gz
+[2023-06-23 14:12:32] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-06-23 14:12:32] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230623/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-23 14:12:32] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-23 14:12:32] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-23 14:12:32] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/75/db/8f45b9d16cbafba09fbe9dc90d74265e58fa1057e23ed6a382590b04743c/amlopsvueelements-1.2.5.tar.gz
+[2023-06-23 14:12:32] INFO root fetch - processPackages [rpa-cooperativa]: executing diffoscope
+[2023-06-23 14:12:32] INFO root fetch - processPackages [rpa-cooperativa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpa_cooperativa-1.0.57.tar.gz tmp/rpa_cooperativa-1.0.58.tar.gz --markdown 20230623/r/rpa-cooperativa/1.0.57-1.0.58/diff.md --exclude *.pyd
+[2023-06-23 14:12:32] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-23 14:12:32] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230622-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230623-py2.py3-none-any.whl.zip --markdown 20230623/b/bigdl-serving/2.4.0b20230622-2.4.0b20230623/diff.md --exclude *.pyd
+[2023-06-23 14:12:32] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-23 14:12:32] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5356157122.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230623/t/th2-grpc-lw-data-provider/2.0.0.dev5356157122-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-23 14:12:32] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-23 14:12:32] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230623/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-23 14:12:32] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/6e/eb/46f6de2ab921535aa9eac258386a1d4005faf46ad0a43f4556c8e41d51d5/dbm-agent-8.33.9.tar.gz
+[2023-06-23 14:12:32] INFO root fetch - processPackages [amlopsvueelements]: executing diffoscope
+[2023-06-23 14:12:32] INFO root fetch - processPackages [amlopsvueelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopsvueelements-1.2.4.tar.gz tmp/amlopsvueelements-1.2.5.tar.gz --markdown 20230623/a/amlopsvueelements/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-23 14:12:32] INFO root fetch - processPackages [dbm-agent]: executing diffoscope
+[2023-06-23 14:12:32] INFO root fetch - processPackages [dbm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbm-agent-8.33.8.tar.gz tmp/dbm-agent-8.33.9.tar.gz --markdown 20230623/d/dbm-agent/8.33.8-8.33.9/diff.md --exclude *.pyd
+[2023-06-23 14:12:33] INFO root fetch - processPackages [netdem]: Downloading https://files.pythonhosted.org/packages/97/bc/594ff45bf08494380b5c4c97a935bb52bc3e452f4b64feecf7f178b33d15/netdem-1.23-cp311-cp311-manylinux2014_aarch64.whl
+[2023-06-23 14:12:33] INFO root fetch - processPackages [netdem]: Downloading https://files.pythonhosted.org/packages/97/bc/594ff45bf08494380b5c4c97a935bb52bc3e452f4b64feecf7f178b33d15/netdem-1.23-cp311-cp311-manylinux2014_aarch64.whl
+[2023-06-23 14:12:33] INFO root fetch - processPackages [iron-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/iron_toolbox-1.0.8.tar.gz]
+[2023-06-23 14:12:33] INFO root fetch - processPackages [iron-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/iron_toolbox-1.0.9.tar.gz]
+[2023-06-23 14:12:33] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-06-23 14:12:33] INFO root fetch - processPackages [netdem]: executing diffoscope
+[2023-06-23 14:12:33] INFO root fetch - processPackages [netdem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdem-1.22-cp311-cp311-manylinux2014_aarch64.whl.zip tmp/netdem-1.23-cp311-cp311-manylinux2014_aarch64.whl.zip --markdown 20230623/n/netdem/1.22-1.23/diff.md --exclude *.pyd
+[2023-06-23 14:12:33] INFO root fetch - processPackages [netdem]: executing diffoscope
+[2023-06-23 14:12:33] INFO root fetch - processPackages [netdem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdem-1.22-cp311-cp311-manylinux2014_aarch64.whl.zip tmp/netdem-1.23-cp311-cp311-manylinux2014_aarch64.whl.zip --markdown 20230623/n/netdem/1.22-1.23/diff.md --exclude *.pyd
+[2023-06-23 14:12:33] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230622-py2.py3-none-any.whl.zip]
+[2023-06-23 14:12:33] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230623-py2.py3-none-any.whl.zip]
+[2023-06-23 14:12:33] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-23 14:12:33] INFO root fetch - processPackages [rpa-cooperativa]: Remove: archive file [/home/abi/fetcher/tmp/rpa_cooperativa-1.0.57.tar.gz]
+[2023-06-23 14:12:33] INFO root fetch - processPackages [rpa-cooperativa]: Remove: archive file [/home/abi/fetcher/tmp/rpa_cooperativa-1.0.58.tar.gz]
+[2023-06-23 14:12:33] INFO root fetch - main [MainThread]: End processing [rpa-cooperativa]: success
+[2023-06-23 14:12:34] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5356157122.tar.gz]
+[2023-06-23 14:12:34] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-23 14:12:34] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-23 14:12:35] INFO root fetch - processPackages [netdem]: Remove: archive file [/home/abi/fetcher/tmp/netdem-1.22-cp311-cp311-manylinux2014_aarch64.whl.zip]
+[2023-06-23 14:12:35] INFO root fetch - processPackages [netdem]: Remove: archive file [/home/abi/fetcher/tmp/netdem-1.23-cp311-cp311-manylinux2014_aarch64.whl.zip]
+[2023-06-23 14:12:35] INFO root fetch - main [MainThread]: End processing [netdem]: success
+[2023-06-23 14:12:35] INFO root fetch - main [MainThread]: End processing [netdem]: success
+[2023-06-23 14:12:36] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.8.tar.gz]
+[2023-06-23 14:12:36] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.9.tar.gz]
+[2023-06-23 14:12:36] INFO root fetch - main [MainThread]: End processing [dbm-agent]: success
+[2023-06-23 14:12:38] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-23 14:12:38] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-23 14:12:38] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-23 14:12:39] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.4.tar.gz]
+[2023-06-23 14:12:39] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.5.tar.gz]
+[2023-06-23 14:12:39] INFO root fetch - main [MainThread]: End processing [amlopsvueelements]: success
+[2023-06-23 14:12:39] INFO root fetch - main [MainThread]: Store serial: [18617628]
