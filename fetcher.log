@@ -7033,3 +7033,69 @@
 [2023-06-23 04:24:09] INFO root fetch - processPackages [skan]: Remove: archive file [/home/abi/fetcher/tmp/skan-0.9.tar.gz]
 [2023-06-23 04:24:09] INFO root fetch - main [MainThread]: End processing [skan]: success
 [2023-06-23 04:24:09] INFO root fetch - main [MainThread]: Store serial: [18613509]
+[2023-06-23 04:29:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613509]
+[2023-06-23 04:29:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 04:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unstructured
+[2023-06-23 04:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2023-06-23 04:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qps-limit
+[2023-06-23 04:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdx-python-country
+[2023-06-23 04:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-rwkv
+[2023-06-23 04:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: re2shield
+[2023-06-23 04:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BLEST
+[2023-06-23 04:29:17] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-06-23 04:29:17] INFO root fetch - processPackages [qps-limit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-23 04:29:17] INFO root fetch - processPackages [BLEST]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-23 04:29:17] INFO root fetch - processPackages [re2shield]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-23 04:29:17] INFO root fetch - processPackages [ml-rwkv]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 04:29:17] INFO root fetch - processPackages [unstructured]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-23 04:29:17] INFO root fetch - processPackages [hdx-python-country]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-06-23 04:29:18] INFO root fetch - processPackages [BLEST]: Downloading https://files.pythonhosted.org/packages/41/d3/5d1520ec713956adfdf45cdba637395d7711a02a0a31f454edd71a807382/BLEST-0.0.7.tar.gz
+[2023-06-23 04:29:18] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/ea/05/2c5d0bdd834c70a2e02f0f7cb8125673adb6c6a3a97faa371de514b9be4c/qps_limit-1.0.0-py3-none-any.whl
+[2023-06-23 04:29:18] INFO root fetch - processPackages [ml-rwkv]: Downloading https://files.pythonhosted.org/packages/d0/ec/f256708f1c8f2b52ad04e0f610734ac29a1bbfa4764b6bb92770fd66ac22/ml-rwkv-0.0.4.tar.gz
+[2023-06-23 04:29:18] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-06-23 04:29:18] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/ad/ec/a6a98ab953cad2f59f92f2f5a01c2cd70dfdbab11bc58584031e44e35e9a/unstructured-0.7.7.tar.gz
+[2023-06-23 04:29:18] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/f4/80/d393b8d1c00f88a350e7285ce71fce09399975ae0b2d8e8a480f0f3eed93/re2shield-0.1.5.tar.gz
+[2023-06-23 04:29:18] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/a0/0d/fbbdaa26f6735c14da6eb82c160c0ed866544a76449d4ec397b7f7fe0e28/hdx-python-country-3.4.8.tar.gz
+[2023-06-23 04:29:18] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/1f/65/1eccb96cf3642323ccfe8d8af1872a2f92105845c191a6f9c195575a41ab/qps_limit-1.0.1-py3-none-any.whl
+[2023-06-23 04:29:18] INFO root fetch - processPackages [BLEST]: Downloading https://files.pythonhosted.org/packages/34/f9/abad2aa3166398ddc3d15495c7ec7bf959300a059005961b9b00c6020161/BLEST-0.0.8.tar.gz
+[2023-06-23 04:29:18] INFO root fetch - processPackages [ml-rwkv]: Downloading https://files.pythonhosted.org/packages/ba/11/48d564948b217010b5bcf3442485767fc9404d9c371b289f689712d6dc9f/ml-rwkv-0.0.5.tar.gz
+[2023-06-23 04:29:18] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-06-23 04:29:18] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-1.0.0-py3-none-any.whl.zip tmp/qps_limit-1.0.1-py3-none-any.whl.zip --markdown 20230623/q/qps-limit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-23 04:29:18] INFO root fetch - processPackages [BLEST]: executing diffoscope
+[2023-06-23 04:29:18] INFO root fetch - processPackages [BLEST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLEST-0.0.7.tar.gz tmp/BLEST-0.0.8.tar.gz --markdown 20230623/B/BLEST/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-23 04:29:18] INFO root fetch - processPackages [ml-rwkv]: executing diffoscope
+[2023-06-23 04:29:18] INFO root fetch - processPackages [ml-rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-rwkv-0.0.4.tar.gz tmp/ml-rwkv-0.0.5.tar.gz --markdown 20230623/m/ml-rwkv/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 04:29:18] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-06-23 04:29:18] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/ae/fb/b6d0eca087d0474e5d5bf6232798dfbdf5fbc8e16361df424bd91dc9d53d/re2shield-0.1.6.tar.gz
+[2023-06-23 04:29:18] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/b2/11/a757aec12dff22d6ac05230dd27cafdbb95ac2af07a4393a6ee998fd8acf/hdx_python_country-3.4.9.tar.gz
+[2023-06-23 04:29:18] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/aa/33/dd77a01a641fb6def48b7dcee4eb25b3cf645e425f851cf54776397cf4ba/unstructured-0.7.8.tar.gz
+[2023-06-23 04:29:18] INFO root fetch - processPackages [re2shield]: executing diffoscope
+[2023-06-23 04:29:18] INFO root fetch - processPackages [re2shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re2shield-0.1.5.tar.gz tmp/re2shield-0.1.6.tar.gz --markdown 20230623/r/re2shield/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-23 04:29:18] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-06-23 04:29:18] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230623/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-23 04:29:18] INFO root fetch - processPackages [hdx-python-country]: executing diffoscope
+[2023-06-23 04:29:18] INFO root fetch - processPackages [hdx-python-country]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx-python-country-3.4.8.tar.gz tmp/hdx_python_country-3.4.9.tar.gz --markdown 20230623/h/hdx-python-country/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-06-23 04:29:18] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-06-23 04:29:18] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.7.7.tar.gz tmp/unstructured-0.7.8.tar.gz --markdown 20230623/u/unstructured/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-23 04:29:19] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.0-py3-none-any.whl.zip]
+[2023-06-23 04:29:19] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.0.1-py3-none-any.whl.zip]
+[2023-06-23 04:29:19] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-06-23 04:29:19] INFO root fetch - processPackages [BLEST]: Remove: archive file [/home/abi/fetcher/tmp/BLEST-0.0.7.tar.gz]
+[2023-06-23 04:29:19] INFO root fetch - processPackages [BLEST]: Remove: archive file [/home/abi/fetcher/tmp/BLEST-0.0.8.tar.gz]
+[2023-06-23 04:29:19] INFO root fetch - main [MainThread]: End processing [BLEST]: success
+[2023-06-23 04:29:19] INFO root fetch - processPackages [ml-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/ml-rwkv-0.0.4.tar.gz]
+[2023-06-23 04:29:19] INFO root fetch - processPackages [ml-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/ml-rwkv-0.0.5.tar.gz]
+[2023-06-23 04:29:19] INFO root fetch - main [MainThread]: End processing [ml-rwkv]: success
+[2023-06-23 04:29:19] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.5.tar.gz]
+[2023-06-23 04:29:19] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.6.tar.gz]
+[2023-06-23 04:29:19] INFO root fetch - main [MainThread]: End processing [re2shield]: success
+[2023-06-23 04:29:20] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip]
+[2023-06-23 04:29:20] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-23 04:29:20] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-06-23 04:29:20] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.7.7.tar.gz]
+[2023-06-23 04:29:20] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.7.8.tar.gz]
+[2023-06-23 04:29:20] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-06-23 04:29:21] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx-python-country-3.4.8.tar.gz]
+[2023-06-23 04:29:21] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.4.9.tar.gz]
+[2023-06-23 04:29:21] INFO root fetch - main [MainThread]: End processing [hdx-python-country]: success
+[2023-06-23 04:29:21] INFO root fetch - main [MainThread]: Store serial: [18613534]
