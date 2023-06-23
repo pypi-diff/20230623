@@ -16646,3 +16646,147 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 13:45:28] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
 [2023-06-23 13:45:28] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2023-06-23 13:45:28] INFO root fetch - main [MainThread]: Store serial: [18617390]
+[2023-06-23 13:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617390]
+[2023-06-23 13:50:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-23 13:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QuantStats
+[2023-06-23 13:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: render-html
+[2023-06-23 13:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jwskate
+[2023-06-23 13:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-journal-general-sequence
+[2023-06-23 13:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kedro-templar
+[2023-06-23 13:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phub
+[2023-06-23 13:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-avro-schema
+[2023-06-23 13:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-notifications-sdk-preview
+[2023-06-23 13:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-serve
+[2023-06-23 13:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-llm
+[2023-06-23 13:50:38] WARNING root fetch - processPackages [render-html]: Skipping, unable to determine old version
+[2023-06-23 13:50:38] INFO root fetch - processPackages [render-html]: Start processing: cardiac-geometries
+[2023-06-23 13:50:38] INFO root fetch - main [MainThread]: End processing [render-html] error
+[2023-06-23 13:50:38] INFO root fetch - processPackages [jwskate]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-23 13:50:38] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.2]
+[2023-06-23 13:50:38] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230623] Old Version: [2.4.0b20230622]
+[2023-06-23 13:50:38] INFO root fetch - processPackages [QuantStats]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 13:50:38] INFO root fetch - processPackages [kedro-templar]: New version: [0.0.6.dev0] Old Version: [0.0.5]
+[2023-06-23 13:50:38] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-23 13:50:38] INFO root fetch - processPackages [cardiac-geometries]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-23 13:50:38] INFO root fetch - processPackages [py-avro-schema]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-23 13:50:38] INFO root fetch - processPackages [phub]: New version: [2.7] Old Version: [2.6]
+[2023-06-23 13:50:38] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.756] Old Version: [0.1.748]
+[2023-06-23 13:50:38] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/34/b0/347a109b63d5825784d678918b0247bbc3bf536df76c9332a085b9b1db5c/py-avro-schema-2.1.0.tar.gz
+[2023-06-23 13:50:38] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-23 13:50:38] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/be/d4/035dfb9e2df3caa9cf0c87c972aa285a9d358072421c53f1933d9632cfa4/bigdl_llm-2.4.0b20230622-py3-none-win_amd64.whl
+[2023-06-23 13:50:38] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/32/38/a4796213f05a4e0e35b1ed1d60b8c5e5a3b3299e75f9a142ba76c18fde31/phub-2.6.tar.gz
+[2023-06-23 13:50:38] INFO root fetch - processPackages [jwskate]: Downloading https://files.pythonhosted.org/packages/4b/a4/046f4b207115397f9d0505b5fbbf022a6aca09e32d18257c0dbe73dfdbff/jwskate-0.7.0.tar.gz
+[2023-06-23 13:50:38] INFO root fetch - processPackages [QuantStats]: Downloading https://files.pythonhosted.org/packages/b7/6e/fe470bb810f81e845bd2b88d3d6d793f2cfcdb44023329afa2fa7904151a/QuantStats-0.0.8.tar.gz
+[2023-06-23 13:50:38] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Downloading https://files.pythonhosted.org/packages/a5/b3/6925a335c7807e08c58d27a08395a3f339d69074e9a6aebd2f2c580a3884/odoo_addon_account_journal_general_sequence-16.0.1.0.3.2-py3-none-any.whl
+[2023-06-23 13:50:38] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/f5/09ccd82fede10f125070cb89da1ef03cf9e462b1c6093d3e258006ac6fc0/lusid-notifications-sdk-preview-0.1.748.tar.gz
+[2023-06-23 13:50:38] INFO root fetch - processPackages [kedro-templar]: Downloading https://files.pythonhosted.org/packages/04/cd/9a2a463fd9ef9cd2b91ebdac3c3fce7206ebc193dd28209a2deee4891564/kedro_templar-0.0.5.tar.gz
+[2023-06-23 13:50:38] INFO root fetch - processPackages [cardiac-geometries]: Downloading https://files.pythonhosted.org/packages/b4/fc/abee3b05c757810da3500e469a22297256d0389c36540d67b3ca3daaae24/cardiac_geometries-0.5.1.tar.gz
+[2023-06-23 13:50:38] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-23 13:50:39] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/9f/ee/44c39185c4e43ce72818e85e271a943e35b83149d283502941987752668a/py-avro-schema-2.1.1.tar.gz
+[2023-06-23 13:50:39] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/80/4b/77da6ecc8763c5a7e4205ccac436f83b607feb2f0ae1f6551818c25bac40/phub-2.7.tar.gz
+[2023-06-23 13:50:39] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-23 13:50:39] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230623/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-23 13:50:39] INFO root fetch - processPackages [QuantStats]: Downloading https://files.pythonhosted.org/packages/2d/ae/fd62bf56d161bb5f28c874bb671bc56dabcfba7952c6bcffd73dfddc4ad3/QuantStats-0.0.9.tar.gz
+[2023-06-23 13:50:39] INFO root fetch - processPackages [jwskate]: Downloading https://files.pythonhosted.org/packages/6a/f1/d4602dbff4530c5da29856c27232a923fc9674a772a34cb96a00f9627fea/jwskate-0.8.0.tar.gz
+[2023-06-23 13:50:39] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/dc/06/f0aafc0cf2b1480f145deaa07300de1af301678b5ecfab34010dd5a96cf0/bigdl_llm-2.4.0b20230623-py3-none-win_amd64.whl
+[2023-06-23 13:50:39] INFO root fetch - processPackages [py-avro-schema]: executing diffoscope
+[2023-06-23 13:50:39] INFO root fetch - processPackages [py-avro-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-avro-schema-2.1.0.tar.gz tmp/py-avro-schema-2.1.1.tar.gz --markdown 20230623/p/py-avro-schema/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-23 13:50:39] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Downloading https://files.pythonhosted.org/packages/f7/21/52a8c3660c9ccebf9eed4ca63b7c655c9afbd6feb7e0dceba121fe6b62b5/odoo_addon_account_journal_general_sequence-16.0.1.0.4-py3-none-any.whl
+[2023-06-23 13:50:39] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/75/84/d3d49c54696157234a069f19e961df6288352bf97275d09c30c96040678f/lusid-notifications-sdk-preview-0.1.756.tar.gz
+[2023-06-23 13:50:39] INFO root fetch - processPackages [kedro-templar]: Downloading https://files.pythonhosted.org/packages/11/fd/57e4e1a9c6102cdf298aafe9e9cc9a659945ddf1763c636cb949aff987a9/kedro_templar-0.0.6.dev0.tar.gz
+[2023-06-23 13:50:39] INFO root fetch - processPackages [QuantStats]: executing diffoscope
+[2023-06-23 13:50:39] INFO root fetch - processPackages [QuantStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantStats-0.0.8.tar.gz tmp/QuantStats-0.0.9.tar.gz --markdown 20230623/Q/QuantStats/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 13:50:39] INFO root fetch - processPackages [cardiac-geometries]: Downloading https://files.pythonhosted.org/packages/b4/aa/90012cdb753578ea6870abe6625787253e1e16e56f336bf9653a6de327e4/cardiac_geometries-0.6.0.tar.gz
+[2023-06-23 13:50:39] INFO root fetch - processPackages [jwskate]: executing diffoscope
+[2023-06-23 13:50:39] INFO root fetch - processPackages [jwskate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwskate-0.7.0.tar.gz tmp/jwskate-0.8.0.tar.gz --markdown 20230623/j/jwskate/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-23 13:50:39] INFO root fetch - processPackages [phub]: executing diffoscope
+[2023-06-23 13:50:39] INFO root fetch - processPackages [phub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phub-2.6.tar.gz tmp/phub-2.7.tar.gz --markdown 20230623/p/phub/2.6-2.7/diff.md --exclude *.pyd
+[2023-06-23 13:50:39] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-06-23 13:50:39] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.748.tar.gz tmp/lusid-notifications-sdk-preview-0.1.756.tar.gz --markdown 20230623/l/lusid-notifications-sdk-preview/0.1.748-0.1.756/diff.md --exclude *.pyd
+[2023-06-23 13:50:39] INFO root fetch - processPackages [kedro-templar]: executing diffoscope
+[2023-06-23 13:50:39] INFO root fetch - processPackages [kedro-templar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_templar-0.0.5.tar.gz tmp/kedro_templar-0.0.6.dev0.tar.gz --markdown 20230623/k/kedro-templar/0.0.5-0.0.6.dev0/diff.md --exclude *.pyd
+[2023-06-23 13:50:39] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: executing diffoscope
+[2023-06-23 13:50:39] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_journal_general_sequence-16.0.1.0.3.2-py3-none-any.whl.zip tmp/odoo_addon_account_journal_general_sequence-16.0.1.0.4-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-account-journal-general-sequence/16.0.1.0.3.2-16.0.1.0.4/diff.md --exclude *.pyd
+[2023-06-23 13:50:39] INFO root fetch - processPackages [cardiac-geometries]: executing diffoscope
+[2023-06-23 13:50:39] INFO root fetch - processPackages [cardiac-geometries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardiac_geometries-0.5.1.tar.gz tmp/cardiac_geometries-0.6.0.tar.gz --markdown 20230623/c/cardiac-geometries/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-23 13:50:40] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-23 13:50:40] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230622-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230623-py3-none-win_amd64.whl.zip --markdown 20230623/b/bigdl-llm/2.4.0b20230622-2.4.0b20230623/diff.md --exclude *.pyd
+[2023-06-23 13:50:41] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-2.1.0.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-2.1.1.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [py-avro-schema]: Start processing: bigdl-chronos
+[2023-06-23 13:50:41] INFO root fetch - main [MainThread]: End processing [py-avro-schema]: success
+[2023-06-23 13:50:41] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [langchain-serve]: Start processing: plotscanner
+[2023-06-23 13:50:41] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-23 13:50:41] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230623] Old Version: [2.4.0b20230622]
+[2023-06-23 13:50:41] WARNING root fetch - processPackages [plotscanner]: Skipping, unable to determine old version
+[2023-06-23 13:50:41] INFO root fetch - processPackages [plotscanner]: Start processing: createai
+[2023-06-23 13:50:41] INFO root fetch - main [MainThread]: End processing [plotscanner] error
+[2023-06-23 13:50:41] INFO root fetch - processPackages [createai]: New version: [0.1.2.1] Old Version: [0.1.1]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/51/5f/b3ea9965333020451037e383ca739ee3912a3720ab5bc2bc61440cd30689/bigdl_chronos-2.4.0b20230622-py3-none-win_amd64.whl
+[2023-06-23 13:50:41] INFO root fetch - processPackages [QuantStats]: Remove: archive file [/home/abi/fetcher/tmp/QuantStats-0.0.8.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [QuantStats]: Remove: archive file [/home/abi/fetcher/tmp/QuantStats-0.0.9.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [QuantStats]: Start processing: few-shot-priming
+[2023-06-23 13:50:41] INFO root fetch - main [MainThread]: End processing [QuantStats]: success
+[2023-06-23 13:50:41] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.6.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.7.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [phub]: Start processing: ir-measures
+[2023-06-23 13:50:41] INFO root fetch - main [MainThread]: End processing [phub]: success
+[2023-06-23 13:50:41] INFO root fetch - processPackages [createai]: Downloading https://files.pythonhosted.org/packages/96/c1/a1c8e48f5f3f4d9fdbaad3d68862add8d8dc8a32a4d2d84a2dc066bf16b2/createai-0.1.1.tar.gz
+[2023-06-23 13:50:41] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 13:50:41] INFO root fetch - processPackages [kedro-templar]: Remove: archive file [/home/abi/fetcher/tmp/kedro_templar-0.0.5.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [kedro-templar]: Remove: archive file [/home/abi/fetcher/tmp/kedro_templar-0.0.6.dev0.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [kedro-templar]: Start processing: databaseRestoreIntegrity
+[2023-06-23 13:50:41] INFO root fetch - main [MainThread]: End processing [kedro-templar]: success
+[2023-06-23 13:50:41] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/24/ca/241781775ddb9f9a626ac498a7029ddc9cde647f5215b70fcb04e1cfa649/bigdl_chronos-2.4.0b20230623-py3-none-win_amd64.whl
+[2023-06-23 13:50:41] INFO root fetch - processPackages [ir-measures]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_general_sequence-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_general_sequence-16.0.1.0.4-py3-none-any.whl.zip]
+[2023-06-23 13:50:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-journal-general-sequence]: success
+[2023-06-23 13:50:41] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 13:50:41] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-23 13:50:41] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230622-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230623-py3-none-win_amd64.whl.zip --markdown 20230623/b/bigdl-chronos/2.4.0b20230622-2.4.0b20230623/diff.md --exclude *.pyd
+[2023-06-23 13:50:41] INFO root fetch - processPackages [createai]: Downloading https://files.pythonhosted.org/packages/11/68/a04690416a4eeb4cf4c51152a550900ff8162f907768a3303c749aba950f/createai-0.1.2.1.tar.gz
+[2023-06-23 13:50:41] INFO root fetch - processPackages [databaseRestoreIntegrity]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [ir-measures]: Downloading https://files.pythonhosted.org/packages/a8/1b/5db5b0f1c4cc2bfb5d0e11e02266e93f6269265002b93efba5a6e6dbd7e4/ir_measures-0.3.1.tar.gz
+[2023-06-23 13:50:41] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 13:50:41] INFO root fetch - processPackages [databaseRestoreIntegrity]: Downloading https://files.pythonhosted.org/packages/6a/51/aab83c37db62cd2ac11fd1f4b53ee194d932e6b7fada262c16871a49898a/databaseRestoreIntegrity-1.1.0.tar.gz
+[2023-06-23 13:50:41] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 13:50:41] INFO root fetch - processPackages [createai]: executing diffoscope
+[2023-06-23 13:50:41] INFO root fetch - processPackages [createai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/createai-0.1.1.tar.gz tmp/createai-0.1.2.1.tar.gz --markdown 20230623/c/createai/0.1.1-0.1.2.1/diff.md --exclude *.pyd
+[2023-06-23 13:50:41] INFO root fetch - processPackages [ir-measures]: Downloading https://files.pythonhosted.org/packages/49/13/701e9792ee1accc02f3729870cea26c4b434e46bba234656361bc93b5085/ir_measures-0.3.3.tar.gz
+[2023-06-23 13:50:41] INFO root fetch - processPackages [cardiac-geometries]: Remove: archive file [/home/abi/fetcher/tmp/cardiac_geometries-0.5.1.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - processPackages [cardiac-geometries]: Remove: archive file [/home/abi/fetcher/tmp/cardiac_geometries-0.6.0.tar.gz]
+[2023-06-23 13:50:41] INFO root fetch - main [MainThread]: End processing [cardiac-geometries]: success
+[2023-06-23 13:50:41] INFO root fetch - processPackages [ir-measures]: executing diffoscope
+[2023-06-23 13:50:41] INFO root fetch - processPackages [ir-measures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_measures-0.3.1.tar.gz tmp/ir_measures-0.3.3.tar.gz --markdown 20230623/i/ir-measures/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-06-23 13:50:41] INFO root fetch - processPackages [databaseRestoreIntegrity]: Downloading https://files.pythonhosted.org/packages/1e/49/180a266d8741ea92f738600a823a31d38f170313898d94faba12bccb2f3b/databaseRestoreIntegrity-1.1.1.tar.gz
+[2023-06-23 13:50:42] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230622-py3-none-win_amd64.whl.zip]
+[2023-06-23 13:50:42] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230623-py3-none-win_amd64.whl.zip]
+[2023-06-23 13:50:42] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-23 13:50:42] INFO root fetch - processPackages [databaseRestoreIntegrity]: executing diffoscope
+[2023-06-23 13:50:42] INFO root fetch - processPackages [databaseRestoreIntegrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databaseRestoreIntegrity-1.1.0.tar.gz tmp/databaseRestoreIntegrity-1.1.1.tar.gz --markdown 20230623/d/databaseRestoreIntegrity/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-23 13:50:42] INFO root fetch - processPackages [jwskate]: Remove: archive file [/home/abi/fetcher/tmp/jwskate-0.7.0.tar.gz]
+[2023-06-23 13:50:42] INFO root fetch - processPackages [jwskate]: Remove: archive file [/home/abi/fetcher/tmp/jwskate-0.8.0.tar.gz]
+[2023-06-23 13:50:42] INFO root fetch - main [MainThread]: End processing [jwskate]: success
+[2023-06-23 13:50:43] INFO root fetch - processPackages [createai]: Remove: archive file [/home/abi/fetcher/tmp/createai-0.1.1.tar.gz]
+[2023-06-23 13:50:43] INFO root fetch - processPackages [createai]: Remove: archive file [/home/abi/fetcher/tmp/createai-0.1.2.1.tar.gz]
+[2023-06-23 13:50:43] INFO root fetch - main [MainThread]: End processing [createai]: success
+[2023-06-23 13:50:43] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.748.tar.gz]
+[2023-06-23 13:50:43] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.756.tar.gz]
+[2023-06-23 13:50:43] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-06-23 13:50:43] INFO root fetch - processPackages [databaseRestoreIntegrity]: Remove: archive file [/home/abi/fetcher/tmp/databaseRestoreIntegrity-1.1.0.tar.gz]
+[2023-06-23 13:50:43] INFO root fetch - processPackages [databaseRestoreIntegrity]: Remove: archive file [/home/abi/fetcher/tmp/databaseRestoreIntegrity-1.1.1.tar.gz]
+[2023-06-23 13:50:43] INFO root fetch - main [MainThread]: End processing [databaseRestoreIntegrity]: success
+[2023-06-23 13:50:43] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230622-py3-none-win_amd64.whl.zip]
+[2023-06-23 13:50:43] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230623-py3-none-win_amd64.whl.zip]
+[2023-06-23 13:50:43] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-23 13:50:43] INFO root fetch - processPackages [ir-measures]: Remove: archive file [/home/abi/fetcher/tmp/ir_measures-0.3.1.tar.gz]
+[2023-06-23 13:50:43] INFO root fetch - processPackages [ir-measures]: Remove: archive file [/home/abi/fetcher/tmp/ir_measures-0.3.3.tar.gz]
+[2023-06-23 13:50:43] INFO root fetch - main [MainThread]: End processing [ir-measures]: success
+[2023-06-23 13:50:44] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 13:50:44] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 13:50:44] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 13:50:44] INFO root fetch - main [MainThread]: Store serial: [18617441]
