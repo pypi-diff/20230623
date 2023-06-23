@@ -16790,3 +16790,136 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 13:50:44] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
 [2023-06-23 13:50:44] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2023-06-23 13:50:44] INFO root fetch - main [MainThread]: Store serial: [18617441]
+[2023-06-23 13:55:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617441]
+[2023-06-23 13:55:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiskit-trebugger
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sixth-python
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evilHunter
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notion-pinecone
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Akatosh
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: render-html
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-journal-general-sequence
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kedro-templar
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: etsy-apiv3
+[2023-06-23 13:55:53] INFO root fetch - processPackages [sixth-python]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-23 13:55:53] INFO root fetch - processPackages [Akatosh]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-23 13:55:53] INFO root fetch - processPackages [kedro-templar]: New version: [0.0.6.dev1] Old Version: [0.0.6.dev0]
+[2023-06-23 13:55:53] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-23 13:55:53] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.2]
+[2023-06-23 13:55:53] INFO root fetch - processPackages [evilHunter]: New version: [0.1.9.46] Old Version: [0.1.9.45]
+[2023-06-23 13:55:53] INFO root fetch - processPackages [render-html]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-23 13:55:53] INFO root fetch - processPackages [qiskit-trebugger]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-23 13:55:53] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-23 13:55:53] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/7c/74/ea4bf1e7c0824d59da16aef479dece110d9874a7e1c3939330bafd23bd03/notion-pinecone-0.0.7.tar.gz
+[2023-06-23 13:55:53] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/b4/11/8edc8dea5423c181e1ff2561fa13b222b8013252b10ff375ae7e732f8fea/Akatosh-2.0.0.tar.gz
+[2023-06-23 13:55:53] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Downloading https://files.pythonhosted.org/packages/a5/b3/6925a335c7807e08c58d27a08395a3f339d69074e9a6aebd2f2c580a3884/odoo_addon_account_journal_general_sequence-16.0.1.0.3.2-py3-none-any.whl
+[2023-06-23 13:55:53] INFO root fetch - processPackages [kedro-templar]: Downloading https://files.pythonhosted.org/packages/11/fd/57e4e1a9c6102cdf298aafe9e9cc9a659945ddf1763c636cb949aff987a9/kedro_templar-0.0.6.dev0.tar.gz
+[2023-06-23 13:55:53] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/6a/69/e3a0634c0d0a80359287dc7862ec62cab1a96572eb9840243b397b7a2f0b/evilHunter-0.1.9.45.tar.gz
+[2023-06-23 13:55:53] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-23 13:55:53] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/c1/d3/ab01f6041bf4f0e566814e6f280538947b18a5d32d3b8141d0ff21e9fe27/etsy-apiv3-1.9.4.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [sixth-python]: Downloading https://files.pythonhosted.org/packages/58/fc/e350367886d71cb9ad5c445c63f991fd905d1adea00482db3b2044e33bbf/sixth-python-0.0.7.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [render-html]: Downloading https://files.pythonhosted.org/packages/76/13/b958ab9b78c9af688b7d4091745e3e0129bdb08406f164c541beb7ab3a1f/render_html-1.0.0.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Downloading https://files.pythonhosted.org/packages/f7/21/52a8c3660c9ccebf9eed4ca63b7c655c9afbd6feb7e0dceba121fe6b62b5/odoo_addon_account_journal_general_sequence-16.0.1.0.4-py3-none-any.whl
+[2023-06-23 13:55:54] INFO root fetch - processPackages [qiskit-trebugger]: Downloading https://files.pythonhosted.org/packages/5b/38/3f438131f2909dfb5eb35bf0c1bf5bd8eaffafa6b794c30df8231ffeb71f/qiskit_trebugger-1.0.1.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/f7/86/ab1723c843c51d60b2215ba7376fb7295eb120696526d4da8c737b2c9d9a/Akatosh-2.0.1.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/60/0c/dffad7544867eaf6d494efacc49a70e70124aa460dac207fd6e7f69bcaa2/evilHunter-0.1.9.46.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: executing diffoscope
+[2023-06-23 13:55:54] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_journal_general_sequence-16.0.1.0.3.2-py3-none-any.whl.zip tmp/odoo_addon_account_journal_general_sequence-16.0.1.0.4-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-account-journal-general-sequence/16.0.1.0.3.2-16.0.1.0.4/diff.md --exclude *.pyd
+[2023-06-23 13:55:54] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [kedro-templar]: Downloading https://files.pythonhosted.org/packages/c5/35/97ad8aa7cdf07792ad7af00ae4aff8746883c3b8c012017f0be4527c6000/kedro_templar-0.0.6.dev1.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-06-23 13:55:54] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-2.0.0.tar.gz tmp/Akatosh-2.0.1.tar.gz --markdown 20230623/A/Akatosh/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-23 13:55:54] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-23 13:55:54] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230623/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-23 13:55:54] INFO root fetch - processPackages [evilHunter]: executing diffoscope
+[2023-06-23 13:55:54] INFO root fetch - processPackages [evilHunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evilHunter-0.1.9.45.tar.gz tmp/evilHunter-0.1.9.46.tar.gz --markdown 20230623/e/evilHunter/0.1.9.45-0.1.9.46/diff.md --exclude *.pyd
+[2023-06-23 13:55:54] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-23 13:55:54] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.7.tar.gz tmp/notion-pinecone-0.0.8.tar.gz --markdown 20230623/n/notion-pinecone/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-23 13:55:54] INFO root fetch - processPackages [render-html]: Downloading https://files.pythonhosted.org/packages/69/98/d8b35afedeacf6ee66d9a7eda1e378031188668153b144041b8ae32d4871/render_html-1.0.1.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [sixth-python]: Downloading https://files.pythonhosted.org/packages/bc/f3/c8d941e12dd90fee2fffad28f84ed32465294707d904ba2e575454222138/sixth-python-0.0.8.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/5f/2f/7036dc822cf0e0d2a2f6cac22fc9ddd12cc473d47ecb1084d5504206a57e/etsy-apiv3-1.9.5.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [kedro-templar]: executing diffoscope
+[2023-06-23 13:55:54] INFO root fetch - processPackages [kedro-templar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_templar-0.0.6.dev0.tar.gz tmp/kedro_templar-0.0.6.dev1.tar.gz --markdown 20230623/k/kedro-templar/0.0.6.dev0-0.0.6.dev1/diff.md --exclude *.pyd
+[2023-06-23 13:55:54] INFO root fetch - processPackages [render-html]: executing diffoscope
+[2023-06-23 13:55:54] INFO root fetch - processPackages [render-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_html-1.0.0.tar.gz tmp/render_html-1.0.1.tar.gz --markdown 20230623/r/render-html/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-23 13:55:54] INFO root fetch - processPackages [qiskit-trebugger]: Downloading https://files.pythonhosted.org/packages/54/ce/7544f738dd884919fca0256ddd0ad931bc05fa6f3e625c2e20ec7a707947/qiskit_trebugger-1.1.0.tar.gz
+[2023-06-23 13:55:54] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-06-23 13:55:54] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.9.4.tar.gz tmp/etsy-apiv3-1.9.5.tar.gz --markdown 20230623/e/etsy-apiv3/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-23 13:55:54] INFO root fetch - processPackages [sixth-python]: executing diffoscope
+[2023-06-23 13:55:54] INFO root fetch - processPackages [sixth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sixth-python-0.0.7.tar.gz tmp/sixth-python-0.0.8.tar.gz --markdown 20230623/s/sixth-python/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-23 13:55:54] WARNING root fetch - processPackages [qiskit-trebugger]: Skipping package: exceeds size limit 17766558>=10485760
+[2023-06-23 13:55:54] INFO root fetch - processPackages [qiskit-trebugger]: Start processing: etsy-apiv3
+[2023-06-23 13:55:54] INFO root fetch - main [MainThread]: End processing [qiskit-trebugger] error
+[2023-06-23 13:55:54] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-23 13:55:54] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-06-23 13:55:54] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.9.4.tar.gz tmp/etsy-apiv3-1.9.5.tar.gz --markdown 20230623/e/etsy-apiv3/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-23 13:55:55] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.0.0.tar.gz]
+[2023-06-23 13:55:55] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.0.1.tar.gz]
+[2023-06-23 13:55:55] INFO root fetch - processPackages [Akatosh]: Start processing: grpcrest
+[2023-06-23 13:55:55] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-06-23 13:55:55] INFO root fetch - processPackages [grpcrest]: New version: [0.4] Old Version: [0.3]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_general_sequence-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_general_sequence-16.0.1.0.4-py3-none-any.whl.zip]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [odoo-addon-account-journal-general-sequence]: Start processing: pybox-toolkit
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-journal-general-sequence]: success
+[2023-06-23 13:55:56] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.9.dev83] Old Version: [0.1.9.dev82]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/97/2d/ff30678d1e3dc14fa4f141b32722968c2bcec3e178e88cbdad132ceb1408/pybox-toolkit-0.1.9.dev82.tar.gz
+[2023-06-23 13:55:56] INFO root fetch - processPackages [grpcrest]: Downloading https://files.pythonhosted.org/packages/7e/a0/ba48fc7b514e0f13b3d90f31c157c9d12c60bed281b43176119c33bdefb0/grpcrest-0.3.tar.gz
+[2023-06-23 13:55:56] WARNING root fetch - processPackages [grpcrest]: Skipping package: exceeds size limit 21181404>=10485760
+[2023-06-23 13:55:56] INFO root fetch - processPackages [grpcrest]: Start processing: embedchain
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-23 13:55:56] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.7.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.8.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [notion-pinecone]: Start processing: webviz-config
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-23 13:55:56] INFO root fetch - processPackages [embedchain]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/db/0e/e504dd0533dfd52e51e4d62367aab02fc61d659431d945e85f543bf53bbc/pybox-toolkit-0.1.9.dev83.tar.gz
+[2023-06-23 13:55:56] INFO root fetch - processPackages [webviz-config]: New version: [0.5.2rc0] Old Version: [0.5.2a0]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.9.45.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.9.46.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [evilHunter]: Start processing: as-mongodb
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [evilHunter]: success
+[2023-06-23 13:55:56] WARNING root fetch - processPackages [as-mongodb]: Skipping, unable to determine old version
+[2023-06-23 13:55:56] INFO root fetch - processPackages [as-mongodb]: Start processing: as-mongodb
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [as-mongodb] error
+[2023-06-23 13:55:56] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/cc/1b/401167555a09dfca56b8abb6c5be8ed27cac3f58b92706c901519062aa81/embedchain-0.0.6.tar.gz
+[2023-06-23 13:55:56] INFO root fetch - processPackages [render-html]: Remove: archive file [/home/abi/fetcher/tmp/render_html-1.0.0.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [render-html]: Remove: archive file [/home/abi/fetcher/tmp/render_html-1.0.1.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [render-html]: success
+[2023-06-23 13:55:56] WARNING root fetch - processPackages [as-mongodb]: Skipping, unable to determine old version
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [as-mongodb] error
+[2023-06-23 13:55:56] INFO root fetch - processPackages [kedro-templar]: Remove: archive file [/home/abi/fetcher/tmp/kedro_templar-0.0.6.dev0.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [kedro-templar]: Remove: archive file [/home/abi/fetcher/tmp/kedro_templar-0.0.6.dev1.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [kedro-templar]: success
+[2023-06-23 13:55:56] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-23 13:55:56] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.9.dev82.tar.gz tmp/pybox-toolkit-0.1.9.dev83.tar.gz --markdown 20230623/p/pybox-toolkit/0.1.9.dev82-0.1.9.dev83/diff.md --exclude *.pyd
+[2023-06-23 13:55:56] INFO root fetch - processPackages [webviz-config]: Downloading https://files.pythonhosted.org/packages/3d/7b/4d2a39f3380d4da7a4284465de695235a8642826872d0c8656378d9146f1/webviz-config-0.5.2a0.tar.gz
+[2023-06-23 13:55:56] INFO root fetch - processPackages [sixth-python]: Remove: archive file [/home/abi/fetcher/tmp/sixth-python-0.0.7.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [sixth-python]: Remove: archive file [/home/abi/fetcher/tmp/sixth-python-0.0.8.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [sixth-python]: success
+[2023-06-23 13:55:56] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/95/bd/491aea5f9f91d6dc9084e9809c8776f7af72866c189ce040d2de7d928b90/embedchain-0.0.7.tar.gz
+[2023-06-23 13:55:56] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-23 13:55:56] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-06-23 13:55:56] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.6.tar.gz tmp/embedchain-0.0.7.tar.gz --markdown 20230623/e/embedchain/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-23 13:55:56] INFO root fetch - processPackages [etsy-apiv3]: Remove: archive file [/home/abi/fetcher/tmp/etsy-apiv3-1.9.4.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - processPackages [etsy-apiv3]: Remove: archive file [/home/abi/fetcher/tmp/etsy-apiv3-1.9.5.tar.gz]
+[2023-06-23 13:55:56] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-06-23 13:55:57] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-06-23 13:55:57] INFO root fetch - processPackages [webviz-config]: Downloading https://files.pythonhosted.org/packages/49/f7/039572959a100aa7763f6126259390eb851da26b44cc355f3093b7b591d6/webviz-config-0.5.2rc0.tar.gz
+[2023-06-23 13:55:57] INFO root fetch - processPackages [webviz-config]: executing diffoscope
+[2023-06-23 13:55:57] INFO root fetch - processPackages [webviz-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webviz-config-0.5.2a0.tar.gz tmp/webviz-config-0.5.2rc0.tar.gz --markdown 20230623/w/webviz-config/0.5.2a0-0.5.2rc0/diff.md --exclude *.pyd
+[2023-06-23 13:55:57] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev82.tar.gz]
+[2023-06-23 13:55:57] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev83.tar.gz]
+[2023-06-23 13:55:57] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-23 13:55:57] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.6.tar.gz]
+[2023-06-23 13:55:57] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.7.tar.gz]
+[2023-06-23 13:55:57] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-06-23 13:56:00] INFO root fetch - processPackages [webviz-config]: Remove: archive file [/home/abi/fetcher/tmp/webviz-config-0.5.2a0.tar.gz]
+[2023-06-23 13:56:00] INFO root fetch - processPackages [webviz-config]: Remove: archive file [/home/abi/fetcher/tmp/webviz-config-0.5.2rc0.tar.gz]
+[2023-06-23 13:56:00] INFO root fetch - main [MainThread]: End processing [webviz-config]: success
+[2023-06-23 13:56:00] INFO root fetch - main [MainThread]: Store serial: [18617492]
