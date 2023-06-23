@@ -11752,3 +11752,139 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 10:03:38] INFO root fetch - processPackages [snakecdysis]: Remove: archive file [/home/abi/fetcher/tmp/snakecdysis-0.0.5.tar.gz]
 [2023-06-23 10:03:38] INFO root fetch - main [MainThread]: End processing [snakecdysis]: success
 [2023-06-23 10:03:38] INFO root fetch - main [MainThread]: Store serial: [18615301]
+[2023-06-23 10:08:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615301]
+[2023-06-23 10:08:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-23 10:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kalm
+[2023-06-23 10:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dockeree
+[2023-06-23 10:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kalm
+[2023-06-23 10:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: material-zui
+[2023-06-23 10:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elasticai-creator
+[2023-06-23 10:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paneltime
+[2023-06-23 10:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xlwings
+[2023-06-23 10:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyglove
+[2023-06-23 10:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: snapchat-dlp
+[2023-06-23 10:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nfc-uid
+[2023-06-23 10:08:47] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 10:08:47] INFO root fetch - processPackages [paneltime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-23 10:08:47] INFO root fetch - processPackages [nfc-uid]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-06-23 10:08:47] INFO root fetch - processPackages [dockeree]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-23 10:08:47] INFO root fetch - processPackages [snapchat-dlp]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-23 10:08:47] INFO root fetch - processPackages [material-zui]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 10:08:47] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 10:08:47] INFO root fetch - processPackages [elasticai-creator]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-06-23 10:08:47] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230623] Old Version: [0.3.1.dev20230622]
+[2023-06-23 10:08:47] INFO root fetch - processPackages [xlwings]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-23 10:08:47] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [nfc-uid]: Downloading https://files.pythonhosted.org/packages/fa/54/8693948800d9e0e9ce04eac59b114dfc4b7286408740d7553374db5c5504/nfc_uid-0.3.6.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [dockeree]: Downloading https://files.pythonhosted.org/packages/a7/51/a0d64f72279156183256ad2a672a3978be47d2a5515332cca3f7b8e494d8/dockeree-0.4.0.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [paneltime]: Downloading https://files.pythonhosted.org/packages/8d/a0/3ac323bb3db90e78db669b77b707d91b163a951425f677b170d03b359147/paneltime-1.2.8-py3-none-any.whl
+[2023-06-23 10:08:47] INFO root fetch - processPackages [snapchat-dlp]: Downloading https://files.pythonhosted.org/packages/ee/d8/10ac85ef6e7a2b86eb716f0d5f7b02bfaceafc07fd3294d1287ce8f2f814/snapchat-dlp-1.5.8.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [xlwings]: Downloading https://files.pythonhosted.org/packages/0d/d1/d7544bcf36d0a64b7a4a213be44ca19bf0eb8b7de232cf743eddceba7c8b/xlwings-0.9.2.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/af/61/f1f080472ced4ab95c82225ba927c686370005c0e2e82f2819cfc09c076d/material_zui-0.1.1.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [nfc-uid]: Downloading https://files.pythonhosted.org/packages/3f/60/bc965c5a7cdfc30ed88dbde343daa9bedc7b29f229972e78eff01d66d6f8/nfc_uid-0.4.0.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/d6/7c/e140d26dff640e468180e000def2320773c2906e7ac2dddfd0a1c61e9d0b/pyglove-0.3.1.dev20230622.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/f4/f4/3c8441508e7e4c9f560d0bb8bfbfc64a417b96a55a09af93424946816450/elasticai.creator-0.7.0.tar.gz
+[2023-06-23 10:08:47] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 10:08:47] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 10:08:47] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 10:08:47] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 10:08:47] INFO root fetch - processPackages [nfc-uid]: executing diffoscope
+[2023-06-23 10:08:47] INFO root fetch - processPackages [nfc-uid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfc_uid-0.3.6.tar.gz tmp/nfc_uid-0.4.0.tar.gz --markdown 20230623/n/nfc-uid/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 10:08:48] INFO root fetch - processPackages [snapchat-dlp]: Downloading https://files.pythonhosted.org/packages/db/10/ea5dbac94753fb56fdac4e3e9f4a7d86dbc7b0028b9fd874a9596cf51cde/snapchat-dlp-1.5.9.tar.gz
+[2023-06-23 10:08:48] INFO root fetch - processPackages [paneltime]: Downloading https://files.pythonhosted.org/packages/de/a8/dbbf56dea3d193b12b6786a57098c57f20651d9e1469533589ac80355236/paneltime-1.2.9.tar.gz
+[2023-06-23 10:08:48] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/a4/40/11f64c3c0872da4cbfe86539860523256abc16e77b718f45262c638458af/material_zui-0.1.2.tar.gz
+[2023-06-23 10:08:48] INFO root fetch - processPackages [dockeree]: Downloading https://files.pythonhosted.org/packages/16/38/c97befeec22155021ba10377035c706d8a2c44b0c84af1ca5c7487b62bc6/dockeree-0.5.0.tar.gz
+[2023-06-23 10:08:48] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/fa/f9/38b37878ca6564f0435ffcaad79b7af72d4cd108292451c5c8f8795c6f78/pyglove-0.3.1.dev20230623.tar.gz
+[2023-06-23 10:08:48] INFO root fetch - processPackages [snapchat-dlp]: executing diffoscope
+[2023-06-23 10:08:48] INFO root fetch - processPackages [snapchat-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapchat-dlp-1.5.8.tar.gz tmp/snapchat-dlp-1.5.9.tar.gz --markdown 20230623/s/snapchat-dlp/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-23 10:08:48] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/41/00/ecf6fd2903be8cf829d89408464d3338913631ab10066e0541a95b004b45/elasticai.creator-0.9.0.tar.gz
+[2023-06-23 10:08:48] INFO root fetch - processPackages [dockeree]: executing diffoscope
+[2023-06-23 10:08:48] INFO root fetch - processPackages [dockeree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockeree-0.4.0.tar.gz tmp/dockeree-0.5.0.tar.gz --markdown 20230623/d/dockeree/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-23 10:08:48] INFO root fetch - processPackages [material-zui]: executing diffoscope
+[2023-06-23 10:08:48] INFO root fetch - processPackages [material-zui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/material_zui-0.1.1.tar.gz tmp/material_zui-0.1.2.tar.gz --markdown 20230623/m/material-zui/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 10:08:48] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-23 10:08:48] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230622.tar.gz tmp/pyglove-0.3.1.dev20230623.tar.gz --markdown 20230623/p/pyglove/0.3.1.dev20230622-0.3.1.dev20230623/diff.md --exclude *.pyd
+[2023-06-23 10:08:48] INFO root fetch - processPackages [elasticai-creator]: executing diffoscope
+[2023-06-23 10:08:48] INFO root fetch - processPackages [elasticai-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticai.creator-0.7.0.tar.gz tmp/elasticai.creator-0.9.0.tar.gz --markdown 20230623/e/elasticai-creator/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 10:08:48] INFO root fetch - processPackages [paneltime]: executing diffoscope
+[2023-06-23 10:08:48] INFO root fetch - processPackages [paneltime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paneltime-1.2.8-py3-none-any.whl.zip tmp/paneltime-1.2.9.tar.gz --markdown 20230623/p/paneltime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-23 10:08:49] INFO root fetch - processPackages [xlwings]: Downloading https://files.pythonhosted.org/packages/98/93/a49777fac149cadd5687de9b05d87a423507769a75cbb922559cebc3d068/xlwings-0.9.3.tar.gz
+[2023-06-23 10:08:49] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 10:08:49] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 10:08:49] INFO root fetch - processPackages [kalm]: Start processing: alpaca-farm
+[2023-06-23 10:08:49] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 10:08:49] INFO root fetch - processPackages [alpaca-farm]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-23 10:08:49] INFO root fetch - processPackages [nfc-uid]: Remove: archive file [/home/abi/fetcher/tmp/nfc_uid-0.3.6.tar.gz]
+[2023-06-23 10:08:49] INFO root fetch - processPackages [nfc-uid]: Remove: archive file [/home/abi/fetcher/tmp/nfc_uid-0.4.0.tar.gz]
+[2023-06-23 10:08:49] INFO root fetch - processPackages [nfc-uid]: Start processing: thipster
+[2023-06-23 10:08:49] INFO root fetch - main [MainThread]: End processing [nfc-uid]: success
+[2023-06-23 10:08:49] INFO root fetch - processPackages [thipster]: New version: [0.18.0] Old Version: [0.17.9]
+[2023-06-23 10:08:49] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/19/d7/f3490284a55ebec55ec2091239724da1aa8b6983cf8e1d37f32c5da8d29d/thipster-0.17.9.tar.gz
+[2023-06-23 10:08:49] INFO root fetch - processPackages [xlwings]: executing diffoscope
+[2023-06-23 10:08:49] INFO root fetch - processPackages [xlwings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlwings-0.9.2.tar.gz tmp/xlwings-0.9.3.tar.gz --markdown 20230623/x/xlwings/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-23 10:08:49] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/4b/c4/e1d3c8b8150e953ba6804281f5c46c67a9e2179ee4bd27b094b2b193c0ea/thipster-0.18.0.tar.gz
+[2023-06-23 10:08:49] INFO root fetch - processPackages [alpaca-farm]: Downloading https://files.pythonhosted.org/packages/11/f0/ede086a6c4e75acde59a5e1d6f014295fddec0eff6e90b90e5f38270f6a7/alpaca_farm-0.1.5.tar.gz
+[2023-06-23 10:08:49] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-23 10:08:49] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.17.9.tar.gz tmp/thipster-0.18.0.tar.gz --markdown 20230623/t/thipster/0.17.9-0.18.0/diff.md --exclude *.pyd
+[2023-06-23 10:08:49] INFO root fetch - processPackages [kalm]: Start processing: tb-rest-client
+[2023-06-23 10:08:49] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 10:08:49] INFO root fetch - processPackages [dockeree]: Remove: archive file [/home/abi/fetcher/tmp/dockeree-0.4.0.tar.gz]
+[2023-06-23 10:08:49] INFO root fetch - processPackages [dockeree]: Remove: archive file [/home/abi/fetcher/tmp/dockeree-0.5.0.tar.gz]
+[2023-06-23 10:08:49] INFO root fetch - processPackages [dockeree]: Start processing: SpLFastlyWrite
+[2023-06-23 10:08:49] INFO root fetch - main [MainThread]: End processing [dockeree]: success
+[2023-06-23 10:08:49] INFO root fetch - processPackages [tb-rest-client]: New version: [3.5] Old Version: [1.5]
+[2023-06-23 10:08:49] INFO root fetch - processPackages [alpaca-farm]: Downloading https://files.pythonhosted.org/packages/e2/08/3c9df77a0f24896d60271c00a4a1d4180c389bb525481d7b9c46ba205d6d/alpaca_farm-0.1.6.tar.gz
+[2023-06-23 10:08:49] INFO root fetch - processPackages [SpLFastlyWrite]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-23 10:08:50] INFO root fetch - processPackages [tb-rest-client]: Downloading https://files.pythonhosted.org/packages/e7/52/cb9d286b546d12d063d7fdf27d670865e44ff29588c6607d7f3c95e7fce3/tb-rest-client-1.5.tar.gz
+[2023-06-23 10:08:50] INFO root fetch - processPackages [paneltime]: Remove: archive file [/home/abi/fetcher/tmp/paneltime-1.2.8-py3-none-any.whl.zip]
+[2023-06-23 10:08:50] INFO root fetch - processPackages [paneltime]: Remove: archive file [/home/abi/fetcher/tmp/paneltime-1.2.9.tar.gz]
+[2023-06-23 10:08:50] INFO root fetch - processPackages [paneltime]: Start processing: streamlit-chat-plus
+[2023-06-23 10:08:50] INFO root fetch - main [MainThread]: End processing [paneltime]: success
+[2023-06-23 10:08:50] INFO root fetch - processPackages [streamlit-chat-plus]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-23 10:08:50] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.1.tar.gz]
+[2023-06-23 10:08:50] INFO root fetch - processPackages [material-zui]: Remove: archive file [/home/abi/fetcher/tmp/material_zui-0.1.2.tar.gz]
+[2023-06-23 10:08:50] INFO root fetch - main [MainThread]: End processing [material-zui]: success
+[2023-06-23 10:08:50] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/1d/6d/3d3f49a3cb72cf86874daa7ad6bbf2963fe0e2622b4963018a0e65ad07ed/SpLFastlyWrite-1.0.0.tar.gz
+[2023-06-23 10:08:50] INFO root fetch - processPackages [alpaca-farm]: executing diffoscope
+[2023-06-23 10:08:50] INFO root fetch - processPackages [alpaca-farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_farm-0.1.5.tar.gz tmp/alpaca_farm-0.1.6.tar.gz --markdown 20230623/a/alpaca-farm/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-23 10:08:50] INFO root fetch - processPackages [streamlit-chat-plus]: Downloading https://files.pythonhosted.org/packages/99/b7/82786a488c6effc83d0fa0fa0e8fe8476edfcf0ae419a1b6135c55a8633d/streamlit-chat-plus-0.0.0.1.tar.gz
+[2023-06-23 10:08:50] INFO root fetch - processPackages [tb-rest-client]: Downloading https://files.pythonhosted.org/packages/fa/6a/d6de9a95df498ab28822ced836a81bd899dfcd18daf71b03eb8b6aacdb45/tb-rest-client-3.5.tar.gz
+[2023-06-23 10:08:50] INFO root fetch - processPackages [snapchat-dlp]: Remove: archive file [/home/abi/fetcher/tmp/snapchat-dlp-1.5.8.tar.gz]
+[2023-06-23 10:08:50] INFO root fetch - processPackages [snapchat-dlp]: Remove: archive file [/home/abi/fetcher/tmp/snapchat-dlp-1.5.9.tar.gz]
+[2023-06-23 10:08:50] INFO root fetch - main [MainThread]: End processing [snapchat-dlp]: success
+[2023-06-23 10:08:50] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/cb/7b/2f87da76a6715b6b83b03bc955cc275cae2216af71daae025c49e7bdedc3/SpLFastlyWrite-1.0.1.tar.gz
+[2023-06-23 10:08:50] INFO root fetch - processPackages [streamlit-chat-plus]: Downloading https://files.pythonhosted.org/packages/e4/ee/39df05f0309e562030671d60f26f9e63a9b0bb042f01c1b4d2b9ad3d4493/streamlit-chat-plus-0.0.0.2.tar.gz
+[2023-06-23 10:08:50] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.7.0.tar.gz]
+[2023-06-23 10:08:50] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
+[2023-06-23 10:08:50] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
+[2023-06-23 10:08:50] INFO root fetch - processPackages [SpLFastlyWrite]: executing diffoscope
+[2023-06-23 10:08:50] INFO root fetch - processPackages [SpLFastlyWrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpLFastlyWrite-1.0.0.tar.gz tmp/SpLFastlyWrite-1.0.1.tar.gz --markdown 20230623/S/SpLFastlyWrite/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-23 10:08:50] INFO root fetch - processPackages [tb-rest-client]: executing diffoscope
+[2023-06-23 10:08:50] INFO root fetch - processPackages [tb-rest-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb-rest-client-1.5.tar.gz tmp/tb-rest-client-3.5.tar.gz --markdown 20230623/t/tb-rest-client/1.5-3.5/diff.md --exclude *.pyd
+[2023-06-23 10:08:50] INFO root fetch - processPackages [streamlit-chat-plus]: executing diffoscope
+[2023-06-23 10:08:50] INFO root fetch - processPackages [streamlit-chat-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-chat-plus-0.0.0.1.tar.gz tmp/streamlit-chat-plus-0.0.0.2.tar.gz --markdown 20230623/s/streamlit-chat-plus/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-23 10:08:51] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230622.tar.gz]
+[2023-06-23 10:08:51] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230623.tar.gz]
+[2023-06-23 10:08:51] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-23 10:08:51] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.17.9.tar.gz]
+[2023-06-23 10:08:51] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.18.0.tar.gz]
+[2023-06-23 10:08:51] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-23 10:08:51] INFO root fetch - processPackages [xlwings]: Remove: archive file [/home/abi/fetcher/tmp/xlwings-0.9.2.tar.gz]
+[2023-06-23 10:08:51] INFO root fetch - processPackages [xlwings]: Remove: archive file [/home/abi/fetcher/tmp/xlwings-0.9.3.tar.gz]
+[2023-06-23 10:08:51] INFO root fetch - main [MainThread]: End processing [xlwings]: success
+[2023-06-23 10:08:51] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.5.tar.gz]
+[2023-06-23 10:08:51] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.6.tar.gz]
+[2023-06-23 10:08:51] INFO root fetch - main [MainThread]: End processing [alpaca-farm]: success
+[2023-06-23 10:08:52] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.0.tar.gz]
+[2023-06-23 10:08:52] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.1.tar.gz]
+[2023-06-23 10:08:52] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite]: success
+[2023-06-23 10:09:20] INFO root fetch - processPackages [streamlit-chat-plus]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-chat-plus-0.0.0.1.tar.gz]
+[2023-06-23 10:09:20] INFO root fetch - processPackages [streamlit-chat-plus]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-chat-plus-0.0.0.2.tar.gz]
+[2023-06-23 10:09:20] INFO root fetch - main [MainThread]: End processing [streamlit-chat-plus]: success
+[2023-06-23 10:09:24] INFO root fetch - processPackages [tb-rest-client]: Remove: archive file [/home/abi/fetcher/tmp/tb-rest-client-1.5.tar.gz]
+[2023-06-23 10:09:24] INFO root fetch - processPackages [tb-rest-client]: Remove: archive file [/home/abi/fetcher/tmp/tb-rest-client-3.5.tar.gz]
+[2023-06-23 10:09:24] INFO root fetch - main [MainThread]: End processing [tb-rest-client]: success
+[2023-06-23 10:09:24] INFO root fetch - main [MainThread]: Store serial: [18615375]
