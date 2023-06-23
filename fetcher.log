@@ -7486,3 +7486,72 @@
 [2023-06-23 05:02:19] INFO root fetch - processPackages [odoo-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_component-16.0.1.0.0.2-py3-none-any.whl.zip]
 [2023-06-23 05:02:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-component]: success
 [2023-06-23 05:02:19] INFO root fetch - main [MainThread]: Store serial: [18613663]
+[2023-06-23 05:07:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613663]
+[2023-06-23 05:07:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-23 05:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diffusion-server
+[2023-06-23 05:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-be-cooperator
+[2023-06-23 05:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-cooperator
+[2023-06-23 05:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-cooperative
+[2023-06-23 05:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-credit-control
+[2023-06-23 05:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastlabel
+[2023-06-23 05:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thirdai
+[2023-06-23 05:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-crm
+[2023-06-23 05:07:28] WARNING root fetch - processPackages [diffusion-server]: Skipping, unable to determine old version
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: New version: [14.0.1.2.4.dev1] Old Version: [14.0.1.2.3]
+[2023-06-23 05:07:28] INFO root fetch - main [MainThread]: End processing [diffusion-server] error
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo-addons-oca-crm]: New version: [16.0.20230622.0] Old Version: [16.0.20230608.0]
+[2023-06-23 05:07:28] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: New version: [14.0.1.5.1.dev1] Old Version: [14.0.1.5.0]
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: New version: [14.0.20230622.0] Old Version: [14.0.20221006.1]
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo14-addon-cooperator]: New version: [14.0.1.6.3.dev2] Old Version: [14.0.1.6.2]
+[2023-06-23 05:07:28] INFO root fetch - processPackages [thirdai]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: Downloading https://files.pythonhosted.org/packages/6a/83/70028039f5b6adb2b7d229753cc47b7e1c1df5a354eed5b37c2f3069e500/odoo14_addon_l10n_be_cooperator-14.0.1.2.3-py3-none-any.whl
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/aa/92/15c6caae3cfe32fbdc209e0d4a777c3573cf0902251c38df889bcd3afefb/odoo14_addon_account_credit_control-14.0.1.5.0-py3-none-any.whl
+[2023-06-23 05:07:28] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/57/be/7f95f0710f3736b944abf8635802ed7c4fa9ed908af29b88814533d5d1aa/fastlabel-0.9.8.tar.gz
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/e9/10/af7d348f7c7b970b75aba4547cc240f11e0a8fdd2f0510b970ff0ca3311a/odoo_addons_oca_crm-16.0.20230608.0-py3-none-any.whl
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Downloading https://files.pythonhosted.org/packages/a1/1e/c800188aea37b3ff6bf5ccf329b11f6820c6487e38a795b9c41ab1711697/odoo14_addons_oca_cooperative-14.0.20221006.1-py3-none-any.whl
+[2023-06-23 05:07:28] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b1/12/b896a0b4f98dbe96f4ba4bdb06dc51f9422b0d113ed60f040dabf1d8fa3a/thirdai-0.7.8-cp39-cp39-win_amd64.whl
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/4b/1d/99002535153c22e78b53ee93d37547b9c42a1da2d028ab7e532f5c183929/odoo14_addon_cooperator-14.0.1.6.2-py3-none-any.whl
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: Downloading https://files.pythonhosted.org/packages/2b/d2/402a5db589ff459d0e16eaddb3cb6fa06b3b752cae8ef653383092d5989a/odoo14_addon_l10n_be_cooperator-14.0.1.2.4.dev1-py3-none-any.whl
+[2023-06-23 05:07:28] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/fc/6e/ff2251f01216d2e35ac71e3ca6ef0812789cc12a8f8f916c4cf1270861b4/odoo14_addon_account_credit_control-14.0.1.5.1.dev1-py3-none-any.whl
+[2023-06-23 05:07:29] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/d0/e5/f18c001dc7450d962af6e6925a6600fb1877e202166062e99e6d1fadf36b/fastlabel-0.9.9.tar.gz
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/60/4e/bf9524f3e684f445d36692dcbf76f82bbe4ff75007e5885c33de2a1aac38/odoo14_addon_cooperator-14.0.1.6.3.dev2-py3-none-any.whl
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/aa/5e/e823fb019f0cc7a5e4ca7f026b0da516c7d894d85d016d020b2402af6d2e/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: executing diffoscope
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_be_cooperator-14.0.1.2.3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_be_cooperator-14.0.1.2.4.dev1-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addon-l10n-be-cooperator/14.0.1.2.3-14.0.1.2.4.dev1/diff.md --exclude *.pyd
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Downloading https://files.pythonhosted.org/packages/61/a1/719ca8c202ddaafabbb78e0566ab2df37cc2e0bee923b8ef800477c1de6f/odoo14_addons_oca_cooperative-14.0.20230622.0-py3-none-any.whl
+[2023-06-23 05:07:29] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2023-06-23 05:07:29] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20230623/f/fastlabel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo14-addon-cooperator]: executing diffoscope
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo14-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_cooperator-14.0.1.6.2-py3-none-any.whl.zip tmp/odoo14_addon_cooperator-14.0.1.6.3.dev2-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addon-cooperator/14.0.1.6.2-14.0.1.6.3.dev2/diff.md --exclude *.pyd
+[2023-06-23 05:07:29] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/8b/6d/f4bf727538b7c529fb99b293a68c5d32b9abf781998bb6f3c117f307ab47/thirdai-0.7.9-cp39-cp39-win_amd64.whl
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: executing diffoscope
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_cooperative-14.0.20221006.1-py3-none-any.whl.zip tmp/odoo14_addons_oca_cooperative-14.0.20230622.0-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addons-oca-cooperative/14.0.20221006.1-14.0.20230622.0/diff.md --exclude *.pyd
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo-addons-oca-crm]: executing diffoscope
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo-addons-oca-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_crm-16.0.20230608.0-py3-none-any.whl.zip tmp/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl.zip --markdown 20230623/o/odoo-addons-oca-crm/16.0.20230608.0-16.0.20230622.0/diff.md --exclude *.pyd
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: executing diffoscope
+[2023-06-23 05:07:29] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_credit_control-14.0.1.5.0-py3-none-any.whl.zip tmp/odoo14_addon_account_credit_control-14.0.1.5.1.dev1-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addon-account-credit-control/14.0.1.5.0-14.0.1.5.1.dev1/diff.md --exclude *.pyd
+[2023-06-23 05:07:29] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-06-23 05:07:29] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230623/t/thirdai/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 05:07:30] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_be_cooperator-14.0.1.2.3-py3-none-any.whl.zip]
+[2023-06-23 05:07:30] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_be_cooperator-14.0.1.2.4.dev1-py3-none-any.whl.zip]
+[2023-06-23 05:07:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-be-cooperator]: success
+[2023-06-23 05:07:30] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.8.tar.gz]
+[2023-06-23 05:07:30] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.9.tar.gz]
+[2023-06-23 05:07:30] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2023-06-23 05:07:30] INFO root fetch - processPackages [odoo-addons-oca-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_crm-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-06-23 05:07:30] INFO root fetch - processPackages [odoo-addons-oca-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl.zip]
+[2023-06-23 05:07:30] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-crm]: success
+[2023-06-23 05:07:30] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_cooperative-14.0.20221006.1-py3-none-any.whl.zip]
+[2023-06-23 05:07:30] INFO root fetch - processPackages [odoo14-addons-oca-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_cooperative-14.0.20230622.0-py3-none-any.whl.zip]
+[2023-06-23 05:07:30] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-cooperative]: success
+[2023-06-23 05:07:31] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.1.6.2-py3-none-any.whl.zip]
+[2023-06-23 05:07:31] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.1.6.3.dev2-py3-none-any.whl.zip]
+[2023-06-23 05:07:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-cooperator]: success
+[2023-06-23 05:07:31] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 05:07:31] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 05:07:31] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-06-23 05:07:36] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_credit_control-14.0.1.5.0-py3-none-any.whl.zip]
+[2023-06-23 05:07:36] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_credit_control-14.0.1.5.1.dev1-py3-none-any.whl.zip]
+[2023-06-23 05:07:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-credit-control]: success
+[2023-06-23 05:07:36] INFO root fetch - main [MainThread]: Store serial: [18613696]
