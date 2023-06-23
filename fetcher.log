@@ -12163,3 +12163,220 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 10:32:58] INFO root fetch - processPackages [apptools]: Remove: archive file [/home/abi/fetcher/tmp/apptools-5.2.1.tar.gz]
 [2023-06-23 10:32:58] INFO root fetch - main [MainThread]: End processing [apptools]: success
 [2023-06-23 10:32:58] INFO root fetch - main [MainThread]: Store serial: [18615477]
+[2023-06-23 10:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615477]
+[2023-06-23 10:38:07] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-23 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kalm
+[2023-06-23 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly
+[2023-06-23 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: breeze-strategies
+[2023-06-23 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-rag
+[2023-06-23 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-cleaner
+[2023-06-23 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalm
+[2023-06-23 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kalm
+[2023-06-23 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: groupdocs-signature-cloud
+[2023-06-23 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irene-pro
+[2023-06-23 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autograd
+[2023-06-23 10:38:07] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-23 10:38:07] INFO root fetch - processPackages [azureml-rag]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 10:38:07] INFO root fetch - processPackages [jupyter-cleaner]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-23 10:38:07] INFO root fetch - processPackages [groupdocs-signature-cloud]: New version: [23.6] Old Version: [22.6]
+[2023-06-23 10:38:07] INFO root fetch - processPackages [irene-pro]: New version: [0.0.68] Old Version: [0.0.67]
+[2023-06-23 10:38:07] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 10:38:07] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 10:38:07] INFO root fetch - processPackages [autograd]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-23 10:38:07] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 10:38:07] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/91/11/84a145b0dbcc9429da350e26c9525e01d91c38139d89a6da1a6c67258c28/breeze_strategies-6.0.8.tar.gz
+[2023-06-23 10:38:07] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/92/7f/de24afef51e13d604cbd69c7ea485943e94812546d18a0186d3135b5c4ff/azureml_rag-0.1.8-py3-none-any.whl
+[2023-06-23 10:38:07] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230622] Old Version: [2.14.0.dev20230621]
+[2023-06-23 10:38:07] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/7e/8d/865d0850575bb48dd2cdbc71a0abd7f9786728e39f1a23d5e5502d0a983b/irene_pro-0.0.67.tar.gz
+[2023-06-23 10:38:07] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 10:38:07] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 10:38:07] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 10:38:07] INFO root fetch - processPackages [jupyter-cleaner]: Downloading https://files.pythonhosted.org/packages/78/28/5e7d355d642bbd790fd75c5b08984b78513608df5fc8205f864e131237c9/jupyter_cleaner-0.1.0.tar.gz
+[2023-06-23 10:38:07] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/f9/af/eabc809d79f5eb400c5adcfb3b8a37476ff43336c479ff30b19e6db3f61b/breeze_strategies-6.0.9.tar.gz
+[2023-06-23 10:38:07] INFO root fetch - processPackages [groupdocs-signature-cloud]: Downloading https://files.pythonhosted.org/packages/04/68/8db13643ba644a1697f9dcdb5ff04b591bd8ff5a9e5ed3d962097d381034/groupdocs-signature-cloud-22.6.tar.gz
+[2023-06-23 10:38:07] INFO root fetch - processPackages [autograd]: Downloading https://files.pythonhosted.org/packages/05/b2/6ea07d7732f8eaed7718018e8fdd98c9a9a359cb655424caf56a2e2fc549/autograd-1.6.1.tar.gz
+[2023-06-23 10:38:07] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/58/aa/e41c8f6797bafc8833ef143f103f63c96ae4274da18a4d98f13304f0ecbb/tf_nightly-2.14.0.dev20230621-cp39-cp39-win_amd64.whl
+[2023-06-23 10:38:08] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/1e/b3/7b3ec03b0d4763326019e09a3e089f543a83f4db485e8dea3f99c7f2491c/irene_pro-0.0.68.tar.gz
+[2023-06-23 10:38:08] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-23 10:38:08] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.8.tar.gz tmp/breeze_strategies-6.0.9.tar.gz --markdown 20230623/b/breeze-strategies/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-23 10:38:08] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/18/e5/343fcf14bde1ec1bd8c8dfcbbe344da4621035a749fbff18ff79941cdc00/azureml_rag-0.1.9-py3-none-any.whl
+[2023-06-23 10:38:08] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-23 10:38:08] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.67.tar.gz tmp/irene_pro-0.0.68.tar.gz --markdown 20230623/i/irene-pro/0.0.67-0.0.68/diff.md --exclude *.pyd
+[2023-06-23 10:38:08] INFO root fetch - processPackages [jupyter-cleaner]: Downloading https://files.pythonhosted.org/packages/72/df/f1fe34560e671285056df105e30c4be7d82140b43f10c7582031f272c060/jupyter_cleaner-0.2.0.tar.gz
+[2023-06-23 10:38:08] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 10:38:08] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 10:38:08] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 10:38:08] INFO root fetch - processPackages [azureml-rag]: executing diffoscope
+[2023-06-23 10:38:08] INFO root fetch - processPackages [azureml-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_rag-0.1.8-py3-none-any.whl.zip tmp/azureml_rag-0.1.9-py3-none-any.whl.zip --markdown 20230623/a/azureml-rag/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 10:38:08] INFO root fetch - processPackages [autograd]: Downloading https://files.pythonhosted.org/packages/42/03/9d00fbea21fd702970f157a6b79caa1a947b08c1c518296fe94cb7d549f0/autograd-1.6.2.tar.gz
+[2023-06-23 10:38:08] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 10:38:08] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 10:38:08] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 10:38:08] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 10:38:08] INFO root fetch - processPackages [jupyter-cleaner]: executing diffoscope
+[2023-06-23 10:38:08] INFO root fetch - processPackages [jupyter-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_cleaner-0.1.0.tar.gz tmp/jupyter_cleaner-0.2.0.tar.gz --markdown 20230623/j/jupyter-cleaner/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-23 10:38:08] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 10:38:08] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 10:38:08] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/e2/31/bfd87ed472318e2a276e8e362a762b0a4f2439e136c1d10650b7869a9aaa/tf_nightly-2.14.0.dev20230622-cp39-cp39-win_amd64.whl
+[2023-06-23 10:38:08] INFO root fetch - processPackages [groupdocs-signature-cloud]: Downloading https://files.pythonhosted.org/packages/69/09/aa6e3c89358428fc56267c2621d56140f5ea133e67034c258149462507a2/groupdocs-signature-cloud-23.6.tar.gz
+[2023-06-23 10:38:08] INFO root fetch - processPackages [autograd]: executing diffoscope
+[2023-06-23 10:38:08] INFO root fetch - processPackages [autograd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autograd-1.6.1.tar.gz tmp/autograd-1.6.2.tar.gz --markdown 20230623/a/autograd/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-23 10:38:08] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-06-23 10:38:08] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230621-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230622-cp39-cp39-win_amd64.whl.zip --markdown 20230623/t/tf-nightly/2.14.0.dev20230621-2.14.0.dev20230622/diff.md --exclude *.pyd
+[2023-06-23 10:38:08] INFO root fetch - processPackages [groupdocs-signature-cloud]: executing diffoscope
+[2023-06-23 10:38:08] INFO root fetch - processPackages [groupdocs-signature-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupdocs-signature-cloud-22.6.tar.gz tmp/groupdocs-signature-cloud-23.6.tar.gz --markdown 20230623/g/groupdocs-signature-cloud/22.6-23.6/diff.md --exclude *.pyd
+[2023-06-23 10:38:09] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.8.tar.gz]
+[2023-06-23 10:38:09] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.9.tar.gz]
+[2023-06-23 10:38:09] INFO root fetch - processPackages [breeze-strategies]: Start processing: syneto-api
+[2023-06-23 10:38:09] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-23 10:38:09] INFO root fetch - processPackages [syneto-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-23 10:38:09] INFO root fetch - processPackages [syneto-api]: Downloading https://files.pythonhosted.org/packages/1c/19/06bd4b683f8e92860f1ad9ee3006afc60538679617a3a88b511fe71ce48f/syneto_api-0.2.8.tar.gz
+[2023-06-23 10:38:09] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.67.tar.gz]
+[2023-06-23 10:38:09] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.68.tar.gz]
+[2023-06-23 10:38:09] INFO root fetch - processPackages [irene-pro]: Start processing: parrot-olympe
+[2023-06-23 10:38:09] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-23 10:38:09] INFO root fetch - processPackages [parrot-olympe]: New version: [7.7.0rc3] Old Version: [7.7.0rc2]
+[2023-06-23 10:38:09] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 10:38:09] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 10:38:09] INFO root fetch - processPackages [kalm]: Start processing: mmenot
+[2023-06-23 10:38:09] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 10:38:09] INFO root fetch - processPackages [mmenot]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-23 10:38:09] INFO root fetch - processPackages [syneto-api]: Downloading https://files.pythonhosted.org/packages/c1/37/c2e3cad26eda82eb1d8ed0bb5d82f6730c5c42d7b34e3cf1579f56cffc7f/syneto_api-0.2.9.tar.gz
+[2023-06-23 10:38:10] INFO root fetch - processPackages [parrot-olympe]: Downloading https://files.pythonhosted.org/packages/6c/a5/3fd06f6a2418ca6ec2f801b628f1fe1cdffd46ebf3d4389930fa6ba56f76/parrot_olympe-7.7.0rc2-py3-none-manylinux_2_31_x86_64.whl
+[2023-06-23 10:38:10] INFO root fetch - processPackages [syneto-api]: executing diffoscope
+[2023-06-23 10:38:10] INFO root fetch - processPackages [syneto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syneto_api-0.2.8.tar.gz tmp/syneto_api-0.2.9.tar.gz --markdown 20230623/s/syneto-api/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-23 10:38:10] INFO root fetch - processPackages [mmenot]: Downloading https://files.pythonhosted.org/packages/f6/80/9edbf05de19e2a6fee5d4267a9f49b5b4b4f75133709680a361ce37a5b85/mmenot-0.9.3-py3-none-any.whl
+[2023-06-23 10:38:10] INFO root fetch - processPackages [kalm]: Start processing: tf-estimator-nightly
+[2023-06-23 10:38:10] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 10:38:10] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-23 10:38:10] INFO root fetch - processPackages [jupyter-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_cleaner-0.1.0.tar.gz]
+[2023-06-23 10:38:10] INFO root fetch - processPackages [jupyter-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_cleaner-0.2.0.tar.gz]
+[2023-06-23 10:38:10] INFO root fetch - processPackages [jupyter-cleaner]: Start processing: kalm
+[2023-06-23 10:38:10] INFO root fetch - main [MainThread]: End processing [jupyter-cleaner]: success
+[2023-06-23 10:38:10] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 10:38:10] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-23 10:38:10] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230621-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 10:38:10] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230622-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 10:38:10] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-06-23 10:38:10] ERROR root fetch - processPackages [kalm]: Diffoscope failed: gzip: tmp/kalm-0.7.9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/kalm-0.7.9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-23 10:38:10] INFO root fetch - main [MainThread]: End processing [kalm] error
+[2023-06-23 10:38:10] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 10:38:10] INFO root fetch - processPackages [mmenot]: Downloading https://files.pythonhosted.org/packages/00/35/0b9101a897804606f3ce00cc7804625c6be77a6765ee0dbf931a39483c3d/mmenot-0.9.4-py3-none-any.whl
+[2023-06-23 10:38:10] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-23 10:38:10] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 10:38:10] INFO root fetch - processPackages [mmenot]: executing diffoscope
+[2023-06-23 10:38:10] INFO root fetch - processPackages [mmenot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmenot-0.9.3-py3-none-any.whl.zip tmp/mmenot-0.9.4-py3-none-any.whl.zip --markdown 20230623/m/mmenot/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-23 10:38:10] WARNING root fetch - processPackages [parrot-olympe]: Skipping package: exceeds size limit 17394106>=10485760
+[2023-06-23 10:38:10] INFO root fetch - main [MainThread]: End processing [parrot-olympe] error
+[2023-06-23 10:38:10] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 10:38:10] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 10:38:10] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-23 10:38:10] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230623/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-23 10:38:10] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.1.8-py3-none-any.whl.zip]
+[2023-06-23 10:38:10] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.1.9-py3-none-any.whl.zip]
+[2023-06-23 10:38:10] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
+[2023-06-23 10:38:11] INFO root fetch - processPackages [autograd]: Remove: archive file [/home/abi/fetcher/tmp/autograd-1.6.1.tar.gz]
+[2023-06-23 10:38:11] INFO root fetch - processPackages [autograd]: Remove: archive file [/home/abi/fetcher/tmp/autograd-1.6.2.tar.gz]
+[2023-06-23 10:38:11] INFO root fetch - main [MainThread]: End processing [autograd]: success
+[2023-06-23 10:38:11] INFO root fetch - processPackages [syneto-api]: Remove: archive file [/home/abi/fetcher/tmp/syneto_api-0.2.8.tar.gz]
+[2023-06-23 10:38:11] INFO root fetch - processPackages [syneto-api]: Remove: archive file [/home/abi/fetcher/tmp/syneto_api-0.2.9.tar.gz]
+[2023-06-23 10:38:11] INFO root fetch - main [MainThread]: End processing [syneto-api]: success
+[2023-06-23 10:38:11] INFO root fetch - processPackages [mmenot]: Remove: archive file [/home/abi/fetcher/tmp/mmenot-0.9.3-py3-none-any.whl.zip]
+[2023-06-23 10:38:11] INFO root fetch - processPackages [mmenot]: Remove: archive file [/home/abi/fetcher/tmp/mmenot-0.9.4-py3-none-any.whl.zip]
+[2023-06-23 10:38:11] INFO root fetch - main [MainThread]: End processing [mmenot]: success
+[2023-06-23 10:38:12] INFO root fetch - processPackages [groupdocs-signature-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-signature-cloud-22.6.tar.gz]
+[2023-06-23 10:38:12] INFO root fetch - processPackages [groupdocs-signature-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-signature-cloud-23.6.tar.gz]
+[2023-06-23 10:38:12] INFO root fetch - main [MainThread]: End processing [groupdocs-signature-cloud]: success
+[2023-06-23 10:38:12] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 10:38:12] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 10:38:12] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 10:38:13] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-23 10:38:13] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-23 10:38:13] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-23 10:38:13] INFO root fetch - main [MainThread]: Store serial: [18615514]
