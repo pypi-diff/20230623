@@ -20650,3 +20650,156 @@ EOFError: EOF read where object expected
 [2023-06-23 16:26:58] INFO root fetch - processPackages [spacy]: Remove: archive file [/home/abi/fetcher/tmp/spacy-4.0.0.dev1.tar.gz]
 [2023-06-23 16:26:58] INFO root fetch - main [MainThread]: End processing [spacy]: success
 [2023-06-23 16:26:58] INFO root fetch - main [MainThread]: Store serial: [18619041]
+[2023-06-23 16:32:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18619041]
+[2023-06-23 16:32:08] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gregory-online
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mariqt-widgets
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reana-commons
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pomoxis
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dipense
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ocfworker
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyQt6-Fluent-Widgets
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: power-grid-model
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: caoscrawler
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: water-drop-detection
+[2023-06-23 16:32:08] INFO root fetch - processPackages [gregory-online]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-23 16:32:08] INFO root fetch - processPackages [dipense]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-23 16:32:08] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-23 16:32:08] INFO root fetch - processPackages [mariqt-widgets]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-23 16:32:08] WARNING root fetch - processPackages [ocfworker]: Skipping, unable to determine old version
+[2023-06-23 16:32:08] INFO root fetch - processPackages [ocfworker]: Start processing: algokit-client-generator
+[2023-06-23 16:32:08] INFO root fetch - processPackages [caoscrawler]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-23 16:32:08] INFO root fetch - main [MainThread]: End processing [ocfworker] error
+[2023-06-23 16:32:08] INFO root fetch - processPackages [pomoxis]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-23 16:32:08] INFO root fetch - processPackages [water-drop-detection]: New version: [0.3] Old Version: [0.2]
+[2023-06-23 16:32:08] INFO root fetch - processPackages [algokit-client-generator]: New version: [1.0.2b1] Old Version: [1.0.2]
+[2023-06-23 16:32:08] INFO root fetch - processPackages [reana-commons]: New version: [0.9.3a3] Old Version: [0.9.3a2]
+[2023-06-23 16:32:08] INFO root fetch - processPackages [dipense]: Downloading https://files.pythonhosted.org/packages/7a/20/90627b92d17a9f8bb7c07c9995cf6b70bc7cf3623f0d80e3b0574e26cb02/dipense-0.1.3.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9187210536722] Old Version: [1.5.0rc9186614649864]
+[2023-06-23 16:32:08] INFO root fetch - processPackages [gregory-online]: Downloading https://files.pythonhosted.org/packages/22/7d/66537011baef80a2f08eace6db0dba83e33b7fcc3acc5c6bcc29a2c2c837/gregory_online-0.3.4.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/70/9a/b05184db581bc141b60e71c1db2de98e6ba183dbcd3254fed4ebf7130689/mariqt_widgets-0.2.1-py2.py3-none-any.whl
+[2023-06-23 16:32:08] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/e9/6e/a5e5eac23be667d700ca2075a865d16c9a7570f74862a9c387924e431e53/algokit_client_generator-1.0.2-py3-none-any.whl
+[2023-06-23 16:32:08] INFO root fetch - processPackages [water-drop-detection]: Downloading https://files.pythonhosted.org/packages/bf/38/2d6d4fbd667353a029657e5c4c3317baeff2305d93cc33e980e308429192/water_drop_detection-0.2.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [pomoxis]: Downloading https://files.pythonhosted.org/packages/52/78/b02d8feec3b24fc2d396d24898862968128313319d2b860099395e6a66e5/pomoxis-0.3.8.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [caoscrawler]: Downloading https://files.pythonhosted.org/packages/25/61/3b9c55faa069c84208720af67f9f1187f14e886639efe8dce4611d13de3f/caoscrawler-0.5.0.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [reana-commons]: Downloading https://files.pythonhosted.org/packages/c1/f3/564db4c04b470d1b328c81dd9202a0dba918815afa1a3ae137de34e82949/reana-commons-0.9.3a2.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/9b/d5/2982c9f44a86bd8f037520e0a8ad876e26824ab75d16484b007338a77157/power-grid-model-1.5.0rc9186614649864.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [dipense]: Downloading https://files.pythonhosted.org/packages/e8/5a/c7fb83f3ffefff170b1f8effc0e0c94aea4856695ea9fbc7f544b40c7dd0/dipense-0.1.4.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/0e/ac/8d5cde607637ca899c76684d8700d0ce076e767855ed79784ba51c00ce75/algokit_client_generator-1.0.2b1-py3-none-any.whl
+[2023-06-23 16:32:08] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/e1/06/c00e687def4fde947b312788667d971b8db08d36c003e0abeaeb3c9830ed/mariqt_widgets-0.3.0-py2.py3-none-any.whl
+[2023-06-23 16:32:08] INFO root fetch - processPackages [water-drop-detection]: Downloading https://files.pythonhosted.org/packages/61/50/39ce6fa0e28f69f1f132effc8d10c8e75dfcef0f75f2a1bf67c10e099f99/water_drop_detection-0.3.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/b2/c1/96e281027de9ebc10a5bd51756a8145f0c22e6cb73dd193bcc50d416016b/PyQt6-Fluent-Widgets-0.9.6.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [dipense]: executing diffoscope
+[2023-06-23 16:32:08] INFO root fetch - processPackages [dipense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipense-0.1.3.tar.gz tmp/dipense-0.1.4.tar.gz --markdown 20230623/d/dipense/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-23 16:32:08] INFO root fetch - processPackages [reana-commons]: Downloading https://files.pythonhosted.org/packages/42/43/6d0a02c7493c5d1452fb78b5f09aebf6fc92eae8584696923cb63521134b/reana-commons-0.9.3a3.tar.gz
+[2023-06-23 16:32:08] INFO root fetch - processPackages [algokit-client-generator]: executing diffoscope
+[2023-06-23 16:32:08] INFO root fetch - processPackages [algokit-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_client_generator-1.0.2-py3-none-any.whl.zip tmp/algokit_client_generator-1.0.2b1-py3-none-any.whl.zip --markdown 20230623/a/algokit-client-generator/1.0.2-1.0.2b1/diff.md --exclude *.pyd
+[2023-06-23 16:32:08] INFO root fetch - processPackages [caoscrawler]: Downloading https://files.pythonhosted.org/packages/95/61/d9fbce5fa9153fe4444ca0aacc12196cb52d70c8a2cbd2335fb2c0c0b3be/caoscrawler-0.6.0.tar.gz
+[2023-06-23 16:32:09] INFO root fetch - processPackages [gregory-online]: Downloading https://files.pythonhosted.org/packages/fd/b5/f9ebcb6dfde1e8e9c727273cf2686da12865d878c8184896b6b619dcebd5/gregory_online-0.3.5.tar.gz
+[2023-06-23 16:32:09] INFO root fetch - processPackages [mariqt-widgets]: executing diffoscope
+[2023-06-23 16:32:09] INFO root fetch - processPackages [mariqt-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt_widgets-0.2.1-py2.py3-none-any.whl.zip tmp/mariqt_widgets-0.3.0-py2.py3-none-any.whl.zip --markdown 20230623/m/mariqt-widgets/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 16:32:09] INFO root fetch - processPackages [pomoxis]: Downloading https://files.pythonhosted.org/packages/c2/65/9655de420cad7e1069a7555e66e9e6f25abe63ad4f9fd9192d0487820545/pomoxis-0.3.9.tar.gz
+[2023-06-23 16:32:09] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/24/e9/ddd723063d0b7ceb29a222c4bc619c0a2468b500e9d82232e052452b266a/power-grid-model-1.5.0rc9187210536722.tar.gz
+[2023-06-23 16:32:09] INFO root fetch - processPackages [water-drop-detection]: executing diffoscope
+[2023-06-23 16:32:09] INFO root fetch - processPackages [water-drop-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/water_drop_detection-0.2.tar.gz tmp/water_drop_detection-0.3.tar.gz --markdown 20230623/w/water-drop-detection/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-23 16:32:09] INFO root fetch - processPackages [gregory-online]: executing diffoscope
+[2023-06-23 16:32:09] INFO root fetch - processPackages [gregory-online]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gregory_online-0.3.4.tar.gz tmp/gregory_online-0.3.5.tar.gz --markdown 20230623/g/gregory-online/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-23 16:32:09] INFO root fetch - processPackages [pomoxis]: executing diffoscope
+[2023-06-23 16:32:09] INFO root fetch - processPackages [pomoxis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomoxis-0.3.8.tar.gz tmp/pomoxis-0.3.9.tar.gz --markdown 20230623/p/pomoxis/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-23 16:32:09] INFO root fetch - processPackages [reana-commons]: executing diffoscope
+[2023-06-23 16:32:09] INFO root fetch - processPackages [reana-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reana-commons-0.9.3a2.tar.gz tmp/reana-commons-0.9.3a3.tar.gz --markdown 20230623/r/reana-commons/0.9.3a2-0.9.3a3/diff.md --exclude *.pyd
+[2023-06-23 16:32:09] INFO root fetch - processPackages [caoscrawler]: executing diffoscope
+[2023-06-23 16:32:09] INFO root fetch - processPackages [caoscrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caoscrawler-0.5.0.tar.gz tmp/caoscrawler-0.6.0.tar.gz --markdown 20230623/c/caoscrawler/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-23 16:32:09] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/ec/3a/d8dd2c89745c432658c3cc861281e4bd8748134f22a3d4966e298c5ff98f/PyQt6-Fluent-Widgets-0.9.7.tar.gz
+[2023-06-23 16:32:09] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-23 16:32:09] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9186614649864.tar.gz tmp/power-grid-model-1.5.0rc9187210536722.tar.gz --markdown 20230623/p/power-grid-model/1.5.0rc9186614649864-1.5.0rc9187210536722/diff.md --exclude *.pyd
+[2023-06-23 16:32:09] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-06-23 16:32:09] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.9.6.tar.gz tmp/PyQt6-Fluent-Widgets-0.9.7.tar.gz --markdown 20230623/P/PyQt6-Fluent-Widgets/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-23 16:32:10] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-1.0.2-py3-none-any.whl.zip]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-1.0.2b1-py3-none-any.whl.zip]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [algokit-client-generator]: Start processing: crispr-ambiguous-mapping
+[2023-06-23 16:32:10] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
+[2023-06-23 16:32:10] INFO root fetch - processPackages [crispr-ambiguous-mapping]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [dipense]: Remove: archive file [/home/abi/fetcher/tmp/dipense-0.1.3.tar.gz]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [dipense]: Remove: archive file [/home/abi/fetcher/tmp/dipense-0.1.4.tar.gz]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [dipense]: Start processing: sbn
+[2023-06-23 16:32:10] INFO root fetch - main [MainThread]: End processing [dipense]: success
+[2023-06-23 16:32:10] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Downloading https://files.pythonhosted.org/packages/12/ad/f34d1f237b39929980cd5deecc3b434c716acb36e405f9fbe4b7821237b2/crispr_ambiguous_mapping-0.0.8.tar.gz
+[2023-06-23 16:32:10] INFO root fetch - processPackages [sbn]: New version: [12] Old Version: [11]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.2.1-py2.py3-none-any.whl.zip]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.3.0-py2.py3-none-any.whl.zip]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [mariqt-widgets]: Start processing: GPTConnect
+[2023-06-23 16:32:10] INFO root fetch - main [MainThread]: End processing [mariqt-widgets]: success
+[2023-06-23 16:32:10] INFO root fetch - processPackages [GPTConnect]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Downloading https://files.pythonhosted.org/packages/8c/37/7c922970e1637790fde9b16efadc57abfe5445977e8938dc8e695aeca492/crispr_ambiguous_mapping-0.0.9.tar.gz
+[2023-06-23 16:32:10] INFO root fetch - processPackages [sbn]: Downloading https://files.pythonhosted.org/packages/73/f7/836353622f0cc22895ded6b8677b4db78c37c1073276ba6eacac0990b6b8/sbn-11.tar.gz
+[2023-06-23 16:32:10] INFO root fetch - processPackages [crispr-ambiguous-mapping]: executing diffoscope
+[2023-06-23 16:32:10] INFO root fetch - processPackages [crispr-ambiguous-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_ambiguous_mapping-0.0.8.tar.gz tmp/crispr_ambiguous_mapping-0.0.9.tar.gz --markdown 20230623/c/crispr-ambiguous-mapping/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 16:32:10] INFO root fetch - processPackages [water-drop-detection]: Remove: archive file [/home/abi/fetcher/tmp/water_drop_detection-0.2.tar.gz]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [water-drop-detection]: Remove: archive file [/home/abi/fetcher/tmp/water_drop_detection-0.3.tar.gz]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [water-drop-detection]: Start processing: aiavatar
+[2023-06-23 16:32:10] INFO root fetch - main [MainThread]: End processing [water-drop-detection]: success
+[2023-06-23 16:32:10] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/b6/90/388aa458a7b5f61044ef490f60796e4df8c8993d45795c6bc7320a37e6f1/GPTConnect-0.1.4.tar.gz
+[2023-06-23 16:32:10] INFO root fetch - processPackages [aiavatar]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-23 16:32:10] INFO root fetch - processPackages [aiavatar]: Downloading https://files.pythonhosted.org/packages/80/7a/987b8f6da2548c40e675e8b8fa0b20cb7238ecd1db085da8353210ccdf3c/aiavatar-0.2.0-py3-none-any.whl
+[2023-06-23 16:32:11] INFO root fetch - processPackages [sbn]: Downloading https://files.pythonhosted.org/packages/34/cc/1f208ca0392e42314727b79689b2d227f1b30cf1f5483bbf891270aa15c6/sbn-12.tar.gz
+[2023-06-23 16:32:11] INFO root fetch - processPackages [aiavatar]: Downloading https://files.pythonhosted.org/packages/9d/a7/21a2afa0e44f76f7ee61268e6d285e7bd439526fbca1c3467c538b5b538f/aiavatar-0.2.1-py3-none-any.whl
+[2023-06-23 16:32:11] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/f3/96/f766e39f45359ee3d3829a05914dd76b93df225219de4edc64ae1a5c95bb/GPTConnect-0.1.5.tar.gz
+[2023-06-23 16:32:11] INFO root fetch - processPackages [gregory-online]: Remove: archive file [/home/abi/fetcher/tmp/gregory_online-0.3.4.tar.gz]
+[2023-06-23 16:32:11] INFO root fetch - processPackages [gregory-online]: Remove: archive file [/home/abi/fetcher/tmp/gregory_online-0.3.5.tar.gz]
+[2023-06-23 16:32:11] INFO root fetch - processPackages [gregory-online]: Start processing: metldata
+[2023-06-23 16:32:11] INFO root fetch - main [MainThread]: End processing [gregory-online]: success
+[2023-06-23 16:32:11] INFO root fetch - processPackages [metldata]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-23 16:32:11] INFO root fetch - processPackages [reana-commons]: Remove: archive file [/home/abi/fetcher/tmp/reana-commons-0.9.3a2.tar.gz]
+[2023-06-23 16:32:11] INFO root fetch - processPackages [reana-commons]: Remove: archive file [/home/abi/fetcher/tmp/reana-commons-0.9.3a3.tar.gz]
+[2023-06-23 16:32:11] INFO root fetch - processPackages [reana-commons]: Start processing: mvf
+[2023-06-23 16:32:11] INFO root fetch - main [MainThread]: End processing [reana-commons]: success
+[2023-06-23 16:32:11] INFO root fetch - processPackages [aiavatar]: executing diffoscope
+[2023-06-23 16:32:11] INFO root fetch - processPackages [aiavatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiavatar-0.2.0-py3-none-any.whl.zip tmp/aiavatar-0.2.1-py3-none-any.whl.zip --markdown 20230623/a/aiavatar/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-23 16:32:11] WARNING root fetch - processPackages [mvf]: Skipping, unable to determine old version
+[2023-06-23 16:32:11] INFO root fetch - processPackages [mvf]: Start processing: miuc
+[2023-06-23 16:32:11] INFO root fetch - main [MainThread]: End processing [mvf] error
+[2023-06-23 16:32:11] INFO root fetch - processPackages [GPTConnect]: executing diffoscope
+[2023-06-23 16:32:11] INFO root fetch - processPackages [GPTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTConnect-0.1.4.tar.gz tmp/GPTConnect-0.1.5.tar.gz --markdown 20230623/G/GPTConnect/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-23 16:32:11] INFO root fetch - processPackages [miuc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 16:32:11] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/f9/2b/d1c10ef83a04e7dcb95f4e200e1bdd7d2f8e54a68f9772cfd9e7958e4f61/miuc-0.1.1.tar.gz
+[2023-06-23 16:32:11] INFO root fetch - processPackages [metldata]: Downloading https://files.pythonhosted.org/packages/03/56/2bb8e05c32b4c7ba5c174ebcfa1d4094b071a79d785e1a6e7323d13f2539/metldata-0.3.5.tar.gz
+[2023-06-23 16:32:11] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/f7/ff/2fbb2d65e3bf2f9e6c8edf1ea24a134b5872e845b547040c5b35b0237c05/miuc-0.1.2.tar.gz
+[2023-06-23 16:32:11] INFO root fetch - processPackages [metldata]: Downloading https://files.pythonhosted.org/packages/d7/66/f22404bcf910261b8c1715dac0f6c0bc2d5b96d7248b68be20d3a6d81984/metldata-0.3.6.tar.gz
+[2023-06-23 16:32:11] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2023-06-23 16:32:11] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.1.1.tar.gz tmp/miuc-0.1.2.tar.gz --markdown 20230623/m/miuc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 16:32:11] INFO root fetch - processPackages [sbn]: executing diffoscope
+[2023-06-23 16:32:11] INFO root fetch - processPackages [sbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbn-11.tar.gz tmp/sbn-12.tar.gz --markdown 20230623/s/sbn/11-12/diff.md --exclude *.pyd
+[2023-06-23 16:32:11] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Remove: archive file [/home/abi/fetcher/tmp/crispr_ambiguous_mapping-0.0.8.tar.gz]
+[2023-06-23 16:32:11] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Remove: archive file [/home/abi/fetcher/tmp/crispr_ambiguous_mapping-0.0.9.tar.gz]
+[2023-06-23 16:32:11] INFO root fetch - main [MainThread]: End processing [crispr-ambiguous-mapping]: success
+[2023-06-23 16:32:11] INFO root fetch - processPackages [metldata]: executing diffoscope
+[2023-06-23 16:32:11] INFO root fetch - processPackages [metldata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metldata-0.3.5.tar.gz tmp/metldata-0.3.6.tar.gz --markdown 20230623/m/metldata/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-23 16:32:12] INFO root fetch - processPackages [caoscrawler]: Remove: archive file [/home/abi/fetcher/tmp/caoscrawler-0.5.0.tar.gz]
+[2023-06-23 16:32:12] INFO root fetch - processPackages [caoscrawler]: Remove: archive file [/home/abi/fetcher/tmp/caoscrawler-0.6.0.tar.gz]
+[2023-06-23 16:32:12] INFO root fetch - main [MainThread]: End processing [caoscrawler]: success
+[2023-06-23 16:32:12] INFO root fetch - processPackages [pomoxis]: Remove: archive file [/home/abi/fetcher/tmp/pomoxis-0.3.8.tar.gz]
+[2023-06-23 16:32:12] INFO root fetch - processPackages [pomoxis]: Remove: archive file [/home/abi/fetcher/tmp/pomoxis-0.3.9.tar.gz]
+[2023-06-23 16:32:12] INFO root fetch - main [MainThread]: End processing [pomoxis]: success
+[2023-06-23 16:32:12] INFO root fetch - processPackages [aiavatar]: Remove: archive file [/home/abi/fetcher/tmp/aiavatar-0.2.0-py3-none-any.whl.zip]
+[2023-06-23 16:32:12] INFO root fetch - processPackages [aiavatar]: Remove: archive file [/home/abi/fetcher/tmp/aiavatar-0.2.1-py3-none-any.whl.zip]
+[2023-06-23 16:32:12] INFO root fetch - main [MainThread]: End processing [aiavatar]: success
+[2023-06-23 16:32:12] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.4.tar.gz]
+[2023-06-23 16:32:12] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.5.tar.gz]
+[2023-06-23 16:32:12] INFO root fetch - main [MainThread]: End processing [GPTConnect]: success
+[2023-06-23 16:32:13] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.1.tar.gz]
+[2023-06-23 16:32:13] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.2.tar.gz]
+[2023-06-23 16:32:13] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2023-06-23 16:32:13] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-11.tar.gz]
+[2023-06-23 16:32:13] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-12.tar.gz]
+[2023-06-23 16:32:13] INFO root fetch - main [MainThread]: End processing [sbn]: success
+[2023-06-23 16:32:13] INFO root fetch - processPackages [metldata]: Remove: archive file [/home/abi/fetcher/tmp/metldata-0.3.5.tar.gz]
+[2023-06-23 16:32:13] INFO root fetch - processPackages [metldata]: Remove: archive file [/home/abi/fetcher/tmp/metldata-0.3.6.tar.gz]
+[2023-06-23 16:32:13] INFO root fetch - main [MainThread]: End processing [metldata]: success
+[2023-06-23 16:32:15] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.6.tar.gz]
+[2023-06-23 16:32:15] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.7.tar.gz]
+[2023-06-23 16:32:15] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-06-23 16:32:16] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9186614649864.tar.gz]
+[2023-06-23 16:32:16] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9187210536722.tar.gz]
+[2023-06-23 16:32:16] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-23 16:32:16] INFO root fetch - main [MainThread]: Store serial: [18619098]
