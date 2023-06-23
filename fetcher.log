@@ -19148,3 +19148,172 @@ EOFError: EOF read where object expected
 [2023-06-23 15:26:10] INFO root fetch - processPackages [edustudio]: Remove: archive file [/home/abi/fetcher/tmp/edustudio-1.0.0a2-py3-none-any.whl.zip]
 [2023-06-23 15:26:10] INFO root fetch - main [MainThread]: End processing [edustudio]: success
 [2023-06-23 15:26:10] INFO root fetch - main [MainThread]: Store serial: [18618349]
+[2023-06-23 15:31:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18618349]
+[2023-06-23 15:31:22] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almavik
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-support-plugin
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blizzardwarcraftapi
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fief-server
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: porkbun-ddns
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: factro-client
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unacatlib
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-basin3d
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyarmor.cli.core
+[2023-06-23 15:31:22] INFO root fetch - processPackages [blizzardwarcraftapi]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-23 15:31:22] INFO root fetch - processPackages [almavik]: New version: [359] Old Version: [358]
+[2023-06-23 15:31:22] INFO root fetch - processPackages [fief-server]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-23 15:31:22] INFO root fetch - processPackages [unacatlib]: New version: [0.0.64] Old Version: [0.0.63]
+[2023-06-23 15:31:22] INFO root fetch - processPackages [factro-client]: New version: [0.9.1a1] Old Version: [0.9.0a1]
+[2023-06-23 15:31:22] WARNING root fetch - processPackages [django-basin3d]: Skipping, unable to determine old version
+[2023-06-23 15:31:22] INFO root fetch - processPackages [porkbun-ddns]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 15:31:22] INFO root fetch - processPackages [django-basin3d]: Start processing: lupin-grognard
+[2023-06-23 15:31:22] INFO root fetch - main [MainThread]: End processing [django-basin3d] error
+[2023-06-23 15:31:22] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 15:31:22] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-06-23 15:31:22] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-23 15:31:22] INFO root fetch - processPackages [blizzardwarcraftapi]: Downloading https://files.pythonhosted.org/packages/98/85/b0ec7d6593a89d6778327c55949c5115f5122f96738505f70278c8b16a38/blizzardwarcraftapi-0.1.5.tar.gz
+[2023-06-23 15:31:22] INFO root fetch - processPackages [porkbun-ddns]: Downloading https://files.pythonhosted.org/packages/2d/08/8ada47426dd8277e712d4676b684822d8714cc4dd276fb1e506710a5d5a5/porkbun-ddns-0.1.2.tar.gz
+[2023-06-23 15:31:22] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-23 15:31:22] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/b3/bb/8062d93dd1b4a361c89ebe8eb6dd9c99961bed739f6c221cc2d213a2079b/almavik-358.tar.gz
+[2023-06-23 15:31:22] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/a3/07/d94ed82ebda54e380b3901f9b510ae1621ca8e116b9505b45c9275edc203/unacatlib-0.0.63-py2.py3-none-any.whl
+[2023-06-23 15:31:23] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/b8/4f/caa0c014c22fd4dba587e2dde875991177f4c08cee8d29441df83a28b492/netbox-cisco-support-plugin-0.0.4.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [fief-server]: Downloading https://files.pythonhosted.org/packages/01/89/8b2cbeaaf06acc6e1251eaed15d49297614efbb6ffd2e3b970e05bf7c65c/fief-server-0.8.2.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/48/21/f309e3e6a66c267acb350a388359fa9cf280f6e75c917b4f765a9b99881e/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl
+[2023-06-23 15:31:23] INFO root fetch - processPackages [factro-client]: Downloading https://files.pythonhosted.org/packages/ed/c3/0f1e45162b5a24c388f98621b522c4e597b541b4896c89662e5fa0ab0717/factro_client-0.9.0a1.tar.gz
+[2023-06-23 15:31:23] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85072372>=10485760
+[2023-06-23 15:31:23] INFO root fetch - processPackages [almavik]: Start processing: grpcrest
+[2023-06-23 15:31:23] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-23 15:31:23] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [blizzardwarcraftapi]: Downloading https://files.pythonhosted.org/packages/c5/86/73ccd314da680d308907bee6754ff938803f7d96762f61643498927bdd1d/blizzardwarcraftapi-0.2.0.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [grpcrest]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 15:31:23] INFO root fetch - processPackages [porkbun-ddns]: Downloading https://files.pythonhosted.org/packages/94/c6/cb8a36a15061fc0077a973f828a56807fb9bd31e5f3841459d52f0857b8f/porkbun-ddns-0.1.3.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [blizzardwarcraftapi]: executing diffoscope
+[2023-06-23 15:31:23] INFO root fetch - processPackages [blizzardwarcraftapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blizzardwarcraftapi-0.1.5.tar.gz tmp/blizzardwarcraftapi-0.2.0.tar.gz --markdown 20230623/b/blizzardwarcraftapi/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-23 15:31:23] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [porkbun-ddns]: executing diffoscope
+[2023-06-23 15:31:23] INFO root fetch - processPackages [porkbun-ddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/porkbun-ddns-0.1.2.tar.gz tmp/porkbun-ddns-0.1.3.tar.gz --markdown 20230623/p/porkbun-ddns/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 15:31:23] INFO root fetch - processPackages [grpcrest]: Downloading https://files.pythonhosted.org/packages/99/01/f8075a5fd0069f8ba9f50d434bbe41a539e8b8c58a7f891d1ba643113602/grpcrest-0.8.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/1c/e7/709d9dec7d8dda1f1e50b3bc2af3fd7c52e7f8ed3a7dc95bc80f8fb6e05e/netbox-cisco-support-plugin-0.0.5.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/bf/ae/2843703f5e212feafdecc579207ad8b1746873c3d8be351a616df2739d3d/unacatlib-0.0.64-py2.py3-none-any.whl
+[2023-06-23 15:31:23] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-23 15:31:23] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230623/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-23 15:31:23] INFO root fetch - processPackages [unacatlib]: executing diffoscope
+[2023-06-23 15:31:23] INFO root fetch - processPackages [unacatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unacatlib-0.0.63-py2.py3-none-any.whl.zip tmp/unacatlib-0.0.64-py2.py3-none-any.whl.zip --markdown 20230623/u/unacatlib/0.0.63-0.0.64/diff.md --exclude *.pyd
+[2023-06-23 15:31:23] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-23 15:31:23] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.4.tar.gz tmp/netbox-cisco-support-plugin-0.0.5.tar.gz --markdown 20230623/n/netbox-cisco-support-plugin/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 15:31:23] WARNING root fetch - processPackages [grpcrest]: Skipping package: exceeds size limit 21180887>=10485760
+[2023-06-23 15:31:23] INFO root fetch - processPackages [grpcrest]: Start processing: airstack
+[2023-06-23 15:31:23] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-23 15:31:23] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [fief-server]: Downloading https://files.pythonhosted.org/packages/64/4c/11ba1a1c43bc6d0b294fe513fe818967738d8faaa77ed0dbec2df9a03d32/fief-server-0.9.0.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [factro-client]: Downloading https://files.pythonhosted.org/packages/59/ac/e71d494ebdff48c2c8baccfce4138b172f5122acdcd00a74bf1e342cf39b/factro_client-0.9.1a1.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-23 15:31:23] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230623/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-23 15:31:23] INFO root fetch - processPackages [airstack]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 15:31:23] INFO root fetch - processPackages [factro-client]: executing diffoscope
+[2023-06-23 15:31:23] INFO root fetch - processPackages [factro-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factro_client-0.9.0a1.tar.gz tmp/factro_client-0.9.1a1.tar.gz --markdown 20230623/f/factro-client/0.9.0a1-0.9.1a1/diff.md --exclude *.pyd
+[2023-06-23 15:31:23] INFO root fetch - processPackages [fief-server]: executing diffoscope
+[2023-06-23 15:31:23] INFO root fetch - processPackages [fief-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fief-server-0.8.2.tar.gz tmp/fief-server-0.9.0.tar.gz --markdown 20230623/f/fief-server/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 15:31:23] INFO root fetch - processPackages [airstack]: Downloading https://files.pythonhosted.org/packages/cc/e7/18b4710ef5a3f7b46c9eda130d5460bc5f15912b5fd24de328b76a108eb3/airstack-0.0.5.tar.gz
+[2023-06-23 15:31:23] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/fd/1a/f6bf6d3f325ce7a27ea433aee7c098a8d878b83307538ce49c7ef9c1c891/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl
+[2023-06-23 15:31:23] INFO root fetch - processPackages [airstack]: Downloading https://files.pythonhosted.org/packages/60/e7/581e57e35985d7d5a94fe96a52f240a310233a10462d9f39300ae417c0ce/airstack-0.0.6.tar.gz
+[2023-06-23 15:31:24] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-06-23 15:31:24] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip --markdown 20230623/p/pyarmor.cli.core/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-06-23 15:31:24] INFO root fetch - processPackages [airstack]: executing diffoscope
+[2023-06-23 15:31:24] INFO root fetch - processPackages [airstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airstack-0.0.5.tar.gz tmp/airstack-0.0.6.tar.gz --markdown 20230623/a/airstack/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 15:31:24] INFO root fetch - processPackages [blizzardwarcraftapi]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.1.5.tar.gz]
+[2023-06-23 15:31:24] INFO root fetch - processPackages [blizzardwarcraftapi]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.2.0.tar.gz]
+[2023-06-23 15:31:24] INFO root fetch - processPackages [blizzardwarcraftapi]: Start processing: microdata-tools
+[2023-06-23 15:31:24] INFO root fetch - main [MainThread]: End processing [blizzardwarcraftapi]: success
+[2023-06-23 15:31:24] INFO root fetch - processPackages [porkbun-ddns]: Remove: archive file [/home/abi/fetcher/tmp/porkbun-ddns-0.1.2.tar.gz]
+[2023-06-23 15:31:24] INFO root fetch - processPackages [porkbun-ddns]: Remove: archive file [/home/abi/fetcher/tmp/porkbun-ddns-0.1.3.tar.gz]
+[2023-06-23 15:31:24] INFO root fetch - processPackages [porkbun-ddns]: Start processing: hive-builder
+[2023-06-23 15:31:24] INFO root fetch - main [MainThread]: End processing [porkbun-ddns]: success
+[2023-06-23 15:31:24] INFO root fetch - processPackages [microdata-tools]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-23 15:31:24] INFO root fetch - processPackages [hive-builder]: New version: [3.6.7] Old Version: [3.6.6]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/9a/f2/1089e715edcb3478d78ca3ae0c6acc1ca4886ec0c49261e457a36c5ce1f6/microdata_tools-0.1.0.tar.gz
+[2023-06-23 15:31:25] INFO root fetch - processPackages [hive-builder]: Downloading https://files.pythonhosted.org/packages/98/c2/b1f6ab66a983501a5456cfab18835a911845edd411d66edbb68fc8089330/hive_builder-3.6.6.tar.gz
+[2023-06-23 15:31:25] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.4.tar.gz]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.5.tar.gz]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: chainforge
+[2023-06-23 15:31:25] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-23 15:31:25] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [lupin-grognard]: Start processing: lognflow
+[2023-06-23 15:31:25] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-23 15:31:25] INFO root fetch - processPackages [lognflow]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/0d/c2/2a3a34f2c0ea9032364f04465a4c143c12e97d4a4a70b5a9740e51949f2e/microdata_tools-0.2.0.tar.gz
+[2023-06-23 15:31:25] INFO root fetch - processPackages [chainforge]: New version: [0.1.7.2] Old Version: [0.1.7.1]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [microdata-tools]: executing diffoscope
+[2023-06-23 15:31:25] INFO root fetch - processPackages [microdata-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdata_tools-0.1.0.tar.gz tmp/microdata_tools-0.2.0.tar.gz --markdown 20230623/m/microdata-tools/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-23 15:31:25] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/c8/63/f013be3e2962d27bcb96a3add89e031d104da6f0b353dc59d4ae6f178a68/lognflow-0.7.1.tar.gz
+[2023-06-23 15:31:25] INFO root fetch - processPackages [hive-builder]: Downloading https://files.pythonhosted.org/packages/19/1d/1ef3eef1233e1da492bb1c257ed7a9c926804312f87bcb1b3e6999c3519b/hive_builder-3.6.7.tar.gz
+[2023-06-23 15:31:25] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/0b/3f/2292d6988279cf4228b0472bc2776a3179c2d022d5c8e2cd4dcc0dfef866/chainforge-0.1.7.1.tar.gz
+[2023-06-23 15:31:25] INFO root fetch - processPackages [unacatlib]: Remove: archive file [/home/abi/fetcher/tmp/unacatlib-0.0.63-py2.py3-none-any.whl.zip]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [unacatlib]: Remove: archive file [/home/abi/fetcher/tmp/unacatlib-0.0.64-py2.py3-none-any.whl.zip]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [unacatlib]: Start processing: ada-py
+[2023-06-23 15:31:25] INFO root fetch - main [MainThread]: End processing [unacatlib]: success
+[2023-06-23 15:31:25] INFO root fetch - processPackages [ada-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [ada-py]: Downloading https://files.pythonhosted.org/packages/8a/70/28c401b4087a2a0d07f0538b3f306bfe7a428a802bd063d3d1fc03715727/ada-py-0.0.8.tar.gz
+[2023-06-23 15:31:25] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [pyarmor.cli.core]: Start processing: plastik
+[2023-06-23 15:31:25] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-06-23 15:31:25] INFO root fetch - processPackages [hive-builder]: executing diffoscope
+[2023-06-23 15:31:25] INFO root fetch - processPackages [hive-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive_builder-3.6.6.tar.gz tmp/hive_builder-3.6.7.tar.gz --markdown 20230623/h/hive-builder/3.6.6-3.6.7/diff.md --exclude *.pyd
+[2023-06-23 15:31:25] INFO root fetch - processPackages [plastik]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [plastik]: Downloading https://files.pythonhosted.org/packages/dd/e6/75145a484a1e18c8215a21c31713d9cdd315e34bab738b9712be6b2a69be/plastik-0.3.0.tar.gz
+[2023-06-23 15:31:25] INFO root fetch - processPackages [factro-client]: Remove: archive file [/home/abi/fetcher/tmp/factro_client-0.9.0a1.tar.gz]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [factro-client]: Remove: archive file [/home/abi/fetcher/tmp/factro_client-0.9.1a1.tar.gz]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [ada-py]: Downloading https://files.pythonhosted.org/packages/7a/1f/0045fd181d5ca07a1f786a6ae1e95f2d15b9eff9674fae3c6e4fef38fe0c/ada-py-0.0.9.tar.gz
+[2023-06-23 15:31:25] INFO root fetch - processPackages [factro-client]: Start processing: activecampaign-python
+[2023-06-23 15:31:25] INFO root fetch - main [MainThread]: End processing [factro-client]: success
+[2023-06-23 15:31:25] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/5f/96/d33039a8f06da00c7bf151051cc4cc3a486a508f35a2c835da0cce5408fb/lognflow-0.7.2.tar.gz
+[2023-06-23 15:31:25] INFO root fetch - processPackages [activecampaign-python]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [airstack]: Remove: archive file [/home/abi/fetcher/tmp/airstack-0.0.5.tar.gz]
+[2023-06-23 15:31:25] INFO root fetch - processPackages [airstack]: Remove: archive file [/home/abi/fetcher/tmp/airstack-0.0.6.tar.gz]
+[2023-06-23 15:31:25] INFO root fetch - main [MainThread]: End processing [airstack]: success
+[2023-06-23 15:31:25] INFO root fetch - processPackages [plastik]: Downloading https://files.pythonhosted.org/packages/56/37/9c541aef01fd23f88f41355cc5247800f7918f6b1081a19a610e44d3b13f/plastik-0.4.0.tar.gz
+[2023-06-23 15:31:26] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-06-23 15:31:26] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.7.1.tar.gz tmp/lognflow-0.7.2.tar.gz --markdown 20230623/l/lognflow/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-23 15:31:26] INFO root fetch - processPackages [activecampaign-python]: Downloading https://files.pythonhosted.org/packages/85/48/26146507f4e8a679e9dfd287e1b0357305dc5d951c1337bc89821dccfd20/activecampaign-python-1.0.5.tar.gz
+[2023-06-23 15:31:26] INFO root fetch - processPackages [plastik]: executing diffoscope
+[2023-06-23 15:31:26] INFO root fetch - processPackages [plastik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plastik-0.3.0.tar.gz tmp/plastik-0.4.0.tar.gz --markdown 20230623/p/plastik/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 15:31:26] INFO root fetch - processPackages [activecampaign-python]: Downloading https://files.pythonhosted.org/packages/cb/45/04d379f235e465ce908a1b38fef44b0435cb68812c37f727aeaf47b7d64c/activecampaign_python-1.0.6.tar.gz
+[2023-06-23 15:31:26] INFO root fetch - processPackages [activecampaign-python]: executing diffoscope
+[2023-06-23 15:31:26] INFO root fetch - processPackages [activecampaign-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activecampaign-python-1.0.5.tar.gz tmp/activecampaign_python-1.0.6.tar.gz --markdown 20230623/a/activecampaign-python/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-23 15:31:26] INFO root fetch - processPackages [ada-py]: executing diffoscope
+[2023-06-23 15:31:26] INFO root fetch - processPackages [ada-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ada-py-0.0.8.tar.gz tmp/ada-py-0.0.9.tar.gz --markdown 20230623/a/ada-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 15:31:26] INFO root fetch - processPackages [fief-server]: Remove: archive file [/home/abi/fetcher/tmp/fief-server-0.8.2.tar.gz]
+[2023-06-23 15:31:26] INFO root fetch - processPackages [fief-server]: Remove: archive file [/home/abi/fetcher/tmp/fief-server-0.9.0.tar.gz]
+[2023-06-23 15:31:26] INFO root fetch - main [MainThread]: End processing [fief-server]: success
+[2023-06-23 15:31:27] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.1.0.tar.gz]
+[2023-06-23 15:31:27] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.2.0.tar.gz]
+[2023-06-23 15:31:27] INFO root fetch - main [MainThread]: End processing [microdata-tools]: success
+[2023-06-23 15:31:27] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/92/f8/6d964612fa94ec24ce071b16402b59ef43d8f6ebd5541d910bb4347a2a16/chainforge-0.1.7.2.tar.gz
+[2023-06-23 15:31:27] INFO root fetch - processPackages [plastik]: Remove: archive file [/home/abi/fetcher/tmp/plastik-0.3.0.tar.gz]
+[2023-06-23 15:31:27] INFO root fetch - processPackages [plastik]: Remove: archive file [/home/abi/fetcher/tmp/plastik-0.4.0.tar.gz]
+[2023-06-23 15:31:27] INFO root fetch - main [MainThread]: End processing [plastik]: success
+[2023-06-23 15:31:27] INFO root fetch - processPackages [activecampaign-python]: Remove: archive file [/home/abi/fetcher/tmp/activecampaign-python-1.0.5.tar.gz]
+[2023-06-23 15:31:27] INFO root fetch - processPackages [activecampaign-python]: Remove: archive file [/home/abi/fetcher/tmp/activecampaign_python-1.0.6.tar.gz]
+[2023-06-23 15:31:27] INFO root fetch - main [MainThread]: End processing [activecampaign-python]: success
+[2023-06-23 15:31:27] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2023-06-23 15:31:27] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.1.7.1.tar.gz tmp/chainforge-0.1.7.2.tar.gz --markdown 20230623/c/chainforge/0.1.7.1-0.1.7.2/diff.md --exclude *.pyd
+[2023-06-23 15:31:27] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.7.1.tar.gz]
+[2023-06-23 15:31:27] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.7.2.tar.gz]
+[2023-06-23 15:31:27] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-06-23 15:31:28] INFO root fetch - processPackages [hive-builder]: Remove: archive file [/home/abi/fetcher/tmp/hive_builder-3.6.6.tar.gz]
+[2023-06-23 15:31:28] INFO root fetch - processPackages [hive-builder]: Remove: archive file [/home/abi/fetcher/tmp/hive_builder-3.6.7.tar.gz]
+[2023-06-23 15:31:28] INFO root fetch - main [MainThread]: End processing [hive-builder]: success
+[2023-06-23 15:31:28] INFO root fetch - processPackages [ada-py]: Remove: archive file [/home/abi/fetcher/tmp/ada-py-0.0.8.tar.gz]
+[2023-06-23 15:31:28] INFO root fetch - processPackages [ada-py]: Remove: archive file [/home/abi/fetcher/tmp/ada-py-0.0.9.tar.gz]
+[2023-06-23 15:31:28] INFO root fetch - main [MainThread]: End processing [ada-py]: success
+[2023-06-23 15:31:33] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-23 15:31:33] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-23 15:31:33] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-23 15:32:31] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.7.1.tar.gz]
+[2023-06-23 15:32:31] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.7.2.tar.gz]
+[2023-06-23 15:32:31] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2023-06-23 15:32:31] INFO root fetch - main [MainThread]: Store serial: [18618449]
