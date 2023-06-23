@@ -20143,3 +20143,105 @@ EOFError: EOF read where object expected
 [2023-06-23 16:05:31] INFO root fetch - processPackages [jupyterlab-nbqueue]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbqueue-0.1.9.tar.gz]
 [2023-06-23 16:05:31] INFO root fetch - main [MainThread]: End processing [jupyterlab-nbqueue]: success
 [2023-06-23 16:05:31] INFO root fetch - main [MainThread]: Store serial: [18618837]
+[2023-06-23 16:10:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18618837]
+[2023-06-23 16:10:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watchtower-browser-testing
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foambryo
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catencfamily
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thipster
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crispr-ambiguous-mapping
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ms1searchpy
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scoop-template-engine
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sigstore
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyQt-Fluent-Widgets
+[2023-06-23 16:10:41] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 16:10:41] INFO root fetch - processPackages [catencfamily]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-06-23 16:10:41] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-23 16:10:41] INFO root fetch - processPackages [thipster]: New version: [0.19.2] Old Version: [0.19.1]
+[2023-06-23 16:10:41] INFO root fetch - processPackages [crispr-ambiguous-mapping]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ms1searchpy]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-06-23 16:10:41] INFO root fetch - processPackages [scoop-template-engine]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-23 16:10:41] INFO root fetch - processPackages [foambryo]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-23 16:10:41] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-23 16:10:41] INFO root fetch - processPackages [sigstore]: New version: [2.0.0rc1] Old Version: [1.1.2rc1]
+[2023-06-23 16:10:41] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/41/15/b719b27769abccd70c7fa00b32923c147f358f6e0d27195669ddab068af4/thipster-0.19.1.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/2c/7d/3d04cae14c9756ba686dc453a669a30c397a17191cf0b6e183b3730fff3e/foambryo-0.2.5.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/cf/5e/84bb597e7a9e7bb26ca70f0d353ccf4cc770b5ac7e2f94292a30b5fedf99/watchtower_browser_testing-0.5.1.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [scoop-template-engine]: Downloading https://files.pythonhosted.org/packages/02/7f/1a78c036be40ce10ce6e0f82276e1a1a57002b2cd4c176a1bee7c3fa192e/scoop-template-engine-1.1.2.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Downloading https://files.pythonhosted.org/packages/12/ad/f34d1f237b39929980cd5deecc3b434c716acb36e405f9fbe4b7821237b2/crispr_ambiguous_mapping-0.0.8.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/8a/cf/bc0ea2d2bb28f6a0a662438f3c49f6c5435fb508a1eb1dae9fae91e463b7/catencfamily-0.0.80.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ms1searchpy]: Downloading https://files.pythonhosted.org/packages/45/74/25ea0ea7473e09748149a55754d589de7bf5b94699b477634ffbbc814ae1/ms1searchpy-2.4.1-py3-none-any.whl
+[2023-06-23 16:10:41] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/49/3a/09426b28bb359a6077f4d9c45a1948bfefd698f96e1da6728b00e37f3e91/PyQt-Fluent-Widgets-0.9.6.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [sigstore]: Downloading https://files.pythonhosted.org/packages/71/01/54fe1d6ad76418837abbe10b2f5b039db597445fdd2669cfef685c531280/sigstore-1.1.2rc1.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/90/5d/8f9dfc12312a968b104bf5ff366a5f4e3a73e0f789d459937d93abaa9518/watchtower_browser_testing-0.5.2.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/90/fc/538122c47123b5f68af70237fbb32b19012f67e3d607f4a1223cd24b83c5/thipster-0.19.2.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [scoop-template-engine]: Downloading https://files.pythonhosted.org/packages/59/a4/2f524a07c7029c8c71ec1d23992f26b22132d7f7b737df015da02d077ab4/scoop-template-engine-1.1.3.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [foambryo]: Downloading https://files.pythonhosted.org/packages/8d/9d/c5ac4c46b00d209b28ad41b3e8c46add81dba8fc487cecb993168b2e16a8/foambryo-0.2.6.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/3d/f4/3d434f9a3a9e198b362911b95772cf7330dafca9cea5ae58b6d32c1c8a00/catencfamily-0.0.81.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ms1searchpy]: Downloading https://files.pythonhosted.org/packages/d1/f3/0c7c5a868d8da68a45985419fee48459c568056a74a082e3313dd9fd37b9/ms1searchpy-2.4.2-py3-none-any.whl
+[2023-06-23 16:10:41] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-06-23 16:10:41] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.5.1.tar.gz tmp/watchtower_browser_testing-0.5.2.tar.gz --markdown 20230623/w/watchtower-browser-testing/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-23 16:10:41] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-23 16:10:41] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.19.1.tar.gz tmp/thipster-0.19.2.tar.gz --markdown 20230623/t/thipster/0.19.1-0.19.2/diff.md --exclude *.pyd
+[2023-06-23 16:10:41] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Downloading https://files.pythonhosted.org/packages/8c/37/7c922970e1637790fde9b16efadc57abfe5445977e8938dc8e695aeca492/crispr_ambiguous_mapping-0.0.9.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/f9/7e/e7eecf24839fc6482152269bf6205cc20790a94800072bca1c09f2ce257b/PyQt-Fluent-Widgets-0.9.7.tar.gz
+[2023-06-23 16:10:41] INFO root fetch - processPackages [foambryo]: executing diffoscope
+[2023-06-23 16:10:41] INFO root fetch - processPackages [foambryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foambryo-0.2.5.tar.gz tmp/foambryo-0.2.6.tar.gz --markdown 20230623/f/foambryo/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-23 16:10:41] INFO root fetch - processPackages [scoop-template-engine]: executing diffoscope
+[2023-06-23 16:10:41] INFO root fetch - processPackages [scoop-template-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoop-template-engine-1.1.2.tar.gz tmp/scoop-template-engine-1.1.3.tar.gz --markdown 20230623/s/scoop-template-engine/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ms1searchpy]: executing diffoscope
+[2023-06-23 16:10:41] INFO root fetch - processPackages [ms1searchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms1searchpy-2.4.1-py3-none-any.whl.zip tmp/ms1searchpy-2.4.2-py3-none-any.whl.zip --markdown 20230623/m/ms1searchpy/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-06-23 16:10:41] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-23 16:10:41] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230623/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 16:10:41] INFO root fetch - processPackages [crispr-ambiguous-mapping]: executing diffoscope
+[2023-06-23 16:10:41] INFO root fetch - processPackages [crispr-ambiguous-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_ambiguous_mapping-0.0.8.tar.gz tmp/crispr_ambiguous_mapping-0.0.9.tar.gz --markdown 20230623/c/crispr-ambiguous-mapping/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 16:10:42] INFO root fetch - processPackages [sigstore]: Downloading https://files.pythonhosted.org/packages/0c/08/a7f95fd5092b32e79395d8aea4c079645bff790950269c1940e5680fdd41/sigstore-2.0.0rc1.tar.gz
+[2023-06-23 16:10:42] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-06-23 16:10:42] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.6.tar.gz tmp/PyQt-Fluent-Widgets-0.9.7.tar.gz --markdown 20230623/P/PyQt-Fluent-Widgets/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-23 16:10:42] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-23 16:10:42] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.80.tar.gz tmp/catencfamily-0.0.81.tar.gz --markdown 20230623/c/catencfamily/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-06-23 16:10:42] INFO root fetch - processPackages [sigstore]: executing diffoscope
+[2023-06-23 16:10:42] INFO root fetch - processPackages [sigstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigstore-1.1.2rc1.tar.gz tmp/sigstore-2.0.0rc1.tar.gz --markdown 20230623/s/sigstore/1.1.2rc1-2.0.0rc1/diff.md --exclude *.pyd
+[2023-06-23 16:10:43] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.5.tar.gz]
+[2023-06-23 16:10:43] INFO root fetch - processPackages [foambryo]: Remove: archive file [/home/abi/fetcher/tmp/foambryo-0.2.6.tar.gz]
+[2023-06-23 16:10:43] INFO root fetch - processPackages [foambryo]: Start processing: pymino
+[2023-06-23 16:10:43] INFO root fetch - main [MainThread]: End processing [foambryo]: success
+[2023-06-23 16:10:43] INFO root fetch - processPackages [watchtower-browser-testing]: Remove: archive file [/home/abi/fetcher/tmp/watchtower_browser_testing-0.5.1.tar.gz]
+[2023-06-23 16:10:43] INFO root fetch - processPackages [watchtower-browser-testing]: Remove: archive file [/home/abi/fetcher/tmp/watchtower_browser_testing-0.5.2.tar.gz]
+[2023-06-23 16:10:43] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-06-23 16:10:43] INFO root fetch - processPackages [pymino]: New version: [1.2.1.8] Old Version: [1.2.1.7]
+[2023-06-23 16:10:43] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Remove: archive file [/home/abi/fetcher/tmp/crispr_ambiguous_mapping-0.0.8.tar.gz]
+[2023-06-23 16:10:43] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Remove: archive file [/home/abi/fetcher/tmp/crispr_ambiguous_mapping-0.0.9.tar.gz]
+[2023-06-23 16:10:43] INFO root fetch - main [MainThread]: End processing [crispr-ambiguous-mapping]: success
+[2023-06-23 16:10:43] INFO root fetch - processPackages [ms1searchpy]: Remove: archive file [/home/abi/fetcher/tmp/ms1searchpy-2.4.1-py3-none-any.whl.zip]
+[2023-06-23 16:10:43] INFO root fetch - processPackages [ms1searchpy]: Remove: archive file [/home/abi/fetcher/tmp/ms1searchpy-2.4.2-py3-none-any.whl.zip]
+[2023-06-23 16:10:43] INFO root fetch - main [MainThread]: End processing [ms1searchpy]: success
+[2023-06-23 16:10:44] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/75/eb/1322cc70e277ac5ce4961b9f34f29b695f604d3621a7dbac947792664cb9/pymino-1.2.1.7.tar.gz
+[2023-06-23 16:10:44] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.80.tar.gz]
+[2023-06-23 16:10:44] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.81.tar.gz]
+[2023-06-23 16:10:44] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-23 16:10:44] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/1c/28/53ca043ae87d18e34b6d7e6bcbc42195a3a127ccfd06b126a856a0b89eed/pymino-1.2.1.8.tar.gz
+[2023-06-23 16:10:44] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.19.1.tar.gz]
+[2023-06-23 16:10:44] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.19.2.tar.gz]
+[2023-06-23 16:10:44] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-23 16:10:44] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-23 16:10:44] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.1.7.tar.gz tmp/pymino-1.2.1.8.tar.gz --markdown 20230623/p/pymino/1.2.1.7-1.2.1.8/diff.md --exclude *.pyd
+[2023-06-23 16:10:45] INFO root fetch - processPackages [sigstore]: Remove: archive file [/home/abi/fetcher/tmp/sigstore-1.1.2rc1.tar.gz]
+[2023-06-23 16:10:45] INFO root fetch - processPackages [sigstore]: Remove: archive file [/home/abi/fetcher/tmp/sigstore-2.0.0rc1.tar.gz]
+[2023-06-23 16:10:45] INFO root fetch - main [MainThread]: End processing [sigstore]: success
+[2023-06-23 16:10:46] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.7.tar.gz]
+[2023-06-23 16:10:46] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.8.tar.gz]
+[2023-06-23 16:10:46] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-23 16:10:47] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-23 16:10:47] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-06-23 16:10:47] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-23 16:10:48] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.6.tar.gz]
+[2023-06-23 16:10:48] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.7.tar.gz]
+[2023-06-23 16:10:48] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-06-23 16:10:57] INFO root fetch - processPackages [scoop-template-engine]: Remove: archive file [/home/abi/fetcher/tmp/scoop-template-engine-1.1.2.tar.gz]
+[2023-06-23 16:10:57] INFO root fetch - processPackages [scoop-template-engine]: Remove: archive file [/home/abi/fetcher/tmp/scoop-template-engine-1.1.3.tar.gz]
+[2023-06-23 16:10:57] INFO root fetch - main [MainThread]: End processing [scoop-template-engine]: success
+[2023-06-23 16:10:57] INFO root fetch - main [MainThread]: Store serial: [18618870]
