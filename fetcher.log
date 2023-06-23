@@ -7621,3 +7621,18 @@
 [2023-06-23 05:12:49] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
 [2023-06-23 05:12:49] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
 [2023-06-23 05:12:49] INFO root fetch - main [MainThread]: Store serial: [18613728]
+[2023-06-23 05:17:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613728]
+[2023-06-23 05:17:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-23 05:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pairguy
+[2023-06-23 05:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: palmers-agents-general
+[2023-06-23 05:17:58] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 05:17:58] WARNING root fetch - processPackages [pairguy]: Skipping, unable to determine old version
+[2023-06-23 05:17:58] INFO root fetch - main [MainThread]: End processing [pairguy] error
+[2023-06-23 05:17:58] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/a0/ba/bb9972f2c344a2bfc6289bc81301dc0b876b6cc6c50834a9b71e5b5ffdf4/palmers_agents_general-0.0.8.tar.gz
+[2023-06-23 05:17:58] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/61/cd/e3e3e79d25eaa13474a77df36729a9c49c52bf78a9aabee81eb71e0e9622/palmers_agents_general-0.0.9.tar.gz
+[2023-06-23 05:17:58] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-06-23 05:17:58] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.8.tar.gz tmp/palmers_agents_general-0.0.9.tar.gz --markdown 20230623/p/palmers-agents-general/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 05:17:59] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.8.tar.gz]
+[2023-06-23 05:17:59] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.9.tar.gz]
+[2023-06-23 05:17:59] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-06-23 05:17:59] INFO root fetch - main [MainThread]: Store serial: [18613742]
