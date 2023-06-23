@@ -2766,3 +2766,95 @@
 [2023-06-23 02:49:35] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-23 02:49:35] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-23 02:49:35] INFO root fetch - main [MainThread]: Store serial: [18611963]
+[2023-06-23 02:54:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611963]
+[2023-06-23 02:54:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-23 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morningstar-data
+[2023-06-23 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invoicing-xl-pdf
+[2023-06-23 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-06-23 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bambooai
+[2023-06-23 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-comprehend-s3olap
+[2023-06-23 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-hot-reloading
+[2023-06-23 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-23 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atlaspy
+[2023-06-23 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: antgo
+[2023-06-23 02:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly-intel
+[2023-06-23 02:54:47] INFO root fetch - processPackages [morningstar-data]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-23 02:54:47] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-23 02:54:47] INFO root fetch - processPackages [atlaspy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-23 02:54:47] INFO root fetch - processPackages [pytest-hot-reloading]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-06-23 02:54:47] INFO root fetch - processPackages [bambooai]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-23 02:54:47] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 02:54:47] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-23 02:54:47] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 02:54:47] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/1d/01/b56b9c5a79a2d0c1ea29f40fdf13bff9bc6f7d1a7ead8351cfac3261b8b0/atlaspy-0.0.6.tar.gz
+[2023-06-23 02:54:47] WARNING root fetch - processPackages [invoicing-xl-pdf]: Skipping, unable to determine old version
+[2023-06-23 02:54:47] INFO root fetch - processPackages [invoicing-xl-pdf]: Start processing: pycde
+[2023-06-23 02:54:47] INFO root fetch - main [MainThread]: End processing [invoicing-xl-pdf] error
+[2023-06-23 02:54:47] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev812]
+[2023-06-23 02:54:47] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-23 02:54:47] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-23 02:54:47] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230622] Old Version: [2.14.0.dev20230620]
+[2023-06-23 02:54:47] INFO root fetch - processPackages [pytest-hot-reloading]: Downloading https://files.pythonhosted.org/packages/c5/f3/bab3bb4fd2a5d86a0b9b311c4e3ffabc820107ad97ee85a01844c2b96ca2/pytest_hot_reloading-0.1.0a7.tar.gz
+[2023-06-23 02:54:47] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-23 02:54:47] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/1b/00/581297089eaaa0ad4597173ee9fa68d48b5cf572f82a3f8a9033dea2a07e/pycde-0.2.1.dev812-cp39-cp39-win_amd64.whl
+[2023-06-23 02:54:47] INFO root fetch - processPackages [morningstar-data]: Downloading https://files.pythonhosted.org/packages/4d/9b/3f681ddfba6e21374b0e46508ab475d1b5041b1d4d1f65da882fa2b4d8e7/morningstar_data-1.2.0.tar.gz
+[2023-06-23 02:54:47] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-23 02:54:47] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-23 02:54:47] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Start processing: pyautd3
+[2023-06-23 02:54:47] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-23 02:54:47] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/1e/2f/b45e5edffb706375d489a60f47cfbc211c47f34900073310db3926626969/bambooai-0.3.5.tar.gz
+[2023-06-23 02:54:48] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/e5/f0/c0b608ec0aba4363a3caa8a65f00f6c054e124dbaf08644c69bb78b97b75/tf_nightly_intel-2.14.0.dev20230620-cp39-cp39-win_amd64.whl
+[2023-06-23 02:54:48] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-23 02:54:48] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-23 02:54:48] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183933139>=10485760
+[2023-06-23 02:54:48] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-23 02:54:48] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-06-23 02:54:48] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230623/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-23 02:54:48] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-23 02:54:48] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-06-23 02:54:48] INFO root fetch - processPackages [pytest-hot-reloading]: Downloading https://files.pythonhosted.org/packages/f1/99/de869ec311f8ecae29a80d0e2476d20fb215dd04a4d82d16d2bd779e99bc/pytest_hot_reloading-0.1.0a8.tar.gz
+[2023-06-23 02:54:48] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-23 02:54:48] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230623/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 02:54:48] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/f9/93/65f2dbbad64ea75fbe156dee298f98f8076a0310a8ac2fb228b557a41e84/bambooai-0.3.6.tar.gz
+[2023-06-23 02:54:48] INFO root fetch - processPackages [morningstar-data]: Downloading https://files.pythonhosted.org/packages/cd/dd/b90be5d468e9808a69cdea7fee16cd99a5da5eb1e29f5479954b0de93754/morningstar_data-1.3.0.tar.gz
+[2023-06-23 02:54:48] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/91/b8/a3797098bb2bc8fccfb23cbfb795135f1cf3dccf06b0b3533b198723d362/atlaspy-0.0.7.tar.gz
+[2023-06-23 02:54:48] INFO root fetch - processPackages [pytest-hot-reloading]: executing diffoscope
+[2023-06-23 02:54:48] INFO root fetch - processPackages [pytest-hot-reloading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_hot_reloading-0.1.0a7.tar.gz tmp/pytest_hot_reloading-0.1.0a8.tar.gz --markdown 20230623/p/pytest-hot-reloading/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-06-23 02:54:48] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-06-23 02:54:48] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.5.tar.gz tmp/bambooai-0.3.6.tar.gz --markdown 20230623/b/bambooai/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-23 02:54:48] INFO root fetch - processPackages [morningstar-data]: executing diffoscope
+[2023-06-23 02:54:48] INFO root fetch - processPackages [morningstar-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morningstar_data-1.2.0.tar.gz tmp/morningstar_data-1.3.0.tar.gz --markdown 20230623/m/morningstar-data/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-23 02:54:48] INFO root fetch - processPackages [atlaspy]: executing diffoscope
+[2023-06-23 02:54:48] INFO root fetch - processPackages [atlaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlaspy-0.0.6.tar.gz tmp/atlaspy-0.0.7.tar.gz --markdown 20230623/a/atlaspy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-23 02:54:48] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-06-23 02:54:48] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-06-23 02:54:49] INFO root fetch - processPackages [pytest-hot-reloading]: Remove: archive file [/home/abi/fetcher/tmp/pytest_hot_reloading-0.1.0a7.tar.gz]
+[2023-06-23 02:54:49] INFO root fetch - processPackages [pytest-hot-reloading]: Remove: archive file [/home/abi/fetcher/tmp/pytest_hot_reloading-0.1.0a8.tar.gz]
+[2023-06-23 02:54:49] INFO root fetch - main [MainThread]: End processing [pytest-hot-reloading]: success
+[2023-06-23 02:54:49] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.5.tar.gz]
+[2023-06-23 02:54:49] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.6.tar.gz]
+[2023-06-23 02:54:49] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-06-23 02:54:49] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-06-23 02:54:49] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev812-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230623/p/pycde/0.2.1.dev812-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-23 02:54:49] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.6.tar.gz]
+[2023-06-23 02:54:49] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.7.tar.gz]
+[2023-06-23 02:54:49] INFO root fetch - main [MainThread]: End processing [atlaspy]: success
+[2023-06-23 02:54:50] INFO root fetch - processPackages [morningstar-data]: Remove: archive file [/home/abi/fetcher/tmp/morningstar_data-1.2.0.tar.gz]
+[2023-06-23 02:54:50] INFO root fetch - processPackages [morningstar-data]: Remove: archive file [/home/abi/fetcher/tmp/morningstar_data-1.3.0.tar.gz]
+[2023-06-23 02:54:50] INFO root fetch - main [MainThread]: End processing [morningstar-data]: success
+[2023-06-23 02:54:51] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-23 02:54:53] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-23 02:54:53] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230623/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 02:54:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-23 02:54:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-23 02:54:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-23 02:54:54] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-23 02:54:54] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-23 02:54:54] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-23 02:54:57] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-23 02:54:57] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-23 02:54:57] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-23 02:55:35] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev812-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 02:55:35] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 02:55:35] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2023-06-23 02:55:35] INFO root fetch - main [MainThread]: Store serial: [18611996]
