@@ -12683,3 +12683,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 10:54:42] INFO root fetch - processPackages [NeuroTS]: Remove: archive file [/home/abi/fetcher/tmp/NeuroTS-3.4.0.tar.gz]
 [2023-06-23 10:54:42] INFO root fetch - main [MainThread]: End processing [NeuroTS]: success
 [2023-06-23 10:54:42] INFO root fetch - main [MainThread]: Store serial: [18615634]
+[2023-06-23 10:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615634]
+[2023-06-23 10:59:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-23 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: followthemoney
+[2023-06-23 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: captif-cpx-db
+[2023-06-23 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-functions
+[2023-06-23 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangoldp
+[2023-06-23 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zmesh
+[2023-06-23 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flumy
+[2023-06-23 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-ocgbot-v2
+[2023-06-23 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wordview
+[2023-06-23 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grimoire-elk
+[2023-06-23 10:59:53] INFO root fetch - processPackages [captif-cpx-db]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 10:59:53] INFO root fetch - processPackages [followthemoney]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-06-23 10:59:53] INFO root fetch - processPackages [openai-functions]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 10:59:53] INFO root fetch - processPackages [flumy]: New version: [7.120] Old Version: [7.113]
+[2023-06-23 10:59:53] INFO root fetch - processPackages [wordview]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-23 10:59:53] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 10:59:53] INFO root fetch - processPackages [zmesh]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-06-23 10:59:53] INFO root fetch - processPackages [djangoldp]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-23 10:59:53] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-23 10:59:53] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/de/c1/c7f170c0cacef92235810d076be82953d6dc512bdd49b46437605ec64673/openai_functions-0.1.1.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/56/75/520a4f343869032bde441c1e003f04318f43c9e63f8fbc876f5cb3f83289/captif_cpx_db-0.8.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [followthemoney]: Downloading https://files.pythonhosted.org/packages/db/cd/fce339fcdb71b85ec1202150e66b2bb11e55930235d6dac46a664f2324b0/followthemoney-3.4.1.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Downloading https://files.pythonhosted.org/packages/89/1a/aaa1532992734815239a9308fe1ef24cdf6f013ccfe13644b315eee8483a/nonebot-plugin-ocgbot-v2-0.1.2.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/a5/5d/73c7023ff1458a6bcd209b28408946f0cf59496f10ed002e7e8e8e72b5d0/wordview-0.3.1.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/9f/36/c8c3603cb4cd6e2f3781fababaab822d26890f2efa454f0e1720fbbc35a0/openai_functions-0.1.2.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [followthemoney]: Downloading https://files.pythonhosted.org/packages/e7/85/cc573d37480f92df47a97f7da7a41ee15440647581efc964e1df3a102c78/followthemoney-3.4.2.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/db/37/76cd80fbc7f4d650e2438167a4654c0b3ee15fe0ca9774684b0f7997ff4a/wordview-0.3.2.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [flumy]: Downloading https://files.pythonhosted.org/packages/55/75/3c27653646f5ab09fc6f8448650cc6b2f72220e74c82809e7c98e798acd3/flumy-7.113-cp39-cp39-macosx_11_0_arm64.whl
+[2023-06-23 10:59:53] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-06-23 10:59:53] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.1.1.tar.gz tmp/openai_functions-0.1.2.tar.gz --markdown 20230623/o/openai-functions/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 10:59:53] INFO root fetch - processPackages [djangoldp]: Downloading https://files.pythonhosted.org/packages/07/f0/737a0166452174bc45291d9300a696d07b2cc4b827ed4a3abcaca5a84978/djangoldp-2.1.8.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/6e/6b/26e2cafa568bb7a51ea5d1be8c64dd391ab1aa2cd01232155f52ad48b67c/grimoire-elk-0.98.0.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-06-23 10:59:53] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.3.1.tar.gz tmp/wordview-0.3.2.tar.gz --markdown 20230623/w/wordview/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-23 10:59:53] INFO root fetch - processPackages [zmesh]: Downloading https://files.pythonhosted.org/packages/f8/4d/3be291deda3cadf04fc346b52cc1ff12e7f5b8d1d9716ffbb0edf91a4ced/zmesh-1.6.2.tar.gz
+[2023-06-23 10:59:53] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/13/2d/bfd1ce82d1877d5c33ba5d16cc355203b48146e1b37fc019560379c8f923/captif_cpx_db-0.9.tar.gz
+[2023-06-23 10:59:54] INFO root fetch - processPackages [followthemoney]: executing diffoscope
+[2023-06-23 10:59:54] INFO root fetch - processPackages [followthemoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/followthemoney-3.4.1.tar.gz tmp/followthemoney-3.4.2.tar.gz --markdown 20230623/f/followthemoney/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-06-23 10:59:54] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Downloading https://files.pythonhosted.org/packages/00/16/03925339c81945ce36c63513d2437b4cd2d0c38f181221832246b57a258b/nonebot_plugin_ocgbot_v2-0.1.3.tar.gz
+[2023-06-23 10:59:54] INFO root fetch - processPackages [captif-cpx-db]: executing diffoscope
+[2023-06-23 10:59:54] INFO root fetch - processPackages [captif-cpx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_db-0.8.tar.gz tmp/captif_cpx_db-0.9.tar.gz --markdown 20230623/c/captif-cpx-db/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-23 10:59:54] WARNING root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Skipping package: exceeds size limit 51954409>=10485760
+[2023-06-23 10:59:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ocgbot-v2] error
+[2023-06-23 10:59:54] INFO root fetch - processPackages [djangoldp]: Downloading https://files.pythonhosted.org/packages/d7/5a/c06e789207ed34b8c839f5b45fdc1995097c7aaead6438b5254d96073184/djangoldp-2.1.9.tar.gz
+[2023-06-23 10:59:54] INFO root fetch - processPackages [flumy]: Downloading https://files.pythonhosted.org/packages/ce/11/7745aea1d061438793389536ebc2bcc619be047b1d4dd8fc9cc2c168d34a/flumy-7.120-cp39-cp39-win_amd64.whl
+[2023-06-23 10:59:54] INFO root fetch - processPackages [djangoldp]: executing diffoscope
+[2023-06-23 10:59:54] INFO root fetch - processPackages [djangoldp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp-2.1.8.tar.gz tmp/djangoldp-2.1.9.tar.gz --markdown 20230623/d/djangoldp/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-23 10:59:54] INFO root fetch - processPackages [flumy]: executing diffoscope
+[2023-06-23 10:59:54] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/94/9c/1d6de6f85b2b5e248e8a8caecf336a3c3a718fef571a361ac806e66bb816/grimoire-elk-0.99.0.tar.gz
+[2023-06-23 10:59:54] INFO root fetch - processPackages [flumy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flumy-7.113-cp39-cp39-macosx_11_0_arm64.whl.zip tmp/flumy-7.120-cp39-cp39-win_amd64.whl.zip --markdown 20230623/f/flumy/7.113-7.120/diff.md --exclude *.pyd
+[2023-06-23 10:59:54] INFO root fetch - processPackages [zmesh]: Downloading https://files.pythonhosted.org/packages/99/fa/d501429fc8a4ef10038f7859896030d8ab99e3d3df5a7b19f0e15dbb169f/zmesh-1.7.0.tar.gz
+[2023-06-23 10:59:54] INFO root fetch - processPackages [zmesh]: executing diffoscope
+[2023-06-23 10:59:54] INFO root fetch - processPackages [zmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zmesh-1.6.2.tar.gz tmp/zmesh-1.7.0.tar.gz --markdown 20230623/z/zmesh/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-06-23 10:59:54] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-06-23 10:59:54] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230623/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-23 10:59:55] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.1.1.tar.gz]
+[2023-06-23 10:59:55] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.1.2.tar.gz]
+[2023-06-23 10:59:55] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-06-23 10:59:55] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.3.1.tar.gz]
+[2023-06-23 10:59:55] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.3.2.tar.gz]
+[2023-06-23 10:59:55] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-06-23 10:59:55] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.8.tar.gz]
+[2023-06-23 10:59:55] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.9.tar.gz]
+[2023-06-23 10:59:55] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
+[2023-06-23 10:59:55] INFO root fetch - processPackages [djangoldp]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp-2.1.8.tar.gz]
+[2023-06-23 10:59:55] INFO root fetch - processPackages [djangoldp]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp-2.1.9.tar.gz]
+[2023-06-23 10:59:55] INFO root fetch - main [MainThread]: End processing [djangoldp]: success
+[2023-06-23 10:59:57] INFO root fetch - processPackages [followthemoney]: Remove: archive file [/home/abi/fetcher/tmp/followthemoney-3.4.1.tar.gz]
+[2023-06-23 10:59:57] INFO root fetch - processPackages [followthemoney]: Remove: archive file [/home/abi/fetcher/tmp/followthemoney-3.4.2.tar.gz]
+[2023-06-23 10:59:57] INFO root fetch - main [MainThread]: End processing [followthemoney]: success
+[2023-06-23 10:59:57] INFO root fetch - processPackages [flumy]: Remove: archive file [/home/abi/fetcher/tmp/flumy-7.113-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2023-06-23 10:59:57] INFO root fetch - processPackages [flumy]: Remove: archive file [/home/abi/fetcher/tmp/flumy-7.120-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 10:59:57] INFO root fetch - main [MainThread]: End processing [flumy]: success
+[2023-06-23 10:59:57] INFO root fetch - processPackages [zmesh]: Remove: archive file [/home/abi/fetcher/tmp/zmesh-1.6.2.tar.gz]
+[2023-06-23 10:59:57] INFO root fetch - processPackages [zmesh]: Remove: archive file [/home/abi/fetcher/tmp/zmesh-1.7.0.tar.gz]
+[2023-06-23 10:59:57] INFO root fetch - main [MainThread]: End processing [zmesh]: success
+[2023-06-23 10:59:59] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.98.0.tar.gz]
+[2023-06-23 10:59:59] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.99.0.tar.gz]
+[2023-06-23 10:59:59] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-06-23 10:59:59] INFO root fetch - main [MainThread]: Store serial: [18615702]
