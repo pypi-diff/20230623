@@ -13001,3 +13001,147 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 11:10:34] INFO root fetch - processPackages [pypef]: Remove: archive file [/home/abi/fetcher/tmp/pypef-0.3.tar.gz]
 [2023-06-23 11:10:34] INFO root fetch - main [MainThread]: End processing [pypef]: success
 [2023-06-23 11:10:34] INFO root fetch - main [MainThread]: Store serial: [18615796]
+[2023-06-23 11:15:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615796]
+[2023-06-23 11:15:43] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heygptcli
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycones
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hagrid
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-restful-translator
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parsita
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dials-data
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: processpiper
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ragger
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phone-gen
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mqt-core
+[2023-06-23 11:15:43] INFO root fetch - processPackages [heygptcli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-23 11:15:43] INFO root fetch - processPackages [processpiper]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-23 11:15:43] INFO root fetch - processPackages [parsita]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-06-23 11:15:43] WARNING root fetch - processPackages [pycones]: Skipping, unable to determine old version
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ragger]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-23 11:15:43] INFO root fetch - processPackages [pycones]: Start processing: groupdocs-rewriter-cloud
+[2023-06-23 11:15:43] INFO root fetch - main [MainThread]: End processing [pycones] error
+[2023-06-23 11:15:43] WARNING root fetch - processPackages [django-restful-translator]: Skipping, unable to determine old version
+[2023-06-23 11:15:43] INFO root fetch - processPackages [dials-data]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-23 11:15:43] INFO root fetch - processPackages [django-restful-translator]: Start processing: Candataloader
+[2023-06-23 11:15:43] INFO root fetch - main [MainThread]: End processing [django-restful-translator] error
+[2023-06-23 11:15:43] INFO root fetch - processPackages [phone-gen]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-06-23 11:15:43] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-23 11:15:43] INFO root fetch - processPackages [mqt-core]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-06-23 11:15:43] INFO root fetch - processPackages [groupdocs-rewriter-cloud]: New version: [23.6] Old Version: [23.4]
+[2023-06-23 11:15:43] INFO root fetch - processPackages [Candataloader]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-23 11:15:43] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/82/04/82bc3bf0c47a6f88a45e1b5604b67e6f9d9d9068f3a4713025a7590f00e8/ragger-1.9.1.tar.gz
+[2023-06-23 11:15:43] INFO root fetch - processPackages [mqt-core]: Downloading https://files.pythonhosted.org/packages/a2/19/5c4cab40f9112534ea31834e296a6bbd1eda06cf7c8919f6614a8e18f6f0/mqt-core-2.0.0a1.tar.gz
+[2023-06-23 11:15:43] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [heygptcli]: Downloading https://files.pythonhosted.org/packages/45/6d/034c5260d9279dbbbacb6c30afe9606df6fd24e460f5f9247008931f6447/heygptcli-0.1.4.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/aa/ea/c0f502ecef692d125426ac70e3fbfae31c410e37a3a389285ff07dd3aaf7/phone_gen-2.3.2.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [processpiper]: Downloading https://files.pythonhosted.org/packages/0a/8c/5e597d5e613099243b79820a8834157ddc2259307bdf0b37b429a80ed07e/processpiper-0.4.0.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/38/f1/82d813223579337cfc13eca0281e638aab74305e70b9bb29e6707a52ecf8/parsita-2.0.0b1.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [dials-data]: Downloading https://files.pythonhosted.org/packages/14/2c/8d0581b80f2592de3f0c6e4dce273392735db0c8cd0b5eb433f5cc1ebbf9/dials_data-2.4.8.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [groupdocs-rewriter-cloud]: Downloading https://files.pythonhosted.org/packages/76/ec/02256e95c39d53428c6da5109fa0a51c3d71ea7f64bb800b43bb2193ae05/groupdocs-rewriter-cloud-23.4.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [Candataloader]: Downloading https://files.pythonhosted.org/packages/d2/19/a68f41ad376856e9957a975c5d2d355017dda9e7ff59d9d07b7a7ee70143/Candataloader-1.1.5.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/55/ac/75fc7e94a713ed26019e36497774d89d7eaa377fab2ac4183dd45fc028b5/ragger-1.9.2.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-23 11:15:44] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230623/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-23 11:15:44] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/4f/0d/aa347343ab2d6e57eea12baa4af985de60cd8e29a272fd7563ce9acef9e4/phone_gen-2.3.3.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [processpiper]: Downloading https://files.pythonhosted.org/packages/60/22/da078b7bc7e655e34f944f6303942bbbc9025e59d2405aeea48047cd8d78/processpiper-0.4.1.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [groupdocs-rewriter-cloud]: Downloading https://files.pythonhosted.org/packages/1c/18/e086d9f19186a359f09c4b19ac235035975070e501dc6b01a2fdd4cb05f6/groupdocs-rewriter-cloud-23.6.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [heygptcli]: Downloading https://files.pythonhosted.org/packages/35/f3/6d2957a34560b3c7ad9b66cfd901018730af8ddc99547441af13bbad5565/heygptcli-0.1.5.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [mqt-core]: Downloading https://files.pythonhosted.org/packages/c2/c9/b159bcca9f8222c4b212a5ba464b27bb5a9744cb64aecc853fdcf80f667d/mqt-core-2.0.0a2.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [processpiper]: executing diffoscope
+[2023-06-23 11:15:44] INFO root fetch - processPackages [processpiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processpiper-0.4.0.tar.gz tmp/processpiper-0.4.1.tar.gz --markdown 20230623/p/processpiper/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-23 11:15:44] INFO root fetch - processPackages [ragger]: executing diffoscope
+[2023-06-23 11:15:44] INFO root fetch - processPackages [ragger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragger-1.9.1.tar.gz tmp/ragger-1.9.2.tar.gz --markdown 20230623/r/ragger/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-23 11:15:44] INFO root fetch - processPackages [groupdocs-rewriter-cloud]: executing diffoscope
+[2023-06-23 11:15:44] INFO root fetch - processPackages [groupdocs-rewriter-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupdocs-rewriter-cloud-23.4.tar.gz tmp/groupdocs-rewriter-cloud-23.6.tar.gz --markdown 20230623/g/groupdocs-rewriter-cloud/23.4-23.6/diff.md --exclude *.pyd
+[2023-06-23 11:15:44] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/da/ae/333200f57f0fa394ea6be80269ec9ebc42438aa38e245e9b4983c2c87cc6/parsita-2.0.0b2.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [heygptcli]: executing diffoscope
+[2023-06-23 11:15:44] INFO root fetch - processPackages [heygptcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heygptcli-0.1.4.tar.gz tmp/heygptcli-0.1.5.tar.gz --markdown 20230623/h/heygptcli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-23 11:15:44] INFO root fetch - processPackages [phone-gen]: executing diffoscope
+[2023-06-23 11:15:44] INFO root fetch - processPackages [phone-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_gen-2.3.2.tar.gz tmp/phone_gen-2.3.3.tar.gz --markdown 20230623/p/phone-gen/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-06-23 11:15:44] INFO root fetch - processPackages [Candataloader]: Downloading https://files.pythonhosted.org/packages/4a/1a/142286fc7091dce78e10ff318370b3d015d2f6f26a1de8258009271e2fe7/Candataloader-1.1.6.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [parsita]: executing diffoscope
+[2023-06-23 11:15:44] INFO root fetch - processPackages [parsita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsita-2.0.0b1.tar.gz tmp/parsita-2.0.0b2.tar.gz --markdown 20230623/p/parsita/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-06-23 11:15:44] INFO root fetch - processPackages [dials-data]: Downloading https://files.pythonhosted.org/packages/f3/b5/52b8b6c81fdcced6ca5a79f94efe98b30c6c7968ea6f0d12f520bb611e7d/dials_data-2.4.9.tar.gz
+[2023-06-23 11:15:44] INFO root fetch - processPackages [mqt-core]: executing diffoscope
+[2023-06-23 11:15:44] INFO root fetch - processPackages [mqt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt-core-2.0.0a1.tar.gz tmp/mqt-core-2.0.0a2.tar.gz --markdown 20230623/m/mqt-core/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-06-23 11:15:44] INFO root fetch - processPackages [Candataloader]: executing diffoscope
+[2023-06-23 11:15:44] INFO root fetch - processPackages [Candataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Candataloader-1.1.5.tar.gz tmp/Candataloader-1.1.6.tar.gz --markdown 20230623/C/Candataloader/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-23 11:15:44] INFO root fetch - processPackages [dials-data]: executing diffoscope
+[2023-06-23 11:15:44] INFO root fetch - processPackages [dials-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dials_data-2.4.8.tar.gz tmp/dials_data-2.4.9.tar.gz --markdown 20230623/d/dials-data/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-23 11:15:46] INFO root fetch - processPackages [processpiper]: Remove: archive file [/home/abi/fetcher/tmp/processpiper-0.4.0.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [processpiper]: Remove: archive file [/home/abi/fetcher/tmp/processpiper-0.4.1.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [processpiper]: Start processing: assisted-service-client
+[2023-06-23 11:15:46] INFO root fetch - main [MainThread]: End processing [processpiper]: success
+[2023-06-23 11:15:46] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-23 11:15:46] INFO root fetch - processPackages [heygptcli]: Remove: archive file [/home/abi/fetcher/tmp/heygptcli-0.1.4.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [heygptcli]: Remove: archive file [/home/abi/fetcher/tmp/heygptcli-0.1.5.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [heygptcli]: Start processing: voila
+[2023-06-23 11:15:46] INFO root fetch - main [MainThread]: End processing [heygptcli]: success
+[2023-06-23 11:15:46] INFO root fetch - processPackages [voila]: New version: [0.5.0a4] Old Version: [0.5.0a3]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [Candataloader]: Remove: archive file [/home/abi/fetcher/tmp/Candataloader-1.1.5.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [Candataloader]: Remove: archive file [/home/abi/fetcher/tmp/Candataloader-1.1.6.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [Candataloader]: Start processing: tbp-nightly
+[2023-06-23 11:15:46] INFO root fetch - main [MainThread]: End processing [Candataloader]: success
+[2023-06-23 11:15:46] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-23 11:15:46] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-2.0.0b1.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-2.0.0b2.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [parsita]: Start processing: pyscal3
+[2023-06-23 11:15:46] INFO root fetch - main [MainThread]: End processing [parsita]: success
+[2023-06-23 11:15:46] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [pyscal3]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-23 11:15:46] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/e2/d0/88198fbbdb417035a9b0f4712989920d235a6e2e91385e6e730a6f5cc4b9/voila-0.5.0a3.tar.gz
+[2023-06-23 11:15:46] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-23 11:15:46] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230623/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-23 11:15:46] INFO root fetch - processPackages [groupdocs-rewriter-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-rewriter-cloud-23.4.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [groupdocs-rewriter-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-rewriter-cloud-23.6.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [groupdocs-rewriter-cloud]: Start processing: pysamosa
+[2023-06-23 11:15:46] INFO root fetch - main [MainThread]: End processing [groupdocs-rewriter-cloud]: success
+[2023-06-23 11:15:46] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-23 11:15:46] INFO root fetch - processPackages [pyscal3]: Downloading https://files.pythonhosted.org/packages/63/43/543c4f7a981f76c0f12485ffd4e1bb2a0a1896d90334a0e2a5ec45b4c765/pyscal3-3.0.1.tar.gz
+[2023-06-23 11:15:46] INFO root fetch - processPackages [pysamosa]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.1.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.2.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - main [MainThread]: End processing [ragger]: success
+[2023-06-23 11:15:46] INFO root fetch - processPackages [phone-gen]: Remove: archive file [/home/abi/fetcher/tmp/phone_gen-2.3.2.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - processPackages [phone-gen]: Remove: archive file [/home/abi/fetcher/tmp/phone_gen-2.3.3.tar.gz]
+[2023-06-23 11:15:46] INFO root fetch - main [MainThread]: End processing [phone-gen]: success
+[2023-06-23 11:15:46] INFO root fetch - processPackages [pysamosa]: Downloading https://files.pythonhosted.org/packages/c3/87/98ebe4f54f0317a61c2201e73ad7075beab67ecc99fcd192d6459dc5e2ad/pysamosa-0.3.0.tar.gz
+[2023-06-23 11:15:47] INFO root fetch - processPackages [pyscal3]: Downloading https://files.pythonhosted.org/packages/9a/89/89ec5254c0b8624f880a5889e647280ea9077591a2e00d69aee3d9863b1a/pyscal3-3.1.0-pp38-pypy38_pp73-manylinux_2_17_i686.manylinux2014_i686.whl
+[2023-06-23 11:15:47] INFO root fetch - processPackages [dials-data]: Remove: archive file [/home/abi/fetcher/tmp/dials_data-2.4.8.tar.gz]
+[2023-06-23 11:15:47] INFO root fetch - processPackages [dials-data]: Remove: archive file [/home/abi/fetcher/tmp/dials_data-2.4.9.tar.gz]
+[2023-06-23 11:15:47] INFO root fetch - main [MainThread]: End processing [dials-data]: success
+[2023-06-23 11:15:47] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-23 11:15:47] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/0f/d7/4ceab544ec7887c78319a76e526e60c986c5d4f1f55a699eb2822bca20de/voila-0.5.0a4.tar.gz
+[2023-06-23 11:15:47] INFO root fetch - processPackages [pyscal3]: executing diffoscope
+[2023-06-23 11:15:47] INFO root fetch - processPackages [pyscal3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscal3-3.0.1.tar.gz tmp/pyscal3-3.1.0-pp38-pypy38_pp73-manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20230623/p/pyscal3/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-06-23 11:15:48] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-23 11:15:48] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230623/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-23 11:15:48] INFO root fetch - processPackages [pysamosa]: Downloading https://files.pythonhosted.org/packages/5d/6a/392136f5a7688eb4387c4aaafd1637a487a9415160c696f84484883579e2/pysamosa-0.4.0.tar.gz
+[2023-06-23 11:15:48] INFO root fetch - processPackages [voila]: executing diffoscope
+[2023-06-23 11:15:48] INFO root fetch - processPackages [voila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-0.5.0a3.tar.gz tmp/voila-0.5.0a4.tar.gz --markdown 20230623/v/voila/0.5.0a3-0.5.0a4/diff.md --exclude *.pyd
+[2023-06-23 11:15:49] INFO root fetch - processPackages [pyscal3]: Remove: archive file [/home/abi/fetcher/tmp/pyscal3-3.0.1.tar.gz]
+[2023-06-23 11:15:49] INFO root fetch - processPackages [pyscal3]: Remove: archive file [/home/abi/fetcher/tmp/pyscal3-3.1.0-pp38-pypy38_pp73-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2023-06-23 11:15:49] INFO root fetch - main [MainThread]: End processing [pyscal3]: success
+[2023-06-23 11:15:49] INFO root fetch - processPackages [pysamosa]: executing diffoscope
+[2023-06-23 11:15:49] INFO root fetch - processPackages [pysamosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysamosa-0.3.0.tar.gz tmp/pysamosa-0.4.0.tar.gz --markdown 20230623/p/pysamosa/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 11:15:50] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-23 11:15:50] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-23 11:15:50] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-23 11:15:50] INFO root fetch - processPackages [mqt-core]: Remove: archive file [/home/abi/fetcher/tmp/mqt-core-2.0.0a1.tar.gz]
+[2023-06-23 11:15:50] INFO root fetch - processPackages [mqt-core]: Remove: archive file [/home/abi/fetcher/tmp/mqt-core-2.0.0a2.tar.gz]
+[2023-06-23 11:15:50] INFO root fetch - main [MainThread]: End processing [mqt-core]: success
+[2023-06-23 11:15:50] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-23 11:15:50] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-23 11:15:50] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-23 11:15:51] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.3.0.tar.gz]
+[2023-06-23 11:15:51] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.4.0.tar.gz]
+[2023-06-23 11:15:51] INFO root fetch - main [MainThread]: End processing [pysamosa]: success
+[2023-06-23 11:16:32] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.0a3.tar.gz]
+[2023-06-23 11:16:32] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.0a4.tar.gz]
+[2023-06-23 11:16:32] INFO root fetch - main [MainThread]: End processing [voila]: success
+[2023-06-23 11:16:32] INFO root fetch - main [MainThread]: Store serial: [18615902]
