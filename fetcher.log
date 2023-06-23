@@ -12380,3 +12380,132 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 10:38:13] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
 [2023-06-23 10:38:13] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
 [2023-06-23 10:38:13] INFO root fetch - main [MainThread]: Store serial: [18615514]
+[2023-06-23 10:43:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615514]
+[2023-06-23 10:43:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-23 10:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kalm
+[2023-06-23 10:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyadlml
+[2023-06-23 10:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfgnet
+[2023-06-23 10:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdsfactory
+[2023-06-23 10:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graal
+[2023-06-23 10:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eventregistry
+[2023-06-23 10:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mqt-core
+[2023-06-23 10:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: face-crop-plus
+[2023-06-23 10:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyEmailExtractor
+[2023-06-23 10:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandoc-docx-helper
+[2023-06-23 10:43:22] INFO root fetch - processPackages [pyadlml]: New version: [0.0.8.0a0] Old Version: [0.0.7.9a0]
+[2023-06-23 10:43:22] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 10:43:22] INFO root fetch - processPackages [graal]: New version: [0.4.9rc1] Old Version: [0.4.9]
+[2023-06-23 10:43:22] INFO root fetch - processPackages [PyEmailExtractor]: New version: [0.2] Old Version: [0.1]
+[2023-06-23 10:43:22] INFO root fetch - processPackages [face-crop-plus]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-23 10:43:22] WARNING root fetch - processPackages [mqt-core]: Skipping, unable to determine old version
+[2023-06-23 10:43:22] INFO root fetch - processPackages [mqt-core]: Start processing: tff-nightly
+[2023-06-23 10:43:22] INFO root fetch - processPackages [eventregistry]: New version: [9.1] Old Version: [9.0]
+[2023-06-23 10:43:22] INFO root fetch - main [MainThread]: End processing [mqt-core] error
+[2023-06-23 10:43:22] INFO root fetch - processPackages [cfgnet]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-23 10:43:22] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-23 10:43:22] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230623] Old Version: [0.0.1.dev20230622]
+[2023-06-23 10:43:22] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 10:43:22] WARNING root fetch - processPackages [pandoc-docx-helper]: Skipping, unable to determine old version
+[2023-06-23 10:43:22] INFO root fetch - processPackages [pandoc-docx-helper]: Start processing: enable
+[2023-06-23 10:43:22] INFO root fetch - main [MainThread]: End processing [pandoc-docx-helper] error
+[2023-06-23 10:43:22] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/be/bb/762fc6fc512a45d906ae456b8ccc210f9871bb7b7c3f64eeaadf202d10d5/tff_nightly-0.0.1.dev20230622-py2.py3-none-any.whl
+[2023-06-23 10:43:22] INFO root fetch - processPackages [enable]: New version: [6.0.0] Old Version: [5.3.1]
+[2023-06-23 10:43:22] INFO root fetch - processPackages [PyEmailExtractor]: Downloading https://files.pythonhosted.org/packages/0b/7f/acdccd55c871453c91b0339afb0c8fcc078a06bbb15ab266ad81eb26273f/PyEmailExtractor-0.1.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/28/71/99ec2531294b878cbfa9cb41e308c5db4437123469a73bfa1b5913989405/graal-0.4.9.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [eventregistry]: Downloading https://files.pythonhosted.org/packages/06/b8/bb45ccf3f34db423c3f30ac676794ce41581f0e8bd0192c45002eb0675a8/eventregistry-9.0.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [pyadlml]: Downloading https://files.pythonhosted.org/packages/d7/ea/01900e41fe1f958b999cf8f08b1ef14daf9bce9ab0e27b822602c749cbfe/pyadlml-0.0.7.9a0.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [cfgnet]: Downloading https://files.pythonhosted.org/packages/b3/90/c9854286f34a79e743ed328ade206030d113f6343db8c3b05d3cea095c34/cfgnet-1.0.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [face-crop-plus]: Downloading https://files.pythonhosted.org/packages/48/48/436d82d77f621c9b31dcc89f3bfffac07b99f2ea0b12ac6750c966c1beff/face-crop-plus-1.0.3.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/ff/22/302157c7724df47eee6dfc33f13f1d518e964f4455425c6d1bbb0d3330d7/tff_nightly-0.0.1.dev20230623-py2.py3-none-any.whl
+[2023-06-23 10:43:22] INFO root fetch - processPackages [enable]: Downloading https://files.pythonhosted.org/packages/cb/68/c2caf4a78a7304450cd5b94cff7613bcaea7fef0c6d4df98212a9e3b45a0/enable-5.3.1.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 10:43:22] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 10:43:22] INFO root fetch - processPackages [PyEmailExtractor]: Downloading https://files.pythonhosted.org/packages/1b/37/61aaed952be58d3add23d725d19cd8b6c1d57d43949d5e06d15152b28317/PyEmailExtractor-0.2.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [eventregistry]: Downloading https://files.pythonhosted.org/packages/d5/71/8e2e8229d4b4ac37a8d64fa219ed9826b2ab05404f00f1a484966d4fd932/eventregistry-9.1.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/e0/70/db6f659a9b5bd80d414a88a02c4ad9e8c2c86ce6917625ce6034a2ed0a4c/graal-0.4.9rc1.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [face-crop-plus]: Downloading https://files.pythonhosted.org/packages/67/cd/bf0cb941a11940071932d3bcfdb6235bae83acd01dceeeab813b6602b467/face-crop-plus-1.1.0.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [cfgnet]: Downloading https://files.pythonhosted.org/packages/d5/bf/3b7f3ac0ce0f40bc76e85a0eaf387d50f5f99f82736c2f34d9e30f8393e4/cfgnet-1.0.1.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [pyadlml]: Downloading https://files.pythonhosted.org/packages/87/56/956fc3d7fed6fc034350d71d8852b4b5538fb9c43dac4ef58de085c51172/pyadlml-0.0.8.0a0.tar.gz
+[2023-06-23 10:43:22] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-23 10:43:22] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230623/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-23 10:43:22] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-06-23 10:43:22] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.9.tar.gz tmp/graal-0.4.9rc1.tar.gz --markdown 20230623/g/graal/0.4.9-0.4.9rc1/diff.md --exclude *.pyd
+[2023-06-23 10:43:22] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-23 10:43:23] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230622-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230623-py2.py3-none-any.whl.zip --markdown 20230623/t/tff-nightly/0.0.1.dev20230622-0.0.1.dev20230623/diff.md --exclude *.pyd
+[2023-06-23 10:43:23] INFO root fetch - processPackages [PyEmailExtractor]: executing diffoscope
+[2023-06-23 10:43:23] INFO root fetch - processPackages [PyEmailExtractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEmailExtractor-0.1.tar.gz tmp/PyEmailExtractor-0.2.tar.gz --markdown 20230623/P/PyEmailExtractor/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-23 10:43:23] INFO root fetch - processPackages [eventregistry]: executing diffoscope
+[2023-06-23 10:43:23] INFO root fetch - processPackages [eventregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventregistry-9.0.tar.gz tmp/eventregistry-9.1.tar.gz --markdown 20230623/e/eventregistry/9.0-9.1/diff.md --exclude *.pyd
+[2023-06-23 10:43:23] INFO root fetch - processPackages [pyadlml]: executing diffoscope
+[2023-06-23 10:43:23] INFO root fetch - processPackages [pyadlml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyadlml-0.0.7.9a0.tar.gz tmp/pyadlml-0.0.8.0a0.tar.gz --markdown 20230623/p/pyadlml/0.0.7.9a0-0.0.8.0a0/diff.md --exclude *.pyd
+[2023-06-23 10:43:23] INFO root fetch - processPackages [face-crop-plus]: executing diffoscope
+[2023-06-23 10:43:23] INFO root fetch - processPackages [face-crop-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/face-crop-plus-1.0.3.tar.gz tmp/face-crop-plus-1.1.0.tar.gz --markdown 20230623/f/face-crop-plus/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 10:43:23] INFO root fetch - processPackages [cfgnet]: executing diffoscope
+[2023-06-23 10:43:23] INFO root fetch - processPackages [cfgnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfgnet-1.0.tar.gz tmp/cfgnet-1.0.1.tar.gz --markdown 20230623/c/cfgnet/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-23 10:43:23] INFO root fetch - processPackages [enable]: Downloading https://files.pythonhosted.org/packages/99/fa/f7517f521ec7745cf73314b7f53589b547eb2fbebc0d0daafc8f1e483351/enable-6.0.0.tar.gz
+[2023-06-23 10:43:23] INFO root fetch - processPackages [enable]: executing diffoscope
+[2023-06-23 10:43:23] INFO root fetch - processPackages [enable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enable-5.3.1.tar.gz tmp/enable-6.0.0.tar.gz --markdown 20230623/e/enable/5.3.1-6.0.0/diff.md --exclude *.pyd
+[2023-06-23 10:43:24] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 10:43:24] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 10:43:24] INFO root fetch - processPackages [kalm]: Start processing: sql-field-report
+[2023-06-23 10:43:24] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 10:43:24] INFO root fetch - processPackages [sql-field-report]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 10:43:24] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/7f/49/c33e067e08f7b745cb4b09fa8408fa007d8bbd27e8927033878f48fa5da8/sql_field_report-1.0.8.tar.gz
+[2023-06-23 10:43:24] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/7b/b7/c4570129ff7fa8f0e20167f7e3e24c1fb8f6d7962d8410db1f0d66476775/sql_field_report-1.0.9.tar.gz
+[2023-06-23 10:43:24] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-06-23 10:43:24] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-1.0.8.tar.gz tmp/sql_field_report-1.0.9.tar.gz --markdown 20230623/s/sql-field-report/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-23 10:43:24] INFO root fetch - processPackages [PyEmailExtractor]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtractor-0.1.tar.gz]
+[2023-06-23 10:43:24] INFO root fetch - processPackages [PyEmailExtractor]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtractor-0.2.tar.gz]
+[2023-06-23 10:43:24] INFO root fetch - processPackages [PyEmailExtractor]: Start processing: rlberry
+[2023-06-23 10:43:24] INFO root fetch - main [MainThread]: End processing [PyEmailExtractor]: success
+[2023-06-23 10:43:24] INFO root fetch - processPackages [rlberry]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-23 10:43:24] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9.tar.gz]
+[2023-06-23 10:43:24] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9rc1.tar.gz]
+[2023-06-23 10:43:24] INFO root fetch - processPackages [graal]: Start processing: ccfit2
+[2023-06-23 10:43:24] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-06-23 10:43:25] INFO root fetch - processPackages [ccfit2]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-06-23 10:43:25] INFO root fetch - processPackages [eventregistry]: Remove: archive file [/home/abi/fetcher/tmp/eventregistry-9.0.tar.gz]
+[2023-06-23 10:43:25] INFO root fetch - processPackages [eventregistry]: Remove: archive file [/home/abi/fetcher/tmp/eventregistry-9.1.tar.gz]
+[2023-06-23 10:43:25] INFO root fetch - processPackages [eventregistry]: Start processing: tinylab
+[2023-06-23 10:43:25] INFO root fetch - main [MainThread]: End processing [eventregistry]: success
+[2023-06-23 10:43:25] INFO root fetch - processPackages [rlberry]: Downloading https://files.pythonhosted.org/packages/d2/48/f977731a1c17f7b34fdc028fca16298e7052c83df6786297b541e64e06ee/rlberry-0.4.1.tar.gz
+[2023-06-23 10:43:25] INFO root fetch - processPackages [ccfit2]: Downloading https://files.pythonhosted.org/packages/80/50/dbea971a867d9421e994da7e7855a8e918b8a5952f9151961b1a688e51bc/ccfit2-5.1.0.tar.gz
+[2023-06-23 10:43:25] INFO root fetch - processPackages [cfgnet]: Remove: archive file [/home/abi/fetcher/tmp/cfgnet-1.0.tar.gz]
+[2023-06-23 10:43:25] INFO root fetch - processPackages [cfgnet]: Remove: archive file [/home/abi/fetcher/tmp/cfgnet-1.0.1.tar.gz]
+[2023-06-23 10:43:25] INFO root fetch - main [MainThread]: End processing [cfgnet]: success
+[2023-06-23 10:43:25] WARNING root fetch - processPackages [tinylab]: Skipping, unable to determine old version
+[2023-06-23 10:43:25] INFO root fetch - main [MainThread]: End processing [tinylab] error
+[2023-06-23 10:43:25] INFO root fetch - processPackages [ccfit2]: Downloading https://files.pythonhosted.org/packages/43/a7/bfeb223fbf2dbb5b862cd5295c09701c04c6684fda7de706f0fd31f73290/ccfit2-5.1.1.tar.gz
+[2023-06-23 10:43:25] INFO root fetch - processPackages [rlberry]: Downloading https://files.pythonhosted.org/packages/da/a1/3fd01922c109e3e3865ed23fd1718d2b33294f7ca66bd59a83cb9a4304dc/rlberry-0.5.0.tar.gz
+[2023-06-23 10:43:25] INFO root fetch - processPackages [ccfit2]: executing diffoscope
+[2023-06-23 10:43:25] INFO root fetch - processPackages [ccfit2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccfit2-5.1.0.tar.gz tmp/ccfit2-5.1.1.tar.gz --markdown 20230623/c/ccfit2/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-06-23 10:43:25] INFO root fetch - processPackages [face-crop-plus]: Remove: archive file [/home/abi/fetcher/tmp/face-crop-plus-1.0.3.tar.gz]
+[2023-06-23 10:43:25] INFO root fetch - processPackages [face-crop-plus]: Remove: archive file [/home/abi/fetcher/tmp/face-crop-plus-1.1.0.tar.gz]
+[2023-06-23 10:43:25] INFO root fetch - main [MainThread]: End processing [face-crop-plus]: success
+[2023-06-23 10:43:25] INFO root fetch - processPackages [rlberry]: executing diffoscope
+[2023-06-23 10:43:25] INFO root fetch - processPackages [rlberry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlberry-0.4.1.tar.gz tmp/rlberry-0.5.0.tar.gz --markdown 20230623/r/rlberry/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-23 10:43:25] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-1.0.8.tar.gz]
+[2023-06-23 10:43:25] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-1.0.9.tar.gz]
+[2023-06-23 10:43:25] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-06-23 10:43:25] INFO root fetch - processPackages [pyadlml]: Remove: archive file [/home/abi/fetcher/tmp/pyadlml-0.0.7.9a0.tar.gz]
+[2023-06-23 10:43:25] INFO root fetch - processPackages [pyadlml]: Remove: archive file [/home/abi/fetcher/tmp/pyadlml-0.0.8.0a0.tar.gz]
+[2023-06-23 10:43:25] INFO root fetch - main [MainThread]: End processing [pyadlml]: success
+[2023-06-23 10:43:26] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230622-py2.py3-none-any.whl.zip]
+[2023-06-23 10:43:26] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230623-py2.py3-none-any.whl.zip]
+[2023-06-23 10:43:26] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-23 10:43:26] INFO root fetch - processPackages [ccfit2]: Remove: archive file [/home/abi/fetcher/tmp/ccfit2-5.1.0.tar.gz]
+[2023-06-23 10:43:26] INFO root fetch - processPackages [ccfit2]: Remove: archive file [/home/abi/fetcher/tmp/ccfit2-5.1.1.tar.gz]
+[2023-06-23 10:43:26] INFO root fetch - main [MainThread]: End processing [ccfit2]: success
+[2023-06-23 10:43:29] INFO root fetch - processPackages [rlberry]: Remove: archive file [/home/abi/fetcher/tmp/rlberry-0.4.1.tar.gz]
+[2023-06-23 10:43:29] INFO root fetch - processPackages [rlberry]: Remove: archive file [/home/abi/fetcher/tmp/rlberry-0.5.0.tar.gz]
+[2023-06-23 10:43:29] INFO root fetch - main [MainThread]: End processing [rlberry]: success
+[2023-06-23 10:43:34] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-23 10:43:34] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-23 10:43:34] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-23 10:44:00] INFO root fetch - processPackages [enable]: Remove: archive file [/home/abi/fetcher/tmp/enable-5.3.1.tar.gz]
+[2023-06-23 10:44:00] INFO root fetch - processPackages [enable]: Remove: archive file [/home/abi/fetcher/tmp/enable-6.0.0.tar.gz]
+[2023-06-23 10:44:00] INFO root fetch - main [MainThread]: End processing [enable]: success
+[2023-06-23 10:44:00] INFO root fetch - main [MainThread]: Store serial: [18615577]
