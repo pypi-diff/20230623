@@ -3384,3 +3384,160 @@
 [2023-06-23 03:38:33] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
 [2023-06-23 03:38:33] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
 [2023-06-23 03:38:33] INFO root fetch - main [MainThread]: Store serial: [18612232]
+[2023-06-23 03:43:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18612232]
+[2023-06-23 03:43:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-23 03:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-06-23 03:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-plugin-package-info
+[2023-06-23 03:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pytorch
+[2023-06-23 03:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive
+[2023-06-23 03:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-scipy
+[2023-06-23 03:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-sphinx
+[2023-06-23 03:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive-jupyter-kernel
+[2023-06-23 03:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duckdb
+[2023-06-23 03:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-django
+[2023-06-23 03:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: platformdirs
+[2023-06-23 03:43:41] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-23 03:43:41] INFO root fetch - processPackages [poetry-plugin-package-info]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-06-23 03:43:41] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-23 03:43:41] INFO root fetch - processPackages [platformdirs]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-06-23 03:43:41] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 03:43:41] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 03:43:42] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev87] Old Version: [0.8.2.dev77]
+[2023-06-23 03:43:42] INFO root fetch - processPackages [poetry-plugin-package-info]: Downloading https://files.pythonhosted.org/packages/98/8b/e01420ce461909537bce875e52eb6baa6ebfaac26881763861a342e4175f/poetry_plugin_package_info-0.2.0.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 03:43:42] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 03:43:42] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/a1/45/ff5224bbf1a9f23d95f70890659a7c2639a25d594adfe4a5ca9221f6cae5/platformdirs-3.7.0.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-23 03:43:42] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-23 03:43:42] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [proactive]: Start processing: KergaAI
+[2023-06-23 03:43:42] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [KergaAI]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [KergaAI]: Downloading https://files.pythonhosted.org/packages/14/31/e916297b36ff32eea31adb330916637897b491ebc2fc4288840761e53ba4/KergaAI-1.0.1-py3-none-any.whl
+[2023-06-23 03:43:42] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/db/3b/efb7610d61277d41463a8511542a34c03caefe5cd471e50dd27baedd6343/duckdb-0.8.2.dev77-cp39-cp39-macosx_11_0_arm64.whl
+[2023-06-23 03:43:42] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/cb/10/e5478cc0c3ee5563f91ab7b9da15d16e21f3737b6286ed3fd9a8fb1a99dd/platformdirs-3.8.0.tar.gz
+[2023-06-23 03:43:42] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 12632526>=10485760
+[2023-06-23 03:43:42] INFO root fetch - processPackages [duckdb]: Start processing: botocore-a-la-carte-lex-runtime
+[2023-06-23 03:43:42] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [poetry-plugin-package-info]: Downloading https://files.pythonhosted.org/packages/03/97/013b3fea80a1dd40b2025b5173b2385907dcd00de166d0d36250a4f264bb/poetry_plugin_package_info-0.2.2.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-23 03:43:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230623/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230623/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:42] INFO root fetch - processPackages [platformdirs]: executing diffoscope
+[2023-06-23 03:43:42] INFO root fetch - processPackages [platformdirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platformdirs-3.7.0.tar.gz tmp/platformdirs-3.8.0.tar.gz --markdown 20230623/p/platformdirs/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-06-23 03:43:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-23 03:43:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230623/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230623/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:42] INFO root fetch - processPackages [KergaAI]: Downloading https://files.pythonhosted.org/packages/65/52/6f624d0fa3ad41dabd9d2bf74e5f566feadc537fb0ee20d9504310ed507b/KergaAI-1.0.2-py3-none-any.whl
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-23 03:43:42] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-23 03:43:42] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230623/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:42] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230623/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-23 03:43:42] INFO root fetch - processPackages [poetry-plugin-package-info]: executing diffoscope
+[2023-06-23 03:43:42] INFO root fetch - processPackages [poetry-plugin-package-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_package_info-0.2.0.tar.gz tmp/poetry_plugin_package_info-0.2.2.tar.gz --markdown 20230623/p/poetry-plugin-package-info/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-06-23 03:43:42] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: Downloading https://files.pythonhosted.org/packages/c1/92/e19e09f72afb4687a457f93a78497d70f911ff20a95a5044e6823e110bcc/botocore-a-la-carte-lex-runtime-1.29.98.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [KergaAI]: executing diffoscope
+[2023-06-23 03:43:42] INFO root fetch - processPackages [KergaAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KergaAI-1.0.1-py3-none-any.whl.zip tmp/KergaAI-1.0.2-py3-none-any.whl.zip --markdown 20230623/K/KergaAI/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-23 03:43:42] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: Downloading https://files.pythonhosted.org/packages/1f/2a/a18f522911b319f9e20d54fb8b157f70cc1e34d0b014afdf5d8e4353604d/botocore-a-la-carte-lex-runtime-1.29.99.tar.gz
+[2023-06-23 03:43:42] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: executing diffoscope
+[2023-06-23 03:43:42] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-lex-runtime-1.29.98.tar.gz tmp/botocore-a-la-carte-lex-runtime-1.29.99.tar.gz --markdown 20230623/b/botocore-a-la-carte-lex-runtime/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:44] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [always-updates]: Start processing: botocore-a-la-carte-appstream
+[2023-06-23 03:43:44] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [KergaAI]: Remove: archive file [/home/abi/fetcher/tmp/KergaAI-1.0.1-py3-none-any.whl.zip]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [KergaAI]: Remove: archive file [/home/abi/fetcher/tmp/KergaAI-1.0.2-py3-none-any.whl.zip]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [KergaAI]: Start processing: botocore-a-la-carte-backup
+[2023-06-23 03:43:44] INFO root fetch - main [MainThread]: End processing [KergaAI]: success
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-backup]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [nbdev-django]: Start processing: botocore-a-la-carte-rekognition
+[2023-06-23 03:43:44] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: Downloading https://files.pythonhosted.org/packages/b2/cd/eda66e9edcfc03d13bd70533bf1728785e0ddfd7ed7bbb89a5bdc64d8908/botocore-a-la-carte-appstream-1.29.98.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [poetry-plugin-package-info]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_package_info-0.2.0.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [poetry-plugin-package-info]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_package_info-0.2.2.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [poetry-plugin-package-info]: Start processing: botocore-a-la-carte-sagemaker-runtime
+[2023-06-23 03:43:44] INFO root fetch - main [MainThread]: End processing [poetry-plugin-package-info]: success
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-backup]: Downloading https://files.pythonhosted.org/packages/1d/f7/3e419dbb5ab6f7684e92e78a355b569d612332ab516002cbbef222a72ec8/botocore-a-la-carte-backup-1.29.98.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-runtime]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: botocore-a-la-carte-pinpoint-sms-voice
+[2023-06-23 03:43:44] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-23 03:43:44] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.7.0.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.8.0.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [platformdirs]: Start processing: botocore-a-la-carte-mediastore-data
+[2023-06-23 03:43:44] INFO root fetch - main [MainThread]: End processing [platformdirs]: success
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-sms-voice]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lex-runtime-1.29.98.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-lex-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lex-runtime-1.29.99.tar.gz]
+[2023-06-23 03:43:44] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-lex-runtime]: success
+[2023-06-23 03:43:44] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-23 03:43:44] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-23 03:43:44] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: Downloading https://files.pythonhosted.org/packages/5b/fd/da07a24d57fa0b09bb35071f4a5edc6a36102e581c43aaec27cd631da7db/botocore-a-la-carte-rekognition-1.29.98.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-runtime]: Downloading https://files.pythonhosted.org/packages/b4/74/54d9d40984fc369a03c2ec482e15837a83df7ab584a1aa8b20f4ebe4d888/botocore-a-la-carte-sagemaker-runtime-1.29.98.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: Downloading https://files.pythonhosted.org/packages/c7/e6/79e976b09ca5b73b76142d60601205a158cdb481a7a34fe510fbc24a1fde/botocore-a-la-carte-appstream-1.29.99.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-sms-voice]: Downloading https://files.pythonhosted.org/packages/34/47/d9ab0e4e8654aa6bd2c71ca1ece36636965a8036997caaf1ba60b279c65c/botocore-a-la-carte-pinpoint-sms-voice-1.29.98.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: Downloading https://files.pythonhosted.org/packages/c0/6c/48fb1faa7cc9edb5b464569370f31eb3820b7ff555cb744fc80c1baf827f/botocore-a-la-carte-mediastore-data-1.29.98.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-backup]: Downloading https://files.pythonhosted.org/packages/f5/66/6ff11ce265ec1defd97a8791a41b3b5be4474b23556418d76b625dd16b57/botocore-a-la-carte-backup-1.29.99.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: executing diffoscope
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-appstream-1.29.98.tar.gz tmp/botocore-a-la-carte-appstream-1.29.99.tar.gz --markdown 20230623/b/botocore-a-la-carte-appstream/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-backup]: executing diffoscope
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-backup-1.29.98.tar.gz tmp/botocore-a-la-carte-backup-1.29.99.tar.gz --markdown 20230623/b/botocore-a-la-carte-backup/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: Downloading https://files.pythonhosted.org/packages/50/31/b8bf61b083e866fb39c8bcb591bf776e9d49546c47df029fa0966e051e84/botocore-a-la-carte-rekognition-1.29.99.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-runtime]: Downloading https://files.pythonhosted.org/packages/b3/26/1ee7f75b827622a204104522f102b428d70abad583e52b4c29bf86f87520/botocore-a-la-carte-sagemaker-runtime-1.29.99.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-runtime]: executing diffoscope
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: Downloading https://files.pythonhosted.org/packages/68/eb/9033bf45a0301911a7648498c89613c4dca8f3229e1b85a6f35de8580444/botocore-a-la-carte-mediastore-data-1.29.99.tar.gz
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sagemaker-runtime-1.29.98.tar.gz tmp/botocore-a-la-carte-sagemaker-runtime-1.29.99.tar.gz --markdown 20230623/b/botocore-a-la-carte-sagemaker-runtime/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: executing diffoscope
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-rekognition-1.29.98.tar.gz tmp/botocore-a-la-carte-rekognition-1.29.99.tar.gz --markdown 20230623/b/botocore-a-la-carte-rekognition/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:44] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-sms-voice]: Downloading https://files.pythonhosted.org/packages/4e/27/5843c4fb46c196aafcfa5a2dd624e69aaa8d35af80f25491ee9aab5ce7f1/botocore-a-la-carte-pinpoint-sms-voice-1.29.99.tar.gz
+[2023-06-23 03:43:45] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: executing diffoscope
+[2023-06-23 03:43:45] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-mediastore-data-1.29.98.tar.gz tmp/botocore-a-la-carte-mediastore-data-1.29.99.tar.gz --markdown 20230623/b/botocore-a-la-carte-mediastore-data/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:45] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-sms-voice]: executing diffoscope
+[2023-06-23 03:43:45] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-sms-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-pinpoint-sms-voice-1.29.98.tar.gz tmp/botocore-a-la-carte-pinpoint-sms-voice-1.29.99.tar.gz --markdown 20230623/b/botocore-a-la-carte-pinpoint-sms-voice/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-23 03:43:45] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-23 03:43:45] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-23 03:43:45] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-23 03:43:45] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-23 03:43:45] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-23 03:43:45] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-23 03:43:45] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-appstream-1.29.98.tar.gz]
+[2023-06-23 03:43:45] INFO root fetch - processPackages [botocore-a-la-carte-appstream]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-appstream-1.29.99.tar.gz]
+[2023-06-23 03:43:45] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-appstream]: success
+[2023-06-23 03:43:46] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-runtime-1.29.98.tar.gz]
+[2023-06-23 03:43:46] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-runtime-1.29.99.tar.gz]
+[2023-06-23 03:43:46] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sagemaker-runtime]: success
+[2023-06-23 03:43:46] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-rekognition-1.29.98.tar.gz]
+[2023-06-23 03:43:46] INFO root fetch - processPackages [botocore-a-la-carte-rekognition]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-rekognition-1.29.99.tar.gz]
+[2023-06-23 03:43:46] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-rekognition]: success
+[2023-06-23 03:43:46] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mediastore-data-1.29.98.tar.gz]
+[2023-06-23 03:43:46] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mediastore-data-1.29.99.tar.gz]
+[2023-06-23 03:43:46] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-mediastore-data]: success
+[2023-06-23 03:43:46] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-sms-voice]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-pinpoint-sms-voice-1.29.98.tar.gz]
+[2023-06-23 03:43:46] INFO root fetch - processPackages [botocore-a-la-carte-pinpoint-sms-voice]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-pinpoint-sms-voice-1.29.99.tar.gz]
+[2023-06-23 03:43:46] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-pinpoint-sms-voice]: success
+[2023-06-23 03:43:47] INFO root fetch - processPackages [botocore-a-la-carte-backup]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-backup-1.29.98.tar.gz]
+[2023-06-23 03:43:47] INFO root fetch - processPackages [botocore-a-la-carte-backup]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-backup-1.29.99.tar.gz]
+[2023-06-23 03:43:47] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-backup]: success
+[2023-06-23 03:43:48] INFO root fetch - main [MainThread]: Store serial: [18612273]
