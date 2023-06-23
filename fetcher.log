@@ -12566,3 +12566,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 10:49:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post861-py3-none-any.whl.zip]
 [2023-06-23 10:49:24] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-06-23 10:49:24] INFO root fetch - main [MainThread]: Store serial: [18615592]
+[2023-06-23 10:54:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615592]
+[2023-06-23 10:54:34] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-23 10:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-chad
+[2023-06-23 10:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NeuroTS
+[2023-06-23 10:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: base-image-handler
+[2023-06-23 10:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykeadhcp
+[2023-06-23 10:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-msgbuf
+[2023-06-23 10:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: instructure-dap-client
+[2023-06-23 10:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-web-field-required-invisible-manager
+[2023-06-23 10:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Digital-Forming-Solution
+[2023-06-23 10:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hera
+[2023-06-23 10:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hera-workflows
+[2023-06-23 10:54:34] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-23 10:54:34] INFO root fetch - processPackages [NeuroTS]: New version: [3.4.0] Old Version: [3.3.2]
+[2023-06-23 10:54:34] INFO root fetch - processPackages [pykeadhcp]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-23 10:54:34] INFO root fetch - processPackages [instructure-dap-client]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2023-06-23 10:54:34] INFO root fetch - processPackages [base-image-handler]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-23 10:54:34] INFO root fetch - processPackages [google-chad]: New version: [3.7] Old Version: [3.6]
+[2023-06-23 10:54:34] INFO root fetch - processPackages [hera]: New version: [5.5.1] Old Version: [5.5.0]
+[2023-06-23 10:54:34] WARNING root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: Skipping, unable to determine old version
+[2023-06-23 10:54:34] INFO root fetch - processPackages [Digital-Forming-Solution]: New version: [0.1.12] Old Version: [0.1]
+[2023-06-23 10:54:34] INFO root fetch - processPackages [odoo14-addon-web-field-required-invisible-manager]: Start processing: nucliadb-contributor-assets
+[2023-06-23 10:54:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-field-required-invisible-manager] error
+[2023-06-23 10:54:34] INFO root fetch - processPackages [hera-workflows]: New version: [5.5.1] Old Version: [5.5.0]
+[2023-06-23 10:54:34] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post862] Old Version: [1.0.0.post861]
+[2023-06-23 10:54:34] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/1f/c6/11c627c2437076c3c24638e1971f8b268d39e7c2c9b35bb36518b67e543b/pykeadhcp-0.5.0.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/8b/6d/aba0cdfaf92db748bc4193af37bedf58e6318f9426de94c2a3ebaca6f74a/nucliadb_contributor_assets-1.0.0.post861-py3-none-any.whl
+[2023-06-23 10:54:34] INFO root fetch - processPackages [google-chad]: Downloading https://files.pythonhosted.org/packages/99/54/4430f5d805f5cc370828bceab5db7a9aa58c7faf623f1004cecb4d535679/google-chad-3.6.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [NeuroTS]: Downloading https://files.pythonhosted.org/packages/f5/ad/575fba2e56a41d0e94ce8f5f0a0bebbb2d2f9faba4d61621522879ae6704/NeuroTS-3.3.2.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [base-image-handler]: Downloading https://files.pythonhosted.org/packages/92/50/e82c9d114494c877c32c5d00a00d1aba79b75e3e29247acb0b4f04e70561/base_image_handler-1.0.0.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: Downloading https://files.pythonhosted.org/packages/2c/2b/b55ea5901da436ec98e18901dfe41493d3bf116408f1e56961553573cb3a/nonebot-plugin-msgbuf-0.3.2.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/fd/a9/b501aa848f7fac86c92dd617bd0bb6e45ececc29e7edae25601b242a87e5/hera-5.5.0.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [instructure-dap-client]: Downloading https://files.pythonhosted.org/packages/14/91/1d14793794bb96d1a900bc6b09b965d865ae10ee1a3d951aaa882330e135/instructure-dap-client-0.3.8.2.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/f1/25/bca03d1056870f5260dda4112aff86df7806dc6fec3894311c9e83c42cb2/hera_workflows-5.5.0.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [Digital-Forming-Solution]: Downloading https://files.pythonhosted.org/packages/56/3b/649c7e08c94775254160990bdb39ce5b9055b2be9813d5ac253dc34ce986/Digital_Forming_Solution-0.1.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [google-chad]: Downloading https://files.pythonhosted.org/packages/16/d6/99370099150b70207ed33f47e408bc444254bb7d62564aba6937327bd163/google-chad-3.7.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/fe/b5/fcff4b1e343306b56452d9a60e452510c5f7a6e421f4f3f6680d17d1a039/nucliadb_contributor_assets-1.0.0.post862-py3-none-any.whl
+[2023-06-23 10:54:34] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: Downloading https://files.pythonhosted.org/packages/0e/4b/b6598a2a46e67be926b7f038e5af44866c6e7536d26a4a74e6563bf98f76/nonebot-plugin-msgbuf-0.4.0.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/37/47/d5b2b95652139c0de6a0db745d8bdb4ab03169eb04784f4e77741d372d5a/pykeadhcp-0.5.1.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [instructure-dap-client]: Downloading https://files.pythonhosted.org/packages/0f/ea/922ed44f05a79cd0b166fbbbefa9675542e8a0a42ef88a880d614cf0f5ab/instructure-dap-client-0.3.9.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/53/68/4f347ac5740f3d3b06ff64e5482e363f697bbd8835d1343d1e486b4b5046/hera-5.5.1.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [base-image-handler]: Downloading https://files.pythonhosted.org/packages/b1/2b/cc390223230edb991e4b5cb51d20880440b5e4ed468d03162b9cefaa9996/base_image_handler-1.0.1.tar.gz
+[2023-06-23 10:54:34] INFO root fetch - processPackages [Digital-Forming-Solution]: Downloading https://files.pythonhosted.org/packages/c1/80/cf59387b3aa12e7e28dbcf3ffe20f9d55ced53438c8eebf3a3226e2a5c47/Digital_Forming_Solution-0.1.12.tar.gz
+[2023-06-23 10:54:35] INFO root fetch - processPackages [google-chad]: executing diffoscope
+[2023-06-23 10:54:35] INFO root fetch - processPackages [google-chad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-chad-3.6.tar.gz tmp/google-chad-3.7.tar.gz --markdown 20230623/g/google-chad/3.6-3.7/diff.md --exclude *.pyd
+[2023-06-23 10:54:35] INFO root fetch - processPackages [NeuroTS]: Downloading https://files.pythonhosted.org/packages/38/68/90a75aa6857dfbeb5ed90f6fd4ca908a456a13d79240d8790e4b34a43fc5/NeuroTS-3.4.0.tar.gz
+[2023-06-23 10:54:35] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/88/32/17b955b3689a54e144b6c79db4e0ed7bee8e4d095ef404227af438746f82/hera_workflows-5.5.1.tar.gz
+[2023-06-23 10:54:35] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-23 10:54:35] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post861-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post862-py3-none-any.whl.zip --markdown 20230623/n/nucliadb-contributor-assets/1.0.0.post861-1.0.0.post862/diff.md --exclude *.pyd
+[2023-06-23 10:54:35] INFO root fetch - processPackages [hera]: executing diffoscope
+[2023-06-23 10:54:35] INFO root fetch - processPackages [hera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera-5.5.0.tar.gz tmp/hera-5.5.1.tar.gz --markdown 20230623/h/hera/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2023-06-23 10:54:35] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: executing diffoscope
+[2023-06-23 10:54:35] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-msgbuf-0.3.2.tar.gz tmp/nonebot-plugin-msgbuf-0.4.0.tar.gz --markdown 20230623/n/nonebot-plugin-msgbuf/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 10:54:35] INFO root fetch - processPackages [Digital-Forming-Solution]: executing diffoscope
+[2023-06-23 10:54:35] INFO root fetch - processPackages [Digital-Forming-Solution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digital_Forming_Solution-0.1.tar.gz tmp/Digital_Forming_Solution-0.1.12.tar.gz --markdown 20230623/D/Digital-Forming-Solution/0.1-0.1.12/diff.md --exclude *.pyd
+[2023-06-23 10:54:35] INFO root fetch - processPackages [pykeadhcp]: executing diffoscope
+[2023-06-23 10:54:35] INFO root fetch - processPackages [pykeadhcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeadhcp-0.5.0.tar.gz tmp/pykeadhcp-0.5.1.tar.gz --markdown 20230623/p/pykeadhcp/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-23 10:54:35] INFO root fetch - processPackages [base-image-handler]: executing diffoscope
+[2023-06-23 10:54:35] INFO root fetch - processPackages [base-image-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_image_handler-1.0.0.tar.gz tmp/base_image_handler-1.0.1.tar.gz --markdown 20230623/b/base-image-handler/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-23 10:54:35] INFO root fetch - processPackages [instructure-dap-client]: executing diffoscope
+[2023-06-23 10:54:35] INFO root fetch - processPackages [instructure-dap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructure-dap-client-0.3.8.2.tar.gz tmp/instructure-dap-client-0.3.9.tar.gz --markdown 20230623/i/instructure-dap-client/0.3.8.2-0.3.9/diff.md --exclude *.pyd
+[2023-06-23 10:54:35] INFO root fetch - processPackages [hera-workflows]: executing diffoscope
+[2023-06-23 10:54:35] INFO root fetch - processPackages [hera-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera_workflows-5.5.0.tar.gz tmp/hera_workflows-5.5.1.tar.gz --markdown 20230623/h/hera-workflows/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2023-06-23 10:54:35] INFO root fetch - processPackages [NeuroTS]: executing diffoscope
+[2023-06-23 10:54:35] INFO root fetch - processPackages [NeuroTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroTS-3.3.2.tar.gz tmp/NeuroTS-3.4.0.tar.gz --markdown 20230623/N/NeuroTS/3.3.2-3.4.0/diff.md --exclude *.pyd
+[2023-06-23 10:54:36] INFO root fetch - processPackages [google-chad]: Remove: archive file [/home/abi/fetcher/tmp/google-chad-3.6.tar.gz]
+[2023-06-23 10:54:36] INFO root fetch - processPackages [google-chad]: Remove: archive file [/home/abi/fetcher/tmp/google-chad-3.7.tar.gz]
+[2023-06-23 10:54:36] INFO root fetch - processPackages [google-chad]: Start processing: irene-pro
+[2023-06-23 10:54:36] INFO root fetch - main [MainThread]: End processing [google-chad]: success
+[2023-06-23 10:54:36] INFO root fetch - processPackages [irene-pro]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-06-23 10:54:36] INFO root fetch - processPackages [Digital-Forming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Forming_Solution-0.1.tar.gz]
+[2023-06-23 10:54:36] INFO root fetch - processPackages [Digital-Forming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Forming_Solution-0.1.12.tar.gz]
+[2023-06-23 10:54:36] INFO root fetch - processPackages [Digital-Forming-Solution]: Start processing: odoo-addon-product-pricelist-direct-print
+[2023-06-23 10:54:36] INFO root fetch - main [MainThread]: End processing [Digital-Forming-Solution]: success
+[2023-06-23 10:54:36] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-msgbuf-0.3.2.tar.gz]
+[2023-06-23 10:54:36] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-msgbuf-0.4.0.tar.gz]
+[2023-06-23 10:54:36] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: Start processing: odoo-addon-product-pricelist-direct-print-xlsx
+[2023-06-23 10:54:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-msgbuf]: success
+[2023-06-23 10:54:36] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: New version: [16.0.1.0.0.10] Old Version: [15.0.1.1.0.1]
+[2023-06-23 10:54:36] WARNING root fetch - processPackages [odoo-addon-product-pricelist-direct-print-xlsx]: Skipping, unable to determine old version
+[2023-06-23 10:54:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-direct-print-xlsx] error
+[2023-06-23 10:54:36] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/1e/b3/7b3ec03b0d4763326019e09a3e089f543a83f4db485e8dea3f99c7f2491c/irene_pro-0.0.68.tar.gz
+[2023-06-23 10:54:37] INFO root fetch - processPackages [base-image-handler]: Remove: archive file [/home/abi/fetcher/tmp/base_image_handler-1.0.0.tar.gz]
+[2023-06-23 10:54:37] INFO root fetch - processPackages [base-image-handler]: Remove: archive file [/home/abi/fetcher/tmp/base_image_handler-1.0.1.tar.gz]
+[2023-06-23 10:54:37] INFO root fetch - main [MainThread]: End processing [base-image-handler]: success
+[2023-06-23 10:54:37] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.5.0.tar.gz]
+[2023-06-23 10:54:37] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.5.1.tar.gz]
+[2023-06-23 10:54:37] INFO root fetch - main [MainThread]: End processing [pykeadhcp]: success
+[2023-06-23 10:54:37] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Downloading https://files.pythonhosted.org/packages/ff/ad/86ab033b766d94e490867cf8579d9772474f3acdc5f40cb500f778fc8a87/odoo_addon_product_pricelist_direct_print-15.0.1.1.0.1-py3-none-any.whl
+[2023-06-23 10:54:37] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f0/d6/483ac32f0f9bbbc11c651b12494bfdfa27bb988ecfa6d6c972c8d5327b7b/irene_pro-0.0.69.tar.gz
+[2023-06-23 10:54:37] INFO root fetch - processPackages [hera]: Remove: archive file [/home/abi/fetcher/tmp/hera-5.5.0.tar.gz]
+[2023-06-23 10:54:37] INFO root fetch - processPackages [hera]: Remove: archive file [/home/abi/fetcher/tmp/hera-5.5.1.tar.gz]
+[2023-06-23 10:54:37] INFO root fetch - main [MainThread]: End processing [hera]: success
+[2023-06-23 10:54:37] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-23 10:54:37] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.68.tar.gz tmp/irene_pro-0.0.69.tar.gz --markdown 20230623/i/irene-pro/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-06-23 10:54:37] INFO root fetch - processPackages [instructure-dap-client]: Remove: archive file [/home/abi/fetcher/tmp/instructure-dap-client-0.3.8.2.tar.gz]
+[2023-06-23 10:54:37] INFO root fetch - processPackages [instructure-dap-client]: Remove: archive file [/home/abi/fetcher/tmp/instructure-dap-client-0.3.9.tar.gz]
+[2023-06-23 10:54:37] INFO root fetch - main [MainThread]: End processing [instructure-dap-client]: success
+[2023-06-23 10:54:37] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Downloading https://files.pythonhosted.org/packages/24/16/bcebafb96b4d1a5cd5f288deac093003bdb9e9d6a39a9ca9323b54a6f6a7/odoo_addon_product_pricelist_direct_print-16.0.1.0.0.10-py3-none-any.whl
+[2023-06-23 10:54:37] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: executing diffoscope
+[2023-06-23 10:54:37] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_direct_print-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_direct_print-16.0.1.0.0.10-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-product-pricelist-direct-print/15.0.1.1.0.1-16.0.1.0.0.10/diff.md --exclude *.pyd
+[2023-06-23 10:54:38] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.68.tar.gz]
+[2023-06-23 10:54:38] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.69.tar.gz]
+[2023-06-23 10:54:38] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-23 10:54:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post861-py3-none-any.whl.zip]
+[2023-06-23 10:54:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post862-py3-none-any.whl.zip]
+[2023-06-23 10:54:38] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-23 10:54:38] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_direct_print-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-23 10:54:38] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_direct_print-16.0.1.0.0.10-py3-none-any.whl.zip]
+[2023-06-23 10:54:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-direct-print]: success
+[2023-06-23 10:54:40] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.5.0.tar.gz]
+[2023-06-23 10:54:40] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.5.1.tar.gz]
+[2023-06-23 10:54:40] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
+[2023-06-23 10:54:42] INFO root fetch - processPackages [NeuroTS]: Remove: archive file [/home/abi/fetcher/tmp/NeuroTS-3.3.2.tar.gz]
+[2023-06-23 10:54:42] INFO root fetch - processPackages [NeuroTS]: Remove: archive file [/home/abi/fetcher/tmp/NeuroTS-3.4.0.tar.gz]
+[2023-06-23 10:54:42] INFO root fetch - main [MainThread]: End processing [NeuroTS]: success
+[2023-06-23 10:54:42] INFO root fetch - main [MainThread]: Store serial: [18615634]
