@@ -20386,3 +20386,97 @@ EOFError: EOF read where object expected
 [2023-06-23 16:16:19] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.9.tar.gz]
 [2023-06-23 16:16:19] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-06-23 16:16:19] INFO root fetch - main [MainThread]: Store serial: [18618917]
+[2023-06-23 16:21:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18618917]
+[2023-06-23 16:21:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: impy-array
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thipstercli
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ocfworker
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alns
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dipense
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thipstercli
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GPTConnect
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bytecodemanipulation
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clear-skies
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mloptimizer
+[2023-06-23 16:21:29] INFO root fetch - processPackages [thipstercli]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-23 16:21:29] INFO root fetch - processPackages [thipstercli]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-23 16:21:29] INFO root fetch - processPackages [GPTConnect]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 16:21:29] INFO root fetch - processPackages [impy-array]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-06-23 16:21:29] WARNING root fetch - processPackages [ocfworker]: Skipping, unable to determine old version
+[2023-06-23 16:21:29] INFO root fetch - processPackages [ocfworker]: Start processing: saagieapi
+[2023-06-23 16:21:29] INFO root fetch - main [MainThread]: End processing [ocfworker] error
+[2023-06-23 16:21:29] INFO root fetch - processPackages [dipense]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 16:21:29] INFO root fetch - processPackages [alns]: New version: [5.3.0] Old Version: [5.2.0]
+[2023-06-23 16:21:29] INFO root fetch - processPackages [dipense]: Downloading https://files.pythonhosted.org/packages/8c/4f/1f1754c275876d467bdcfcf48d5308c6c4b903df47614568920e5992d3fd/dipense-0.1.2.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/73/dc/991002bccb4d935d90c8ee0480b12e3e1b8b909baefab583532e3ef9a2a7/GPTConnect-0.1.2.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [bytecodemanipulation]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-06-23 16:21:29] INFO root fetch - processPackages [mloptimizer]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-23 16:21:29] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/2f/e8/3a9888281b9913bf38d9debb89a775f284464714cb3c0ea46b4eb8dc8629/thipstercli-0.5.2.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/2f/e8/3a9888281b9913bf38d9debb89a775f284464714cb3c0ea46b4eb8dc8629/thipstercli-0.5.2.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [saagieapi]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-06-23 16:21:29] INFO root fetch - processPackages [alns]: Downloading https://files.pythonhosted.org/packages/71/e2/9b96829971ec91f26cdfe5ba80331c469c5920c79687a87a5a99a82623b4/alns-5.2.0.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [impy-array]: Downloading https://files.pythonhosted.org/packages/b1/46/defbb151712bf7e6208f1417fb57af1d103cae9d44263e91f87d3e95e39a/impy_array-2.2.5.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-23 16:21:29] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/5f/53/d82da2babd8c7a1b543db5b27e052e445b06bedd5e818a078957c4c11ff3/GPTConnect-0.1.3.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [bytecodemanipulation]: Downloading https://files.pythonhosted.org/packages/ab/a7/a3e55fdcd457745c0dbfd81afb08978e409d93d81e5b578bee3b9f7595fc/bytecodemanipulation-0.3.1.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [mloptimizer]: Downloading https://files.pythonhosted.org/packages/7c/82/27cc245b7097cb0905ff3c679f07535f12fc75b8218834e3859a77aafa67/mloptimizer-0.5.6.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [dipense]: Downloading https://files.pythonhosted.org/packages/7a/20/90627b92d17a9f8bb7c07c9995cf6b70bc7cf3623f0d80e3b0574e26cb02/dipense-0.1.3.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/2d/35/b14c458dd4542589944d3b3ce44ffd082b8bd86810ef58739285ef12a68e/thipstercli-0.5.3.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/2d/35/b14c458dd4542589944d3b3ce44ffd082b8bd86810ef58739285ef12a68e/thipstercli-0.5.3.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [dipense]: executing diffoscope
+[2023-06-23 16:21:29] INFO root fetch - processPackages [dipense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipense-0.1.2.tar.gz tmp/dipense-0.1.3.tar.gz --markdown 20230623/d/dipense/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 16:21:29] INFO root fetch - processPackages [saagieapi]: Downloading https://files.pythonhosted.org/packages/ba/c2/04630b3963759267725bd689558370f8d68b2aa6a56aa862617d54041115/saagieapi-2.5.0.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [GPTConnect]: executing diffoscope
+[2023-06-23 16:21:29] INFO root fetch - processPackages [GPTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTConnect-0.1.2.tar.gz tmp/GPTConnect-0.1.3.tar.gz --markdown 20230623/G/GPTConnect/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 16:21:29] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-23 16:21:29] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.5.2.tar.gz tmp/thipstercli-0.5.3.tar.gz --markdown 20230623/t/thipstercli/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-23 16:21:29] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-23 16:21:29] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.5.2.tar.gz tmp/thipstercli-0.5.3.tar.gz --markdown 20230623/t/thipstercli/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-23 16:21:29] INFO root fetch - processPackages [alns]: Downloading https://files.pythonhosted.org/packages/9f/4e/03a5b8128087e3b21fd51f5e3bd9395263b505d57914b9b33713fd712f68/alns-5.3.0.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [impy-array]: Downloading https://files.pythonhosted.org/packages/bf/13/53a22fd52426c9aab7878926089e2a754b3574d217535fc5862ea9df3c74/impy_array-2.2.6.tar.gz
+[2023-06-23 16:21:29] INFO root fetch - processPackages [alns]: executing diffoscope
+[2023-06-23 16:21:29] INFO root fetch - processPackages [alns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alns-5.2.0.tar.gz tmp/alns-5.3.0.tar.gz --markdown 20230623/a/alns/5.2.0-5.3.0/diff.md --exclude *.pyd
+[2023-06-23 16:21:29] INFO root fetch - processPackages [mloptimizer]: Downloading https://files.pythonhosted.org/packages/be/17/295bfa7a87169cf2f0ddab3b904c4f697063e23a3dd4d40ca7db0465bbca/mloptimizer-0.5.7.tar.gz
+[2023-06-23 16:21:30] INFO root fetch - processPackages [bytecodemanipulation]: Downloading https://files.pythonhosted.org/packages/28/a4/aa98101a41429ef8a879415dc55406cf6f9a73bf2280e83151ba08cb2d58/bytecodemanipulation-0.3.3.tar.gz
+[2023-06-23 16:21:30] INFO root fetch - processPackages [impy-array]: executing diffoscope
+[2023-06-23 16:21:30] INFO root fetch - processPackages [impy-array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impy_array-2.2.5.tar.gz tmp/impy_array-2.2.6.tar.gz --markdown 20230623/i/impy-array/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-06-23 16:21:30] INFO root fetch - processPackages [saagieapi]: Downloading https://files.pythonhosted.org/packages/ca/5d/6d2bb6d23f9425920740616c8c90338b39e717f1324485c938efb54e6db0/saagieapi-2.6.0.tar.gz
+[2023-06-23 16:21:30] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2023-06-23 16:21:30] INFO root fetch - processPackages [mloptimizer]: executing diffoscope
+[2023-06-23 16:21:30] INFO root fetch - processPackages [mloptimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mloptimizer-0.5.6.tar.gz tmp/mloptimizer-0.5.7.tar.gz --markdown 20230623/m/mloptimizer/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-23 16:21:30] INFO root fetch - processPackages [bytecodemanipulation]: executing diffoscope
+[2023-06-23 16:21:30] INFO root fetch - processPackages [bytecodemanipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytecodemanipulation-0.3.1.tar.gz tmp/bytecodemanipulation-0.3.3.tar.gz --markdown 20230623/b/bytecodemanipulation/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-06-23 16:21:30] INFO root fetch - processPackages [saagieapi]: executing diffoscope
+[2023-06-23 16:21:30] INFO root fetch - processPackages [saagieapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saagieapi-2.5.0.tar.gz tmp/saagieapi-2.6.0.tar.gz --markdown 20230623/s/saagieapi/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-06-23 16:21:30] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-06-23 16:21:30] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230623/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-23 16:21:31] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.2.tar.gz]
+[2023-06-23 16:21:31] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.3.tar.gz]
+[2023-06-23 16:21:31] INFO root fetch - main [MainThread]: End processing [GPTConnect]: success
+[2023-06-23 16:21:31] INFO root fetch - processPackages [dipense]: Remove: archive file [/home/abi/fetcher/tmp/dipense-0.1.2.tar.gz]
+[2023-06-23 16:21:31] INFO root fetch - processPackages [dipense]: Remove: archive file [/home/abi/fetcher/tmp/dipense-0.1.3.tar.gz]
+[2023-06-23 16:21:31] INFO root fetch - main [MainThread]: End processing [dipense]: success
+[2023-06-23 16:21:31] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.2.tar.gz]
+[2023-06-23 16:21:31] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.3.tar.gz]
+[2023-06-23 16:21:31] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-23 16:21:31] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-23 16:21:32] INFO root fetch - processPackages [impy-array]: Remove: archive file [/home/abi/fetcher/tmp/impy_array-2.2.5.tar.gz]
+[2023-06-23 16:21:32] INFO root fetch - processPackages [impy-array]: Remove: archive file [/home/abi/fetcher/tmp/impy_array-2.2.6.tar.gz]
+[2023-06-23 16:21:32] INFO root fetch - main [MainThread]: End processing [impy-array]: success
+[2023-06-23 16:21:32] INFO root fetch - processPackages [saagieapi]: Remove: archive file [/home/abi/fetcher/tmp/saagieapi-2.5.0.tar.gz]
+[2023-06-23 16:21:32] INFO root fetch - processPackages [saagieapi]: Remove: archive file [/home/abi/fetcher/tmp/saagieapi-2.6.0.tar.gz]
+[2023-06-23 16:21:32] INFO root fetch - main [MainThread]: End processing [saagieapi]: success
+[2023-06-23 16:21:32] INFO root fetch - processPackages [alns]: Remove: archive file [/home/abi/fetcher/tmp/alns-5.2.0.tar.gz]
+[2023-06-23 16:21:32] INFO root fetch - processPackages [alns]: Remove: archive file [/home/abi/fetcher/tmp/alns-5.3.0.tar.gz]
+[2023-06-23 16:21:32] INFO root fetch - main [MainThread]: End processing [alns]: success
+[2023-06-23 16:21:32] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.8.0.tar.gz]
+[2023-06-23 16:21:32] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
+[2023-06-23 16:21:32] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-06-23 16:21:33] INFO root fetch - processPackages [bytecodemanipulation]: Remove: archive file [/home/abi/fetcher/tmp/bytecodemanipulation-0.3.1.tar.gz]
+[2023-06-23 16:21:33] INFO root fetch - processPackages [bytecodemanipulation]: Remove: archive file [/home/abi/fetcher/tmp/bytecodemanipulation-0.3.3.tar.gz]
+[2023-06-23 16:21:33] INFO root fetch - main [MainThread]: End processing [bytecodemanipulation]: success
+[2023-06-23 16:21:33] INFO root fetch - processPackages [mloptimizer]: Remove: archive file [/home/abi/fetcher/tmp/mloptimizer-0.5.6.tar.gz]
+[2023-06-23 16:21:33] INFO root fetch - processPackages [mloptimizer]: Remove: archive file [/home/abi/fetcher/tmp/mloptimizer-0.5.7.tar.gz]
+[2023-06-23 16:21:33] INFO root fetch - main [MainThread]: End processing [mloptimizer]: success
+[2023-06-23 16:21:33] INFO root fetch - main [MainThread]: Store serial: [18618952]
