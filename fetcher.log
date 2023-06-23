@@ -12509,3 +12509,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 10:44:00] INFO root fetch - processPackages [enable]: Remove: archive file [/home/abi/fetcher/tmp/enable-6.0.0.tar.gz]
 [2023-06-23 10:44:00] INFO root fetch - main [MainThread]: End processing [enable]: success
 [2023-06-23 10:44:00] INFO root fetch - main [MainThread]: Store serial: [18615577]
+[2023-06-23 10:49:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615577]
+[2023-06-23 10:49:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-23 10:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2023-06-23 10:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytodotxt
+[2023-06-23 10:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-contributor-assets
+[2023-06-23 10:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smart-app-framework
+[2023-06-23 10:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linkspace
+[2023-06-23 10:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalm
+[2023-06-23 10:49:10] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 10:49:10] INFO root fetch - processPackages [linkspace]: New version: [0.3.0rc1] Old Version: [0.1.4]
+[2023-06-23 10:49:10] INFO root fetch - processPackages [pytodotxt]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-06-23 10:49:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post861] Old Version: [1.0.0.post860]
+[2023-06-23 10:49:10] INFO root fetch - processPackages [smart-app-framework]: New version: [2.2.0rc4] Old Version: [2.2.0rc3]
+[2023-06-23 10:49:10] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-23 10:49:10] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 10:49:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/14/98/fb4feb2a2812c3a8fde1fcd70cd909d4bf4dd692cf427432549002ac1aa6/nucliadb_contributor_assets-1.0.0.post860-py3-none-any.whl
+[2023-06-23 10:49:10] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-23 10:49:10] INFO root fetch - processPackages [pytodotxt]: Downloading https://files.pythonhosted.org/packages/f2/43/d1e59104a00f8edd21c676e19c4cec82a15ed1b10e4ff22f5d82d78fb247/pytodotxt-1.4.3.tar.gz
+[2023-06-23 10:49:10] INFO root fetch - processPackages [linkspace]: Downloading https://files.pythonhosted.org/packages/73/66/b51147b825b2bad1af10dc13ac68ed646ae4e5b2f01ad01397d7cf4c6fce/linkspace-0.1.4.tar.gz
+[2023-06-23 10:49:10] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/10/5b/9ceac9e6cc32dd6d1bc5a761223b03c2719adb8f8cdea535b2199850eaa5/smart_app_framework-2.2.0rc3-py3-none-any.whl
+[2023-06-23 10:49:10] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 10:49:10] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 10:49:10] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 10:49:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/8b/6d/aba0cdfaf92db748bc4193af37bedf58e6318f9426de94c2a3ebaca6f74a/nucliadb_contributor_assets-1.0.0.post861-py3-none-any.whl
+[2023-06-23 10:49:10] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/fc/d8/d4a3c5b1c601fce29a734e7722866672ecab6fdd8204e7c983754136c73d/smart_app_framework-2.2.0rc4-py3-none-any.whl
+[2023-06-23 10:49:10] INFO root fetch - processPackages [linkspace]: Downloading https://files.pythonhosted.org/packages/f4/93/fbe62241551d4f37717dad42934d9b74673d40f511e05f108e46560ccae8/linkspace-0.3.0rc1.tar.gz
+[2023-06-23 10:49:10] INFO root fetch - processPackages [pytodotxt]: Downloading https://files.pythonhosted.org/packages/51/18/a8f4d15eb31bcde441b0ec090c5d97c435beabc9620199e7f90d2f5ad1af/pytodotxt-1.5.0.tar.gz
+[2023-06-23 10:49:10] INFO root fetch - processPackages [linkspace]: executing diffoscope
+[2023-06-23 10:49:10] INFO root fetch - processPackages [linkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkspace-0.1.4.tar.gz tmp/linkspace-0.3.0rc1.tar.gz --markdown 20230623/l/linkspace/0.1.4-0.3.0rc1/diff.md --exclude *.pyd
+[2023-06-23 10:49:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-23 10:49:10] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post860-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post861-py3-none-any.whl.zip --markdown 20230623/n/nucliadb-contributor-assets/1.0.0.post860-1.0.0.post861/diff.md --exclude *.pyd
+[2023-06-23 10:49:10] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-06-23 10:49:10] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.2.0rc3-py3-none-any.whl.zip tmp/smart_app_framework-2.2.0rc4-py3-none-any.whl.zip --markdown 20230623/s/smart-app-framework/2.2.0rc3-2.2.0rc4/diff.md --exclude *.pyd
+[2023-06-23 10:49:11] INFO root fetch - processPackages [pytodotxt]: executing diffoscope
+[2023-06-23 10:49:11] INFO root fetch - processPackages [pytodotxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytodotxt-1.4.3.tar.gz tmp/pytodotxt-1.5.0.tar.gz --markdown 20230623/p/pytodotxt/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-06-23 10:49:11] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-23 10:49:11] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-23 10:49:11] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230623/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-23 10:49:11] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 10:49:11] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 10:49:11] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 10:49:12] INFO root fetch - processPackages [pytodotxt]: Remove: archive file [/home/abi/fetcher/tmp/pytodotxt-1.4.3.tar.gz]
+[2023-06-23 10:49:12] INFO root fetch - processPackages [pytodotxt]: Remove: archive file [/home/abi/fetcher/tmp/pytodotxt-1.5.0.tar.gz]
+[2023-06-23 10:49:12] INFO root fetch - main [MainThread]: End processing [pytodotxt]: success
+[2023-06-23 10:49:14] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.2.0rc3-py3-none-any.whl.zip]
+[2023-06-23 10:49:14] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.2.0rc4-py3-none-any.whl.zip]
+[2023-06-23 10:49:14] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-06-23 10:49:16] INFO root fetch - processPackages [linkspace]: Remove: archive file [/home/abi/fetcher/tmp/linkspace-0.1.4.tar.gz]
+[2023-06-23 10:49:16] INFO root fetch - processPackages [linkspace]: Remove: archive file [/home/abi/fetcher/tmp/linkspace-0.3.0rc1.tar.gz]
+[2023-06-23 10:49:16] INFO root fetch - main [MainThread]: End processing [linkspace]: success
+[2023-06-23 10:49:24] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-23 10:49:24] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-23 10:49:24] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-23 10:49:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post860-py3-none-any.whl.zip]
+[2023-06-23 10:49:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post861-py3-none-any.whl.zip]
+[2023-06-23 10:49:24] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-23 10:49:24] INFO root fetch - main [MainThread]: Store serial: [18615592]
