@@ -14090,3 +14090,165 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 11:55:23] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-1.0.5.tar.gz]
 [2023-06-23 11:55:23] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-06-23 11:55:23] INFO root fetch - main [MainThread]: Store serial: [18616283]
+[2023-06-23 12:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616283]
+[2023-06-23 12:00:32] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-23 12:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cluster-experiments
+[2023-06-23 12:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prot
+[2023-06-23 12:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snort-web-master
+[2023-06-23 12:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JustScan
+[2023-06-23 12:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitlint-core
+[2023-06-23 12:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gitlint
+[2023-06-23 12:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apache-airflow-providers-prophecy
+[2023-06-23 12:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: buteo
+[2023-06-23 12:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-base
+[2023-06-23 12:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-cli
+[2023-06-23 12:00:32] INFO root fetch - processPackages [cluster-experiments]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-23 12:00:32] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-06-23 12:00:32] INFO root fetch - processPackages [snort-web-master]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2023-06-23 12:00:32] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-23 12:00:32] WARNING root fetch - processPackages [apache-airflow-providers-prophecy]: Skipping, unable to determine old version
+[2023-06-23 12:00:32] INFO root fetch - processPackages [apache-airflow-providers-prophecy]: Start processing: gardener-cicd-dso
+[2023-06-23 12:00:32] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-prophecy] error
+[2023-06-23 12:00:32] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 12:00:32] INFO root fetch - processPackages [prot]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-06-23 12:00:32] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2091.0] Old Version: [1.2090.0]
+[2023-06-23 12:00:32] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2091.0] Old Version: [1.2090.0]
+[2023-06-23 12:00:32] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-23 12:00:32] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2091.0] Old Version: [1.2090.0]
+[2023-06-23 12:00:32] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-06-23 12:00:32] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/eb/6d/3d6ff159900f495b1eba950be2f709eea77204e900ab2f44f5f8ede5a0b3/gardener-cicd-base-1.2090.0.tar.gz
+[2023-06-23 12:00:32] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-06-23 12:00:32] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/2f/ac/dacb34458023d65e147ccecbd6abb57da9a0a7ddd55965e65ad4b0ae9181/gardener-cicd-dso-1.2090.0.tar.gz
+[2023-06-23 12:00:32] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/6e/7d/1b3f3da88430f6485ba5e450c4bcc853c63135fd5ccb2ac532ae45c311cd/gardener-cicd-cli-1.2090.0.tar.gz
+[2023-06-23 12:00:32] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-23 12:00:32] INFO root fetch - processPackages [snort-web-master]: Downloading https://files.pythonhosted.org/packages/c6/7f/72204fa890da3210fb7618339af6b02a056739541ddf4884fb3224befc68/snort_web_master-1.0.0.1.tar.gz
+[2023-06-23 12:00:32] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/5f/03/8c64016f07cd05d06cfc7431563abf72b878f164205c259493e786328e54/cluster_experiments-0.9.0.tar.gz
+[2023-06-23 12:00:32] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-23 12:00:32] INFO root fetch - processPackages [prot]: Downloading https://files.pythonhosted.org/packages/b6/24/d2568ac952afd6bfd260c053c56596d3a494302aee5d23bd15927f77718d/prot-3.9.1.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/af/a9/4b2bb6e7fb15ea64b129119affe929cfb8b87a7539d841db233d03d3842b/gardener-cicd-cli-1.2091.0.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/11/b9/bb4736b410efb35571759f7619d3cb34bf33b863ff36842224754d1406fa/gardener-cicd-base-1.2091.0.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/05/a8/44139c7bfe19c2fb1a4daef94b2c6b155953d33c3cf35172d559167d2787/gardener-cicd-dso-1.2091.0.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230623/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-06-23 12:00:33] INFO root fetch - processPackages [snort-web-master]: Downloading https://files.pythonhosted.org/packages/57/70/c672709507105a5504a53f20db06b574bfe8f762fd7e72e8eb4f2269b456/snort_web_master-1.0.0.2.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230623/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2090.0.tar.gz tmp/gardener-cicd-cli-1.2091.0.tar.gz --markdown 20230623/g/gardener-cicd-cli/1.2090.0-1.2091.0/diff.md --exclude *.pyd
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2090.0.tar.gz tmp/gardener-cicd-dso-1.2091.0.tar.gz --markdown 20230623/g/gardener-cicd-dso/1.2090.0-1.2091.0/diff.md --exclude *.pyd
+[2023-06-23 12:00:33] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-23 12:00:33] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230623/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-23 12:00:33] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2090.0.tar.gz tmp/gardener-cicd-base-1.2091.0.tar.gz --markdown 20230623/g/gardener-cicd-base/1.2090.0-1.2091.0/diff.md --exclude *.pyd
+[2023-06-23 12:00:33] INFO root fetch - processPackages [snort-web-master]: executing diffoscope
+[2023-06-23 12:00:33] INFO root fetch - processPackages [snort-web-master]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snort_web_master-1.0.0.1.tar.gz tmp/snort_web_master-1.0.0.2.tar.gz --markdown 20230623/s/snort-web-master/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2023-06-23 12:00:33] INFO root fetch - processPackages [prot]: Downloading https://files.pythonhosted.org/packages/f2/f5/3430bf6ab37bc4ecfecb9711eeae0db1d38640f43fb887a8ab179f9fc0a4/prot-3.9.2.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/79/1b/2879e29c43e6f62a2a1220a5fe132d28c2e5973201cee57278fe6283acf0/cluster_experiments-0.9.1.tar.gz
+[2023-06-23 12:00:33] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-23 12:00:33] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230623/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 12:00:33] INFO root fetch - processPackages [prot]: executing diffoscope
+[2023-06-23 12:00:33] INFO root fetch - processPackages [prot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prot-3.9.1.tar.gz tmp/prot-3.9.2.tar.gz --markdown 20230623/p/prot/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-06-23 12:00:33] INFO root fetch - processPackages [cluster-experiments]: executing diffoscope
+[2023-06-23 12:00:33] INFO root fetch - processPackages [cluster-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_experiments-0.9.0.tar.gz tmp/cluster_experiments-0.9.1.tar.gz --markdown 20230623/c/cluster-experiments/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-23 12:00:34] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-06-23 12:00:34] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-06-23 12:00:34] INFO root fetch - processPackages [gitlint]: Start processing: gardener-cicd-libs
+[2023-06-23 12:00:34] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-06-23 12:00:34] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-06-23 12:00:34] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-06-23 12:00:34] INFO root fetch - processPackages [gitlint-core]: Start processing: datamazing
+[2023-06-23 12:00:34] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-06-23 12:00:34] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2091.0] Old Version: [1.2090.0]
+[2023-06-23 12:00:34] INFO root fetch - processPackages [datamazing]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 12:00:34] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/df/c3/b83cbf6572cc5f77e5e1c0fb9db083e880e1fe9ff91ba340effee0944ab0/gardener-cicd-libs-1.2090.0.tar.gz
+[2023-06-23 12:00:34] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/4d/14/803f965ba7381a345e9e7f336b4394f4f07a0512c1a48aa9bb9b8505560c/datamazing-0.0.4.tar.gz
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2090.0.tar.gz]
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2091.0.tar.gz]
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: gardener-cicd-whd
+[2023-06-23 12:00:35] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-23 12:00:35] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/1e/33/23056f43811daa293320eb3b805304e5ea1a96702b5977eef12b2c0c20f0/datamazing-0.0.5.tar.gz
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2091.0] Old Version: [1.2090.0]
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/80/65/4d520e1b184b757ce9b3f9bc067a907362e06780d5f023b99abfbb1338b1/gardener-cicd-libs-1.2091.0.tar.gz
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2090.0.tar.gz]
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2091.0.tar.gz]
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: gardener-oci
+[2023-06-23 12:00:35] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/63/ac/e17a8a1358730a9047ad461ef542d242b37788c7cf52f01db17383d78333/gardener-cicd-whd-1.2090.0.tar.gz
+[2023-06-23 12:00:35] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-06-23 12:00:35] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-0.0.4.tar.gz tmp/datamazing-0.0.5.tar.gz --markdown 20230623/d/datamazing/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2090.0.tar.gz tmp/gardener-cicd-libs-1.2091.0.tar.gz --markdown 20230623/g/gardener-cicd-libs/1.2090.0-1.2091.0/diff.md --exclude *.pyd
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2090.0.tar.gz]
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2091.0.tar.gz]
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: exem-vault
+[2023-06-23 12:00:35] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/ac/16/66ef1fd6d8293fd90ebde4e141244c635ae27b7de3f90c4c95ed3a7bf218/gardener-cicd-whd-1.2091.0.tar.gz
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2090.0.tar.gz tmp/gardener-cicd-whd-1.2091.0.tar.gz --markdown 20230623/g/gardener-cicd-whd/1.2090.0-1.2091.0/diff.md --exclude *.pyd
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-23 12:00:35] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230623/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-23 12:00:35] WARNING root fetch - processPackages [exem-vault]: Skipping, unable to determine old version
+[2023-06-23 12:00:35] INFO root fetch - processPackages [exem-vault]: Start processing: breeze-strategies
+[2023-06-23 12:00:35] INFO root fetch - main [MainThread]: End processing [exem-vault] error
+[2023-06-23 12:00:35] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-23 12:00:35] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/91/11/84a145b0dbcc9429da350e26c9525e01d91c38139d89a6da1a6c67258c28/breeze_strategies-6.0.8.tar.gz
+[2023-06-23 12:00:35] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/f9/af/eabc809d79f5eb400c5adcfb3b8a37476ff43336c479ff30b19e6db3f61b/breeze_strategies-6.0.9.tar.gz
+[2023-06-23 12:00:35] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-23 12:00:35] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.8.tar.gz tmp/breeze_strategies-6.0.9.tar.gz --markdown 20230623/b/breeze-strategies/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-23 12:00:36] INFO root fetch - processPackages [cluster-experiments]: Remove: archive file [/home/abi/fetcher/tmp/cluster_experiments-0.9.0.tar.gz]
+[2023-06-23 12:00:36] INFO root fetch - processPackages [cluster-experiments]: Remove: archive file [/home/abi/fetcher/tmp/cluster_experiments-0.9.1.tar.gz]
+[2023-06-23 12:00:36] INFO root fetch - processPackages [cluster-experiments]: Start processing: retro-data-structures
+[2023-06-23 12:00:36] INFO root fetch - main [MainThread]: End processing [cluster-experiments]: success
+[2023-06-23 12:00:36] INFO root fetch - processPackages [retro-data-structures]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-23 12:00:36] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-0.0.4.tar.gz]
+[2023-06-23 12:00:36] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-0.0.5.tar.gz]
+[2023-06-23 12:00:36] INFO root fetch - processPackages [datamazing]: Start processing: deepset-cloud-sdk
+[2023-06-23 12:00:36] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-06-23 12:00:36] INFO root fetch - processPackages [deepset-cloud-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 12:00:36] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/14/c8/fb99fe2074a617dd0f0d6145736aabd55c62863f640e03e31eecb6c1bc89/retro-data-structures-0.8.0.tar.gz
+[2023-06-23 12:00:36] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2090.0.tar.gz]
+[2023-06-23 12:00:36] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2091.0.tar.gz]
+[2023-06-23 12:00:36] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-23 12:00:36] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/bb/89/7a79dfa443184d2422ab56cd9d89df9a1ca6b30f6bb8a6cafea6a4c0937b/deepset_cloud_sdk-0.0.8.tar.gz
+[2023-06-23 12:00:36] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-23 12:00:36] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-23 12:00:36] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-23 12:00:36] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/95/99/3fc33634a4abebfc4c59c9a4a2274b5672a2f14c64b176626a92a4ddf88b/retro-data-structures-0.9.0.tar.gz
+[2023-06-23 12:00:37] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/33/fd/ab1e82f0b8ab4c7e6f30c92135a88a4dff8a164768c68401129a7678bb5b/deepset_cloud_sdk-0.0.9.tar.gz
+[2023-06-23 12:00:37] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-23 12:00:37] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-23 12:00:37] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-23 12:00:37] INFO root fetch - processPackages [deepset-cloud-sdk]: executing diffoscope
+[2023-06-23 12:00:37] INFO root fetch - processPackages [deepset-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepset_cloud_sdk-0.0.8.tar.gz tmp/deepset_cloud_sdk-0.0.9.tar.gz --markdown 20230623/d/deepset-cloud-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 12:00:37] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.8.tar.gz]
+[2023-06-23 12:00:37] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.9.tar.gz]
+[2023-06-23 12:00:37] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-23 12:00:37] INFO root fetch - processPackages [prot]: Remove: archive file [/home/abi/fetcher/tmp/prot-3.9.1.tar.gz]
+[2023-06-23 12:00:37] INFO root fetch - processPackages [prot]: Remove: archive file [/home/abi/fetcher/tmp/prot-3.9.2.tar.gz]
+[2023-06-23 12:00:37] INFO root fetch - main [MainThread]: End processing [prot]: success
+[2023-06-23 12:00:37] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-23 12:00:37] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-23 12:00:37] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-23 12:00:37] INFO root fetch - processPackages [retro-data-structures]: executing diffoscope
+[2023-06-23 12:00:37] INFO root fetch - processPackages [retro-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retro-data-structures-0.8.0.tar.gz tmp/retro-data-structures-0.9.0.tar.gz --markdown 20230623/r/retro-data-structures/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 12:00:38] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2090.0.tar.gz]
+[2023-06-23 12:00:38] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2091.0.tar.gz]
+[2023-06-23 12:00:38] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-23 12:00:38] INFO root fetch - processPackages [deepset-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepset_cloud_sdk-0.0.8.tar.gz]
+[2023-06-23 12:00:38] INFO root fetch - processPackages [deepset-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepset_cloud_sdk-0.0.9.tar.gz]
+[2023-06-23 12:00:38] INFO root fetch - main [MainThread]: End processing [deepset-cloud-sdk]: success
+[2023-06-23 12:01:03] INFO root fetch - processPackages [snort-web-master]: Remove: archive file [/home/abi/fetcher/tmp/snort_web_master-1.0.0.1.tar.gz]
+[2023-06-23 12:01:03] INFO root fetch - processPackages [snort-web-master]: Remove: archive file [/home/abi/fetcher/tmp/snort_web_master-1.0.0.2.tar.gz]
+[2023-06-23 12:01:03] INFO root fetch - main [MainThread]: End processing [snort-web-master]: success
+[2023-06-23 12:02:41] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.8.0.tar.gz]
+[2023-06-23 12:02:41] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
+[2023-06-23 12:02:41] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
+[2023-06-23 12:02:41] INFO root fetch - main [MainThread]: Store serial: [18616345]
