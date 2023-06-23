@@ -11555,3 +11555,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 09:53:07] INFO root fetch - processPackages [pylinkage]: Remove: archive file [/home/abi/fetcher/tmp/pylinkage-0.5.3.tar.gz]
 [2023-06-23 09:53:07] INFO root fetch - main [MainThread]: End processing [pylinkage]: success
 [2023-06-23 09:53:07] INFO root fetch - main [MainThread]: Store serial: [18615229]
+[2023-06-23 09:58:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615229]
+[2023-06-23 09:58:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-23 09:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-captive-dhcp-server
+[2023-06-23 09:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PVNet
+[2023-06-23 09:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkadw
+[2023-06-23 09:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2023-06-23 09:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m3u8-XZ
+[2023-06-23 09:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: breeze-strategies
+[2023-06-23 09:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yambs
+[2023-06-23 09:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: salure-helpers-profit
+[2023-06-23 09:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Products.urban
+[2023-06-23 09:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchainplus-sdk
+[2023-06-23 09:58:17] WARNING root fetch - processPackages [micropython-captive-dhcp-server]: Skipping, unable to determine old version
+[2023-06-23 09:58:17] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Start processing: kalm
+[2023-06-23 09:58:17] INFO root fetch - processPackages [tkadw]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 09:58:17] INFO root fetch - main [MainThread]: End processing [micropython-captive-dhcp-server] error
+[2023-06-23 09:58:17] INFO root fetch - processPackages [salure-helpers-profit]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-23 09:58:17] INFO root fetch - processPackages [PVNet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-23 09:58:17] INFO root fetch - processPackages [m3u8-XZ]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 09:58:17] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-23 09:58:17] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 09:58:17] INFO root fetch - processPackages [yambs]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-23 09:58:17] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 09:58:17] INFO root fetch - processPackages [Products.urban]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-06-23 09:58:17] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-23 09:58:17] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/91/11/84a145b0dbcc9429da350e26c9525e01d91c38139d89a6da1a6c67258c28/breeze_strategies-6.0.8.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/68/84/4536a457e9b111ccd22800e40678c1bb77371cf72c92a25090fd16e08e5f/tkadw-0.1.2.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-23 09:58:17] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/6f/bb/dcabddd2fe891afc078e8561a86d18f12025188d009851b64a88e0732966/salure_helpers_profit-1.3.3.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [m3u8-XZ]: Downloading https://files.pythonhosted.org/packages/1c/b0/1492bb9c8d4fb5a69a07b08aef751681e5b96125e8bfc4de308b85375713/m3u8_XZ-0.0.5.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/ea/1d/a67de3e0f1cff80ea6c71d080c2923f65a865bd3e7c6ca9368f135d1cf0c/yambs-1.8.2.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/79/f5/ba7a7c774efbc70ae5305ea0fc9084e3c3ea9e35150b386cdd36ec1f11da/Products.urban-2.5.2.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/ea/7e/8b2af464b2c11ee90aafaa04ec123420689e49a3c2b3ab4fc50843940056/PVNet-0.1.7.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d9/f20238f309f445804a2d8b80479a26742147ede052f9f6b7a53fe4b32708/langchainplus_sdk-0.0.8.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/f9/af/eabc809d79f5eb400c5adcfb3b8a37476ff43336c479ff30b19e6db3f61b/breeze_strategies-6.0.9.tar.gz
+[2023-06-23 09:58:17] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 22165217>=10485760
+[2023-06-23 09:58:17] INFO root fetch - processPackages [Products.urban]: Start processing: simplegeomap
+[2023-06-23 09:58:17] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2023-06-23 09:58:17] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/4e/b0/7b3825f180d3e32b2c291c5bb40d7c00a040c8bdd1568d41f9943ad2c40c/tkadw-0.1.3.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [simplegeomap]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-06-23 09:58:17] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-23 09:58:17] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-23 09:58:17] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.8.tar.gz tmp/breeze_strategies-6.0.9.tar.gz --markdown 20230623/b/breeze-strategies/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-23 09:58:17] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 09:58:17] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 09:58:17] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/fe/1a/9cf2607d7f0c6df3aab56637b7b6672eec9189d5faa27d9600c32b492eb2/salure_helpers_profit-1.3.4.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [m3u8-XZ]: Downloading https://files.pythonhosted.org/packages/e8/b9/c53f432ae9ff632e197966359ccb5b68da775079d00730b4ddd4317511c2/m3u8_XZ-0.0.6.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/54/03/129dafbe147045a0fac705115b98471a0d48ce80d28780776792d2bc1fdf/yambs-1.9.0.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-23 09:58:17] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230623/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-23 09:58:17] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/d0/7d/294de998cf91bef59595bd81e0fee90857404170222bca85f3bf48266333/simplegeomap-0.0.33.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-06-23 09:58:17] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.1.2.tar.gz tmp/tkadw-0.1.3.tar.gz --markdown 20230623/t/tkadw/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 09:58:17] INFO root fetch - processPackages [m3u8-XZ]: executing diffoscope
+[2023-06-23 09:58:17] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-06-23 09:58:17] INFO root fetch - processPackages [m3u8-XZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3u8_XZ-0.0.5.tar.gz tmp/m3u8_XZ-0.0.6.tar.gz --markdown 20230623/m/m3u8-XZ/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 09:58:17] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.8.2.tar.gz tmp/yambs-1.9.0.tar.gz --markdown 20230623/y/yambs/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-23 09:58:17] INFO root fetch - processPackages [salure-helpers-profit]: executing diffoscope
+[2023-06-23 09:58:17] INFO root fetch - processPackages [salure-helpers-profit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_profit-1.3.3.tar.gz tmp/salure_helpers_profit-1.3.4.tar.gz --markdown 20230623/s/salure-helpers-profit/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-23 09:58:17] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/7b/6d/f6d2d68316979c477278e36b1a98abe9b6e86c9472055ba4e1e93132a78a/PVNet-0.1.8.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/22/e0/dbb31ff65e1238644481d23f897747af9443b9061fde6cbfa1f2928d7695/langchainplus_sdk-0.0.9.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-23 09:58:17] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.1.7.tar.gz tmp/PVNet-0.1.8.tar.gz --markdown 20230623/P/PVNet/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-23 09:58:17] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/10/47/7350399d854c8b1f404e788641f32d2f609fd21cda61c8fa0603c6b837ae/simplegeomap-0.0.34.tar.gz
+[2023-06-23 09:58:17] INFO root fetch - processPackages [simplegeomap]: executing diffoscope
+[2023-06-23 09:58:17] INFO root fetch - processPackages [simplegeomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplegeomap-0.0.33.tar.gz tmp/simplegeomap-0.0.34.tar.gz --markdown 20230623/s/simplegeomap/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-06-23 09:58:18] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-06-23 09:58:18] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.8.tar.gz tmp/langchainplus_sdk-0.0.9.tar.gz --markdown 20230623/l/langchainplus-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 09:58:18] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.8.tar.gz]
+[2023-06-23 09:58:18] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.9.tar.gz]
+[2023-06-23 09:58:18] INFO root fetch - processPackages [breeze-strategies]: Start processing: pyfairsim
+[2023-06-23 09:58:18] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-23 09:58:18] INFO root fetch - processPackages [pyfairsim]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [pyfairsim]: Downloading https://files.pythonhosted.org/packages/63/21/e07307409462e17aa974fb7de11d5ee5946a5253f811a6a24019fa2611b0/pyfairsim-0.0.2.tar.gz
+[2023-06-23 09:58:19] INFO root fetch - processPackages [m3u8-XZ]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_XZ-0.0.5.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [m3u8-XZ]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_XZ-0.0.6.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [m3u8-XZ]: Start processing: aiida-spirit
+[2023-06-23 09:58:19] INFO root fetch - main [MainThread]: End processing [m3u8-XZ]: success
+[2023-06-23 09:58:19] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [kalm]: Start processing: robotframework-reportportal-updated
+[2023-06-23 09:58:19] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 09:58:19] INFO root fetch - processPackages [aiida-spirit]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [pyfairsim]: Downloading https://files.pythonhosted.org/packages/3e/a4/7a20752d9ec29b88e1c2cf53724392e735b081d979ceca816c369d462a23/pyfairsim-0.0.3.tar.gz
+[2023-06-23 09:58:19] INFO root fetch - processPackages [robotframework-reportportal-updated]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [pyfairsim]: executing diffoscope
+[2023-06-23 09:58:19] INFO root fetch - processPackages [pyfairsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfairsim-0.0.2.tar.gz tmp/pyfairsim-0.0.3.tar.gz --markdown 20230623/p/pyfairsim/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 09:58:19] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-1.3.3.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-1.3.4.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - main [MainThread]: End processing [salure-helpers-profit]: success
+[2023-06-23 09:58:19] INFO root fetch - processPackages [aiida-spirit]: Downloading https://files.pythonhosted.org/packages/16/f3/be061ede4a568b43564451753d75b20ac494f7961c28ebfb8d8f437d4d70/aiida-spirit-0.2.1.tar.gz
+[2023-06-23 09:58:19] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/cb/18/58ab5f7b1a1e039b9e8de84f37062e8c74ee913fa89631c176989226541b/robotframework-reportportal_updated-1.1.2.tar.gz
+[2023-06-23 09:58:19] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.8.2.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.9.0.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-06-23 09:58:19] INFO root fetch - processPackages [simplegeomap]: Remove: archive file [/home/abi/fetcher/tmp/simplegeomap-0.0.33.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [simplegeomap]: Remove: archive file [/home/abi/fetcher/tmp/simplegeomap-0.0.34.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - main [MainThread]: End processing [simplegeomap]: success
+[2023-06-23 09:58:19] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.7.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.8.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-23 09:58:19] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.8.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.9.tar.gz]
+[2023-06-23 09:58:19] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-06-23 09:58:19] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/5d/6a/62d8007c34183e0d9ccf9c6c01c1a8d838757b9f871e22593550f945f215/robotframework-reportportal_updated-1.1.3.tar.gz
+[2023-06-23 09:58:19] INFO root fetch - processPackages [aiida-spirit]: Downloading https://files.pythonhosted.org/packages/28/d4/7455a7009019faa97e891b3f719d1124489f16007974c7592562aaf185dc/aiida-spirit-0.2.2.tar.gz
+[2023-06-23 09:58:19] INFO root fetch - processPackages [robotframework-reportportal-updated]: executing diffoscope
+[2023-06-23 09:58:19] INFO root fetch - processPackages [robotframework-reportportal-updated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-reportportal_updated-1.1.2.tar.gz tmp/robotframework-reportportal_updated-1.1.3.tar.gz --markdown 20230623/r/robotframework-reportportal-updated/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-23 09:58:20] INFO root fetch - processPackages [aiida-spirit]: executing diffoscope
+[2023-06-23 09:58:20] INFO root fetch - processPackages [aiida-spirit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-spirit-0.2.1.tar.gz tmp/aiida-spirit-0.2.2.tar.gz --markdown 20230623/a/aiida-spirit/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-23 09:58:20] INFO root fetch - processPackages [pyfairsim]: Remove: archive file [/home/abi/fetcher/tmp/pyfairsim-0.0.2.tar.gz]
+[2023-06-23 09:58:20] INFO root fetch - processPackages [pyfairsim]: Remove: archive file [/home/abi/fetcher/tmp/pyfairsim-0.0.3.tar.gz]
+[2023-06-23 09:58:20] INFO root fetch - main [MainThread]: End processing [pyfairsim]: success
+[2023-06-23 09:58:21] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.2.tar.gz]
+[2023-06-23 09:58:21] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.3.tar.gz]
+[2023-06-23 09:58:21] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated]: success
+[2023-06-23 09:58:21] INFO root fetch - processPackages [aiida-spirit]: Remove: archive file [/home/abi/fetcher/tmp/aiida-spirit-0.2.1.tar.gz]
+[2023-06-23 09:58:21] INFO root fetch - processPackages [aiida-spirit]: Remove: archive file [/home/abi/fetcher/tmp/aiida-spirit-0.2.2.tar.gz]
+[2023-06-23 09:58:21] INFO root fetch - main [MainThread]: End processing [aiida-spirit]: success
+[2023-06-23 09:58:22] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.1.2.tar.gz]
+[2023-06-23 09:58:22] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.1.3.tar.gz]
+[2023-06-23 09:58:22] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-06-23 09:58:26] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-23 09:58:26] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-23 09:58:26] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-23 09:58:26] INFO root fetch - main [MainThread]: Store serial: [18615275]
