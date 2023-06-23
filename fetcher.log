@@ -21476,3 +21476,194 @@ EOFError: EOF read where object expected
 [2023-06-23 16:59:50] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.99.tar.gz]
 [2023-06-23 16:59:50] INFO root fetch - main [MainThread]: End processing [meshed]: success
 [2023-06-23 16:59:50] INFO root fetch - main [MainThread]: Store serial: [18619393]
+[2023-06-23 17:04:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18619393]
+[2023-06-23 17:04:59] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-23 17:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crispr-ambiguous-mapping
+[2023-06-23 17:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLAlchemy
+[2023-06-23 17:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-snowflake
+[2023-06-23 17:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beku-stackabletech
+[2023-06-23 17:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getgauge-cli
+[2023-06-23 17:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-functions
+[2023-06-23 17:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: claimer
+[2023-06-23 17:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pillar1
+[2023-06-23 17:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyodide-lock
+[2023-06-23 17:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FluidCubeGame
+[2023-06-23 17:04:59] INFO root fetch - processPackages [getgauge-cli]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-23 17:04:59] INFO root fetch - processPackages [beku-stackabletech]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 17:04:59] INFO root fetch - processPackages [openai-functions]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-23 17:04:59] WARNING root fetch - processPackages [FluidCubeGame]: Skipping, unable to determine old version
+[2023-06-23 17:04:59] INFO root fetch - processPackages [FluidCubeGame]: Start processing: assemblyline-service-client
+[2023-06-23 17:04:59] INFO root fetch - processPackages [pyodide-lock]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2023-06-23 17:04:59] INFO root fetch - processPackages [crispr-ambiguous-mapping]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 17:04:59] INFO root fetch - main [MainThread]: End processing [FluidCubeGame] error
+[2023-06-23 17:04:59] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-06-23 17:04:59] INFO root fetch - processPackages [pillar1]: New version: [0.1.7.6] Old Version: [0.1.7.5]
+[2023-06-23 17:04:59] INFO root fetch - processPackages [claimer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 17:04:59] INFO root fetch - processPackages [SQLAlchemy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-23 17:04:59] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/f9/f0/e607cb164d0e41e7248d899092c36741c72bf070581c60be02d9728c0ee9/openai_functions-0.2.0.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-23 17:04:59] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/7f/1a/92f946acca794ebce4b1093a25d39cda0d62d2d59d943a8c1e0e9b489197/pillar1-0.1.7.5.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [claimer]: Downloading https://files.pythonhosted.org/packages/0b/75/11c470ae30b5100fb55e3ea32043fdd79d04a26ecb145658fda40d4e33e7/claimer-0.0.2.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [getgauge-cli]: Downloading https://files.pythonhosted.org/packages/a5/53/151217f629e3055f7973ea545b906a49149a2f65fce7e102baabdd63cf97/getgauge-cli-1.5.0.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [pyodide-lock]: Downloading https://files.pythonhosted.org/packages/e4/65/4065739dd47f0f1deb5a5c7c1562cb609dba6f7300d75857afa421bed294/pyodide_lock-0.1.0a0.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-06-23 17:04:59] INFO root fetch - processPackages [beku-stackabletech]: Downloading https://files.pythonhosted.org/packages/e6/2f/7cefdf98a4c86e76f39918d5b99ec566c5f70da446008ae07935aade8190/beku-stackabletech-0.0.5.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Downloading https://files.pythonhosted.org/packages/12/ad/f34d1f237b39929980cd5deecc3b434c716acb36e405f9fbe4b7821237b2/crispr_ambiguous_mapping-0.0.8.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [SQLAlchemy]: Downloading https://files.pythonhosted.org/packages/0f/73/b76a2c8dbe035791e54da29cefaa22c166f875b24da844dc0f16b66e47bb/SQLAlchemy-2.0.8.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/5f/ae/497397917e51fedae74eca7e4347faff20d8e54a5f472dc2a5fbbf4f483e/pillar1-0.1.7.6.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [claimer]: Downloading https://files.pythonhosted.org/packages/98/05/2772484df699bee19af45899951a31e199641051e12a90a7eeb2a43b1a9c/claimer-0.0.3.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/f4/25/83752ed23acd4d1fb0d8bcae43ae58242044f0376c3616cb14a122117f0d/openai_functions-0.2.1.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [getgauge-cli]: Downloading https://files.pythonhosted.org/packages/ea/2a/49302ee66ffd0f94786233e49d520429e2040ffe6934bc504c8ca8cd449d/getgauge-cli-1.5.1.tar.gz
+[2023-06-23 17:04:59] INFO root fetch - processPackages [pyodide-lock]: Downloading https://files.pythonhosted.org/packages/31/ad/52b6e016216b09dbb1af7d19244b0fb9cca4792ff62491727108f44543bd/pyodide_lock-0.1.0a1.tar.gz
+[2023-06-23 17:05:00] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-06-23 17:05:00] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-06-23 17:05:00] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.2.0.tar.gz tmp/openai_functions-0.2.1.tar.gz --markdown 20230623/o/openai-functions/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-23 17:05:00] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Downloading https://files.pythonhosted.org/packages/8c/37/7c922970e1637790fde9b16efadc57abfe5445977e8938dc8e695aeca492/crispr_ambiguous_mapping-0.0.9.tar.gz
+[2023-06-23 17:05:00] INFO root fetch - processPackages [beku-stackabletech]: Downloading https://files.pythonhosted.org/packages/89/79/6db32f30188350e92ee1ca04abc9ddf5187418e6c87f2b9a724c301fb491/beku_stackabletech-0.0.6-py3-none-any.whl
+[2023-06-23 17:05:00] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-06-23 17:05:00] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230623/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-06-23 17:05:00] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-23 17:05:00] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.7.5.tar.gz tmp/pillar1-0.1.7.6.tar.gz --markdown 20230623/p/pillar1/0.1.7.5-0.1.7.6/diff.md --exclude *.pyd
+[2023-06-23 17:05:00] INFO root fetch - processPackages [getgauge-cli]: executing diffoscope
+[2023-06-23 17:05:00] INFO root fetch - processPackages [getgauge-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getgauge-cli-1.5.0.tar.gz tmp/getgauge-cli-1.5.1.tar.gz --markdown 20230623/g/getgauge-cli/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-23 17:05:00] INFO root fetch - processPackages [claimer]: executing diffoscope
+[2023-06-23 17:05:00] INFO root fetch - processPackages [claimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claimer-0.0.2.tar.gz tmp/claimer-0.0.3.tar.gz --markdown 20230623/c/claimer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 17:05:00] INFO root fetch - processPackages [pyodide-lock]: executing diffoscope
+[2023-06-23 17:05:00] INFO root fetch - processPackages [pyodide-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide_lock-0.1.0a0.tar.gz tmp/pyodide_lock-0.1.0a1.tar.gz --markdown 20230623/p/pyodide-lock/0.1.0a0-0.1.0a1/diff.md --exclude *.pyd
+[2023-06-23 17:05:00] INFO root fetch - processPackages [crispr-ambiguous-mapping]: executing diffoscope
+[2023-06-23 17:05:00] INFO root fetch - processPackages [crispr-ambiguous-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_ambiguous_mapping-0.0.8.tar.gz tmp/crispr_ambiguous_mapping-0.0.9.tar.gz --markdown 20230623/c/crispr-ambiguous-mapping/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 17:05:00] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-06-23 17:05:00] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230623/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-23 17:05:00] INFO root fetch - processPackages [beku-stackabletech]: executing diffoscope
+[2023-06-23 17:05:00] INFO root fetch - processPackages [beku-stackabletech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beku-stackabletech-0.0.5.tar.gz tmp/beku_stackabletech-0.0.6-py3-none-any.whl.zip --markdown 20230623/b/beku-stackabletech/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 17:05:01] INFO root fetch - processPackages [SQLAlchemy]: Downloading https://files.pythonhosted.org/packages/74/2c/2316a7a0d8b03e34741b3763604d180423f79730010dd7ed61d0f2854d8d/SQLAlchemy-2.0.9.tar.gz
+[2023-06-23 17:05:01] INFO root fetch - processPackages [SQLAlchemy]: executing diffoscope
+[2023-06-23 17:05:01] INFO root fetch - processPackages [SQLAlchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemy-2.0.8.tar.gz tmp/SQLAlchemy-2.0.9.tar.gz --markdown 20230623/S/SQLAlchemy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-23 17:05:01] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.2.0.tar.gz]
+[2023-06-23 17:05:01] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.2.1.tar.gz]
+[2023-06-23 17:05:01] INFO root fetch - processPackages [openai-functions]: Start processing: streamlit-chat
+[2023-06-23 17:05:01] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-06-23 17:05:01] INFO root fetch - processPackages [streamlit-chat]: New version: [0.1.0] Old Version: [0.0.2.2]
+[2023-06-23 17:05:01] INFO root fetch - processPackages [getgauge-cli]: Remove: archive file [/home/abi/fetcher/tmp/getgauge-cli-1.5.0.tar.gz]
+[2023-06-23 17:05:01] INFO root fetch - processPackages [getgauge-cli]: Remove: archive file [/home/abi/fetcher/tmp/getgauge-cli-1.5.1.tar.gz]
+[2023-06-23 17:05:01] INFO root fetch - processPackages [getgauge-cli]: Start processing: assemblyline-service-server
+[2023-06-23 17:05:01] INFO root fetch - main [MainThread]: End processing [getgauge-cli]: success
+[2023-06-23 17:05:01] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-23 17:05:01] INFO root fetch - processPackages [streamlit-chat]: Downloading https://files.pythonhosted.org/packages/f9/16/e14d7193ca1786a347c5537f240fa955ba3d41b26adff85e4b7a7a0f1e07/streamlit-chat-0.0.2.2.tar.gz
+[2023-06-23 17:05:01] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.5.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.6.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pillar1]: Start processing: assemblyline-ui
+[2023-06-23 17:05:02] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230623/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-23 17:05:02] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Remove: archive file [/home/abi/fetcher/tmp/crispr_ambiguous_mapping-0.0.8.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Remove: archive file [/home/abi/fetcher/tmp/crispr_ambiguous_mapping-0.0.9.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Start processing: assemblyline-v4-service
+[2023-06-23 17:05:02] INFO root fetch - main [MainThread]: End processing [crispr-ambiguous-mapping]: success
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pyodide-lock]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_lock-0.1.0a0.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pyodide-lock]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_lock-0.1.0a1.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pyodide-lock]: Start processing: assemblyline
+[2023-06-23 17:05:02] INFO root fetch - main [MainThread]: End processing [pyodide-lock]: success
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [claimer]: Remove: archive file [/home/abi/fetcher/tmp/claimer-0.0.2.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [claimer]: Remove: archive file [/home/abi/fetcher/tmp/claimer-0.0.3.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [claimer]: Start processing: pymino
+[2023-06-23 17:05:02] INFO root fetch - main [MainThread]: End processing [claimer]: success
+[2023-06-23 17:05:02] INFO root fetch - processPackages [streamlit-chat]: Downloading https://files.pythonhosted.org/packages/26/8e/0b826521e65d7481f1391dc8d6da186a08f14d391fa0128e6961245b1f8f/streamlit-chat-0.1.0.tar.gz
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pymino]: New version: [1.2.1.9] Old Version: [1.2.1.7]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230623/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-23 17:05:02] INFO root fetch - processPackages [beku-stackabletech]: Remove: archive file [/home/abi/fetcher/tmp/beku-stackabletech-0.0.5.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [beku-stackabletech]: Remove: archive file [/home/abi/fetcher/tmp/beku_stackabletech-0.0.6-py3-none-any.whl.zip]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [beku-stackabletech]: Start processing: assemblyline-core
+[2023-06-23 17:05:02] INFO root fetch - main [MainThread]: End processing [beku-stackabletech]: success
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: nonebot-plugin-spark-gpt
+[2023-06-23 17:05:02] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/75/eb/1322cc70e277ac5ce4961b9f34f29b695f604d3621a7dbac947792664cb9/pymino-1.2.1.7.tar.gz
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-06-23 17:05:02] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230623/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-23 17:05:02] INFO root fetch - processPackages [streamlit-chat]: executing diffoscope
+[2023-06-23 17:05:02] INFO root fetch - processPackages [streamlit-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-chat-0.0.2.2.tar.gz tmp/streamlit-chat-0.1.0.tar.gz --markdown 20230623/s/streamlit-chat/0.0.2.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230623/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-23 17:05:02] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pulumi-snowflake]: Start processing: dissect.ntfs
+[2023-06-23 17:05:02] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-06-23 17:05:02] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/69/3f/5f9411b686cdcb5e9f58be653a1c2e059396b751ab586d61e06da4323de7/pymino-1.2.1.9.tar.gz
+[2023-06-23 17:05:02] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/e8/e7/cfe2329ebad4a2381251499df9c6798337d5f0d8847005629299b593e573/nonebot_plugin_spark_gpt-0.3.8.tar.gz
+[2023-06-23 17:05:02] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11188318>=10485760
+[2023-06-23 17:05:02] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: meshed
+[2023-06-23 17:05:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-06-23 17:05:02] INFO root fetch - processPackages [dissect.ntfs]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-06-23 17:05:03] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-23 17:05:03] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/ec/66/ec18e469de7a31199ec17594f774aa629498f1f4b963deea16117918bef2/meshed-0.1.98.tar.gz
+[2023-06-23 17:05:03] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-23 17:05:03] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.1.7.tar.gz tmp/pymino-1.2.1.9.tar.gz --markdown 20230623/p/pymino/1.2.1.7-1.2.1.9/diff.md --exclude *.pyd
+[2023-06-23 17:05:03] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-06-23 17:05:03] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230623/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-23 17:05:03] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/52/c3/21e2c03ab6607bd25fb9f6efb994798b3e75db906daf491bf961ee733450/meshed-0.1.99.tar.gz
+[2023-06-23 17:05:03] INFO root fetch - processPackages [dissect.ntfs]: Downloading https://files.pythonhosted.org/packages/2d/26/26f388114be9c0ed0add65cfa542c06d2b628d5233fd5e8bf5c8aa8b1ab2/dissect.ntfs-3.6.dev1.tar.gz
+[2023-06-23 17:05:03] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-06-23 17:05:03] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230623/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-23 17:05:03] INFO root fetch - processPackages [dissect.ntfs]: Downloading https://files.pythonhosted.org/packages/4a/62/53d4522f3ce13fe328982ce5af2f137aecbe1ff15ce6ca78cb52e7891b2e/dissect.ntfs-3.6.dev2.tar.gz
+[2023-06-23 17:05:03] INFO root fetch - processPackages [dissect.ntfs]: executing diffoscope
+[2023-06-23 17:05:03] INFO root fetch - processPackages [dissect.ntfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ntfs-3.6.dev1.tar.gz tmp/dissect.ntfs-3.6.dev2.tar.gz --markdown 20230623/d/dissect.ntfs/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-06-23 17:05:04] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-23 17:05:04] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-23 17:05:04] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: cosmian-py-ggml
+[2023-06-23 17:05:04] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-06-23 17:05:04] INFO root fetch - processPackages [cosmian-py-ggml]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-23 17:05:04] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/5d/92/280b23bba7b9de95287e2fb235ab2697ba27039f4eab7906b360f5967da1/cosmian_py_ggml-1.0.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 17:05:04] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-23 17:05:04] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-23 17:05:04] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-06-23 17:05:04] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/88/32/1520ddfd1705b0c6b2d2375811d0df2449ea20d9071fe5063064b3b7c499/cosmian_py_ggml-1.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 17:05:04] INFO root fetch - processPackages [streamlit-chat]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-chat-0.0.2.2.tar.gz]
+[2023-06-23 17:05:04] INFO root fetch - processPackages [streamlit-chat]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-chat-0.1.0.tar.gz]
+[2023-06-23 17:05:04] INFO root fetch - main [MainThread]: End processing [streamlit-chat]: success
+[2023-06-23 17:05:05] INFO root fetch - processPackages [cosmian-py-ggml]: executing diffoscope
+[2023-06-23 17:05:05] INFO root fetch - processPackages [cosmian-py-ggml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_py_ggml-1.0.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/cosmian_py_ggml-1.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230623/c/cosmian-py-ggml/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 17:05:05] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.98.tar.gz]
+[2023-06-23 17:05:05] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.99.tar.gz]
+[2023-06-23 17:05:05] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-06-23 17:05:05] INFO root fetch - processPackages [dissect.ntfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ntfs-3.6.dev1.tar.gz]
+[2023-06-23 17:05:05] INFO root fetch - processPackages [dissect.ntfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ntfs-3.6.dev2.tar.gz]
+[2023-06-23 17:05:05] INFO root fetch - main [MainThread]: End processing [dissect.ntfs]: success
+[2023-06-23 17:05:06] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-06-23 17:05:06] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-06-23 17:05:06] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-06-23 17:05:06] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.7.tar.gz]
+[2023-06-23 17:05:06] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.9.tar.gz]
+[2023-06-23 17:05:06] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-23 17:05:06] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-23 17:05:06] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-23 17:05:06] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-06-23 17:05:06] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-06-23 17:05:06] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-06-23 17:05:06] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-06-23 17:05:10] INFO root fetch - processPackages [cosmian-py-ggml]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_py_ggml-1.0.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 17:05:10] INFO root fetch - processPackages [cosmian-py-ggml]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_py_ggml-1.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 17:05:10] INFO root fetch - main [MainThread]: End processing [cosmian-py-ggml]: success
+[2023-06-23 17:06:06] INFO root fetch - processPackages [SQLAlchemy]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-2.0.8.tar.gz]
+[2023-06-23 17:06:06] INFO root fetch - processPackages [SQLAlchemy]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-2.0.9.tar.gz]
+[2023-06-23 17:06:06] INFO root fetch - main [MainThread]: End processing [SQLAlchemy]: success
+[2023-06-23 17:06:06] INFO root fetch - main [MainThread]: Store serial: [18619450]
