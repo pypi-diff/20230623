@@ -22004,3 +22004,242 @@ EOFError: EOF read where object expected
 [2023-06-23 17:17:33] INFO root fetch - processPackages [execution-time-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/execution_time_wrapper-1.0.1.tar.gz]
 [2023-06-23 17:17:33] INFO root fetch - main [MainThread]: End processing [execution-time-wrapper]: success
 [2023-06-23 17:17:33] INFO root fetch - main [MainThread]: Store serial: [18619628]
+[2023-06-23 17:22:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18619628]
+[2023-06-23 17:22:43] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-06-23 17:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-dark-enhanced-dirtree
+[2023-06-23 17:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aesim.simba
+[2023-06-23 17:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datadispatcher
+[2023-06-23 17:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reclaim-sdk
+[2023-06-23 17:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notion-pinecone
+[2023-06-23 17:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Akatosh
+[2023-06-23 17:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hagrid
+[2023-06-23 17:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cs-models
+[2023-06-23 17:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gooddata-pandas
+[2023-06-23 17:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tkinter-files-folders
+[2023-06-23 17:22:43] WARNING root fetch - processPackages [tkinter-files-folders]: Skipping, unable to determine old version
+[2023-06-23 17:22:43] INFO root fetch - processPackages [tkinter-files-folders]: Start processing: gooddata-api-client
+[2023-06-23 17:22:43] INFO root fetch - main [MainThread]: End processing [tkinter-files-folders] error
+[2023-06-23 17:22:43] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: Downloading https://files.pythonhosted.org/packages/51/f2/727533218e41f41cfe97f28d5db5b92901a06f24ae6b7feac763f3823be3/mkdocs-dark_enhanced_dirtree-1.1.1.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [Akatosh]: New version: [2.0.5] Old Version: [1.7.3]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [reclaim-sdk]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [aesim.simba]: New version: [23.5.5] Old Version: [2023.6.23a1]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [datadispatcher]: New version: [1.6.0] Old Version: [1.4.2]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [gooddata-pandas]: New version: [1.3.1.dev5] Old Version: [1.3.1.dev4]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [gooddata-api-client]: New version: [1.3.1.dev5] Old Version: [1.3.1.dev4]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/36/41/708ce20d5bd9f9fae437a7197cf2c2b173781fd46b2a32916f80aff7e26a/Akatosh-1.7.3.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [reclaim-sdk]: Downloading https://files.pythonhosted.org/packages/16/ac/b983eaab4005bb4d6e8aefb789f3da2bfae25fabbb9ccc404e71ca797e43/reclaim-sdk-0.4.0.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/f9/a1/1e45d426a2889dd1051f1bf8b27eca1a5fbf1952fe64c4da86700442645c/aesim.simba-2023.6.23a1-py3-none-win_amd64.whl
+[2023-06-23 17:22:43] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/dc/92/a110786db2e293bbe9e56ff95b7ab450c75f692b3b5d2def570ef7257efe/gooddata-pandas-1.3.1.dev4.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/2b/01/c413e87ab11522a0d02431d7319ab7556ccd82d12f744c44d9dba06f37f8/gooddata-api-client-1.3.1.dev4.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [datadispatcher]: Downloading https://files.pythonhosted.org/packages/c7/de/5a2dbe2798dc84c0589532689d19910b01f6ac8659c073d7859987466899/datadispatcher-1.4.2.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: Downloading https://files.pythonhosted.org/packages/a9/a7/306366774da00eedc0080a338dab3b850ebf3f8749d6f161cb855df12081/mkdocs-dark_enhanced_dirtree-1.2.0.tar.gz
+[2023-06-23 17:22:43] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 70557223>=10485760
+[2023-06-23 17:22:43] INFO root fetch - processPackages [aesim.simba]: Start processing: gooddata-fdw
+[2023-06-23 17:22:43] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-06-23 17:22:43] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-06-23 17:22:43] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230623/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-23 17:22:43] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-23 17:22:43] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230623/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-23 17:22:43] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: executing diffoscope
+[2023-06-23 17:22:43] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-dark_enhanced_dirtree-1.1.1.tar.gz tmp/mkdocs-dark_enhanced_dirtree-1.2.0.tar.gz --markdown 20230623/m/mkdocs-dark-enhanced-dirtree/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-23 17:22:43] INFO root fetch - processPackages [reclaim-sdk]: Downloading https://files.pythonhosted.org/packages/48/79/d1070d4943e6803f4e0e3da15593c5aa7ba5182a3dafcf90362cc5c6125f/reclaim-sdk-0.4.1.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/52/90/ff8f5c6717cbcff52feffc411278e939dc2d832149227afead8e7de708fe/Akatosh-2.0.5.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [gooddata-fdw]: New version: [1.3.1.dev5] Old Version: [1.3.1.dev4]
+[2023-06-23 17:22:43] INFO root fetch - processPackages [datadispatcher]: Downloading https://files.pythonhosted.org/packages/09/b4/236de8fb0f58dc687155ae731fd4c7358038b118aaeb53c548c0043ef74f/datadispatcher-1.6.0.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/17/67/10378292cc109a8fe355c224d4c7e1df50202315da482c2f4e76eb1c3dc5/gooddata-pandas-1.3.1.dev5.tar.gz
+[2023-06-23 17:22:43] INFO root fetch - processPackages [reclaim-sdk]: executing diffoscope
+[2023-06-23 17:22:43] INFO root fetch - processPackages [reclaim-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reclaim-sdk-0.4.0.tar.gz tmp/reclaim-sdk-0.4.1.tar.gz --markdown 20230623/r/reclaim-sdk/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-23 17:22:44] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/5f/95/5b44a0247a4d40a6f476cb84ef1f72a05049bb728b55896192e9e7454b4c/gooddata-api-client-1.3.1.dev5.tar.gz
+[2023-06-23 17:22:44] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-23 17:22:44] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230623/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 17:22:44] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/9f/02/4156c54b4aefa5ef4c54695aa310dabd5f5311602b2827626b0bb3d52bb2/gooddata-fdw-1.3.1.dev4.tar.gz
+[2023-06-23 17:22:44] INFO root fetch - processPackages [gooddata-pandas]: executing diffoscope
+[2023-06-23 17:22:44] INFO root fetch - processPackages [gooddata-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-pandas-1.3.1.dev4.tar.gz tmp/gooddata-pandas-1.3.1.dev5.tar.gz --markdown 20230623/g/gooddata-pandas/1.3.1.dev4-1.3.1.dev5/diff.md --exclude *.pyd
+[2023-06-23 17:22:44] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-06-23 17:22:44] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-1.7.3.tar.gz tmp/Akatosh-2.0.5.tar.gz --markdown 20230623/A/Akatosh/1.7.3-2.0.5/diff.md --exclude *.pyd
+[2023-06-23 17:22:44] INFO root fetch - processPackages [datadispatcher]: executing diffoscope
+[2023-06-23 17:22:44] INFO root fetch - processPackages [datadispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadispatcher-1.4.2.tar.gz tmp/datadispatcher-1.6.0.tar.gz --markdown 20230623/d/datadispatcher/1.4.2-1.6.0/diff.md --exclude *.pyd
+[2023-06-23 17:22:44] INFO root fetch - processPackages [gooddata-api-client]: executing diffoscope
+[2023-06-23 17:22:44] INFO root fetch - processPackages [gooddata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-api-client-1.3.1.dev4.tar.gz tmp/gooddata-api-client-1.3.1.dev5.tar.gz --markdown 20230623/g/gooddata-api-client/1.3.1.dev4-1.3.1.dev5/diff.md --exclude *.pyd
+[2023-06-23 17:22:44] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/ef/b6/8908f126ba1b74bb5911e21d724cdc0233d0a79b4a40a65103f59094b22a/gooddata-fdw-1.3.1.dev5.tar.gz
+[2023-06-23 17:22:44] INFO root fetch - processPackages [gooddata-fdw]: executing diffoscope
+[2023-06-23 17:22:44] INFO root fetch - processPackages [gooddata-fdw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-fdw-1.3.1.dev4.tar.gz tmp/gooddata-fdw-1.3.1.dev5.tar.gz --markdown 20230623/g/gooddata-fdw/1.3.1.dev4-1.3.1.dev5/diff.md --exclude *.pyd
+[2023-06-23 17:22:45] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-23 17:22:45] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-23 17:22:45] INFO root fetch - processPackages [hagrid]: Start processing: gooddata-sdk
+[2023-06-23 17:22:45] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-23 17:22:45] INFO root fetch - processPackages [gooddata-sdk]: New version: [1.3.1.dev5] Old Version: [1.3.1.dev4]
+[2023-06-23 17:22:45] INFO root fetch - processPackages [reclaim-sdk]: Remove: archive file [/home/abi/fetcher/tmp/reclaim-sdk-0.4.0.tar.gz]
+[2023-06-23 17:22:45] INFO root fetch - processPackages [reclaim-sdk]: Remove: archive file [/home/abi/fetcher/tmp/reclaim-sdk-0.4.1.tar.gz]
+[2023-06-23 17:22:45] INFO root fetch - processPackages [reclaim-sdk]: Start processing: mercury-sync
+[2023-06-23 17:22:45] INFO root fetch - main [MainThread]: End processing [reclaim-sdk]: success
+[2023-06-23 17:22:45] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/1b/dc/13234192a7402b201f2410a69d8cf87d739daec5d7bf24a85622f1376339/gooddata-sdk-1.3.1.dev4.tar.gz
+[2023-06-23 17:22:45] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-23 17:22:45] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-1.7.3.tar.gz]
+[2023-06-23 17:22:45] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.0.5.tar.gz]
+[2023-06-23 17:22:45] INFO root fetch - processPackages [Akatosh]: Start processing: factor-pricing-model-risk-model
+[2023-06-23 17:22:45] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-06-23 17:22:46] INFO root fetch - processPackages [factor-pricing-model-risk-model]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.8.tar.gz]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.9.tar.gz]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [notion-pinecone]: Start processing: napalm-nokia-olt
+[2023-06-23 17:22:46] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-23 17:22:46] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/dd/3b/97cad3ce91d69cffecbce9ab775edea423729fb176005cc578015dc9633e/mercury-sync-0.2.2.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.3.1.dev4.tar.gz]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.3.1.dev5.tar.gz]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [gooddata-pandas]: Start processing: cellworld
+[2023-06-23 17:22:46] INFO root fetch - main [MainThread]: End processing [gooddata-pandas]: success
+[2023-06-23 17:22:46] INFO root fetch - processPackages [factor-pricing-model-risk-model]: Downloading https://files.pythonhosted.org/packages/94/59/7e98732c7126f4b005778e6737b9811ab192dbf8d16dd577ead03ead01f4/factor_pricing_model_risk_model-2023.4.0.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/23/c7/6191b683ce88e54eef7254bef551a75df3e70d083619e5c55d155e1137a1/gooddata-sdk-1.3.1.dev5.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [gooddata-sdk]: executing diffoscope
+[2023-06-23 17:22:46] INFO root fetch - processPackages [gooddata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-sdk-1.3.1.dev4.tar.gz tmp/gooddata-sdk-1.3.1.dev5.tar.gz --markdown 20230623/g/gooddata-sdk/1.3.1.dev4-1.3.1.dev5/diff.md --exclude *.pyd
+[2023-06-23 17:22:46] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/8a/05/f3dbf4c49d03054e4634bc7d713601e6d90c1b22ddce9b55bc652ee06019/napalm_nokia_olt-0.0.3.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [factor-pricing-model-risk-model]: Downloading https://files.pythonhosted.org/packages/ab/80/58c316399e72bfcd6d63dd25453dd844b6a28d61a23d5ff1bfbf96a876fd/factor_pricing_model_risk_model-2023.5.0.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.3.1.dev4.tar.gz]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.3.1.dev5.tar.gz]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [gooddata-fdw]: Start processing: apier-bridge
+[2023-06-23 17:22:46] INFO root fetch - main [MainThread]: End processing [gooddata-fdw]: success
+[2023-06-23 17:22:46] WARNING root fetch - processPackages [apier-bridge]: Skipping, unable to determine old version
+[2023-06-23 17:22:46] INFO root fetch - processPackages [apier-bridge]: Start processing: molecule
+[2023-06-23 17:22:46] INFO root fetch - main [MainThread]: End processing [apier-bridge] error
+[2023-06-23 17:22:46] INFO root fetch - processPackages [datadispatcher]: Remove: archive file [/home/abi/fetcher/tmp/datadispatcher-1.4.2.tar.gz]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [datadispatcher]: Remove: archive file [/home/abi/fetcher/tmp/datadispatcher-1.6.0.tar.gz]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [datadispatcher]: Start processing: notion-pinecone
+[2023-06-23 17:22:46] INFO root fetch - main [MainThread]: End processing [datadispatcher]: success
+[2023-06-23 17:22:46] INFO root fetch - processPackages [factor-pricing-model-risk-model]: executing diffoscope
+[2023-06-23 17:22:46] INFO root fetch - processPackages [factor-pricing-model-risk-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factor_pricing_model_risk_model-2023.4.0.tar.gz tmp/factor_pricing_model_risk_model-2023.5.0.tar.gz --markdown 20230623/f/factor-pricing-model-risk-model/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-06-23 17:22:46] INFO root fetch - processPackages [molecule]: New version: [5.0.1] Old Version: [5.0.0a1]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/7d/cc/9507fdf9943a331f5146a23777ad9a20cfd9fd638c401a74a2962936a8a3/mercury-sync-0.3.0.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 17:22:46] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-06-23 17:22:46] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230623/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 17:22:46] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-23 17:22:46] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.2.2.tar.gz tmp/mercury-sync-0.3.0.tar.gz --markdown 20230623/m/mercury-sync/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 17:22:46] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [molecule]: Downloading https://files.pythonhosted.org/packages/4f/b5/f8efbe2fbac29f23a57b16ca38f476e9c59404fdc8ff4286fad91e94549d/molecule-5.0.0a1.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/68/6b/edf70a873c9eae5003fd3c2cda8c91468ca4bfff9e7e6365fd24be157d88/napalm_nokia_olt-0.0.4.tar.gz
+[2023-06-23 17:22:46] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-23 17:22:46] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230623/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 17:22:46] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-06-23 17:22:46] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.3.tar.gz tmp/napalm_nokia_olt-0.0.4.tar.gz --markdown 20230623/n/napalm-nokia-olt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 17:22:46] INFO root fetch - processPackages [molecule]: Downloading https://files.pythonhosted.org/packages/e4/55/66648b26f1ea76127ff976dae906a74eccb6807ac27ff7645c046b78e195/molecule-5.0.1.tar.gz
+[2023-06-23 17:22:47] INFO root fetch - processPackages [molecule]: executing diffoscope
+[2023-06-23 17:22:47] INFO root fetch - processPackages [molecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-5.0.0a1.tar.gz tmp/molecule-5.0.1.tar.gz --markdown 20230623/m/molecule/5.0.0a1-5.0.1/diff.md --exclude *.pyd
+[2023-06-23 17:22:47] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-06-23 17:22:47] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-06-23 17:22:47] INFO root fetch - processPackages [cs-models]: Start processing: plotscanner
+[2023-06-23 17:22:47] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-06-23 17:22:47] INFO root fetch - processPackages [plotscanner]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-23 17:22:47] INFO root fetch - processPackages [plotscanner]: Downloading https://files.pythonhosted.org/packages/11/a5/d632cdc9cee39debd7bca7e78d451d5e5a13819d3dd9e9d5153b520a0be0/plotscanner-0.0.0.tar.gz
+[2023-06-23 17:22:48] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [cellworld]: Start processing: cellworld
+[2023-06-23 17:22:48] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-06-23 17:22:48] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [plotscanner]: Downloading https://files.pythonhosted.org/packages/0f/7d/3232cfd91fe605db49c6e5b81ce988769a30730c1f74924bd7f25d7ddbce/plotscanner-0.0.1.tar.gz
+[2023-06-23 17:22:48] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-06-23 17:22:48] INFO root fetch - processPackages [plotscanner]: executing diffoscope
+[2023-06-23 17:22:48] INFO root fetch - processPackages [plotscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotscanner-0.0.0.tar.gz tmp/plotscanner-0.0.1.tar.gz --markdown 20230623/p/plotscanner/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-23 17:22:48] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.3.1.dev4.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.3.1.dev5.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [gooddata-sdk]: Start processing: ibm-generative-ai
+[2023-06-23 17:22:48] INFO root fetch - main [MainThread]: End processing [gooddata-sdk]: success
+[2023-06-23 17:22:48] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.2.2.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.0.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [mercury-sync]: Start processing: sphinx-typo3-theme
+[2023-06-23 17:22:48] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-23 17:22:48] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-06-23 17:22:48] INFO root fetch - processPackages [ibm-generative-ai]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-06-23 17:22:48] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230623/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 17:22:48] INFO root fetch - processPackages [sphinx-typo3-theme]: New version: [4.8.0] Old Version: [4.7.9]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.8.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.9.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [notion-pinecone]: Start processing: backendpy
+[2023-06-23 17:22:48] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-23 17:22:48] INFO root fetch - processPackages [ibm-generative-ai]: Downloading https://files.pythonhosted.org/packages/cf/3a/6df1353508ad93ecc94dcf74dc438c21deb90e2d908b792559777765bbfc/ibm_generative_ai-0.1.16-py3-none-any.whl
+[2023-06-23 17:22:48] INFO root fetch - processPackages [backendpy]: New version: [0.2.5a3] Old Version: [0.2.5a2]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [sphinx-typo3-theme]: Downloading https://files.pythonhosted.org/packages/0a/1e/7e73c98f65f17ecbbd547459ae66e8c041e770504704d6092d83abce222d/sphinx_typo3_theme-4.7.9-py2.py3-none-any.whl
+[2023-06-23 17:22:48] INFO root fetch - processPackages [factor-pricing-model-risk-model]: Remove: archive file [/home/abi/fetcher/tmp/factor_pricing_model_risk_model-2023.4.0.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [factor-pricing-model-risk-model]: Remove: archive file [/home/abi/fetcher/tmp/factor_pricing_model_risk_model-2023.5.0.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [factor-pricing-model-risk-model]: Start processing: napalm-nokia-olt
+[2023-06-23 17:22:48] INFO root fetch - main [MainThread]: End processing [factor-pricing-model-risk-model]: success
+[2023-06-23 17:22:48] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.3.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.4.tar.gz]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [napalm-nokia-olt]: Start processing: deeplake
+[2023-06-23 17:22:48] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-06-23 17:22:48] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/8a/05/f3dbf4c49d03054e4634bc7d713601e6d90c1b22ddce9b55bc652ee06019/napalm_nokia_olt-0.0.3.tar.gz
+[2023-06-23 17:22:48] INFO root fetch - processPackages [deeplake]: New version: [3.6.5] Old Version: [3.6.4]
+[2023-06-23 17:22:48] INFO root fetch - processPackages [backendpy]: Downloading https://files.pythonhosted.org/packages/1f/02/9e74dc2c2688d074d7c5456a0a137f57c9c74802c296da4604eff6ba5050/backendpy-0.2.5a2.tar.gz
+[2023-06-23 17:22:48] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/68/6b/edf70a873c9eae5003fd3c2cda8c91468ca4bfff9e7e6365fd24be157d88/napalm_nokia_olt-0.0.4.tar.gz
+[2023-06-23 17:22:48] INFO root fetch - processPackages [ibm-generative-ai]: Downloading https://files.pythonhosted.org/packages/73/6e/2ca39872f37184cc2901fa86583326bee4e9f60db9692ab81f6a884c119f/ibm-generative-ai-0.1.17.tar.gz
+[2023-06-23 17:22:48] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-06-23 17:22:48] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.3.tar.gz tmp/napalm_nokia_olt-0.0.4.tar.gz --markdown 20230623/n/napalm-nokia-olt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 17:22:49] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/13/84/122f277ce27c6b4344afef9cf297f4fdffa6d9beffefc104f294db1488ae/deeplake-3.6.4.tar.gz
+[2023-06-23 17:22:49] INFO root fetch - processPackages [ibm-generative-ai]: executing diffoscope
+[2023-06-23 17:22:49] INFO root fetch - processPackages [ibm-generative-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_generative_ai-0.1.16-py3-none-any.whl.zip tmp/ibm-generative-ai-0.1.17.tar.gz --markdown 20230623/i/ibm-generative-ai/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-06-23 17:22:49] INFO root fetch - processPackages [sphinx-typo3-theme]: Downloading https://files.pythonhosted.org/packages/90/a0/5354ade74861569ed725e6ac62642b29a1b9859210996c6f2f9ca96c7640/sphinx_typo3_theme-4.8.0-py2.py3-none-any.whl
+[2023-06-23 17:22:49] INFO root fetch - processPackages [sphinx-typo3-theme]: executing diffoscope
+[2023-06-23 17:22:49] INFO root fetch - processPackages [sphinx-typo3-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_typo3_theme-4.7.9-py2.py3-none-any.whl.zip tmp/sphinx_typo3_theme-4.8.0-py2.py3-none-any.whl.zip --markdown 20230623/s/sphinx-typo3-theme/4.7.9-4.8.0/diff.md --exclude *.pyd
+[2023-06-23 17:22:49] INFO root fetch - processPackages [backendpy]: Downloading https://files.pythonhosted.org/packages/7b/7c/01c6c27fd9dab5d8b0ba1d719fab57a0ea77e87ac3e1c58d781587c20d74/backendpy-0.2.5a3.tar.gz
+[2023-06-23 17:22:49] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/84/bf/98331bb9fa52649f093d3b98d9fc1706e98bcccfc298f17e6c7baa7dd199/deeplake-3.6.5.tar.gz
+[2023-06-23 17:22:49] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2023-06-23 17:22:49] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.6.4.tar.gz tmp/deeplake-3.6.5.tar.gz --markdown 20230623/d/deeplake/3.6.4-3.6.5/diff.md --exclude *.pyd
+[2023-06-23 17:22:49] INFO root fetch - processPackages [backendpy]: executing diffoscope
+[2023-06-23 17:22:49] INFO root fetch - processPackages [backendpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backendpy-0.2.5a2.tar.gz tmp/backendpy-0.2.5a3.tar.gz --markdown 20230623/b/backendpy/0.2.5a2-0.2.5a3/diff.md --exclude *.pyd
+[2023-06-23 17:22:50] INFO root fetch - processPackages [plotscanner]: Remove: archive file [/home/abi/fetcher/tmp/plotscanner-0.0.0.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - processPackages [plotscanner]: Remove: archive file [/home/abi/fetcher/tmp/plotscanner-0.0.1.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - processPackages [plotscanner]: Start processing: bxsolana-trader-proto
+[2023-06-23 17:22:50] INFO root fetch - main [MainThread]: End processing [plotscanner]: success
+[2023-06-23 17:22:50] INFO root fetch - processPackages [bxsolana-trader-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 17:22:50] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-06-23 17:22:50] INFO root fetch - processPackages [bxsolana-trader-proto]: Downloading https://files.pythonhosted.org/packages/cc/d4/3f7c211a4ccb59865cc2c8d794c3929a7c5bb19d89429a74cc76c5c682c2/bxsolana-trader-proto-0.0.8.tar.gz
+[2023-06-23 17:22:50] INFO root fetch - processPackages [ibm-generative-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_generative_ai-0.1.16-py3-none-any.whl.zip]
+[2023-06-23 17:22:50] INFO root fetch - processPackages [ibm-generative-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm-generative-ai-0.1.17.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - main [MainThread]: End processing [ibm-generative-ai]: success
+[2023-06-23 17:22:50] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.3.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.4.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-06-23 17:22:50] INFO root fetch - processPackages [bxsolana-trader-proto]: Downloading https://files.pythonhosted.org/packages/f1/4d/2dae934faee772dba6ffca551f80a4bf48f3e12feb404256a37b431161ac/bxsolana-trader-proto-0.0.9.tar.gz
+[2023-06-23 17:22:50] INFO root fetch - processPackages [bxsolana-trader-proto]: executing diffoscope
+[2023-06-23 17:22:50] INFO root fetch - processPackages [bxsolana-trader-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana-trader-proto-0.0.8.tar.gz tmp/bxsolana-trader-proto-0.0.9.tar.gz --markdown 20230623/b/bxsolana-trader-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 17:22:50] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-dark_enhanced_dirtree-1.1.1.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - processPackages [mkdocs-dark-enhanced-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-dark_enhanced_dirtree-1.2.0.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - main [MainThread]: End processing [mkdocs-dark-enhanced-dirtree]: success
+[2023-06-23 17:22:50] INFO root fetch - processPackages [molecule]: Remove: archive file [/home/abi/fetcher/tmp/molecule-5.0.0a1.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - processPackages [molecule]: Remove: archive file [/home/abi/fetcher/tmp/molecule-5.0.1.tar.gz]
+[2023-06-23 17:22:50] INFO root fetch - main [MainThread]: End processing [molecule]: success
+[2023-06-23 17:22:51] INFO root fetch - processPackages [backendpy]: Remove: archive file [/home/abi/fetcher/tmp/backendpy-0.2.5a2.tar.gz]
+[2023-06-23 17:22:51] INFO root fetch - processPackages [backendpy]: Remove: archive file [/home/abi/fetcher/tmp/backendpy-0.2.5a3.tar.gz]
+[2023-06-23 17:22:51] INFO root fetch - main [MainThread]: End processing [backendpy]: success
+[2023-06-23 17:22:52] INFO root fetch - processPackages [bxsolana-trader-proto]: Remove: archive file [/home/abi/fetcher/tmp/bxsolana-trader-proto-0.0.8.tar.gz]
+[2023-06-23 17:22:52] INFO root fetch - processPackages [bxsolana-trader-proto]: Remove: archive file [/home/abi/fetcher/tmp/bxsolana-trader-proto-0.0.9.tar.gz]
+[2023-06-23 17:22:52] INFO root fetch - main [MainThread]: End processing [bxsolana-trader-proto]: success
+[2023-06-23 17:22:52] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.3.1.dev4.tar.gz]
+[2023-06-23 17:22:52] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.3.1.dev5.tar.gz]
+[2023-06-23 17:22:52] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
+[2023-06-23 17:22:53] INFO root fetch - processPackages [sphinx-typo3-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_typo3_theme-4.7.9-py2.py3-none-any.whl.zip]
+[2023-06-23 17:22:53] INFO root fetch - processPackages [sphinx-typo3-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_typo3_theme-4.8.0-py2.py3-none-any.whl.zip]
+[2023-06-23 17:22:53] INFO root fetch - main [MainThread]: End processing [sphinx-typo3-theme]: success
+[2023-06-23 17:22:54] INFO root fetch - processPackages [deeplake]: Remove: archive file [/home/abi/fetcher/tmp/deeplake-3.6.4.tar.gz]
+[2023-06-23 17:22:54] INFO root fetch - processPackages [deeplake]: Remove: archive file [/home/abi/fetcher/tmp/deeplake-3.6.5.tar.gz]
+[2023-06-23 17:22:54] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2023-06-23 17:22:54] INFO root fetch - main [MainThread]: Store serial: [18619780]
