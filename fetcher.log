@@ -3110,3 +3110,60 @@
 [2023-06-23 03:11:43] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
 [2023-06-23 03:11:43] INFO root fetch - main [MainThread]: End processing [stim]: success
 [2023-06-23 03:11:43] INFO root fetch - main [MainThread]: Store serial: [18612117]
+[2023-06-23 03:16:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18612117]
+[2023-06-23 03:16:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-23 03:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aemcmc-nightly
+[2023-06-23 03:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stimcirq
+[2023-06-23 03:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sinter
+[2023-06-23 03:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2023-06-23 03:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polyglot-piranha
+[2023-06-23 03:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-organizations
+[2023-06-23 03:16:51] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-23 03:16:51] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-23 03:16:51] INFO root fetch - processPackages [polyglot-piranha]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-23 03:16:51] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230623] Old Version: [0.0.8.dev20230622]
+[2023-06-23 03:16:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-23 03:16:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-23 03:16:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [polyglot-piranha]: Downloading https://files.pythonhosted.org/packages/20/da/f257797e7b4108d4239f402645943c4f168f88b46eeebaf31a08482e0a55/polyglot_piranha-0.3.8.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/64/25/cafbe6ab2d03170518fed154e83b7f30aa3f2d169d89db95cc7a0ae80b87/aemcmc-nightly-0.0.8.dev20230622.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/65/36/8f69ae27faae1df92fd4be4f13e65f8d2c2c258a51215b54f29603943e79/aemcmc-nightly-0.0.8.dev20230623.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-23 03:16:52] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230623/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-23 03:16:52] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-23 03:16:52] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230623/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-23 03:16:52] INFO root fetch - processPackages [polyglot-piranha]: Downloading https://files.pythonhosted.org/packages/75/6e/90ba6127f6c31ca2ef77a32e0c2df6b19327d446c8485d5c062a2e73284a/polyglot_piranha-0.3.9.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-23 03:16:52] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230622.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230623.tar.gz --markdown 20230623/a/aemcmc-nightly/0.0.8.dev20230622-0.0.8.dev20230623/diff.md --exclude *.pyd
+[2023-06-23 03:16:52] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-23 03:16:52] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230623/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-23 03:16:52] INFO root fetch - processPackages [polyglot-piranha]: executing diffoscope
+[2023-06-23 03:16:52] INFO root fetch - processPackages [polyglot-piranha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyglot_piranha-0.3.8.tar.gz tmp/polyglot_piranha-0.3.9.tar.gz --markdown 20230623/p/polyglot-piranha/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-23 03:16:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-23 03:16:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-23 03:16:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230623/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-23 03:16:53] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-23 03:16:53] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-23 03:16:53] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-23 03:16:53] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-23 03:16:53] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-23 03:16:53] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-23 03:16:54] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230622.tar.gz]
+[2023-06-23 03:16:54] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230623.tar.gz]
+[2023-06-23 03:16:54] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-23 03:16:54] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-23 03:16:54] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-23 03:16:54] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-23 03:16:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-23 03:16:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-23 03:16:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-23 03:16:54] INFO root fetch - processPackages [polyglot-piranha]: Remove: archive file [/home/abi/fetcher/tmp/polyglot_piranha-0.3.8.tar.gz]
+[2023-06-23 03:16:54] INFO root fetch - processPackages [polyglot-piranha]: Remove: archive file [/home/abi/fetcher/tmp/polyglot_piranha-0.3.9.tar.gz]
+[2023-06-23 03:16:54] INFO root fetch - main [MainThread]: End processing [polyglot-piranha]: success
+[2023-06-23 03:16:54] INFO root fetch - main [MainThread]: Store serial: [18612148]
