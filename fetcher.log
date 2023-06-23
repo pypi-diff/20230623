@@ -15199,3 +15199,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 12:40:46] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-3.0.0.dev0.tar.gz]
 [2023-06-23 12:40:46] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
 [2023-06-23 12:40:46] INFO root fetch - main [MainThread]: Store serial: [18616685]
+[2023-06-23 12:45:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616685]
+[2023-06-23 12:45:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-23 12:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mage-ai
+[2023-06-23 12:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catline
+[2023-06-23 12:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-bg-task
+[2023-06-23 12:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seaplane
+[2023-06-23 12:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logics-py
+[2023-06-23 12:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FLUID-project-upprpo
+[2023-06-23 12:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mds-account-de-skr04
+[2023-06-23 12:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nexusdb
+[2023-06-23 12:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PowDevLif
+[2023-06-23 12:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multitool
+[2023-06-23 12:45:55] INFO root fetch - processPackages [logics-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 12:45:55] INFO root fetch - processPackages [catline]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 12:45:55] INFO root fetch - processPackages [mds-account-de-skr04]: New version: [6.6.6] Old Version: [6.4.6]
+[2023-06-23 12:45:55] INFO root fetch - processPackages [django-bg-task]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-23 12:45:55] INFO root fetch - processPackages [mage-ai]: New version: [0.8.98] Old Version: [0.8.97]
+[2023-06-23 12:45:55] WARNING root fetch - processPackages [FLUID-project-upprpo]: Skipping, unable to determine old version
+[2023-06-23 12:45:55] INFO root fetch - processPackages [nexusdb]: New version: [1.4.1] Old Version: [1.3.5]
+[2023-06-23 12:45:55] INFO root fetch - processPackages [FLUID-project-upprpo]: Start processing: graudio
+[2023-06-23 12:45:55] WARNING root fetch - processPackages [PowDevLif]: Skipping, unable to determine old version
+[2023-06-23 12:45:55] INFO root fetch - main [MainThread]: End processing [FLUID-project-upprpo] error
+[2023-06-23 12:45:55] INFO root fetch - processPackages [multitool]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-23 12:45:55] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-23 12:45:55] INFO root fetch - main [MainThread]: End processing [PowDevLif] error
+[2023-06-23 12:45:55] WARNING root fetch - processPackages [graudio]: Skipping, unable to determine old version
+[2023-06-23 12:45:55] INFO root fetch - main [MainThread]: End processing [graudio] error
+[2023-06-23 12:45:55] INFO root fetch - processPackages [catline]: Downloading https://files.pythonhosted.org/packages/0a/89/6719ab1209250ef93ca924909d422ec670d7a58d9398b569752e8e51c7b1/catline-0.0.2.tar.gz
+[2023-06-23 12:45:55] INFO root fetch - processPackages [nexusdb]: Downloading https://files.pythonhosted.org/packages/26/36/8c9304c3fe482a05386094ffc9a6c02f2baa4002d48f24fb6cb6ff1c56bd/nexusdb-1.3.5.tar.gz
+[2023-06-23 12:45:55] INFO root fetch - processPackages [logics-py]: Downloading https://files.pythonhosted.org/packages/95/fc/1369aca3cc9d0d59fc74442dc5428a476cd0ac4988a597b402648c923e99/logics_py-0.0.3.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [mds-account-de-skr04]: Downloading https://files.pythonhosted.org/packages/e3/1b/5940e1fa88914c0840431ef4440f90bf6bcfecdb40474dffd4f569813fa9/mds_account_de_skr04-6.4.6.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [django-bg-task]: Downloading https://files.pythonhosted.org/packages/ee/08/f10c8b0a8a4ab9a7520e905fd310711f8f0ad0202859273b640e7624dd2e/django_bg_task-0.0.1.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [nexusdb]: Downloading https://files.pythonhosted.org/packages/32/51/35a3fa9d7959b038e3067900de5ef19ca0fad1afbfdca314fc96c3744ad5/nexusdb-1.4.1.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/e3/10/fd76ec753948e238dd4e5dc506ba9771e5ee9177bfac980c10fa2009583b/mage-ai-0.8.97.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [multitool]: Downloading https://files.pythonhosted.org/packages/a4/2e/1b075095900a9433daa73bfa68d3639fa1f0d6d3385653cf775d7ea62740/multitool-0.3.2.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [nexusdb]: executing diffoscope
+[2023-06-23 12:45:56] INFO root fetch - processPackages [nexusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexusdb-1.3.5.tar.gz tmp/nexusdb-1.4.1.tar.gz --markdown 20230623/n/nexusdb/1.3.5-1.4.1/diff.md --exclude *.pyd
+[2023-06-23 12:45:56] INFO root fetch - processPackages [catline]: Downloading https://files.pythonhosted.org/packages/ab/e6/4bae6b0716959c7c1a790e6c39335bfd276c8c4164bc1dd232f9c0cc21be/catline-0.0.3.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [django-bg-task]: Downloading https://files.pythonhosted.org/packages/3b/c0/34aa790ce197b7f5c689c5a24886203519a8fff9472cb8d335c531123d55/django_bg_task-0.0.2.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [logics-py]: Downloading https://files.pythonhosted.org/packages/41/17/a9ca1f99e4ded2229af39abae7a31673d06dea6bb446b72b70fbd65bb477/logics_py-0.0.4-py3-none-any.whl
+[2023-06-23 12:45:56] INFO root fetch - processPackages [mds-account-de-skr04]: Downloading https://files.pythonhosted.org/packages/c0/41/75ca82cc6a4ba2abf6a08fe03d2ba87c97daadb839572e82f485b71e2eab/mds_account_de_skr04-6.6.6.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [django-bg-task]: executing diffoscope
+[2023-06-23 12:45:56] INFO root fetch - processPackages [django-bg-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bg_task-0.0.1.tar.gz tmp/django_bg_task-0.0.2.tar.gz --markdown 20230623/d/django-bg-task/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 12:45:56] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [logics-py]: executing diffoscope
+[2023-06-23 12:45:56] INFO root fetch - processPackages [logics-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logics_py-0.0.3.tar.gz tmp/logics_py-0.0.4-py3-none-any.whl.zip --markdown 20230623/l/logics-py/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 12:45:56] INFO root fetch - processPackages [catline]: executing diffoscope
+[2023-06-23 12:45:56] INFO root fetch - processPackages [catline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catline-0.0.2.tar.gz tmp/catline-0.0.3.tar.gz --markdown 20230623/c/catline/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 12:45:56] INFO root fetch - processPackages [multitool]: Downloading https://files.pythonhosted.org/packages/c7/46/709fd166b9634e91ab3c50e5336ba0d8e5629c09249bf68d64db277a3f44/multitool-0.4.0.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [multitool]: executing diffoscope
+[2023-06-23 12:45:56] INFO root fetch - processPackages [multitool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multitool-0.3.2.tar.gz tmp/multitool-0.4.0.tar.gz --markdown 20230623/m/multitool/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 12:45:56] INFO root fetch - processPackages [mds-account-de-skr04]: executing diffoscope
+[2023-06-23 12:45:56] INFO root fetch - processPackages [mds-account-de-skr04]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mds_account_de_skr04-6.4.6.tar.gz tmp/mds_account_de_skr04-6.6.6.tar.gz --markdown 20230623/m/mds-account-de-skr04/6.4.6-6.6.6/diff.md --exclude *.pyd
+[2023-06-23 12:45:56] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/0a/30/b2974b3572c6d5e838d1d5c3ec21228ee5095fcd9c9208385cb759902232/mage-ai-0.8.98.tar.gz
+[2023-06-23 12:45:56] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-23 12:45:56] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230623/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-23 12:45:57] INFO root fetch - processPackages [nexusdb]: Remove: archive file [/home/abi/fetcher/tmp/nexusdb-1.3.5.tar.gz]
+[2023-06-23 12:45:57] INFO root fetch - processPackages [nexusdb]: Remove: archive file [/home/abi/fetcher/tmp/nexusdb-1.4.1.tar.gz]
+[2023-06-23 12:45:57] INFO root fetch - main [MainThread]: End processing [nexusdb]: success
+[2023-06-23 12:45:57] INFO root fetch - processPackages [logics-py]: Remove: archive file [/home/abi/fetcher/tmp/logics_py-0.0.3.tar.gz]
+[2023-06-23 12:45:57] INFO root fetch - processPackages [logics-py]: Remove: archive file [/home/abi/fetcher/tmp/logics_py-0.0.4-py3-none-any.whl.zip]
+[2023-06-23 12:45:57] INFO root fetch - main [MainThread]: End processing [logics-py]: success
+[2023-06-23 12:45:57] INFO root fetch - processPackages [django-bg-task]: Remove: archive file [/home/abi/fetcher/tmp/django_bg_task-0.0.1.tar.gz]
+[2023-06-23 12:45:57] INFO root fetch - processPackages [django-bg-task]: Remove: archive file [/home/abi/fetcher/tmp/django_bg_task-0.0.2.tar.gz]
+[2023-06-23 12:45:57] INFO root fetch - main [MainThread]: End processing [django-bg-task]: success
+[2023-06-23 12:45:57] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-06-23 12:45:57] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.97.tar.gz tmp/mage-ai-0.8.98.tar.gz --markdown 20230623/m/mage-ai/0.8.97-0.8.98/diff.md --exclude *.pyd
+[2023-06-23 12:45:58] INFO root fetch - processPackages [catline]: Remove: archive file [/home/abi/fetcher/tmp/catline-0.0.2.tar.gz]
+[2023-06-23 12:45:58] INFO root fetch - processPackages [catline]: Remove: archive file [/home/abi/fetcher/tmp/catline-0.0.3.tar.gz]
+[2023-06-23 12:45:58] INFO root fetch - main [MainThread]: End processing [catline]: success
+[2023-06-23 12:45:58] INFO root fetch - processPackages [multitool]: Remove: archive file [/home/abi/fetcher/tmp/multitool-0.3.2.tar.gz]
+[2023-06-23 12:45:58] INFO root fetch - processPackages [multitool]: Remove: archive file [/home/abi/fetcher/tmp/multitool-0.4.0.tar.gz]
+[2023-06-23 12:45:58] INFO root fetch - main [MainThread]: End processing [multitool]: success
+[2023-06-23 12:45:58] INFO root fetch - processPackages [mds-account-de-skr04]: Remove: archive file [/home/abi/fetcher/tmp/mds_account_de_skr04-6.4.6.tar.gz]
+[2023-06-23 12:45:58] INFO root fetch - processPackages [mds-account-de-skr04]: Remove: archive file [/home/abi/fetcher/tmp/mds_account_de_skr04-6.6.6.tar.gz]
+[2023-06-23 12:45:58] INFO root fetch - main [MainThread]: End processing [mds-account-de-skr04]: success
+[2023-06-23 12:45:58] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-23 12:45:58] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-23 12:45:58] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-23 12:46:32] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.97.tar.gz]
+[2023-06-23 12:46:32] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.98.tar.gz]
+[2023-06-23 12:46:32] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-06-23 12:46:32] INFO root fetch - main [MainThread]: Store serial: [18616721]
