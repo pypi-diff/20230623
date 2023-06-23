@@ -22344,3 +22344,151 @@ EOFError: EOF read where object expected
 [2023-06-23 17:28:10] INFO root fetch - processPackages [speech-collator]: Remove: archive file [/home/abi/fetcher/tmp/speech_collator-0.1.9.tar.gz]
 [2023-06-23 17:28:10] INFO root fetch - main [MainThread]: End processing [speech-collator]: success
 [2023-06-23 17:28:10] INFO root fetch - main [MainThread]: Store serial: [18619842]
+[2023-06-23 17:33:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18619842]
+[2023-06-23 17:33:19] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-23 17:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napalm-nokia-olt
+[2023-06-23 17:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SmartDriveML
+[2023-06-23 17:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sum-test-test
+[2023-06-23 17:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcoveofds
+[2023-06-23 17:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discovery-transition-ds
+[2023-06-23 17:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amlopsvueelements
+[2023-06-23 17:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: napalm-nokia-olt
+[2023-06-23 17:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellworld
+[2023-06-23 17:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-base
+[2023-06-23 17:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-cli
+[2023-06-23 17:33:20] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 17:33:20] INFO root fetch - processPackages [sum-test-test]: New version: [0.2] Old Version: [0.1]
+[2023-06-23 17:33:20] INFO root fetch - processPackages [libcoveofds]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-23 17:33:20] WARNING root fetch - processPackages [SmartDriveML]: Skipping, unable to determine old version
+[2023-06-23 17:33:20] INFO root fetch - processPackages [SmartDriveML]: Start processing: gardener-cicd-dso
+[2023-06-23 17:33:20] INFO root fetch - main [MainThread]: End processing [SmartDriveML] error
+[2023-06-23 17:33:20] INFO root fetch - processPackages [amlopsvueelements]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-23 17:33:20] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-23 17:33:20] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 17:33:20] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2091.0] Old Version: [1.2090.0]
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2091.0] Old Version: [1.2090.0]
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2091.0] Old Version: [1.2090.0]
+[2023-06-23 17:33:20] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/fa/05/fd8305f19aaa08a7810afb19f0d9a77b0af016f0adf1a6968cbac4de5f03/amlopsvueelements-1.2.6.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/eb/6d/3d6ff159900f495b1eba950be2f709eea77204e900ab2f44f5f8ede5a0b3/gardener-cicd-base-1.2090.0.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/6e/7d/1b3f3da88430f6485ba5e450c4bcc853c63135fd5ccb2ac532ae45c311cd/gardener-cicd-cli-1.2090.0.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/2f/ac/dacb34458023d65e147ccecbd6abb57da9a0a7ddd55965e65ad4b0ae9181/gardener-cicd-dso-1.2090.0.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/59/02/423a7b9506c2f01b9e4f303035240880de774e42e8af86988c6e97715126/napalm_nokia_olt-0.0.5.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/59/02/423a7b9506c2f01b9e4f303035240880de774e42e8af86988c6e97715126/napalm_nokia_olt-0.0.5.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [sum-test-test]: Downloading https://files.pythonhosted.org/packages/cf/77/6695c34aee56e06a8e16b12309857d998c865643926958201cac274c0573/sum_test_test-0.1.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [libcoveofds]: Downloading https://files.pythonhosted.org/packages/f4/aa/2968045e69203c92772b3974cc1d9c07ab4d195e31ab91a94a37aedb9c73/libcoveofds-0.8.0.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/cc/ca/dd90c3d50a2ad721c7d5c68f5fd4ee0e6e77dc44837a32cecf9e80f276da/discovery-transition-ds-4.9.8.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/11/b9/bb4736b410efb35571759f7619d3cb34bf33b863ff36842224754d1406fa/gardener-cicd-base-1.2091.0.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/af/a9/4b2bb6e7fb15ea64b129119affe929cfb8b87a7539d841db233d03d3842b/gardener-cicd-cli-1.2091.0.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/05/a8/44139c7bfe19c2fb1a4daef94b2c6b155953d33c3cf35172d559167d2787/gardener-cicd-dso-1.2091.0.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-06-23 17:33:20] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230623/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 17:33:20] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/89/74/a1c14eb7331dba88228138e4fcb94a11211d2bce0602f54935f9082c8a5b/napalm_nokia_olt-0.0.6.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/76/d2/ced5b063bd313610f9d9f6306ad8ffca7fa20b070656f473992a707e078a/amlopsvueelements-1.2.7.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2090.0.tar.gz tmp/gardener-cicd-base-1.2091.0.tar.gz --markdown 20230623/g/gardener-cicd-base/1.2090.0-1.2091.0/diff.md --exclude *.pyd
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2090.0.tar.gz tmp/gardener-cicd-cli-1.2091.0.tar.gz --markdown 20230623/g/gardener-cicd-cli/1.2090.0-1.2091.0/diff.md --exclude *.pyd
+[2023-06-23 17:33:20] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/89/74/a1c14eb7331dba88228138e4fcb94a11211d2bce0602f54935f9082c8a5b/napalm_nokia_olt-0.0.6.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [libcoveofds]: Downloading https://files.pythonhosted.org/packages/1d/3f/a05a9fa113f51575396444e0d88161f9b39b9b954e76974e6e29ad896b27/libcoveofds-0.8.1.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-23 17:33:20] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2090.0.tar.gz tmp/gardener-cicd-dso-1.2091.0.tar.gz --markdown 20230623/g/gardener-cicd-dso/1.2090.0-1.2091.0/diff.md --exclude *.pyd
+[2023-06-23 17:33:20] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-06-23 17:33:20] INFO root fetch - processPackages [sum-test-test]: Downloading https://files.pythonhosted.org/packages/98/44/c19fc8e12e53005ff9cfe00bbb81832a74871d2097f24c52d8f576c4b8e5/sum_test_test-0.2.tar.gz
+[2023-06-23 17:33:20] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.5.tar.gz tmp/napalm_nokia_olt-0.0.6.tar.gz --markdown 20230623/n/napalm-nokia-olt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 17:33:20] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-06-23 17:33:20] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.5.tar.gz tmp/napalm_nokia_olt-0.0.6.tar.gz --markdown 20230623/n/napalm-nokia-olt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 17:33:20] INFO root fetch - processPackages [libcoveofds]: executing diffoscope
+[2023-06-23 17:33:20] INFO root fetch - processPackages [libcoveofds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcoveofds-0.8.0.tar.gz tmp/libcoveofds-0.8.1.tar.gz --markdown 20230623/l/libcoveofds/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-23 17:33:20] INFO root fetch - processPackages [sum-test-test]: executing diffoscope
+[2023-06-23 17:33:20] INFO root fetch - processPackages [sum-test-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sum_test_test-0.1.tar.gz tmp/sum_test_test-0.2.tar.gz --markdown 20230623/s/sum-test-test/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-23 17:33:20] INFO root fetch - processPackages [amlopsvueelements]: executing diffoscope
+[2023-06-23 17:33:20] INFO root fetch - processPackages [amlopsvueelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopsvueelements-1.2.6.tar.gz tmp/amlopsvueelements-1.2.7.tar.gz --markdown 20230623/a/amlopsvueelements/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-23 17:33:21] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/ec/52/fe97bc1465aa4a0bde7a751272ca25b751fd275a83e912c56ca6a544332e/discovery-transition-ds-4.9.9.tar.gz
+[2023-06-23 17:33:22] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [cellworld]: Start processing: gardener-cicd-libs
+[2023-06-23 17:33:22] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2091.0] Old Version: [1.2090.0]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/df/c3/b83cbf6572cc5f77e5e1c0fb9db083e880e1fe9ff91ba340effee0944ab0/gardener-cicd-libs-1.2090.0.tar.gz
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/80/65/4d520e1b184b757ce9b3f9bc067a907362e06780d5f023b99abfbb1338b1/gardener-cicd-libs-1.2091.0.tar.gz
+[2023-06-23 17:33:22] INFO root fetch - processPackages [sum-test-test]: Remove: archive file [/home/abi/fetcher/tmp/sum_test_test-0.1.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [sum-test-test]: Remove: archive file [/home/abi/fetcher/tmp/sum_test_test-0.2.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [sum-test-test]: Start processing: gardener-cicd-whd
+[2023-06-23 17:33:22] INFO root fetch - main [MainThread]: End processing [sum-test-test]: success
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2091.0] Old Version: [1.2090.0]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2090.0.tar.gz tmp/gardener-cicd-libs-1.2091.0.tar.gz --markdown 20230623/g/gardener-cicd-libs/1.2090.0-1.2091.0/diff.md --exclude *.pyd
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/63/ac/e17a8a1358730a9047ad461ef542d242b37788c7cf52f01db17383d78333/gardener-cicd-whd-1.2090.0.tar.gz
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2090.0.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2091.0.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: gardener-oci
+[2023-06-23 17:33:22] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2090.0.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2091.0.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: pymince
+[2023-06-23 17:33:22] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.5.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.6.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [napalm-nokia-olt]: Start processing: ldimbenchmark
+[2023-06-23 17:33:22] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-06-23 17:33:22] INFO root fetch - processPackages [napalm-nokia-olt]: Start processing: nonebot-plugin-al
+[2023-06-23 17:33:22] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2090.0.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2091.0.tar.gz]
+[2023-06-23 17:33:22] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-23 17:33:22] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/ac/16/66ef1fd6d8293fd90ebde4e141244c635ae27b7de3f90c4c95ed3a7bf218/gardener-cicd-whd-1.2091.0.tar.gz
+[2023-06-23 17:33:22] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-23 17:33:22] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/00/ff/0265b46739a07cf58484dc51fe41178d87bc570c08adaaa7a91cf8f583be/nonebot_plugin_al-0.3.8.tar.gz
+[2023-06-23 17:33:22] INFO root fetch - processPackages [pymince]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2090.0.tar.gz tmp/gardener-cicd-whd-1.2091.0.tar.gz --markdown 20230623/g/gardener-cicd-whd/1.2090.0-1.2091.0/diff.md --exclude *.pyd
+[2023-06-23 17:33:22] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-23 17:33:23] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-23 17:33:23] INFO root fetch - processPackages [pymince]: Downloading https://files.pythonhosted.org/packages/a7/b9/38bdee0303ede4576eb03f2bc3d3f939be58e8263d673d3f8c2aade9580b/pymince-2.8.0.tar.gz
+[2023-06-23 17:33:23] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-23 17:33:23] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230623/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-23 17:33:23] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-23 17:33:23] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230623/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-23 17:33:23] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/83/f6/2fbd320c40beff0f28632beac434c275748b88360e44bc24361f6374d459/nonebot_plugin_al-0.3.9.tar.gz
+[2023-06-23 17:33:23] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-23 17:33:23] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.3.8.tar.gz tmp/nonebot_plugin_al-0.3.9.tar.gz --markdown 20230623/n/nonebot-plugin-al/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-23 17:33:23] INFO root fetch - processPackages [pymince]: Downloading https://files.pythonhosted.org/packages/84/87/2fc93d2b74ded77e2259c88334acfb84e167fa2c507349b0bb7f08f20762/pymince-2.9.0.tar.gz
+[2023-06-23 17:33:23] INFO root fetch - processPackages [pymince]: executing diffoscope
+[2023-06-23 17:33:23] INFO root fetch - processPackages [pymince]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymince-2.8.0.tar.gz tmp/pymince-2.9.0.tar.gz --markdown 20230623/p/pymince/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-23 17:33:24] INFO root fetch - processPackages [libcoveofds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveofds-0.8.0.tar.gz]
+[2023-06-23 17:33:24] INFO root fetch - processPackages [libcoveofds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveofds-0.8.1.tar.gz]
+[2023-06-23 17:33:24] INFO root fetch - main [MainThread]: End processing [libcoveofds]: success
+[2023-06-23 17:33:24] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-06-23 17:33:24] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230623/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-23 17:33:24] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2090.0.tar.gz]
+[2023-06-23 17:33:24] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2091.0.tar.gz]
+[2023-06-23 17:33:24] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-23 17:33:24] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-23 17:33:24] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-23 17:33:24] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-23 17:33:24] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-23 17:33:24] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-23 17:33:24] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-23 17:33:24] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.8.tar.gz]
+[2023-06-23 17:33:24] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.9.tar.gz]
+[2023-06-23 17:33:24] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-23 17:33:25] INFO root fetch - processPackages [pymince]: Remove: archive file [/home/abi/fetcher/tmp/pymince-2.8.0.tar.gz]
+[2023-06-23 17:33:25] INFO root fetch - processPackages [pymince]: Remove: archive file [/home/abi/fetcher/tmp/pymince-2.9.0.tar.gz]
+[2023-06-23 17:33:25] INFO root fetch - main [MainThread]: End processing [pymince]: success
+[2023-06-23 17:33:25] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2090.0.tar.gz]
+[2023-06-23 17:33:25] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2091.0.tar.gz]
+[2023-06-23 17:33:25] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-23 17:33:26] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.6.tar.gz]
+[2023-06-23 17:33:26] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.7.tar.gz]
+[2023-06-23 17:33:26] INFO root fetch - main [MainThread]: End processing [amlopsvueelements]: success
+[2023-06-23 17:33:28] INFO root fetch - processPackages [discovery-transition-ds]: Remove: archive file [/home/abi/fetcher/tmp/discovery-transition-ds-4.9.8.tar.gz]
+[2023-06-23 17:33:28] INFO root fetch - processPackages [discovery-transition-ds]: Remove: archive file [/home/abi/fetcher/tmp/discovery-transition-ds-4.9.9.tar.gz]
+[2023-06-23 17:33:28] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-06-23 17:33:28] INFO root fetch - main [MainThread]: Store serial: [18619916]
