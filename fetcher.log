@@ -11457,3 +11457,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 09:47:52] INFO root fetch - processPackages [garpix-user]: Remove: archive file [/home/abi/fetcher/tmp/garpix_user-3.8.0.tar.gz]
 [2023-06-23 09:47:52] INFO root fetch - main [MainThread]: End processing [garpix-user]: success
 [2023-06-23 09:47:52] INFO root fetch - main [MainThread]: Store serial: [18615179]
+[2023-06-23 09:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615179]
+[2023-06-23 09:53:00] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-23 09:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wodoo
+[2023-06-23 09:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: almavik
+[2023-06-23 09:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylinkage
+[2023-06-23 09:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kalm
+[2023-06-23 09:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-grpc-lw-data-provider
+[2023-06-23 09:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tkadw
+[2023-06-23 09:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-cpu
+[2023-06-23 09:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-picking-show-backorder
+[2023-06-23 09:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ast-grep-cli
+[2023-06-23 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keyring-pass
+[2023-06-23 09:53:01] INFO root fetch - processPackages [almavik]: New version: [5.0] Old Version: [351.1]
+[2023-06-23 09:53:01] INFO root fetch - processPackages [tkadw]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 09:53:01] INFO root fetch - processPackages [pylinkage]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-23 09:53:01] INFO root fetch - processPackages [wodoo]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-23 09:53:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5354066762]
+[2023-06-23 09:53:01] INFO root fetch - processPackages [odoo-addon-stock-picking-show-backorder]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1.1]
+[2023-06-23 09:53:01] INFO root fetch - processPackages [keyring-pass]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-23 09:53:01] WARNING root fetch - processPackages [ast-grep-cli]: Skipping, unable to determine old version
+[2023-06-23 09:53:01] INFO root fetch - processPackages [ast-grep-cli]: Start processing: translocation
+[2023-06-23 09:53:01] INFO root fetch - main [MainThread]: End processing [ast-grep-cli] error
+[2023-06-23 09:53:01] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 09:53:01] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230623] Old Version: [2.14.0.dev20230622]
+[2023-06-23 09:53:01] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/14/09/1ef2b4c2a013c87dbf867a1c65bbc30fcb73157e60c78f1edf8fd495ee44/almavik-351.1.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/f5/52/4ab55ff3d606ebb91f6924193bedad2c5f2b051b0aa690a195a6bdaad136/tkadw-0.1.1.tar.gz
+[2023-06-23 09:53:01] WARNING root fetch - processPackages [translocation]: Skipping, unable to determine old version
+[2023-06-23 09:53:01] INFO root fetch - processPackages [translocation]: Start processing: qotto-auth-client
+[2023-06-23 09:53:01] INFO root fetch - main [MainThread]: End processing [translocation] error
+[2023-06-23 09:53:01] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [qotto-auth-client]: New version: [2.2.2a0] Old Version: [2.2.1]
+[2023-06-23 09:53:01] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85078284>=10485760
+[2023-06-23 09:53:01] INFO root fetch - processPackages [almavik]: Start processing: xk6-output-plugin-py
+[2023-06-23 09:53:01] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-23 09:53:01] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/b9/60/298542ef7ee37d802b5513b7fa27cf55aa9f3dd59de8f20e92c592761669/wodoo-0.4.2.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/de/da/c9f3fbddae91701ba4291dfb1a8a14af86222ec818db861cbb39237c0a23/th2_grpc_lw_data_provider-2.0.0.dev5354066762.tar.gz
+[2023-06-23 09:53:01] WARNING root fetch - processPackages [xk6-output-plugin-py]: Skipping, unable to determine old version
+[2023-06-23 09:53:01] INFO root fetch - main [MainThread]: End processing [xk6-output-plugin-py] error
+[2023-06-23 09:53:01] INFO root fetch - processPackages [pylinkage]: Downloading https://files.pythonhosted.org/packages/bf/40/05b4adf51f42995bf79acee2169fabeea59b4b70ec7de0b35c7d1cb5bc8b/pylinkage-0.5.2.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [odoo-addon-stock-picking-show-backorder]: Downloading https://files.pythonhosted.org/packages/87/eb/c589504393bdc0c0ba9f3d9f844cce75cc98b5eba9ac82b7c67afae1438b/odoo_addon_stock_picking_show_backorder-15.0.1.0.1.1-py3-none-any.whl
+[2023-06-23 09:53:01] INFO root fetch - processPackages [keyring-pass]: Downloading https://files.pythonhosted.org/packages/03/b8/b0f4a1f6d2eb845063323f99018b1bad5577b977c4777ebb36e9fe41632d/keyring_pass-0.8.0.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/69/27/05855308a18f86dbf37ee28d2e2d876a161e515136e41d6a8cfc35e7fd12/tf_nightly_cpu-2.14.0.dev20230622-cp39-cp39-win_amd64.whl
+[2023-06-23 09:53:01] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 09:53:01] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 09:53:01] INFO root fetch - processPackages [qotto-auth-client]: Downloading https://files.pythonhosted.org/packages/19/92/77c53bb73643fd10b71299350716f26681f5a370ecc600ac301ca1168459/qotto_auth_client-2.2.1.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/68/84/4536a457e9b111ccd22800e40678c1bb77371cf72c92a25090fd16e08e5f/tkadw-0.1.2.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/7c/72/7b39bf072f221bb2dfad900a6cc3d5d12a1e6b331b8925dc9172fe30d8f0/wodoo-0.4.3.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-23 09:53:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5354066762.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230623/t/th2-grpc-lw-data-provider/2.0.0.dev5354066762-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-23 09:53:01] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/23/72/59e66ebe07f872c1eaf0afc1a71a0f293fbc3b6c01762a9ab92a37f045c2/tf_nightly_cpu-2.14.0.dev20230623-cp39-cp39-win_amd64.whl
+[2023-06-23 09:53:01] INFO root fetch - processPackages [odoo-addon-stock-picking-show-backorder]: Downloading https://files.pythonhosted.org/packages/ec/6b/d5c4873aa324e632b6d14ce29c5f3f2ea401a4415e4f4d7f8fa1a43da6a0/odoo_addon_stock_picking_show_backorder-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-23 09:53:01] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-06-23 09:53:01] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.2.tar.gz tmp/wodoo-0.4.3.tar.gz --markdown 20230623/w/wodoo/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-23 09:53:01] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-06-23 09:53:01] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.1.1.tar.gz tmp/tkadw-0.1.2.tar.gz --markdown 20230623/t/tkadw/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 09:53:01] INFO root fetch - processPackages [keyring-pass]: Downloading https://files.pythonhosted.org/packages/7c/0b/e29b3840d612d16610b60f2d81379dd0e934c5e23b82b61f9e162fe18966/keyring_pass-0.8.1.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [qotto-auth-client]: Downloading https://files.pythonhosted.org/packages/55/47/c888763062f9a77b0f574a740d806a828c1cf657b6cc974a0e05d6d7ac0e/qotto_auth_client-2.2.2a0.tar.gz
+[2023-06-23 09:53:01] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-23 09:53:01] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230622-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230623-cp39-cp39-win_amd64.whl.zip --markdown 20230623/t/tf-nightly-cpu/2.14.0.dev20230622-2.14.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-23 09:53:01] INFO root fetch - processPackages [odoo-addon-stock-picking-show-backorder]: executing diffoscope
+[2023-06-23 09:53:01] INFO root fetch - processPackages [odoo-addon-stock-picking-show-backorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_show_backorder-15.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_show_backorder-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-stock-picking-show-backorder/15.0.1.0.1.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-23 09:53:01] INFO root fetch - processPackages [keyring-pass]: executing diffoscope
+[2023-06-23 09:53:01] INFO root fetch - processPackages [keyring-pass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyring_pass-0.8.0.tar.gz tmp/keyring_pass-0.8.1.tar.gz --markdown 20230623/k/keyring-pass/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-23 09:53:01] INFO root fetch - processPackages [qotto-auth-client]: executing diffoscope
+[2023-06-23 09:53:01] INFO root fetch - processPackages [qotto-auth-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qotto_auth_client-2.2.1.tar.gz tmp/qotto_auth_client-2.2.2a0.tar.gz --markdown 20230623/q/qotto-auth-client/2.2.1-2.2.2a0/diff.md --exclude *.pyd
+[2023-06-23 09:53:02] INFO root fetch - processPackages [pylinkage]: Downloading https://files.pythonhosted.org/packages/32/a7/83dd3df9c48bbae6c273ee7092efba57b6d568119ffaa6e25e2dd3d1108a/pylinkage-0.5.3.tar.gz
+[2023-06-23 09:53:02] INFO root fetch - processPackages [pylinkage]: executing diffoscope
+[2023-06-23 09:53:02] INFO root fetch - processPackages [pylinkage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinkage-0.5.2.tar.gz tmp/pylinkage-0.5.3.tar.gz --markdown 20230623/p/pylinkage/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-23 09:53:02] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5354066762.tar.gz]
+[2023-06-23 09:53:02] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-23 09:53:02] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-23 09:53:03] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 09:53:03] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 09:53:03] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 09:53:03] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230622-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 09:53:03] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230623-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 09:53:03] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-23 09:53:03] INFO root fetch - processPackages [odoo-addon-stock-picking-show-backorder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_show_backorder-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-23 09:53:03] INFO root fetch - processPackages [odoo-addon-stock-picking-show-backorder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_show_backorder-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-23 09:53:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-show-backorder]: success
+[2023-06-23 09:53:03] INFO root fetch - processPackages [keyring-pass]: Remove: archive file [/home/abi/fetcher/tmp/keyring_pass-0.8.0.tar.gz]
+[2023-06-23 09:53:03] INFO root fetch - processPackages [keyring-pass]: Remove: archive file [/home/abi/fetcher/tmp/keyring_pass-0.8.1.tar.gz]
+[2023-06-23 09:53:03] INFO root fetch - main [MainThread]: End processing [keyring-pass]: success
+[2023-06-23 09:53:03] INFO root fetch - processPackages [qotto-auth-client]: Remove: archive file [/home/abi/fetcher/tmp/qotto_auth_client-2.2.1.tar.gz]
+[2023-06-23 09:53:03] INFO root fetch - processPackages [qotto-auth-client]: Remove: archive file [/home/abi/fetcher/tmp/qotto_auth_client-2.2.2a0.tar.gz]
+[2023-06-23 09:53:03] INFO root fetch - main [MainThread]: End processing [qotto-auth-client]: success
+[2023-06-23 09:53:03] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.1.1.tar.gz]
+[2023-06-23 09:53:03] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.1.2.tar.gz]
+[2023-06-23 09:53:03] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-06-23 09:53:04] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.2.tar.gz]
+[2023-06-23 09:53:04] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.3.tar.gz]
+[2023-06-23 09:53:04] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-06-23 09:53:07] INFO root fetch - processPackages [pylinkage]: Remove: archive file [/home/abi/fetcher/tmp/pylinkage-0.5.2.tar.gz]
+[2023-06-23 09:53:07] INFO root fetch - processPackages [pylinkage]: Remove: archive file [/home/abi/fetcher/tmp/pylinkage-0.5.3.tar.gz]
+[2023-06-23 09:53:07] INFO root fetch - main [MainThread]: End processing [pylinkage]: success
+[2023-06-23 09:53:07] INFO root fetch - main [MainThread]: Store serial: [18615229]
