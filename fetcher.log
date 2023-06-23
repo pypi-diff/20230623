@@ -17021,3 +17021,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 14:02:06] INFO root fetch - processPackages [polario]: Remove: archive file [/home/abi/fetcher/tmp/polario-0.3.0.tar.gz]
 [2023-06-23 14:02:06] INFO root fetch - main [MainThread]: End processing [polario]: success
 [2023-06-23 14:02:06] INFO root fetch - main [MainThread]: Store serial: [18617532]
+[2023-06-23 14:07:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617532]
+[2023-06-23 14:07:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-23 14:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2023-06-23 14:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: almavik
+[2023-06-23 14:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-06-23 14:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: water-drops-detection
+[2023-06-23 14:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jijmodeling-transpiler
+[2023-06-23 14:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amfiprot-amfitrack
+[2023-06-23 14:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csvcubed
+[2023-06-23 14:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-contract
+[2023-06-23 14:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: niceml
+[2023-06-23 14:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-snapshot-analysis
+[2023-06-23 14:07:15] WARNING root fetch - processPackages [water-drops-detection]: Skipping, unable to determine old version
+[2023-06-23 14:07:15] INFO root fetch - processPackages [almavik]: New version: [355] Old Version: [288]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [water-drops-detection]: Start processing: buteo
+[2023-06-23 14:07:15] INFO root fetch - main [MainThread]: End processing [water-drops-detection] error
+[2023-06-23 14:07:15] INFO root fetch - processPackages [csvcubed]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230623.12.1.557732] Old Version: [20230623.11.21.329115]
+[2023-06-23 14:07:15] WARNING root fetch - processPackages [dbt-snapshot-analysis]: Skipping, unable to determine old version
+[2023-06-23 14:07:15] INFO root fetch - processPackages [dbt-snapshot-analysis]: Start processing: notion-pinecone
+[2023-06-23 14:07:15] INFO root fetch - main [MainThread]: End processing [dbt-snapshot-analysis] error
+[2023-06-23 14:07:15] INFO root fetch - processPackages [amfiprot-amfitrack]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [niceml]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [jijmodeling-transpiler]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [odoo14-addon-contract]: New version: [14.0.2.9.6.dev2] Old Version: [14.0.2.9.5.dev2]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4e/04/8a3ecf25e39b40300ce35cc6a4df4a1ec4a62b2d244a4085b2ee761f18ed/certora-cli-alpha-master-20230623.11.21.329115.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/7d/79/81a2792cc82275d82f1ae43f478f1ff2242d6a4ba93bc57a8fbea9bed8f6/almavik-288.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [csvcubed]: Downloading https://files.pythonhosted.org/packages/49/48/1ad3d430d7325088d5beb5ab531c8177c99212ce5ab75a8e2d179c7382c2/csvcubed-0.4.3-py3-none-any.whl
+[2023-06-23 14:07:15] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37099622>=10485760
+[2023-06-23 14:07:15] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: odoo14-addon-account-invoice-inter-company
+[2023-06-23 14:07:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-23 14:07:15] INFO root fetch - processPackages [niceml]: Downloading https://files.pythonhosted.org/packages/7d/07/7d6f53ae8aac77b75748af12f2da1cc591bd517fbc413cc21d3b20a3a919/niceml-0.4.1.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [odoo14-addon-account-invoice-inter-company]: New version: [14.0.1.3.3.dev2] Old Version: [14.0.1.3.3.dev1]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [jijmodeling-transpiler]: Downloading https://files.pythonhosted.org/packages/2b/d9/6874a555365f6efe5f4614cd4c02027026c00d9c262fa572659d29e796b4/jijmodeling_transpiler-0.4.1-cp39-cp39-win_amd64.whl
+[2023-06-23 14:07:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/85/80/fa2b3f96da4d6346224a003ef95545165051c2cc98d411b8865efbad54c8/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl
+[2023-06-23 14:07:15] INFO root fetch - processPackages [amfiprot-amfitrack]: Downloading https://files.pythonhosted.org/packages/99/1c/92cf7f927aa47b3cc5bba8867e5911d001410792b84beb488e90a0ad7ee7/amfiprot_amfitrack-0.0.1a8.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/bf/f4/6cd0e73dee9120f34ec7bbf75a43f66e00bc88c2f1fcd18a7971097e030b/almavik-355.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-23 14:07:15] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85084453>=10485760
+[2023-06-23 14:07:15] INFO root fetch - processPackages [almavik]: Start processing: th2-grpc-lw-data-provider
+[2023-06-23 14:07:15] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-23 14:07:15] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-23 14:07:15] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230623/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 14:07:15] INFO root fetch - processPackages [csvcubed]: Downloading https://files.pythonhosted.org/packages/0b/66/8a1229ba243390adedf64e38ca40a04ffeae3a39f12c46f0240e29c456b5/csvcubed-0.4.4-py3-none-any.whl
+[2023-06-23 14:07:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5354066762]
+[2023-06-23 14:07:15] INFO root fetch - processPackages [odoo14-addon-account-invoice-inter-company]: Downloading https://files.pythonhosted.org/packages/07/dd/b977e37bbab9c67b494ac4425dc2862569b6d795cf7497dadf61fb1262e0/odoo14_addon_account_invoice_inter_company-14.0.1.3.3.dev1-py3-none-any.whl
+[2023-06-23 14:07:15] INFO root fetch - processPackages [niceml]: Downloading https://files.pythonhosted.org/packages/50/1f/2e70bf87dfc65d8766c2f43e343c1c4d1277d0462cf3b3961c97c3075bf0/niceml-0.5.0.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/de/da/c9f3fbddae91701ba4291dfb1a8a14af86222ec818db861cbb39237c0a23/th2_grpc_lw_data_provider-2.0.0.dev5354066762.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [amfiprot-amfitrack]: Downloading https://files.pythonhosted.org/packages/bc/c8/4e1c74712948a1b63d174fe8bc0dba7f17154301e74d61c129dd151a6fd8/amfiprot_amfitrack-0.0.1a9.tar.gz
+[2023-06-23 14:07:15] INFO root fetch - processPackages [csvcubed]: executing diffoscope
+[2023-06-23 14:07:15] INFO root fetch - processPackages [csvcubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvcubed-0.4.3-py3-none-any.whl.zip tmp/csvcubed-0.4.4-py3-none-any.whl.zip --markdown 20230623/c/csvcubed/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 14:07:16] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-23 14:07:16] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230623/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-23 14:07:16] INFO root fetch - processPackages [niceml]: executing diffoscope
+[2023-06-23 14:07:16] INFO root fetch - processPackages [niceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niceml-0.4.1.tar.gz tmp/niceml-0.5.0.tar.gz --markdown 20230623/n/niceml/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-23 14:07:16] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-23 14:07:16] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230623/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 14:07:16] INFO root fetch - processPackages [amfiprot-amfitrack]: executing diffoscope
+[2023-06-23 14:07:16] INFO root fetch - processPackages [amfiprot-amfitrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amfiprot_amfitrack-0.0.1a8.tar.gz tmp/amfiprot_amfitrack-0.0.1a9.tar.gz --markdown 20230623/a/amfiprot-amfitrack/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-23 14:07:16] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/4a/2f/b3078b338fe555715925883d6240b40dd6e3948466f24e9693b5bbf985c6/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl
+[2023-06-23 14:07:16] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-23 14:07:16] INFO root fetch - processPackages [odoo14-addon-contract]: executing diffoscope
+[2023-06-23 14:07:16] INFO root fetch - processPackages [odoo14-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addon-contract/14.0.2.9.5.dev2-14.0.2.9.6.dev2/diff.md --exclude *.pyd
+[2023-06-23 14:07:16] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-23 14:07:16] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5354066762.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230623/t/th2-grpc-lw-data-provider/2.0.0.dev5354066762-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-23 14:07:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-inter-company]: Downloading https://files.pythonhosted.org/packages/1c/a5/22fd10dee658b3b6a05ff7d57f84552355dd8c33c2249b29f75f85f9aa99/odoo14_addon_account_invoice_inter_company-14.0.1.3.3.dev2-py3-none-any.whl
+[2023-06-23 14:07:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-inter-company]: executing diffoscope
+[2023-06-23 14:07:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-inter-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_inter_company-14.0.1.3.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_inter_company-14.0.1.3.3.dev2-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addon-account-invoice-inter-company/14.0.1.3.3.dev1-14.0.1.3.3.dev2/diff.md --exclude *.pyd
+[2023-06-23 14:07:16] INFO root fetch - processPackages [jijmodeling-transpiler]: Downloading https://files.pythonhosted.org/packages/d9/42/b3d90dca1230150c1be12fd5ba244cfe3138377d06e2956a7978833a0f47/jijmodeling_transpiler-0.5.0-cp39-cp39-win_amd64.whl
+[2023-06-23 14:07:16] INFO root fetch - processPackages [jijmodeling-transpiler]: executing diffoscope
+[2023-06-23 14:07:16] INFO root fetch - processPackages [jijmodeling-transpiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling_transpiler-0.4.1-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling_transpiler-0.5.0-cp39-cp39-win_amd64.whl.zip --markdown 20230623/j/jijmodeling-transpiler/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-23 14:07:17] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-23 14:07:17] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-23 14:07:17] INFO root fetch - processPackages [buteo]: Start processing: satori-ci
+[2023-06-23 14:07:17] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-23 14:07:17] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-23 14:07:17] INFO root fetch - processPackages [amfiprot-amfitrack]: Remove: archive file [/home/abi/fetcher/tmp/amfiprot_amfitrack-0.0.1a8.tar.gz]
+[2023-06-23 14:07:17] INFO root fetch - processPackages [amfiprot-amfitrack]: Remove: archive file [/home/abi/fetcher/tmp/amfiprot_amfitrack-0.0.1a9.tar.gz]
+[2023-06-23 14:07:17] INFO root fetch - processPackages [amfiprot-amfitrack]: Start processing: yeref
+[2023-06-23 14:07:17] INFO root fetch - main [MainThread]: End processing [amfiprot-amfitrack]: success
+[2023-06-23 14:07:17] INFO root fetch - processPackages [yeref]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-23 14:07:17] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.8.tar.gz]
+[2023-06-23 14:07:17] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.9.tar.gz]
+[2023-06-23 14:07:17] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-23 14:07:17] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/3e/65/4eaf95bc13dbc645a0cbc1a962af5f97a99d613ee143e2599184e62f5f58/yeref-0.2.2.tar.gz
+[2023-06-23 14:07:18] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/0f/e9/8730b0b247277bad0867ffd703c9de8cc8e32296273202190c6988be7d9e/satori_ci-1.2.8.tar.gz
+[2023-06-23 14:07:18] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5354066762.tar.gz]
+[2023-06-23 14:07:18] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-23 14:07:18] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-23 14:07:18] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b7/d8/10cea387a87fa7ab19eac26a4130a8164c466ee234e4e1f688d89c310e24/yeref-0.2.3.tar.gz
+[2023-06-23 14:07:18] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-23 14:07:18] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.2.tar.gz tmp/yeref-0.2.3.tar.gz --markdown 20230623/y/yeref/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-23 14:07:18] INFO root fetch - processPackages [odoo14-addon-account-invoice-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_inter_company-14.0.1.3.3.dev1-py3-none-any.whl.zip]
+[2023-06-23 14:07:18] INFO root fetch - processPackages [odoo14-addon-account-invoice-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_inter_company-14.0.1.3.3.dev2-py3-none-any.whl.zip]
+[2023-06-23 14:07:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-inter-company]: success
+[2023-06-23 14:07:18] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/b7/0b/451eae7159f796f9dfb4eaee887b8acdd96fc946dedeb3da9cafe052e2aa/satori_ci-1.2.9.tar.gz
+[2023-06-23 14:07:18] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-06-23 14:07:18] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230623/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-23 14:07:18] INFO root fetch - processPackages [csvcubed]: Remove: archive file [/home/abi/fetcher/tmp/csvcubed-0.4.3-py3-none-any.whl.zip]
+[2023-06-23 14:07:18] INFO root fetch - processPackages [csvcubed]: Remove: archive file [/home/abi/fetcher/tmp/csvcubed-0.4.4-py3-none-any.whl.zip]
+[2023-06-23 14:07:18] INFO root fetch - main [MainThread]: End processing [csvcubed]: success
+[2023-06-23 14:07:19] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-23 14:07:19] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-23 14:07:19] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-23 14:07:19] INFO root fetch - processPackages [odoo14-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip]
+[2023-06-23 14:07:19] INFO root fetch - processPackages [odoo14-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip]
+[2023-06-23 14:07:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract]: success
+[2023-06-23 14:07:19] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.2.tar.gz]
+[2023-06-23 14:07:19] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.3.tar.gz]
+[2023-06-23 14:07:19] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-23 14:07:20] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.8.tar.gz]
+[2023-06-23 14:07:20] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.9.tar.gz]
+[2023-06-23 14:07:20] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-06-23 14:07:21] INFO root fetch - processPackages [niceml]: Remove: archive file [/home/abi/fetcher/tmp/niceml-0.4.1.tar.gz]
+[2023-06-23 14:07:21] INFO root fetch - processPackages [niceml]: Remove: archive file [/home/abi/fetcher/tmp/niceml-0.5.0.tar.gz]
+[2023-06-23 14:07:21] INFO root fetch - main [MainThread]: End processing [niceml]: success
+[2023-06-23 14:07:22] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.4.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 14:07:22] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.5.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 14:07:22] INFO root fetch - main [MainThread]: End processing [jijmodeling-transpiler]: success
+[2023-06-23 14:07:22] INFO root fetch - main [MainThread]: Store serial: [18617601]
