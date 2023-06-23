@@ -12896,3 +12896,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 11:05:17] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
 [2023-06-23 11:05:17] INFO root fetch - main [MainThread]: End processing [mistapi]: success
 [2023-06-23 11:05:17] INFO root fetch - main [MainThread]: Store serial: [18615755]
+[2023-06-23 11:10:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615755]
+[2023-06-23 11:10:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-23 11:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hu-neuro-pipeline
+[2023-06-23 11:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: latviastreetify
+[2023-06-23 11:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyperf2
+[2023-06-23 11:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kappaschedules
+[2023-06-23 11:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-functions
+[2023-06-23 11:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitbake-language-server
+[2023-06-23 11:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dl2050utils
+[2023-06-23 11:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openoligo
+[2023-06-23 11:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tkadw
+[2023-06-23 11:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypef
+[2023-06-23 11:10:26] INFO root fetch - processPackages [hu-neuro-pipeline]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-23 11:10:26] WARNING root fetch - processPackages [latviastreetify]: Skipping, unable to determine old version
+[2023-06-23 11:10:26] INFO root fetch - processPackages [latviastreetify]: Start processing: SpLFastlyWrite
+[2023-06-23 11:10:26] INFO root fetch - main [MainThread]: End processing [latviastreetify] error
+[2023-06-23 11:10:26] INFO root fetch - processPackages [openai-functions]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 11:10:26] INFO root fetch - processPackages [bitbake-language-server]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 11:10:26] INFO root fetch - processPackages [kappaschedules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 11:10:26] INFO root fetch - processPackages [openoligo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 11:10:26] INFO root fetch - processPackages [pyperf2]: New version: [0.3] Old Version: [0.2]
+[2023-06-23 11:10:26] INFO root fetch - processPackages [tkadw]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-06-23 11:10:26] INFO root fetch - processPackages [pypef]: New version: [0.3] Old Version: [0.2.4]
+[2023-06-23 11:10:26] INFO root fetch - processPackages [SpLFastlyWrite]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-23 11:10:26] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-23 11:10:26] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/9f/36/c8c3603cb4cd6e2f3781fababaab822d26890f2efa454f0e1720fbbc35a0/openai_functions-0.1.2.tar.gz
+[2023-06-23 11:10:26] INFO root fetch - processPackages [bitbake-language-server]: Downloading https://files.pythonhosted.org/packages/a9/bc/2355444c64326a0997006588d549fe4f673bddf2b6a100c9148bd112f291/bitbake-language-server-0.0.2.tar.gz
+[2023-06-23 11:10:26] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/4e/b0/7b3825f180d3e32b2c291c5bb40d7c00a040c8bdd1568d41f9943ad2c40c/tkadw-0.1.3.tar.gz
+[2023-06-23 11:10:26] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-06-23 11:10:26] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/cb/7b/2f87da76a6715b6b83b03bc955cc275cae2216af71daae025c49e7bdedc3/SpLFastlyWrite-1.0.1.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [kappaschedules]: Downloading https://files.pythonhosted.org/packages/80/d3/59917bee87db2d991ac28ee5406bce08f6bd5fb9607f27c6adf8e1104bb5/kappaschedules-0.0.8.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [hu-neuro-pipeline]: Downloading https://files.pythonhosted.org/packages/d2/78/bc5e4b30fc703234e8986e605a0ca452060b7a5d85bf4fffdf27eb5beed6/hu-neuro-pipeline-0.6.5.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [openoligo]: Downloading https://files.pythonhosted.org/packages/11/23/3d41deca535e2c2f07de45f3a7d660436625522657f4b19af46aa2c02b93/openoligo-0.1.1.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [pypef]: Downloading https://files.pythonhosted.org/packages/ff/8f/060334dcb5945358b1038022aba8d0a8967273ead764a847284b59b1b40e/pypef-0.2.4.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/3e/6c/bec9646ee31bdff2373355651940b5635a2e7b273d7a4b9d910a1d80c329/pyperf2-0.2-py3-none-any.whl
+[2023-06-23 11:10:27] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [bitbake-language-server]: Downloading https://files.pythonhosted.org/packages/9d/12/ce9b921fdfe82485f3f4aef758dfcc4e417774abbe8bf4ee94ba971fb760/bitbake-language-server-0.0.3.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/37/51/5633116578dd50ab680b7f0084f96d729c65da8a6ac27bbed394e41e578c/SpLFastlyWrite-1.0.2.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-06-23 11:10:27] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230623/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-23 11:10:27] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/f3/40/40c18510a6c7ed9f1cb6ca9c763cd490149308252f30b86b5cdff4448fae/tkadw-0.1.5.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/b7/c2/0c97e6805599a7a6a6c404fdb1e1ed3969705591c7104319ab08c06ccd2f/openai_functions-0.1.3.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [bitbake-language-server]: executing diffoscope
+[2023-06-23 11:10:27] INFO root fetch - processPackages [bitbake-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitbake-language-server-0.0.2.tar.gz tmp/bitbake-language-server-0.0.3.tar.gz --markdown 20230623/b/bitbake-language-server/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 11:10:27] INFO root fetch - processPackages [SpLFastlyWrite]: executing diffoscope
+[2023-06-23 11:10:27] INFO root fetch - processPackages [SpLFastlyWrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpLFastlyWrite-1.0.1.tar.gz tmp/SpLFastlyWrite-1.0.2.tar.gz --markdown 20230623/S/SpLFastlyWrite/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-23 11:10:27] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-06-23 11:10:27] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.1.3.tar.gz tmp/tkadw-0.1.5.tar.gz --markdown 20230623/t/tkadw/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-06-23 11:10:27] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/df/a3/47ddaeee9fa7e71428383c01d40ffd327099dea99aebf3dae805a1302a8c/pyperf2-0.3-py3-none-any.whl
+[2023-06-23 11:10:27] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-06-23 11:10:27] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.1.2.tar.gz tmp/openai_functions-0.1.3.tar.gz --markdown 20230623/o/openai-functions/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 11:10:27] INFO root fetch - processPackages [openoligo]: Downloading https://files.pythonhosted.org/packages/a6/e7/544e6c3b9fe8f1144383340f1c0fe7968f5302d8b386d47a5f8148aee0ab/openoligo-0.1.2.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [hu-neuro-pipeline]: Downloading https://files.pythonhosted.org/packages/bd/fd/074916d59421854aab327157233ae45ff730cdb9fe8bd3a29e1794d89f64/hu-neuro-pipeline-0.6.6.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [kappaschedules]: Downloading https://files.pythonhosted.org/packages/23/c2/e9e2653e206134d160cab76dea124544a616ea8484276c686372afdd7bb6/kappaschedules-0.0.9.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [pypef]: Downloading https://files.pythonhosted.org/packages/fe/84/08e3d3aefc0e0c4185a6b78f0f6e58fc36dafbc62b52cbaeb6df6b10b1e2/pypef-0.3.tar.gz
+[2023-06-23 11:10:27] INFO root fetch - processPackages [pyperf2]: executing diffoscope
+[2023-06-23 11:10:27] INFO root fetch - processPackages [pyperf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperf2-0.2-py3-none-any.whl.zip tmp/pyperf2-0.3-py3-none-any.whl.zip --markdown 20230623/p/pyperf2/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-23 11:10:27] INFO root fetch - processPackages [openoligo]: executing diffoscope
+[2023-06-23 11:10:27] INFO root fetch - processPackages [openoligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openoligo-0.1.1.tar.gz tmp/openoligo-0.1.2.tar.gz --markdown 20230623/o/openoligo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 11:10:27] INFO root fetch - processPackages [kappaschedules]: executing diffoscope
+[2023-06-23 11:10:27] INFO root fetch - processPackages [kappaschedules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappaschedules-0.0.8.tar.gz tmp/kappaschedules-0.0.9.tar.gz --markdown 20230623/k/kappaschedules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 11:10:27] INFO root fetch - processPackages [pypef]: executing diffoscope
+[2023-06-23 11:10:27] INFO root fetch - processPackages [pypef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypef-0.2.4.tar.gz tmp/pypef-0.3.tar.gz --markdown 20230623/p/pypef/0.2.4-0.3/diff.md --exclude *.pyd
+[2023-06-23 11:10:27] INFO root fetch - processPackages [hu-neuro-pipeline]: executing diffoscope
+[2023-06-23 11:10:27] INFO root fetch - processPackages [hu-neuro-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hu-neuro-pipeline-0.6.5.tar.gz tmp/hu-neuro-pipeline-0.6.6.tar.gz --markdown 20230623/h/hu-neuro-pipeline/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-23 11:10:28] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-06-23 11:10:28] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-06-23 11:10:28] INFO root fetch - processPackages [dl2050utils]: Start processing: imagekitio
+[2023-06-23 11:10:28] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-06-23 11:10:28] INFO root fetch - processPackages [imagekitio]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-23 11:10:28] INFO root fetch - processPackages [imagekitio]: Downloading https://files.pythonhosted.org/packages/c4/f4/405c9c9657627a84c9a0de3a805798e2b75175dd62ec5f46630e0d0ab1d0/imagekitio-3.0.1.tar.gz
+[2023-06-23 11:10:29] INFO root fetch - processPackages [bitbake-language-server]: Remove: archive file [/home/abi/fetcher/tmp/bitbake-language-server-0.0.2.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - processPackages [bitbake-language-server]: Remove: archive file [/home/abi/fetcher/tmp/bitbake-language-server-0.0.3.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - main [MainThread]: End processing [bitbake-language-server]: success
+[2023-06-23 11:10:29] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.1.2.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.1.3.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-06-23 11:10:29] INFO root fetch - processPackages [imagekitio]: Downloading https://files.pythonhosted.org/packages/df/af/c3e7466e4783b043c098c1db62fa21d76a1d9d5de92a144f1d49ef953ad0/imagekitio-3.0.2.tar.gz
+[2023-06-23 11:10:29] INFO root fetch - processPackages [imagekitio]: executing diffoscope
+[2023-06-23 11:10:29] INFO root fetch - processPackages [imagekitio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagekitio-3.0.1.tar.gz tmp/imagekitio-3.0.2.tar.gz --markdown 20230623/i/imagekitio/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-23 11:10:29] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.2-py3-none-any.whl.zip]
+[2023-06-23 11:10:29] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.3-py3-none-any.whl.zip]
+[2023-06-23 11:10:29] INFO root fetch - main [MainThread]: End processing [pyperf2]: success
+[2023-06-23 11:10:29] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.1.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.2.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite]: success
+[2023-06-23 11:10:29] INFO root fetch - processPackages [openoligo]: Remove: archive file [/home/abi/fetcher/tmp/openoligo-0.1.1.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - processPackages [openoligo]: Remove: archive file [/home/abi/fetcher/tmp/openoligo-0.1.2.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - main [MainThread]: End processing [openoligo]: success
+[2023-06-23 11:10:29] INFO root fetch - processPackages [kappaschedules]: Remove: archive file [/home/abi/fetcher/tmp/kappaschedules-0.0.8.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - processPackages [kappaschedules]: Remove: archive file [/home/abi/fetcher/tmp/kappaschedules-0.0.9.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - main [MainThread]: End processing [kappaschedules]: success
+[2023-06-23 11:10:29] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.1.3.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.1.5.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-06-23 11:10:29] INFO root fetch - processPackages [hu-neuro-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/hu-neuro-pipeline-0.6.5.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - processPackages [hu-neuro-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/hu-neuro-pipeline-0.6.6.tar.gz]
+[2023-06-23 11:10:29] INFO root fetch - main [MainThread]: End processing [hu-neuro-pipeline]: success
+[2023-06-23 11:10:31] INFO root fetch - processPackages [imagekitio]: Remove: archive file [/home/abi/fetcher/tmp/imagekitio-3.0.1.tar.gz]
+[2023-06-23 11:10:31] INFO root fetch - processPackages [imagekitio]: Remove: archive file [/home/abi/fetcher/tmp/imagekitio-3.0.2.tar.gz]
+[2023-06-23 11:10:31] INFO root fetch - main [MainThread]: End processing [imagekitio]: success
+[2023-06-23 11:10:34] INFO root fetch - processPackages [pypef]: Remove: archive file [/home/abi/fetcher/tmp/pypef-0.2.4.tar.gz]
+[2023-06-23 11:10:34] INFO root fetch - processPackages [pypef]: Remove: archive file [/home/abi/fetcher/tmp/pypef-0.3.tar.gz]
+[2023-06-23 11:10:34] INFO root fetch - main [MainThread]: End processing [pypef]: success
+[2023-06-23 11:10:34] INFO root fetch - main [MainThread]: Store serial: [18615796]
