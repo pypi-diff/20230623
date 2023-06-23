@@ -9968,3 +9968,90 @@
 [2023-06-23 08:22:17] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-23 08:22:17] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-23 08:22:17] INFO root fetch - main [MainThread]: Store serial: [18614598]
+[2023-06-23 08:27:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614598]
+[2023-06-23 08:27:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-23 08:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-stdlib-list
+[2023-06-23 08:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-06-23 08:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypdf
+[2023-06-23 08:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2023-06-23 08:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytarrs
+[2023-06-23 08:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RepRepBuild
+[2023-06-23 08:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-storage-helper
+[2023-06-23 08:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: peewee-aio
+[2023-06-23 08:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: centerline-width
+[2023-06-23 08:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azarashi
+[2023-06-23 08:27:26] INFO root fetch - processPackages [pypdf]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-23 08:27:26] INFO root fetch - processPackages [pytarrs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-23 08:27:26] INFO root fetch - processPackages [types-stdlib-list]: New version: [0.8.3.3] Old Version: [0.8.3.2]
+[2023-06-23 08:27:26] INFO root fetch - processPackages [centerline-width]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-06-23 08:27:26] INFO root fetch - processPackages [RepRepBuild]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-23 08:27:26] INFO root fetch - processPackages [azarashi]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-23 08:27:26] WARNING root fetch - processPackages [azure-storage-helper]: Skipping, unable to determine old version
+[2023-06-23 08:27:26] INFO root fetch - main [MainThread]: End processing [azure-storage-helper] error
+[2023-06-23 08:27:26] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230623] Old Version: [1.6.1.dev20230622]
+[2023-06-23 08:27:26] INFO root fetch - processPackages [peewee-aio]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-23 08:27:26] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230623] Old Version: [20230622]
+[2023-06-23 08:27:26] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/5b/51/c2516a3c66b40ed1dd426a7a123a8e932ed69d4e6ba7dbf676ddb2c55851/peewee_aio-1.5.5.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/cf/98/31131d48921ce122d2015b01e0f804f9327f04686bd1bdc6db11c0a275fc/fake-bpy-module-latest-20230622.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [pytarrs]: Downloading https://files.pythonhosted.org/packages/e5/17/20208c683abea48b695b63ba551e430871272a3adeef43723a27e8e30fd9/PyTarRs-0.1.0.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [types-stdlib-list]: Downloading https://files.pythonhosted.org/packages/7b/9f/df0c16d4a0a5102c7c1f57fe1c7c8e622aefa0fc6acdef54274faa95bb4f/types-stdlib-list-0.8.3.2.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [azarashi]: Downloading https://files.pythonhosted.org/packages/05/b3/862192c90255d6a6b1c6a356ceffa3d6b8795f6ec2440dd2b3bcc22e540d/azarashi-0.7.3-py3-none-any.whl
+[2023-06-23 08:27:26] INFO root fetch - processPackages [pypdf]: Downloading https://files.pythonhosted.org/packages/58/b7/63717fa462e8f54e66e460d95092e242d66d628e885773f4348e50faf0dd/pypdf-3.9.0.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/53/f4/5a686bbba9f2d0b6bdd38db92f0a3a438404b446ea11e76ff455cca4ef1b/pretext-1.6.1.dev20230622.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/0e/81/183fa2673ed8f4d3c885d0958bd140616694b516dd59d7e8cab1fa824ff3/RepRepBuild-0.9.0.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [centerline-width]: Downloading https://files.pythonhosted.org/packages/b2/fe/0ab1f30b66c96e90db5fe6c64c30dafda026b5551cb2d1351b692d76487c/centerline-width-0.2.5.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/82/26/38a1c25623b47575822f8196ea851d158559fc7b146b08cfaf4e6af617f1/peewee_aio-1.5.6.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ca/8e/1e2d30962431cbae1afea61a8bd6ec7541cbefb6091420f6269b79f61c69/fake-bpy-module-latest-20230623.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [pytarrs]: Downloading https://files.pythonhosted.org/packages/67/2b/9d0f568901e08b62416848d87c7a4d0d353360be6d1775ff372c2e239e92/pytarrs-0.1.1.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [peewee-aio]: executing diffoscope
+[2023-06-23 08:27:26] INFO root fetch - processPackages [peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_aio-1.5.5.tar.gz tmp/peewee_aio-1.5.6.tar.gz --markdown 20230623/p/peewee-aio/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-23 08:27:26] INFO root fetch - processPackages [types-stdlib-list]: Downloading https://files.pythonhosted.org/packages/50/ad/9f19318a7bb4f1f2ac9d97524edd52a1bd64007ea1e054a1402e2dcb6261/types-stdlib-list-0.8.3.3.tar.gz
+[2023-06-23 08:27:26] INFO root fetch - processPackages [pypdf]: Downloading https://files.pythonhosted.org/packages/84/46/50c317477ccd23979b7e18847d2c58c8fca89b0db41670bc819710aab26a/pypdf-3.9.1.tar.gz
+[2023-06-23 08:27:27] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/cb/97/5d70361b10a7c583599ccdcf1e638efe63651d1b9701403f0b5fe5b297f3/pretext-1.6.1.dev20230623.tar.gz
+[2023-06-23 08:27:27] INFO root fetch - processPackages [pytarrs]: executing diffoscope
+[2023-06-23 08:27:27] INFO root fetch - processPackages [pytarrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTarRs-0.1.0.tar.gz tmp/pytarrs-0.1.1.tar.gz --markdown 20230623/p/pytarrs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-23 08:27:27] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-23 08:27:27] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230622.tar.gz tmp/fake-bpy-module-latest-20230623.tar.gz --markdown 20230623/f/fake-bpy-module-latest/20230622-20230623/diff.md --exclude *.pyd
+[2023-06-23 08:27:27] INFO root fetch - processPackages [types-stdlib-list]: executing diffoscope
+[2023-06-23 08:27:27] INFO root fetch - processPackages [types-stdlib-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-stdlib-list-0.8.3.2.tar.gz tmp/types-stdlib-list-0.8.3.3.tar.gz --markdown 20230623/t/types-stdlib-list/0.8.3.2-0.8.3.3/diff.md --exclude *.pyd
+[2023-06-23 08:27:27] INFO root fetch - processPackages [azarashi]: Downloading https://files.pythonhosted.org/packages/d9/b5/d9026c01a64a16f73bd1e6328a57ad5072a854447cde95242419cdfb4cc3/azarashi-0.7.4-py3-none-any.whl
+[2023-06-23 08:27:27] INFO root fetch - processPackages [centerline-width]: Downloading https://files.pythonhosted.org/packages/d0/b7/5591fdc782fd7a647fe507b4bd8c30dcb92f8e1bb174186642d45f40e895/centerline-width-0.3.0.tar.gz
+[2023-06-23 08:27:27] INFO root fetch - processPackages [pypdf]: executing diffoscope
+[2023-06-23 08:27:27] INFO root fetch - processPackages [pypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdf-3.9.0.tar.gz tmp/pypdf-3.9.1.tar.gz --markdown 20230623/p/pypdf/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-23 08:27:27] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/50/c1/f5a59c51cae6a695fbe01266bb7f75ded67d632b67bcbbee079deaecbc69/RepRepBuild-0.9.1.tar.gz
+[2023-06-23 08:27:27] INFO root fetch - processPackages [centerline-width]: executing diffoscope
+[2023-06-23 08:27:27] INFO root fetch - processPackages [centerline-width]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centerline-width-0.2.5.tar.gz tmp/centerline-width-0.3.0.tar.gz --markdown 20230623/c/centerline-width/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 08:27:27] INFO root fetch - processPackages [azarashi]: executing diffoscope
+[2023-06-23 08:27:27] INFO root fetch - processPackages [azarashi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azarashi-0.7.3-py3-none-any.whl.zip tmp/azarashi-0.7.4-py3-none-any.whl.zip --markdown 20230623/a/azarashi/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-23 08:27:27] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-06-23 08:27:27] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.9.0.tar.gz tmp/RepRepBuild-0.9.1.tar.gz --markdown 20230623/R/RepRepBuild/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-23 08:27:27] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-23 08:27:27] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230622.tar.gz tmp/pretext-1.6.1.dev20230623.tar.gz --markdown 20230623/p/pretext/1.6.1.dev20230622-1.6.1.dev20230623/diff.md --exclude *.pyd
+[2023-06-23 08:27:28] INFO root fetch - processPackages [pytarrs]: Remove: archive file [/home/abi/fetcher/tmp/PyTarRs-0.1.0.tar.gz]
+[2023-06-23 08:27:28] INFO root fetch - processPackages [pytarrs]: Remove: archive file [/home/abi/fetcher/tmp/pytarrs-0.1.1.tar.gz]
+[2023-06-23 08:27:28] INFO root fetch - main [MainThread]: End processing [pytarrs]: success
+[2023-06-23 08:27:28] INFO root fetch - processPackages [peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/peewee_aio-1.5.5.tar.gz]
+[2023-06-23 08:27:28] INFO root fetch - processPackages [peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/peewee_aio-1.5.6.tar.gz]
+[2023-06-23 08:27:28] INFO root fetch - main [MainThread]: End processing [peewee-aio]: success
+[2023-06-23 08:27:28] INFO root fetch - processPackages [types-stdlib-list]: Remove: archive file [/home/abi/fetcher/tmp/types-stdlib-list-0.8.3.2.tar.gz]
+[2023-06-23 08:27:28] INFO root fetch - processPackages [types-stdlib-list]: Remove: archive file [/home/abi/fetcher/tmp/types-stdlib-list-0.8.3.3.tar.gz]
+[2023-06-23 08:27:28] INFO root fetch - main [MainThread]: End processing [types-stdlib-list]: success
+[2023-06-23 08:27:28] INFO root fetch - processPackages [centerline-width]: Remove: archive file [/home/abi/fetcher/tmp/centerline-width-0.2.5.tar.gz]
+[2023-06-23 08:27:28] INFO root fetch - processPackages [centerline-width]: Remove: archive file [/home/abi/fetcher/tmp/centerline-width-0.3.0.tar.gz]
+[2023-06-23 08:27:28] INFO root fetch - main [MainThread]: End processing [centerline-width]: success
+[2023-06-23 08:27:29] INFO root fetch - processPackages [azarashi]: Remove: archive file [/home/abi/fetcher/tmp/azarashi-0.7.3-py3-none-any.whl.zip]
+[2023-06-23 08:27:29] INFO root fetch - processPackages [azarashi]: Remove: archive file [/home/abi/fetcher/tmp/azarashi-0.7.4-py3-none-any.whl.zip]
+[2023-06-23 08:27:29] INFO root fetch - main [MainThread]: End processing [azarashi]: success
+[2023-06-23 08:27:29] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.0.tar.gz]
+[2023-06-23 08:27:29] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.1.tar.gz]
+[2023-06-23 08:27:29] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-06-23 08:27:30] INFO root fetch - processPackages [pypdf]: Remove: archive file [/home/abi/fetcher/tmp/pypdf-3.9.0.tar.gz]
+[2023-06-23 08:27:30] INFO root fetch - processPackages [pypdf]: Remove: archive file [/home/abi/fetcher/tmp/pypdf-3.9.1.tar.gz]
+[2023-06-23 08:27:30] INFO root fetch - main [MainThread]: End processing [pypdf]: success
+[2023-06-23 08:27:32] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230622.tar.gz]
+[2023-06-23 08:27:32] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230623.tar.gz]
+[2023-06-23 08:27:32] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-23 08:27:33] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230622.tar.gz]
+[2023-06-23 08:27:33] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230623.tar.gz]
+[2023-06-23 08:27:33] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-23 08:27:33] INFO root fetch - main [MainThread]: Store serial: [18614630]
