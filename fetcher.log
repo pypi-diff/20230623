@@ -9721,3 +9721,33 @@
 [2023-06-23 07:55:01] INFO root fetch - processPackages [kotan]: Remove: archive file [/home/abi/fetcher/tmp/kotan-1.1.3.tar.gz]
 [2023-06-23 07:55:01] INFO root fetch - main [MainThread]: End processing [kotan]: success
 [2023-06-23 07:55:01] INFO root fetch - main [MainThread]: Store serial: [18614504]
+[2023-06-23 08:00:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614504]
+[2023-06-23 08:00:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-23 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiosumma
+[2023-06-23 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-keycloak
+[2023-06-23 08:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-docker
+[2023-06-23 08:00:09] INFO root fetch - processPackages [python-keycloak]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-23 08:00:09] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1687477426] Old Version: [4.3.0a1685727774]
+[2023-06-23 08:00:09] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-23 08:00:09] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/31/3d/d242264f3603c1e4f7411f9a925c9e056fa663d6eddb8dbb4a0f2533c4ca/python_keycloak-3.1.0.tar.gz
+[2023-06-23 08:00:09] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/3a/da/32f67e64ebc1153cd8d0530c2c18dc00877ef43244550ed0013dd9cef737/pulumi_docker-4.3.0a1685727774.tar.gz
+[2023-06-23 08:00:10] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-06-23 08:00:10] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/b6/7b/da406572b2ce8db443ceb6654260638dc6a5a6a4e82488857014c90e803b/python_keycloak-3.1.1.tar.gz
+[2023-06-23 08:00:10] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/db/6a/1e85eb08ea9c8f4cd79e7d9aa2079c4f66f0c1538e2d93d8551496d1ae95/pulumi_docker-4.3.0a1687477426.tar.gz
+[2023-06-23 08:00:10] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-06-23 08:00:10] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2023-06-23 08:00:10] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-3.1.0.tar.gz tmp/python_keycloak-3.1.1.tar.gz --markdown 20230623/p/python-keycloak/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-23 08:00:10] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-06-23 08:00:10] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1685727774.tar.gz tmp/pulumi_docker-4.3.0a1687477426.tar.gz --markdown 20230623/p/pulumi-docker/4.3.0a1685727774-4.3.0a1687477426/diff.md --exclude *.pyd
+[2023-06-23 08:00:10] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-06-23 08:00:10] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230623/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-23 08:00:11] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.1.0.tar.gz]
+[2023-06-23 08:00:11] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.1.1.tar.gz]
+[2023-06-23 08:00:11] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2023-06-23 08:00:11] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.3.0a1685727774.tar.gz]
+[2023-06-23 08:00:11] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.3.0a1687477426.tar.gz]
+[2023-06-23 08:00:11] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-06-23 08:00:11] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-06-23 08:00:11] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-06-23 08:00:11] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-06-23 08:00:11] INFO root fetch - main [MainThread]: Store serial: [18614515]
