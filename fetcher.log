@@ -16081,3 +16081,139 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 13:13:34] INFO root fetch - processPackages [synthesized]: Remove: archive file [/home/abi/fetcher/tmp/synthesized-2.7rc5-cp39-cp39-win_amd64.whl.zip]
 [2023-06-23 13:13:34] INFO root fetch - main [MainThread]: End processing [synthesized]: success
 [2023-06-23 13:13:34] INFO root fetch - main [MainThread]: Store serial: [18617101]
+[2023-06-23 13:18:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617101]
+[2023-06-23 13:18:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-23 13:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-partitioned-audit
+[2023-06-23 13:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onedep-deposition
+[2023-06-23 13:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geopyv
+[2023-06-23 13:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kalm
+[2023-06-23 13:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kalm
+[2023-06-23 13:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EasyDeL
+[2023-06-23 13:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fired-up
+[2023-06-23 13:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: morph-kgc
+[2023-06-23 13:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kolo
+[2023-06-23 13:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: target-s3-delta
+[2023-06-23 13:18:43] INFO root fetch - processPackages [django-partitioned-audit]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-23 13:18:43] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-23 13:18:43] INFO root fetch - processPackages [fired-up]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-23 13:18:43] INFO root fetch - processPackages [onedep-deposition]: New version: [0.1.dev7] Old Version: [0.1.dev6]
+[2023-06-23 13:18:43] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-23 13:18:43] INFO root fetch - processPackages [morph-kgc]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 13:18:43] INFO root fetch - processPackages [geopyv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kolo]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-06-23 13:18:43] INFO root fetch - processPackages [morph-kgc]: Downloading https://files.pythonhosted.org/packages/a4/e3/22c025001f285025aa0f43bd8c9cfb3b22d62ca687358138e1caab2d72df/morph_kgc-2.6.0.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/c5/30/6940494e1c387b449f4ad0c837b566bc716c77f1b48df2c75ea0a71174ea/target_s3_delta-0.0.6.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [fired-up]: Downloading https://files.pythonhosted.org/packages/a2/b9/e51f0017a1a8d1f6be41b109efb5f1fca6fb2d9dfefc58cb33fe76f89b3c/fired-up-0.0.1.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [django-partitioned-audit]: Downloading https://files.pythonhosted.org/packages/a2/32/e97d2992c0de2135136a6ab46f8409a670111fb4474ce38ae3b38787090c/django-partitioned-audit-1.0.2.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/d6/97/6a22150b51cc4c37c44af5b937e6761e610aba440fb58488235f27ea1da6/EasyDeL-0.0.0.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [onedep-deposition]: Downloading https://files.pythonhosted.org/packages/88/13/c77d86468002e872a46fd58c6031c6a95f95491e872ea8aaff35072b9824/onedep_deposition-0.1.dev6.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6a/32/bfdd9c832160778abca2bc87f170b613b3b8dd7f3c474d509d131fc3466c/target_s3_delta-0.0.7.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kolo]: Downloading https://files.pythonhosted.org/packages/f9/1a/dd108d9edbccf912f4b78520ab7c3ddc6df0c064bff5c7f1b3b50ce67a5d/kolo-2.9.3.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/59/cd/5c2cb6799fbf4df8b4ca611d25994ac3d2b2ef9ce0eb5cb7fe5555b1f774/geopyv-0.0.8.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [fired-up]: Downloading https://files.pythonhosted.org/packages/d6/0e/bc49d47abe75df57a176430bad6178ed12d73cac73489cd8e0b59faa1583/fired-up-0.0.2.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [morph-kgc]: Downloading https://files.pythonhosted.org/packages/ef/3e/2d2c200580e8f5d6d73cd3fe6021145c23e259cf872b63e2ab643e6f8862/morph_kgc-2.6.1.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-06-23 13:18:43] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.6.tar.gz tmp/target_s3_delta-0.0.7.tar.gz --markdown 20230623/t/target-s3-delta/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-23 13:18:43] INFO root fetch - processPackages [fired-up]: executing diffoscope
+[2023-06-23 13:18:43] INFO root fetch - processPackages [fired-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fired-up-0.0.1.tar.gz tmp/fired-up-0.0.2.tar.gz --markdown 20230623/f/fired-up/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 13:18:43] INFO root fetch - processPackages [django-partitioned-audit]: Downloading https://files.pythonhosted.org/packages/06/43/4d7499690f4746a9c19516afc38478bcfbd4479dcfb02d3858770dcf6cae/django-partitioned-audit-1.0.3.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [morph-kgc]: executing diffoscope
+[2023-06-23 13:18:43] INFO root fetch - processPackages [morph-kgc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morph_kgc-2.6.0.tar.gz tmp/morph_kgc-2.6.1.tar.gz --markdown 20230623/m/morph-kgc/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-23 13:18:43] INFO root fetch - processPackages [onedep-deposition]: Downloading https://files.pythonhosted.org/packages/d2/98/30a87fc5998499dcea2b892c71dfaf3df7c060f26767f240cba5c2506572/onedep_deposition-0.1.dev7.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0f/6a/29ec5e6f34957ab7d2b99f940b9b5f040507cffba45c6a9f55406915cede/EasyDeL-0.0.1.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [django-partitioned-audit]: executing diffoscope
+[2023-06-23 13:18:43] INFO root fetch - processPackages [django-partitioned-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-partitioned-audit-1.0.2.tar.gz tmp/django-partitioned-audit-1.0.3.tar.gz --markdown 20230623/d/django-partitioned-audit/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-23 13:18:43] INFO root fetch - processPackages [onedep-deposition]: executing diffoscope
+[2023-06-23 13:18:43] INFO root fetch - processPackages [onedep-deposition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onedep_deposition-0.1.dev6.tar.gz tmp/onedep_deposition-0.1.dev7.tar.gz --markdown 20230623/o/onedep-deposition/0.1.dev6-0.1.dev7/diff.md --exclude *.pyd
+[2023-06-23 13:18:43] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/76/fd/888bc0b2bd9d5003b90a509494f1d527befc7101dc39ed5d07d6f7ba03d0/geopyv-0.0.9.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kolo]: Downloading https://files.pythonhosted.org/packages/d7/35/a0c2cdd9206f5a6dc51ac47598f4fd1b57fc73cb1beeaccdab9217197099/kolo-2.9.4.tar.gz
+[2023-06-23 13:18:43] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-06-23 13:18:43] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.0.tar.gz tmp/EasyDeL-0.0.1.tar.gz --markdown 20230623/E/EasyDeL/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-23 13:18:43] INFO root fetch - processPackages [geopyv]: executing diffoscope
+[2023-06-23 13:18:43] INFO root fetch - processPackages [geopyv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopyv-0.0.8.tar.gz tmp/geopyv-0.0.9.tar.gz --markdown 20230623/g/geopyv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kolo]: executing diffoscope
+[2023-06-23 13:18:43] INFO root fetch - processPackages [kolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolo-2.9.3.tar.gz tmp/kolo-2.9.4.tar.gz --markdown 20230623/k/kolo/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-06-23 13:18:44] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.6.tar.gz]
+[2023-06-23 13:18:44] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.7.tar.gz]
+[2023-06-23 13:18:44] INFO root fetch - processPackages [target-s3-delta]: Start processing: pycti
+[2023-06-23 13:18:44] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pycti]: New version: [5.8.3] Old Version: [5.8.2]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/69/f6/1b0f1cc31e583efade34290063b35c3d19f0ed3e41a98717edd94e17dd83/pycti-5.8.2.tar.gz
+[2023-06-23 13:18:45] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [kalm]: Start processing: pytest
+[2023-06-23 13:18:45] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pytest]: New version: [7.4.0] Old Version: [7.3.2]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [fired-up]: Remove: archive file [/home/abi/fetcher/tmp/fired-up-0.0.1.tar.gz]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [fired-up]: Remove: archive file [/home/abi/fetcher/tmp/fired-up-0.0.2.tar.gz]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [fired-up]: Start processing: lacuscore
+[2023-06-23 13:18:45] INFO root fetch - main [MainThread]: End processing [fired-up]: success
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pytest]: Downloading https://files.pythonhosted.org/packages/58/2a/07c65fdc40846ecb8a9dcda2c38fcb5a06a3e39d08d4a4960916431951cb/pytest-7.3.2.tar.gz
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/70/6d/14b157e4bba06944787b6b804504d985acba8de2fc5097a15abf3048366a/pycti-5.8.3.tar.gz
+[2023-06-23 13:18:45] INFO root fetch - processPackages [lacuscore]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [kalm]: Start processing: pyconju
+[2023-06-23 13:18:45] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.8.2.tar.gz tmp/pycti-5.8.3.tar.gz --markdown 20230623/p/pycti/5.8.2-5.8.3/diff.md --exclude *.pyd
+[2023-06-23 13:18:45] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/e9/80/08c58e2c3c2df3a7c9bbfd770c7bbdc6845ecb24724ef11eb025573b15bd/lacuscore-1.5.8.tar.gz
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pyconju]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pytest]: Downloading https://files.pythonhosted.org/packages/a7/f3/dadfbdbf6b6c8b5bd02adb1e08bc9fbb45ba51c68b0893fa536378cdf485/pytest-7.4.0.tar.gz
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pytest]: executing diffoscope
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-7.3.2.tar.gz tmp/pytest-7.4.0.tar.gz --markdown 20230623/p/pytest/7.3.2-7.4.0/diff.md --exclude *.pyd
+[2023-06-23 13:18:45] INFO root fetch - processPackages [onedep-deposition]: Remove: archive file [/home/abi/fetcher/tmp/onedep_deposition-0.1.dev6.tar.gz]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [onedep-deposition]: Remove: archive file [/home/abi/fetcher/tmp/onedep_deposition-0.1.dev7.tar.gz]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [onedep-deposition]: Start processing: JustScan
+[2023-06-23 13:18:45] INFO root fetch - main [MainThread]: End processing [onedep-deposition]: success
+[2023-06-23 13:18:45] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [pyconju]: Downloading https://files.pythonhosted.org/packages/6b/72/311d7ad1ebd0948110f6193bf4812e450184c022adec1a1b7700c0dd9791/pyconju-0.1.1.tar.gz
+[2023-06-23 13:18:45] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-23 13:18:45] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.0.tar.gz]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.1.tar.gz]
+[2023-06-23 13:18:45] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-06-23 13:18:45] INFO root fetch - processPackages [django-partitioned-audit]: Remove: archive file [/home/abi/fetcher/tmp/django-partitioned-audit-1.0.2.tar.gz]
+[2023-06-23 13:18:45] INFO root fetch - processPackages [django-partitioned-audit]: Remove: archive file [/home/abi/fetcher/tmp/django-partitioned-audit-1.0.3.tar.gz]
+[2023-06-23 13:18:45] INFO root fetch - main [MainThread]: End processing [django-partitioned-audit]: success
+[2023-06-23 13:18:46] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-23 13:18:46] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/26/df/f9bd17e519216457c5e208fe72d484b5e61143c5232135d765cedcfb5d26/lacuscore-1.5.9.tar.gz
+[2023-06-23 13:18:46] INFO root fetch - processPackages [pyconju]: Downloading https://files.pythonhosted.org/packages/90/63/809021536414e91395e8aee8604e9a13c8ef03299e407692b30d578a816e/pyconju-0.1.2.tar.gz
+[2023-06-23 13:18:46] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-23 13:18:46] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230623/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-23 13:18:46] INFO root fetch - processPackages [lacuscore]: executing diffoscope
+[2023-06-23 13:18:46] INFO root fetch - processPackages [lacuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacuscore-1.5.8.tar.gz tmp/lacuscore-1.5.9.tar.gz --markdown 20230623/l/lacuscore/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-23 13:18:46] INFO root fetch - processPackages [pyconju]: executing diffoscope
+[2023-06-23 13:18:46] INFO root fetch - processPackages [pyconju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconju-0.1.1.tar.gz tmp/pyconju-0.1.2.tar.gz --markdown 20230623/p/pyconju/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 13:18:46] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.8.tar.gz]
+[2023-06-23 13:18:46] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.9.tar.gz]
+[2023-06-23 13:18:46] INFO root fetch - main [MainThread]: End processing [geopyv]: success
+[2023-06-23 13:18:46] INFO root fetch - processPackages [kolo]: Remove: archive file [/home/abi/fetcher/tmp/kolo-2.9.3.tar.gz]
+[2023-06-23 13:18:46] INFO root fetch - processPackages [kolo]: Remove: archive file [/home/abi/fetcher/tmp/kolo-2.9.4.tar.gz]
+[2023-06-23 13:18:46] INFO root fetch - main [MainThread]: End processing [kolo]: success
+[2023-06-23 13:18:47] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.8.2.tar.gz]
+[2023-06-23 13:18:47] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.8.3.tar.gz]
+[2023-06-23 13:18:47] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-06-23 13:18:47] INFO root fetch - processPackages [pyconju]: Remove: archive file [/home/abi/fetcher/tmp/pyconju-0.1.1.tar.gz]
+[2023-06-23 13:18:47] INFO root fetch - processPackages [pyconju]: Remove: archive file [/home/abi/fetcher/tmp/pyconju-0.1.2.tar.gz]
+[2023-06-23 13:18:47] INFO root fetch - main [MainThread]: End processing [pyconju]: success
+[2023-06-23 13:18:47] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.5.8.tar.gz]
+[2023-06-23 13:18:47] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.5.9.tar.gz]
+[2023-06-23 13:18:47] INFO root fetch - main [MainThread]: End processing [lacuscore]: success
+[2023-06-23 13:18:48] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-23 13:18:48] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-23 13:18:48] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-23 13:18:54] INFO root fetch - processPackages [pytest]: Remove: archive file [/home/abi/fetcher/tmp/pytest-7.3.2.tar.gz]
+[2023-06-23 13:18:54] INFO root fetch - processPackages [pytest]: Remove: archive file [/home/abi/fetcher/tmp/pytest-7.4.0.tar.gz]
+[2023-06-23 13:18:54] INFO root fetch - main [MainThread]: End processing [pytest]: success
+[2023-06-23 13:19:00] INFO root fetch - processPackages [morph-kgc]: Remove: archive file [/home/abi/fetcher/tmp/morph_kgc-2.6.0.tar.gz]
+[2023-06-23 13:19:00] INFO root fetch - processPackages [morph-kgc]: Remove: archive file [/home/abi/fetcher/tmp/morph_kgc-2.6.1.tar.gz]
+[2023-06-23 13:19:00] INFO root fetch - main [MainThread]: End processing [morph-kgc]: success
+[2023-06-23 13:19:00] INFO root fetch - main [MainThread]: Store serial: [18617229]
