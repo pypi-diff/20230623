@@ -15975,3 +15975,109 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 13:08:19] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
 [2023-06-23 13:08:19] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2023-06-23 13:08:19] INFO root fetch - main [MainThread]: Store serial: [18617025]
+[2023-06-23 13:13:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617025]
+[2023-06-23 13:13:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-23 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kalm
+[2023-06-23 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cns
+[2023-06-23 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2023-06-23 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wififtp
+[2023-06-23 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-misc
+[2023-06-23 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sb3-contrib
+[2023-06-23 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ntropy-sdk
+[2023-06-23 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kalm
+[2023-06-23 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: synthesized
+[2023-06-23 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: websocket-client
+[2023-06-23 13:13:28] INFO root fetch - processPackages [drf-misc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 13:13:29] INFO root fetch - processPackages [sb3-contrib]: New version: [2.0.0a9] Old Version: [2.0.0a4]
+[2023-06-23 13:13:29] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 13:13:29] WARNING root fetch - processPackages [wififtp]: Skipping, unable to determine old version
+[2023-06-23 13:13:29] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-23 13:13:29] INFO root fetch - processPackages [wififtp]: Start processing: playwrightcapture
+[2023-06-23 13:13:29] INFO root fetch - processPackages [cns]: Start processing: pytest-copier
+[2023-06-23 13:13:29] INFO root fetch - main [MainThread]: End processing [wififtp] error
+[2023-06-23 13:13:29] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-23 13:13:29] INFO root fetch - processPackages [websocket-client]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-23 13:13:29] INFO root fetch - processPackages [ntropy-sdk]: New version: [4.9.1rc1] Old Version: [4.9.0rc8]
+[2023-06-23 13:13:29] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 13:13:29] INFO root fetch - processPackages [synthesized]: New version: [2.7rc5] Old Version: [2.7rc4]
+[2023-06-23 13:13:29] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 13:13:29] WARNING root fetch - processPackages [pytest-copier]: Skipping, unable to determine old version
+[2023-06-23 13:13:29] INFO root fetch - processPackages [pytest-copier]: Start processing: Boombers
+[2023-06-23 13:13:29] INFO root fetch - main [MainThread]: End processing [pytest-copier] error
+[2023-06-23 13:13:29] INFO root fetch - processPackages [playwrightcapture]: New version: [1.20.8] Old Version: [1.20.7]
+[2023-06-23 13:13:29] INFO root fetch - processPackages [websocket-client]: Downloading https://files.pythonhosted.org/packages/31/4e/aa6ab8f8812b5766350ed2beb5bc6f3a007c448dd9c178ef5db2d163dac3/websocket-client-1.6.0.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 13:13:29] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 13:13:29] WARNING root fetch - processPackages [Boombers]: Skipping, unable to determine old version
+[2023-06-23 13:13:29] INFO root fetch - processPackages [Boombers]: Start processing: modelsight
+[2023-06-23 13:13:29] INFO root fetch - main [MainThread]: End processing [Boombers] error
+[2023-06-23 13:13:29] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/9c/ac/4186066652880af1e64770ef12988d41351ab1e150549d357c37dd7d5f8b/drf_misc-0.0.3.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [sb3-contrib]: Downloading https://files.pythonhosted.org/packages/1e/3e/a3e362d23a075cdaddecf9c1002eddcb00fa2b78b86bce264046add70d8e/sb3_contrib-2.0.0a4.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/c2/b9/94fdf8f9d3df75ee63b1bfa0489ca75d8a0f34a88cab63abba5b74e06520/synthesized-2.7rc4-cp39-cp39-win_amd64.whl
+[2023-06-23 13:13:29] INFO root fetch - processPackages [ntropy-sdk]: Downloading https://files.pythonhosted.org/packages/af/e0/ef41865115376a7eed7307dd4035a8586b800cc620d5f229dc1419de4343/ntropy_sdk-4.9.0rc8.tar.gz
+[2023-06-23 13:13:29] WARNING root fetch - processPackages [modelsight]: Skipping, unable to determine old version
+[2023-06-23 13:13:29] INFO root fetch - processPackages [modelsight]: Start processing: buteo
+[2023-06-23 13:13:29] INFO root fetch - main [MainThread]: End processing [modelsight] error
+[2023-06-23 13:13:29] INFO root fetch - processPackages [playwrightcapture]: Downloading https://files.pythonhosted.org/packages/ce/75/c88e8755493b109de4e7bc2f1031e6b831e3bcf6c3b24081003bd241f28f/playwrightcapture-1.20.7.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 13:13:29] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 13:13:29] INFO root fetch - processPackages [websocket-client]: Downloading https://files.pythonhosted.org/packages/b1/34/3a5cae1e07d9566ad073fa6d169bf22c03a3ba7b31b3c3422ec88d039108/websocket-client-1.6.1.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 13:13:29] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 13:13:29] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/3e/e7/5f26b9bc7d137565fc447624e510b1b7882edba1b5341872a16e9bd6c292/drf_misc-0.0.4.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [websocket-client]: executing diffoscope
+[2023-06-23 13:13:29] INFO root fetch - processPackages [websocket-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/websocket-client-1.6.0.tar.gz tmp/websocket-client-1.6.1.tar.gz --markdown 20230623/w/websocket-client/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-23 13:13:29] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [playwrightcapture]: Downloading https://files.pythonhosted.org/packages/4f/13/3edbc5beffd068bb6b8f1fea444e328003d4bde1332cfdfa05fef286b028/playwrightcapture-1.20.8.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-06-23 13:13:29] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.0.3.tar.gz tmp/drf_misc-0.0.4.tar.gz --markdown 20230623/d/drf-misc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 13:13:29] INFO root fetch - processPackages [sb3-contrib]: Downloading https://files.pythonhosted.org/packages/82/18/3be857cdbebd38e6952c21dffc8240ae7d91abc8d6959e5987721f4ad02d/sb3_contrib-2.0.0a9.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [ntropy-sdk]: Downloading https://files.pythonhosted.org/packages/7d/e5/95782f26ef364e6e2a06a057d6ab310244bc61071ca838d7222936ac3456/ntropy_sdk-4.9.1rc1.tar.gz
+[2023-06-23 13:13:29] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 13:13:29] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 13:13:29] INFO root fetch - processPackages [playwrightcapture]: executing diffoscope
+[2023-06-23 13:13:29] INFO root fetch - processPackages [playwrightcapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.20.7.tar.gz tmp/playwrightcapture-1.20.8.tar.gz --markdown 20230623/p/playwrightcapture/1.20.7-1.20.8/diff.md --exclude *.pyd
+[2023-06-23 13:13:29] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 13:13:29] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 13:13:29] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-23 13:13:29] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230623/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 13:13:29] INFO root fetch - processPackages [ntropy-sdk]: executing diffoscope
+[2023-06-23 13:13:29] INFO root fetch - processPackages [ntropy-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntropy_sdk-4.9.0rc8.tar.gz tmp/ntropy_sdk-4.9.1rc1.tar.gz --markdown 20230623/n/ntropy-sdk/4.9.0rc8-4.9.1rc1/diff.md --exclude *.pyd
+[2023-06-23 13:13:29] INFO root fetch - processPackages [sb3-contrib]: executing diffoscope
+[2023-06-23 13:13:29] INFO root fetch - processPackages [sb3-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sb3_contrib-2.0.0a4.tar.gz tmp/sb3_contrib-2.0.0a9.tar.gz --markdown 20230623/s/sb3-contrib/2.0.0a4-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-23 13:13:30] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/e3/a4/c0f15a53dd0624256afa22ecf22bf645bc82b1849f50c5569a5c34a74022/synthesized-2.7rc5-cp39-cp39-win_amd64.whl
+[2023-06-23 13:13:30] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 13:13:30] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 13:13:30] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 13:13:31] INFO root fetch - processPackages [playwrightcapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.20.7.tar.gz]
+[2023-06-23 13:13:31] INFO root fetch - processPackages [playwrightcapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.20.8.tar.gz]
+[2023-06-23 13:13:31] INFO root fetch - main [MainThread]: End processing [playwrightcapture]: success
+[2023-06-23 13:13:31] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.3.tar.gz]
+[2023-06-23 13:13:31] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.0.4.tar.gz]
+[2023-06-23 13:13:31] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-06-23 13:13:31] INFO root fetch - processPackages [websocket-client]: Remove: archive file [/home/abi/fetcher/tmp/websocket-client-1.6.0.tar.gz]
+[2023-06-23 13:13:31] INFO root fetch - processPackages [websocket-client]: Remove: archive file [/home/abi/fetcher/tmp/websocket-client-1.6.1.tar.gz]
+[2023-06-23 13:13:31] INFO root fetch - main [MainThread]: End processing [websocket-client]: success
+[2023-06-23 13:13:31] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 13:13:31] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 13:13:31] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 13:13:31] INFO root fetch - processPackages [ntropy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ntropy_sdk-4.9.0rc8.tar.gz]
+[2023-06-23 13:13:31] INFO root fetch - processPackages [ntropy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ntropy_sdk-4.9.1rc1.tar.gz]
+[2023-06-23 13:13:31] INFO root fetch - main [MainThread]: End processing [ntropy-sdk]: success
+[2023-06-23 13:13:31] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 13:13:32] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-23 13:13:32] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-23 13:13:32] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-23 13:13:32] INFO root fetch - processPackages [synthesized]: executing diffoscope
+[2023-06-23 13:13:32] INFO root fetch - processPackages [synthesized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthesized-2.7rc4-cp39-cp39-win_amd64.whl.zip tmp/synthesized-2.7rc5-cp39-cp39-win_amd64.whl.zip --markdown 20230623/s/synthesized/2.7rc4-2.7rc5/diff.md --exclude *.pyd
+[2023-06-23 13:13:32] INFO root fetch - processPackages [sb3-contrib]: Remove: archive file [/home/abi/fetcher/tmp/sb3_contrib-2.0.0a4.tar.gz]
+[2023-06-23 13:13:32] INFO root fetch - processPackages [sb3-contrib]: Remove: archive file [/home/abi/fetcher/tmp/sb3_contrib-2.0.0a9.tar.gz]
+[2023-06-23 13:13:32] INFO root fetch - main [MainThread]: End processing [sb3-contrib]: success
+[2023-06-23 13:13:34] INFO root fetch - processPackages [synthesized]: Remove: archive file [/home/abi/fetcher/tmp/synthesized-2.7rc4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 13:13:34] INFO root fetch - processPackages [synthesized]: Remove: archive file [/home/abi/fetcher/tmp/synthesized-2.7rc5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 13:13:34] INFO root fetch - main [MainThread]: End processing [synthesized]: success
+[2023-06-23 13:13:34] INFO root fetch - main [MainThread]: Store serial: [18617101]
