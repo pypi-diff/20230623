@@ -15710,3 +15710,169 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 12:57:47] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post9.tar.gz]
 [2023-06-23 12:57:47] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2023-06-23 12:57:47] INFO root fetch - main [MainThread]: Store serial: [18616932]
+[2023-06-23 13:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616932]
+[2023-06-23 13:02:57] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-23 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veetility
+[2023-06-23 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluemist
+[2023-06-23 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-power-ops
+[2023-06-23 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snappi
+[2023-06-23 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kalm
+[2023-06-23 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyscal-rdf
+[2023-06-23 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: talisman-dm
+[2023-06-23 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: google-play-developer-api
+[2023-06-23 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-play-developer-api
+[2023-06-23 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: syft
+[2023-06-23 13:02:57] INFO root fetch - processPackages [veetility]: New version: [0.1.92] Old Version: [0.1.91]
+[2023-06-23 13:02:57] INFO root fetch - processPackages [talisman-dm]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-23 13:02:57] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-23 13:02:57] INFO root fetch - processPackages [google-play-developer-api]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-23 13:02:57] INFO root fetch - processPackages [google-play-developer-api]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-23 13:02:57] INFO root fetch - processPackages [pyscal-rdf]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-23 13:02:57] INFO root fetch - processPackages [bluemist]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 13:02:57] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 13:02:57] INFO root fetch - processPackages [syft]: New version: [0.8.1b9] Old Version: [0.8.1b8]
+[2023-06-23 13:02:57] INFO root fetch - processPackages [snappi]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-23 13:02:57] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/3a/e9/bbe478a7c36ed302c00768182581cb0a14e490f936d099af1191fea92cca/pyscal_rdf-0.0.6.tar.gz
+[2023-06-23 13:02:57] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/7f/83/5fa429dd3e868a912774eb8ce8c8fc522f028a99c104fe58da9481436d14/google_play_developer_api-0.5.0.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/7f/83/5fa429dd3e868a912774eb8ce8c8fc522f028a99c104fe58da9481436d14/google_play_developer_api-0.5.0.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/ed/7b/c63dab386460cedecb16ca1a9f5dbb275583d9abb2f9852eac02dc8f1139/talisman-dm-1.0.0a8.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/54/43/7352362a4003b6e7178e639e8b9d0430c30132c22a962fab30b7b5cd8efb/veetility-0.1.91.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [bluemist]: Downloading https://files.pythonhosted.org/packages/37/17/555cf9096289c86caeca291f4d1077571df2808279c3e8c3d4521a5f4412/bluemist-0.1.1.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [snappi]: Downloading https://files.pythonhosted.org/packages/e1/24/ca8bfd6fd1ae66023fba8d16057e3f008c3a93fa2356621c53e01767507f/snappi-0.9.7.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/e3/3d/5b1e997a76c8f4ef86d1abb0afd88a1c9d49128cb6c0538831822dccb376/syft-0.8.1b8.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 13:02:58] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 13:02:58] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/85/92/4eb7290b0ffd7130392791bf72a175791d732a706d6c79f91a95640badb6/pyscal_rdf-0.0.7.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [pyscal-rdf]: executing diffoscope
+[2023-06-23 13:02:58] INFO root fetch - processPackages [pyscal-rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscal_rdf-0.0.6.tar.gz tmp/pyscal_rdf-0.0.7.tar.gz --markdown 20230623/p/pyscal-rdf/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-23 13:02:58] INFO root fetch - processPackages [bluemist]: Downloading https://files.pythonhosted.org/packages/38/e5/ac034a22817bbc1c76f640b09752c9a5b1e11512dc4e32af0be73237959a/bluemist-0.1.2.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/bd/ef/0d2809d6ed2c72eee47f846077380162aecf867d99c7289e3fbcb3a223f9/talisman-dm-1.0.0a9.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/68/4e/8b57c9fd546ab9091feed4031e4e79b4fb19d689288dac5ab5c1a10f2753/veetility-0.1.92.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/96/34/692dd644a76934c3e9392da698605fbf0192b2538c91d57c746d84ae8764/google_play_developer_api-0.5.1.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/96/34/692dd644a76934c3e9392da698605fbf0192b2538c91d57c746d84ae8764/google_play_developer_api-0.5.1.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [talisman-dm]: executing diffoscope
+[2023-06-23 13:02:58] INFO root fetch - processPackages [talisman-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-dm-1.0.0a8.tar.gz tmp/talisman-dm-1.0.0a9.tar.gz --markdown 20230623/t/talisman-dm/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-23 13:02:58] INFO root fetch - processPackages [bluemist]: executing diffoscope
+[2023-06-23 13:02:58] INFO root fetch - processPackages [bluemist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluemist-0.1.1.tar.gz tmp/bluemist-0.1.2.tar.gz --markdown 20230623/b/bluemist/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 13:02:58] INFO root fetch - processPackages [google-play-developer-api]: executing diffoscope
+[2023-06-23 13:02:58] INFO root fetch - processPackages [google-play-developer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_play_developer_api-0.5.0.tar.gz tmp/google_play_developer_api-0.5.1.tar.gz --markdown 20230623/g/google-play-developer-api/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-23 13:02:58] INFO root fetch - processPackages [google-play-developer-api]: executing diffoscope
+[2023-06-23 13:02:58] INFO root fetch - processPackages [google-play-developer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_play_developer_api-0.5.0.tar.gz tmp/google_play_developer_api-0.5.1.tar.gz --markdown 20230623/g/google-play-developer-api/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-23 13:02:58] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/99/b8/426fd52883d499fcb99f3f3e79dc3d626b88f86a44d1105418a78457e80c/syft-0.8.1b9.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-06-23 13:02:58] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.91.tar.gz tmp/veetility-0.1.92.tar.gz --markdown 20230623/v/veetility/0.1.91-0.1.92/diff.md --exclude *.pyd
+[2023-06-23 13:02:58] INFO root fetch - processPackages [snappi]: Downloading https://files.pythonhosted.org/packages/09/a0/4ebf64a764adf0a4a06e6fe78f8eae91866a91f9ce7eb416b6e93d701bfa/snappi-0.9.8.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-06-23 13:02:58] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.1b8.tar.gz tmp/syft-0.8.1b9.tar.gz --markdown 20230623/s/syft/0.8.1b8-0.8.1b9/diff.md --exclude *.pyd
+[2023-06-23 13:02:58] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-23 13:02:58] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-23 13:02:58] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230623/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-23 13:02:58] INFO root fetch - processPackages [snappi]: executing diffoscope
+[2023-06-23 13:02:58] INFO root fetch - processPackages [snappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snappi-0.9.7.tar.gz tmp/snappi-0.9.8.tar.gz --markdown 20230623/s/snappi/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-23 13:02:59] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 13:02:59] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 13:02:59] INFO root fetch - processPackages [kalm]: Start processing: ipykernel
+[2023-06-23 13:02:59] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 13:02:59] INFO root fetch - processPackages [ipykernel]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-23 13:02:59] INFO root fetch - processPackages [ipykernel]: Downloading https://files.pythonhosted.org/packages/e0/22/d6c7267ebf529853bfc786eea6840c24164634d008d4a58ec4ddf0f8a633/ipykernel-6.9.1.tar.gz
+[2023-06-23 13:02:59] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.0.6.tar.gz]
+[2023-06-23 13:02:59] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.0.7.tar.gz]
+[2023-06-23 13:02:59] INFO root fetch - processPackages [pyscal-rdf]: Start processing: libprobe
+[2023-06-23 13:02:59] INFO root fetch - main [MainThread]: End processing [pyscal-rdf]: success
+[2023-06-23 13:02:59] INFO root fetch - processPackages [libprobe]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-23 13:02:59] INFO root fetch - processPackages [ipykernel]: Downloading https://files.pythonhosted.org/packages/e7/b2/0db7e5e7c2de514de42f9a95a09b421d18b7cd6f4a69af19f4cf46c48d13/ipykernel-6.9.2.tar.gz
+[2023-06-23 13:02:59] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.5.0.tar.gz]
+[2023-06-23 13:02:59] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.5.1.tar.gz]
+[2023-06-23 13:02:59] INFO root fetch - processPackages [google-play-developer-api]: Start processing: notion-pinecone
+[2023-06-23 13:02:59] INFO root fetch - main [MainThread]: End processing [google-play-developer-api]: success
+[2023-06-23 13:03:00] WARNING root fetch - processPackages [notion-pinecone]: Skipping, unable to determine old version
+[2023-06-23 13:03:00] INFO root fetch - processPackages [notion-pinecone]: Start processing: AcraNetwork
+[2023-06-23 13:03:00] INFO root fetch - main [MainThread]: End processing [notion-pinecone] error
+[2023-06-23 13:03:00] INFO root fetch - processPackages [libprobe]: Downloading https://files.pythonhosted.org/packages/c5/1f/af20b692dcf94399cd2cffe831face1ea7b3d07c04c743436deaab07bb12/libprobe-0.2.8.tar.gz
+[2023-06-23 13:03:00] INFO root fetch - processPackages [AcraNetwork]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-23 13:03:00] INFO root fetch - processPackages [ipykernel]: executing diffoscope
+[2023-06-23 13:03:00] INFO root fetch - processPackages [ipykernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipykernel-6.9.1.tar.gz tmp/ipykernel-6.9.2.tar.gz --markdown 20230623/i/ipykernel/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-23 13:03:00] INFO root fetch - processPackages [google-play-developer-api]: Start processing: brainglobe-utils
+[2023-06-23 13:03:00] INFO root fetch - main [MainThread]: End processing [google-play-developer-api]: success
+[2023-06-23 13:03:00] INFO root fetch - processPackages [brainglobe-utils]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-23 13:03:00] INFO root fetch - processPackages [AcraNetwork]: Downloading https://files.pythonhosted.org/packages/36/22/643c455ac0c50d42916d52b9b476e86fe245f03e8d9e8b8ee8dc66fc7970/AcraNetwork-0.7.4.tar.gz
+[2023-06-23 13:03:00] INFO root fetch - processPackages [bluemist]: Remove: archive file [/home/abi/fetcher/tmp/bluemist-0.1.1.tar.gz]
+[2023-06-23 13:03:00] INFO root fetch - processPackages [bluemist]: Remove: archive file [/home/abi/fetcher/tmp/bluemist-0.1.2.tar.gz]
+[2023-06-23 13:03:00] INFO root fetch - processPackages [bluemist]: Start processing: delphai-utils
+[2023-06-23 13:03:00] INFO root fetch - main [MainThread]: End processing [bluemist]: success
+[2023-06-23 13:03:00] INFO root fetch - processPackages [delphai-utils]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-23 13:03:00] INFO root fetch - processPackages [brainglobe-utils]: Downloading https://files.pythonhosted.org/packages/d3/51/0a4a060bfc1f47b8b0724af20b1814311f62daea387bcaf1026c1cb5d53a/brainglobe-utils-0.2.0.tar.gz
+[2023-06-23 13:03:00] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a8.tar.gz]
+[2023-06-23 13:03:00] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a9.tar.gz]
+[2023-06-23 13:03:00] INFO root fetch - processPackages [talisman-dm]: Start processing: hotsos
+[2023-06-23 13:03:00] INFO root fetch - main [MainThread]: End processing [talisman-dm]: success
+[2023-06-23 13:03:00] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-06-23 13:03:00] INFO root fetch - processPackages [AcraNetwork]: Downloading https://files.pythonhosted.org/packages/e8/d6/0fa21a06a24cc9d9763db8970944b4e1b837b1d07fb53fdb074d68f7147f/AcraNetwork-0.7.5.zip
+[2023-06-23 13:03:00] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/de/2d/fdf0aaa2b1e07e6d91918c01be57d8f6a6e848e85ed670d75fe1d9b39cd5/hotsos-1.1.14.post8.tar.gz
+[2023-06-23 13:03:00] INFO root fetch - processPackages [AcraNetwork]: executing diffoscope
+[2023-06-23 13:03:00] INFO root fetch - processPackages [AcraNetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AcraNetwork-0.7.4.tar.gz tmp/AcraNetwork-0.7.5.zip --markdown 20230623/A/AcraNetwork/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-23 13:03:00] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/21/10/b9a26829e02e03e2c8a0f4d378542af842e98d9b7a41ccbe7358a5783a8e/delphai-utils-3.0.8.tar.gz
+[2023-06-23 13:03:00] INFO root fetch - processPackages [brainglobe-utils]: Downloading https://files.pythonhosted.org/packages/ed/cf/e778f5a7ec34acd2a5e1baa438f0dbd98c8ecfce9e5f2a5d0a51f3bfa2be/brainglobe-utils-0.2.1.tar.gz
+[2023-06-23 13:03:00] INFO root fetch - processPackages [libprobe]: Downloading https://files.pythonhosted.org/packages/61/5a/f4e65398417ac03db887161f2ae805375a54ba90252b7c78118fb0d4e4e2/libprobe-0.2.9.tar.gz
+[2023-06-23 13:03:00] INFO root fetch - processPackages [brainglobe-utils]: executing diffoscope
+[2023-06-23 13:03:00] INFO root fetch - processPackages [brainglobe-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainglobe-utils-0.2.0.tar.gz tmp/brainglobe-utils-0.2.1.tar.gz --markdown 20230623/b/brainglobe-utils/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-23 13:03:00] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/da/c9/7eacdd09b8fe987d35c33395e293035c63b16ded1000aadb2bc49c6f7882/hotsos-1.1.14.post9.tar.gz
+[2023-06-23 13:03:00] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-23 13:03:00] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230623/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-06-23 13:03:00] INFO root fetch - processPackages [libprobe]: executing diffoscope
+[2023-06-23 13:03:00] INFO root fetch - processPackages [libprobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libprobe-0.2.8.tar.gz tmp/libprobe-0.2.9.tar.gz --markdown 20230623/l/libprobe/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-23 13:03:00] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/ee/d3/2eaf22b6e8513ad6ae2b720c6edb6cdc5a3104f58fe5ac45830ef7bfcdca/delphai-utils-3.0.9.tar.gz
+[2023-06-23 13:03:01] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.91.tar.gz]
+[2023-06-23 13:03:01] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.92.tar.gz]
+[2023-06-23 13:03:01] INFO root fetch - processPackages [veetility]: Start processing: python-eigen-ingenuity
+[2023-06-23 13:03:01] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-06-23 13:03:01] INFO root fetch - processPackages [delphai-utils]: executing diffoscope
+[2023-06-23 13:03:01] INFO root fetch - processPackages [delphai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai-utils-3.0.8.tar.gz tmp/delphai-utils-3.0.9.tar.gz --markdown 20230623/d/delphai-utils/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-23 13:03:01] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-23 13:03:01] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b8.tar.gz]
+[2023-06-23 13:03:01] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b9.tar.gz]
+[2023-06-23 13:03:01] INFO root fetch - processPackages [syft]: Start processing: kalm
+[2023-06-23 13:03:01] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-06-23 13:03:01] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2023-06-23 13:03:01] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 13:03:01] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 13:03:01] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 13:03:01] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 13:03:01] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 13:03:01] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2023-06-23 13:03:01] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2023-06-23 13:03:01] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20230623/p/python-eigen-ingenuity/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-23 13:03:01] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-23 13:03:01] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-23 13:03:01] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-23 13:03:02] INFO root fetch - processPackages [ipykernel]: Remove: archive file [/home/abi/fetcher/tmp/ipykernel-6.9.1.tar.gz]
+[2023-06-23 13:03:02] INFO root fetch - processPackages [ipykernel]: Remove: archive file [/home/abi/fetcher/tmp/ipykernel-6.9.2.tar.gz]
+[2023-06-23 13:03:02] INFO root fetch - main [MainThread]: End processing [ipykernel]: success
+[2023-06-23 13:03:02] INFO root fetch - processPackages [AcraNetwork]: Remove: archive file [/home/abi/fetcher/tmp/AcraNetwork-0.7.4.tar.gz]
+[2023-06-23 13:03:02] INFO root fetch - processPackages [AcraNetwork]: Remove: archive file [/home/abi/fetcher/tmp/AcraNetwork-0.7.5.zip]
+[2023-06-23 13:03:02] INFO root fetch - main [MainThread]: End processing [AcraNetwork]: success
+[2023-06-23 13:03:02] INFO root fetch - processPackages [libprobe]: Remove: archive file [/home/abi/fetcher/tmp/libprobe-0.2.8.tar.gz]
+[2023-06-23 13:03:02] INFO root fetch - processPackages [libprobe]: Remove: archive file [/home/abi/fetcher/tmp/libprobe-0.2.9.tar.gz]
+[2023-06-23 13:03:02] INFO root fetch - main [MainThread]: End processing [libprobe]: success
+[2023-06-23 13:03:02] INFO root fetch - processPackages [brainglobe-utils]: Remove: archive file [/home/abi/fetcher/tmp/brainglobe-utils-0.2.0.tar.gz]
+[2023-06-23 13:03:02] INFO root fetch - processPackages [brainglobe-utils]: Remove: archive file [/home/abi/fetcher/tmp/brainglobe-utils-0.2.1.tar.gz]
+[2023-06-23 13:03:02] INFO root fetch - main [MainThread]: End processing [brainglobe-utils]: success
+[2023-06-23 13:03:02] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai-utils-3.0.8.tar.gz]
+[2023-06-23 13:03:02] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai-utils-3.0.9.tar.gz]
+[2023-06-23 13:03:02] INFO root fetch - main [MainThread]: End processing [delphai-utils]: success
+[2023-06-23 13:03:03] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 13:03:03] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 13:03:03] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 13:03:03] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2023-06-23 13:03:03] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.9.tar.gz]
+[2023-06-23 13:03:03] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2023-06-23 13:03:03] INFO root fetch - processPackages [snappi]: Remove: archive file [/home/abi/fetcher/tmp/snappi-0.9.7.tar.gz]
+[2023-06-23 13:03:03] INFO root fetch - processPackages [snappi]: Remove: archive file [/home/abi/fetcher/tmp/snappi-0.9.8.tar.gz]
+[2023-06-23 13:03:03] INFO root fetch - main [MainThread]: End processing [snappi]: success
+[2023-06-23 13:03:06] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post8.tar.gz]
+[2023-06-23 13:03:06] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post9.tar.gz]
+[2023-06-23 13:03:06] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-23 13:03:06] INFO root fetch - main [MainThread]: Store serial: [18616987]
