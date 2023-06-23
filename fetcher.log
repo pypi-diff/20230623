@@ -13820,3 +13820,273 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 11:49:58] INFO root fetch - processPackages [ppioner]: Remove: archive file [/home/abi/fetcher/tmp/ppioner-0.0.6.tar.gz]
 [2023-06-23 11:49:58] INFO root fetch - main [MainThread]: End processing [ppioner]: success
 [2023-06-23 11:49:58] INFO root fetch - main [MainThread]: Store serial: [18616187]
+[2023-06-23 11:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616187]
+[2023-06-23 11:55:08] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-06-23 11:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlpype
+[2023-06-23 11:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlpype-base
+[2023-06-23 11:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlpype-fastapi
+[2023-06-23 11:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlpype-hyperopt
+[2023-06-23 11:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlpype-mlflow
+[2023-06-23 11:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlpype-sklearn
+[2023-06-23 11:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlpype-spark
+[2023-06-23 11:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlpype-tensorflow
+[2023-06-23 11:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: instamatic
+[2023-06-23 11:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlpype-xgboost
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-fastapi]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-sklearn]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-base]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-spark]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-mlflow]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 11:55:08] INFO root fetch - processPackages [instamatic]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-hyperopt]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-xgboost]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-tensorflow]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-fastapi]: Downloading https://files.pythonhosted.org/packages/60/6e/dca4dafd68032e4d0898bb7a7ad963c3bed15af2f89f36c826c6233ad880/mlpype-fastapi-0.4.3.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-spark]: Downloading https://files.pythonhosted.org/packages/44/1f/7e6c3acb1311270308fc126791dfd20e38f99ac9df0eb21cf44627af4420/mlpype-spark-0.4.3.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-mlflow]: Downloading https://files.pythonhosted.org/packages/9a/a0/8e79f99a92388627f5b35eb498e30a51fb3ef10d97be44c1b9cf4b85d8df/mlpype-mlflow-0.4.3.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-sklearn]: Downloading https://files.pythonhosted.org/packages/d4/fa/22ff1f023a9b124b19fa30b8c982b4904963606d4fce67d84a9720d3e058/mlpype-sklearn-0.4.3.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-base]: Downloading https://files.pythonhosted.org/packages/d5/01/a30a1204fe86178b71b59b294848b92f93982873eef0584a9044a8dd97f8/mlpype-base-0.4.3.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-hyperopt]: Downloading https://files.pythonhosted.org/packages/fd/82/559b12ebe4e2f47844c4c29657c99bd1e2a574e1f17924fb0f77eb84e457/mlpype-hyperopt-0.4.3.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-xgboost]: Downloading https://files.pythonhosted.org/packages/8f/17/16c6fcff80cca40dd15005262db440f6f7db12b0934fa55c0df2d817c767/mlpype-xgboost-0.4.3.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [instamatic]: Downloading https://files.pythonhosted.org/packages/4b/64/cdda92787f9c3fc3341987e600e904a6d2b2c0836d3bb80e6adf52d6d283/instamatic-1.9.0.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-tensorflow]: Downloading https://files.pythonhosted.org/packages/97/61/a4f3d938d8eda91f7ef58eacdb3931e2885ecb0622c5917b7b4ab1dac344/mlpype-tensorflow-0.4.3.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype]: Downloading https://files.pythonhosted.org/packages/24/b4/80d61befa3947cdc322df637025197efb48a745e4a0c635feaa284a6b4f2/mlpype-0.4.3.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-base]: Downloading https://files.pythonhosted.org/packages/0c/d7/114044d761aaa3284af7b5e76270d65aa57c4396926d1093cdf0c70ff623/mlpype-base-0.4.4.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-xgboost]: Downloading https://files.pythonhosted.org/packages/17/c4/ba8c6dfed6fd1285779fc65a5f3dd4b56e2d12e17968016fd41001fd856f/mlpype-xgboost-0.4.4.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-spark]: Downloading https://files.pythonhosted.org/packages/f7/23/5e098bb392b5f0bd21823a89c67969c5f92e38eb0651288a4daddb8030dc/mlpype-spark-0.4.4.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-mlflow]: Downloading https://files.pythonhosted.org/packages/91/28/1cc7d850abc0e241714f5e1d9acb75df2f46ee7bce0d9df1b14e3e483dee/mlpype-mlflow-0.4.4.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-sklearn]: Downloading https://files.pythonhosted.org/packages/35/dd/81503d6f345e4e1f33dcf3ed4e1d271451f63b22528f8e6306f1093b9f65/mlpype-sklearn-0.4.4.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-hyperopt]: Downloading https://files.pythonhosted.org/packages/bb/cb/995a7180bbdcc019160f4359535a8774429e47a27e3e0d3433e75f2ca9fd/mlpype-hyperopt-0.4.4.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-fastapi]: Downloading https://files.pythonhosted.org/packages/86/22/7bd9225f613b38b97c84029ee0f6f7f2a12e20c658b9ac791001187e75ac/mlpype-fastapi-0.4.4.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-base]: executing diffoscope
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-base-0.4.3.tar.gz tmp/mlpype-base-0.4.4.tar.gz --markdown 20230623/m/mlpype-base/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-xgboost]: executing diffoscope
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-xgboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-xgboost-0.4.3.tar.gz tmp/mlpype-xgboost-0.4.4.tar.gz --markdown 20230623/m/mlpype-xgboost/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-tensorflow]: Downloading https://files.pythonhosted.org/packages/33/dd/e0b2e1d9bb633a005a4c0c25c3c5777f141ca94fa14ba61a3df8f0e7ed02/mlpype-tensorflow-0.4.4.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype]: Downloading https://files.pythonhosted.org/packages/e6/b3/8e3e59796878e26fc235529f9d5c79ebd6b4ed99670d3f364ace2e3546e6/mlpype-0.4.4.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [instamatic]: Downloading https://files.pythonhosted.org/packages/45/72/ef064cb83580da1712730f5e3f6cebc9426704859c21a4bde879260a0700/instamatic-2.0.0.tar.gz
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-sklearn]: executing diffoscope
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-sklearn-0.4.3.tar.gz tmp/mlpype-sklearn-0.4.4.tar.gz --markdown 20230623/m/mlpype-sklearn/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-spark]: executing diffoscope
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-spark-0.4.3.tar.gz tmp/mlpype-spark-0.4.4.tar.gz --markdown 20230623/m/mlpype-spark/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-mlflow]: executing diffoscope
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-mlflow-0.4.3.tar.gz tmp/mlpype-mlflow-0.4.4.tar.gz --markdown 20230623/m/mlpype-mlflow/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-tensorflow]: executing diffoscope
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-tensorflow-0.4.3.tar.gz tmp/mlpype-tensorflow-0.4.4.tar.gz --markdown 20230623/m/mlpype-tensorflow/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype]: executing diffoscope
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-0.4.3.tar.gz tmp/mlpype-0.4.4.tar.gz --markdown 20230623/m/mlpype/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-hyperopt]: executing diffoscope
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-hyperopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-hyperopt-0.4.3.tar.gz tmp/mlpype-hyperopt-0.4.4.tar.gz --markdown 20230623/m/mlpype-hyperopt/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-fastapi]: executing diffoscope
+[2023-06-23 11:55:08] INFO root fetch - processPackages [mlpype-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpype-fastapi-0.4.3.tar.gz tmp/mlpype-fastapi-0.4.4.tar.gz --markdown 20230623/m/mlpype-fastapi/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:08] INFO root fetch - processPackages [instamatic]: executing diffoscope
+[2023-06-23 11:55:08] INFO root fetch - processPackages [instamatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instamatic-1.9.0.tar.gz tmp/instamatic-2.0.0.tar.gz --markdown 20230623/i/instamatic/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-xgboost]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-xgboost-0.4.3.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-xgboost]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-xgboost-0.4.4.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-xgboost]: Start processing: ibm-aigov-facts-client
+[2023-06-23 11:55:10] INFO root fetch - main [MainThread]: End processing [mlpype-xgboost]: success
+[2023-06-23 11:55:10] INFO root fetch - processPackages [ibm-aigov-facts-client]: New version: [1.0.59] Old Version: [1.0.58]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-base]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-base-0.4.3.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-base]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-base-0.4.4.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-base]: Start processing: pyuff-ustb
+[2023-06-23 11:55:10] INFO root fetch - main [MainThread]: End processing [mlpype-base]: success
+[2023-06-23 11:55:10] INFO root fetch - processPackages [pyuff-ustb]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/1a/0e/2ae2c39a7a2862b0c48dff85b8b1845c09b0339a607680a0634df80d8a48/ibm_aigov_facts_client-1.0.58-py3-none-any.whl
+[2023-06-23 11:55:10] INFO root fetch - processPackages [pyuff-ustb]: Downloading https://files.pythonhosted.org/packages/30/25/5d729397bb50f8f8710eb48a8ea59bf8e677950c5cd2c7444a90ec2a8a4c/pyuff_ustb-2.0.0.tar.gz
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-sklearn-0.4.3.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-sklearn-0.4.4.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-sklearn]: Start processing: few-shot-priming
+[2023-06-23 11:55:10] INFO root fetch - main [MainThread]: End processing [mlpype-sklearn]: success
+[2023-06-23 11:55:10] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/a1/06/f38a9524334660c9c25b592ecd84c8a884641c95a9f324df107c2c9dabb9/ibm_aigov_facts_client-1.0.59-py3-none-any.whl
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-spark]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-spark-0.4.3.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-spark]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-spark-0.4.4.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-spark]: Start processing: cdk-pipelines-github
+[2023-06-23 11:55:10] INFO root fetch - main [MainThread]: End processing [mlpype-spark]: success
+[2023-06-23 11:55:10] INFO root fetch - processPackages [cdk-pipelines-github]: New version: [0.4.90] Old Version: [0.4.9]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [pyuff-ustb]: Downloading https://files.pythonhosted.org/packages/03/3d/2a4c7580a8ab90ba23b2e2de5780e80df7446b295e8d46f8d17e326ab909/pyuff_ustb-2.0.1.tar.gz
+[2023-06-23 11:55:10] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-hyperopt]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-hyperopt-0.4.3.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-hyperopt]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-hyperopt-0.4.4.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-hyperopt]: Start processing: tb-mqtt-client
+[2023-06-23 11:55:10] INFO root fetch - main [MainThread]: End processing [mlpype-hyperopt]: success
+[2023-06-23 11:55:10] INFO root fetch - processPackages [ibm-aigov-facts-client]: executing diffoscope
+[2023-06-23 11:55:10] INFO root fetch - processPackages [ibm-aigov-facts-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_aigov_facts_client-1.0.58-py3-none-any.whl.zip tmp/ibm_aigov_facts_client-1.0.59-py3-none-any.whl.zip --markdown 20230623/i/ibm-aigov-facts-client/1.0.58-1.0.59/diff.md --exclude *.pyd
+[2023-06-23 11:55:10] INFO root fetch - processPackages [tb-mqtt-client]: New version: [1.5] Old Version: [1.4.1]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [pyuff-ustb]: executing diffoscope
+[2023-06-23 11:55:10] INFO root fetch - processPackages [pyuff-ustb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuff_ustb-2.0.0.tar.gz tmp/pyuff_ustb-2.0.1.tar.gz --markdown 20230623/p/pyuff-ustb/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-fastapi-0.4.3.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-fastapi-0.4.4.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-fastapi]: Start processing: braincube-aws-core
+[2023-06-23 11:55:10] INFO root fetch - main [MainThread]: End processing [mlpype-fastapi]: success
+[2023-06-23 11:55:10] INFO root fetch - processPackages [braincube-aws-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-tensorflow-0.4.3.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-tensorflow-0.4.4.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-tensorflow]: Start processing: eurlex
+[2023-06-23 11:55:10] INFO root fetch - main [MainThread]: End processing [mlpype-tensorflow]: success
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-mlflow-0.4.3.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-mlflow-0.4.4.tar.gz]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [mlpype-mlflow]: Start processing: pineboo
+[2023-06-23 11:55:10] INFO root fetch - main [MainThread]: End processing [mlpype-mlflow]: success
+[2023-06-23 11:55:10] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/88/a7/cf7d8bb4ea84150b1b05dca2ef8a82fdf7aa4be753a00f77c09bc57e8f51/cdk-pipelines-github-0.4.9.tar.gz
+[2023-06-23 11:55:10] INFO root fetch - processPackages [eurlex]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [pineboo]: New version: [1.0.5] Old Version: [1.0.4.6]
+[2023-06-23 11:55:10] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/41/18/bc212e04ef10b8a8d5b5cc295a0ab06f1c05ecb27fdd72daaa6a49622d05/braincube-aws-core-0.0.4.tar.gz
+[2023-06-23 11:55:11] INFO root fetch - processPackages [tb-mqtt-client]: Downloading https://files.pythonhosted.org/packages/ed/93/1474ff1944dbf62459bbb21c11b5c34a9c30f681fda9d2d775d582bdb864/tb-mqtt-client-1.4.1.tar.gz
+[2023-06-23 11:55:11] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 11:55:11] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/f9/6d/be10e0b244775f698ea4c0263f063c18e2b07a7746513a8c68e6c3474516/braincube-aws-core-0.0.5.tar.gz
+[2023-06-23 11:55:11] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/13/a1/ddbf9872ef6279d6893bea2a17b5ca49f5f17534db79325c6285510e3b35/cdk-pipelines-github-0.4.90.tar.gz
+[2023-06-23 11:55:11] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 11:55:11] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 11:55:11] INFO root fetch - processPackages [eurlex]: Downloading https://files.pythonhosted.org/packages/b2/06/40b9567a37ada9e817b0b9b1e6960a7963f2f27cf177c1546ca28e773f16/eurlex-0.1.3.tar.gz
+[2023-06-23 11:55:11] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9f/d3/e75116e3066040e6f5ef899f464bcf93093dc2eef95bd0f4e9dc80377a95/pineboo-1.0.4.6.tar.gz
+[2023-06-23 11:55:11] INFO root fetch - processPackages [cdk-pipelines-github]: executing diffoscope
+[2023-06-23 11:55:11] INFO root fetch - processPackages [cdk-pipelines-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-pipelines-github-0.4.9.tar.gz tmp/cdk-pipelines-github-0.4.90.tar.gz --markdown 20230623/c/cdk-pipelines-github/0.4.9-0.4.90/diff.md --exclude *.pyd
+[2023-06-23 11:55:11] INFO root fetch - processPackages [tb-mqtt-client]: Downloading https://files.pythonhosted.org/packages/9d/b5/f4fbf1e80ee62651fe1dcb5be03bb9edd5c2974e0e5891b1ef12039f7851/tb-mqtt-client-1.5.tar.gz
+[2023-06-23 11:55:11] INFO root fetch - processPackages [braincube-aws-core]: executing diffoscope
+[2023-06-23 11:55:11] INFO root fetch - processPackages [braincube-aws-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-0.0.4.tar.gz tmp/braincube-aws-core-0.0.5.tar.gz --markdown 20230623/b/braincube-aws-core/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 11:55:11] INFO root fetch - processPackages [tb-mqtt-client]: executing diffoscope
+[2023-06-23 11:55:11] INFO root fetch - processPackages [tb-mqtt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb-mqtt-client-1.4.1.tar.gz tmp/tb-mqtt-client-1.5.tar.gz --markdown 20230623/t/tb-mqtt-client/1.4.1-1.5/diff.md --exclude *.pyd
+[2023-06-23 11:55:11] INFO root fetch - processPackages [eurlex]: Downloading https://files.pythonhosted.org/packages/26/ab/1d900878ab466f2be3126aafdb669663e87984c48606495ad34c0d8eee23/eurlex-0.1.4.tar.gz
+[2023-06-23 11:55:11] INFO root fetch - processPackages [eurlex]: executing diffoscope
+[2023-06-23 11:55:11] INFO root fetch - processPackages [eurlex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurlex-0.1.3.tar.gz tmp/eurlex-0.1.4.tar.gz --markdown 20230623/e/eurlex/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:11] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/cf/3c/e968fa0b3cd2758d3aeb916a82dd58e778fb393ea83ad998f97c1cca773b/pineboo-1.0.5.tar.gz
+[2023-06-23 11:55:11] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-06-23 11:55:11] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.6.tar.gz tmp/pineboo-1.0.5.tar.gz --markdown 20230623/p/pineboo/1.0.4.6-1.0.5/diff.md --exclude *.pyd
+[2023-06-23 11:55:12] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 11:55:12] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 11:55:12] INFO root fetch - processPackages [few-shot-priming]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-06-23 11:55:12] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 11:55:12] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 11:55:12] INFO root fetch - processPackages [pyuff-ustb]: Remove: archive file [/home/abi/fetcher/tmp/pyuff_ustb-2.0.0.tar.gz]
+[2023-06-23 11:55:12] INFO root fetch - processPackages [pyuff-ustb]: Remove: archive file [/home/abi/fetcher/tmp/pyuff_ustb-2.0.1.tar.gz]
+[2023-06-23 11:55:12] INFO root fetch - processPackages [pyuff-ustb]: Start processing: steamship
+[2023-06-23 11:55:12] INFO root fetch - main [MainThread]: End processing [pyuff-ustb]: success
+[2023-06-23 11:55:12] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-23 11:55:12] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.58-py3-none-any.whl.zip]
+[2023-06-23 11:55:12] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.59-py3-none-any.whl.zip]
+[2023-06-23 11:55:12] INFO root fetch - processPackages [ibm-aigov-facts-client]: Start processing: catline
+[2023-06-23 11:55:12] INFO root fetch - main [MainThread]: End processing [ibm-aigov-facts-client]: success
+[2023-06-23 11:55:12] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-06-23 11:55:12] WARNING root fetch - processPackages [catline]: Skipping, unable to determine old version
+[2023-06-23 11:55:12] INFO root fetch - processPackages [catline]: Start processing: ARIclicker
+[2023-06-23 11:55:12] INFO root fetch - main [MainThread]: End processing [catline] error
+[2023-06-23 11:55:12] INFO root fetch - processPackages [ARIclicker]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-06-23 11:55:12] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/d5/9d/2e877493befc03aade673fa8cbf159f77955b8658f16d4b0e16ad0ab106f/steamship-2.3.8.tar.gz
+[2023-06-23 11:55:12] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/10/b4/300e82cfd7482fafbb3d3d83fdc9e0e9821d3d3ca69b236bc1e7c2b3a6d2/ARIclicker-0.2.1.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.4.tar.gz]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.5.tar.gz]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [braincube-aws-core]: Start processing: power-user-tools
+[2023-06-23 11:55:13] INFO root fetch - main [MainThread]: End processing [braincube-aws-core]: success
+[2023-06-23 11:55:13] INFO root fetch - processPackages [power-user-tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [mlpype]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-0.4.3.tar.gz]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [mlpype]: Remove: archive file [/home/abi/fetcher/tmp/mlpype-0.4.4.tar.gz]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [mlpype]: Start processing: taipy-core
+[2023-06-23 11:55:13] INFO root fetch - main [MainThread]: End processing [mlpype]: success
+[2023-06-23 11:55:13] INFO root fetch - processPackages [taipy-core]: New version: [3.0.0.dev0] Old Version: [2.3.0.dev6]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/9d/b6/f1ccd07b2b0f5f9da10a93113c290f4e795e395aa0490af06cbb727fe8e9/ARIclicker-0.2.3.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [power-user-tools]: Downloading https://files.pythonhosted.org/packages/27/77/a81a342144c8565b8790ee9c30505874c24f1a5dc2882b5b982a8d14e372/power-user-tools-0.1.3.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [eurlex]: Remove: archive file [/home/abi/fetcher/tmp/eurlex-0.1.3.tar.gz]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [eurlex]: Remove: archive file [/home/abi/fetcher/tmp/eurlex-0.1.4.tar.gz]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [eurlex]: Start processing: cdnjs-cli
+[2023-06-23 11:55:13] INFO root fetch - main [MainThread]: End processing [eurlex]: success
+[2023-06-23 11:55:13] INFO root fetch - processPackages [cdnjs-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [ARIclicker]: executing diffoscope
+[2023-06-23 11:55:13] INFO root fetch - processPackages [ARIclicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARIclicker-0.2.1.tar.gz tmp/ARIclicker-0.2.3.tar.gz --markdown 20230623/A/ARIclicker/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-06-23 11:55:13] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/67/d6/3246056a735c4f223d4084bfe0bce5ae6ab281119ab63cfb3751dd714bc5/taipy-core-2.3.0.dev6.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [cdnjs-cli]: Downloading https://files.pythonhosted.org/packages/82/29/dcf78e4c752368cc558f370f2d7d15dfc122016992690a12499a60928d66/cdnjs_cli-0.0.3.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [tb-mqtt-client]: Remove: archive file [/home/abi/fetcher/tmp/tb-mqtt-client-1.4.1.tar.gz]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [tb-mqtt-client]: Remove: archive file [/home/abi/fetcher/tmp/tb-mqtt-client-1.5.tar.gz]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [tb-mqtt-client]: Start processing: hicpnewman
+[2023-06-23 11:55:13] INFO root fetch - main [MainThread]: End processing [tb-mqtt-client]: success
+[2023-06-23 11:55:13] WARNING root fetch - processPackages [hicpnewman]: Skipping, unable to determine old version
+[2023-06-23 11:55:13] INFO root fetch - processPackages [hicpnewman]: Start processing: parsagon
+[2023-06-23 11:55:13] INFO root fetch - main [MainThread]: End processing [hicpnewman] error
+[2023-06-23 11:55:13] INFO root fetch - processPackages [cdnjs-cli]: Downloading https://files.pythonhosted.org/packages/50/37/c905919fc258b0e6c080d5a78cb9dea797225b6ee19697cd64cd101fc233/cdnjs_cli-0.0.4.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [power-user-tools]: Downloading https://files.pythonhosted.org/packages/af/e3/775868ea44f27887897ec04b292ab8a042a778157aa7af811abecb5608fb/power-user-tools-0.1.4.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [parsagon]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-23 11:55:13] INFO root fetch - processPackages [cdnjs-cli]: executing diffoscope
+[2023-06-23 11:55:13] INFO root fetch - processPackages [cdnjs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnjs_cli-0.0.3.tar.gz tmp/cdnjs_cli-0.0.4.tar.gz --markdown 20230623/c/cdnjs-cli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:13] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-23 11:55:13] INFO root fetch - processPackages [power-user-tools]: executing diffoscope
+[2023-06-23 11:55:13] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230623/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-23 11:55:13] INFO root fetch - processPackages [power-user-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-user-tools-0.1.3.tar.gz tmp/power-user-tools-0.1.4.tar.gz --markdown 20230623/p/power-user-tools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-23 11:55:13] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/cd/7e/c83fca838eefd8f0696da042167bbb2c5c6974bcd1f14f08ea69d600c3df/taipy-core-3.0.0.dev0.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/da/65/e2fe9cd8e2cf486d987ab104d89e1264bcb75ac0acf30a1c23f2441d36b3/parsagon-0.7.0.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [taipy-core]: executing diffoscope
+[2023-06-23 11:55:13] INFO root fetch - processPackages [taipy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-core-2.3.0.dev6.tar.gz tmp/taipy-core-3.0.0.dev0.tar.gz --markdown 20230623/t/taipy-core/2.3.0.dev6-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-23 11:55:13] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/08/96/c1640381356178a69a31248f0528824a61a06e96f0f682f4a4bffcb7d06a/parsagon-0.7.1.tar.gz
+[2023-06-23 11:55:13] INFO root fetch - processPackages [parsagon]: executing diffoscope
+[2023-06-23 11:55:13] INFO root fetch - processPackages [parsagon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsagon-0.7.0.tar.gz tmp/parsagon-0.7.1.tar.gz --markdown 20230623/p/parsagon/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-23 11:55:14] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.9.tar.gz]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.90.tar.gz]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [cdk-pipelines-github]: Start processing: wordview
+[2023-06-23 11:55:14] INFO root fetch - main [MainThread]: End processing [cdk-pipelines-github]: success
+[2023-06-23 11:55:14] INFO root fetch - processPackages [wordview]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/6f/8b/c972491114934908a139fa07995febd65cbc8fe06c481e3ede6d85a10e63/wordview-0.3.6.tar.gz
+[2023-06-23 11:55:14] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-06-23 11:55:14] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.2.1.tar.gz]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.2.3.tar.gz]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [ARIclicker]: Start processing: pyspk
+[2023-06-23 11:55:14] INFO root fetch - main [MainThread]: End processing [ARIclicker]: success
+[2023-06-23 11:55:14] INFO root fetch - processPackages [pyspk]: New version: [1.7] Old Version: [1.6]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [instamatic]: Remove: archive file [/home/abi/fetcher/tmp/instamatic-1.9.0.tar.gz]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [instamatic]: Remove: archive file [/home/abi/fetcher/tmp/instamatic-2.0.0.tar.gz]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [instamatic]: Start processing: lys-python
+[2023-06-23 11:55:14] INFO root fetch - main [MainThread]: End processing [instamatic]: success
+[2023-06-23 11:55:14] INFO root fetch - processPackages [lys-python]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/0c/7d/2bae5d5da8079e71ec28cb84bfbb24f559b48b352fcb109c06b0fca1efe6/wordview-0.3.7.tar.gz
+[2023-06-23 11:55:14] INFO root fetch - processPackages [lys-python]: Downloading https://files.pythonhosted.org/packages/81/aa/519ca44aaa618d6a25569c09dc9cade1848363d7f8f8c7caee12b250dbf0/lys_python-0.3.0-py3-none-any.whl
+[2023-06-23 11:55:14] INFO root fetch - processPackages [pyspk]: Downloading https://files.pythonhosted.org/packages/8c/56/7390a102e9ffc123a7c98ce38a01df97a66f31cd6d3bc27c6109b4194913/pyspk-1.6.tar.gz
+[2023-06-23 11:55:14] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-06-23 11:55:14] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.3.6.tar.gz tmp/wordview-0.3.7.tar.gz --markdown 20230623/w/wordview/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-23 11:55:14] INFO root fetch - processPackages [power-user-tools]: Remove: archive file [/home/abi/fetcher/tmp/power-user-tools-0.1.3.tar.gz]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [power-user-tools]: Remove: archive file [/home/abi/fetcher/tmp/power-user-tools-0.1.4.tar.gz]
+[2023-06-23 11:55:14] INFO root fetch - processPackages [power-user-tools]: Start processing: transllm
+[2023-06-23 11:55:14] INFO root fetch - main [MainThread]: End processing [power-user-tools]: success
+[2023-06-23 11:55:15] INFO root fetch - processPackages [transllm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-23 11:55:15] INFO root fetch - processPackages [cdnjs-cli]: Remove: archive file [/home/abi/fetcher/tmp/cdnjs_cli-0.0.3.tar.gz]
+[2023-06-23 11:55:15] INFO root fetch - processPackages [cdnjs-cli]: Remove: archive file [/home/abi/fetcher/tmp/cdnjs_cli-0.0.4.tar.gz]
+[2023-06-23 11:55:15] INFO root fetch - main [MainThread]: End processing [cdnjs-cli]: success
+[2023-06-23 11:55:15] INFO root fetch - processPackages [pyspk]: Downloading https://files.pythonhosted.org/packages/9e/f4/ace24aafe88a5335667e28463cecbd44021cd19ab628a1a157843b9c1c08/pyspk-1.7.tar.gz
+[2023-06-23 11:55:15] INFO root fetch - processPackages [lys-python]: Downloading https://files.pythonhosted.org/packages/41/43/733b5c4f68e24d59bc07157a60c3c02d5e125f9d25e869b806229ec637f6/lys_python-0.3.1-py3-none-any.whl
+[2023-06-23 11:55:15] INFO root fetch - processPackages [transllm]: Downloading https://files.pythonhosted.org/packages/3a/11/d54a428ac3da401bd81ffd35de7eaacdb77136a23bc2fac2824d109dd52c/transllm-0.1.0.tar.gz
+[2023-06-23 11:55:15] INFO root fetch - processPackages [pyspk]: executing diffoscope
+[2023-06-23 11:55:15] INFO root fetch - processPackages [pyspk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspk-1.6.tar.gz tmp/pyspk-1.7.tar.gz --markdown 20230623/p/pyspk/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-23 11:55:15] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.7.0.tar.gz]
+[2023-06-23 11:55:15] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.7.1.tar.gz]
+[2023-06-23 11:55:15] INFO root fetch - main [MainThread]: End processing [parsagon]: success
+[2023-06-23 11:55:15] INFO root fetch - processPackages [lys-python]: executing diffoscope
+[2023-06-23 11:55:15] INFO root fetch - processPackages [lys-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lys_python-0.3.0-py3-none-any.whl.zip tmp/lys_python-0.3.1-py3-none-any.whl.zip --markdown 20230623/l/lys-python/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-23 11:55:15] INFO root fetch - processPackages [transllm]: Downloading https://files.pythonhosted.org/packages/2e/ab/13826e0bebd1fe9bb0fa44eba835a366738358a005704d85c46ce36c7b51/transllm-0.1.1.tar.gz
+[2023-06-23 11:55:15] INFO root fetch - processPackages [transllm]: executing diffoscope
+[2023-06-23 11:55:15] INFO root fetch - processPackages [transllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transllm-0.1.0.tar.gz tmp/transllm-0.1.1.tar.gz --markdown 20230623/t/transllm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-23 11:55:16] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-06-23 11:55:16] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230623/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 11:55:16] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.3.6.tar.gz]
+[2023-06-23 11:55:16] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.3.7.tar.gz]
+[2023-06-23 11:55:16] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-06-23 11:55:16] INFO root fetch - processPackages [pyspk]: Remove: archive file [/home/abi/fetcher/tmp/pyspk-1.6.tar.gz]
+[2023-06-23 11:55:16] INFO root fetch - processPackages [pyspk]: Remove: archive file [/home/abi/fetcher/tmp/pyspk-1.7.tar.gz]
+[2023-06-23 11:55:16] INFO root fetch - main [MainThread]: End processing [pyspk]: success
+[2023-06-23 11:55:16] INFO root fetch - processPackages [lys-python]: Remove: archive file [/home/abi/fetcher/tmp/lys_python-0.3.0-py3-none-any.whl.zip]
+[2023-06-23 11:55:16] INFO root fetch - processPackages [lys-python]: Remove: archive file [/home/abi/fetcher/tmp/lys_python-0.3.1-py3-none-any.whl.zip]
+[2023-06-23 11:55:16] INFO root fetch - main [MainThread]: End processing [lys-python]: success
+[2023-06-23 11:55:16] INFO root fetch - processPackages [transllm]: Remove: archive file [/home/abi/fetcher/tmp/transllm-0.1.0.tar.gz]
+[2023-06-23 11:55:16] INFO root fetch - processPackages [transllm]: Remove: archive file [/home/abi/fetcher/tmp/transllm-0.1.1.tar.gz]
+[2023-06-23 11:55:16] INFO root fetch - main [MainThread]: End processing [transllm]: success
+[2023-06-23 11:55:17] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.8.tar.gz]
+[2023-06-23 11:55:17] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-06-23 11:55:17] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-23 11:55:18] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-06-23 11:55:18] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-06-23 11:55:18] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-06-23 11:55:18] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-2.3.0.dev6.tar.gz]
+[2023-06-23 11:55:18] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-3.0.0.dev0.tar.gz]
+[2023-06-23 11:55:18] INFO root fetch - main [MainThread]: End processing [taipy-core]: success
+[2023-06-23 11:55:23] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-1.0.4.6.tar.gz]
+[2023-06-23 11:55:23] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-1.0.5.tar.gz]
+[2023-06-23 11:55:23] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-06-23 11:55:23] INFO root fetch - main [MainThread]: Store serial: [18616283]
