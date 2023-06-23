@@ -10618,3 +10618,80 @@
 [2023-06-23 09:08:49] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.7.tar.gz]
 [2023-06-23 09:08:49] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
 [2023-06-23 09:08:49] INFO root fetch - main [MainThread]: Store serial: [18614871]
+[2023-06-23 09:13:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614871]
+[2023-06-23 09:13:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-23 09:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almavik
+[2023-06-23 09:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-23 09:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognica
+[2023-06-23 09:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snk
+[2023-06-23 09:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webscrapex
+[2023-06-23 09:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perform-eda
+[2023-06-23 09:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decoratory
+[2023-06-23 09:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-space-toolkit-core
+[2023-06-23 09:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: entrain-spatial
+[2023-06-23 09:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mse-cli-core
+[2023-06-23 09:13:59] INFO root fetch - processPackages [cognica]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 09:13:59] INFO root fetch - processPackages [almavik]: New version: [5.0] Old Version: [351.1]
+[2023-06-23 09:13:59] INFO root fetch - processPackages [snk]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-06-23 09:13:59] INFO root fetch - processPackages [open-space-toolkit-core]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-23 09:13:59] INFO root fetch - processPackages [decoratory]: New version: [0.9.0.6] Old Version: [0.1.5.6]
+[2023-06-23 09:13:59] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-23 09:13:59] INFO root fetch - processPackages [mse-cli-core]: New version: [0.1a7] Old Version: [0.1a6]
+[2023-06-23 09:13:59] INFO root fetch - processPackages [open-space-toolkit-core]: Downloading https://files.pythonhosted.org/packages/6f/8f/9b54774b88e7230a30d9a57405cc6826b84fe391b29d6b5e60d79ecee76a/open_space_toolkit_core-0.7.1-py39-none-any.whl
+[2023-06-23 09:13:59] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/df/14/10d81bbb1b7b9386f3726bf5813103c7ef57f30f8d28aa39ecbaf80d9860/mse_cli_core-0.1a6.tar.gz
+[2023-06-23 09:13:59] WARNING root fetch - processPackages [entrain-spatial]: Skipping, unable to determine old version
+[2023-06-23 09:13:59] INFO root fetch - main [MainThread]: End processing [entrain-spatial] error
+[2023-06-23 09:13:59] INFO root fetch - processPackages [webscrapex]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-23 09:13:59] WARNING root fetch - processPackages [perform-eda]: Skipping, unable to determine old version
+[2023-06-23 09:13:59] INFO root fetch - main [MainThread]: End processing [perform-eda] error
+[2023-06-23 09:13:59] INFO root fetch - processPackages [cognica]: Downloading https://files.pythonhosted.org/packages/0a/c0/edcce97d0c66bcd4b478feeef39458c665cb143e001ce1885fc706216cb9/cognica-0.1.8.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/14/09/1ef2b4c2a013c87dbf867a1c65bbc30fcb73157e60c78f1edf8fd495ee44/almavik-351.1.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/9a/98/db3deb86c721ca015e8ff5b67f3e588bdc5ccc3c2c8784186d0dac6d3cb8/decoratory-0.1.5.6.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/69/8f/bd5d1d8a19a988e91e920b165a268176a788a6c11f298a95a073b02453cf/snk-0.6.9.tar.gz
+[2023-06-23 09:13:59] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85078284>=10485760
+[2023-06-23 09:13:59] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-23 09:13:59] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-23 09:13:59] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230623/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-23 09:13:59] INFO root fetch - processPackages [webscrapex]: Downloading https://files.pythonhosted.org/packages/92/64/81c40fad0a761fac03df9c7428338d52a2e1f6c7582518d304d980a2ec06/webscrapex-0.0.7.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [open-space-toolkit-core]: Downloading https://files.pythonhosted.org/packages/a1/51/21cc72d3dd62453ac91e7c62687c3e3cac6d35d14521517d5479a816d696/open_space_toolkit_core-0.7.2-py39-none-any.whl
+[2023-06-23 09:13:59] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/03/1b/56a14fd2a326ebc43d4b366eec092f91a638c047d31694875782dcba497a/decoratory-0.9.0.6.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/2b/6d/54662865fa39f70c8e936c74f7fb8b8edd5126ddd5eb28866087b93efad1/mse_cli_core-0.1a7.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/4d/4e/16820d9c5795470ce02a6eb3098019ea152fb04686ffc43dc78534886650/snk-0.7.0.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [cognica]: Downloading https://files.pythonhosted.org/packages/82/15/6df17103d2f64996dc8dd529b547761a0024973fb7b0b96968cbb2eb9f56/cognica-0.1.9.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [mse-cli-core]: executing diffoscope
+[2023-06-23 09:13:59] INFO root fetch - processPackages [mse-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_cli_core-0.1a6.tar.gz tmp/mse_cli_core-0.1a7.tar.gz --markdown 20230623/m/mse-cli-core/0.1a6-0.1a7/diff.md --exclude *.pyd
+[2023-06-23 09:13:59] INFO root fetch - processPackages [webscrapex]: Downloading https://files.pythonhosted.org/packages/82/7c/81fe383b753ed8e158a561dc943538315656ff738888c282f150e9773058/webscrapex-0.0.8.tar.gz
+[2023-06-23 09:13:59] INFO root fetch - processPackages [decoratory]: executing diffoscope
+[2023-06-23 09:13:59] INFO root fetch - processPackages [decoratory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoratory-0.1.5.6.tar.gz tmp/decoratory-0.9.0.6.tar.gz --markdown 20230623/d/decoratory/0.1.5.6-0.9.0.6/diff.md --exclude *.pyd
+[2023-06-23 09:13:59] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-06-23 09:13:59] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.6.9.tar.gz tmp/snk-0.7.0.tar.gz --markdown 20230623/s/snk/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-06-23 09:13:59] INFO root fetch - processPackages [cognica]: executing diffoscope
+[2023-06-23 09:13:59] INFO root fetch - processPackages [cognica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognica-0.1.8.tar.gz tmp/cognica-0.1.9.tar.gz --markdown 20230623/c/cognica/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 09:13:59] INFO root fetch - processPackages [webscrapex]: executing diffoscope
+[2023-06-23 09:13:59] INFO root fetch - processPackages [webscrapex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapex-0.0.7.tar.gz tmp/webscrapex-0.0.8.tar.gz --markdown 20230623/w/webscrapex/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-23 09:14:00] INFO root fetch - processPackages [open-space-toolkit-core]: executing diffoscope
+[2023-06-23 09:14:00] INFO root fetch - processPackages [open-space-toolkit-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_core-0.7.1-py39-none-any.whl.zip tmp/open_space_toolkit_core-0.7.2-py39-none-any.whl.zip --markdown 20230623/o/open-space-toolkit-core/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-23 09:14:01] INFO root fetch - processPackages [webscrapex]: Remove: archive file [/home/abi/fetcher/tmp/webscrapex-0.0.7.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - processPackages [webscrapex]: Remove: archive file [/home/abi/fetcher/tmp/webscrapex-0.0.8.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - main [MainThread]: End processing [webscrapex]: success
+[2023-06-23 09:14:01] INFO root fetch - processPackages [mse-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli_core-0.1a6.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - processPackages [mse-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli_core-0.1a7.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - main [MainThread]: End processing [mse-cli-core]: success
+[2023-06-23 09:14:01] INFO root fetch - processPackages [cognica]: Remove: archive file [/home/abi/fetcher/tmp/cognica-0.1.8.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - processPackages [cognica]: Remove: archive file [/home/abi/fetcher/tmp/cognica-0.1.9.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - main [MainThread]: End processing [cognica]: success
+[2023-06-23 09:14:01] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.1.5.6.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.0.6.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - main [MainThread]: End processing [decoratory]: success
+[2023-06-23 09:14:01] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-23 09:14:01] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.6.9.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.7.0.tar.gz]
+[2023-06-23 09:14:01] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-06-23 09:15:37] INFO root fetch - processPackages [open-space-toolkit-core]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_core-0.7.1-py39-none-any.whl.zip]
+[2023-06-23 09:15:37] INFO root fetch - processPackages [open-space-toolkit-core]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_core-0.7.2-py39-none-any.whl.zip]
+[2023-06-23 09:15:37] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-core]: success
+[2023-06-23 09:15:37] INFO root fetch - main [MainThread]: Store serial: [18614911]
