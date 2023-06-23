@@ -1580,3 +1580,69 @@
 [2023-06-23 01:59:57] INFO root fetch - processPackages [yangsuite]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite-2.9.9-py3-none-any.whl.zip]
 [2023-06-23 01:59:57] INFO root fetch - main [MainThread]: End processing [yangsuite]: success
 [2023-06-23 01:59:57] INFO root fetch - main [MainThread]: Store serial: [18611526]
+[2023-06-23 02:05:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611526]
+[2023-06-23 02:05:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfr-graphem
+[2023-06-23 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wozoxutils
+[2023-06-23 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pathogen-embed
+[2023-06-23 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: faker-file
+[2023-06-23 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdatasets-nightly
+[2023-06-23 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-nightly
+[2023-06-23 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxkern-nightly
+[2023-06-23 02:05:11] INFO root fetch - processPackages [cfr-graphem]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-23 02:05:11] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230622.post403] Old Version: [1.9.0.20230621.post405]
+[2023-06-23 02:05:11] INFO root fetch - processPackages [wozoxutils]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-23 02:05:11] INFO root fetch - processPackages [pathogen-embed]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-23 02:05:11] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-23 02:05:11] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1687392205] Old Version: [1687305796]
+[2023-06-23 02:05:11] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/c6/51/a0e5b0ed6469b0e0de84fe0695c2c60d4e7397c96523f67fd7473192fd44/mct-nightly-1.9.0.20230621.post405.tar.gz
+[2023-06-23 02:05:11] INFO root fetch - processPackages [cfr-graphem]: Downloading https://files.pythonhosted.org/packages/7f/0a/7d73a29f913ac2c45b85f29927e046ede315f87a8a6606a08b0fcd940313/cfr-graphem-0.2.9.tar.gz
+[2023-06-23 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-23 02:05:11] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/3b/a1/ad4ac7b368163a317102172cd45891028d6b068dc096e110814cc517deed/faker-file-0.9.2.tar.gz
+[2023-06-23 02:05:11] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/d8/27/0f8b866710db1419d3ec1399f564803cc44859ad85302a0760b6ecfa2ce6/torchdatasets-nightly-1687305796.tar.gz
+[2023-06-23 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-23 02:05:11] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/98/f9/e7f346ec99bb43c28ff5966de291c387736e8044087a361a172f731dda79/mct-nightly-1.9.0.20230622.post403.tar.gz
+[2023-06-23 02:05:11] INFO root fetch - processPackages [wozoxutils]: Downloading https://files.pythonhosted.org/packages/13/2c/8cea02f6d0eee6589ad104fb9e9e5940dbc3326de734e83f89ca40cdcc86/wozoxutils-0.2.5.tar.gz
+[2023-06-23 02:05:11] INFO root fetch - processPackages [pathogen-embed]: Downloading https://files.pythonhosted.org/packages/d3/f3/d55947bf10e50abe2c9dfdc7952b8a24522561d1734eb31b5e25b19aae41/pathogen-embed-0.1.0.tar.gz
+[2023-06-23 02:05:11] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/91/2c/08a72a0cb6b8f0b657b334700bce122299a7f1c0d94c1e201959121ee226/faker-file-0.9.3.tar.gz
+[2023-06-23 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-23 02:05:12] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-23 02:05:12] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230621.post405.tar.gz tmp/mct-nightly-1.9.0.20230622.post403.tar.gz --markdown 20230623/m/mct-nightly/1.9.0.20230621.post405-1.9.0.20230622.post403/diff.md --exclude *.pyd
+[2023-06-23 02:05:12] INFO root fetch - processPackages [cfr-graphem]: Downloading https://files.pythonhosted.org/packages/b3/18/2632b0eda282c7940cc67a5f60e4cbc4ef104813e69290d3e7a6a393e253/cfr-graphem-0.3.0.tar.gz
+[2023-06-23 02:05:12] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-06-23 02:05:12] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230623/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-23 02:05:12] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/f4/6c/6d5dafde97867afe5f0f9b6fdba1cba19cb0f17d248bceca138deadf3b45/torchdatasets-nightly-1687392205.tar.gz
+[2023-06-23 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-23 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230623/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-23 02:05:12] INFO root fetch - processPackages [cfr-graphem]: executing diffoscope
+[2023-06-23 02:05:12] INFO root fetch - processPackages [cfr-graphem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-graphem-0.2.9.tar.gz tmp/cfr-graphem-0.3.0.tar.gz --markdown 20230623/c/cfr-graphem/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 02:05:12] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-23 02:05:12] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1687305796.tar.gz tmp/torchdatasets-nightly-1687392205.tar.gz --markdown 20230623/t/torchdatasets-nightly/1687305796-1687392205/diff.md --exclude *.pyd
+[2023-06-23 02:05:12] INFO root fetch - processPackages [pathogen-embed]: Downloading https://files.pythonhosted.org/packages/45/54/94cbdf0c8f92388a8c099e4bb15ff4f4eb507ebeae57062137eb92013911/pathogen-embed-0.1.1.tar.gz
+[2023-06-23 02:05:12] INFO root fetch - processPackages [wozoxutils]: Downloading https://files.pythonhosted.org/packages/2d/80/045056535ba91155bb43d8c223dffa99d30936bd2f75e9c216a7cb161fe8/wozoxutils-0.2.6.tar.gz
+[2023-06-23 02:05:12] INFO root fetch - processPackages [pathogen-embed]: executing diffoscope
+[2023-06-23 02:05:12] INFO root fetch - processPackages [pathogen-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathogen-embed-0.1.0.tar.gz tmp/pathogen-embed-0.1.1.tar.gz --markdown 20230623/p/pathogen-embed/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-23 02:05:12] INFO root fetch - processPackages [wozoxutils]: executing diffoscope
+[2023-06-23 02:05:12] INFO root fetch - processPackages [wozoxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wozoxutils-0.2.5.tar.gz tmp/wozoxutils-0.2.6.tar.gz --markdown 20230623/w/wozoxutils/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-23 02:05:13] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-23 02:05:13] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-23 02:05:13] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-23 02:05:13] INFO root fetch - processPackages [cfr-graphem]: Remove: archive file [/home/abi/fetcher/tmp/cfr-graphem-0.2.9.tar.gz]
+[2023-06-23 02:05:13] INFO root fetch - processPackages [cfr-graphem]: Remove: archive file [/home/abi/fetcher/tmp/cfr-graphem-0.3.0.tar.gz]
+[2023-06-23 02:05:13] INFO root fetch - main [MainThread]: End processing [cfr-graphem]: success
+[2023-06-23 02:05:13] INFO root fetch - processPackages [pathogen-embed]: Remove: archive file [/home/abi/fetcher/tmp/pathogen-embed-0.1.0.tar.gz]
+[2023-06-23 02:05:13] INFO root fetch - processPackages [pathogen-embed]: Remove: archive file [/home/abi/fetcher/tmp/pathogen-embed-0.1.1.tar.gz]
+[2023-06-23 02:05:13] INFO root fetch - main [MainThread]: End processing [pathogen-embed]: success
+[2023-06-23 02:05:13] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687305796.tar.gz]
+[2023-06-23 02:05:13] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687392205.tar.gz]
+[2023-06-23 02:05:13] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-23 02:05:14] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.2.tar.gz]
+[2023-06-23 02:05:14] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
+[2023-06-23 02:05:14] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-06-23 02:05:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230621.post405.tar.gz]
+[2023-06-23 02:05:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230622.post403.tar.gz]
+[2023-06-23 02:05:16] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-23 02:06:06] INFO root fetch - processPackages [wozoxutils]: Remove: archive file [/home/abi/fetcher/tmp/wozoxutils-0.2.5.tar.gz]
+[2023-06-23 02:06:06] INFO root fetch - processPackages [wozoxutils]: Remove: archive file [/home/abi/fetcher/tmp/wozoxutils-0.2.6.tar.gz]
+[2023-06-23 02:06:06] INFO root fetch - main [MainThread]: End processing [wozoxutils]: success
+[2023-06-23 02:06:06] INFO root fetch - main [MainThread]: Store serial: [18611547]
