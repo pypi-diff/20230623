@@ -8035,3 +8035,45 @@
 [2023-06-23 05:38:57] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.2.1.tar.gz]
 [2023-06-23 05:38:57] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-06-23 05:38:57] INFO root fetch - main [MainThread]: Store serial: [18613856]
+[2023-06-23 05:44:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613856]
+[2023-06-23 05:44:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 05:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-account
+[2023-06-23 05:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmlibs.zinc
+[2023-06-23 05:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jchanTest
+[2023-06-23 05:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: captif-cpx-db
+[2023-06-23 05:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-function-call
+[2023-06-23 05:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo8-addon-l10n-fr-fec
+[2023-06-23 05:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easytello-sync
+[2023-06-23 05:44:06] WARNING root fetch - processPackages [jchanTest]: Skipping, unable to determine old version
+[2023-06-23 05:44:06] INFO root fetch - main [MainThread]: End processing [jchanTest] error
+[2023-06-23 05:44:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.7.1.3.dev1] Old Version: [14.0.7.1.2]
+[2023-06-23 05:44:06] INFO root fetch - processPackages [captif-cpx-db]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 05:44:06] WARNING root fetch - processPackages [easytello-sync]: Skipping, unable to determine old version
+[2023-06-23 05:44:06] INFO root fetch - main [MainThread]: End processing [easytello-sync] error
+[2023-06-23 05:44:06] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: New version: [8.0.0.2.0.99.dev9] Old Version: [8.0.0.2.0.99.dev8]
+[2023-06-23 05:44:06] WARNING root fetch - processPackages [openai-function-call]: Skipping, unable to determine old version
+[2023-06-23 05:44:06] INFO root fetch - main [MainThread]: End processing [openai-function-call] error
+[2023-06-23 05:44:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/a0/13/df147b41f0e43a75ed6f1b120eb43c2df64bc731cd262cdded657b107174/odoo14_addon_l10n_br_account-14.0.7.1.2-py3-none-any.whl
+[2023-06-23 05:44:06] WARNING root fetch - processPackages [cmlibs.zinc]: Skipping, unable to determine old version
+[2023-06-23 05:44:06] INFO root fetch - main [MainThread]: End processing [cmlibs.zinc] error
+[2023-06-23 05:44:06] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/56/75/520a4f343869032bde441c1e003f04318f43c9e63f8fbc876f5cb3f83289/captif_cpx_db-0.8.tar.gz
+[2023-06-23 05:44:06] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: Downloading https://files.pythonhosted.org/packages/42/b6/d80c555e610a6da6335d4efc85211c5324460f2d6a8014103db6d4e038cd/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev8-py2-none-any.whl
+[2023-06-23 05:44:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/b0/ff/24ac5fe4fb54a56ff7bd271d72635e46258945e67c12eb0c75c8b0ebde04/odoo14_addon_l10n_br_account-14.0.7.1.3.dev1-py3-none-any.whl
+[2023-06-23 05:44:06] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/13/2d/bfd1ce82d1877d5c33ba5d16cc355203b48146e1b37fc019560379c8f923/captif_cpx_db-0.9.tar.gz
+[2023-06-23 05:44:06] INFO root fetch - processPackages [captif-cpx-db]: executing diffoscope
+[2023-06-23 05:44:06] INFO root fetch - processPackages [captif-cpx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_db-0.8.tar.gz tmp/captif_cpx_db-0.9.tar.gz --markdown 20230623/c/captif-cpx-db/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-23 05:44:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-06-23 05:44:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.7.1.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.7.1.3.dev1-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addon-l10n-br-account/14.0.7.1.2-14.0.7.1.3.dev1/diff.md --exclude *.pyd
+[2023-06-23 05:44:06] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: Downloading https://files.pythonhosted.org/packages/88/19/8f7729abf853dce88a015531635820a4a5e493205b01cb21123eccf57824/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev9-py2-none-any.whl
+[2023-06-23 05:44:07] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: executing diffoscope
+[2023-06-23 05:44:07] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230623/o/odoo8-addon-l10n-fr-fec/8.0.0.2.0.99.dev8-8.0.0.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-23 05:44:07] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.8.tar.gz]
+[2023-06-23 05:44:07] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.9.tar.gz]
+[2023-06-23 05:44:07] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
+[2023-06-23 05:44:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.1.2-py3-none-any.whl.zip]
+[2023-06-23 05:44:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.1.3.dev1-py3-none-any.whl.zip]
+[2023-06-23 05:44:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-06-23 05:44:09] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-23 05:44:09] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-23 05:44:09] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-fr-fec]: success
+[2023-06-23 05:44:09] INFO root fetch - main [MainThread]: Store serial: [18613883]
