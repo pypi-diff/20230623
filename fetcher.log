@@ -14557,3 +14557,118 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 12:08:14] INFO root fetch - processPackages [omero-iviewer]: Remove: archive file [/home/abi/fetcher/tmp/omero-iviewer-0.9.1.tar.gz]
 [2023-06-23 12:08:14] INFO root fetch - main [MainThread]: End processing [omero-iviewer]: success
 [2023-06-23 12:08:14] INFO root fetch - main [MainThread]: Store serial: [18616394]
+[2023-06-23 12:13:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616394]
+[2023-06-23 12:13:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-access-sdk
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up-esb
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JustScan
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-ocgbot-v2
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-cpu-aws
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nmma
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lollms
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dm-reverb-nightly
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kiara-plugin.streamlit
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parsita
+[2023-06-23 12:13:24] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [kiara-plugin.streamlit]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [up-esb]: New version: [0.0.136] Old Version: [0.0.134]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [nmma]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230623] Old Version: [2.14.0.dev20230622]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [parsita]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [up-esb]: Downloading https://files.pythonhosted.org/packages/88/50/ad3c8fc6656ec8f561eebd394141d4527bfb58df1799bb46102da976fe57/up_esb-0.0.134.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/3d/1c/aa6f22d487f4b303cbb64d3cabee8d6b83099f0381e978093701d8eaac27/tf_nightly_cpu_aws-2.14.0.dev20230622-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-23 12:13:24] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-23 12:13:24] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-23 12:13:24] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-23 12:13:24] INFO root fetch - processPackages [lollms]: Start processing: ansible-workspace
+[2023-06-23 12:13:24] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-23 12:13:24] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/38/f1/82d813223579337cfc13eca0281e638aab74305e70b9bb29e6707a52ecf8/parsita-2.0.0b1.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Downloading https://files.pythonhosted.org/packages/00/16/03925339c81945ce36c63513d2437b4cd2d0c38f181221832246b57a258b/nonebot_plugin_ocgbot_v2-0.1.3.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ansible-workspace]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-23 12:13:24] WARNING root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Skipping package: exceeds size limit 51954409>=10485760
+[2023-06-23 12:13:24] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Start processing: ansible-workspace
+[2023-06-23 12:13:24] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ocgbot-v2] error
+[2023-06-23 12:13:24] INFO root fetch - processPackages [kiara-plugin.streamlit]: Downloading https://files.pythonhosted.org/packages/7f/cf/2e6b9130caec719480c107186ce92ea25c9c75149a4f34685cd4889da6d0/kiara_plugin.streamlit-0.4.1.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ansible-workspace]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ansible-workspace]: Downloading https://files.pythonhosted.org/packages/b3/e0/1247b955e1c7cf41d783359f51566f5f0062e555723b35e6ea2446a8e83f/ansible_workspace-1.0.6.tar.gz
+[2023-06-23 12:13:24] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 262146350>=10485760
+[2023-06-23 12:13:24] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [nmma]: Downloading https://files.pythonhosted.org/packages/f2/94/e01c3150b9a1fe4ae8938894e51f0aba089c3e5fc00736f14fe846c674d3/nmma-0.0.8.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: pyuff-ustb
+[2023-06-23 12:13:24] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-06-23 12:13:24] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [pyuff-ustb]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ansible-workspace]: Downloading https://files.pythonhosted.org/packages/b3/e0/1247b955e1c7cf41d783359f51566f5f0062e555723b35e6ea2446a8e83f/ansible_workspace-1.0.6.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-23 12:13:24] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230623/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-23 12:13:24] INFO root fetch - processPackages [pyuff-ustb]: Downloading https://files.pythonhosted.org/packages/03/3d/2a4c7580a8ab90ba23b2e2de5780e80df7446b295e8d46f8d17e326ab909/pyuff_ustb-2.0.1.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/da/ae/333200f57f0fa394ea6be80269ec9ebc42438aa38e245e9b4983c2c87cc6/parsita-2.0.0b2.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [up-esb]: Downloading https://files.pythonhosted.org/packages/1f/37/8d264ef7759857c561653302f08f747d3bcce70b6abe10d4facd0cc1cf0a/up_esb-0.0.136.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [parsita]: executing diffoscope
+[2023-06-23 12:13:24] INFO root fetch - processPackages [parsita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsita-2.0.0b1.tar.gz tmp/parsita-2.0.0b2.tar.gz --markdown 20230623/p/parsita/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-06-23 12:13:24] INFO root fetch - processPackages [up-esb]: executing diffoscope
+[2023-06-23 12:13:24] INFO root fetch - processPackages [up-esb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_esb-0.0.134.tar.gz tmp/up_esb-0.0.136.tar.gz --markdown 20230623/u/up-esb/0.0.134-0.0.136/diff.md --exclude *.pyd
+[2023-06-23 12:13:24] INFO root fetch - processPackages [kiara-plugin.streamlit]: Downloading https://files.pythonhosted.org/packages/5c/4f/3a260979f0ecdf68de359868d898021d2e67ce8119c6a0f6c02411d676fb/kiara_plugin.streamlit-0.4.2.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ansible-workspace]: Downloading https://files.pythonhosted.org/packages/71/89/de4d44c8438bd71dbd126169f31f14292a3a0495175e234c48954b474746/ansible_workspace-1.0.7.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ansible-workspace]: Downloading https://files.pythonhosted.org/packages/71/89/de4d44c8438bd71dbd126169f31f14292a3a0495175e234c48954b474746/ansible_workspace-1.0.7.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ansible-workspace]: executing diffoscope
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ansible-workspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_workspace-1.0.6.tar.gz tmp/ansible_workspace-1.0.7.tar.gz --markdown 20230623/a/ansible-workspace/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-23 12:13:24] INFO root fetch - processPackages [kiara-plugin.streamlit]: executing diffoscope
+[2023-06-23 12:13:24] INFO root fetch - processPackages [kiara-plugin.streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.streamlit-0.4.1.tar.gz tmp/kiara_plugin.streamlit-0.4.2.tar.gz --markdown 20230623/k/kiara-plugin.streamlit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ansible-workspace]: executing diffoscope
+[2023-06-23 12:13:24] INFO root fetch - processPackages [ansible-workspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_workspace-1.0.6.tar.gz tmp/ansible_workspace-1.0.7.tar.gz --markdown 20230623/a/ansible-workspace/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-23 12:13:24] INFO root fetch - processPackages [pyuff-ustb]: Downloading https://files.pythonhosted.org/packages/0f/9c/5e53a290d842acee51e81532eda2d426c52efb8e268fdd6be7913fd3ed0b/pyuff_ustb-2.0.2.tar.gz
+[2023-06-23 12:13:24] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-23 12:13:24] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230623/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-23 12:13:24] INFO root fetch - processPackages [pyuff-ustb]: executing diffoscope
+[2023-06-23 12:13:24] INFO root fetch - processPackages [pyuff-ustb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuff_ustb-2.0.1.tar.gz tmp/pyuff_ustb-2.0.2.tar.gz --markdown 20230623/p/pyuff-ustb/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-23 12:13:26] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-2.0.0b1.tar.gz]
+[2023-06-23 12:13:26] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-2.0.0b2.tar.gz]
+[2023-06-23 12:13:26] INFO root fetch - processPackages [parsita]: Start processing: jupyter-client
+[2023-06-23 12:13:26] INFO root fetch - main [MainThread]: End processing [parsita]: success
+[2023-06-23 12:13:26] INFO root fetch - processPackages [jupyter-client]: New version: [8.3.0] Old Version: [8.2.0]
+[2023-06-23 12:13:26] INFO root fetch - processPackages [jupyter-client]: Downloading https://files.pythonhosted.org/packages/95/81/e9d897aa0f8ae679da86fab982900f5e40c37ebd81b04a3e88f26a201517/jupyter_client-8.2.0.tar.gz
+[2023-06-23 12:13:26] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-23 12:13:26] INFO root fetch - processPackages [ansible-workspace]: Remove: archive file [/home/abi/fetcher/tmp/ansible_workspace-1.0.6.tar.gz]
+[2023-06-23 12:13:26] INFO root fetch - processPackages [ansible-workspace]: Remove: archive file [/home/abi/fetcher/tmp/ansible_workspace-1.0.7.tar.gz]
+[2023-06-23 12:13:26] INFO root fetch - main [MainThread]: End processing [ansible-workspace]: success
+[2023-06-23 12:13:26] INFO root fetch - main [MainThread]: End processing [ansible-workspace]: success
+[2023-06-23 12:13:26] INFO root fetch - processPackages [jupyter-client]: Downloading https://files.pythonhosted.org/packages/f9/bb/454464291217af5dc1d0dfc636f7f6b68227758319dad5f64b341ffd54f5/jupyter_client-8.3.0.tar.gz
+[2023-06-23 12:13:26] INFO root fetch - processPackages [jupyter-client]: executing diffoscope
+[2023-06-23 12:13:26] INFO root fetch - processPackages [jupyter-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_client-8.2.0.tar.gz tmp/jupyter_client-8.3.0.tar.gz --markdown 20230623/j/jupyter-client/8.2.0-8.3.0/diff.md --exclude *.pyd
+[2023-06-23 12:13:26] INFO root fetch - processPackages [pyuff-ustb]: Remove: archive file [/home/abi/fetcher/tmp/pyuff_ustb-2.0.1.tar.gz]
+[2023-06-23 12:13:26] INFO root fetch - processPackages [pyuff-ustb]: Remove: archive file [/home/abi/fetcher/tmp/pyuff_ustb-2.0.2.tar.gz]
+[2023-06-23 12:13:26] INFO root fetch - main [MainThread]: End processing [pyuff-ustb]: success
+[2023-06-23 12:13:26] INFO root fetch - processPackages [up-esb]: Remove: archive file [/home/abi/fetcher/tmp/up_esb-0.0.134.tar.gz]
+[2023-06-23 12:13:26] INFO root fetch - processPackages [up-esb]: Remove: archive file [/home/abi/fetcher/tmp/up_esb-0.0.136.tar.gz]
+[2023-06-23 12:13:26] INFO root fetch - main [MainThread]: End processing [up-esb]: success
+[2023-06-23 12:13:27] INFO root fetch - processPackages [kiara-plugin.streamlit]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.streamlit-0.4.1.tar.gz]
+[2023-06-23 12:13:27] INFO root fetch - processPackages [kiara-plugin.streamlit]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.streamlit-0.4.2.tar.gz]
+[2023-06-23 12:13:27] INFO root fetch - main [MainThread]: End processing [kiara-plugin.streamlit]: success
+[2023-06-23 12:13:27] INFO root fetch - processPackages [nmma]: Downloading https://files.pythonhosted.org/packages/00/70/05561af5dadf020542dc2e2f5108c81dcd2790d9427cbf8ae4dbc1654bb3/nmma-0.0.9.tar.gz
+[2023-06-23 12:13:27] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-23 12:13:27] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-23 12:13:27] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-23 12:13:28] INFO root fetch - processPackages [nmma]: executing diffoscope
+[2023-06-23 12:13:28] INFO root fetch - processPackages [nmma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmma-0.0.8.tar.gz tmp/nmma-0.0.9.tar.gz --markdown 20230623/n/nmma/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 12:13:28] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-23 12:13:28] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230623/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-23 12:13:28] INFO root fetch - processPackages [jupyter-client]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_client-8.2.0.tar.gz]
+[2023-06-23 12:13:28] INFO root fetch - processPackages [jupyter-client]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_client-8.3.0.tar.gz]
+[2023-06-23 12:13:28] INFO root fetch - main [MainThread]: End processing [jupyter-client]: success
+[2023-06-23 12:13:28] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-23 12:13:28] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-23 12:13:28] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-23 12:13:31] INFO root fetch - processPackages [nmma]: Remove: archive file [/home/abi/fetcher/tmp/nmma-0.0.8.tar.gz]
+[2023-06-23 12:13:31] INFO root fetch - processPackages [nmma]: Remove: archive file [/home/abi/fetcher/tmp/nmma-0.0.9.tar.gz]
+[2023-06-23 12:13:31] INFO root fetch - main [MainThread]: End processing [nmma]: success
+[2023-06-23 12:14:21] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-23 12:14:21] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-23 12:14:21] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-23 12:14:21] INFO root fetch - main [MainThread]: Store serial: [18616435]
