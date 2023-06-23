@@ -8943,3 +8943,99 @@
 [2023-06-23 06:57:52] INFO root fetch - processPackages [my-latest-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/my-latest-hello-world-0.0.6.tar.gz]
 [2023-06-23 06:57:52] INFO root fetch - main [MainThread]: End processing [my-latest-hello-world]: success
 [2023-06-23 06:57:52] INFO root fetch - main [MainThread]: Store serial: [18614201]
+[2023-06-23 07:02:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614201]
+[2023-06-23 07:03:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-23 07:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-sale-payment-sheet
+[2023-06-23 07:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpubs
+[2023-06-23 07:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-sale-order-warn-message
+[2023-06-23 07:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viqi-api
+[2023-06-23 07:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-stock-cancel-restriction
+[2023-06-23 07:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addons-oca-sale-workflow
+[2023-06-23 07:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-sale-workflow
+[2023-06-23 07:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-al
+[2023-06-23 07:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spider-st
+[2023-06-23 07:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: re2shield
+[2023-06-23 07:03:00] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.9] Old Version: [0.6.4.8]
+[2023-06-23 07:03:00] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: New version: [13.0.1.3.1.dev1] Old Version: [13.0.1.3.0]
+[2023-06-23 07:03:00] WARNING root fetch - processPackages [gpubs]: Skipping, unable to determine old version
+[2023-06-23 07:03:00] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-23 07:03:00] INFO root fetch - processPackages [gpubs]: Start processing: flict
+[2023-06-23 07:03:00] INFO root fetch - main [MainThread]: End processing [gpubs] error
+[2023-06-23 07:03:00] INFO root fetch - processPackages [odoo14-addon-sale-order-warn-message]: New version: [14.0.1.1.1.dev6] Old Version: [14.0.1.1.1.dev4]
+[2023-06-23 07:03:00] INFO root fetch - processPackages [re2shield]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-23 07:03:00] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230622.0] Old Version: [16.0.20230619.0]
+[2023-06-23 07:03:00] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-23 07:03:00] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 07:03:00] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: New version: [14.0.20230622.0] Old Version: [14.0.20230616.0]
+[2023-06-23 07:03:00] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/e5/5f/b56431a6be5e20d88d8bb1ef0b91dca198edeb832ae4d23991bc2ad1cfac/nonebot_plugin_al-0.3.5.tar.gz
+[2023-06-23 07:03:00] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/10/aa/338a064eaea9531acf3e2621988255168238865a2d8d2381e42d381e8f4f/re2shield-0.1.7.tar.gz
+[2023-06-23 07:03:00] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-23 07:03:01] INFO root fetch - processPackages [flict]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: Downloading https://files.pythonhosted.org/packages/d9/33/ceeaf9367d49bf31ac5d63b86efb0fa75cd9354264559ca63879e6955998/odoo_addon_sale_stock_cancel_restriction-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/66/0e/f83992b00f99a63e08615e86c74eadb6338a741c69240b2bce9a985d060a/viqi_api-0.6.4.8-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: Downloading https://files.pythonhosted.org/packages/00/27/c28eaae37d718f8c0f3854a1aedb13876a3a5fd9c009c4513c316465630a/odoo13_addon_sale_payment_sheet-13.0.1.3.0-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/a3/17/85cfe8b233301d296cf229bc6a93e8ff672ceb30b5d7e2f130d458647e1e/odoo_addons_oca_sale_workflow-16.0.20230619.0-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo14-addon-sale-order-warn-message]: Downloading https://files.pythonhosted.org/packages/6a/1a/497ee7c4bf12d5ad3031f594d8f2691c719fef50168a93825f7e7b139318/odoo14_addon_sale_order_warn_message-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/ea/0c/8da39a5042fb83636c651c50d54f109426e2ca4e8e1448d46355754eda82/odoo14_addons_oca_sale_workflow-14.0.20230616.0-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/b5/63/77981138343e2255d038e7063a5eafc8e5deebffa13f03f35d975473a921/nonebot_plugin_al-0.3.6.tar.gz
+[2023-06-23 07:03:01] INFO root fetch - processPackages [flict]: Downloading https://files.pythonhosted.org/packages/a1/e5/0694ad804351c6689a182224765c48daee4502bf60069903021b481f5099/flict-1.0.8.tar.gz
+[2023-06-23 07:03:01] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/fc/3d/a75089a5171e5414cfa25c018737a9262f2124f1b0afc18540df179661f6/re2shield-0.1.8.tar.gz
+[2023-06-23 07:03:01] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-23 07:03:01] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-23 07:03:01] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.3.5.tar.gz tmp/nonebot_plugin_al-0.3.6.tar.gz --markdown 20230623/n/nonebot-plugin-al/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: Downloading https://files.pythonhosted.org/packages/07/df/f6bbed0ac9b75f3297c1a62d538f0fd764a065dcce08b25f61fccee6593b/odoo_addon_sale_stock_cancel_restriction-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [re2shield]: executing diffoscope
+[2023-06-23 07:03:01] INFO root fetch - processPackages [re2shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re2shield-0.1.7.tar.gz tmp/re2shield-0.1.8.tar.gz --markdown 20230623/r/re2shield/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/d0/06/c35dd9b81ea4c4b95473bd72c6444d5af6415b299408901145f368bbe8a9/odoo14_addons_oca_sale_workflow-14.0.20230622.0-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/6c/0f/3dcf9a7ce518df252a2411f1feb47440843be3045d44244d342fb92eb49a/odoo_addons_oca_sale_workflow-16.0.20230622.0-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: Downloading https://files.pythonhosted.org/packages/f2/6b/6ddb4d1bc28b1bfd20a2bd13f6f09d05834a6e58df8a1410f6502c030fe5/odoo13_addon_sale_payment_sheet-13.0.1.3.1.dev1-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: executing diffoscope
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_stock_cancel_restriction-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_stock_cancel_restriction-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-sale-stock-cancel-restriction/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo14-addon-sale-order-warn-message]: Downloading https://files.pythonhosted.org/packages/07/4d/c08779425a077965011e1eb188ad01eb9ead3c63ab7bc3be9852357c8374/odoo14_addon_sale_order_warn_message-14.0.1.1.1.dev6-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-23 07:03:01] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230623/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 07:03:01] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e9/5c/44c9cdd455eadd370d8ec9e177faee8af6887be8f78f33d89a2ae15bcc14/viqi_api-0.6.4.9-py3-none-any.whl
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: executing diffoscope
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_sale_workflow-14.0.20230616.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_sale_workflow-14.0.20230622.0-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addons-oca-sale-workflow/14.0.20230616.0-14.0.20230622.0/diff.md --exclude *.pyd
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230619.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230622.0-py3-none-any.whl.zip --markdown 20230623/o/odoo-addons-oca-sale-workflow/16.0.20230619.0-16.0.20230622.0/diff.md --exclude *.pyd
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo14-addon-sale-order-warn-message]: executing diffoscope
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo14-addon-sale-order-warn-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_warn_message-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_warn_message-14.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addon-sale-order-warn-message/14.0.1.1.1.dev4-14.0.1.1.1.dev6/diff.md --exclude *.pyd
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: executing diffoscope
+[2023-06-23 07:03:01] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_payment_sheet-13.0.1.3.0-py3-none-any.whl.zip tmp/odoo13_addon_sale_payment_sheet-13.0.1.3.1.dev1-py3-none-any.whl.zip --markdown 20230623/o/odoo13-addon-sale-payment-sheet/13.0.1.3.0-13.0.1.3.1.dev1/diff.md --exclude *.pyd
+[2023-06-23 07:03:01] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2023-06-23 07:03:01] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip --markdown 20230623/v/viqi-api/0.6.4.8-0.6.4.9/diff.md --exclude *.pyd
+[2023-06-23 07:03:01] INFO root fetch - processPackages [flict]: Downloading https://files.pythonhosted.org/packages/01/39/1fc15c57009587cd06f784ad2ff308cdbf28f50e6f9875f13f75eafb0f02/flict-1.0.9.tar.gz
+[2023-06-23 07:03:01] INFO root fetch - processPackages [flict]: executing diffoscope
+[2023-06-23 07:03:01] INFO root fetch - processPackages [flict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flict-1.0.8.tar.gz tmp/flict-1.0.9.tar.gz --markdown 20230623/f/flict/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-23 07:03:02] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.7.tar.gz]
+[2023-06-23 07:03:02] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.8.tar.gz]
+[2023-06-23 07:03:02] INFO root fetch - main [MainThread]: End processing [re2shield]: success
+[2023-06-23 07:03:02] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.5.tar.gz]
+[2023-06-23 07:03:02] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.6.tar.gz]
+[2023-06-23 07:03:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-23 07:03:03] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_sale_workflow-14.0.20230616.0-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_sale_workflow-14.0.20230622.0-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-sale-workflow]: success
+[2023-06-23 07:03:03] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_cancel_restriction-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_cancel_restriction-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-cancel-restriction]: success
+[2023-06-23 07:03:03] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230619.0-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230622.0-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-06-23 07:03:03] INFO root fetch - processPackages [odoo14-addon-sale-order-warn-message]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_warn_message-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - processPackages [odoo14-addon-sale-order-warn-message]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_warn_message-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-warn-message]: success
+[2023-06-23 07:03:03] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2023-06-23 07:03:03] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_payment_sheet-13.0.1.3.0-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - processPackages [odoo13-addon-sale-payment-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_payment_sheet-13.0.1.3.1.dev1-py3-none-any.whl.zip]
+[2023-06-23 07:03:03] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-payment-sheet]: success
+[2023-06-23 07:03:04] INFO root fetch - processPackages [flict]: Remove: archive file [/home/abi/fetcher/tmp/flict-1.0.8.tar.gz]
+[2023-06-23 07:03:04] INFO root fetch - processPackages [flict]: Remove: archive file [/home/abi/fetcher/tmp/flict-1.0.9.tar.gz]
+[2023-06-23 07:03:04] INFO root fetch - main [MainThread]: End processing [flict]: success
+[2023-06-23 07:03:15] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-23 07:03:15] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-23 07:03:15] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-23 07:03:15] INFO root fetch - main [MainThread]: Store serial: [18614229]
