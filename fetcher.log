@@ -16558,3 +16558,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 13:40:15] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b0.tar.gz]
 [2023-06-23 13:40:15] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
 [2023-06-23 13:40:15] INFO root fetch - main [MainThread]: Store serial: [18617348]
+[2023-06-23 13:45:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617348]
+[2023-06-23 13:45:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaml-config-builder
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyre-check-nightly
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atproto
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libsonata
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aligned
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NearBeach
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramodels
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-serve
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grpcrest
+[2023-06-23 13:45:24] WARNING root fetch - processPackages [grpcrest]: Skipping, unable to determine old version
+[2023-06-23 13:45:24] INFO root fetch - processPackages [grpcrest]: Start processing: better-web3
+[2023-06-23 13:45:24] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-23 13:45:24] INFO root fetch - processPackages [atproto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 13:45:24] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101687432292] Old Version: [0.0.101687345960]
+[2023-06-23 13:45:24] INFO root fetch - processPackages [libsonata]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 13:45:24] INFO root fetch - processPackages [yaml-config-builder]: New version: [8.1.1] Old Version: [8.1.0]
+[2023-06-23 13:45:24] INFO root fetch - processPackages [NearBeach]: New version: [0.30.0rc1] Old Version: [0.29.8]
+[2023-06-23 13:45:24] INFO root fetch - processPackages [aligned]: New version: [0.0.9a0] Old Version: [0.0.9]
+[2023-06-23 13:45:24] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 13:45:24] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-23 13:45:24] INFO root fetch - processPackages [aligned]: Downloading https://files.pythonhosted.org/packages/e2/1a/5b0451950c50b76d365bf4d6df17cd620d1527d27ab5a0ff90f01b829d86/aligned-0.0.9.tar.gz
+[2023-06-23 13:45:24] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 13:45:24] INFO root fetch - processPackages [better-web3]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-23 13:45:24] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/58/b2/d6d835fc24010742853376c3d9c7adaf84122a911cbe1be321e9fa70d896/pyre-check-nightly-0.0.101687345960.tar.gz
+[2023-06-23 13:45:24] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/8b/8e/93e711225941e4171bed9db62b3eca9f2d3459202a02e8995cbc358e6a6a/NearBeach-0.29.8.tar.gz
+[2023-06-23 13:45:24] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23511835>=10485760
+[2023-06-23 13:45:24] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-23 13:45:24] INFO root fetch - processPackages [libsonata]: Downloading https://files.pythonhosted.org/packages/b8/ae/3cfce7392d868bd3230ead7aa290c3e20cd5ed77bcf47c80e66ec5c1d901/libsonata-0.1.8.tar.gz
+[2023-06-23 13:45:24] INFO root fetch - processPackages [yaml-config-builder]: Downloading https://files.pythonhosted.org/packages/f2/7a/852538ac124650d4f2d53cd1b96bde08d9367fb12114cc8e1a04bf1d4683/yaml_config_builder-8.1.0.tar.gz
+[2023-06-23 13:45:24] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 13975511>=10485760
+[2023-06-23 13:45:24] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2023-06-23 13:45:24] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/41/b1/8fd5cf9bb765a6bab94fe28a2c42c4f7961bca68115339fa301a2551b814/atproto-0.0.8.tar.gz
+[2023-06-23 13:45:24] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-23 13:45:24] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-23 13:45:24] INFO root fetch - processPackages [aligned]: Downloading https://files.pythonhosted.org/packages/80/76/56f2f101a999db7508a16452e09b1eb914b98582072a7b0a24058d97c906/aligned-0.0.9a0.tar.gz
+[2023-06-23 13:45:24] INFO root fetch - processPackages [better-web3]: Downloading https://files.pythonhosted.org/packages/85/7d/602e2c436c7f0b77f293ac11e9f8c189d60a0e4e14e39ef5681bccba0c47/better_web3-1.0.0.tar.gz
+[2023-06-23 13:45:25] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 13:45:25] INFO root fetch - processPackages [aligned]: executing diffoscope
+[2023-06-23 13:45:25] INFO root fetch - processPackages [aligned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligned-0.0.9.tar.gz tmp/aligned-0.0.9a0.tar.gz --markdown 20230623/a/aligned/0.0.9-0.0.9a0/diff.md --exclude *.pyd
+[2023-06-23 13:45:25] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 13:45:25] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 13:45:25] INFO root fetch - processPackages [yaml-config-builder]: Downloading https://files.pythonhosted.org/packages/98/26/0e68f381fff7742cd094318fa270271132f0b9059593462bda3c2f93cc43/yaml_config_builder-8.1.1.tar.gz
+[2023-06-23 13:45:25] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-23 13:45:25] INFO root fetch - processPackages [better-web3]: Downloading https://files.pythonhosted.org/packages/e3/6f/9e4bccae804020a07c6cad3753325f40d356589a9b41a8c1570eb767a69a/better_web3-1.1.0.tar.gz
+[2023-06-23 13:45:25] INFO root fetch - processPackages [yaml-config-builder]: executing diffoscope
+[2023-06-23 13:45:25] INFO root fetch - processPackages [yaml-config-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml_config_builder-8.1.0.tar.gz tmp/yaml_config_builder-8.1.1.tar.gz --markdown 20230623/y/yaml-config-builder/8.1.0-8.1.1/diff.md --exclude *.pyd
+[2023-06-23 13:45:25] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-23 13:45:25] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/77/1e/7dc305471e00c4c47363abdd5b249d56887681dfb22aa19f38866d6e7506/atproto-0.0.9.tar.gz
+[2023-06-23 13:45:25] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-23 13:45:25] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230623/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-23 13:45:25] INFO root fetch - processPackages [libsonata]: Downloading https://files.pythonhosted.org/packages/7a/c3/24ccfb78d07a142d919d9aaa0d7e45892d75ba0fdcb4a07d79b6160700e0/libsonata-0.1.9.tar.gz
+[2023-06-23 13:45:25] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-23 13:45:25] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230623/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-23 13:45:25] INFO root fetch - processPackages [better-web3]: executing diffoscope
+[2023-06-23 13:45:25] INFO root fetch - processPackages [better-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_web3-1.0.0.tar.gz tmp/better_web3-1.1.0.tar.gz --markdown 20230623/b/better-web3/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 13:45:25] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-06-23 13:45:25] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.8.tar.gz tmp/atproto-0.0.9.tar.gz --markdown 20230623/a/atproto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 13:45:25] INFO root fetch - processPackages [libsonata]: executing diffoscope
+[2023-06-23 13:45:25] INFO root fetch - processPackages [libsonata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsonata-0.1.8.tar.gz tmp/libsonata-0.1.9.tar.gz --markdown 20230623/l/libsonata/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 13:45:26] INFO root fetch - processPackages [aligned]: Remove: archive file [/home/abi/fetcher/tmp/aligned-0.0.9.tar.gz]
+[2023-06-23 13:45:26] INFO root fetch - processPackages [aligned]: Remove: archive file [/home/abi/fetcher/tmp/aligned-0.0.9a0.tar.gz]
+[2023-06-23 13:45:26] INFO root fetch - main [MainThread]: End processing [aligned]: success
+[2023-06-23 13:45:26] INFO root fetch - processPackages [yaml-config-builder]: Remove: archive file [/home/abi/fetcher/tmp/yaml_config_builder-8.1.0.tar.gz]
+[2023-06-23 13:45:26] INFO root fetch - processPackages [yaml-config-builder]: Remove: archive file [/home/abi/fetcher/tmp/yaml_config_builder-8.1.1.tar.gz]
+[2023-06-23 13:45:26] INFO root fetch - main [MainThread]: End processing [yaml-config-builder]: success
+[2023-06-23 13:45:27] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-06-23 13:45:27] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-06-23 13:45:27] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-23 13:45:27] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-23 13:45:27] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-23 13:45:27] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-23 13:45:27] INFO root fetch - processPackages [better-web3]: Remove: archive file [/home/abi/fetcher/tmp/better_web3-1.0.0.tar.gz]
+[2023-06-23 13:45:27] INFO root fetch - processPackages [better-web3]: Remove: archive file [/home/abi/fetcher/tmp/better_web3-1.1.0.tar.gz]
+[2023-06-23 13:45:27] INFO root fetch - main [MainThread]: End processing [better-web3]: success
+[2023-06-23 13:45:28] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.8.tar.gz]
+[2023-06-23 13:45:28] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.9.tar.gz]
+[2023-06-23 13:45:28] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-06-23 13:45:28] INFO root fetch - processPackages [libsonata]: Remove: archive file [/home/abi/fetcher/tmp/libsonata-0.1.8.tar.gz]
+[2023-06-23 13:45:28] INFO root fetch - processPackages [libsonata]: Remove: archive file [/home/abi/fetcher/tmp/libsonata-0.1.9.tar.gz]
+[2023-06-23 13:45:28] INFO root fetch - main [MainThread]: End processing [libsonata]: success
+[2023-06-23 13:45:28] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 13:45:28] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 13:45:28] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 13:45:28] INFO root fetch - main [MainThread]: Store serial: [18617390]
