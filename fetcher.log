@@ -10265,3 +10265,72 @@
 [2023-06-23 08:38:55] INFO root fetch - processPackages [buffalo]: Remove: archive file [/home/abi/fetcher/tmp/buffalo-2.0.2rc4.tar.gz]
 [2023-06-23 08:38:55] INFO root fetch - main [MainThread]: End processing [buffalo]: success
 [2023-06-23 08:38:55] INFO root fetch - main [MainThread]: Store serial: [18614739]
+[2023-06-23 08:44:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614739]
+[2023-06-23 08:44:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-23 08:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-ecosystem-dependencies
+[2023-06-23 08:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-ocgbot-v2
+[2023-06-23 08:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-ant-menu
+[2023-06-23 08:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reasoner-validator
+[2023-06-23 08:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamazing
+[2023-06-23 08:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: analysis-runner
+[2023-06-23 08:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jijbench
+[2023-06-23 08:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytorch-pipline
+[2023-06-23 08:44:04] INFO root fetch - processPackages [data-ecosystem-dependencies]: New version: [202306.0.20] Old Version: [202306.0.19]
+[2023-06-23 08:44:04] INFO root fetch - processPackages [analysis-runner]: New version: [2.40.9] Old Version: [2.40.8]
+[2023-06-23 08:44:04] INFO root fetch - processPackages [datamazing]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 08:44:04] WARNING root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Skipping, unable to determine old version
+[2023-06-23 08:44:04] INFO root fetch - processPackages [st-ant-menu]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 08:44:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ocgbot-v2] error
+[2023-06-23 08:44:04] INFO root fetch - processPackages [reasoner-validator]: New version: [3.6.2] Old Version: [3.6.1]
+[2023-06-23 08:44:04] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/92/6b/8afa0ed526e9a5ce1c4380b77862e54f7cd46c06e6d37a4e62950aab8cbc/data_ecosystem_dependencies-202306.0.19.tar.gz
+[2023-06-23 08:44:04] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/00/5e/3df1dc090c5df6e89406368e969852a9521de210ab6049a9cd41d3d29d91/st_ant_menu-0.0.8-py3-none-any.whl
+[2023-06-23 08:44:04] INFO root fetch - processPackages [jijbench]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-06-23 08:44:04] INFO root fetch - processPackages [pytorch-pipline]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-23 08:44:04] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/c4/c9/65137e8457768c15750308a312d7337f3cbd369189c39c47a735768d6216/datamazing-0.0.3.tar.gz
+[2023-06-23 08:44:04] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/44/d2/6adf94ab8300cb5bbe1e22164dab1cd4bd01baee832f2680d25aa9c747f5/reasoner_validator-3.6.1.tar.gz
+[2023-06-23 08:44:05] INFO root fetch - processPackages [analysis-runner]: Downloading https://files.pythonhosted.org/packages/f9/4a/0c806199b6c42799d1e23adcd8a97968122a8972b9d6f43d3bbbc6b8732b/analysis-runner-2.40.8.tar.gz
+[2023-06-23 08:44:05] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/22/9f/3f0ceb91af504dabc9f79bd28b581cb5bad40710265f551fc6d2d9878cc2/pytorch-pipline-0.2.3.tar.gz
+[2023-06-23 08:44:05] INFO root fetch - processPackages [jijbench]: Downloading https://files.pythonhosted.org/packages/e8/4a/cb3d8b8990d01517f38bcae82b0afc9d462148857d3aea685d8c7c88b081/jijbench-0.5.5.tar.gz
+[2023-06-23 08:44:05] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/8d/b8/05b9140865f38d5b42db920bf8ece71bdc9acfc0d6b4b3a6367b72e3c541/st_ant_menu-0.0.9-py3-none-any.whl
+[2023-06-23 08:44:05] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/fa/e5/21ae96776b54449d57b379d45b9cb506bcc6a9fbddcbeb917112799873fe/data_ecosystem_dependencies-202306.0.20.tar.gz
+[2023-06-23 08:44:05] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/22/cb/f4008f488674ef90ae67c3d8c00019d23f4fab957bd4043cc24b474e8f62/reasoner_validator-3.6.2.tar.gz
+[2023-06-23 08:44:05] INFO root fetch - processPackages [analysis-runner]: Downloading https://files.pythonhosted.org/packages/77/94/77252b7b959308c5da3995b15b8ec1524cd222a497d6b507c01751dd2ead/analysis-runner-2.40.9.tar.gz
+[2023-06-23 08:44:05] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/4d/14/803f965ba7381a345e9e7f336b4394f4f07a0512c1a48aa9bb9b8505560c/datamazing-0.0.4.tar.gz
+[2023-06-23 08:44:05] INFO root fetch - processPackages [st-ant-menu]: executing diffoscope
+[2023-06-23 08:44:05] INFO root fetch - processPackages [st-ant-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_ant_menu-0.0.8-py3-none-any.whl.zip tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip --markdown 20230623/s/st-ant-menu/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 08:44:05] INFO root fetch - processPackages [data-ecosystem-dependencies]: executing diffoscope
+[2023-06-23 08:44:05] INFO root fetch - processPackages [data-ecosystem-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_dependencies-202306.0.19.tar.gz tmp/data_ecosystem_dependencies-202306.0.20.tar.gz --markdown 20230623/d/data-ecosystem-dependencies/202306.0.19-202306.0.20/diff.md --exclude *.pyd
+[2023-06-23 08:44:05] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-06-23 08:44:05] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.6.1.tar.gz tmp/reasoner_validator-3.6.2.tar.gz --markdown 20230623/r/reasoner-validator/3.6.1-3.6.2/diff.md --exclude *.pyd
+[2023-06-23 08:44:05] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/85/2c/358bf4cdecb234e16cb802a9d1a5c95610c68ea10e07bae19f8f914fa218/pytorch-pipline-0.2.4.tar.gz
+[2023-06-23 08:44:05] INFO root fetch - processPackages [jijbench]: Downloading https://files.pythonhosted.org/packages/c4/f7/bbec71c0278d12ab3767be0edb5da79aa1070e6ef6d46c1ec8cc164a2bc3/jijbench-0.5.7.tar.gz
+[2023-06-23 08:44:05] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-06-23 08:44:05] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-0.0.3.tar.gz tmp/datamazing-0.0.4.tar.gz --markdown 20230623/d/datamazing/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 08:44:05] INFO root fetch - processPackages [analysis-runner]: executing diffoscope
+[2023-06-23 08:44:05] INFO root fetch - processPackages [analysis-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysis-runner-2.40.8.tar.gz tmp/analysis-runner-2.40.9.tar.gz --markdown 20230623/a/analysis-runner/2.40.8-2.40.9/diff.md --exclude *.pyd
+[2023-06-23 08:44:05] INFO root fetch - processPackages [pytorch-pipline]: executing diffoscope
+[2023-06-23 08:44:05] INFO root fetch - processPackages [pytorch-pipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-pipline-0.2.3.tar.gz tmp/pytorch-pipline-0.2.4.tar.gz --markdown 20230623/p/pytorch-pipline/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-23 08:44:06] INFO root fetch - processPackages [jijbench]: executing diffoscope
+[2023-06-23 08:44:06] INFO root fetch - processPackages [jijbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijbench-0.5.5.tar.gz tmp/jijbench-0.5.7.tar.gz --markdown 20230623/j/jijbench/0.5.5-0.5.7/diff.md --exclude *.pyd
+[2023-06-23 08:44:06] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.19.tar.gz]
+[2023-06-23 08:44:06] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.20.tar.gz]
+[2023-06-23 08:44:06] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
+[2023-06-23 08:44:06] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-0.0.3.tar.gz]
+[2023-06-23 08:44:06] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-0.0.4.tar.gz]
+[2023-06-23 08:44:06] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-06-23 08:44:06] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.2.3.tar.gz]
+[2023-06-23 08:44:06] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.2.4.tar.gz]
+[2023-06-23 08:44:06] INFO root fetch - main [MainThread]: End processing [pytorch-pipline]: success
+[2023-06-23 08:44:06] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.6.1.tar.gz]
+[2023-06-23 08:44:06] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.6.2.tar.gz]
+[2023-06-23 08:44:06] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-06-23 08:44:07] INFO root fetch - processPackages [analysis-runner]: Remove: archive file [/home/abi/fetcher/tmp/analysis-runner-2.40.8.tar.gz]
+[2023-06-23 08:44:07] INFO root fetch - processPackages [analysis-runner]: Remove: archive file [/home/abi/fetcher/tmp/analysis-runner-2.40.9.tar.gz]
+[2023-06-23 08:44:07] INFO root fetch - main [MainThread]: End processing [analysis-runner]: success
+[2023-06-23 08:45:15] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.8-py3-none-any.whl.zip]
+[2023-06-23 08:45:15] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip]
+[2023-06-23 08:45:15] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
+[2023-06-23 08:45:21] INFO root fetch - processPackages [jijbench]: Remove: archive file [/home/abi/fetcher/tmp/jijbench-0.5.5.tar.gz]
+[2023-06-23 08:45:21] INFO root fetch - processPackages [jijbench]: Remove: archive file [/home/abi/fetcher/tmp/jijbench-0.5.7.tar.gz]
+[2023-06-23 08:45:21] INFO root fetch - main [MainThread]: End processing [jijbench]: success
+[2023-06-23 08:45:21] INFO root fetch - main [MainThread]: Store serial: [18614769]
