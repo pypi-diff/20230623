@@ -17851,3 +17851,187 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 14:39:54] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.7.1.tar.gz]
 [2023-06-23 14:39:54] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
 [2023-06-23 14:39:54] INFO root fetch - main [MainThread]: Store serial: [18617864]
+[2023-06-23 14:45:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617864]
+[2023-06-23 14:45:06] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cloudwatch-metrics
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openTEPES
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webcam
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qotto-auth-client
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: panoptic
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uploader-client
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ima-predeployed
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brightsky
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coiled
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rastless-cli
+[2023-06-23 14:45:06] INFO root fetch - processPackages [qotto-auth-client]: New version: [2.2.2a1] Old Version: [2.2.2a0]
+[2023-06-23 14:45:06] INFO root fetch - processPackages [django-cloudwatch-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 14:45:06] INFO root fetch - processPackages [uploader-client]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-23 14:45:06] INFO root fetch - processPackages [webcam]: New version: [1.4] Old Version: [1.3]
+[2023-06-23 14:45:06] INFO root fetch - processPackages [openTEPES]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-06-23 14:45:06] INFO root fetch - processPackages [rastless-cli]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-23 14:45:06] INFO root fetch - processPackages [brightsky]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-23 14:45:06] INFO root fetch - processPackages [panoptic]: New version: [0.1.0.dev0] Old Version: [0.1.0]
+[2023-06-23 14:45:06] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-23 14:45:06] INFO root fetch - processPackages [ima-predeployed]: New version: [2.0.0b0] Old Version: [2.0.0a0]
+[2023-06-23 14:45:06] INFO root fetch - processPackages [qotto-auth-client]: Downloading https://files.pythonhosted.org/packages/55/47/c888763062f9a77b0f574a740d806a828c1cf657b6cc974a0e05d6d7ac0e/qotto_auth_client-2.2.2a0.tar.gz
+[2023-06-23 14:45:06] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/76/1b/fe6a4e9e178a724aededde2b04f92df8511181e8e6c10e6b23bd1931bc53/webcam-1.3.tar.gz
+[2023-06-23 14:45:06] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-23 14:45:06] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/41/8b/f1926bfa977270837f21929b228b637bb477af554bb27e4f2fec02ebf06f/panoptic-0.1.0.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/4c/c6/d7a87c2258011c4aa218faddc099533895925c415a6a272a8cf967a3101c/ima-predeployed-2.0.0a0.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/fc/a6/e71661db192eece9f6cbc69b37384eaaeeeb5b2132e45e11afe8d5e56f59/django_cloudwatch_metrics-0.0.8.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/73/87/c03d687d62d44a2bb02c2068e568c5954a8384391a2814efa46a937ffb3a/uploader-client-0.1.5.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [rastless-cli]: Downloading https://files.pythonhosted.org/packages/22/08/9bdc47f06eb99cece315365ff60503edf104308d039fff39956f4d7df25b/rastless_cli-0.3.2.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/42/64/8f9fcb06cfc3ee55b2f68b3980d75e5988c7c14e8d06b628d321706acd73/brightsky-2.0.5.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [openTEPES]: Downloading https://files.pythonhosted.org/packages/d3/bc/956e5b6a3468b50029876bc7aec862ddb929a35570cf5009b1bd0842e9b4/openTEPES-4.8.3.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [qotto-auth-client]: Downloading https://files.pythonhosted.org/packages/83/90/d36dd81762f2e8145a018a6cf5fad0d7aba970289dcda9731e7317085e73/qotto_auth_client-2.2.2a1.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/0c/90/deb4c98c4e483b163e77765fe25e536dd7ee15dd4c3c2b21b5711c7a9428/webcam-1.4.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-23 14:45:07] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230623/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-23 14:45:07] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-06-23 14:45:07] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-1.3.tar.gz tmp/webcam-1.4.tar.gz --markdown 20230623/w/webcam/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-23 14:45:07] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/73/5e/2555a2ad56b640435c154b4bc8d8c8dad48509fb36aa95a9b526ebac4fda/brightsky-2.0.6.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/30/51/b9fcd1c7500d3bca008214797157f9c48bb170acdcd5439b0413af28db93/uploader-client-0.1.6.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [rastless-cli]: Downloading https://files.pythonhosted.org/packages/e8/c6/1a253068c64533cf7650855d4e5d9a35cac38e61a293e9ca58ab7f06dec3/rastless_cli-0.3.3.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [qotto-auth-client]: executing diffoscope
+[2023-06-23 14:45:07] INFO root fetch - processPackages [qotto-auth-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qotto_auth_client-2.2.2a0.tar.gz tmp/qotto_auth_client-2.2.2a1.tar.gz --markdown 20230623/q/qotto-auth-client/2.2.2a0-2.2.2a1/diff.md --exclude *.pyd
+[2023-06-23 14:45:07] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/74/4b/5f3264df30160988e74ad1d8f223469e139a6e4e42c6b3572e6795077998/django_cloudwatch_metrics-0.0.9.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/15/22/bf7fb5c3d34ffce55ba837c02d2c57f9065f884e05aaaa45ef415bd54c22/ima-predeployed-2.0.0b0.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [uploader-client]: executing diffoscope
+[2023-06-23 14:45:07] INFO root fetch - processPackages [brightsky]: executing diffoscope
+[2023-06-23 14:45:07] INFO root fetch - processPackages [brightsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightsky-2.0.5.tar.gz tmp/brightsky-2.0.6.tar.gz --markdown 20230623/b/brightsky/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-23 14:45:07] INFO root fetch - processPackages [uploader-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploader-client-0.1.5.tar.gz tmp/uploader-client-0.1.6.tar.gz --markdown 20230623/u/uploader-client/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-23 14:45:07] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/8b/ae/8e71c10317efb9f03b6bbd73ba22d518ddfd6c0659f957e6f50f12fc00ef/panoptic-0.1.0.dev0.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [rastless-cli]: executing diffoscope
+[2023-06-23 14:45:07] INFO root fetch - processPackages [rastless-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rastless_cli-0.3.2.tar.gz tmp/rastless_cli-0.3.3.tar.gz --markdown 20230623/r/rastless-cli/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-23 14:45:07] INFO root fetch - processPackages [django-cloudwatch-metrics]: executing diffoscope
+[2023-06-23 14:45:07] INFO root fetch - processPackages [django-cloudwatch-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloudwatch_metrics-0.0.8.tar.gz tmp/django_cloudwatch_metrics-0.0.9.tar.gz --markdown 20230623/d/django-cloudwatch-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 14:45:07] INFO root fetch - processPackages [ima-predeployed]: executing diffoscope
+[2023-06-23 14:45:07] INFO root fetch - processPackages [ima-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ima-predeployed-2.0.0a0.tar.gz tmp/ima-predeployed-2.0.0b0.tar.gz --markdown 20230623/i/ima-predeployed/2.0.0a0-2.0.0b0/diff.md --exclude *.pyd
+[2023-06-23 14:45:07] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-06-23 14:45:07] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.1.0.tar.gz tmp/panoptic-0.1.0.dev0.tar.gz --markdown 20230623/p/panoptic/0.1.0-0.1.0.dev0/diff.md --exclude *.pyd
+[2023-06-23 14:45:07] WARNING root fetch - processPackages [openTEPES]: Skipping package: exceeds size limit 103228862>=10485760
+[2023-06-23 14:45:07] INFO root fetch - processPackages [openTEPES]: Start processing: tensorcircuit-nightly
+[2023-06-23 14:45:07] INFO root fetch - main [MainThread]: End processing [openTEPES] error
+[2023-06-23 14:45:07] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-23 14:45:07] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-23 14:45:07] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-23 14:45:08] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-23 14:45:08] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230623/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-23 14:45:08] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-23 14:45:08] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-23 14:45:08] INFO root fetch - processPackages [coiled]: Start processing: pp-project-pkg
+[2023-06-23 14:45:08] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-23 14:45:08] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306231241] Old Version: [1.0.202306201419]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.3.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.4.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [webcam]: Start processing: notion-pinecone
+[2023-06-23 14:45:09] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-06-23 14:45:09] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/4a/5f/9867933cbc4d2dacdabc71636650f41e3ab48a829812dbcd00913a649f24/pp_project_pkg-1.0.202306201419-py3-none-any.whl
+[2023-06-23 14:45:09] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-23 14:45:09] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.8.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.9.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [django-cloudwatch-metrics]: Start processing: certora-cli-alpha-master
+[2023-06-23 14:45:09] INFO root fetch - main [MainThread]: End processing [django-cloudwatch-metrics]: success
+[2023-06-23 14:45:09] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-23 14:45:09] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230623.12.41.840188] Old Version: [20230623.12.1.557732]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [brightsky]: Remove: archive file [/home/abi/fetcher/tmp/brightsky-2.0.5.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [brightsky]: Remove: archive file [/home/abi/fetcher/tmp/brightsky-2.0.6.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [brightsky]: Start processing: libmata
+[2023-06-23 14:45:09] INFO root fetch - main [MainThread]: End processing [brightsky]: success
+[2023-06-23 14:45:09] INFO root fetch - processPackages [libmata]: New version: [0.73.0] Old Version: [0.72.0]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/b5/78/e7de022559c693ccda08710b9f7e4278ee7e99c56991d0682ce8ef8c544f/pp_project_pkg-1.0.202306231241-py3-none-any.whl
+[2023-06-23 14:45:09] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-23 14:45:09] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230623/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 14:45:09] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/4f/2f/3dcc2c8b95025dbe3fefc35cf21fe8714853b11a1fb29ff3d35316eb74c6/libmata-0.72.0.tar.gz
+[2023-06-23 14:45:09] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/55/2f/a858076e52095dc83f1f7990f1941cf186dd17beb241e62ba20e0419c45e/certora-cli-alpha-master-20230623.12.1.557732.tar.gz
+[2023-06-23 14:45:09] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37099545>=10485760
+[2023-06-23 14:45:09] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: qoqo-qasm
+[2023-06-23 14:45:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-23 14:45:09] INFO root fetch - processPackages [qoqo-qasm]: New version: [0.8.0] Old Version: [0.7.5]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-23 14:45:09] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306201419-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306231241-py3-none-any.whl.zip --markdown 20230623/p/pp-project-pkg/1.0.202306201419-1.0.202306231241/diff.md --exclude *.pyd
+[2023-06-23 14:45:09] INFO root fetch - processPackages [rastless-cli]: Remove: archive file [/home/abi/fetcher/tmp/rastless_cli-0.3.2.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [rastless-cli]: Remove: archive file [/home/abi/fetcher/tmp/rastless_cli-0.3.3.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [rastless-cli]: Start processing: idms
+[2023-06-23 14:45:09] INFO root fetch - main [MainThread]: End processing [rastless-cli]: success
+[2023-06-23 14:45:09] INFO root fetch - processPackages [idms]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [qotto-auth-client]: Remove: archive file [/home/abi/fetcher/tmp/qotto_auth_client-2.2.2a0.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [qotto-auth-client]: Remove: archive file [/home/abi/fetcher/tmp/qotto_auth_client-2.2.2a1.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [qotto-auth-client]: Start processing: power-grid-model
+[2023-06-23 14:45:09] INFO root fetch - main [MainThread]: End processing [qotto-auth-client]: success
+[2023-06-23 14:45:09] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9183710847250] Old Version: [1.5.0rc9183513819989]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.5.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.6.tar.gz]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [uploader-client]: Start processing: acceldata-sdk
+[2023-06-23 14:45:09] INFO root fetch - main [MainThread]: End processing [uploader-client]: success
+[2023-06-23 14:45:09] INFO root fetch - processPackages [acceldata-sdk]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-06-23 14:45:09] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/6c/4e/6ea61846d02519e004c5c4ab738268e6bb097bf1fa9ee0064692447a7714/libmata-0.73.0.tar.gz
+[2023-06-23 14:45:09] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/62/e4/a17241e432d8b8c5cd18920509237a25f3d398bcc3f94ba39eca316403c2/qoqo_qasm-0.7.5.tar.gz
+[2023-06-23 14:45:09] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/b4/9f/8b1e10d6897cc28c21cf107285420c98684c4f383a8f87c1b3d505b1477c/idms-0.1.8.tar.gz
+[2023-06-23 14:45:09] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/0d/58/750f3232b5f982c87c4f9df8e0d329fbe75d51d60032f85022d4a0876459/power-grid-model-1.5.0rc9183513819989.tar.gz
+[2023-06-23 14:45:10] INFO root fetch - processPackages [acceldata-sdk]: Downloading https://files.pythonhosted.org/packages/eb/b8/ddb1b3be5878c8ff0ad7e1b1087939402e382583930fe0b98e2678dc9d2e/acceldata_sdk-2.6.0.tar.gz
+[2023-06-23 14:45:10] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/0f/85/f931ac516f2da4903f532684982a876dfaf8bbd6e5ff4c25884bcf053c58/qoqo_qasm-0.8.0.tar.gz
+[2023-06-23 14:45:10] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/7d/9c/b24fb76a698bc7d2690d65bab162abbb6bd61f67aa44c600512a5f629d78/idms-0.1.9.tar.gz
+[2023-06-23 14:45:10] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-06-23 14:45:10] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.72.0.tar.gz tmp/libmata-0.73.0.tar.gz --markdown 20230623/l/libmata/0.72.0-0.73.0/diff.md --exclude *.pyd
+[2023-06-23 14:45:10] INFO root fetch - processPackages [qoqo-qasm]: executing diffoscope
+[2023-06-23 14:45:10] INFO root fetch - processPackages [qoqo-qasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qasm-0.7.5.tar.gz tmp/qoqo_qasm-0.8.0.tar.gz --markdown 20230623/q/qoqo-qasm/0.7.5-0.8.0/diff.md --exclude *.pyd
+[2023-06-23 14:45:10] INFO root fetch - processPackages [idms]: executing diffoscope
+[2023-06-23 14:45:10] INFO root fetch - processPackages [idms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idms-0.1.8.tar.gz tmp/idms-0.1.9.tar.gz --markdown 20230623/i/idms/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 14:45:10] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/a5/42/4db23a956832bd3dd8a708bc7c3e061bfdeb580a2f0a1ecb864baf22f50b/power-grid-model-1.5.0rc9183710847250.tar.gz
+[2023-06-23 14:45:10] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0a0.tar.gz]
+[2023-06-23 14:45:10] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b0.tar.gz]
+[2023-06-23 14:45:10] INFO root fetch - processPackages [ima-predeployed]: Start processing: delicatessen
+[2023-06-23 14:45:10] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
+[2023-06-23 14:45:10] INFO root fetch - processPackages [delicatessen]: New version: [1.2] Old Version: [1.1]
+[2023-06-23 14:45:10] INFO root fetch - processPackages [acceldata-sdk]: Downloading https://files.pythonhosted.org/packages/4f/8b/abedf114946fb8d30879a28770ca5436aa4855efda35cd12517bf653590b/acceldata_sdk-2.7.0.tar.gz
+[2023-06-23 14:45:10] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-23 14:45:10] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9183513819989.tar.gz tmp/power-grid-model-1.5.0rc9183710847250.tar.gz --markdown 20230623/p/power-grid-model/1.5.0rc9183513819989-1.5.0rc9183710847250/diff.md --exclude *.pyd
+[2023-06-23 14:45:10] INFO root fetch - processPackages [delicatessen]: Downloading https://files.pythonhosted.org/packages/15/62/32e88c76af4644da8c306863e6cd19ccd8a92c99805061f91a6e9918b129/delicatessen-1.1.tar.gz
+[2023-06-23 14:45:10] INFO root fetch - processPackages [acceldata-sdk]: executing diffoscope
+[2023-06-23 14:45:10] INFO root fetch - processPackages [acceldata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acceldata_sdk-2.6.0.tar.gz tmp/acceldata_sdk-2.7.0.tar.gz --markdown 20230623/a/acceldata-sdk/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-06-23 14:45:10] INFO root fetch - processPackages [delicatessen]: Downloading https://files.pythonhosted.org/packages/48/71/2f2778aaa25c1a6118114944b4f24abf8d4ff7df35b218ca1969d591d3d3/delicatessen-1.2.tar.gz
+[2023-06-23 14:45:10] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.8.tar.gz]
+[2023-06-23 14:45:10] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.9.tar.gz]
+[2023-06-23 14:45:10] INFO root fetch - processPackages [notion-pinecone]: Start processing: scipion-app
+[2023-06-23 14:45:10] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-23 14:45:10] INFO root fetch - processPackages [scipion-app]: New version: [3.1.0] Old Version: [3.0.9]
+[2023-06-23 14:45:11] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306201419-py3-none-any.whl.zip]
+[2023-06-23 14:45:11] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306231241-py3-none-any.whl.zip]
+[2023-06-23 14:45:11] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-23 14:45:11] INFO root fetch - processPackages [delicatessen]: executing diffoscope
+[2023-06-23 14:45:11] INFO root fetch - processPackages [delicatessen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delicatessen-1.1.tar.gz tmp/delicatessen-1.2.tar.gz --markdown 20230623/d/delicatessen/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-23 14:45:11] INFO root fetch - processPackages [scipion-app]: Downloading https://files.pythonhosted.org/packages/55/e4/0a69330bfd64be774f3f3fbdb42a3198ea8babfeb2e4123a1dec92893e92/scipion-app-3.0.9.tar.gz
+[2023-06-23 14:45:11] INFO root fetch - processPackages [scipion-app]: Downloading https://files.pythonhosted.org/packages/e3/bd/23e8be4c45feebff9a472d187934fafb07262ae064a70fcc9417610a920c/scipion-app-3.1.0.tar.gz
+[2023-06-23 14:45:11] INFO root fetch - processPackages [scipion-app]: executing diffoscope
+[2023-06-23 14:45:11] INFO root fetch - processPackages [scipion-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-app-3.0.9.tar.gz tmp/scipion-app-3.1.0.tar.gz --markdown 20230623/s/scipion-app/3.0.9-3.1.0/diff.md --exclude *.pyd
+[2023-06-23 14:45:11] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.1.8.tar.gz]
+[2023-06-23 14:45:11] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.1.9.tar.gz]
+[2023-06-23 14:45:11] INFO root fetch - main [MainThread]: End processing [idms]: success
+[2023-06-23 14:45:12] INFO root fetch - processPackages [acceldata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_sdk-2.6.0.tar.gz]
+[2023-06-23 14:45:12] INFO root fetch - processPackages [acceldata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_sdk-2.7.0.tar.gz]
+[2023-06-23 14:45:12] INFO root fetch - main [MainThread]: End processing [acceldata-sdk]: success
+[2023-06-23 14:45:12] INFO root fetch - processPackages [delicatessen]: Remove: archive file [/home/abi/fetcher/tmp/delicatessen-1.1.tar.gz]
+[2023-06-23 14:45:12] INFO root fetch - processPackages [delicatessen]: Remove: archive file [/home/abi/fetcher/tmp/delicatessen-1.2.tar.gz]
+[2023-06-23 14:45:12] INFO root fetch - main [MainThread]: End processing [delicatessen]: success
+[2023-06-23 14:45:13] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-23 14:45:13] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-23 14:45:13] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-23 14:45:13] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.1.0.tar.gz]
+[2023-06-23 14:45:13] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.1.0.dev0.tar.gz]
+[2023-06-23 14:45:13] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-06-23 14:45:14] INFO root fetch - processPackages [scipion-app]: Remove: archive file [/home/abi/fetcher/tmp/scipion-app-3.0.9.tar.gz]
+[2023-06-23 14:45:14] INFO root fetch - processPackages [scipion-app]: Remove: archive file [/home/abi/fetcher/tmp/scipion-app-3.1.0.tar.gz]
+[2023-06-23 14:45:14] INFO root fetch - main [MainThread]: End processing [scipion-app]: success
+[2023-06-23 14:45:15] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.72.0.tar.gz]
+[2023-06-23 14:45:15] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.73.0.tar.gz]
+[2023-06-23 14:45:15] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-06-23 14:45:15] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9183513819989.tar.gz]
+[2023-06-23 14:45:15] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9183710847250.tar.gz]
+[2023-06-23 14:45:15] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-23 14:45:15] INFO root fetch - processPackages [qoqo-qasm]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qasm-0.7.5.tar.gz]
+[2023-06-23 14:45:15] INFO root fetch - processPackages [qoqo-qasm]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qasm-0.8.0.tar.gz]
+[2023-06-23 14:45:15] INFO root fetch - main [MainThread]: End processing [qoqo-qasm]: success
+[2023-06-23 14:45:15] INFO root fetch - main [MainThread]: Store serial: [18617936]
