@@ -9751,3 +9751,42 @@
 [2023-06-23 08:00:11] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
 [2023-06-23 08:00:11] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
 [2023-06-23 08:00:11] INFO root fetch - main [MainThread]: Store serial: [18614515]
+[2023-06-23 08:05:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614515]
+[2023-06-23 08:05:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-23 08:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pluthon
+[2023-06-23 08:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-jokes-py
+[2023-06-23 08:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecapacktools
+[2023-06-23 08:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wodoo
+[2023-06-23 08:05:20] INFO root fetch - processPackages [mecapacktools]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-23 08:05:20] INFO root fetch - processPackages [py-jokes-py]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-23 08:05:20] INFO root fetch - processPackages [pluthon]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-23 08:05:20] INFO root fetch - processPackages [wodoo]: New version: [0.3.99] Old Version: [0.3.96]
+[2023-06-23 08:05:20] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/39/b5/ea5aac6b46d86d17cac96915688af53a6ce7a97d29a26d2f9e94b60ca62d/wodoo-0.3.96.tar.gz
+[2023-06-23 08:05:20] INFO root fetch - processPackages [py-jokes-py]: Downloading https://files.pythonhosted.org/packages/61/8e/0f6bda77ca69a907f09efaa2b78b2a200c12171341db087c4ab2869cdf45/py_jokes_py-1.1.1.tar.gz
+[2023-06-23 08:05:21] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/30/b2/3bfb9c5a75a3b2df14da3615066c37d81a08d9ecd0f61f02049194c0cbc5/mecapacktools-1.1.3.tar.gz
+[2023-06-23 08:05:21] INFO root fetch - processPackages [pluthon]: Downloading https://files.pythonhosted.org/packages/4a/93/dd2a0ff77b895169db801a5359d8476991d5cc045e0938e1042d5f507c1e/pluthon-0.3.7.tar.gz
+[2023-06-23 08:05:21] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/8a/a0/cbc82edc630f60de213ee13e1d7308d7f4d97d11ef8b006170cd493184ff/wodoo-0.3.99.tar.gz
+[2023-06-23 08:05:21] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-06-23 08:05:21] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.3.96.tar.gz tmp/wodoo-0.3.99.tar.gz --markdown 20230623/w/wodoo/0.3.96-0.3.99/diff.md --exclude *.pyd
+[2023-06-23 08:05:21] INFO root fetch - processPackages [py-jokes-py]: Downloading https://files.pythonhosted.org/packages/61/50/cf6663387a738285ac7961e8e160418d21b8333d9435c666233185a5ad05/py_jokes_py-1.1.2.tar.gz
+[2023-06-23 08:05:21] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/08/71/17c2e9f807b08072c1e4d007ea3335cba093d4a02d6608fdd03de78c38b7/mecapacktools-1.1.4.tar.gz
+[2023-06-23 08:05:21] INFO root fetch - processPackages [pluthon]: Downloading https://files.pythonhosted.org/packages/bd/0d/6faef87968248601083707532ae80c6402b8e26ffd3a6901999c9e815e94/pluthon-0.3.8.tar.gz
+[2023-06-23 08:05:21] INFO root fetch - processPackages [py-jokes-py]: executing diffoscope
+[2023-06-23 08:05:21] INFO root fetch - processPackages [py-jokes-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_jokes_py-1.1.1.tar.gz tmp/py_jokes_py-1.1.2.tar.gz --markdown 20230623/p/py-jokes-py/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-23 08:05:21] INFO root fetch - processPackages [mecapacktools]: executing diffoscope
+[2023-06-23 08:05:21] INFO root fetch - processPackages [mecapacktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecapacktools-1.1.3.tar.gz tmp/mecapacktools-1.1.4.tar.gz --markdown 20230623/m/mecapacktools/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-23 08:05:21] INFO root fetch - processPackages [pluthon]: executing diffoscope
+[2023-06-23 08:05:21] INFO root fetch - processPackages [pluthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluthon-0.3.7.tar.gz tmp/pluthon-0.3.8.tar.gz --markdown 20230623/p/pluthon/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-23 08:05:22] INFO root fetch - processPackages [py-jokes-py]: Remove: archive file [/home/abi/fetcher/tmp/py_jokes_py-1.1.1.tar.gz]
+[2023-06-23 08:05:22] INFO root fetch - processPackages [py-jokes-py]: Remove: archive file [/home/abi/fetcher/tmp/py_jokes_py-1.1.2.tar.gz]
+[2023-06-23 08:05:22] INFO root fetch - main [MainThread]: End processing [py-jokes-py]: success
+[2023-06-23 08:05:22] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.3.96.tar.gz]
+[2023-06-23 08:05:22] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.3.99.tar.gz]
+[2023-06-23 08:05:22] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-06-23 08:05:22] INFO root fetch - processPackages [pluthon]: Remove: archive file [/home/abi/fetcher/tmp/pluthon-0.3.7.tar.gz]
+[2023-06-23 08:05:22] INFO root fetch - processPackages [pluthon]: Remove: archive file [/home/abi/fetcher/tmp/pluthon-0.3.8.tar.gz]
+[2023-06-23 08:05:22] INFO root fetch - main [MainThread]: End processing [pluthon]: success
+[2023-06-23 08:06:15] INFO root fetch - processPackages [mecapacktools]: Remove: archive file [/home/abi/fetcher/tmp/mecapacktools-1.1.3.tar.gz]
+[2023-06-23 08:06:15] INFO root fetch - processPackages [mecapacktools]: Remove: archive file [/home/abi/fetcher/tmp/mecapacktools-1.1.4.tar.gz]
+[2023-06-23 08:06:15] INFO root fetch - main [MainThread]: End processing [mecapacktools]: success
+[2023-06-23 08:06:15] INFO root fetch - main [MainThread]: Store serial: [18614524]
