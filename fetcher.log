@@ -16369,3 +16369,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 13:24:17] INFO root fetch - processPackages [renalsegmentor]: Remove: archive file [/home/abi/fetcher/tmp/renalsegmentor-1.3.7.tar.gz]
 [2023-06-23 13:24:17] INFO root fetch - main [MainThread]: End processing [renalsegmentor]: success
 [2023-06-23 13:24:17] INFO root fetch - main [MainThread]: Store serial: [18617280]
+[2023-06-23 13:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617280]
+[2023-06-23 13:29:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-23 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchtnt-nightly
+[2023-06-23 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intel-sgx-ra
+[2023-06-23 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2023-06-23 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: turbo-docs
+[2023-06-23 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EasyDeL
+[2023-06-23 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brainglobe-utils
+[2023-06-23 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kalm
+[2023-06-23 13:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-nightly
+[2023-06-23 13:29:26] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-23 13:29:26] INFO root fetch - processPackages [turbo-docs]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-23 13:29:26] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 13:29:26] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-06-23 13:29:26] INFO root fetch - processPackages [brainglobe-utils]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-23 13:29:26] INFO root fetch - processPackages [intel-sgx-ra]: New version: [2.0a9] Old Version: [2.0a8]
+[2023-06-23 13:29:26] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 13:29:26] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-23 13:29:26] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/34/4f/4a90173b01a8086490f647ccb58a5421c9d44a1c56813090cb773ecd7370/torchtnt-nightly-2023.6.4.tar.gz
+[2023-06-23 13:29:26] INFO root fetch - processPackages [turbo-docs]: Downloading https://files.pythonhosted.org/packages/18/ab/08f8976a3f2336f05099f21640cdad665db86208a0500fc3413e9318c238/turbo_docs-1.0.0.tar.gz
+[2023-06-23 13:29:26] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 13:29:26] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 13:29:26] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-23 13:29:26] INFO root fetch - processPackages [brainglobe-utils]: Downloading https://files.pythonhosted.org/packages/c7/ff/10e6cb285b2bd2de523abdbd443dc30ee6d5f0d3bf4133dfe972e2e066be/brainglobe-utils-0.2.2.tar.gz
+[2023-06-23 13:29:26] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/d6/97/6a22150b51cc4c37c44af5b937e6761e610aba440fb58488235f27ea1da6/EasyDeL-0.0.0.tar.gz
+[2023-06-23 13:29:26] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/4d/db/f48e245110f06046ff9666ff3c88904c7182a80136b0ea42fdcc13127785/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl
+[2023-06-23 13:29:26] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/40/59/8e219732c8232b640b0cb88f485f6d98bd76be3c47f0cf80b9d1afd6a0de/torchtnt-nightly-2023.6.5.tar.gz
+[2023-06-23 13:29:26] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 13:29:26] INFO root fetch - processPackages [turbo-docs]: Downloading https://files.pythonhosted.org/packages/78/82/f592c554d584a8bc51ea406a1d64da31db46c876398cd9f2fc1db47c1c6a/turbo_docs-1.0.1.tar.gz
+[2023-06-23 13:29:26] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 13:29:26] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-23 13:29:26] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.6.4.tar.gz tmp/torchtnt-nightly-2023.6.5.tar.gz --markdown 20230623/t/torchtnt-nightly/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-23 13:29:26] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 13:29:26] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 13:29:26] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-23 13:29:26] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 13:29:26] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 13:29:26] INFO root fetch - processPackages [turbo-docs]: executing diffoscope
+[2023-06-23 13:29:26] INFO root fetch - processPackages [turbo-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_docs-1.0.0.tar.gz tmp/turbo_docs-1.0.1.tar.gz --markdown 20230623/t/turbo-docs/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-23 13:29:26] INFO root fetch - processPackages [brainglobe-utils]: Downloading https://files.pythonhosted.org/packages/53/7a/5173ee9c5154bcc6e8f6bd05463d3e67b7676106217c57960768ffc805b6/brainglobe-utils-0.2.3.tar.gz
+[2023-06-23 13:29:26] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/00/4a/e81b8ec474f1341a82b5d26480021b4dca2c4bd70f8b9bb28dc241c985a8/EasyDeL-0.0.2.tar.gz
+[2023-06-23 13:29:27] INFO root fetch - processPackages [brainglobe-utils]: executing diffoscope
+[2023-06-23 13:29:27] INFO root fetch - processPackages [brainglobe-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainglobe-utils-0.2.2.tar.gz tmp/brainglobe-utils-0.2.3.tar.gz --markdown 20230623/b/brainglobe-utils/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-23 13:29:27] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-23 13:29:27] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230623/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-23 13:29:27] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/c1/81/773e0f4d7f401bd1f161865ac39db49a4a0eb4e7db5556ac591810b60303/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl
+[2023-06-23 13:29:27] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-06-23 13:29:27] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.0.tar.gz tmp/EasyDeL-0.0.2.tar.gz --markdown 20230623/E/EasyDeL/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 13:29:27] INFO root fetch - processPackages [intel-sgx-ra]: executing diffoscope
+[2023-06-23 13:29:27] INFO root fetch - processPackages [intel-sgx-ra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl.zip tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip --markdown 20230623/i/intel-sgx-ra/2.0a8-2.0a9/diff.md --exclude *.pyd
+[2023-06-23 13:29:28] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 13:29:28] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 13:29:28] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 13:29:28] INFO root fetch - processPackages [turbo-docs]: Remove: archive file [/home/abi/fetcher/tmp/turbo_docs-1.0.0.tar.gz]
+[2023-06-23 13:29:28] INFO root fetch - processPackages [turbo-docs]: Remove: archive file [/home/abi/fetcher/tmp/turbo_docs-1.0.1.tar.gz]
+[2023-06-23 13:29:28] INFO root fetch - main [MainThread]: End processing [turbo-docs]: success
+[2023-06-23 13:29:28] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 13:29:28] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 13:29:28] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 13:29:28] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.0.tar.gz]
+[2023-06-23 13:29:28] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.2.tar.gz]
+[2023-06-23 13:29:28] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-06-23 13:29:29] INFO root fetch - processPackages [brainglobe-utils]: Remove: archive file [/home/abi/fetcher/tmp/brainglobe-utils-0.2.2.tar.gz]
+[2023-06-23 13:29:29] INFO root fetch - processPackages [brainglobe-utils]: Remove: archive file [/home/abi/fetcher/tmp/brainglobe-utils-0.2.3.tar.gz]
+[2023-06-23 13:29:29] INFO root fetch - main [MainThread]: End processing [brainglobe-utils]: success
+[2023-06-23 13:29:29] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.4.tar.gz]
+[2023-06-23 13:29:29] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.5.tar.gz]
+[2023-06-23 13:29:29] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-23 13:29:31] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-23 13:29:31] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-23 13:29:31] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-23 13:29:44] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
+[2023-06-23 13:29:44] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
+[2023-06-23 13:29:44] INFO root fetch - main [MainThread]: End processing [intel-sgx-ra]: success
+[2023-06-23 13:29:44] INFO root fetch - main [MainThread]: Store serial: [18617304]
