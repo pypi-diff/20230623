@@ -15012,3 +15012,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 12:30:06] INFO root fetch - processPackages [catline]: Remove: archive file [/home/abi/fetcher/tmp/catline-0.0.2.tar.gz]
 [2023-06-23 12:30:06] INFO root fetch - main [MainThread]: End processing [catline]: success
 [2023-06-23 12:30:06] INFO root fetch - main [MainThread]: Store serial: [18616590]
+[2023-06-23 12:35:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616590]
+[2023-06-23 12:35:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-23 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-prime-rando
+[2023-06-23 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-ocgbot-v2
+[2023-06-23 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stable-baselines3
+[2023-06-23 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kalm
+[2023-06-23 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citation-utils
+[2023-06-23 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jam-ai
+[2023-06-23 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libmata
+[2023-06-23 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dyn-rm
+[2023-06-23 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kalm
+[2023-06-23 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hep-paper-manager
+[2023-06-23 12:35:15] WARNING root fetch - processPackages [jam-ai]: Skipping, unable to determine old version
+[2023-06-23 12:35:15] INFO root fetch - processPackages [jam-ai]: Start processing: piargus
+[2023-06-23 12:35:15] INFO root fetch - main [MainThread]: End processing [jam-ai] error
+[2023-06-23 12:35:15] INFO root fetch - processPackages [open-prime-rando]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-23 12:35:15] INFO root fetch - processPackages [citation-utils]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-23 12:35:15] INFO root fetch - processPackages [libmata]: New version: [0.72.0] Old Version: [0.71.0]
+[2023-06-23 12:35:15] INFO root fetch - processPackages [stable-baselines3]: New version: [2.0.0a9] Old Version: [2.0.0a5]
+[2023-06-23 12:35:15] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-23 12:35:15] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:35:15] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:35:15] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/c6/d2/147b9ac2eaa0a1631568b8795be5dd7593198a3349ba748a6609a43608bb/libmata-0.71.0.tar.gz
+[2023-06-23 12:35:15] INFO root fetch - processPackages [hep-paper-manager]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 12:35:15] INFO root fetch - processPackages [dyn-rm]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-23 12:35:15] INFO root fetch - processPackages [piargus]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-23 12:35:15] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/45/74/4c13a227541e37d4208d04aff76f2846581b6bb1c9f00b9c1af3cad1ba5a/open-prime-rando-0.6.1.tar.gz
+[2023-06-23 12:35:15] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Downloading https://files.pythonhosted.org/packages/b6/54/96a0ef4fb691190ab464a0152b051e79de178d27bf65e9a60153192c7546/nonebot_plugin_ocgbot_v2-0.1.4.tar.gz
+[2023-06-23 12:35:15] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/1f/40/0b7acdac0590d9b6067967920f7643f2d3368d7f95ea8307771ea15c681b/citation_utils-0.3.0.tar.gz
+[2023-06-23 12:35:15] WARNING root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Skipping package: exceeds size limit 51954421>=10485760
+[2023-06-23 12:35:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ocgbot-v2] error
+[2023-06-23 12:35:15] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 12:35:15] INFO root fetch - processPackages [stable-baselines3]: Downloading https://files.pythonhosted.org/packages/38/7a/01a08eadaf0ce57f2f75a7f02a8d89aa7ff16b6652d3fe3b5172c52d00bf/stable_baselines3-2.0.0a5.tar.gz
+[2023-06-23 12:35:15] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 12:35:15] INFO root fetch - processPackages [hep-paper-manager]: Downloading https://files.pythonhosted.org/packages/b3/4e/13b31a2abe537c54c1e6ec97a876a6ff7981db987883a5d26bd251fd9d24/hep_paper_manager-0.1.2.tar.gz
+[2023-06-23 12:35:15] INFO root fetch - processPackages [dyn-rm]: Downloading https://files.pythonhosted.org/packages/ca/56/6b1cdc7f40ee208391eca62a4645ebfbc40cf4bc50726f407887a4d69e3c/dyn_rm-1.0.0.tar.gz
+[2023-06-23 12:35:15] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/40/0a/ef040eb128a68e59f9ae2d42fa1a5b92a4475bc8150916b629db4293a29d/open-prime-rando-0.6.2.tar.gz
+[2023-06-23 12:35:16] INFO root fetch - processPackages [piargus]: Downloading https://files.pythonhosted.org/packages/6b/6d/bd17caaa5ae203083cd417fca46b26807d8daabb7aaeb0ab9da628a84e2b/piargus-0.1.0-py3-none-any.whl
+[2023-06-23 12:35:16] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/4f/2f/3dcc2c8b95025dbe3fefc35cf21fe8714853b11a1fb29ff3d35316eb74c6/libmata-0.72.0.tar.gz
+[2023-06-23 12:35:16] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/3e/12/6f3cad975e8a438f024d4eaf738a5a34b7bc8bd56f95251d3a6042666b9d/citation_utils-0.4.0.tar.gz
+[2023-06-23 12:35:16] INFO root fetch - processPackages [citation-utils]: executing diffoscope
+[2023-06-23 12:35:16] INFO root fetch - processPackages [citation-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_utils-0.3.0.tar.gz tmp/citation_utils-0.4.0.tar.gz --markdown 20230623/c/citation-utils/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 12:35:16] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 12:35:16] INFO root fetch - processPackages [open-prime-rando]: executing diffoscope
+[2023-06-23 12:35:16] INFO root fetch - processPackages [open-prime-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-prime-rando-0.6.1.tar.gz tmp/open-prime-rando-0.6.2.tar.gz --markdown 20230623/o/open-prime-rando/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-23 12:35:16] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 12:35:16] INFO root fetch - processPackages [dyn-rm]: Downloading https://files.pythonhosted.org/packages/8b/8c/10f694b220a71be9e14e6482f0ccf66db3db7bf3dfd011ff7397beb7bf38/dyn_rm-1.0.1.tar.gz
+[2023-06-23 12:35:16] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:35:16] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:35:16] INFO root fetch - processPackages [stable-baselines3]: Downloading https://files.pythonhosted.org/packages/bc/d3/eb4c38b5296da9c189efb25a3ef9d9e43f8cf5a12d1a02c4967ab04ed52d/stable_baselines3-2.0.0a9.tar.gz
+[2023-06-23 12:35:16] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:35:16] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:35:16] INFO root fetch - processPackages [hep-paper-manager]: Downloading https://files.pythonhosted.org/packages/14/dc/4f5835baabf312c9c1abf89635ae26a1f4cf409fbea49d1d1bbc51d61a63/hep_paper_manager-0.1.3.tar.gz
+[2023-06-23 12:35:16] INFO root fetch - processPackages [dyn-rm]: executing diffoscope
+[2023-06-23 12:35:16] INFO root fetch - processPackages [dyn-rm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyn_rm-1.0.0.tar.gz tmp/dyn_rm-1.0.1.tar.gz --markdown 20230623/d/dyn-rm/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-23 12:35:16] INFO root fetch - processPackages [stable-baselines3]: executing diffoscope
+[2023-06-23 12:35:16] INFO root fetch - processPackages [stable-baselines3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable_baselines3-2.0.0a5.tar.gz tmp/stable_baselines3-2.0.0a9.tar.gz --markdown 20230623/s/stable-baselines3/2.0.0a5-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-23 12:35:16] INFO root fetch - processPackages [piargus]: Downloading https://files.pythonhosted.org/packages/8d/4c/1d931ae92ef5aa81e67becac835edd7118de1b1f975482f98955018af5dc/piargus-0.2.0-py3-none-any.whl
+[2023-06-23 12:35:16] INFO root fetch - processPackages [hep-paper-manager]: executing diffoscope
+[2023-06-23 12:35:16] INFO root fetch - processPackages [hep-paper-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hep_paper_manager-0.1.2.tar.gz tmp/hep_paper_manager-0.1.3.tar.gz --markdown 20230623/h/hep-paper-manager/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 12:35:16] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-06-23 12:35:16] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.71.0.tar.gz tmp/libmata-0.72.0.tar.gz --markdown 20230623/l/libmata/0.71.0-0.72.0/diff.md --exclude *.pyd
+[2023-06-23 12:35:16] INFO root fetch - processPackages [piargus]: executing diffoscope
+[2023-06-23 12:35:16] INFO root fetch - processPackages [piargus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piargus-0.1.0-py3-none-any.whl.zip tmp/piargus-0.2.0-py3-none-any.whl.zip --markdown 20230623/p/piargus/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-23 12:35:17] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.3.0.tar.gz]
+[2023-06-23 12:35:17] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.0.tar.gz]
+[2023-06-23 12:35:17] INFO root fetch - main [MainThread]: End processing [citation-utils]: success
+[2023-06-23 12:35:17] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 12:35:17] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 12:35:17] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 12:35:17] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.6.1.tar.gz]
+[2023-06-23 12:35:17] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.6.2.tar.gz]
+[2023-06-23 12:35:17] INFO root fetch - main [MainThread]: End processing [open-prime-rando]: success
+[2023-06-23 12:35:18] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 12:35:18] INFO root fetch - processPackages [piargus]: Remove: archive file [/home/abi/fetcher/tmp/piargus-0.1.0-py3-none-any.whl.zip]
+[2023-06-23 12:35:18] INFO root fetch - processPackages [piargus]: Remove: archive file [/home/abi/fetcher/tmp/piargus-0.2.0-py3-none-any.whl.zip]
+[2023-06-23 12:35:18] INFO root fetch - main [MainThread]: End processing [piargus]: success
+[2023-06-23 12:35:18] INFO root fetch - processPackages [hep-paper-manager]: Remove: archive file [/home/abi/fetcher/tmp/hep_paper_manager-0.1.2.tar.gz]
+[2023-06-23 12:35:18] INFO root fetch - processPackages [hep-paper-manager]: Remove: archive file [/home/abi/fetcher/tmp/hep_paper_manager-0.1.3.tar.gz]
+[2023-06-23 12:35:18] INFO root fetch - main [MainThread]: End processing [hep-paper-manager]: success
+[2023-06-23 12:35:18] INFO root fetch - processPackages [dyn-rm]: Remove: archive file [/home/abi/fetcher/tmp/dyn_rm-1.0.0.tar.gz]
+[2023-06-23 12:35:18] INFO root fetch - processPackages [dyn-rm]: Remove: archive file [/home/abi/fetcher/tmp/dyn_rm-1.0.1.tar.gz]
+[2023-06-23 12:35:18] INFO root fetch - main [MainThread]: End processing [dyn-rm]: success
+[2023-06-23 12:35:21] INFO root fetch - processPackages [stable-baselines3]: Remove: archive file [/home/abi/fetcher/tmp/stable_baselines3-2.0.0a5.tar.gz]
+[2023-06-23 12:35:21] INFO root fetch - processPackages [stable-baselines3]: Remove: archive file [/home/abi/fetcher/tmp/stable_baselines3-2.0.0a9.tar.gz]
+[2023-06-23 12:35:21] INFO root fetch - main [MainThread]: End processing [stable-baselines3]: success
+[2023-06-23 12:35:22] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.71.0.tar.gz]
+[2023-06-23 12:35:22] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.72.0.tar.gz]
+[2023-06-23 12:35:22] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-06-23 12:35:22] INFO root fetch - main [MainThread]: Store serial: [18616641]
