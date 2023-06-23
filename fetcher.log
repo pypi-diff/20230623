@@ -9102,3 +9102,147 @@
 [2023-06-23 07:11:25] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-23 07:11:25] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-23 07:11:25] INFO root fetch - main [MainThread]: Store serial: [18614246]
+[2023-06-23 07:16:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614246]
+[2023-06-23 07:16:34] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-23 07:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cuda
+[2023-06-23 07:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tflite-model-maker-nightly
+[2023-06-23 07:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytarrs
+[2023-06-23 07:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: patreon-archiver
+[2023-06-23 07:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kernml
+[2023-06-23 07:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightweightdebugmessages
+[2023-06-23 07:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-base-tier-validation-report
+[2023-06-23 07:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fast-crossing
+[2023-06-23 07:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-base-tier-validation-forward
+[2023-06-23 07:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-base-tier-validation
+[2023-06-23 07:16:34] ERROR root fetch - processPackages [kernml]: Unable to get metadata: No such project 'kernml'
+[2023-06-23 07:16:34] INFO root fetch - processPackages [kernml]: Start processing: nonebot-plugin-al
+[2023-06-23 07:16:34] INFO root fetch - main [MainThread]: End processing [kernml] error
+[2023-06-23 07:16:34] INFO root fetch - processPackages [patreon-archiver]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 07:16:34] WARNING root fetch - processPackages [pytarrs]: Skipping, unable to determine old version
+[2023-06-23 07:16:34] INFO root fetch - processPackages [pytarrs]: Start processing: odoo-addons-oca-server-ux
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: New version: [14.0.1.1.1.dev6] Old Version: [14.0.1.1.1.dev5]
+[2023-06-23 07:16:34] INFO root fetch - main [MainThread]: End processing [pytarrs] error
+[2023-06-23 07:16:34] INFO root fetch - processPackages [lightweightdebugmessages]: New version: [0.1.0.0a0] Old Version: [0.1.0]
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addon-base-tier-validation-forward]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-23 07:16:34] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.4.6] Old Version: [16.0.1.0.4.54]
+[2023-06-23 07:16:34] INFO root fetch - processPackages [fast-crossing]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-23 07:16:34] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306230508] Old Version: [0.4.3.dev202306220509]
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20230622.1] Old Version: [16.0.20230613.0]
+[2023-06-23 07:16:34] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230623] Old Version: [23.8.0a230622]
+[2023-06-23 07:16:34] INFO root fetch - processPackages [lightweightdebugmessages]: Downloading https://files.pythonhosted.org/packages/81/32/217789b3d3f7827ee95174a4c663b981c2de2492c7ff4b76d3c7d7f14f16/lightweightdebugmessages-0.1.0.tar.gz
+[2023-06-23 07:16:34] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/b5/63/77981138343e2255d038e7063a5eafc8e5deebffa13f03f35d975473a921/nonebot_plugin_al-0.3.6.tar.gz
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/6d/e2/853248749b531b009ee5f0e49dfbe04ad04b45435477510a353434f7a589/odoo_addon_base_tier_validation-16.0.1.0.4.54-py3-none-any.whl
+[2023-06-23 07:16:34] INFO root fetch - processPackages [patreon-archiver]: Downloading https://files.pythonhosted.org/packages/1c/86/d4bf33a34b0dcddb81c82312b778d222bff7bc41c162e6efd469029901bf/patreon-archiver-0.0.5.tar.gz
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addon-base-tier-validation-forward]: Downloading https://files.pythonhosted.org/packages/85/bc/3c1d9543349d99f839e866ea9725cb6037aade43c250b42df056fd5b69d0/odoo_addon_base_tier_validation_forward-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-23 07:16:34] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/1f/1d/efffff9f36e61567bdd3097152e9e3cc53b52c52b7864c052a80afda172b/tflite-model-maker-nightly-0.4.3.dev202306220509.tar.gz
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: Downloading https://files.pythonhosted.org/packages/11/32/cb2b3878457d522089d76fadc9d032406e26d6cff8714fc1fc7b45e11de7/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/46/d9/120f758820af75b8fb4bc3effa4175b3c9494dca8fbb9398a05e78582d41/odoo_addons_oca_server_ux-16.0.20230613.0-py3-none-any.whl
+[2023-06-23 07:16:34] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/ad/c5/5d3d115c34ae4aef5433eb403171c019f42784c0c73206ac629f917fccb2/dask-cuda-23.8.0a230622.tar.gz
+[2023-06-23 07:16:34] INFO root fetch - processPackages [fast-crossing]: Downloading https://files.pythonhosted.org/packages/81/20/2a23124d1907cb48ed500711a13b4caacf3bf74067e001645221a11f2dfa/fast_crossing-0.0.7.tar.gz
+[2023-06-23 07:16:34] INFO root fetch - processPackages [lightweightdebugmessages]: Downloading https://files.pythonhosted.org/packages/6c/ca/7fb7caf5d3203f9ffbc913ce76e9cee3d567324f24f226171b08217c85c9/lightweightdebugmessages-0.1.0.0a0.tar.gz
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/d2/d8/fd3670e9a734765bcb7928609ea464cfc27a27d4962b46383ca773d0aed0/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/23/79/0048585ef235747484f35c1669dda630304f15c523344281127b543d190f/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl
+[2023-06-23 07:16:34] INFO root fetch - processPackages [lightweightdebugmessages]: executing diffoscope
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addon-base-tier-validation-forward]: Downloading https://files.pythonhosted.org/packages/4d/e5/db2b48d3c7ddc7b94ccdcc80cde024a9d51e19ca20d047fb282425c1eeb9/odoo_addon_base_tier_validation_forward-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-23 07:16:34] INFO root fetch - processPackages [lightweightdebugmessages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweightdebugmessages-0.1.0.tar.gz tmp/lightweightdebugmessages-0.1.0.0a0.tar.gz --markdown 20230623/l/lightweightdebugmessages/0.1.0-0.1.0.0a0/diff.md --exclude *.pyd
+[2023-06-23 07:16:34] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/16/8c/78ace2cf6782b0b9ad9c7641a103d5af7585152269b8dd4feca183376623/dask-cuda-23.8.0a230623.tar.gz
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: Downloading https://files.pythonhosted.org/packages/7f/9b/d0e6ddea3f39855cafe404ed0ec9150b62bbe74012b579afaeabe6b6cc11/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev6-py3-none-any.whl
+[2023-06-23 07:16:34] INFO root fetch - processPackages [patreon-archiver]: Downloading https://files.pythonhosted.org/packages/b8/60/ef22654342fda0896007a892650397e009807581f26641136b267a290ce3/patreon_archiver-0.0.6.tar.gz
+[2023-06-23 07:16:34] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/a6/57/da8296f4f21823c0cc44283ae1040f4c19d3ef7d2364618afff7495fab8e/nonebot_plugin_al-0.3.7.tar.gz
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2023-06-23 07:16:34] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20230613.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl.zip --markdown 20230623/o/odoo-addons-oca-server-ux/16.0.20230613.0-16.0.20230622.1/diff.md --exclude *.pyd
+[2023-06-23 07:16:35] INFO root fetch - processPackages [odoo-addon-base-tier-validation-forward]: executing diffoscope
+[2023-06-23 07:16:35] INFO root fetch - processPackages [odoo-addon-base-tier-validation-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation_forward-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation_forward-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-base-tier-validation-forward/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-23 07:16:35] INFO root fetch - processPackages [patreon-archiver]: executing diffoscope
+[2023-06-23 07:16:35] INFO root fetch - processPackages [patreon-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patreon-archiver-0.0.5.tar.gz tmp/patreon_archiver-0.0.6.tar.gz --markdown 20230623/p/patreon-archiver/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 07:16:35] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/f0/b7/37e2eef66bb64f54f5ec0bb9f38ee701b974295f26feabd0d12d8840e716/tflite-model-maker-nightly-0.4.3.dev202306230508.tar.gz
+[2023-06-23 07:16:35] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-23 07:16:35] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.3.6.tar.gz tmp/nonebot_plugin_al-0.3.7.tar.gz --markdown 20230623/n/nonebot-plugin-al/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-23 07:16:35] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: executing diffoscope
+[2023-06-23 07:16:35] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addon-base-tier-validation-report/14.0.1.1.1.dev5-14.0.1.1.1.dev6/diff.md --exclude *.pyd
+[2023-06-23 07:16:35] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-23 07:16:35] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230622.tar.gz tmp/dask-cuda-23.8.0a230623.tar.gz --markdown 20230623/d/dask-cuda/23.8.0a230622-23.8.0a230623/diff.md --exclude *.pyd
+[2023-06-23 07:16:35] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-23 07:16:35] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306220509.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306230508.tar.gz --markdown 20230623/t/tflite-model-maker-nightly/0.4.3.dev202306220509-0.4.3.dev202306230508/diff.md --exclude *.pyd
+[2023-06-23 07:16:35] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-06-23 07:16:35] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.4.54-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-base-tier-validation/16.0.1.0.4.54-16.0.1.0.4.6/diff.md --exclude *.pyd
+[2023-06-23 07:16:35] INFO root fetch - processPackages [fast-crossing]: Downloading https://files.pythonhosted.org/packages/16/fd/2491b8b8fd5a8021bc22b87b552a5d1c8c2a0c33e93122d1cf2a9b87b491/fast_crossing-0.0.8.tar.gz
+[2023-06-23 07:16:35] INFO root fetch - processPackages [fast-crossing]: executing diffoscope
+[2023-06-23 07:16:35] INFO root fetch - processPackages [fast-crossing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_crossing-0.0.7.tar.gz tmp/fast_crossing-0.0.8.tar.gz --markdown 20230623/f/fast-crossing/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-23 07:16:36] INFO root fetch - processPackages [lightweightdebugmessages]: Remove: archive file [/home/abi/fetcher/tmp/lightweightdebugmessages-0.1.0.tar.gz]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [lightweightdebugmessages]: Remove: archive file [/home/abi/fetcher/tmp/lightweightdebugmessages-0.1.0.0a0.tar.gz]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [lightweightdebugmessages]: Start processing: lightweightdebugmessages
+[2023-06-23 07:16:36] INFO root fetch - main [MainThread]: End processing [lightweightdebugmessages]: success
+[2023-06-23 07:16:36] INFO root fetch - processPackages [lightweightdebugmessages]: New version: [0.1.0.0a0] Old Version: [0.1.0]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [lightweightdebugmessages]: Downloading https://files.pythonhosted.org/packages/81/32/217789b3d3f7827ee95174a4c663b981c2de2492c7ff4b76d3c7d7f14f16/lightweightdebugmessages-0.1.0.tar.gz
+[2023-06-23 07:16:36] INFO root fetch - processPackages [lightweightdebugmessages]: Downloading https://files.pythonhosted.org/packages/6c/ca/7fb7caf5d3203f9ffbc913ce76e9cee3d567324f24f226171b08217c85c9/lightweightdebugmessages-0.1.0.0a0.tar.gz
+[2023-06-23 07:16:36] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230613.0-py3-none-any.whl.zip]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl.zip]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Start processing: polly-python
+[2023-06-23 07:16:36] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2023-06-23 07:16:36] INFO root fetch - processPackages [lightweightdebugmessages]: executing diffoscope
+[2023-06-23 07:16:36] INFO root fetch - processPackages [lightweightdebugmessages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweightdebugmessages-0.1.0.tar.gz tmp/lightweightdebugmessages-0.1.0.0a0.tar.gz --markdown 20230623/l/lightweightdebugmessages/0.1.0-0.1.0.0a0/diff.md --exclude *.pyd
+[2023-06-23 07:16:36] INFO root fetch - processPackages [polly-python]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [odoo-addon-base-tier-validation-forward]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation_forward-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [odoo-addon-base-tier-validation-forward]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation_forward-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [odoo-addon-base-tier-validation-forward]: Start processing: NodeGraphQt
+[2023-06-23 07:16:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation-forward]: success
+[2023-06-23 07:16:36] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [polly-python]: Downloading https://files.pythonhosted.org/packages/43/af/bb0388fe28d7ee01bf362adfea7e8b7791898d3bc3e2b042d0e5a3b11550/polly-python-0.3.1.tar.gz
+[2023-06-23 07:16:36] INFO root fetch - processPackages [patreon-archiver]: Remove: archive file [/home/abi/fetcher/tmp/patreon-archiver-0.0.5.tar.gz]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [patreon-archiver]: Remove: archive file [/home/abi/fetcher/tmp/patreon_archiver-0.0.6.tar.gz]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [patreon-archiver]: Start processing: atila-vue
+[2023-06-23 07:16:36] INFO root fetch - main [MainThread]: End processing [patreon-archiver]: success
+[2023-06-23 07:16:36] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/0e/26/93c2b30e7a570829c576ef8fe2b5182f46cad83768a6072b55e2dfd17d73/NodeGraphQt-0.6.2.tar.gz
+[2023-06-23 07:16:36] INFO root fetch - processPackages [atila-vue]: New version: [0.3.1] Old Version: [0.3.0.1]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_tier_validation_report-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2023-06-23 07:16:36] INFO root fetch - processPackages [odoo14-addon-base-tier-validation-report]: Start processing: openai-function-call
+[2023-06-23 07:16:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-tier-validation-report]: success
+[2023-06-23 07:16:36] INFO root fetch - processPackages [openai-function-call]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 07:16:37] INFO root fetch - processPackages [openai-function-call]: Downloading https://files.pythonhosted.org/packages/a7/af/bace3acea4b5b637c64021378fd40dc0f5f5c6e9cfe0ea365da94d8b0d48/openai_function_call-0.0.3.tar.gz
+[2023-06-23 07:16:37] INFO root fetch - processPackages [polly-python]: Downloading https://files.pythonhosted.org/packages/89/ed/902cfa5989dfbd99bd777fb4b8af25c468acaae85655b295cac150d6e04a/polly-python-0.3.2.tar.gz
+[2023-06-23 07:16:37] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/bc/b2/f10a6c3ab66fb228eb82263cd1fb4e66eed7c3ab2c74a7440ab56b4eb012/NodeGraphQt-0.6.3.tar.gz
+[2023-06-23 07:16:37] INFO root fetch - processPackages [atila-vue]: Downloading https://files.pythonhosted.org/packages/f7/5f/efab3981a73998e4c126682c09fca9f991fc54f3b5cf953591058e9f673b/atila_vue-0.3.0.1-py3-none-any.whl
+[2023-06-23 07:16:37] INFO root fetch - processPackages [openai-function-call]: Downloading https://files.pythonhosted.org/packages/9f/c3/49f2ae0993b166063234e702a581f73716bf1b796af3ff09861f620912a4/openai_function_call-0.0.4.tar.gz
+[2023-06-23 07:16:37] INFO root fetch - processPackages [polly-python]: executing diffoscope
+[2023-06-23 07:16:37] INFO root fetch - processPackages [polly-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polly-python-0.3.1.tar.gz tmp/polly-python-0.3.2.tar.gz --markdown 20230623/p/polly-python/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-23 07:16:37] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-06-23 07:16:37] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.6.2.tar.gz tmp/NodeGraphQt-0.6.3.tar.gz --markdown 20230623/N/NodeGraphQt/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-23 07:16:37] INFO root fetch - processPackages [openai-function-call]: executing diffoscope
+[2023-06-23 07:16:37] INFO root fetch - processPackages [openai-function-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function_call-0.0.3.tar.gz tmp/openai_function_call-0.0.4.tar.gz --markdown 20230623/o/openai-function-call/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 07:16:37] INFO root fetch - processPackages [atila-vue]: Downloading https://files.pythonhosted.org/packages/6c/93/0eff548409e0c9b74e264adaeb4f95bf1869ec7927b5782c588903621cff/atila_vue-0.3.1-py3-none-any.whl
+[2023-06-23 07:16:37] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.4.54-py3-none-any.whl.zip]
+[2023-06-23 07:16:37] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip]
+[2023-06-23 07:16:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-06-23 07:16:37] INFO root fetch - processPackages [atila-vue]: executing diffoscope
+[2023-06-23 07:16:37] INFO root fetch - processPackages [atila-vue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atila_vue-0.3.0.1-py3-none-any.whl.zip tmp/atila_vue-0.3.1-py3-none-any.whl.zip --markdown 20230623/a/atila-vue/0.3.0.1-0.3.1/diff.md --exclude *.pyd
+[2023-06-23 07:16:37] INFO root fetch - processPackages [lightweightdebugmessages]: Remove: archive file [/home/abi/fetcher/tmp/lightweightdebugmessages-0.1.0.tar.gz]
+[2023-06-23 07:16:37] INFO root fetch - processPackages [lightweightdebugmessages]: Remove: archive file [/home/abi/fetcher/tmp/lightweightdebugmessages-0.1.0.0a0.tar.gz]
+[2023-06-23 07:16:37] INFO root fetch - main [MainThread]: End processing [lightweightdebugmessages]: success
+[2023-06-23 07:16:38] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.6.tar.gz]
+[2023-06-23 07:16:38] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.7.tar.gz]
+[2023-06-23 07:16:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-23 07:16:38] INFO root fetch - processPackages [openai-function-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_call-0.0.3.tar.gz]
+[2023-06-23 07:16:38] INFO root fetch - processPackages [openai-function-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_call-0.0.4.tar.gz]
+[2023-06-23 07:16:38] INFO root fetch - main [MainThread]: End processing [openai-function-call]: success
+[2023-06-23 07:16:38] INFO root fetch - processPackages [polly-python]: Remove: archive file [/home/abi/fetcher/tmp/polly-python-0.3.1.tar.gz]
+[2023-06-23 07:16:38] INFO root fetch - processPackages [polly-python]: Remove: archive file [/home/abi/fetcher/tmp/polly-python-0.3.2.tar.gz]
+[2023-06-23 07:16:38] INFO root fetch - main [MainThread]: End processing [polly-python]: success
+[2023-06-23 07:16:38] INFO root fetch - processPackages [atila-vue]: Remove: archive file [/home/abi/fetcher/tmp/atila_vue-0.3.0.1-py3-none-any.whl.zip]
+[2023-06-23 07:16:38] INFO root fetch - processPackages [atila-vue]: Remove: archive file [/home/abi/fetcher/tmp/atila_vue-0.3.1-py3-none-any.whl.zip]
+[2023-06-23 07:16:38] INFO root fetch - main [MainThread]: End processing [atila-vue]: success
+[2023-06-23 07:16:39] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.2.tar.gz]
+[2023-06-23 07:16:39] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.3.tar.gz]
+[2023-06-23 07:16:39] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-06-23 07:16:39] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230622.tar.gz]
+[2023-06-23 07:16:39] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230623.tar.gz]
+[2023-06-23 07:16:39] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-23 07:16:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306220509.tar.gz]
+[2023-06-23 07:16:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306230508.tar.gz]
+[2023-06-23 07:16:42] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-23 07:17:26] INFO root fetch - processPackages [fast-crossing]: Remove: archive file [/home/abi/fetcher/tmp/fast_crossing-0.0.7.tar.gz]
+[2023-06-23 07:17:26] INFO root fetch - processPackages [fast-crossing]: Remove: archive file [/home/abi/fetcher/tmp/fast_crossing-0.0.8.tar.gz]
+[2023-06-23 07:17:26] INFO root fetch - main [MainThread]: End processing [fast-crossing]: success
+[2023-06-23 07:17:26] INFO root fetch - main [MainThread]: Store serial: [18614327]
