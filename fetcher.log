@@ -16217,3 +16217,155 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 13:19:00] INFO root fetch - processPackages [morph-kgc]: Remove: archive file [/home/abi/fetcher/tmp/morph_kgc-2.6.1.tar.gz]
 [2023-06-23 13:19:00] INFO root fetch - main [MainThread]: End processing [morph-kgc]: success
 [2023-06-23 13:19:00] INFO root fetch - main [MainThread]: Store serial: [18617229]
+[2023-06-23 13:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617229]
+[2023-06-23 13:24:10] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-23 13:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foursight-core
+[2023-06-23 13:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twscrape
+[2023-06-23 13:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notion-pinecone
+[2023-06-23 13:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foursight-cgap
+[2023-06-23 13:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foursight
+[2023-06-23 13:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-prime-rando
+[2023-06-23 13:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kili
+[2023-06-23 13:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dwiqc
+[2023-06-23 13:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: JustScan
+[2023-06-23 13:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-06-23 13:24:10] INFO root fetch - processPackages [twscrape]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-23 13:24:10] INFO root fetch - processPackages [foursight]: New version: [3.5.0.1b7] Old Version: [3.5.0.1b6]
+[2023-06-23 13:24:10] INFO root fetch - processPackages [open-prime-rando]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-06-23 13:24:10] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 13:24:10] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-06-23 13:24:10] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-23 13:24:10] INFO root fetch - processPackages [dwiqc]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-23 13:24:10] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-23 13:24:10] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230623.11.21.329115] Old Version: [20230622.6.36.975162]
+[2023-06-23 13:24:10] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/47/72/7f0ad5e76055c5ddb3931f55e51e6cb729896cb1d115200933d5969d9963/foursight-3.5.0.1b6.tar.gz
+[2023-06-23 13:24:10] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b9] Old Version: [3.5.0.1b8]
+[2023-06-23 13:24:11] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/ce/9a/61f4b3f244cbb9521d4095164511b68caa4f7ba64ecb6c8391721746a286/notion-pinecone-0.0.5.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/0c/63/4ff0a876d12002fc8380d7aebad3bb53e3f42557ddab096b6b9385bd7408/dwiqc-0.4.8-py2.py3-none-any.whl
+[2023-06-23 13:24:11] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/40/0a/ef040eb128a68e59f9ae2d42fa1a5b92a4475bc8150916b629db4293a29d/open-prime-rando-0.6.2.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/a2/e052d0ab361407e02717773dddb0001ad56466be700eceb31d48c8455e3e/foursight_cgap-3.5.0.1b8.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/33/fb/4d981198626b98845267a17a0440d4ba4b9c6c22fbff6d2a31f32bbe8e8c/twscrape-0.2.2.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e3/da/681fe2629ec015ccf83f710f4559e0e91009d261b6e080df122b48329768/foursight-3.5.0.1b7.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/99/9d/fb37a586f01eb149c76c7d2c33540429c2169a9054118ee740f457b29f19/dwiqc-0.4.9-py2.py3-none-any.whl
+[2023-06-23 13:24:11] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c7/84/bb7b3ad6574e95d7f4177e56c1e0534e73d40d13f9e7fca30ea79cf75a60/certora-cli-alpha-master-20230622.6.36.975162.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.1b6.tar.gz tmp/foursight-3.5.0.1b7.tar.gz --markdown 20230623/f/foursight/3.5.0.1b6-3.5.0.1b7/diff.md --exclude *.pyd
+[2023-06-23 13:24:11] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37099538>=10485760
+[2023-06-23 13:24:11] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: huawei-lte-api
+[2023-06-23 13:24:11] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-23 13:24:11] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/b8/cf/bdbf118a9c8b5a1c45968c515a46866547019f6daaa4e0bf7722e7a2b288/notion-pinecone-0.0.6.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [huawei-lte-api]: New version: [1.7.3] Old Version: [1.6.9]
+[2023-06-23 13:24:11] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-23 13:24:11] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230623/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-23 13:24:11] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/43/8e/c8834d171ec13f45e514bb10d88176a2d0f8efd7609e3b354dbb2d5f3914/open-prime-rando-0.7.0.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-23 13:24:11] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip --markdown 20230623/d/dwiqc/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b8.tar.gz tmp/foursight_cgap-3.5.0.1b9.tar.gz --markdown 20230623/f/foursight-cgap/3.5.0.1b8-3.5.0.1b9/diff.md --exclude *.pyd
+[2023-06-23 13:24:11] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/ec/99/d4744ce42ec790956e7db7b49ecf58ffe02e882373a8fd7e89d5255e997b/twscrape-0.3.0.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-23 13:24:11] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.5.tar.gz tmp/notion-pinecone-0.0.6.tar.gz --markdown 20230623/n/notion-pinecone/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 13:24:11] INFO root fetch - processPackages [twscrape]: executing diffoscope
+[2023-06-23 13:24:11] INFO root fetch - processPackages [twscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twscrape-0.2.2.tar.gz tmp/twscrape-0.3.0.tar.gz --markdown 20230623/t/twscrape/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 13:24:11] INFO root fetch - processPackages [open-prime-rando]: executing diffoscope
+[2023-06-23 13:24:11] INFO root fetch - processPackages [open-prime-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-prime-rando-0.6.2.tar.gz tmp/open-prime-rando-0.7.0.tar.gz --markdown 20230623/o/open-prime-rando/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-23 13:24:11] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230623/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-23 13:24:11] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-06-23 13:24:11] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230623/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-06-23 13:24:11] INFO root fetch - processPackages [huawei-lte-api]: Downloading https://files.pythonhosted.org/packages/d6/14/7a21b9abd695f86b1a54072f9aa131d5e965b437490b986dccc215dc4903/huawei-lte-api-1.6.9.tar.gz
+[2023-06-23 13:24:12] INFO root fetch - processPackages [huawei-lte-api]: Downloading https://files.pythonhosted.org/packages/0c/3b/3bb002225a54ffb79493a96beea345069024e93ab1b06a1605f2735e3711/huawei-lte-api-1.7.3.tar.gz
+[2023-06-23 13:24:12] INFO root fetch - processPackages [huawei-lte-api]: executing diffoscope
+[2023-06-23 13:24:12] INFO root fetch - processPackages [huawei-lte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huawei-lte-api-1.6.9.tar.gz tmp/huawei-lte-api-1.7.3.tar.gz --markdown 20230623/h/huawei-lte-api/1.6.9-1.7.3/diff.md --exclude *.pyd
+[2023-06-23 13:24:12] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip]
+[2023-06-23 13:24:12] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip]
+[2023-06-23 13:24:12] INFO root fetch - processPackages [dwiqc]: Start processing: renalsegmentor
+[2023-06-23 13:24:12] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-23 13:24:12] INFO root fetch - processPackages [renalsegmentor]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-06-23 13:24:12] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b6.tar.gz]
+[2023-06-23 13:24:12] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
+[2023-06-23 13:24:12] INFO root fetch - processPackages [foursight]: Start processing: tracebloc-package
+[2023-06-23 13:24:12] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-23 13:24:13] INFO root fetch - processPackages [renalsegmentor]: Downloading https://files.pythonhosted.org/packages/34/28/67bc7b028a0b96cc8de46556243e126541d55fbe6b4c684e5586b10af3e3/renalsegmentor-1.3.6.tar.gz
+[2023-06-23 13:24:13] INFO root fetch - processPackages [tracebloc-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.5.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.6.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [notion-pinecone]: Start processing: kiwitcms-github-marketplace
+[2023-06-23 13:24:13] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-23 13:24:13] INFO root fetch - processPackages [kiwitcms-github-marketplace]: New version: [2.3.7] Old Version: [2.3.6]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/8c/0c/53c1613f9f9cc2d451482f056ad41f63d79cd5a6df8760a925969349d056/tracebloc_package-0.1.8.tar.gz
+[2023-06-23 13:24:13] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Downloading https://files.pythonhosted.org/packages/68/0a/5c9697c089502b972b0b40a3c8daddfda9cbc1f7130c43b38f3e262e9859/kiwitcms-github-marketplace-2.3.6.tar.gz
+[2023-06-23 13:24:13] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.2.2.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.3.0.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [twscrape]: Start processing: DensityClust
+[2023-06-23 13:24:13] INFO root fetch - main [MainThread]: End processing [twscrape]: success
+[2023-06-23 13:24:13] INFO root fetch - processPackages [DensityClust]: New version: [1.4.5] Old Version: [1.0.8]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.6.2.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.7.0.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [open-prime-rando]: Start processing: Akatosh
+[2023-06-23 13:24:13] INFO root fetch - main [MainThread]: End processing [open-prime-rando]: success
+[2023-06-23 13:24:13] INFO root fetch - processPackages [Akatosh]: New version: [2.0.0] Old Version: [1.7.3]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [DensityClust]: Downloading https://files.pythonhosted.org/packages/34/44/770dbc32adfa2b93711a683fa71242af3bc9ba65d38101ed0b5820b4203c/DensityClust-1.0.8.tar.gz
+[2023-06-23 13:24:13] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Downloading https://files.pythonhosted.org/packages/91/f5/33832bdaa197c4abbce20ab205a42ef1a104518c1b97cf47610cc1747c8a/kiwitcms-github-marketplace-2.3.7.tar.gz
+[2023-06-23 13:24:13] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/36/41/708ce20d5bd9f9fae437a7197cf2c2b173781fd46b2a32916f80aff7e26a/Akatosh-1.7.3.tar.gz
+[2023-06-23 13:24:13] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [kili]: Start processing: kafka-schema-registry-admin
+[2023-06-23 13:24:13] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-06-23 13:24:13] INFO root fetch - processPackages [kafka-schema-registry-admin]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b8.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-23 13:24:13] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/2f/86/f5a06ff14db12b21fe7460dc71f1dae6aca3db77058e45f121993bc6a568/tracebloc_package-0.1.9.tar.gz
+[2023-06-23 13:24:13] INFO root fetch - processPackages [kiwitcms-github-marketplace]: executing diffoscope
+[2023-06-23 13:24:13] INFO root fetch - processPackages [kiwitcms-github-marketplace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwitcms-github-marketplace-2.3.6.tar.gz tmp/kiwitcms-github-marketplace-2.3.7.tar.gz --markdown 20230623/k/kiwitcms-github-marketplace/2.3.6-2.3.7/diff.md --exclude *.pyd
+[2023-06-23 13:24:13] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-23 13:24:13] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-23 13:24:14] INFO root fetch - processPackages [huawei-lte-api]: Remove: archive file [/home/abi/fetcher/tmp/huawei-lte-api-1.6.9.tar.gz]
+[2023-06-23 13:24:14] INFO root fetch - processPackages [huawei-lte-api]: Remove: archive file [/home/abi/fetcher/tmp/huawei-lte-api-1.7.3.tar.gz]
+[2023-06-23 13:24:14] INFO root fetch - main [MainThread]: End processing [huawei-lte-api]: success
+[2023-06-23 13:24:14] INFO root fetch - processPackages [kafka-schema-registry-admin]: Downloading https://files.pythonhosted.org/packages/94/c8/c92aa4ff5ad20be167933d0d3ce0437a207e56bf6f992355625bc6974ff9/kafka-schema-registry-admin-0.2.4.tar.gz
+[2023-06-23 13:24:14] INFO root fetch - processPackages [DensityClust]: Downloading https://files.pythonhosted.org/packages/9a/f8/0666abd1b1dc3bfbb8a68a9abf7e3f3bdd434343f19037dbc9d2189093e4/DensityClust-1.4.5.tar.gz
+[2023-06-23 13:24:14] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/b4/11/8edc8dea5423c181e1ff2561fa13b222b8013252b10ff375ae7e732f8fea/Akatosh-2.0.0.tar.gz
+[2023-06-23 13:24:14] INFO root fetch - processPackages [tracebloc-package]: executing diffoscope
+[2023-06-23 13:24:14] INFO root fetch - processPackages [tracebloc-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-0.1.8.tar.gz tmp/tracebloc_package-0.1.9.tar.gz --markdown 20230623/t/tracebloc-package/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 13:24:14] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-06-23 13:24:14] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-1.7.3.tar.gz tmp/Akatosh-2.0.0.tar.gz --markdown 20230623/A/Akatosh/1.7.3-2.0.0/diff.md --exclude *.pyd
+[2023-06-23 13:24:14] INFO root fetch - processPackages [DensityClust]: executing diffoscope
+[2023-06-23 13:24:14] INFO root fetch - processPackages [DensityClust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DensityClust-1.0.8.tar.gz tmp/DensityClust-1.4.5.tar.gz --markdown 20230623/D/DensityClust/1.0.8-1.4.5/diff.md --exclude *.pyd
+[2023-06-23 13:24:14] INFO root fetch - processPackages [kafka-schema-registry-admin]: Downloading https://files.pythonhosted.org/packages/e6/18/60dd53e1cc745a41c901bc831f4da0e003627d05a3212f4e763ee890cac7/kafka_schema_registry_admin-0.2.5.tar.gz
+[2023-06-23 13:24:14] INFO root fetch - processPackages [kafka-schema-registry-admin]: executing diffoscope
+[2023-06-23 13:24:14] INFO root fetch - processPackages [kafka-schema-registry-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-schema-registry-admin-0.2.4.tar.gz tmp/kafka_schema_registry_admin-0.2.5.tar.gz --markdown 20230623/k/kafka-schema-registry-admin/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-23 13:24:14] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-23 13:24:14] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-23 13:24:14] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-23 13:24:14] INFO root fetch - processPackages [renalsegmentor]: Downloading https://files.pythonhosted.org/packages/b9/77/6d1b6f2b0691f1b9343dc94f60da3d652a4fcb565c4415371cc7af9bbc60/renalsegmentor-1.3.7.tar.gz
+[2023-06-23 13:24:14] INFO root fetch - processPackages [renalsegmentor]: executing diffoscope
+[2023-06-23 13:24:14] INFO root fetch - processPackages [renalsegmentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renalsegmentor-1.3.6.tar.gz tmp/renalsegmentor-1.3.7.tar.gz --markdown 20230623/r/renalsegmentor/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-06-23 13:24:15] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Remove: archive file [/home/abi/fetcher/tmp/kiwitcms-github-marketplace-2.3.6.tar.gz]
+[2023-06-23 13:24:15] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Remove: archive file [/home/abi/fetcher/tmp/kiwitcms-github-marketplace-2.3.7.tar.gz]
+[2023-06-23 13:24:15] INFO root fetch - main [MainThread]: End processing [kiwitcms-github-marketplace]: success
+[2023-06-23 13:24:15] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.1.8.tar.gz]
+[2023-06-23 13:24:15] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.1.9.tar.gz]
+[2023-06-23 13:24:15] INFO root fetch - main [MainThread]: End processing [tracebloc-package]: success
+[2023-06-23 13:24:15] INFO root fetch - processPackages [DensityClust]: Remove: archive file [/home/abi/fetcher/tmp/DensityClust-1.0.8.tar.gz]
+[2023-06-23 13:24:15] INFO root fetch - processPackages [DensityClust]: Remove: archive file [/home/abi/fetcher/tmp/DensityClust-1.4.5.tar.gz]
+[2023-06-23 13:24:15] INFO root fetch - main [MainThread]: End processing [DensityClust]: success
+[2023-06-23 13:24:15] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-1.7.3.tar.gz]
+[2023-06-23 13:24:15] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.0.0.tar.gz]
+[2023-06-23 13:24:15] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-06-23 13:24:15] INFO root fetch - processPackages [kafka-schema-registry-admin]: Remove: archive file [/home/abi/fetcher/tmp/kafka-schema-registry-admin-0.2.4.tar.gz]
+[2023-06-23 13:24:15] INFO root fetch - processPackages [kafka-schema-registry-admin]: Remove: archive file [/home/abi/fetcher/tmp/kafka_schema_registry_admin-0.2.5.tar.gz]
+[2023-06-23 13:24:15] INFO root fetch - main [MainThread]: End processing [kafka-schema-registry-admin]: success
+[2023-06-23 13:24:17] INFO root fetch - processPackages [renalsegmentor]: Remove: archive file [/home/abi/fetcher/tmp/renalsegmentor-1.3.6.tar.gz]
+[2023-06-23 13:24:17] INFO root fetch - processPackages [renalsegmentor]: Remove: archive file [/home/abi/fetcher/tmp/renalsegmentor-1.3.7.tar.gz]
+[2023-06-23 13:24:17] INFO root fetch - main [MainThread]: End processing [renalsegmentor]: success
+[2023-06-23 13:24:17] INFO root fetch - main [MainThread]: Store serial: [18617280]
