@@ -9545,3 +9545,126 @@
 [2023-06-23 07:38:52] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-23 07:38:52] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
 [2023-06-23 07:38:52] INFO root fetch - main [MainThread]: Store serial: [18614433]
+[2023-06-23 07:44:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614433]
+[2023-06-23 07:44:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-23 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiida-core
+[2023-06-23 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cid-cmd
+[2023-06-23 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nitric
+[2023-06-23 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libmata
+[2023-06-23 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: request-time-tracker
+[2023-06-23 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: re2shield
+[2023-06-23 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finetools
+[2023-06-23 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addons-oca-web
+[2023-06-23 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-chat-plus
+[2023-06-23 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: buffalo
+[2023-06-23 07:44:07] INFO root fetch - processPackages [libmata]: New version: [0.71.0] Old Version: [0.70.0]
+[2023-06-23 07:44:07] INFO root fetch - processPackages [streamlit-chat-plus]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-23 07:44:07] INFO root fetch - processPackages [request-time-tracker]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-23 07:44:07] INFO root fetch - processPackages [cid-cmd]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-23 07:44:07] INFO root fetch - processPackages [odoo14-addons-oca-web]: New version: [14.0.20230622.0] Old Version: [14.0.20230509.0]
+[2023-06-23 07:44:07] INFO root fetch - processPackages [aiida-core]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-06-23 07:44:07] INFO root fetch - processPackages [buffalo]: New version: [2.0.2rc2] Old Version: [2.0.1]
+[2023-06-23 07:44:07] WARNING root fetch - processPackages [finetools]: Skipping, unable to determine old version
+[2023-06-23 07:44:07] INFO root fetch - processPackages [nitric]: New version: [0.9.2.dev4] Old Version: [0.9.2.dev3]
+[2023-06-23 07:44:07] INFO root fetch - processPackages [finetools]: Start processing: lectric-sdk
+[2023-06-23 07:44:07] INFO root fetch - processPackages [re2shield]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-23 07:44:07] INFO root fetch - main [MainThread]: End processing [finetools] error
+[2023-06-23 07:44:07] INFO root fetch - processPackages [lectric-sdk]: New version: [0.0.9] Old Version: [0.0.6a0]
+[2023-06-23 07:44:07] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/6d/e4/262bd547d4ba4b0946aec5f84a489b5f7bb7a601de63566c2e5ae492a162/libmata-0.70.0.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/fe/a0/5dd619b961c8d1d90c05d9d9c3ef6c6df786df4198eb728acb3362743acc/cid-cmd-0.2.8.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/07/f0/595fbac9f206ec8f9649c834789bcf28dcdcb8f8807d4362c3ceea12e922/nitric-0.9.2.dev3.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [request-time-tracker]: Downloading https://files.pythonhosted.org/packages/55/2b/74bf12369cc72866a94768c03c01805c700d1850abd59740a5b13d60e891/request-time-tracker-0.0.6.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/85/b5/820e9facc2e80874c94b37c06a8d02d903c7247372817ebcc3cb9942e312/re2shield-0.1.9.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [streamlit-chat-plus]: Downloading https://files.pythonhosted.org/packages/99/b7/82786a488c6effc83d0fa0fa0e8fe8476edfcf0ae419a1b6135c55a8633d/streamlit-chat-plus-0.0.0.1.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [odoo14-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/ce/1e/ad89b64ba0c051eba0c6b1ff05d17c340abe5cbdfb4871705ea70c0323bb/odoo14_addons_oca_web-14.0.20230509.0-py3-none-any.whl
+[2023-06-23 07:44:07] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/81/ed/c83b8e908616ce5f569a349cac17e6f68a635038057e0e6a74828dab1bdf/nitric-0.9.2.dev4.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/32/6d/2a17b0502b559cee495f4e07224f56ff0eb2a35fba5a62fb74eacc0381ec/cid-cmd-0.2.9.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [lectric-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/6272ab8629bdcb6480b2746e6e3bb7146ea176e827b6de3de5867b0b94d6/lectric-sdk-0.0.6a0.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [buffalo]: Downloading https://files.pythonhosted.org/packages/2a/d8/fc8b4bb8f4823a38ecd303fd89226eec907ad2989e07fbd06f1fd2bad937/buffalo-2.0.1.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [nitric]: executing diffoscope
+[2023-06-23 07:44:07] INFO root fetch - processPackages [nitric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitric-0.9.2.dev3.tar.gz tmp/nitric-0.9.2.dev4.tar.gz --markdown 20230623/n/nitric/0.9.2.dev3-0.9.2.dev4/diff.md --exclude *.pyd
+[2023-06-23 07:44:07] INFO root fetch - processPackages [cid-cmd]: executing diffoscope
+[2023-06-23 07:44:07] INFO root fetch - processPackages [cid-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cid-cmd-0.2.8.tar.gz tmp/cid-cmd-0.2.9.tar.gz --markdown 20230623/c/cid-cmd/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-23 07:44:07] INFO root fetch - processPackages [aiida-core]: Downloading https://files.pythonhosted.org/packages/46/3f/7949ead5cd4cf0c806027ec4e53047c4c517e8974af6975b1d95ab4c7cd9/aiida_core-2.3.1.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [request-time-tracker]: Downloading https://files.pythonhosted.org/packages/25/45/a86a985f8c1e3cb63fe3f456e23f49e57e0a50a44a23544686436b6adec5/request-time-tracker-0.0.7.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/c6/d2/147b9ac2eaa0a1631568b8795be5dd7593198a3349ba748a6609a43608bb/libmata-0.71.0.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-06-23 07:44:07] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.70.0.tar.gz tmp/libmata-0.71.0.tar.gz --markdown 20230623/l/libmata/0.70.0-0.71.0/diff.md --exclude *.pyd
+[2023-06-23 07:44:07] INFO root fetch - processPackages [request-time-tracker]: executing diffoscope
+[2023-06-23 07:44:07] INFO root fetch - processPackages [request-time-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request-time-tracker-0.0.6.tar.gz tmp/request-time-tracker-0.0.7.tar.gz --markdown 20230623/r/request-time-tracker/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-23 07:44:07] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/74/e6/d2b9f8af558f734c32673c53fd1fe60ea57fef81800c42df4ebf72e28501/re2shield-0.2.0.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [streamlit-chat-plus]: Downloading https://files.pythonhosted.org/packages/e4/ee/39df05f0309e562030671d60f26f9e63a9b0bb042f01c1b4d2b9ad3d4493/streamlit-chat-plus-0.0.0.2.tar.gz
+[2023-06-23 07:44:07] INFO root fetch - processPackages [odoo14-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/e6/8a/d74fe966829091c40815cae4827e95f789099e878f9977e864c39431c14d/odoo14_addons_oca_web-14.0.20230622.0-py3-none-any.whl
+[2023-06-23 07:44:07] INFO root fetch - processPackages [re2shield]: executing diffoscope
+[2023-06-23 07:44:07] INFO root fetch - processPackages [re2shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re2shield-0.1.9.tar.gz tmp/re2shield-0.2.0.tar.gz --markdown 20230623/r/re2shield/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-23 07:44:08] INFO root fetch - processPackages [odoo14-addons-oca-web]: executing diffoscope
+[2023-06-23 07:44:08] INFO root fetch - processPackages [odoo14-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_web-14.0.20230509.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_web-14.0.20230622.0-py3-none-any.whl.zip --markdown 20230623/o/odoo14-addons-oca-web/14.0.20230509.0-14.0.20230622.0/diff.md --exclude *.pyd
+[2023-06-23 07:44:08] INFO root fetch - processPackages [streamlit-chat-plus]: executing diffoscope
+[2023-06-23 07:44:08] INFO root fetch - processPackages [streamlit-chat-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-chat-plus-0.0.0.1.tar.gz tmp/streamlit-chat-plus-0.0.0.2.tar.gz --markdown 20230623/s/streamlit-chat-plus/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-23 07:44:08] INFO root fetch - processPackages [lectric-sdk]: Downloading https://files.pythonhosted.org/packages/7d/f5/c957a796a1873e1f7870cd3cdfbba66a8159c62adb8e5785cb5d9b2dfef0/lectric-sdk-0.0.9.tar.gz
+[2023-06-23 07:44:08] INFO root fetch - processPackages [lectric-sdk]: executing diffoscope
+[2023-06-23 07:44:08] INFO root fetch - processPackages [lectric-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lectric-sdk-0.0.6a0.tar.gz tmp/lectric-sdk-0.0.9.tar.gz --markdown 20230623/l/lectric-sdk/0.0.6a0-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 07:44:08] INFO root fetch - processPackages [buffalo]: Downloading https://files.pythonhosted.org/packages/ec/c8/9d73c027e0d898278515a2116363b9de2a22a7f25aa2f2d366ae5780d006/buffalo-2.0.2rc2.tar.gz
+[2023-06-23 07:44:08] INFO root fetch - processPackages [aiida-core]: Downloading https://files.pythonhosted.org/packages/af/dc/e4d86cb606a12acc10e5afb1c93a0b288def3ff5d60f3e7d12a7989a3d62/aiida_core-2.4.0.tar.gz
+[2023-06-23 07:44:08] INFO root fetch - processPackages [aiida-core]: executing diffoscope
+[2023-06-23 07:44:08] INFO root fetch - processPackages [aiida-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_core-2.3.1.tar.gz tmp/aiida_core-2.4.0.tar.gz --markdown 20230623/a/aiida-core/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-06-23 07:44:08] INFO root fetch - processPackages [buffalo]: executing diffoscope
+[2023-06-23 07:44:08] INFO root fetch - processPackages [buffalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buffalo-2.0.1.tar.gz tmp/buffalo-2.0.2rc2.tar.gz --markdown 20230623/b/buffalo/2.0.1-2.0.2rc2/diff.md --exclude *.pyd
+[2023-06-23 07:44:09] INFO root fetch - processPackages [odoo14-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_web-14.0.20230509.0-py3-none-any.whl.zip]
+[2023-06-23 07:44:09] INFO root fetch - processPackages [odoo14-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_web-14.0.20230622.0-py3-none-any.whl.zip]
+[2023-06-23 07:44:09] INFO root fetch - processPackages [odoo14-addons-oca-web]: Start processing: odoo9-addon-website-portal-purchase
+[2023-06-23 07:44:09] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-web]: success
+[2023-06-23 07:44:09] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.9.tar.gz]
+[2023-06-23 07:44:09] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.2.0.tar.gz]
+[2023-06-23 07:44:09] INFO root fetch - processPackages [re2shield]: Start processing: odoo8-addon-website-portal-purchase
+[2023-06-23 07:44:09] INFO root fetch - main [MainThread]: End processing [re2shield]: success
+[2023-06-23 07:44:09] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-23 07:44:09] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: New version: [8.0.1.0.0.99.dev36] Old Version: [8.0.1.0.0.99.dev35]
+[2023-06-23 07:44:09] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-0.9.2.dev3.tar.gz]
+[2023-06-23 07:44:09] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-0.9.2.dev4.tar.gz]
+[2023-06-23 07:44:09] INFO root fetch - processPackages [nitric]: Start processing: jsonargparse
+[2023-06-23 07:44:09] INFO root fetch - main [MainThread]: End processing [nitric]: success
+[2023-06-23 07:44:09] INFO root fetch - processPackages [jsonargparse]: New version: [4.9.0] Old Version: [4.8.0.dev2]
+[2023-06-23 07:44:09] INFO root fetch - processPackages [request-time-tracker]: Remove: archive file [/home/abi/fetcher/tmp/request-time-tracker-0.0.6.tar.gz]
+[2023-06-23 07:44:09] INFO root fetch - processPackages [request-time-tracker]: Remove: archive file [/home/abi/fetcher/tmp/request-time-tracker-0.0.7.tar.gz]
+[2023-06-23 07:44:09] INFO root fetch - main [MainThread]: End processing [request-time-tracker]: success
+[2023-06-23 07:44:09] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/94/e3/95ca07322d6e164ed2f1425dd99f968b34d5a83d7912dc9c585b76987a9c/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-23 07:44:10] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/ae/ea/37ddd592cf91863e6478d8242b67c03994bfd4f69bdc2cc42acc21537c2c/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev35-py2-none-any.whl
+[2023-06-23 07:44:10] INFO root fetch - processPackages [jsonargparse]: Downloading https://files.pythonhosted.org/packages/16/9b/6278a964472d726663deec1a73e681b459dd3cf253683239e2ed27c01622/jsonargparse-4.8.0.dev2.tar.gz
+[2023-06-23 07:44:10] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid-cmd-0.2.8.tar.gz]
+[2023-06-23 07:44:10] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid-cmd-0.2.9.tar.gz]
+[2023-06-23 07:44:10] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
+[2023-06-23 07:44:10] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/51/8f/f9e3a6a5d6bcbb6e68ab6524e06aaae33741c85fdc78d09eebb02b7b77ab/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-23 07:44:10] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/f1/24/0891737b59f5f89373189a4daf699fa254b618e485f74e6457ac4c525809/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev36-py2-none-any.whl
+[2023-06-23 07:44:10] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: executing diffoscope
+[2023-06-23 07:44:10] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230623/o/odoo9-addon-website-portal-purchase/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-23 07:44:10] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: executing diffoscope
+[2023-06-23 07:44:10] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev35-py2-none-any.whl.zip tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev36-py2-none-any.whl.zip --markdown 20230623/o/odoo8-addon-website-portal-purchase/8.0.1.0.0.99.dev35-8.0.1.0.0.99.dev36/diff.md --exclude *.pyd
+[2023-06-23 07:44:10] INFO root fetch - processPackages [jsonargparse]: Downloading https://files.pythonhosted.org/packages/4b/46/493ba47ed28265c51702c94daf00111d2b5a5ade193250ac089165563e58/jsonargparse-4.9.0.tar.gz
+[2023-06-23 07:44:10] INFO root fetch - processPackages [jsonargparse]: executing diffoscope
+[2023-06-23 07:44:10] INFO root fetch - processPackages [jsonargparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonargparse-4.8.0.dev2.tar.gz tmp/jsonargparse-4.9.0.tar.gz --markdown 20230623/j/jsonargparse/4.8.0.dev2-4.9.0/diff.md --exclude *.pyd
+[2023-06-23 07:44:10] INFO root fetch - processPackages [lectric-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lectric-sdk-0.0.6a0.tar.gz]
+[2023-06-23 07:44:10] INFO root fetch - processPackages [lectric-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lectric-sdk-0.0.9.tar.gz]
+[2023-06-23 07:44:10] INFO root fetch - main [MainThread]: End processing [lectric-sdk]: success
+[2023-06-23 07:44:12] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-23 07:44:12] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-23 07:44:12] INFO root fetch - main [MainThread]: End processing [odoo9-addon-website-portal-purchase]: success
+[2023-06-23 07:44:12] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev35-py2-none-any.whl.zip]
+[2023-06-23 07:44:12] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev36-py2-none-any.whl.zip]
+[2023-06-23 07:44:12] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-portal-purchase]: success
+[2023-06-23 07:44:12] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.8.0.dev2.tar.gz]
+[2023-06-23 07:44:12] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.9.0.tar.gz]
+[2023-06-23 07:44:12] INFO root fetch - main [MainThread]: End processing [jsonargparse]: success
+[2023-06-23 07:44:12] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.70.0.tar.gz]
+[2023-06-23 07:44:12] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.71.0.tar.gz]
+[2023-06-23 07:44:12] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-06-23 07:44:23] INFO root fetch - processPackages [aiida-core]: Remove: archive file [/home/abi/fetcher/tmp/aiida_core-2.3.1.tar.gz]
+[2023-06-23 07:44:23] INFO root fetch - processPackages [aiida-core]: Remove: archive file [/home/abi/fetcher/tmp/aiida_core-2.4.0.tar.gz]
+[2023-06-23 07:44:23] INFO root fetch - main [MainThread]: End processing [aiida-core]: success
+[2023-06-23 07:44:34] INFO root fetch - processPackages [buffalo]: Remove: archive file [/home/abi/fetcher/tmp/buffalo-2.0.1.tar.gz]
+[2023-06-23 07:44:34] INFO root fetch - processPackages [buffalo]: Remove: archive file [/home/abi/fetcher/tmp/buffalo-2.0.2rc2.tar.gz]
+[2023-06-23 07:44:34] INFO root fetch - main [MainThread]: End processing [buffalo]: success
+[2023-06-23 07:44:38] INFO root fetch - processPackages [streamlit-chat-plus]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-chat-plus-0.0.0.1.tar.gz]
+[2023-06-23 07:44:38] INFO root fetch - processPackages [streamlit-chat-plus]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-chat-plus-0.0.0.2.tar.gz]
+[2023-06-23 07:44:38] INFO root fetch - main [MainThread]: End processing [streamlit-chat-plus]: success
+[2023-06-23 07:44:38] INFO root fetch - main [MainThread]: Store serial: [18614480]
