@@ -7555,3 +7555,69 @@
 [2023-06-23 05:07:36] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_credit_control-14.0.1.5.1.dev1-py3-none-any.whl.zip]
 [2023-06-23 05:07:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-credit-control]: success
 [2023-06-23 05:07:36] INFO root fetch - main [MainThread]: Store serial: [18613696]
+[2023-06-23 05:12:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613696]
+[2023-06-23 05:12:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-23 05:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-currency-rate-update
+[2023-06-23 05:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hpgeom
+[2023-06-23 05:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-partner-delivery-schedule
+[2023-06-23 05:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zepben.protobuf
+[2023-06-23 05:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foursight-core
+[2023-06-23 05:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foursight-cgap
+[2023-06-23 05:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foursight
+[2023-06-23 05:12:44] INFO root fetch - processPackages [hpgeom]: New version: [0.8.4] Old Version: [0.8.2]
+[2023-06-23 05:12:44] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2023-06-23 05:12:44] INFO root fetch - processPackages [odoo12-addon-partner-delivery-schedule]: New version: [12.0.1.2.0.99.dev7] Old Version: [12.0.1.2.0.99.dev6]
+[2023-06-23 05:12:44] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-23 05:12:44] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: New version: [16.0.1.1.1.2] Old Version: [16.0.1.1.1.1]
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b9] Old Version: [3.5.0.1b8]
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight]: New version: [3.5.0.1b7] Old Version: [3.5.0.1b6]
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/a2/e052d0ab361407e02717773dddb0001ad56466be700eceb31d48c8455e3e/foursight_cgap-3.5.0.1b8.tar.gz
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/47/72/7f0ad5e76055c5ddb3931f55e51e6cb729896cb1d115200933d5969d9963/foursight-3.5.0.1b6.tar.gz
+[2023-06-23 05:12:45] INFO root fetch - processPackages [hpgeom]: Downloading https://files.pythonhosted.org/packages/0e/83/c7a0ef07c21b2a016c247cfafb03dbc8a98a7ecf3eab08e687c4e015a49b/hpgeom-0.8.2.tar.gz
+[2023-06-23 05:12:45] INFO root fetch - processPackages [odoo12-addon-partner-delivery-schedule]: Downloading https://files.pythonhosted.org/packages/97/33/87dec7ab6195b6a7225a89acec5fc1316910101d77cef9a6b5a63744ba5b/odoo12_addon_partner_delivery_schedule-12.0.1.2.0.99.dev6-py3-none-any.whl
+[2023-06-23 05:12:45] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2023-06-23 05:12:45] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/6c/48/26d3e64bd162130c22d410c1466dfd03ef2d02aa5f9c56f87ececdc79126/odoo_addon_currency_rate_update-16.0.1.1.1.1-py3-none-any.whl
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e3/da/681fe2629ec015ccf83f710f4559e0e91009d261b6e080df122b48329768/foursight-3.5.0.1b7.tar.gz
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b8.tar.gz tmp/foursight_cgap-3.5.0.1b9.tar.gz --markdown 20230623/f/foursight-cgap/3.5.0.1b8-3.5.0.1b9/diff.md --exclude *.pyd
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.1b6.tar.gz tmp/foursight-3.5.0.1b7.tar.gz --markdown 20230623/f/foursight/3.5.0.1b6-3.5.0.1b7/diff.md --exclude *.pyd
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-23 05:12:45] INFO root fetch - processPackages [hpgeom]: Downloading https://files.pythonhosted.org/packages/8d/d5/9c445926feebc2fdf7080595434a374caf50771467f997c824be2a928f80/hpgeom-0.8.4.tar.gz
+[2023-06-23 05:12:45] INFO root fetch - processPackages [odoo12-addon-partner-delivery-schedule]: Downloading https://files.pythonhosted.org/packages/52/5b/f9bc0c2239e1340c947e54b1f030ec9d0593dee9a4020a5b7b0da1549651/odoo12_addon_partner_delivery_schedule-12.0.1.2.0.99.dev7-py3-none-any.whl
+[2023-06-23 05:12:45] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/ad/b8/23890133a19303a839baf066399e9a061e70f509d57629cd4bde5568913e/odoo_addon_currency_rate_update-16.0.1.1.1.2-py3-none-any.whl
+[2023-06-23 05:12:45] INFO root fetch - processPackages [hpgeom]: executing diffoscope
+[2023-06-23 05:12:45] INFO root fetch - processPackages [hpgeom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpgeom-0.8.2.tar.gz tmp/hpgeom-0.8.4.tar.gz --markdown 20230623/h/hpgeom/0.8.2-0.8.4/diff.md --exclude *.pyd
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-23 05:12:45] INFO root fetch - processPackages [odoo12-addon-partner-delivery-schedule]: executing diffoscope
+[2023-06-23 05:12:45] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230623/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-23 05:12:45] INFO root fetch - processPackages [odoo12-addon-partner-delivery-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_partner_delivery_schedule-12.0.1.2.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_partner_delivery_schedule-12.0.1.2.0.99.dev7-py3-none-any.whl.zip --markdown 20230623/o/odoo12-addon-partner-delivery-schedule/12.0.1.2.0.99.dev6-12.0.1.2.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-23 05:12:45] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2023-06-23 05:12:45] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: executing diffoscope
+[2023-06-23 05:12:45] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update-16.0.1.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update-16.0.1.1.1.2-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-currency-rate-update/16.0.1.1.1.1-16.0.1.1.1.2/diff.md --exclude *.pyd
+[2023-06-23 05:12:45] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2023-06-23 05:12:45] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20230623/z/zepben.protobuf/0.9.0b2-0.9.0b3/diff.md --exclude *.pyd
+[2023-06-23 05:12:46] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b8.tar.gz]
+[2023-06-23 05:12:46] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-06-23 05:12:46] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-23 05:12:46] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b6.tar.gz]
+[2023-06-23 05:12:46] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
+[2023-06-23 05:12:46] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-23 05:12:47] INFO root fetch - processPackages [odoo12-addon-partner-delivery-schedule]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_partner_delivery_schedule-12.0.1.2.0.99.dev6-py3-none-any.whl.zip]
+[2023-06-23 05:12:47] INFO root fetch - processPackages [odoo12-addon-partner-delivery-schedule]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_partner_delivery_schedule-12.0.1.2.0.99.dev7-py3-none-any.whl.zip]
+[2023-06-23 05:12:47] INFO root fetch - main [MainThread]: End processing [odoo12-addon-partner-delivery-schedule]: success
+[2023-06-23 05:12:47] INFO root fetch - processPackages [hpgeom]: Remove: archive file [/home/abi/fetcher/tmp/hpgeom-0.8.2.tar.gz]
+[2023-06-23 05:12:47] INFO root fetch - processPackages [hpgeom]: Remove: archive file [/home/abi/fetcher/tmp/hpgeom-0.8.4.tar.gz]
+[2023-06-23 05:12:47] INFO root fetch - main [MainThread]: End processing [hpgeom]: success
+[2023-06-23 05:12:47] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-23 05:12:47] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-23 05:12:47] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-23 05:12:47] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.1-py3-none-any.whl.zip]
+[2023-06-23 05:12:47] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2023-06-23 05:12:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update]: success
+[2023-06-23 05:12:49] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip]
+[2023-06-23 05:12:49] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
+[2023-06-23 05:12:49] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2023-06-23 05:12:49] INFO root fetch - main [MainThread]: Store serial: [18613728]
