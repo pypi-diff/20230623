@@ -2599,3 +2599,104 @@
 [2023-06-23 02:38:32] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.5.tar.gz]
 [2023-06-23 02:38:32] INFO root fetch - main [MainThread]: End processing [atlaspy]: success
 [2023-06-23 02:38:32] INFO root fetch - main [MainThread]: Store serial: [18611889]
+[2023-06-23 02:43:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611889]
+[2023-06-23 02:43:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-23 02:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-06-23 02:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2023-06-23 02:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: querysource
+[2023-06-23 02:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-appflow
+[2023-06-23 02:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-06-23 02:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wisdem
+[2023-06-23 02:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atlaspy
+[2023-06-23 02:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastervit
+[2023-06-23 02:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: taskAutom
+[2023-06-23 02:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reciprocal
+[2023-06-23 02:43:43] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdklabs.cdk-appflow]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 02:43:43] INFO root fetch - processPackages [fastervit]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-23 02:43:43] INFO root fetch - processPackages [wisdem]: New version: [3.9.2] Old Version: [3.10.1]
+[2023-06-23 02:43:43] INFO root fetch - processPackages [atlaspy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-23 02:43:43] INFO root fetch - processPackages [taskAutom]: New version: [8.0.4] Old Version: [8.0.3]
+[2023-06-23 02:43:43] INFO root fetch - processPackages [reciprocal]: New version: [0.1.post0] Old Version: [0.1.4]
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Downloading https://files.pythonhosted.org/packages/a3/d1/6ff2c42bbffe19960813bc0ed126c4df4af4db72290ba5fe15dd0d09ae31/cdklabs.cdk-appflow-0.0.4.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/09/41/9e50e96180314100e59a1cff2476c3ee97713f7522a83f9b9a2cd52fe973/atlaspy-0.0.5.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/88/06/22a8c93f4d4d809e19c0bee21a7ba15f5f127ea81a729d1a00dd0ecd2de0/taskAutom-8.0.3.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230623] Old Version: [0.1.4.dev20230622]
+[2023-06-23 02:43:43] INFO root fetch - processPackages [wisdem]: Downloading https://files.pythonhosted.org/packages/ba/84/b2a112d7ed83709120a15e21aa33a78a96ba215fb6be3d44350557facb82/wisdem-3.10.1.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 02:43:43] INFO root fetch - processPackages [reciprocal]: Downloading https://files.pythonhosted.org/packages/26/fb/8fb1ab424dd0a07fe1d0327991dd71850e8b74e44b60c5545393e43f4aa7/reciprocal-0.1.4-py3-none-any.whl
+[2023-06-23 02:43:43] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/ea/ab/298023a9439bc63022ac0b5adcce14ec638e905636a4d11b96e2a2233407/fastervit-0.8.8.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Downloading https://files.pythonhosted.org/packages/ea/c1/4521ccd3ed446e62cc0b4a4ac419724168da3aa09f515f010fe9a3593e2e/cdklabs.cdk-appflow-0.0.5.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230623/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-23 02:43:43] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/1d/01/b56b9c5a79a2d0c1ea29f40fdf13bff9bc6f7d1a7ead8351cfac3261b8b0/atlaspy-0.0.6.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/d3/89/ca2c420aad86135d57c4922c687fb0900a3ba8e85af05311314e0f4a0525/aeppl-nightly-0.1.4.dev20230622.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [reciprocal]: executing diffoscope
+[2023-06-23 02:43:43] INFO root fetch - processPackages [reciprocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reciprocal-0.1.4-py3-none-any.whl.zip tmp/reciprocal-0.1.post0.tar.gz --markdown 20230623/r/reciprocal/0.1.4-0.1.post0/diff.md --exclude *.pyd
+[2023-06-23 02:43:43] INFO root fetch - processPackages [wisdem]: Downloading https://files.pythonhosted.org/packages/63/9f/51d920ec46e756085defefae37961b91f277cee5c01881c6868447491c77/wisdem-3.9.2.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdklabs.cdk-appflow]: executing diffoscope
+[2023-06-23 02:43:43] INFO root fetch - processPackages [cdklabs.cdk-appflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-appflow-0.0.4.tar.gz tmp/cdklabs.cdk-appflow-0.0.5.tar.gz --markdown 20230623/c/cdklabs.cdk-appflow/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 02:43:43] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/b5/e6/94bdadea33b8dabbbf423fac740708f84c3b19fc726c76c652432f0dd76b/fastervit-0.8.9.tar.gz
+[2023-06-23 02:43:43] INFO root fetch - processPackages [atlaspy]: executing diffoscope
+[2023-06-23 02:43:43] INFO root fetch - processPackages [atlaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlaspy-0.0.5.tar.gz tmp/atlaspy-0.0.6.tar.gz --markdown 20230623/a/atlaspy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 02:43:44] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/3d/6d/8251f72c2ad3a7be54acff358ce4d04d518c9a1b5614a1ad35983662b998/taskAutom-8.0.4.tar.gz
+[2023-06-23 02:43:44] INFO root fetch - processPackages [taskAutom]: executing diffoscope
+[2023-06-23 02:43:44] INFO root fetch - processPackages [taskAutom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskAutom-8.0.3.tar.gz tmp/taskAutom-8.0.4.tar.gz --markdown 20230623/t/taskAutom/8.0.3-8.0.4/diff.md --exclude *.pyd
+[2023-06-23 02:43:44] INFO root fetch - processPackages [fastervit]: executing diffoscope
+[2023-06-23 02:43:44] INFO root fetch - processPackages [fastervit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastervit-0.8.8.tar.gz tmp/fastervit-0.8.9.tar.gz --markdown 20230623/f/fastervit/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-23 02:43:44] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/83/0c/a634b78bb337fa1d30b18adafb201e6d56922bcc3632f0ecdbdb34c86f86/aeppl-nightly-0.1.4.dev20230623.tar.gz
+[2023-06-23 02:43:44] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-06-23 02:43:44] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230622.tar.gz tmp/aeppl-nightly-0.1.4.dev20230623.tar.gz --markdown 20230623/a/aeppl-nightly/0.1.4.dev20230622-0.1.4.dev20230623/diff.md --exclude *.pyd
+[2023-06-23 02:43:44] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-23 02:43:44] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-23 02:43:44] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230623/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-23 02:43:44] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 02:43:45] INFO root fetch - processPackages [reciprocal]: Remove: archive file [/home/abi/fetcher/tmp/reciprocal-0.1.4-py3-none-any.whl.zip]
+[2023-06-23 02:43:45] INFO root fetch - processPackages [reciprocal]: Remove: archive file [/home/abi/fetcher/tmp/reciprocal-0.1.post0.tar.gz]
+[2023-06-23 02:43:45] INFO root fetch - processPackages [reciprocal]: Start processing: state-machine-semaphore
+[2023-06-23 02:43:45] INFO root fetch - main [MainThread]: End processing [reciprocal]: success
+[2023-06-23 02:43:45] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-23 02:43:45] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-23 02:43:45] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230623/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-23 02:43:45] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.8.8.tar.gz]
+[2023-06-23 02:43:45] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.8.9.tar.gz]
+[2023-06-23 02:43:45] INFO root fetch - main [MainThread]: End processing [fastervit]: success
+[2023-06-23 02:43:45] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-23 02:43:45] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-23 02:43:45] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-23 02:43:45] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230623/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-23 02:43:45] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230622.tar.gz]
+[2023-06-23 02:43:45] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230623.tar.gz]
+[2023-06-23 02:43:45] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-06-23 02:43:45] INFO root fetch - processPackages [wisdem]: executing diffoscope
+[2023-06-23 02:43:45] INFO root fetch - processPackages [wisdem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisdem-3.10.1.tar.gz tmp/wisdem-3.9.2.tar.gz --markdown 20230623/w/wisdem/3.10.1-3.9.2/diff.md --exclude *.pyd
+[2023-06-23 02:43:46] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-23 02:43:46] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-23 02:43:46] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-23 02:43:46] INFO root fetch - processPackages [taskAutom]: Remove: archive file [/home/abi/fetcher/tmp/taskAutom-8.0.3.tar.gz]
+[2023-06-23 02:43:46] INFO root fetch - processPackages [taskAutom]: Remove: archive file [/home/abi/fetcher/tmp/taskAutom-8.0.4.tar.gz]
+[2023-06-23 02:43:46] INFO root fetch - main [MainThread]: End processing [taskAutom]: success
+[2023-06-23 02:43:47] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.5.tar.gz]
+[2023-06-23 02:43:47] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.6.tar.gz]
+[2023-06-23 02:43:47] INFO root fetch - main [MainThread]: End processing [atlaspy]: success
+[2023-06-23 02:43:47] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-appflow-0.0.4.tar.gz]
+[2023-06-23 02:43:47] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-appflow-0.0.5.tar.gz]
+[2023-06-23 02:43:47] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-appflow]: success
+[2023-06-23 02:43:47] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-23 02:43:47] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-23 02:43:47] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-23 02:43:47] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-23 02:43:47] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-23 02:43:47] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-23 02:43:47] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 02:43:47] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 02:43:47] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-23 02:44:12] INFO root fetch - processPackages [wisdem]: Remove: archive file [/home/abi/fetcher/tmp/wisdem-3.10.1.tar.gz]
+[2023-06-23 02:44:12] INFO root fetch - processPackages [wisdem]: Remove: archive file [/home/abi/fetcher/tmp/wisdem-3.9.2.tar.gz]
+[2023-06-23 02:44:12] INFO root fetch - main [MainThread]: End processing [wisdem]: success
+[2023-06-23 02:44:12] INFO root fetch - main [MainThread]: Store serial: [18611940]
