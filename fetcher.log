@@ -21667,3 +21667,169 @@ EOFError: EOF read where object expected
 [2023-06-23 17:06:06] INFO root fetch - processPackages [SQLAlchemy]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-2.0.9.tar.gz]
 [2023-06-23 17:06:06] INFO root fetch - main [MainThread]: End processing [SQLAlchemy]: success
 [2023-06-23 17:06:06] INFO root fetch - main [MainThread]: Store serial: [18619450]
+[2023-06-23 17:11:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18619450]
+[2023-06-23 17:11:17] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-23 17:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cosmian-py-ggml
+[2023-06-23 17:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nb-autodoc
+[2023-06-23 17:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pillar1
+[2023-06-23 17:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swh.web
+[2023-06-23 17:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: returnn
+[2023-06-23 17:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbrlabs-pulumi-eks
+[2023-06-23 17:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smqtk-image-io
+[2023-06-23 17:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SmartDriveML
+[2023-06-23 17:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Jord
+[2023-06-23 17:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cellworld
+[2023-06-23 17:11:17] INFO root fetch - processPackages [cosmian-py-ggml]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-23 17:11:17] INFO root fetch - processPackages [pillar1]: New version: [0.1.7.7] Old Version: [0.1.7.6]
+[2023-06-23 17:11:17] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.0.2a1687529435] Old Version: [0.0.2]
+[2023-06-23 17:11:17] INFO root fetch - processPackages [nb-autodoc]: New version: [1.0.0a7] Old Version: [1.0.0a6]
+[2023-06-23 17:11:17] WARNING root fetch - processPackages [SmartDriveML]: Skipping, unable to determine old version
+[2023-06-23 17:11:17] INFO root fetch - processPackages [smqtk-image-io]: New version: [0.17.1] Old Version: [0.17.0]
+[2023-06-23 17:11:17] INFO root fetch - processPackages [SmartDriveML]: Start processing: fusionscript-stubs
+[2023-06-23 17:11:17] INFO root fetch - main [MainThread]: End processing [SmartDriveML] error
+[2023-06-23 17:11:17] INFO root fetch - processPackages [swh.web]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-23 17:11:17] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/5d/92/280b23bba7b9de95287e2fb235ab2697ba27039f4eab7906b360f5967da1/cosmian_py_ggml-1.0.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 17:11:17] INFO root fetch - processPackages [Jord]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 17:11:17] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 17:11:17] INFO root fetch - processPackages [returnn]: New version: [1.20230623.165457] Old Version: [1.20230620.175850]
+[2023-06-23 17:11:17] INFO root fetch - processPackages [fusionscript-stubs]: New version: [18.1.3] Old Version: [18.1.2]
+[2023-06-23 17:11:17] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/5f/ae/497397917e51fedae74eca7e4347faff20d8e54a5f472dc2a5fbbf4f483e/pillar1-0.1.7.6.tar.gz
+[2023-06-23 17:11:17] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/e2/7f/64fe62f14fe2064283a5a378fb9882a133e26379e78c02a985973921cc40/lbrlabs_pulumi_eks-0.0.2.tar.gz
+[2023-06-23 17:11:17] INFO root fetch - processPackages [swh.web]: Downloading https://files.pythonhosted.org/packages/66/15/6bc04af12a23337bb393e57e21ffba928a503bf0e3a5106bea151682da0d/swh.web-0.2.8.tar.gz
+[2023-06-23 17:11:17] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/72/80/f75fe0009c55e32c5c2500c106abc6e2ee07f1c4b66cab4825552840d1ef/returnn-1.20230620.175850.tar.gz
+[2023-06-23 17:11:17] INFO root fetch - processPackages [nb-autodoc]: Downloading https://files.pythonhosted.org/packages/2f/89/e29e83756be94ea28abf95a3c67bfeac35f33b6f33de5e0f0b1f0d3c8c98/nb-autodoc-1.0.0a6.tar.gz
+[2023-06-23 17:11:17] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/88/32/1520ddfd1705b0c6b2d2375811d0df2449ea20d9071fe5063064b3b7c499/cosmian_py_ggml-1.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 17:11:17] INFO root fetch - processPackages [fusionscript-stubs]: Downloading https://files.pythonhosted.org/packages/0a/09/a3b43603c3f6d4bd6bcbc08bf682e207acda359554ce1b84f9af09af8c1b/fusionscript-stubs-18.1.2.tar.gz
+[2023-06-23 17:11:17] INFO root fetch - processPackages [smqtk-image-io]: Downloading https://files.pythonhosted.org/packages/2f/7f/b2f24cf2319251330e5fae0a0dd37a899499feb1c7764e0057a6decce766/smqtk_image_io-0.17.0.tar.gz
+[2023-06-23 17:11:17] WARNING root fetch - processPackages [swh.web]: Skipping package: exceeds size limit 13132382>=10485760
+[2023-06-23 17:11:17] INFO root fetch - processPackages [swh.web]: Start processing: django-tasks-scheduler
+[2023-06-23 17:11:17] INFO root fetch - main [MainThread]: End processing [swh.web] error
+[2023-06-23 17:11:18] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-06-23 17:11:18] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/99/25/27b016e26fb396ebae85cf8258fdb310f2f153f49d7cac0bf85e35d565d8/Jord-0.0.8.tar.gz
+[2023-06-23 17:11:18] WARNING root fetch - processPackages [django-tasks-scheduler]: Skipping, unable to determine old version
+[2023-06-23 17:11:18] INFO root fetch - processPackages [django-tasks-scheduler]: Start processing: scipion-pyworkflow
+[2023-06-23 17:11:18] INFO root fetch - main [MainThread]: End processing [django-tasks-scheduler] error
+[2023-06-23 17:11:18] INFO root fetch - processPackages [scipion-pyworkflow]: New version: [3.1.0] Old Version: [3.0.9]
+[2023-06-23 17:11:18] INFO root fetch - processPackages [cosmian-py-ggml]: executing diffoscope
+[2023-06-23 17:11:18] INFO root fetch - processPackages [cosmian-py-ggml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_py_ggml-1.0.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/cosmian_py_ggml-1.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230623/c/cosmian-py-ggml/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 17:11:18] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/73/39/c7a0aff1cb6c26b3e808df48011095339b3ba8516f43165dc42c557f298c/lbrlabs_pulumi_eks-0.0.2a1687529435.tar.gz
+[2023-06-23 17:11:18] INFO root fetch - processPackages [fusionscript-stubs]: Downloading https://files.pythonhosted.org/packages/0f/b7/21c0b2dccdf1dd82bd9e79bee9b01783bbe88e41f6e8e7500be7d23cbf51/fusionscript-stubs-18.1.3.tar.gz
+[2023-06-23 17:11:18] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/01/d8/17b164c4323cda227399e512eeb043ab426510b79c74c0f8f7fe5612bc80/pillar1-0.1.7.7.tar.gz
+[2023-06-23 17:11:18] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2023-06-23 17:11:18] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.0.2.tar.gz tmp/lbrlabs_pulumi_eks-0.0.2a1687529435.tar.gz --markdown 20230623/l/lbrlabs-pulumi-eks/0.0.2-0.0.2a1687529435/diff.md --exclude *.pyd
+[2023-06-23 17:11:18] INFO root fetch - processPackages [nb-autodoc]: Downloading https://files.pythonhosted.org/packages/a3/d9/be84ebb0e7b4b67307e3bc1cf13deb941fed8f30d0d339d4de1d9ae141a6/nb-autodoc-1.0.0a7.tar.gz
+[2023-06-23 17:11:18] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/6c/a0/827d0e7126ec220717447a3029984aefac84af1abd03271333e99fcdcabf/Jord-0.0.9.tar.gz
+[2023-06-23 17:11:18] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/a1/6a/a35795df12e03462254e55921adae6e3e117dc15e983ef20bcb07b42c01b/returnn-1.20230623.165457.tar.gz
+[2023-06-23 17:11:18] INFO root fetch - processPackages [scipion-pyworkflow]: Downloading https://files.pythonhosted.org/packages/4a/2e/541e07a135c684ed05eccef6feef07c6b5c49e7c97f6bf4e5a00c44c0834/scipion-pyworkflow-3.0.9.tar.gz
+[2023-06-23 17:11:18] INFO root fetch - processPackages [fusionscript-stubs]: executing diffoscope
+[2023-06-23 17:11:18] INFO root fetch - processPackages [fusionscript-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusionscript-stubs-18.1.2.tar.gz tmp/fusionscript-stubs-18.1.3.tar.gz --markdown 20230623/f/fusionscript-stubs/18.1.2-18.1.3/diff.md --exclude *.pyd
+[2023-06-23 17:11:18] INFO root fetch - processPackages [smqtk-image-io]: Downloading https://files.pythonhosted.org/packages/7b/31/a3f2d7a11e34fe8156174fa5d9994cb67c64e7afe03cc7599de29935b746/smqtk_image_io-0.17.1.tar.gz
+[2023-06-23 17:11:18] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-06-23 17:11:18] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-23 17:11:18] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.7.6.tar.gz tmp/pillar1-0.1.7.7.tar.gz --markdown 20230623/p/pillar1/0.1.7.6-0.1.7.7/diff.md --exclude *.pyd
+[2023-06-23 17:11:18] INFO root fetch - processPackages [nb-autodoc]: executing diffoscope
+[2023-06-23 17:11:18] INFO root fetch - processPackages [nb-autodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb-autodoc-1.0.0a6.tar.gz tmp/nb-autodoc-1.0.0a7.tar.gz --markdown 20230623/n/nb-autodoc/1.0.0a6-1.0.0a7/diff.md --exclude *.pyd
+[2023-06-23 17:11:18] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2023-06-23 17:11:18] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jord-0.0.8.tar.gz tmp/Jord-0.0.9.tar.gz --markdown 20230623/J/Jord/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 17:11:18] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-06-23 17:11:18] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230623/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 17:11:18] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-23 17:11:18] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230620.175850.tar.gz tmp/returnn-1.20230623.165457.tar.gz --markdown 20230623/r/returnn/1.20230620.175850-1.20230623.165457/diff.md --exclude *.pyd
+[2023-06-23 17:11:18] INFO root fetch - processPackages [smqtk-image-io]: executing diffoscope
+[2023-06-23 17:11:18] INFO root fetch - processPackages [smqtk-image-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smqtk_image_io-0.17.0.tar.gz tmp/smqtk_image_io-0.17.1.tar.gz --markdown 20230623/s/smqtk-image-io/0.17.0-0.17.1/diff.md --exclude *.pyd
+[2023-06-23 17:11:19] INFO root fetch - processPackages [scipion-pyworkflow]: Downloading https://files.pythonhosted.org/packages/32/4d/d3de0f366ca5bb34a24eb21d262660e4d0ae913fbe4e26799d361b5b14ac/scipion-pyworkflow-3.1.0.tar.gz
+[2023-06-23 17:11:19] INFO root fetch - processPackages [scipion-pyworkflow]: executing diffoscope
+[2023-06-23 17:11:19] INFO root fetch - processPackages [scipion-pyworkflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-pyworkflow-3.0.9.tar.gz tmp/scipion-pyworkflow-3.1.0.tar.gz --markdown 20230623/s/scipion-pyworkflow/3.0.9-3.1.0/diff.md --exclude *.pyd
+[2023-06-23 17:11:19] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.2.tar.gz]
+[2023-06-23 17:11:19] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.2a1687529435.tar.gz]
+[2023-06-23 17:11:19] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Start processing: py-rpautom
+[2023-06-23 17:11:19] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2023-06-23 17:11:19] INFO root fetch - processPackages [py-rpautom]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.6.tar.gz]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.7.tar.gz]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/6e/39/46bb536db45da28d5a4efe63087cf7df066dd3b823715358df3eaff4fe72/py-rpautom-0.0.8b0.tar.gz
+[2023-06-23 17:11:20] INFO root fetch - processPackages [pillar1]: Start processing: plumpy
+[2023-06-23 17:11:20] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-23 17:11:20] INFO root fetch - processPackages [plumpy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-23 17:11:20] WARNING root fetch - processPackages [plumpy]: fallback to get urls: [0.9.0]
+[2023-06-23 17:11:20] WARNING root fetch - processPackages [plumpy]: None
+[2023-06-23 17:11:20] WARNING root fetch - processPackages [plumpy]: None
+[2023-06-23 17:11:20] WARNING root fetch - processPackages [plumpy]: unable to get url for both version [0.9.0]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/15/df/aca01fc29617ab2b4273b63a58b5cabaec5b193a2123d1bda0b5f8e7a87a/py-rpautom-0.0.9b0.tar.gz
+[2023-06-23 17:11:20] WARNING root fetch - processPackages [plumpy]: None
+[2023-06-23 17:11:20] INFO root fetch - processPackages [plumpy]: Start processing: lusid-notifications-sdk-preview
+[2023-06-23 17:11:20] INFO root fetch - main [MainThread]: End processing [plumpy] error
+[2023-06-23 17:11:20] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.758] Old Version: [0.1.756]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [fusionscript-stubs]: Remove: archive file [/home/abi/fetcher/tmp/fusionscript-stubs-18.1.2.tar.gz]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [fusionscript-stubs]: Remove: archive file [/home/abi/fetcher/tmp/fusionscript-stubs-18.1.3.tar.gz]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [fusionscript-stubs]: Start processing: tensorflow-text-nightly
+[2023-06-23 17:11:20] INFO root fetch - main [MainThread]: End processing [fusionscript-stubs]: success
+[2023-06-23 17:11:20] INFO root fetch - processPackages [py-rpautom]: executing diffoscope
+[2023-06-23 17:11:20] INFO root fetch - processPackages [py-rpautom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-rpautom-0.0.8b0.tar.gz tmp/py-rpautom-0.0.9b0.tar.gz --markdown 20230623/p/py-rpautom/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-06-23 17:11:20] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230622] Old Version: [2.14.0.dev20230621]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/75/84/d3d49c54696157234a069f19e961df6288352bf97275d09c30c96040678f/lusid-notifications-sdk-preview-0.1.756.tar.gz
+[2023-06-23 17:11:20] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/eb/c6/e30e3ff19b82713af3ac873e87144f75e4d984e74b363106dbbf293abc31/tensorflow_text_nightly-2.14.0.dev20230621-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 17:11:20] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.0.8.tar.gz]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.0.9.tar.gz]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [Jord]: Start processing: llama-index
+[2023-06-23 17:11:20] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2023-06-23 17:11:20] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-23 17:11:20] INFO root fetch - processPackages [smqtk-image-io]: Remove: archive file [/home/abi/fetcher/tmp/smqtk_image_io-0.17.0.tar.gz]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [smqtk-image-io]: Remove: archive file [/home/abi/fetcher/tmp/smqtk_image_io-0.17.1.tar.gz]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [smqtk-image-io]: Start processing: gpt-index
+[2023-06-23 17:11:20] INFO root fetch - main [MainThread]: End processing [smqtk-image-io]: success
+[2023-06-23 17:11:20] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a6/56/b161324f68b377c95cefffcb4edd7d045387cb8bb5b588bbae28c50241fd/lusid-notifications-sdk-preview-0.1.758.tar.gz
+[2023-06-23 17:11:20] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/a1/00/e10974de10619152998f0b412772325887252e26e1d7301168266d4e1d4a/tensorflow_text_nightly-2.14.0.dev20230622-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-23 17:11:20] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [cellworld]: Start processing: pyguess
+[2023-06-23 17:11:20] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-06-23 17:11:20] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-06-23 17:11:20] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.756.tar.gz tmp/lusid-notifications-sdk-preview-0.1.758.tar.gz --markdown 20230623/l/lusid-notifications-sdk-preview/0.1.756-0.1.758/diff.md --exclude *.pyd
+[2023-06-23 17:11:20] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-23 17:11:20] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-23 17:11:20] INFO root fetch - processPackages [pyguess]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-23 17:11:20] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-23 17:11:20] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230621-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230622-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230623/t/tensorflow-text-nightly/2.14.0.dev20230621-2.14.0.dev20230622/diff.md --exclude *.pyd
+[2023-06-23 17:11:21] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-23 17:11:21] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230623/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-23 17:11:21] INFO root fetch - processPackages [nb-autodoc]: Remove: archive file [/home/abi/fetcher/tmp/nb-autodoc-1.0.0a6.tar.gz]
+[2023-06-23 17:11:21] INFO root fetch - processPackages [nb-autodoc]: Remove: archive file [/home/abi/fetcher/tmp/nb-autodoc-1.0.0a7.tar.gz]
+[2023-06-23 17:11:21] INFO root fetch - main [MainThread]: End processing [nb-autodoc]: success
+[2023-06-23 17:11:21] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-23 17:11:21] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-23 17:11:21] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230623/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-23 17:11:21] INFO root fetch - processPackages [pyguess]: Downloading https://files.pythonhosted.org/packages/13/79/4cfe59561f05c3c3e6d2ada17f022db1ac48562ca60e280e2f16e5bb451c/pyguess-0.2.1.tar.gz
+[2023-06-23 17:11:21] INFO root fetch - processPackages [pyguess]: Downloading https://files.pythonhosted.org/packages/37/96/414b7ada1cdca3998e180e6a130c22bac8adf1c9b348fcb16ecdfb9168b2/pyguess-0.2.2-cp37-abi3-win_amd64.whl
+[2023-06-23 17:11:22] INFO root fetch - processPackages [py-rpautom]: Remove: archive file [/home/abi/fetcher/tmp/py-rpautom-0.0.8b0.tar.gz]
+[2023-06-23 17:11:22] INFO root fetch - processPackages [py-rpautom]: Remove: archive file [/home/abi/fetcher/tmp/py-rpautom-0.0.9b0.tar.gz]
+[2023-06-23 17:11:22] INFO root fetch - main [MainThread]: End processing [py-rpautom]: success
+[2023-06-23 17:11:22] INFO root fetch - processPackages [pyguess]: executing diffoscope
+[2023-06-23 17:11:22] INFO root fetch - processPackages [pyguess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguess-0.2.1.tar.gz tmp/pyguess-0.2.2-cp37-abi3-win_amd64.whl.zip --markdown 20230623/p/pyguess/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-23 17:11:23] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.756.tar.gz]
+[2023-06-23 17:11:23] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.758.tar.gz]
+[2023-06-23 17:11:23] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-06-23 17:11:23] INFO root fetch - processPackages [cosmian-py-ggml]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_py_ggml-1.0.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 17:11:23] INFO root fetch - processPackages [cosmian-py-ggml]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_py_ggml-1.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 17:11:23] INFO root fetch - main [MainThread]: End processing [cosmian-py-ggml]: success
+[2023-06-23 17:11:23] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230621-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 17:11:23] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230622-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-23 17:11:23] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-23 17:11:23] INFO root fetch - processPackages [scipion-pyworkflow]: Remove: archive file [/home/abi/fetcher/tmp/scipion-pyworkflow-3.0.9.tar.gz]
+[2023-06-23 17:11:23] INFO root fetch - processPackages [scipion-pyworkflow]: Remove: archive file [/home/abi/fetcher/tmp/scipion-pyworkflow-3.1.0.tar.gz]
+[2023-06-23 17:11:23] INFO root fetch - main [MainThread]: End processing [scipion-pyworkflow]: success
+[2023-06-23 17:11:23] INFO root fetch - processPackages [pyguess]: Remove: archive file [/home/abi/fetcher/tmp/pyguess-0.2.1.tar.gz]
+[2023-06-23 17:11:23] INFO root fetch - processPackages [pyguess]: Remove: archive file [/home/abi/fetcher/tmp/pyguess-0.2.2-cp37-abi3-win_amd64.whl.zip]
+[2023-06-23 17:11:23] INFO root fetch - main [MainThread]: End processing [pyguess]: success
+[2023-06-23 17:11:25] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-23 17:11:25] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-23 17:11:25] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-23 17:11:25] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-23 17:11:25] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-23 17:11:25] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-23 17:11:26] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230620.175850.tar.gz]
+[2023-06-23 17:11:26] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230623.165457.tar.gz]
+[2023-06-23 17:11:26] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-23 17:11:26] INFO root fetch - main [MainThread]: Store serial: [18619513]
