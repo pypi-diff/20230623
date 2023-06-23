@@ -14820,3 +14820,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 12:19:39] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc2.tar.gz]
 [2023-06-23 12:19:39] INFO root fetch - main [MainThread]: End processing [petisco]: success
 [2023-06-23 12:19:39] INFO root fetch - main [MainThread]: Store serial: [18616495]
+[2023-06-23 12:24:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616495]
+[2023-06-23 12:24:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-23 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kalm
+[2023-06-23 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-guardian-queryset
+[2023-06-23 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Digital-Forming-Solution
+[2023-06-23 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: veetility
+[2023-06-23 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taipy-templates
+[2023-06-23 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalm
+[2023-06-23 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: transllm
+[2023-06-23 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kyaah
+[2023-06-23 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangocms-events
+[2023-06-23 12:24:48] INFO root fetch - processPackages [django-guardian-queryset]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 12:24:48] WARNING root fetch - processPackages [djangocms-events]: Skipping, unable to determine old version
+[2023-06-23 12:24:48] INFO root fetch - main [MainThread]: End processing [djangocms-events] error
+[2023-06-23 12:24:48] INFO root fetch - processPackages [veetility]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-06-23 12:24:48] INFO root fetch - processPackages [Digital-Forming-Solution]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kyaah]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:24:48] INFO root fetch - processPackages [transllm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-23 12:24:48] INFO root fetch - processPackages [taipy-templates]: New version: [3.0.0.dev0] Old Version: [2.3.0.dev1]
+[2023-06-23 12:24:48] INFO root fetch - processPackages [django-guardian-queryset]: Downloading https://files.pythonhosted.org/packages/88/83/94580678099e8667f6db8b5b7821cf8e50db109376991b31fd33239f199b/django-guardian-queryset-1.0.8.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [transllm]: Downloading https://files.pythonhosted.org/packages/2e/ab/13826e0bebd1fe9bb0fa44eba835a366738358a005704d85c46ce36c7b51/transllm-0.1.1.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [Digital-Forming-Solution]: Downloading https://files.pythonhosted.org/packages/c1/80/cf59387b3aa12e7e28dbcf3ffe20f9d55ced53438c8eebf3a3226e2a5c47/Digital_Forming_Solution-0.1.12.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/ff/4a/4dc34ce86cfa2bc31af96142c4e95d572e66d97292c77ae127544e7e1733/veetility-0.1.90.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kyaah]: Downloading https://files.pythonhosted.org/packages/60/0f/6a8150f97fcaba7362bb77de48a3ae547d5447303c95f4f5026eb5076044/kyaah-0.1.8.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [transllm]: Downloading https://files.pythonhosted.org/packages/fa/da/c0035cde32bf475e3047767c2722681fd7cb2b8ae9853d4c60a6a681288f/transllm-0.1.2.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [Digital-Forming-Solution]: Downloading https://files.pythonhosted.org/packages/df/ce/c37348aa1de48270c24fcdbfcdbe2fe310fc00c14b971a9b0afc880541a8/Digital_Forming_Solution-0.1.13.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [taipy-templates]: Downloading https://files.pythonhosted.org/packages/aa/71/6904413e5d04190e6af52b6a288f9ddd804db29a11e5956b9f4538539534/taipy-templates-2.3.0.dev1.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [transllm]: executing diffoscope
+[2023-06-23 12:24:48] INFO root fetch - processPackages [transllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transllm-0.1.1.tar.gz tmp/transllm-0.1.2.tar.gz --markdown 20230623/t/transllm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:24:48] INFO root fetch - processPackages [django-guardian-queryset]: Downloading https://files.pythonhosted.org/packages/4b/b9/ae97e8f6dd0e05e0e83d8d0145526237409e0f90d97c79a6e795f4976d22/django-guardian-queryset-1.0.9.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [Digital-Forming-Solution]: executing diffoscope
+[2023-06-23 12:24:48] INFO root fetch - processPackages [Digital-Forming-Solution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digital_Forming_Solution-0.1.12.tar.gz tmp/Digital_Forming_Solution-0.1.13.tar.gz --markdown 20230623/D/Digital-Forming-Solution/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-06-23 12:24:48] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/54/43/7352362a4003b6e7178e639e8b9d0430c30132c22a962fab30b7b5cd8efb/veetility-0.1.91.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-06-23 12:24:48] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.90.tar.gz tmp/veetility-0.1.91.tar.gz --markdown 20230623/v/veetility/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-06-23 12:24:48] INFO root fetch - processPackages [django-guardian-queryset]: executing diffoscope
+[2023-06-23 12:24:48] INFO root fetch - processPackages [django-guardian-queryset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-guardian-queryset-1.0.8.tar.gz tmp/django-guardian-queryset-1.0.9.tar.gz --markdown 20230623/d/django-guardian-queryset/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-23 12:24:48] INFO root fetch - processPackages [taipy-templates]: Downloading https://files.pythonhosted.org/packages/e9/7e/88f83e08a0080d20ecc1abc86d89063a697d11bde67439dce03ad792c4b3/taipy-templates-3.0.0.dev0.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [kyaah]: Downloading https://files.pythonhosted.org/packages/ec/56/5e3e819bd814e5d55de229d3a402950c959eb45d25fa9e1323f1c2f24390/kyaah-0.1.9.tar.gz
+[2023-06-23 12:24:48] INFO root fetch - processPackages [taipy-templates]: executing diffoscope
+[2023-06-23 12:24:48] INFO root fetch - processPackages [taipy-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-templates-2.3.0.dev1.tar.gz tmp/taipy-templates-3.0.0.dev0.tar.gz --markdown 20230623/t/taipy-templates/2.3.0.dev1-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-23 12:24:49] INFO root fetch - processPackages [kyaah]: executing diffoscope
+[2023-06-23 12:24:49] INFO root fetch - processPackages [kyaah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyaah-0.1.8.tar.gz tmp/kyaah-0.1.9.tar.gz --markdown 20230623/k/kyaah/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 12:24:49] INFO root fetch - processPackages [transllm]: Remove: archive file [/home/abi/fetcher/tmp/transllm-0.1.1.tar.gz]
+[2023-06-23 12:24:49] INFO root fetch - processPackages [transllm]: Remove: archive file [/home/abi/fetcher/tmp/transllm-0.1.2.tar.gz]
+[2023-06-23 12:24:49] INFO root fetch - main [MainThread]: End processing [transllm]: success
+[2023-06-23 12:24:49] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 12:24:49] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 12:24:49] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 12:24:50] INFO root fetch - processPackages [Digital-Forming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Forming_Solution-0.1.12.tar.gz]
+[2023-06-23 12:24:50] INFO root fetch - processPackages [Digital-Forming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Forming_Solution-0.1.13.tar.gz]
+[2023-06-23 12:24:50] INFO root fetch - main [MainThread]: End processing [Digital-Forming-Solution]: success
+[2023-06-23 12:24:50] INFO root fetch - processPackages [django-guardian-queryset]: Remove: archive file [/home/abi/fetcher/tmp/django-guardian-queryset-1.0.8.tar.gz]
+[2023-06-23 12:24:50] INFO root fetch - processPackages [django-guardian-queryset]: Remove: archive file [/home/abi/fetcher/tmp/django-guardian-queryset-1.0.9.tar.gz]
+[2023-06-23 12:24:50] INFO root fetch - main [MainThread]: End processing [django-guardian-queryset]: success
+[2023-06-23 12:24:50] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 12:24:50] INFO root fetch - processPackages [kyaah]: Remove: archive file [/home/abi/fetcher/tmp/kyaah-0.1.8.tar.gz]
+[2023-06-23 12:24:50] INFO root fetch - processPackages [kyaah]: Remove: archive file [/home/abi/fetcher/tmp/kyaah-0.1.9.tar.gz]
+[2023-06-23 12:24:50] INFO root fetch - main [MainThread]: End processing [kyaah]: success
+[2023-06-23 12:24:51] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.90.tar.gz]
+[2023-06-23 12:24:51] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.91.tar.gz]
+[2023-06-23 12:24:51] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-06-23 12:24:52] INFO root fetch - processPackages [taipy-templates]: Remove: archive file [/home/abi/fetcher/tmp/taipy-templates-2.3.0.dev1.tar.gz]
+[2023-06-23 12:24:52] INFO root fetch - processPackages [taipy-templates]: Remove: archive file [/home/abi/fetcher/tmp/taipy-templates-3.0.0.dev0.tar.gz]
+[2023-06-23 12:24:52] INFO root fetch - main [MainThread]: End processing [taipy-templates]: success
+[2023-06-23 12:24:52] INFO root fetch - main [MainThread]: Store serial: [18616526]
