@@ -19317,3 +19317,213 @@ EOFError: EOF read where object expected
 [2023-06-23 15:32:31] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.7.2.tar.gz]
 [2023-06-23 15:32:31] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2023-06-23 15:32:31] INFO root fetch - main [MainThread]: Store serial: [18618449]
+[2023-06-23 15:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18618449]
+[2023-06-23 15:37:49] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-23 15:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: activecampaign-python
+[2023-06-23 15:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantagonia-api-client
+[2023-06-23 15:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wks
+[2023-06-23 15:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Orr-Sommerfeld-convmix-CGB
+[2023-06-23 15:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: premise-gwp
+[2023-06-23 15:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atomcloud
+[2023-06-23 15:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aries-cloudcontroller
+[2023-06-23 15:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor.cli.core.alpine
+[2023-06-23 15:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gregory-online
+[2023-06-23 15:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Boombers
+[2023-06-23 15:37:49] INFO root fetch - processPackages [premise-gwp]: New version: [0.9.3] Old Version: [0.9.1]
+[2023-06-23 15:37:49] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-23 15:37:49] INFO root fetch - processPackages [quantagonia-api-client]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 15:37:49] INFO root fetch - processPackages [activecampaign-python]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-23 15:37:49] WARNING root fetch - processPackages [atomcloud]: Skipping, unable to determine old version
+[2023-06-23 15:37:49] INFO root fetch - processPackages [atomcloud]: Start processing: keepvariable
+[2023-06-23 15:37:49] INFO root fetch - main [MainThread]: End processing [atomcloud] error
+[2023-06-23 15:37:49] INFO root fetch - processPackages [wks]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-23 15:37:49] INFO root fetch - processPackages [Boombers]: New version: [0.3] Old Version: [0.2]
+[2023-06-23 15:37:49] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: New version: [3.2.8] Old Version: [3.2.6]
+[2023-06-23 15:37:49] INFO root fetch - processPackages [keepvariable]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-23 15:37:49] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.8.1rc9] Old Version: [0.8.1rc8]
+[2023-06-23 15:37:49] INFO root fetch - processPackages [gregory-online]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-06-23 15:37:49] INFO root fetch - processPackages [Boombers]: Downloading https://files.pythonhosted.org/packages/61/e9/40ec9572e5e2c2fdce3d6472ca94d3d8431afede3f51ac4c7f5a4ead22a6/Boombers-0.2.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [gregory-online]: Downloading https://files.pythonhosted.org/packages/22/1f/4d290c8d34057ad5b1dde91291de2eef024e0b7836bab02ce656d75498c5/gregory_online-0.3.1.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [quantagonia-api-client]: Downloading https://files.pythonhosted.org/packages/9e/17/ae4fa9b9f0f539dd7b70feea59aded982b60d572ef36b6392bd2521e2140/quantagonia_api_client-0.8-py3-none-any.whl
+[2023-06-23 15:37:49] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/96/6c/b8915057541b1b643f97964c15328626d8a9fcebd4947bf10176feaebac1/pyarmor.cli.core.alpine-3.2.6-cp39-none-any.whl
+[2023-06-23 15:37:49] INFO root fetch - processPackages [premise-gwp]: Downloading https://files.pythonhosted.org/packages/74/90/bb605f8926d9406532aabf9f7d4a96fb5b4b70be6bce4878227810afcf57/premise_gwp-0.9.1.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [activecampaign-python]: Downloading https://files.pythonhosted.org/packages/cb/45/04d379f235e465ce908a1b38fef44b0435cb68812c37f727aeaf47b7d64c/activecampaign_python-1.0.6.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [wks]: Downloading https://files.pythonhosted.org/packages/5f/0b/71a938d75221e40a2bd068424956c4254ce97439640745337dc2016feb47/wks-0.2.9.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/6e/5f/92635f2b2a09fea036b820ffba704d64908a682b5856d4c26a7b46afa822/aries_cloudcontroller-0.8.1rc8.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: Downloading https://files.pythonhosted.org/packages/f3/4d/979968b3ca7a93b73ee997da61a6fe772c0c6cbf6cf7accc8588d2800197/orr_sommerfeld_convmix_cgb-0.2.7.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [keepvariable]: Downloading https://files.pythonhosted.org/packages/36/61/06cbe6cb986747430561857f7670ab277097c034eaf1dac39d4fb964fe7f/keepvariable-1.2.2.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [quantagonia-api-client]: Downloading https://files.pythonhosted.org/packages/c0/8a/99d6b2080083bf41294ba1392115da6aeb883b82e42ce645a09a7a8a9152/quantagonia_api_client-0.9-py3-none-any.whl
+[2023-06-23 15:37:49] INFO root fetch - processPackages [gregory-online]: Downloading https://files.pythonhosted.org/packages/64/fe/7859eadb59c6dfe191c5edafa7b77fcf16ee5d32c7a2cd0ae8ddefa15954/gregory_online-0.3.3.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [Boombers]: Downloading https://files.pythonhosted.org/packages/95/28/249ff3b4c872d7eaf30b049f934c8affe27c0ab86460ab882be1a0a8bf57/Boombers-0.3.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [Boombers]: executing diffoscope
+[2023-06-23 15:37:49] INFO root fetch - processPackages [Boombers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Boombers-0.2.tar.gz tmp/Boombers-0.3.tar.gz --markdown 20230623/B/Boombers/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-23 15:37:49] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: Downloading https://files.pythonhosted.org/packages/a4/cb/778e588359648874adaa6e84bff5908303e0328f271118c533a3363e0edc/orr_sommerfeld_convmix_cgb-0.2.8.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [premise-gwp]: Downloading https://files.pythonhosted.org/packages/1c/0a/611560a2119850c73841e58d9f964dab0266b7ebd1b148febce1fe2a3426/premise_gwp-0.9.3.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/08/25/c5d58d68eaa8606c32cfc8bd56ff5320046335bd4845d3a2c9a5ee19764f/aries_cloudcontroller-0.8.1rc9.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [gregory-online]: executing diffoscope
+[2023-06-23 15:37:49] INFO root fetch - processPackages [gregory-online]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gregory_online-0.3.1.tar.gz tmp/gregory_online-0.3.3.tar.gz --markdown 20230623/g/gregory-online/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-06-23 15:37:49] INFO root fetch - processPackages [activecampaign-python]: Downloading https://files.pythonhosted.org/packages/36/e1/310f9a000a2f5bc327528d09577d893106c5a4cad5ff903451ff2ea7fa03/activecampaign_python-1.0.7.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: executing diffoscope
+[2023-06-23 15:37:49] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orr_sommerfeld_convmix_cgb-0.2.7.tar.gz tmp/orr_sommerfeld_convmix_cgb-0.2.8.tar.gz --markdown 20230623/O/Orr-Sommerfeld-convmix-CGB/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-23 15:37:49] INFO root fetch - processPackages [quantagonia-api-client]: executing diffoscope
+[2023-06-23 15:37:49] INFO root fetch - processPackages [quantagonia-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantagonia_api_client-0.8-py3-none-any.whl.zip tmp/quantagonia_api_client-0.9-py3-none-any.whl.zip --markdown 20230623/q/quantagonia-api-client/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-23 15:37:49] INFO root fetch - processPackages [wks]: Downloading https://files.pythonhosted.org/packages/6c/5c/39a111f1a929b0be03d8f2d168ea7e6b4b659b2e62e8f7fcd6aff1217232/wks-0.3.0.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [keepvariable]: Downloading https://files.pythonhosted.org/packages/b9/9e/2e373cf6646279bc63a5161e8e47dc2b41ad28f14f65361e0692d53cb405/keepvariable-1.2.3.tar.gz
+[2023-06-23 15:37:49] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/4f/d5/3600d615ca5179384861c77a1952b1f7957c0193665e23cbae1ba7942973/pyarmor.cli.core.alpine-3.2.8-cp39-none-any.whl
+[2023-06-23 15:37:49] INFO root fetch - processPackages [activecampaign-python]: executing diffoscope
+[2023-06-23 15:37:49] INFO root fetch - processPackages [activecampaign-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activecampaign_python-1.0.6.tar.gz tmp/activecampaign_python-1.0.7.tar.gz --markdown 20230623/a/activecampaign-python/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-23 15:37:49] INFO root fetch - processPackages [premise-gwp]: executing diffoscope
+[2023-06-23 15:37:49] INFO root fetch - processPackages [premise-gwp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/premise_gwp-0.9.1.tar.gz tmp/premise_gwp-0.9.3.tar.gz --markdown 20230623/p/premise-gwp/0.9.1-0.9.3/diff.md --exclude *.pyd
+[2023-06-23 15:37:49] INFO root fetch - processPackages [wks]: executing diffoscope
+[2023-06-23 15:37:49] INFO root fetch - processPackages [wks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wks-0.2.9.tar.gz tmp/wks-0.3.0.tar.gz --markdown 20230623/w/wks/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 15:37:49] INFO root fetch - processPackages [keepvariable]: executing diffoscope
+[2023-06-23 15:37:49] INFO root fetch - processPackages [keepvariable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepvariable-1.2.2.tar.gz tmp/keepvariable-1.2.3.tar.gz --markdown 20230623/k/keepvariable/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-23 15:37:49] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: executing diffoscope
+[2023-06-23 15:37:49] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.alpine-3.2.6-cp39-none-any.whl.zip tmp/pyarmor.cli.core.alpine-3.2.8-cp39-none-any.whl.zip --markdown 20230623/p/pyarmor.cli.core.alpine/3.2.6-3.2.8/diff.md --exclude *.pyd
+[2023-06-23 15:37:49] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2023-06-23 15:37:49] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.8.1rc8.tar.gz tmp/aries_cloudcontroller-0.8.1rc9.tar.gz --markdown 20230623/a/aries-cloudcontroller/0.8.1rc8-0.8.1rc9/diff.md --exclude *.pyd
+[2023-06-23 15:37:51] INFO root fetch - processPackages [Boombers]: Remove: archive file [/home/abi/fetcher/tmp/Boombers-0.2.tar.gz]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [Boombers]: Remove: archive file [/home/abi/fetcher/tmp/Boombers-0.3.tar.gz]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [Boombers]: Start processing: pyarmor.cli.core.android
+[2023-06-23 15:37:51] INFO root fetch - main [MainThread]: End processing [Boombers]: success
+[2023-06-23 15:37:51] INFO root fetch - processPackages [pyarmor.cli.core.android]: New version: [3.2.8] Old Version: [3.2.6]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: Remove: archive file [/home/abi/fetcher/tmp/orr_sommerfeld_convmix_cgb-0.2.7.tar.gz]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: Remove: archive file [/home/abi/fetcher/tmp/orr_sommerfeld_convmix_cgb-0.2.8.tar.gz]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: Start processing: pyasd
+[2023-06-23 15:37:51] INFO root fetch - main [MainThread]: End processing [Orr-Sommerfeld-convmix-CGB]: success
+[2023-06-23 15:37:51] INFO root fetch - processPackages [pyasd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/64/b4/13473d962d9acfacb6de31f6c316bb41fd277ae6dcb8eecd36e0b06bef27/pyarmor.cli.core.android-3.2.6-cp39-none-any.whl
+[2023-06-23 15:37:51] INFO root fetch - processPackages [pyasd]: Downloading https://files.pythonhosted.org/packages/1e/3c/e5da3440b3de1912ef22aa718f0ba2bdd5adfc11c88683f2b96d50aa99f5/pyasd-0.0.8.tar.gz
+[2023-06-23 15:37:51] INFO root fetch - processPackages [activecampaign-python]: Remove: archive file [/home/abi/fetcher/tmp/activecampaign_python-1.0.6.tar.gz]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [activecampaign-python]: Remove: archive file [/home/abi/fetcher/tmp/activecampaign_python-1.0.7.tar.gz]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [activecampaign-python]: Start processing: pyarmor.cli.core.darwin
+[2023-06-23 15:37:51] INFO root fetch - main [MainThread]: End processing [activecampaign-python]: success
+[2023-06-23 15:37:51] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: New version: [3.2.8] Old Version: [3.2.6]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [gregory-online]: Remove: archive file [/home/abi/fetcher/tmp/gregory_online-0.3.1.tar.gz]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [gregory-online]: Remove: archive file [/home/abi/fetcher/tmp/gregory_online-0.3.3.tar.gz]
+[2023-06-23 15:37:51] INFO root fetch - processPackages [gregory-online]: Start processing: metaphor-connectors
+[2023-06-23 15:37:51] INFO root fetch - main [MainThread]: End processing [gregory-online]: success
+[2023-06-23 15:37:52] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [wks]: Remove: archive file [/home/abi/fetcher/tmp/wks-0.2.9.tar.gz]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [wks]: Remove: archive file [/home/abi/fetcher/tmp/wks-0.3.0.tar.gz]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [wks]: Start processing: pyarmor.cli.core.freebsd
+[2023-06-23 15:37:52] INFO root fetch - main [MainThread]: End processing [wks]: success
+[2023-06-23 15:37:52] INFO root fetch - processPackages [quantagonia-api-client]: Remove: archive file [/home/abi/fetcher/tmp/quantagonia_api_client-0.8-py3-none-any.whl.zip]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [quantagonia-api-client]: Remove: archive file [/home/abi/fetcher/tmp/quantagonia_api_client-0.9-py3-none-any.whl.zip]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [quantagonia-api-client]: Start processing: pyarmor.cli.core.linux
+[2023-06-23 15:37:52] INFO root fetch - main [MainThread]: End processing [quantagonia-api-client]: success
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: New version: [3.2.8] Old Version: [3.2.6]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.linux]: New version: [3.2.8] Old Version: [3.2.6]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [keepvariable]: Remove: archive file [/home/abi/fetcher/tmp/keepvariable-1.2.2.tar.gz]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [keepvariable]: Remove: archive file [/home/abi/fetcher/tmp/keepvariable-1.2.3.tar.gz]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [keepvariable]: Start processing: lanablas
+[2023-06-23 15:37:52] INFO root fetch - main [MainThread]: End processing [keepvariable]: success
+[2023-06-23 15:37:52] INFO root fetch - processPackages [premise-gwp]: Remove: archive file [/home/abi/fetcher/tmp/premise_gwp-0.9.1.tar.gz]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [premise-gwp]: Remove: archive file [/home/abi/fetcher/tmp/premise_gwp-0.9.3.tar.gz]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [premise-gwp]: Start processing: ada-py
+[2023-06-23 15:37:52] INFO root fetch - main [MainThread]: End processing [premise-gwp]: success
+[2023-06-23 15:37:52] INFO root fetch - processPackages [lanablas]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [ada-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/00/22/acd3848e9f0e8dc9133969a3744e86823c9f29b39f20639661b4224f33bf/lanablas-0.0.3.tar.gz
+[2023-06-23 15:37:52] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-06-23 15:37:52] WARNING root fetch - processPackages [pyarmor.cli.core.android]: Skipping package: exceeds size limit 12509286>=10485760
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.android]: Start processing: pyarmor.cli.core.themida
+[2023-06-23 15:37:52] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android] error
+[2023-06-23 15:37:52] INFO root fetch - processPackages [ada-py]: Downloading https://files.pythonhosted.org/packages/8a/70/28c401b4087a2a0d07f0538b3f306bfe7a428a802bd063d3d1fc03715727/ada-py-0.0.8.tar.gz
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.themida]: New version: [3.2.8] Old Version: [3.2.6]
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/fd/f9/5f782364076d9dc53bca5c9c04c631a4d19d3d191d7f697b0b981b36bffd/pyarmor.cli.core.freebsd-3.2.6-cp39-none-any.whl
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/04/b2/46c16fe5964606e83bff8f1128db1c8e985cae82e42f01d70fb3f01b9646/pyarmor.cli.core.linux-3.2.6-cp39-none-any.whl
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/45/f1/4aeed1d51aaf3a0bebb0ee823de8e900acbc5291cb14c26027a2cb95d09c/pyarmor.cli.core.darwin-3.2.6-cp39-none-any.whl
+[2023-06-23 15:37:52] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/03/09/db4d37481799d3be51e55b2081335fcad3f908ec7af1c089a49c88256674/lanablas-0.0.4.tar.gz
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyasd]: Downloading https://files.pythonhosted.org/packages/82/16/f1a02173580a74fed24f629373a8eed9ab8fcd8f14a02a6fff44d466e831/pyasd-0.0.9.tar.gz
+[2023-06-23 15:37:52] INFO root fetch - processPackages [ada-py]: Downloading https://files.pythonhosted.org/packages/7a/1f/0045fd181d5ca07a1f786a6ae1e95f2d15b9eff9674fae3c6e4fef38fe0c/ada-py-0.0.9.tar.gz
+[2023-06-23 15:37:52] INFO root fetch - processPackages [lanablas]: executing diffoscope
+[2023-06-23 15:37:52] INFO root fetch - processPackages [lanablas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanablas-0.0.3.tar.gz tmp/lanablas-0.0.4.tar.gz --markdown 20230623/l/lanablas/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 15:37:52] INFO root fetch - processPackages [ada-py]: executing diffoscope
+[2023-06-23 15:37:52] INFO root fetch - processPackages [ada-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ada-py-0.0.8.tar.gz tmp/ada-py-0.0.9.tar.gz --markdown 20230623/a/ada-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/e1/4a/b3784a3438bf4b8a77760da835ffbc0c3984ae05b2f475f179311c710c1d/pyarmor.cli.core.themida-3.2.6-cp39-none-any.whl
+[2023-06-23 15:37:52] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-06-23 15:37:52] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-06-23 15:37:52] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230623/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/91/75/27cd67fb14eb2ebc61d61097ce46fb8aa2ce2876d5f301be6566b09b40cd/pyarmor.cli.core.freebsd-3.2.8-cp39-none-any.whl
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: executing diffoscope
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.freebsd-3.2.6-cp39-none-any.whl.zip tmp/pyarmor.cli.core.freebsd-3.2.8-cp39-none-any.whl.zip --markdown 20230623/p/pyarmor.cli.core.freebsd/3.2.6-3.2.8/diff.md --exclude *.pyd
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/27/bf/aae62921c324812ca628ef479901c50af455761f170685afc10baa15668c/pyarmor.cli.core.darwin-3.2.8-cp39-none-any.whl
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: executing diffoscope
+[2023-06-23 15:37:52] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.darwin-3.2.6-cp39-none-any.whl.zip tmp/pyarmor.cli.core.darwin-3.2.8-cp39-none-any.whl.zip --markdown 20230623/p/pyarmor.cli.core.darwin/3.2.6-3.2.8/diff.md --exclude *.pyd
+[2023-06-23 15:37:53] INFO root fetch - processPackages [pyasd]: executing diffoscope
+[2023-06-23 15:37:53] INFO root fetch - processPackages [pyasd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasd-0.0.8.tar.gz tmp/pyasd-0.0.9.tar.gz --markdown 20230623/p/pyasd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 15:37:53] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/ad/a8/a0a4993939fe6e419a30fcfd56feb358f644b911713286d8b929eb3d6a90/pyarmor.cli.core.themida-3.2.8-cp39-none-any.whl
+[2023-06-23 15:37:53] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.3.tar.gz]
+[2023-06-23 15:37:53] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.4.tar.gz]
+[2023-06-23 15:37:53] INFO root fetch - processPackages [lanablas]: Start processing: grpcrest
+[2023-06-23 15:37:53] INFO root fetch - main [MainThread]: End processing [lanablas]: success
+[2023-06-23 15:37:53] INFO root fetch - processPackages [grpcrest]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [grpcrest]: Downloading https://files.pythonhosted.org/packages/99/01/f8075a5fd0069f8ba9f50d434bbe41a539e8b8c58a7f891d1ba643113602/grpcrest-0.8.tar.gz
+[2023-06-23 15:37:54] WARNING root fetch - processPackages [grpcrest]: Skipping package: exceeds size limit 21180887>=10485760
+[2023-06-23 15:37:54] INFO root fetch - processPackages [grpcrest]: Start processing: pyarmor.cli.core.windows
+[2023-06-23 15:37:54] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-23 15:37:54] INFO root fetch - processPackages [pyarmor.cli.core.windows]: New version: [3.2.8] Old Version: [3.2.6]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/62/05/90271a558946e45897b92777fa08256140539a4249e17842c587c201c88e/pyarmor.cli.core.windows-3.2.6-cp39-none-any.whl
+[2023-06-23 15:37:54] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc8.tar.gz]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc9.tar.gz]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [aries-cloudcontroller]: Start processing: pillar1
+[2023-06-23 15:37:54] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2023-06-23 15:37:54] INFO root fetch - processPackages [pillar1]: New version: [0.1.7] Old Version: [0.1.6.2]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [metaphor-connectors]: Start processing: power-grid-model
+[2023-06-23 15:37:54] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-06-23 15:37:54] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/29/1c/658a67e39b19291f65e6ea3a26674bf7c3120656ee8dbbb5a3b58d176762/pillar1-0.1.6.2.tar.gz
+[2023-06-23 15:37:54] INFO root fetch - processPackages [ada-py]: Remove: archive file [/home/abi/fetcher/tmp/ada-py-0.0.8.tar.gz]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [ada-py]: Remove: archive file [/home/abi/fetcher/tmp/ada-py-0.0.9.tar.gz]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [ada-py]: Start processing: kolibri-explore-plugin
+[2023-06-23 15:37:54] INFO root fetch - main [MainThread]: End processing [ada-py]: success
+[2023-06-23 15:37:54] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9186614649864] Old Version: [1.5.0rc9183710847250]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-06-23 15:37:54] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/a5/42/4db23a956832bd3dd8a708bc7c3e061bfdeb580a2f0a1ecb864baf22f50b/power-grid-model-1.5.0rc9183710847250.tar.gz
+[2023-06-23 15:37:54] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/ce/f9/31b5cbfd9a83d09f22e7a4a1bcfe80aa5ac42dcb7177d812abc4159b1f22/kolibri_explore_plugin-6.8.0-py2.py3-none-any.whl
+[2023-06-23 15:37:54] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17418137>=10485760
+[2023-06-23 15:37:54] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/4a/e9/0417f67ffd4e835d0886a1c8397778b0069ed00c7dab709478d35ff191d6/pyarmor.cli.core.linux-3.2.8-cp39-none-any.whl
+[2023-06-23 15:37:54] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-06-23 15:37:54] INFO root fetch - processPackages [pyarmor.cli.core.themida]: executing diffoscope
+[2023-06-23 15:37:54] INFO root fetch - processPackages [pyarmor.cli.core.themida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.themida-3.2.6-cp39-none-any.whl.zip tmp/pyarmor.cli.core.themida-3.2.8-cp39-none-any.whl.zip --markdown 20230623/p/pyarmor.cli.core.themida/3.2.6-3.2.8/diff.md --exclude *.pyd
+[2023-06-23 15:37:54] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/58/ab/30d15db946dc0c8449e1da25864568db4e100c69b776b3b05e0de192dc66/pillar1-0.1.7.tar.gz
+[2023-06-23 15:37:54] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-23 15:37:54] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.6.2.tar.gz tmp/pillar1-0.1.7.tar.gz --markdown 20230623/p/pillar1/0.1.6.2-0.1.7/diff.md --exclude *.pyd
+[2023-06-23 15:37:55] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/9b/d5/2982c9f44a86bd8f037520e0a8ad876e26824ab75d16484b007338a77157/power-grid-model-1.5.0rc9186614649864.tar.gz
+[2023-06-23 15:37:55] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/75/eb/acbe38d51eafce25a466712d549b1141b6d73774230a2d141d0093b4bef3/pyarmor.cli.core.windows-3.2.8-cp39-none-any.whl
+[2023-06-23 15:37:55] INFO root fetch - processPackages [pyasd]: Remove: archive file [/home/abi/fetcher/tmp/pyasd-0.0.8.tar.gz]
+[2023-06-23 15:37:55] INFO root fetch - processPackages [pyasd]: Remove: archive file [/home/abi/fetcher/tmp/pyasd-0.0.9.tar.gz]
+[2023-06-23 15:37:55] INFO root fetch - main [MainThread]: End processing [pyasd]: success
+[2023-06-23 15:37:55] INFO root fetch - processPackages [pyarmor.cli.core.windows]: executing diffoscope
+[2023-06-23 15:37:55] INFO root fetch - processPackages [pyarmor.cli.core.windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.windows-3.2.6-cp39-none-any.whl.zip tmp/pyarmor.cli.core.windows-3.2.8-cp39-none-any.whl.zip --markdown 20230623/p/pyarmor.cli.core.windows/3.2.6-3.2.8/diff.md --exclude *.pyd
+[2023-06-23 15:37:55] INFO root fetch - processPackages [pyarmor.cli.core.linux]: executing diffoscope
+[2023-06-23 15:37:55] INFO root fetch - processPackages [pyarmor.cli.core.linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.linux-3.2.6-cp39-none-any.whl.zip tmp/pyarmor.cli.core.linux-3.2.8-cp39-none-any.whl.zip --markdown 20230623/p/pyarmor.cli.core.linux/3.2.6-3.2.8/diff.md --exclude *.pyd
+[2023-06-23 15:37:55] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-23 15:37:55] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9183710847250.tar.gz tmp/power-grid-model-1.5.0rc9186614649864.tar.gz --markdown 20230623/p/power-grid-model/1.5.0rc9183710847250-1.5.0rc9186614649864/diff.md --exclude *.pyd
+[2023-06-23 15:37:56] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-3.2.6-cp39-none-any.whl.zip]
+[2023-06-23 15:37:56] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-3.2.8-cp39-none-any.whl.zip]
+[2023-06-23 15:37:56] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.themida]: success
+[2023-06-23 15:37:56] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.6.2.tar.gz]
+[2023-06-23 15:37:56] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.tar.gz]
+[2023-06-23 15:37:56] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-23 15:37:57] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-3.2.6-cp39-none-any.whl.zip]
+[2023-06-23 15:37:57] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-3.2.8-cp39-none-any.whl.zip]
+[2023-06-23 15:37:57] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.windows]: success
+[2023-06-23 15:37:59] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.6-cp39-none-any.whl.zip]
+[2023-06-23 15:37:59] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.8-cp39-none-any.whl.zip]
+[2023-06-23 15:37:59] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.freebsd]: success
+[2023-06-23 15:38:00] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9183710847250.tar.gz]
+[2023-06-23 15:38:00] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9186614649864.tar.gz]
+[2023-06-23 15:38:00] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-23 15:38:03] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-3.2.6-cp39-none-any.whl.zip]
+[2023-06-23 15:38:03] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-3.2.8-cp39-none-any.whl.zip]
+[2023-06-23 15:38:03] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.darwin]: success
+[2023-06-23 15:38:03] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-3.2.6-cp39-none-any.whl.zip]
+[2023-06-23 15:38:03] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-3.2.8-cp39-none-any.whl.zip]
+[2023-06-23 15:38:03] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.alpine]: success
+[2023-06-23 15:38:28] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-3.2.6-cp39-none-any.whl.zip]
+[2023-06-23 15:38:28] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-3.2.8-cp39-none-any.whl.zip]
+[2023-06-23 15:38:28] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux]: success
+[2023-06-23 15:38:28] INFO root fetch - main [MainThread]: Store serial: [18618566]
