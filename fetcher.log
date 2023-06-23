@@ -17380,3 +17380,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 14:23:07] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
 [2023-06-23 14:23:07] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2023-06-23 14:23:07] INFO root fetch - main [MainThread]: Store serial: [18617695]
+[2023-06-23 14:28:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617695]
+[2023-06-23 14:28:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: functionfs
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpa-cooperativa
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syft
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ramodels
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: palmers-agents-general
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: http-servers
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyflow-workflow-generator
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hygiene-dm
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eopayment
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prettyc
+[2023-06-23 14:28:16] INFO root fetch - processPackages [functionfs]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-23 14:28:16] INFO root fetch - processPackages [rpa-cooperativa]: New version: [1.0.59] Old Version: [1.0.58]
+[2023-06-23 14:28:16] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 14:28:16] INFO root fetch - processPackages [pyflow-workflow-generator]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-06-23 14:28:16] INFO root fetch - processPackages [syft]: New version: [0.8.2b1] Old Version: [0.8.1b9]
+[2023-06-23 14:28:16] INFO root fetch - processPackages [prettyc]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-23 14:28:16] WARNING root fetch - processPackages [http-servers]: Skipping, unable to determine old version
+[2023-06-23 14:28:16] INFO root fetch - processPackages [hygiene-dm]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-06-23 14:28:16] INFO root fetch - main [MainThread]: End processing [http-servers] error
+[2023-06-23 14:28:16] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-23 14:28:16] INFO root fetch - processPackages [eopayment]: New version: [1.82] Old Version: [1.8]
+[2023-06-23 14:28:16] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/64/f5/b3d7d6d62aa49e3af742bcd1f24cdd9832f6f66872905b90843e9aea3db9/rpa_cooperativa-1.0.58.tar.gz
+[2023-06-23 14:28:16] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/a0/ba/bb9972f2c344a2bfc6289bc81301dc0b876b6cc6c50834a9b71e5b5ffdf4/palmers_agents_general-0.0.8.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/99/b8/426fd52883d499fcb99f3f3e79dc3d626b88f86a44d1105418a78457e80c/syft-0.8.1b9.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [functionfs]: Downloading https://files.pythonhosted.org/packages/49/73/6f4124bb10138fa8465e8833989b720cc031c0532621bb07a8c62126fae6/functionfs-0.9.1.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [eopayment]: Downloading https://files.pythonhosted.org/packages/d2/a9/39691b6396cdcea2247ddf82de68a40e14463a26c9ee14b72e766c2f8a67/eopayment-1.8.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/61/cd/e3e3e79d25eaa13474a77df36729a9c49c52bf78a9aabee81eb71e0e9622/palmers_agents_general-0.0.9.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [pyflow-workflow-generator]: Downloading https://files.pythonhosted.org/packages/b2/94/2403b3f219bed6c436f536d7ef4898a011dfd0cf75b52813c169d9d5baf9/pyflow-workflow-generator-3.1.5.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [prettyc]: Downloading https://files.pythonhosted.org/packages/a2/15/e54aee2da03e6bdfca72540f3b591916b7676337b4b00b54c36bc99e3320/prettyc-1.0.7.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [hygiene-dm]: Downloading https://files.pythonhosted.org/packages/a1/70/cb44852dd48c24b357ac56c4f84f61d0f779d8256fde14d6431272d159a6/hygiene_dm-0.0.1.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-23 14:28:17] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230623/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-23 14:28:17] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-06-23 14:28:17] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.8.tar.gz tmp/palmers_agents_general-0.0.9.tar.gz --markdown 20230623/p/palmers-agents-general/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 14:28:17] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/72/fa/a99689ed489965e5736b8bfe3e9748d21b830a0f58f87a45537a627f3362/rpa_cooperativa-1.0.59.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/69/04/26fc4e180fc0b2203f6f0d7734cf290c7e44ea66d113b693dab52ffb5596/syft-0.8.2b1.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [prettyc]: Downloading https://files.pythonhosted.org/packages/1b/bd/4118b86759f8a9526a777ffe75554ae2a7e35dc9280a9575fcf7d923e812/prettyc-1.0.8.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [pyflow-workflow-generator]: Downloading https://files.pythonhosted.org/packages/b8/12/fc58f54cc1241055c1d49d9d594ef72d16cb38e6cdfa6dfc40e5c0e7e824/pyflow-workflow-generator-3.1.6.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [functionfs]: Downloading https://files.pythonhosted.org/packages/a9/b5/619cb09a3ad57b74830ee9b650e64c1e8fda3a8f8904b518a3e4de4f3047/functionfs-0.9.2.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [hygiene-dm]: Downloading https://files.pythonhosted.org/packages/99/58/0cc481c36094679b98e0daebf3734b631c467b0b2628b95fe91110ac9d5f/hygiene_dm-0.0.5.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [rpa-cooperativa]: executing diffoscope
+[2023-06-23 14:28:17] INFO root fetch - processPackages [rpa-cooperativa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpa_cooperativa-1.0.58.tar.gz tmp/rpa_cooperativa-1.0.59.tar.gz --markdown 20230623/r/rpa-cooperativa/1.0.58-1.0.59/diff.md --exclude *.pyd
+[2023-06-23 14:28:17] INFO root fetch - processPackages [eopayment]: Downloading https://files.pythonhosted.org/packages/83/87/c8e99fdba94bdeb91fe28fa00e6a4a28a05882ffd4d01b08d081647d0c60/eopayment-1.82.tar.gz
+[2023-06-23 14:28:17] INFO root fetch - processPackages [functionfs]: executing diffoscope
+[2023-06-23 14:28:17] INFO root fetch - processPackages [functionfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functionfs-0.9.1.tar.gz tmp/functionfs-0.9.2.tar.gz --markdown 20230623/f/functionfs/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-23 14:28:17] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-06-23 14:28:17] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.1b9.tar.gz tmp/syft-0.8.2b1.tar.gz --markdown 20230623/s/syft/0.8.1b9-0.8.2b1/diff.md --exclude *.pyd
+[2023-06-23 14:28:17] INFO root fetch - processPackages [prettyc]: executing diffoscope
+[2023-06-23 14:28:17] INFO root fetch - processPackages [prettyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyc-1.0.7.tar.gz tmp/prettyc-1.0.8.tar.gz --markdown 20230623/p/prettyc/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-23 14:28:17] INFO root fetch - processPackages [hygiene-dm]: executing diffoscope
+[2023-06-23 14:28:17] INFO root fetch - processPackages [hygiene-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hygiene_dm-0.0.1.tar.gz tmp/hygiene_dm-0.0.5.tar.gz --markdown 20230623/h/hygiene-dm/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 14:28:17] INFO root fetch - processPackages [pyflow-workflow-generator]: executing diffoscope
+[2023-06-23 14:28:17] INFO root fetch - processPackages [pyflow-workflow-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflow-workflow-generator-3.1.5.tar.gz tmp/pyflow-workflow-generator-3.1.6.tar.gz --markdown 20230623/p/pyflow-workflow-generator/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-06-23 14:28:17] INFO root fetch - processPackages [eopayment]: executing diffoscope
+[2023-06-23 14:28:17] INFO root fetch - processPackages [eopayment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eopayment-1.8.tar.gz tmp/eopayment-1.82.tar.gz --markdown 20230623/e/eopayment/1.8-1.82/diff.md --exclude *.pyd
+[2023-06-23 14:28:18] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.8.tar.gz]
+[2023-06-23 14:28:18] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.9.tar.gz]
+[2023-06-23 14:28:18] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-06-23 14:28:18] INFO root fetch - processPackages [rpa-cooperativa]: Remove: archive file [/home/abi/fetcher/tmp/rpa_cooperativa-1.0.58.tar.gz]
+[2023-06-23 14:28:18] INFO root fetch - processPackages [rpa-cooperativa]: Remove: archive file [/home/abi/fetcher/tmp/rpa_cooperativa-1.0.59.tar.gz]
+[2023-06-23 14:28:18] INFO root fetch - main [MainThread]: End processing [rpa-cooperativa]: success
+[2023-06-23 14:28:19] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-23 14:28:19] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-23 14:28:19] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-23 14:28:19] INFO root fetch - processPackages [functionfs]: Remove: archive file [/home/abi/fetcher/tmp/functionfs-0.9.1.tar.gz]
+[2023-06-23 14:28:19] INFO root fetch - processPackages [functionfs]: Remove: archive file [/home/abi/fetcher/tmp/functionfs-0.9.2.tar.gz]
+[2023-06-23 14:28:19] INFO root fetch - main [MainThread]: End processing [functionfs]: success
+[2023-06-23 14:28:19] INFO root fetch - processPackages [prettyc]: Remove: archive file [/home/abi/fetcher/tmp/prettyc-1.0.7.tar.gz]
+[2023-06-23 14:28:19] INFO root fetch - processPackages [prettyc]: Remove: archive file [/home/abi/fetcher/tmp/prettyc-1.0.8.tar.gz]
+[2023-06-23 14:28:19] INFO root fetch - main [MainThread]: End processing [prettyc]: success
+[2023-06-23 14:28:19] INFO root fetch - processPackages [pyflow-workflow-generator]: Remove: archive file [/home/abi/fetcher/tmp/pyflow-workflow-generator-3.1.5.tar.gz]
+[2023-06-23 14:28:19] INFO root fetch - processPackages [pyflow-workflow-generator]: Remove: archive file [/home/abi/fetcher/tmp/pyflow-workflow-generator-3.1.6.tar.gz]
+[2023-06-23 14:28:19] INFO root fetch - main [MainThread]: End processing [pyflow-workflow-generator]: success
+[2023-06-23 14:28:19] INFO root fetch - processPackages [hygiene-dm]: Remove: archive file [/home/abi/fetcher/tmp/hygiene_dm-0.0.1.tar.gz]
+[2023-06-23 14:28:19] INFO root fetch - processPackages [hygiene-dm]: Remove: archive file [/home/abi/fetcher/tmp/hygiene_dm-0.0.5.tar.gz]
+[2023-06-23 14:28:19] INFO root fetch - main [MainThread]: End processing [hygiene-dm]: success
+[2023-06-23 14:28:20] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b9.tar.gz]
+[2023-06-23 14:28:20] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.2b1.tar.gz]
+[2023-06-23 14:28:20] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-06-23 14:28:21] INFO root fetch - processPackages [eopayment]: Remove: archive file [/home/abi/fetcher/tmp/eopayment-1.8.tar.gz]
+[2023-06-23 14:28:21] INFO root fetch - processPackages [eopayment]: Remove: archive file [/home/abi/fetcher/tmp/eopayment-1.82.tar.gz]
+[2023-06-23 14:28:21] INFO root fetch - main [MainThread]: End processing [eopayment]: success
+[2023-06-23 14:28:21] INFO root fetch - main [MainThread]: Store serial: [18617727]
