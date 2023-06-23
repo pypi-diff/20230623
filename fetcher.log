@@ -17304,3 +17304,79 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 14:17:54] INFO root fetch - processPackages [webviz-subsurface]: Remove: archive file [/home/abi/fetcher/tmp/webviz-subsurface-0.2.9rc0.tar.gz]
 [2023-06-23 14:17:54] INFO root fetch - main [MainThread]: End processing [webviz-subsurface]: success
 [2023-06-23 14:17:54] INFO root fetch - main [MainThread]: Store serial: [18617660]
+[2023-06-23 14:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617660]
+[2023-06-23 14:23:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-23 14:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-github
+[2023-06-23 14:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arcticdb
+[2023-06-23 14:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-excel
+[2023-06-23 14:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: almavik
+[2023-06-23 14:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2023-06-23 14:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yea-wandb
+[2023-06-23 14:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-dllib-spark3
+[2023-06-23 14:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: steamship-langchain
+[2023-06-23 14:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuNet
+[2023-06-23 14:23:03] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-06-23 14:23:03] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 14:23:03] INFO root fetch - processPackages [almavik]: New version: [356] Old Version: [355]
+[2023-06-23 14:23:03] INFO root fetch - processPackages [arcticdb]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-23 14:23:03] INFO root fetch - processPackages [drf-excel]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-06-23 14:23:03] INFO root fetch - processPackages [QuNet]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-06-23 14:23:03] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230623] Old Version: [2.4.0b20230622]
+[2023-06-23 14:23:03] INFO root fetch - processPackages [steamship-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 14:23:03] INFO root fetch - processPackages [yea-wandb]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 14:23:03] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/bf/f4/6cd0e73dee9120f34ec7bbf75a43f66e00bc88c2f1fcd18a7971097e030b/almavik-355.tar.gz
+[2023-06-23 14:23:03] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 14:23:03] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/eb/32/0ae95ff9bcc3ce3f78947c655e7272eeb2613594acf7a50fcedc937a1618/QuNet-0.0.94-py3-none-any.whl
+[2023-06-23 14:23:03] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/07/d0/19f0158232f85b2a5acbc2867169eb3ab0cf1484ca3f4c9a72de05684671/bigdl-dllib-spark3-2.4.0b20230622.tar.gz
+[2023-06-23 14:23:03] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85084453>=10485760
+[2023-06-23 14:23:03] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-23 14:23:04] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328915>=10485760
+[2023-06-23 14:23:04] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-23 14:23:04] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-06-23 14:23:04] INFO root fetch - processPackages [arcticdb]: Downloading https://files.pythonhosted.org/packages/21/ed/90781b057053c3b8bac5abeaa33ca1a90a6fd3d09161ef420e846d733a8b/arcticdb-1.3.0-cp39-cp39-win_amd64.whl
+[2023-06-23 14:23:04] INFO root fetch - processPackages [drf-excel]: Downloading https://files.pythonhosted.org/packages/22/c8/43ec5bdfc445d3a6f39c55db5bec7be72496d779921e309aa8a49762e38b/drf-excel-2.3.0.tar.gz
+[2023-06-23 14:23:04] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/28/9b/7d30260ef422e30d955c8e4ebaea1b7da8fe8e82ed497d0e37cfe71a5062/steamship-langchain-0.0.8.tar.gz
+[2023-06-23 14:23:04] INFO root fetch - processPackages [yea-wandb]: Downloading https://files.pythonhosted.org/packages/a5/59/c565e112781e00e020cf837de4ff85e8d70081811d4a91dabc47ba527028/yea-wandb-0.9.8.tar.gz
+[2023-06-23 14:23:04] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 14:23:04] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/8b/bb/771123a6a73875f993d8a45177a56e4d0c35cda804bab62e484df57b05dd/QuNet-0.0.95-py3-none-any.whl
+[2023-06-23 14:23:04] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-23 14:23:04] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.94-py3-none-any.whl.zip tmp/QuNet-0.0.95-py3-none-any.whl.zip --markdown 20230623/Q/QuNet/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-06-23 14:23:04] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 14:23:04] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 14:23:04] INFO root fetch - processPackages [drf-excel]: Downloading https://files.pythonhosted.org/packages/bf/23/7f5331662164c7448e7aade30ea9cadf9516bd23051c6561a536b218a5fb/drf-excel-2.4.0.tar.gz
+[2023-06-23 14:23:04] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/d3/e8/99fd7d90895f3d224f2fe3210c59f541a6187cc6e3aab13e92fa5e2da113/steamship-langchain-0.0.9.tar.gz
+[2023-06-23 14:23:04] INFO root fetch - processPackages [yea-wandb]: Downloading https://files.pythonhosted.org/packages/91/66/c56ccf3e1c3196994bd1aa81fc78d09cc428628791a95a71c968d2dc4329/yea-wandb-0.9.9.tar.gz
+[2023-06-23 14:23:04] INFO root fetch - processPackages [drf-excel]: executing diffoscope
+[2023-06-23 14:23:04] INFO root fetch - processPackages [drf-excel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-excel-2.3.0.tar.gz tmp/drf-excel-2.4.0.tar.gz --markdown 20230623/d/drf-excel/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-06-23 14:23:04] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/c9/c7/93ab5613466154b7124ec8eae861573f6b499bd2807accd6d08c5fa08291/pulumi_github-5.9.1.tar.gz
+[2023-06-23 14:23:04] INFO root fetch - processPackages [steamship-langchain]: executing diffoscope
+[2023-06-23 14:23:04] INFO root fetch - processPackages [steamship-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-langchain-0.0.8.tar.gz tmp/steamship-langchain-0.0.9.tar.gz --markdown 20230623/s/steamship-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 14:23:04] INFO root fetch - processPackages [yea-wandb]: executing diffoscope
+[2023-06-23 14:23:04] INFO root fetch - processPackages [yea-wandb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yea-wandb-0.9.8.tar.gz tmp/yea-wandb-0.9.9.tar.gz --markdown 20230623/y/yea-wandb/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 14:23:04] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-06-23 14:23:04] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230623/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-06-23 14:23:05] INFO root fetch - processPackages [arcticdb]: Downloading https://files.pythonhosted.org/packages/8b/4b/2b06d7f2aa9404b77b571a66b17b40504aef1fb0efa7d4d41cf171594046/arcticdb-1.4.0-cp39-cp39-win_amd64.whl
+[2023-06-23 14:23:05] INFO root fetch - processPackages [arcticdb]: executing diffoscope
+[2023-06-23 14:23:05] INFO root fetch - processPackages [arcticdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcticdb-1.3.0-cp39-cp39-win_amd64.whl.zip tmp/arcticdb-1.4.0-cp39-cp39-win_amd64.whl.zip --markdown 20230623/a/arcticdb/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-23 14:23:05] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.94-py3-none-any.whl.zip]
+[2023-06-23 14:23:05] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.95-py3-none-any.whl.zip]
+[2023-06-23 14:23:05] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-23 14:23:05] INFO root fetch - processPackages [drf-excel]: Remove: archive file [/home/abi/fetcher/tmp/drf-excel-2.3.0.tar.gz]
+[2023-06-23 14:23:05] INFO root fetch - processPackages [drf-excel]: Remove: archive file [/home/abi/fetcher/tmp/drf-excel-2.4.0.tar.gz]
+[2023-06-23 14:23:05] INFO root fetch - main [MainThread]: End processing [drf-excel]: success
+[2023-06-23 14:23:06] INFO root fetch - processPackages [yea-wandb]: Remove: archive file [/home/abi/fetcher/tmp/yea-wandb-0.9.8.tar.gz]
+[2023-06-23 14:23:06] INFO root fetch - processPackages [yea-wandb]: Remove: archive file [/home/abi/fetcher/tmp/yea-wandb-0.9.9.tar.gz]
+[2023-06-23 14:23:06] INFO root fetch - main [MainThread]: End processing [yea-wandb]: success
+[2023-06-23 14:23:06] INFO root fetch - processPackages [steamship-langchain]: Remove: archive file [/home/abi/fetcher/tmp/steamship-langchain-0.0.8.tar.gz]
+[2023-06-23 14:23:06] INFO root fetch - processPackages [steamship-langchain]: Remove: archive file [/home/abi/fetcher/tmp/steamship-langchain-0.0.9.tar.gz]
+[2023-06-23 14:23:06] INFO root fetch - main [MainThread]: End processing [steamship-langchain]: success
+[2023-06-23 14:23:06] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.0a1683752304.tar.gz]
+[2023-06-23 14:23:06] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
+[2023-06-23 14:23:06] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-06-23 14:23:07] INFO root fetch - processPackages [arcticdb]: Remove: archive file [/home/abi/fetcher/tmp/arcticdb-1.3.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 14:23:07] INFO root fetch - processPackages [arcticdb]: Remove: archive file [/home/abi/fetcher/tmp/arcticdb-1.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-23 14:23:07] INFO root fetch - main [MainThread]: End processing [arcticdb]: success
+[2023-06-23 14:23:07] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 14:23:07] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 14:23:07] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 14:23:07] INFO root fetch - main [MainThread]: Store serial: [18617695]
