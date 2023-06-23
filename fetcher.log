@@ -17467,3 +17467,174 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 14:28:21] INFO root fetch - processPackages [eopayment]: Remove: archive file [/home/abi/fetcher/tmp/eopayment-1.82.tar.gz]
 [2023-06-23 14:28:21] INFO root fetch - main [MainThread]: End processing [eopayment]: success
 [2023-06-23 14:28:21] INFO root fetch - main [MainThread]: Store serial: [18617727]
+[2023-06-23 14:33:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617727]
+[2023-06-23 14:33:30] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-23 14:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-lambda-powertools
+[2023-06-23 14:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxfit
+[2023-06-23 14:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: http-servers
+[2023-06-23 14:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Boombers
+[2023-06-23 14:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plutous-trade
+[2023-06-23 14:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxdf
+[2023-06-23 14:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowlang
+[2023-06-23 14:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SmithWagnerCV
+[2023-06-23 14:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyodide-lock
+[2023-06-23 14:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moto
+[2023-06-23 14:33:30] INFO root fetch - processPackages [jaxfit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 14:33:30] INFO root fetch - processPackages [jaxdf]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-23 14:33:30] INFO root fetch - processPackages [http-servers]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-23 14:33:30] INFO root fetch - processPackages [plutous-trade]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-23 14:33:30] INFO root fetch - processPackages [flowlang]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 14:33:30] WARNING root fetch - processPackages [pyodide-lock]: Skipping, unable to determine old version
+[2023-06-23 14:33:30] INFO root fetch - processPackages [pyodide-lock]: Start processing: dbt-snapshot-analysis
+[2023-06-23 14:33:30] INFO root fetch - processPackages [SmithWagnerCV]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 14:33:30] WARNING root fetch - processPackages [Boombers]: Skipping, unable to determine old version
+[2023-06-23 14:33:30] INFO root fetch - processPackages [Boombers]: Start processing: QuNet
+[2023-06-23 14:33:30] INFO root fetch - main [MainThread]: End processing [pyodide-lock] error
+[2023-06-23 14:33:30] INFO root fetch - main [MainThread]: End processing [Boombers] error
+[2023-06-23 14:33:30] INFO root fetch - processPackages [aws-lambda-powertools]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-23 14:33:30] INFO root fetch - processPackages [dbt-snapshot-analysis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-23 14:33:30] INFO root fetch - processPackages [jaxdf]: Downloading https://files.pythonhosted.org/packages/5d/28/c46fb8923e655b90aaf92702277a9fcc09b3345d3a24be82edfd7df2ea2f/jaxdf-0.2.4.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-23 14:33:30] INFO root fetch - processPackages [QuNet]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-06-23 14:33:30] INFO root fetch - processPackages [flowlang]: Downloading https://files.pythonhosted.org/packages/56/b2/98e3f65b4bf5385c376076de16c4941892d5b5ad3dc77b2c8679f02f8303/flowlang-0.0.4.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [http-servers]: Downloading https://files.pythonhosted.org/packages/31/3a/5936bb4e1c2423003d5d95d23edb5392ccb2bc8576384d89dfdeb796befc/http_servers-0.0.1.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [jaxfit]: Downloading https://files.pythonhosted.org/packages/26/a2/f3c8327f90210d12e4c3ccb6eaaa306d038a7f70d99e056651fb8fac5334/jaxfit-0.0.4.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [SmithWagnerCV]: Downloading https://files.pythonhosted.org/packages/ab/c9/b4cb2885d86fcaadf9bc4aa0d13a451e68c8d2f6381bfd61f9e825844736/SmithWagnerCV-0.0.5.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [aws-lambda-powertools]: Downloading https://files.pythonhosted.org/packages/a9/49/8be7a6c4973e4fb63e8009f75db67a06c1ea25a36e8e03e7562d90b909fd/aws_lambda_powertools-2.9.0.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/57/24/0de9c7f5fafa6ca512ba0593169165280f4d2fbdf6525ba6a1523d19fe81/QuNet-0.0.96-py3-none-any.whl
+[2023-06-23 14:33:30] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/f4/fd/1748d80f44fd14363f8568e34fd1480701ba4898c712871a0a7132a909a3/dbt_snapshot_analysis-0.1.0.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [plutous-trade]: Downloading https://files.pythonhosted.org/packages/ad/5b/6c90d50e589d9e379522ba81062c644cf9c858f4b2520bd94bf293bbd4d5/plutous_trade-0.0.7.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [jaxdf]: Downloading https://files.pythonhosted.org/packages/ed/81/5e77011d870dcaed18b51eef854630c42eaaf0d11696c7c4a320e0fe0742/jaxdf-0.2.5.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [flowlang]: Downloading https://files.pythonhosted.org/packages/ae/83/32cb124baa1cf10252f0774461aee1c966ad2e56979cc19299fbd89feef1/flowlang-0.0.5.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [SmithWagnerCV]: Downloading https://files.pythonhosted.org/packages/fa/36/44d3ebcea2410f7feb447eaa2e679c4852e7473d8990cad48126edd8bb29/smithwagnercv-0.0.6.tar.gz
+[2023-06-23 14:33:30] INFO root fetch - processPackages [jaxdf]: executing diffoscope
+[2023-06-23 14:33:30] INFO root fetch - processPackages [jaxdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxdf-0.2.4.tar.gz tmp/jaxdf-0.2.5.tar.gz --markdown 20230623/j/jaxdf/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-23 14:33:30] INFO root fetch - processPackages [http-servers]: Downloading https://files.pythonhosted.org/packages/f3/bb/8e581cd47fdd18ecc95bfd7f847674707d2a306e2c2cca5de06c07185e6c/http_servers-0.0.2.tar.gz
+[2023-06-23 14:33:31] INFO root fetch - processPackages [aws-lambda-powertools]: Downloading https://files.pythonhosted.org/packages/be/e3/ff85c035be26d266a4c353fb3f7d653f04b94e5cf23913e93f530125c7d6/aws_lambda_powertools-2.9.1.tar.gz
+[2023-06-23 14:33:31] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/07/88/639f50c6bd48d5114dd2f4be30c4111950c9ca9d65de2ddc707af63deba6/dbt_snapshot_analysis-0.1.1.tar.gz
+[2023-06-23 14:33:31] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/52/09/95ac90e82c7726cb48a91735d45588906fa729c68b932abb06380b5d35a4/QuNet-0.0.97-py3-none-any.whl
+[2023-06-23 14:33:31] INFO root fetch - processPackages [jaxfit]: Downloading https://files.pythonhosted.org/packages/59/77/bbfcdae192a0051e0df52ffa69b8ea7feb4a455dd61f4708bfaaa7be2d9b/jaxfit-0.0.5.tar.gz
+[2023-06-23 14:33:31] INFO root fetch - processPackages [SmithWagnerCV]: executing diffoscope
+[2023-06-23 14:33:31] INFO root fetch - processPackages [SmithWagnerCV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmithWagnerCV-0.0.5.tar.gz tmp/smithwagnercv-0.0.6.tar.gz --markdown 20230623/S/SmithWagnerCV/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 14:33:31] INFO root fetch - processPackages [flowlang]: executing diffoscope
+[2023-06-23 14:33:31] INFO root fetch - processPackages [flowlang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowlang-0.0.4.tar.gz tmp/flowlang-0.0.5.tar.gz --markdown 20230623/f/flowlang/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 14:33:31] INFO root fetch - processPackages [plutous-trade]: Downloading https://files.pythonhosted.org/packages/4e/b3/3b26db98dfb6c14dcb86851ce58ae2da1c8b5fa2a2bc4f88c3a14845ec4c/plutous_trade-0.0.9.tar.gz
+[2023-06-23 14:33:31] INFO root fetch - processPackages [dbt-snapshot-analysis]: executing diffoscope
+[2023-06-23 14:33:31] INFO root fetch - processPackages [dbt-snapshot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snapshot_analysis-0.1.0.tar.gz tmp/dbt_snapshot_analysis-0.1.1.tar.gz --markdown 20230623/d/dbt-snapshot-analysis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-23 14:33:31] INFO root fetch - processPackages [jaxfit]: executing diffoscope
+[2023-06-23 14:33:31] INFO root fetch - processPackages [jaxfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxfit-0.0.4.tar.gz tmp/jaxfit-0.0.5.tar.gz --markdown 20230623/j/jaxfit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 14:33:31] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-23 14:33:31] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.96-py3-none-any.whl.zip tmp/QuNet-0.0.97-py3-none-any.whl.zip --markdown 20230623/Q/QuNet/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-06-23 14:33:31] INFO root fetch - processPackages [http-servers]: executing diffoscope
+[2023-06-23 14:33:31] INFO root fetch - processPackages [http-servers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_servers-0.0.1.tar.gz tmp/http_servers-0.0.2.tar.gz --markdown 20230623/h/http-servers/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 14:33:31] INFO root fetch - processPackages [plutous-trade]: executing diffoscope
+[2023-06-23 14:33:31] INFO root fetch - processPackages [plutous-trade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade-0.0.7.tar.gz tmp/plutous_trade-0.0.9.tar.gz --markdown 20230623/p/plutous-trade/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 14:33:31] INFO root fetch - processPackages [aws-lambda-powertools]: executing diffoscope
+[2023-06-23 14:33:31] INFO root fetch - processPackages [aws-lambda-powertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_powertools-2.9.0.tar.gz tmp/aws_lambda_powertools-2.9.1.tar.gz --markdown 20230623/a/aws-lambda-powertools/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-23 14:33:31] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-23 14:33:31] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230623/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-23 14:33:32] INFO root fetch - processPackages [jaxdf]: Remove: archive file [/home/abi/fetcher/tmp/jaxdf-0.2.4.tar.gz]
+[2023-06-23 14:33:32] INFO root fetch - processPackages [jaxdf]: Remove: archive file [/home/abi/fetcher/tmp/jaxdf-0.2.5.tar.gz]
+[2023-06-23 14:33:32] INFO root fetch - processPackages [jaxdf]: Start processing: collective.ckeditor
+[2023-06-23 14:33:32] INFO root fetch - main [MainThread]: End processing [jaxdf]: success
+[2023-06-23 14:33:32] INFO root fetch - processPackages [collective.ckeditor]: New version: [5.0.0b2] Old Version: [5.0.0b1]
+[2023-06-23 14:33:32] INFO root fetch - processPackages [collective.ckeditor]: Downloading https://files.pythonhosted.org/packages/d8/68/1e9e3bc80b33bc3ce9c06ce5f3b0953d2b78e3ac1736054378f799856155/collective.ckeditor-5.0.0b1.tar.gz
+[2023-06-23 14:33:32] INFO root fetch - processPackages [SmithWagnerCV]: Remove: archive file [/home/abi/fetcher/tmp/SmithWagnerCV-0.0.5.tar.gz]
+[2023-06-23 14:33:32] INFO root fetch - processPackages [SmithWagnerCV]: Remove: archive file [/home/abi/fetcher/tmp/smithwagnercv-0.0.6.tar.gz]
+[2023-06-23 14:33:32] INFO root fetch - processPackages [SmithWagnerCV]: Start processing: notion-pinecone
+[2023-06-23 14:33:32] INFO root fetch - main [MainThread]: End processing [SmithWagnerCV]: success
+[2023-06-23 14:33:32] INFO root fetch - processPackages [notion-pinecone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 14:33:32] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.1.0.tar.gz]
+[2023-06-23 14:33:32] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.1.1.tar.gz]
+[2023-06-23 14:33:32] INFO root fetch - processPackages [dbt-snapshot-analysis]: Start processing: atatus
+[2023-06-23 14:33:32] INFO root fetch - main [MainThread]: End processing [dbt-snapshot-analysis]: success
+[2023-06-23 14:33:32] INFO root fetch - processPackages [atatus]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-23 14:33:32] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/a5/f1/41ca6a8c9ddd738e4d481d1748bb2d280240a63c2bda40278362c74042fb/notion-pinecone-0.0.8.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [notion-pinecone]: Downloading https://files.pythonhosted.org/packages/6b/fc/d39a402e70081bae0702db4dba0a0475f7be4cf21199cd6752a3157f72b8/notion-pinecone-0.0.9.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [http-servers]: Remove: archive file [/home/abi/fetcher/tmp/http_servers-0.0.1.tar.gz]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [http-servers]: Remove: archive file [/home/abi/fetcher/tmp/http_servers-0.0.2.tar.gz]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [http-servers]: Start processing: gopay
+[2023-06-23 14:33:33] INFO root fetch - main [MainThread]: End processing [http-servers]: success
+[2023-06-23 14:33:33] INFO root fetch - processPackages [atatus]: Downloading https://files.pythonhosted.org/packages/03/83/f6f0ec0f3890b867301a7b0664844457caacb0f6fc66149a20a196979c8e/atatus-1.5.2.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [flowlang]: Remove: archive file [/home/abi/fetcher/tmp/flowlang-0.0.4.tar.gz]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [flowlang]: Remove: archive file [/home/abi/fetcher/tmp/flowlang-0.0.5.tar.gz]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [flowlang]: Start processing: gnssrefl
+[2023-06-23 14:33:33] INFO root fetch - main [MainThread]: End processing [flowlang]: success
+[2023-06-23 14:33:33] INFO root fetch - processPackages [notion-pinecone]: executing diffoscope
+[2023-06-23 14:33:33] INFO root fetch - processPackages [notion-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-pinecone-0.0.8.tar.gz tmp/notion-pinecone-0.0.9.tar.gz --markdown 20230623/n/notion-pinecone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 14:33:33] INFO root fetch - processPackages [gopay]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [gnssrefl]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.97-py3-none-any.whl.zip]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [QuNet]: Start processing: types-mysqlclient
+[2023-06-23 14:33:33] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-23 14:33:33] INFO root fetch - processPackages [atatus]: Downloading https://files.pythonhosted.org/packages/fd/ca/de9cf89f5eb24ba3281bd53ba33cf73ce021c1fd4af50223c138162715d8/atatus-1.5.3.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [jaxfit]: Remove: archive file [/home/abi/fetcher/tmp/jaxfit-0.0.4.tar.gz]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [jaxfit]: Remove: archive file [/home/abi/fetcher/tmp/jaxfit-0.0.5.tar.gz]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [jaxfit]: Start processing: cybrid-api-organization-python
+[2023-06-23 14:33:33] INFO root fetch - main [MainThread]: End processing [jaxfit]: success
+[2023-06-23 14:33:33] INFO root fetch - processPackages [gopay]: Downloading https://files.pythonhosted.org/packages/63/ff/c2aac75bb7e576415a419988722b60b8bbc604e1824847575e7905a74b0a/gopay-2.0.0.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/a4/5c/f49ad56cf2935d22d1328bf9170ea052b2eef9de33ec9d65022e09364bfd/gnssrefl-1.3.7.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [types-mysqlclient]: New version: [2.2.0.0] Old Version: [2.1.5.7]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [atatus]: executing diffoscope
+[2023-06-23 14:33:33] INFO root fetch - processPackages [atatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atatus-1.5.2.tar.gz tmp/atatus-1.5.3.tar.gz --markdown 20230623/a/atatus/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-23 14:33:33] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [plutous-trade]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade-0.0.7.tar.gz]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [plutous-trade]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade-0.0.9.tar.gz]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [plutous-trade]: Start processing: cybrid-api-id-python
+[2023-06-23 14:33:33] INFO root fetch - main [MainThread]: End processing [plutous-trade]: success
+[2023-06-23 14:33:33] INFO root fetch - processPackages [collective.ckeditor]: Downloading https://files.pythonhosted.org/packages/5d/e5/1befdf29e3e9099075373b2b13a115e492f18821de054a119f07ccd7e7a2/collective.ckeditor-5.0.0b2.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-23 14:33:33] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230623/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 14:33:33] INFO root fetch - processPackages [gopay]: Downloading https://files.pythonhosted.org/packages/09/b0/c1bc73956bedc34f9e775e955be62fd86e9f8c6b77c17378a4f76562abf1/gopay-2.0.1.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [types-mysqlclient]: Downloading https://files.pythonhosted.org/packages/7c/46/a43796768ca95512139b5954d76f6083c50b9de89f6db14e74d8979ad7b1/types-mysqlclient-2.1.5.7.tar.gz
+[2023-06-23 14:33:33] INFO root fetch - processPackages [gopay]: executing diffoscope
+[2023-06-23 14:33:33] INFO root fetch - processPackages [gopay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gopay-2.0.0.tar.gz tmp/gopay-2.0.1.tar.gz --markdown 20230623/g/gopay/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-23 14:33:33] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.0.tar.gz]
+[2023-06-23 14:33:33] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.1.tar.gz]
+[2023-06-23 14:33:33] INFO root fetch - main [MainThread]: End processing [aws-lambda-powertools]: success
+[2023-06-23 14:33:34] INFO root fetch - processPackages [types-mysqlclient]: Downloading https://files.pythonhosted.org/packages/92/1f/e4d257cbb51d0828cffde845d10c0b4cc83ba2e2ccfc5c077cfc6355e520/types-mysqlclient-2.2.0.0.tar.gz
+[2023-06-23 14:33:34] INFO root fetch - processPackages [collective.ckeditor]: executing diffoscope
+[2023-06-23 14:33:34] INFO root fetch - processPackages [collective.ckeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.ckeditor-5.0.0b1.tar.gz tmp/collective.ckeditor-5.0.0b2.tar.gz --markdown 20230623/c/collective.ckeditor/5.0.0b1-5.0.0b2/diff.md --exclude *.pyd
+[2023-06-23 14:33:34] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 14:33:34] INFO root fetch - processPackages [types-mysqlclient]: executing diffoscope
+[2023-06-23 14:33:34] INFO root fetch - processPackages [types-mysqlclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-mysqlclient-2.1.5.7.tar.gz tmp/types-mysqlclient-2.2.0.0.tar.gz --markdown 20230623/t/types-mysqlclient/2.1.5.7-2.2.0.0/diff.md --exclude *.pyd
+[2023-06-23 14:33:34] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-23 14:33:34] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-23 14:33:34] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-23 14:33:34] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230623/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 14:33:34] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.8.tar.gz]
+[2023-06-23 14:33:34] INFO root fetch - processPackages [notion-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/notion-pinecone-0.0.9.tar.gz]
+[2023-06-23 14:33:34] INFO root fetch - main [MainThread]: End processing [notion-pinecone]: success
+[2023-06-23 14:33:35] INFO root fetch - processPackages [gopay]: Remove: archive file [/home/abi/fetcher/tmp/gopay-2.0.0.tar.gz]
+[2023-06-23 14:33:35] INFO root fetch - processPackages [gopay]: Remove: archive file [/home/abi/fetcher/tmp/gopay-2.0.1.tar.gz]
+[2023-06-23 14:33:35] INFO root fetch - main [MainThread]: End processing [gopay]: success
+[2023-06-23 14:33:35] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-23 14:33:35] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-23 14:33:35] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-23 14:33:35] INFO root fetch - processPackages [types-mysqlclient]: Remove: archive file [/home/abi/fetcher/tmp/types-mysqlclient-2.1.5.7.tar.gz]
+[2023-06-23 14:33:35] INFO root fetch - processPackages [types-mysqlclient]: Remove: archive file [/home/abi/fetcher/tmp/types-mysqlclient-2.2.0.0.tar.gz]
+[2023-06-23 14:33:35] INFO root fetch - main [MainThread]: End processing [types-mysqlclient]: success
+[2023-06-23 14:33:36] INFO root fetch - processPackages [atatus]: Remove: archive file [/home/abi/fetcher/tmp/atatus-1.5.2.tar.gz]
+[2023-06-23 14:33:36] INFO root fetch - processPackages [atatus]: Remove: archive file [/home/abi/fetcher/tmp/atatus-1.5.3.tar.gz]
+[2023-06-23 14:33:36] INFO root fetch - main [MainThread]: End processing [atatus]: success
+[2023-06-23 14:33:36] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/58/ca/e783ec5ced96c271dfccce3e4af083e94ee3baec149a1e2374beb8c43fdf/gnssrefl-1.3.8.tar.gz
+[2023-06-23 14:33:36] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-23 14:33:36] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-23 14:33:36] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-23 14:33:38] INFO root fetch - processPackages [gnssrefl]: executing diffoscope
+[2023-06-23 14:33:38] INFO root fetch - processPackages [gnssrefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssrefl-1.3.7.tar.gz tmp/gnssrefl-1.3.8.tar.gz --markdown 20230623/g/gnssrefl/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-23 14:33:42] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.3.7.tar.gz]
+[2023-06-23 14:33:42] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.3.8.tar.gz]
+[2023-06-23 14:33:42] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
+[2023-06-23 14:34:04] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-23 14:34:04] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-23 14:34:04] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-23 14:34:36] INFO root fetch - processPackages [collective.ckeditor]: Remove: archive file [/home/abi/fetcher/tmp/collective.ckeditor-5.0.0b1.tar.gz]
+[2023-06-23 14:34:36] INFO root fetch - processPackages [collective.ckeditor]: Remove: archive file [/home/abi/fetcher/tmp/collective.ckeditor-5.0.0b2.tar.gz]
+[2023-06-23 14:34:36] INFO root fetch - main [MainThread]: End processing [collective.ckeditor]: success
+[2023-06-23 14:34:36] INFO root fetch - main [MainThread]: Store serial: [18617787]
