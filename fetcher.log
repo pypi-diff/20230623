@@ -11270,3 +11270,190 @@
 [2023-06-23 09:42:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post860-py3-none-any.whl.zip]
 [2023-06-23 09:42:38] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-06-23 09:42:38] INFO root fetch - main [MainThread]: Store serial: [18615136]
+[2023-06-23 09:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615136]
+[2023-06-23 09:47:48] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-grpc-lw-data-provider
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ARIclicker
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktest
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpged
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kalm
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-snippets
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: garpix-user
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openai-functions
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openqc
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lime-stable
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ARIclicker]: New version: [0.2] Old Version: [0.1.9]
+[2023-06-23 09:47:48] INFO root fetch - processPackages [gpged]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-06-23 09:47:48] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 09:47:48] WARNING root fetch - processPackages [openqc]: Skipping, unable to determine old version
+[2023-06-23 09:47:48] INFO root fetch - processPackages [openqc]: Start processing: madata
+[2023-06-23 09:47:48] INFO root fetch - main [MainThread]: End processing [openqc] error
+[2023-06-23 09:47:48] WARNING root fetch - processPackages [cdktest]: Skipping, unable to determine old version
+[2023-06-23 09:47:48] INFO root fetch - processPackages [garpix-user]: New version: [3.8.0] Old Version: [3.7.1]
+[2023-06-23 09:47:48] INFO root fetch - processPackages [cdktest]: Start processing: armonik
+[2023-06-23 09:47:48] INFO root fetch - processPackages [openai-functions]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-23 09:47:48] INFO root fetch - main [MainThread]: End processing [cdktest] error
+[2023-06-23 09:47:48] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5354020897]
+[2023-06-23 09:47:48] INFO root fetch - processPackages [lime-stable]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 09:47:48] WARNING root fetch - processPackages [madata]: Skipping, unable to determine old version
+[2023-06-23 09:47:48] INFO root fetch - processPackages [madata]: Start processing: torch-snippets
+[2023-06-23 09:47:48] INFO root fetch - processPackages [torch-snippets]: New version: [0.499.9] Old Version: [0.499.8]
+[2023-06-23 09:47:48] INFO root fetch - main [MainThread]: End processing [madata] error
+[2023-06-23 09:47:48] INFO root fetch - processPackages [armonik]: New version: [3.8.3.dev504] Old Version: [3.8.3.dev470]
+[2023-06-23 09:47:48] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [torch-snippets]: New version: [0.499.9] Old Version: [0.499.8]
+[2023-06-23 09:47:48] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/1e/42/f29cddfa2442d8ed1fdba6b49d5676b9ebd23524187c7abaa376cd453545/th2_grpc_lw_data_provider-2.0.0.dev5354020897.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/23/4f/0c8f27862eb873769936d3e087c5baed37b1907d95eeffc48c0af430c220/armonik-3.8.3.dev470.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/e3/1c/7e27614a3128089cc54d4803932aab040e9d187ef938be032ae4841a96d5/openai_functions-0.1.0.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/e7/3a/fedc54660ed5fdb6e8390c2ad535a1678ed6abedf27d394a506732a7d1d7/ARIclicker-0.1.9.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [gpged]: Downloading https://files.pythonhosted.org/packages/ee/75/564c37625ec7a5dea4ca6ea26628722780e147063e78c4764dde698d178d/gpged-0.0.2.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/9b/2d/322b07b77aff36888e5222bda0bf4d62b9b966d482a135fea26e94f4b357/lime-stable-0.9.8.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/a5/fa/ee158557aa83479dc9a248a64683b80d733081a215506ed081276be54ffb/torch_snippets-0.499.8.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/a5/fa/ee158557aa83479dc9a248a64683b80d733081a215506ed081276be54ffb/torch_snippets-0.499.8.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [garpix-user]: Downloading https://files.pythonhosted.org/packages/61/69/7ca912ae304bf222aaa21c9a3120d653b563910898822e9405a9e91539d7/garpix_user-3.7.1.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/c0/c6/7c4aa7a5744880959587a0b0371f396fbb55d01f66da4938bd8a98d0a6f6/armonik-3.8.3.dev504.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 09:47:48] INFO root fetch - processPackages [gpged]: Downloading https://files.pythonhosted.org/packages/c6/97/f631227bd8a9b49849f07bf3c21e441c7263fe320c15b7fa6f4e63e70cc5/gpged-0.0.4.tar.gz
+[2023-06-23 09:47:49] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 09:47:49] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 09:47:49] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-06-23 09:47:49] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.3.dev470.tar.gz tmp/armonik-3.8.3.dev504.tar.gz --markdown 20230623/a/armonik/3.8.3.dev470-3.8.3.dev504/diff.md --exclude *.pyd
+[2023-06-23 09:47:49] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/ea/ab/40af07d55f476c44e27bd4f61c7901ffaa4dbcabd47f099ccda0dfb61d72/ARIclicker-0.2.tar.gz
+[2023-06-23 09:47:49] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-23 09:47:49] INFO root fetch - processPackages [gpged]: executing diffoscope
+[2023-06-23 09:47:49] INFO root fetch - processPackages [gpged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpged-0.0.2.tar.gz tmp/gpged-0.0.4.tar.gz --markdown 20230623/g/gpged/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 09:47:49] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/de/c1/c7f170c0cacef92235810d076be82953d6dc512bdd49b46437605ec64673/openai_functions-0.1.1.tar.gz
+[2023-06-23 09:47:49] INFO root fetch - processPackages [garpix-user]: Downloading https://files.pythonhosted.org/packages/3c/a2/7785667609a86cf30bb59bf47e38711113d0adc1905a594055d0d1fdc09a/garpix_user-3.8.0.tar.gz
+[2023-06-23 09:47:49] INFO root fetch - processPackages [ARIclicker]: executing diffoscope
+[2023-06-23 09:47:49] INFO root fetch - processPackages [ARIclicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARIclicker-0.1.9.tar.gz tmp/ARIclicker-0.2.tar.gz --markdown 20230623/A/ARIclicker/0.1.9-0.2/diff.md --exclude *.pyd
+[2023-06-23 09:47:49] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/a3/88/4940908e003bc08dbc00ea92ef8b91f35daf8e9bce7d0f3e00551b160e56/lime-stable-0.9.9.tar.gz
+[2023-06-23 09:47:49] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-23 09:47:49] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5354020897.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230623/t/th2-grpc-lw-data-provider/2.0.0.dev5354020897-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-23 09:47:49] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-06-23 09:47:49] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.1.0.tar.gz tmp/openai_functions-0.1.1.tar.gz --markdown 20230623/o/openai-functions/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-23 09:47:49] INFO root fetch - processPackages [garpix-user]: executing diffoscope
+[2023-06-23 09:47:49] INFO root fetch - processPackages [garpix-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_user-3.7.1.tar.gz tmp/garpix_user-3.8.0.tar.gz --markdown 20230623/g/garpix-user/3.7.1-3.8.0/diff.md --exclude *.pyd
+[2023-06-23 09:47:49] INFO root fetch - processPackages [lime-stable]: executing diffoscope
+[2023-06-23 09:47:49] INFO root fetch - processPackages [lime-stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lime-stable-0.9.8.tar.gz tmp/lime-stable-0.9.9.tar.gz --markdown 20230623/l/lime-stable/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 09:47:49] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/53/8e/c6a2edb0216a6a491a72807653642ab418c51adaceba7c808afd9be35aa9/torch_snippets-0.499.9.tar.gz
+[2023-06-23 09:47:49] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/53/8e/c6a2edb0216a6a491a72807653642ab418c51adaceba7c808afd9be35aa9/torch_snippets-0.499.9.tar.gz
+[2023-06-23 09:47:49] INFO root fetch - processPackages [torch-snippets]: executing diffoscope
+[2023-06-23 09:47:49] INFO root fetch - processPackages [torch-snippets]: executing diffoscope
+[2023-06-23 09:47:49] INFO root fetch - processPackages [torch-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_snippets-0.499.8.tar.gz tmp/torch_snippets-0.499.9.tar.gz --markdown 20230623/t/torch-snippets/0.499.8-0.499.9/diff.md --exclude *.pyd
+[2023-06-23 09:47:49] INFO root fetch - processPackages [torch-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_snippets-0.499.8.tar.gz tmp/torch_snippets-0.499.9.tar.gz --markdown 20230623/t/torch-snippets/0.499.8-0.499.9/diff.md --exclude *.pyd
+[2023-06-23 09:47:50] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 09:47:50] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 09:47:50] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 09:47:50] INFO root fetch - processPackages [gpged]: Remove: archive file [/home/abi/fetcher/tmp/gpged-0.0.2.tar.gz]
+[2023-06-23 09:47:50] INFO root fetch - processPackages [gpged]: Remove: archive file [/home/abi/fetcher/tmp/gpged-0.0.4.tar.gz]
+[2023-06-23 09:47:50] INFO root fetch - main [MainThread]: End processing [gpged]: success
+[2023-06-23 09:47:50] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.1.9.tar.gz]
+[2023-06-23 09:47:50] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.2.tar.gz]
+[2023-06-23 09:47:50] INFO root fetch - main [MainThread]: End processing [ARIclicker]: success
+[2023-06-23 09:47:50] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.1.0.tar.gz]
+[2023-06-23 09:47:50] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.1.1.tar.gz]
+[2023-06-23 09:47:50] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-06-23 09:47:51] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5354020897.tar.gz]
+[2023-06-23 09:47:51] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-23 09:47:51] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-23 09:47:51] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.3.dev470.tar.gz]
+[2023-06-23 09:47:51] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.3.dev504.tar.gz]
+[2023-06-23 09:47:51] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-06-23 09:47:51] INFO root fetch - processPackages [torch-snippets]: Remove: archive file [/home/abi/fetcher/tmp/torch_snippets-0.499.8.tar.gz]
+[2023-06-23 09:47:51] INFO root fetch - processPackages [torch-snippets]: Remove: archive file [/home/abi/fetcher/tmp/torch_snippets-0.499.9.tar.gz]
+[2023-06-23 09:47:51] INFO root fetch - main [MainThread]: End processing [torch-snippets]: success
+[2023-06-23 09:47:51] ERROR root fetch - processPackages [torch-snippets]: Diffoscope failed: gzip: tmp/torch_snippets-0.499.9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/torch_snippets-0.499.9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-23 09:47:51] INFO root fetch - main [MainThread]: End processing [torch-snippets] error
+[2023-06-23 09:47:52] INFO root fetch - processPackages [lime-stable]: Remove: archive file [/home/abi/fetcher/tmp/lime-stable-0.9.8.tar.gz]
+[2023-06-23 09:47:52] INFO root fetch - processPackages [lime-stable]: Remove: archive file [/home/abi/fetcher/tmp/lime-stable-0.9.9.tar.gz]
+[2023-06-23 09:47:52] INFO root fetch - main [MainThread]: End processing [lime-stable]: success
+[2023-06-23 09:47:52] INFO root fetch - processPackages [garpix-user]: Remove: archive file [/home/abi/fetcher/tmp/garpix_user-3.7.1.tar.gz]
+[2023-06-23 09:47:52] INFO root fetch - processPackages [garpix-user]: Remove: archive file [/home/abi/fetcher/tmp/garpix_user-3.8.0.tar.gz]
+[2023-06-23 09:47:52] INFO root fetch - main [MainThread]: End processing [garpix-user]: success
+[2023-06-23 09:47:52] INFO root fetch - main [MainThread]: Store serial: [18615179]
