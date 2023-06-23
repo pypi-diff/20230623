@@ -11953,3 +11953,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 10:17:03] INFO root fetch - processPackages [django-ckeditor]: Remove: archive file [/home/abi/fetcher/tmp/django-ckeditor-6.6.0.tar.gz]
 [2023-06-23 10:17:03] INFO root fetch - main [MainThread]: End processing [django-ckeditor]: success
 [2023-06-23 10:17:03] INFO root fetch - main [MainThread]: Store serial: [18615396]
+[2023-06-23 10:22:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615396]
+[2023-06-23 10:22:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beamline-console
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: almavik
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-ckeditor
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ARIclicker
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tdnpathviz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trl
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: domain-admin
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bayketinymce-django
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abc-0329
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abc-0329
+[2023-06-23 10:22:12] INFO root fetch - processPackages [tdnpathviz]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [beamline-console]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [abc-0329]: New version: [1687508180] Old Version: [1687508115]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [trl]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [almavik]: New version: [5.0] Old Version: [351.1]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ARIclicker]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-23 10:22:12] WARNING root fetch - processPackages [bayketinymce-django]: Skipping, unable to determine old version
+[2023-06-23 10:22:12] INFO root fetch - processPackages [bayketinymce-django]: Start processing: macrometa-source-collection
+[2023-06-23 10:22:12] INFO root fetch - processPackages [domain-admin]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [abc-0329]: New version: [1687508180] Old Version: [1687508115]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/82/30/7dfc3181293709fb5a092d3f34163ff9e41ce077f3b529ec39012b24fe7c/tdnpathviz-0.1.2.8-py3-none-any.whl
+[2023-06-23 10:22:12] INFO root fetch - main [MainThread]: End processing [bayketinymce-django] error
+[2023-06-23 10:22:12] INFO root fetch - processPackages [beamline-console]: Downloading https://files.pythonhosted.org/packages/4d/a9/d201114f0d693b2d208ed719c50ab9c014dd11587815f6eed8acfed19234/beamline_console-1.0.0.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [django-ckeditor]: New version: [6.6.1] Old Version: [6.6.0]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.53] Old Version: [0.0.52]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/66/81/f8ad31bca2369f6c2b872f9ce0260b8c55fe276d1e2868180c9435c2750b/domain-admin-1.4.6.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/ea/ab/40af07d55f476c44e27bd4f61c7901ffaa4dbcabd47f099ccda0dfb61d72/ARIclicker-0.2.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [django-ckeditor]: Downloading https://files.pythonhosted.org/packages/82/09/e72d6251d9f5ceb0003365586c591f7235437d1500a492206425c7e941f4/django-ckeditor-6.6.0.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [abc-0329]: Downloading https://files.pythonhosted.org/packages/d8/46/cdc7f14d088c0bf544d24c2d742133c9fa8d1497f204b9f5f8b0adf6e239/abc_0329-1687508115.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/8e/af/2792bbbe38c3dadbd19ce41ec60b5a36a712b36bd20809108487acc4a4fb/macrometa-source-collection-0.0.52.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [abc-0329]: Downloading https://files.pythonhosted.org/packages/d8/46/cdc7f14d088c0bf544d24c2d742133c9fa8d1497f204b9f5f8b0adf6e239/abc_0329-1687508115.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/c4/ab/c33845d9bcb0da0781d8b86f3d500c0a2831024985fafecdada9fc1fe5fd/tdnpathviz-0.1.2.9-py3-none-any.whl
+[2023-06-23 10:22:12] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/14/09/1ef2b4c2a013c87dbf867a1c65bbc30fcb73157e60c78f1edf8fd495ee44/almavik-351.1.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/28/21/5b2e948eb1a54f900be6e51a1ac6d829948a36d79470dafdf5b964809ec4/trl-0.4.4-py3-none-any.whl
+[2023-06-23 10:22:12] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85078284>=10485760
+[2023-06-23 10:22:12] INFO root fetch - processPackages [almavik]: Start processing: phonenumberslite
+[2023-06-23 10:22:12] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-23 10:22:12] INFO root fetch - processPackages [tdnpathviz]: executing diffoscope
+[2023-06-23 10:22:12] WARNING root fetch - processPackages [abc-0329]: Skipping package: exceeds size limit 16707729>=10485760
+[2023-06-23 10:22:12] INFO root fetch - processPackages [tdnpathviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip --markdown 20230623/t/tdnpathviz/0.1.2.8-0.1.2.9/diff.md --exclude *.pyd
+[2023-06-23 10:22:12] INFO root fetch - processPackages [abc-0329]: Start processing: phonenumbers
+[2023-06-23 10:22:12] WARNING root fetch - processPackages [abc-0329]: Skipping package: exceeds size limit 16707729>=10485760
+[2023-06-23 10:22:12] INFO root fetch - processPackages [abc-0329]: Start processing: wordview
+[2023-06-23 10:22:12] INFO root fetch - main [MainThread]: End processing [abc-0329] error
+[2023-06-23 10:22:12] INFO root fetch - main [MainThread]: End processing [abc-0329] error
+[2023-06-23 10:22:12] INFO root fetch - processPackages [phonenumberslite]: New version: [8.9.9] Old Version: [8.9.8]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [beamline-console]: Downloading https://files.pythonhosted.org/packages/8b/64/bc66ba20aac1ee8b77f4038904df6e67342e93dbb063c3db8df130bc474d/beamline_console-1.1.0.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [phonenumbers]: New version: [8.9.9] Old Version: [8.9.8]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [wordview]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-23 10:22:12] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/64/31/a338718789b61232e828ccd8cdbf57ca108b2c451099f22e91ae380f4af8/domain-admin-1.4.7.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [beamline-console]: executing diffoscope
+[2023-06-23 10:22:12] INFO root fetch - processPackages [beamline-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beamline_console-1.0.0.tar.gz tmp/beamline_console-1.1.0.tar.gz --markdown 20230623/b/beamline-console/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 10:22:12] INFO root fetch - processPackages [django-ckeditor]: Downloading https://files.pythonhosted.org/packages/13/63/31b6ecafd258eb32396ffd43718d64d8d0c5cc234ed08aac69bc5bda5c3a/django-ckeditor-6.6.1.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/a5/5d/73c7023ff1458a6bcd209b28408946f0cf59496f10ed002e7e8e8e72b5d0/wordview-0.3.1.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/10/b4/300e82cfd7482fafbb3d3d83fdc9e0e9821d3d3ca69b236bc1e7c2b3a6d2/ARIclicker-0.2.1.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-23 10:22:12] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.6.tar.gz tmp/domain-admin-1.4.7.tar.gz --markdown 20230623/d/domain-admin/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ARIclicker]: executing diffoscope
+[2023-06-23 10:22:12] INFO root fetch - processPackages [ARIclicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARIclicker-0.2.tar.gz tmp/ARIclicker-0.2.1.tar.gz --markdown 20230623/A/ARIclicker/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-23 10:22:12] INFO root fetch - processPackages [django-ckeditor]: executing diffoscope
+[2023-06-23 10:22:12] INFO root fetch - processPackages [django-ckeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ckeditor-6.6.0.tar.gz tmp/django-ckeditor-6.6.1.tar.gz --markdown 20230623/d/django-ckeditor/6.6.0-6.6.1/diff.md --exclude *.pyd
+[2023-06-23 10:22:12] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/b7/18/29993b57c4cb7f2442241d369c49532a45a5e701c36dee34d6d12f1bac08/trl-0.4.5.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/2a/0a/3ce01ea6cbccf35a4b4345726153fc8652ba7c4ac4701d4b791d90a63b5a/macrometa-source-collection-0.0.53.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/61/7b/90d90d52bf1a407405c8b13f5701c40d4ed9574fa05f456f232296b5390d/phonenumbers-8.9.8.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/2a/34/673df63018e24dd0e697c0c1d47fbaab6775c15d1798ed9e0b834b78ac65/phonenumberslite-8.9.8.tar.gz
+[2023-06-23 10:22:12] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-23 10:22:12] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.52.tar.gz tmp/macrometa-source-collection-0.0.53.tar.gz --markdown 20230623/m/macrometa-source-collection/0.0.52-0.0.53/diff.md --exclude *.pyd
+[2023-06-23 10:22:12] INFO root fetch - processPackages [trl]: executing diffoscope
+[2023-06-23 10:22:13] INFO root fetch - processPackages [trl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trl-0.4.4-py3-none-any.whl.zip tmp/trl-0.4.5.tar.gz --markdown 20230623/t/trl/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-23 10:22:13] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/db/37/76cd80fbc7f4d650e2438167a4654c0b3ee15fe0ca9774684b0f7997ff4a/wordview-0.3.2.tar.gz
+[2023-06-23 10:22:13] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-06-23 10:22:13] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.3.1.tar.gz tmp/wordview-0.3.2.tar.gz --markdown 20230623/w/wordview/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-23 10:22:13] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/1b/d2/a02b729fceb0f6e61adf61ac7dc258345c724815ff446e3d8204cae3e838/phonenumberslite-8.9.9.tar.gz
+[2023-06-23 10:22:13] INFO root fetch - processPackages [phonenumberslite]: executing diffoscope
+[2023-06-23 10:22:13] INFO root fetch - processPackages [phonenumberslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumberslite-8.9.8.tar.gz tmp/phonenumberslite-8.9.9.tar.gz --markdown 20230623/p/phonenumberslite/8.9.8-8.9.9/diff.md --exclude *.pyd
+[2023-06-23 10:22:14] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip]
+[2023-06-23 10:22:14] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip]
+[2023-06-23 10:22:14] INFO root fetch - main [MainThread]: End processing [tdnpathviz]: success
+[2023-06-23 10:22:14] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/bc/2a/0ad24a36f6763be01df1b427f23a38456a351fdf205b0c19041499a9f82c/phonenumbers-8.9.9.tar.gz
+[2023-06-23 10:22:14] INFO root fetch - processPackages [beamline-console]: Remove: archive file [/home/abi/fetcher/tmp/beamline_console-1.0.0.tar.gz]
+[2023-06-23 10:22:14] INFO root fetch - processPackages [beamline-console]: Remove: archive file [/home/abi/fetcher/tmp/beamline_console-1.1.0.tar.gz]
+[2023-06-23 10:22:14] INFO root fetch - main [MainThread]: End processing [beamline-console]: success
+[2023-06-23 10:22:14] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.52.tar.gz]
+[2023-06-23 10:22:14] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.53.tar.gz]
+[2023-06-23 10:22:14] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-23 10:22:14] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.2.tar.gz]
+[2023-06-23 10:22:14] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.2.1.tar.gz]
+[2023-06-23 10:22:14] INFO root fetch - main [MainThread]: End processing [ARIclicker]: success
+[2023-06-23 10:22:14] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.4-py3-none-any.whl.zip]
+[2023-06-23 10:22:14] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.5.tar.gz]
+[2023-06-23 10:22:14] INFO root fetch - main [MainThread]: End processing [trl]: success
+[2023-06-23 10:22:15] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.3.1.tar.gz]
+[2023-06-23 10:22:15] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.3.2.tar.gz]
+[2023-06-23 10:22:15] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-06-23 10:22:15] INFO root fetch - processPackages [phonenumbers]: executing diffoscope
+[2023-06-23 10:22:15] INFO root fetch - processPackages [phonenumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumbers-8.9.8.tar.gz tmp/phonenumbers-8.9.9.tar.gz --markdown 20230623/p/phonenumbers/8.9.8-8.9.9/diff.md --exclude *.pyd
+[2023-06-23 10:22:15] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.6.tar.gz]
+[2023-06-23 10:22:15] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.7.tar.gz]
+[2023-06-23 10:22:15] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-23 10:22:19] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.8.tar.gz]
+[2023-06-23 10:22:19] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.9.tar.gz]
+[2023-06-23 10:22:19] INFO root fetch - main [MainThread]: End processing [phonenumberslite]: success
+[2023-06-23 10:22:23] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.8.tar.gz]
+[2023-06-23 10:22:23] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.9.tar.gz]
+[2023-06-23 10:22:23] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
+[2023-06-23 10:22:29] INFO root fetch - processPackages [django-ckeditor]: Remove: archive file [/home/abi/fetcher/tmp/django-ckeditor-6.6.0.tar.gz]
+[2023-06-23 10:22:29] INFO root fetch - processPackages [django-ckeditor]: Remove: archive file [/home/abi/fetcher/tmp/django-ckeditor-6.6.1.tar.gz]
+[2023-06-23 10:22:29] INFO root fetch - main [MainThread]: End processing [django-ckeditor]: success
+[2023-06-23 10:22:29] INFO root fetch - main [MainThread]: Store serial: [18615436]
