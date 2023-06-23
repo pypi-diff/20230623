@@ -21113,3 +21113,141 @@ EOFError: EOF read where object expected
 [2023-06-23 16:43:52] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
 [2023-06-23 16:43:52] INFO root fetch - main [MainThread]: End processing [gftools]: success
 [2023-06-23 16:43:52] INFO root fetch - main [MainThread]: Store serial: [18619211]
+[2023-06-23 16:48:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18619211]
+[2023-06-23 16:49:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-23 16:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gftools
+[2023-06-23 16:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zigpy-xbee
+[2023-06-23 16:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dot-tools
+[2023-06-23 16:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PySide2-Fluent-Widgets
+[2023-06-23 16:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uniparser-albanian
+[2023-06-23 16:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hipersim
+[2023-06-23 16:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hubotlibs
+[2023-06-23 16:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fa-models
+[2023-06-23 16:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recurtx
+[2023-06-23 16:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: water-drop-detection
+[2023-06-23 16:49:01] INFO root fetch - processPackages [recurtx]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-23 16:49:01] INFO root fetch - processPackages [hipersim]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-23 16:49:01] INFO root fetch - processPackages [uniparser-albanian]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-23 16:49:01] INFO root fetch - processPackages [zigpy-xbee]: New version: [0.18.1] Old Version: [0.18.0]
+[2023-06-23 16:49:01] INFO root fetch - processPackages [gftools]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 16:49:01] INFO root fetch - processPackages [dot-tools]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-23 16:49:01] INFO root fetch - processPackages [fa-models]: New version: [1.0.44] Old Version: [1.0.43]
+[2023-06-23 16:49:01] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-23 16:49:01] INFO root fetch - processPackages [water-drop-detection]: New version: [0.6] Old Version: [0.5]
+[2023-06-23 16:49:01] INFO root fetch - processPackages [hubotlibs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-23 16:49:01] INFO root fetch - processPackages [dot-tools]: Downloading https://files.pythonhosted.org/packages/e0/60/7ba38b33184be4c51a1a380a6322bdbe65f582103558094abadae988a367/dot_tools-1.3.1.tar.gz
+[2023-06-23 16:49:01] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/6d/5d/f19c961c63554a9224a8abee321b0a8715dc1e05bbe03077b56b75a8bc0b/gftools-0.9.8.tar.gz
+[2023-06-23 16:49:01] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/f7/44/6ab1aad2589a958311e691353f7fc9f9f4f0fe970b634778b347f5c75f9f/hubotlibs-0.1.2.tar.gz
+[2023-06-23 16:49:01] INFO root fetch - processPackages [water-drop-detection]: Downloading https://files.pythonhosted.org/packages/3c/42/4d92ed457370070bbe5589a6c4a4d4c1f1a2c9ff74bd77411d1480f03b36/water_drop_detection-0.5.tar.gz
+[2023-06-23 16:49:01] INFO root fetch - processPackages [hipersim]: Downloading https://files.pythonhosted.org/packages/0e/80/1d448610952beae09def12c19650855b7bf9cbc8e5eaca5f8753a7db3025/hipersim-0.0.9.tar.gz
+[2023-06-23 16:49:01] INFO root fetch - processPackages [recurtx]: Downloading https://files.pythonhosted.org/packages/84/4d/4ccfa05fe2e922d842439f43cf0c5c4b2d8b4a1240269a002d99939343f4/recurtx-0.0.1.tar.gz
+[2023-06-23 16:49:01] INFO root fetch - processPackages [zigpy-xbee]: Downloading https://files.pythonhosted.org/packages/e3/21/3d38a11c48747f50532786f3acbc96207aff8c7e985f48ca18241253c2a2/zigpy-xbee-0.18.0.tar.gz
+[2023-06-23 16:49:01] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/d6/da/a9f26dffa3c44b83d446d8ccc4007ccea72ac7a34cbe9cfc1661c28ab5a6/fa-models-1.0.43.tar.gz
+[2023-06-23 16:49:01] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/73/7b/f0b9f377d3e94c3ec10568fbd568fc6cf480389c19edfa6c130838f893b4/PySide2-Fluent-Widgets-0.9.6.tar.gz
+[2023-06-23 16:49:01] INFO root fetch - processPackages [uniparser-albanian]: Downloading https://files.pythonhosted.org/packages/fd/55/9d636bf2eb49450952a7e02f517b400de8ecc9d6c8ebafa3b52b8fbe0df0/uniparser-albanian-2.1.1.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [dot-tools]: Downloading https://files.pythonhosted.org/packages/d8/c1/3d8246f8f74ec2346e79524c20ea5f4ea5b6a0bca771d2835d6a9dde2d6d/dot_tools-1.3.2.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [water-drop-detection]: Downloading https://files.pythonhosted.org/packages/f3/54/7e05863c825fb889807b77d8b289238651a3d7b821b60bfb854fa61eb3d6/water_drop_detection-0.6.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/c4/ca/fb939193966bbf976614edc3ff987287578c5ba787ba6c1292f4ccefe6db/hubotlibs-0.1.3.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [hipersim]: Downloading https://files.pythonhosted.org/packages/24/c6/3491b1444723c4acaff563a732db254a8aeb2244679b92c66119d9548646/hipersim-0.1.0.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [recurtx]: Downloading https://files.pythonhosted.org/packages/bc/75/b22e084156f7c857f81e8cc2280edc676fc9a0f6dbc742fa689d64a84dc0/recurtx-0.0.2.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [dot-tools]: executing diffoscope
+[2023-06-23 16:49:02] INFO root fetch - processPackages [dot-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dot_tools-1.3.1.tar.gz tmp/dot_tools-1.3.2.tar.gz --markdown 20230623/d/dot-tools/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-23 16:49:02] INFO root fetch - processPackages [water-drop-detection]: executing diffoscope
+[2023-06-23 16:49:02] INFO root fetch - processPackages [water-drop-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/water_drop_detection-0.5.tar.gz tmp/water_drop_detection-0.6.tar.gz --markdown 20230623/w/water-drop-detection/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-23 16:49:02] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/4a/43/0695adddf818c751dd6cd94baf605871116827e1297e634d3f4508330908/gftools-0.9.9.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-06-23 16:49:02] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.1.2.tar.gz tmp/hubotlibs-0.1.3.tar.gz --markdown 20230623/h/hubotlibs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-23 16:49:02] INFO root fetch - processPackages [zigpy-xbee]: Downloading https://files.pythonhosted.org/packages/8c/82/51ab9f1bc558e6c3c9cbbb007b8da59e6353f4b629e66566fb578af6fe17/zigpy-xbee-0.18.1.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/d9/6f/1e6c08aedb06c92f265bb8406caf353895000492bc11c056481f16f4a91c/fa-models-1.0.44.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/ea/59/e137295540c469d16f147fe98410c0997c4af4554b8d428fe19086b6945b/PySide2-Fluent-Widgets-0.9.7.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [recurtx]: executing diffoscope
+[2023-06-23 16:49:02] INFO root fetch - processPackages [recurtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurtx-0.0.1.tar.gz tmp/recurtx-0.0.2.tar.gz --markdown 20230623/r/recurtx/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 16:49:02] INFO root fetch - processPackages [hipersim]: executing diffoscope
+[2023-06-23 16:49:02] INFO root fetch - processPackages [hipersim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hipersim-0.0.9.tar.gz tmp/hipersim-0.1.0.tar.gz --markdown 20230623/h/hipersim/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-23 16:49:02] INFO root fetch - processPackages [zigpy-xbee]: executing diffoscope
+[2023-06-23 16:49:02] INFO root fetch - processPackages [zigpy-xbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zigpy-xbee-0.18.0.tar.gz tmp/zigpy-xbee-0.18.1.tar.gz --markdown 20230623/z/zigpy-xbee/0.18.0-0.18.1/diff.md --exclude *.pyd
+[2023-06-23 16:49:02] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-23 16:49:02] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.43.tar.gz tmp/fa-models-1.0.44.tar.gz --markdown 20230623/f/fa-models/1.0.43-1.0.44/diff.md --exclude *.pyd
+[2023-06-23 16:49:02] INFO root fetch - processPackages [gftools]: executing diffoscope
+[2023-06-23 16:49:02] INFO root fetch - processPackages [gftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gftools-0.9.8.tar.gz tmp/gftools-0.9.9.tar.gz --markdown 20230623/g/gftools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 16:49:02] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-06-23 16:49:02] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.9.6.tar.gz tmp/PySide2-Fluent-Widgets-0.9.7.tar.gz --markdown 20230623/P/PySide2-Fluent-Widgets/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-23 16:49:02] INFO root fetch - processPackages [uniparser-albanian]: Downloading https://files.pythonhosted.org/packages/13/f6/c58620050158ca9848884ae649d1f762241a07de95c8b7ffbf37bd79d778/uniparser-albanian-2.1.2.tar.gz
+[2023-06-23 16:49:02] INFO root fetch - processPackages [uniparser-albanian]: executing diffoscope
+[2023-06-23 16:49:02] INFO root fetch - processPackages [uniparser-albanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniparser-albanian-2.1.1.tar.gz tmp/uniparser-albanian-2.1.2.tar.gz --markdown 20230623/u/uniparser-albanian/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-23 16:49:03] INFO root fetch - processPackages [water-drop-detection]: Remove: archive file [/home/abi/fetcher/tmp/water_drop_detection-0.5.tar.gz]
+[2023-06-23 16:49:03] INFO root fetch - processPackages [water-drop-detection]: Remove: archive file [/home/abi/fetcher/tmp/water_drop_detection-0.6.tar.gz]
+[2023-06-23 16:49:03] INFO root fetch - processPackages [water-drop-detection]: Start processing: gregory-online
+[2023-06-23 16:49:03] INFO root fetch - main [MainThread]: End processing [water-drop-detection]: success
+[2023-06-23 16:49:03] INFO root fetch - processPackages [gregory-online]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-23 16:49:03] INFO root fetch - processPackages [dot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dot_tools-1.3.1.tar.gz]
+[2023-06-23 16:49:03] INFO root fetch - processPackages [dot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dot_tools-1.3.2.tar.gz]
+[2023-06-23 16:49:03] INFO root fetch - processPackages [dot-tools]: Start processing: lazylinop
+[2023-06-23 16:49:03] INFO root fetch - main [MainThread]: End processing [dot-tools]: success
+[2023-06-23 16:49:03] INFO root fetch - processPackages [lazylinop]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 16:49:03] INFO root fetch - processPackages [gregory-online]: Downloading https://files.pythonhosted.org/packages/fd/b5/f9ebcb6dfde1e8e9c727273cf2686da12865d878c8184896b6b619dcebd5/gregory_online-0.3.5.tar.gz
+[2023-06-23 16:49:04] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/5c/fd/39e677779966df2318a92fd88e0cd8305aa4971e4644fb3c00f928fb58cd/lazylinop-1.0.8-py3-none-any.whl
+[2023-06-23 16:49:04] INFO root fetch - processPackages [gregory-online]: Downloading https://files.pythonhosted.org/packages/0a/63/33ffafa3c22a9c60ce2ab3bb657c46021c7d932e76c68365a4f3701eff5e/gregory_online-0.3.6.tar.gz
+[2023-06-23 16:49:04] INFO root fetch - processPackages [hipersim]: Remove: archive file [/home/abi/fetcher/tmp/hipersim-0.0.9.tar.gz]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [hipersim]: Remove: archive file [/home/abi/fetcher/tmp/hipersim-0.1.0.tar.gz]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [hipersim]: Start processing: localstack-core
+[2023-06-23 16:49:04] INFO root fetch - main [MainThread]: End processing [hipersim]: success
+[2023-06-23 16:49:04] INFO root fetch - processPackages [recurtx]: Remove: archive file [/home/abi/fetcher/tmp/recurtx-0.0.1.tar.gz]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [recurtx]: Remove: archive file [/home/abi/fetcher/tmp/recurtx-0.0.2.tar.gz]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [recurtx]: Start processing: pillar1
+[2023-06-23 16:49:04] INFO root fetch - main [MainThread]: End processing [recurtx]: success
+[2023-06-23 16:49:04] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230623144818] Old Version: [2.1.1.dev20230623092015]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [pillar1]: New version: [0.1.7.3] Old Version: [0.1.7.2]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.1.2.tar.gz]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.1.3.tar.gz]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [hubotlibs]: Start processing: jupyterlab-quarto
+[2023-06-23 16:49:04] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-06-23 16:49:04] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/2c/dd/688673d1e423980d04e6fac4bb3950f4d63f08e4925e0246e3fe42cca43b/pillar1-0.1.7.2.tar.gz
+[2023-06-23 16:49:04] INFO root fetch - processPackages [jupyterlab-quarto]: New version: [0.1.45] Old Version: [0.1.43]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/3b/2c/ca40695220b3c96a956afa94d00efa8867bf3548d7cbb8fb09d146be2e1b/localstack-core-2.1.1.dev20230623092015.tar.gz
+[2023-06-23 16:49:04] INFO root fetch - processPackages [gregory-online]: executing diffoscope
+[2023-06-23 16:49:04] INFO root fetch - processPackages [gregory-online]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gregory_online-0.3.5.tar.gz tmp/gregory_online-0.3.6.tar.gz --markdown 20230623/g/gregory-online/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-23 16:49:04] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/ca/89/57b51bd98b2b2782824472a535a5bfd5667a9313ad46677730a1a4e6993d/lazylinop-1.0.9-py3-none-any.whl
+[2023-06-23 16:49:04] INFO root fetch - processPackages [jupyterlab-quarto]: Downloading https://files.pythonhosted.org/packages/85/ab/16d54a609635f2a36fe29ff14b2e679035d3b27f2527bad67fbdea051dfb/jupyterlab_quarto-0.1.43.tar.gz
+[2023-06-23 16:49:04] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2023-06-23 16:49:04] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.0.8-py3-none-any.whl.zip tmp/lazylinop-1.0.9-py3-none-any.whl.zip --markdown 20230623/l/lazylinop/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-23 16:49:04] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.43.tar.gz]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.44.tar.gz]
+[2023-06-23 16:49:04] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-23 16:49:04] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ee/11/75e612713c3008f48c7510fd1f0633dfadfde0a48781f0ce6bc4266ef025/localstack-core-2.1.1.dev20230623144818.tar.gz
+[2023-06-23 16:49:04] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/b9/83/a09a5c93ecd2eed1f035e5c2ac7fc21d45204071795e38ee1577fd6be4b9/pillar1-0.1.7.3.tar.gz
+[2023-06-23 16:49:04] INFO root fetch - processPackages [zigpy-xbee]: Remove: archive file [/home/abi/fetcher/tmp/zigpy-xbee-0.18.0.tar.gz]
+[2023-06-23 16:49:04] INFO root fetch - processPackages [zigpy-xbee]: Remove: archive file [/home/abi/fetcher/tmp/zigpy-xbee-0.18.1.tar.gz]
+[2023-06-23 16:49:04] INFO root fetch - main [MainThread]: End processing [zigpy-xbee]: success
+[2023-06-23 16:49:04] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-23 16:49:04] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.7.2.tar.gz tmp/pillar1-0.1.7.3.tar.gz --markdown 20230623/p/pillar1/0.1.7.2-0.1.7.3/diff.md --exclude *.pyd
+[2023-06-23 16:49:04] INFO root fetch - processPackages [jupyterlab-quarto]: Downloading https://files.pythonhosted.org/packages/5d/93/75de4ca3a4d2cd493edcbdf6f39740b4e5567c542a99435807ff590d9bfe/jupyterlab_quarto-0.1.45.tar.gz
+[2023-06-23 16:49:04] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-23 16:49:04] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230623092015.tar.gz tmp/localstack-core-2.1.1.dev20230623144818.tar.gz --markdown 20230623/l/localstack-core/2.1.1.dev20230623092015-2.1.1.dev20230623144818/diff.md --exclude *.pyd
+[2023-06-23 16:49:05] INFO root fetch - processPackages [jupyterlab-quarto]: executing diffoscope
+[2023-06-23 16:49:05] INFO root fetch - processPackages [jupyterlab-quarto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_quarto-0.1.43.tar.gz tmp/jupyterlab_quarto-0.1.45.tar.gz --markdown 20230623/j/jupyterlab-quarto/0.1.43-0.1.45/diff.md --exclude *.pyd
+[2023-06-23 16:49:05] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.0.8-py3-none-any.whl.zip]
+[2023-06-23 16:49:05] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.0.9-py3-none-any.whl.zip]
+[2023-06-23 16:49:05] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2023-06-23 16:49:05] INFO root fetch - processPackages [gregory-online]: Remove: archive file [/home/abi/fetcher/tmp/gregory_online-0.3.5.tar.gz]
+[2023-06-23 16:49:05] INFO root fetch - processPackages [gregory-online]: Remove: archive file [/home/abi/fetcher/tmp/gregory_online-0.3.6.tar.gz]
+[2023-06-23 16:49:05] INFO root fetch - main [MainThread]: End processing [gregory-online]: success
+[2023-06-23 16:49:06] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.2.tar.gz]
+[2023-06-23 16:49:06] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.3.tar.gz]
+[2023-06-23 16:49:06] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-23 16:49:09] INFO root fetch - processPackages [jupyterlab-quarto]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_quarto-0.1.43.tar.gz]
+[2023-06-23 16:49:09] INFO root fetch - processPackages [jupyterlab-quarto]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_quarto-0.1.45.tar.gz]
+[2023-06-23 16:49:09] INFO root fetch - main [MainThread]: End processing [jupyterlab-quarto]: success
+[2023-06-23 16:49:10] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.6.tar.gz]
+[2023-06-23 16:49:10] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.7.tar.gz]
+[2023-06-23 16:49:10] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-06-23 16:49:11] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.8.tar.gz]
+[2023-06-23 16:49:11] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
+[2023-06-23 16:49:11] INFO root fetch - main [MainThread]: End processing [gftools]: success
+[2023-06-23 16:49:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230623092015.tar.gz]
+[2023-06-23 16:49:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230623144818.tar.gz]
+[2023-06-23 16:49:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-23 16:49:16] INFO root fetch - processPackages [uniparser-albanian]: Remove: archive file [/home/abi/fetcher/tmp/uniparser-albanian-2.1.1.tar.gz]
+[2023-06-23 16:49:16] INFO root fetch - processPackages [uniparser-albanian]: Remove: archive file [/home/abi/fetcher/tmp/uniparser-albanian-2.1.2.tar.gz]
+[2023-06-23 16:49:16] INFO root fetch - main [MainThread]: End processing [uniparser-albanian]: success
+[2023-06-23 16:49:16] INFO root fetch - main [MainThread]: Store serial: [18619261]
