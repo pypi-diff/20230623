@@ -7720,3 +7720,86 @@
 [2023-06-23 05:23:12] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.9.tar.gz]
 [2023-06-23 05:23:12] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-06-23 05:23:12] INFO root fetch - main [MainThread]: Store serial: [18613761]
+[2023-06-23 05:28:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613761]
+[2023-06-23 05:28:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-23 05:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fieldservice-activity
+[2023-06-23 05:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hak
+[2023-06-23 05:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dvc-gdrive
+[2023-06-23 05:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-06-23 05:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maltsev-repeater
+[2023-06-23 05:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sourcery-nightly
+[2023-06-23 05:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-hr-employee-ppe
+[2023-06-23 05:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-hr-attendance-sheet
+[2023-06-23 05:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-hr-employee-language
+[2023-06-23 05:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-hr-employee-language
+[2023-06-23 05:28:21] INFO root fetch - processPackages [dvc-gdrive]: New version: [2.20.0] Old Version: [2.19.2]
+[2023-06-23 05:28:21] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.4.1b39] Old Version: [1.4.1b38]
+[2023-06-23 05:28:21] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 05:28:21] INFO root fetch - processPackages [odoo13-addon-hr-employee-language]: New version: [13.0.1.0.1.dev5] Old Version: [13.0.1.0.1.dev4]
+[2023-06-23 05:28:21] INFO root fetch - processPackages [odoo12-addon-hr-employee-ppe]: New version: [12.0.1.1.0.99.dev4] Old Version: [12.0.1.1.0.99.dev3]
+[2023-06-23 05:28:21] INFO root fetch - processPackages [odoo12-addon-hr-employee-language]: New version: [12.0.1.0.0.99.dev4] Old Version: [12.0.1.0.0.99.dev3]
+[2023-06-23 05:28:21] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-06-23 05:28:21] WARNING root fetch - processPackages [maltsev-repeater]: Skipping, unable to determine old version
+[2023-06-23 05:28:21] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: New version: [12.0.1.0.0.99.dev6] Old Version: [12.0.1.0.0.99.dev5]
+[2023-06-23 05:28:21] INFO root fetch - main [MainThread]: End processing [maltsev-repeater] error
+[2023-06-23 05:28:21] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-23 05:28:21] INFO root fetch - processPackages [dvc-gdrive]: Downloading https://files.pythonhosted.org/packages/c2/0c/b1e1e4d514b080caf0499aa1bb293010084030d343578992a22b20f6e6c1/dvc-gdrive-2.19.2.tar.gz
+[2023-06-23 05:28:21] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-06-23 05:28:21] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/55/77/6167f10576ac3f11cca82ef75bf6797e8200d2d9b0a54b71dd07985098dc/sourcery_nightly-1.4.1b38-py2.py3-none-win_amd64.whl
+[2023-06-23 05:28:21] INFO root fetch - processPackages [odoo13-addon-hr-employee-language]: Downloading https://files.pythonhosted.org/packages/41/54/8158e8fcc45bc02583f4135ba6b2f2d55493646bd0ab9262953642b564f1/odoo13_addon_hr_employee_language-13.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-23 05:28:21] INFO root fetch - processPackages [odoo12-addon-hr-employee-ppe]: Downloading https://files.pythonhosted.org/packages/b2/75/811ff4883467edcfbdd1c2c9494dbffa2d6407c437cb6dbfcf362546500d/odoo12_addon_hr_employee_ppe-12.0.1.1.0.99.dev3-py3-none-any.whl
+[2023-06-23 05:28:21] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-06-23 05:28:21] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Downloading https://files.pythonhosted.org/packages/09/84/004d57802b226bee50824cbe481ec91a9904b10921cc512d7d528d32d224/odoo_addon_fieldservice_activity-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-23 05:28:21] INFO root fetch - processPackages [odoo12-addon-hr-employee-language]: Downloading https://files.pythonhosted.org/packages/59/87/7eaeb14dfd48324f074c895bfbfe4d44c07e37d3b24dc7de86c65b89c8f6/odoo12_addon_hr_employee_language-12.0.1.0.0.99.dev3-py3-none-any.whl
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ea/e6/b275bfc2b8cb356f35b1ff3482f07d586e30a3a5ff617124973238436ad5/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-23 05:28:22] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58587209>=10485760
+[2023-06-23 05:28:22] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: Downloading https://files.pythonhosted.org/packages/a0/c9/23243e253219411fd17a8f2f56330d5b0fe306fda68c181526e9863b21f9/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev5-py3-none-any.whl
+[2023-06-23 05:28:22] INFO root fetch - processPackages [dvc-gdrive]: Downloading https://files.pythonhosted.org/packages/34/23/346f8ec6a8e6d17be802f1fa58d8b1023a50d9fa7f67e6bde1352e1aea7e/dvc-gdrive-2.20.0.tar.gz
+[2023-06-23 05:28:22] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-06-23 05:28:22] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230623/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 05:28:22] INFO root fetch - processPackages [dvc-gdrive]: executing diffoscope
+[2023-06-23 05:28:22] INFO root fetch - processPackages [dvc-gdrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-gdrive-2.19.2.tar.gz tmp/dvc-gdrive-2.20.0.tar.gz --markdown 20230623/d/dvc-gdrive/2.19.2-2.20.0/diff.md --exclude *.pyd
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo12-addon-hr-employee-ppe]: Downloading https://files.pythonhosted.org/packages/08/c3/022935580b0681a5cd20206c5c794641745d7af8619003cfed89330dd094/odoo12_addon_hr_employee_ppe-12.0.1.1.0.99.dev4-py3-none-any.whl
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo12-addon-hr-employee-language]: Downloading https://files.pythonhosted.org/packages/41/1c/d235e3ec615164ad8df9552f6728a72c893f4dfb0d588c72ad7767828cbf/odoo12_addon_hr_employee_language-12.0.1.0.0.99.dev4-py3-none-any.whl
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo13-addon-hr-employee-language]: Downloading https://files.pythonhosted.org/packages/9c/6d/c18690427f6d17437337300f5f0224265c5e99bd36af944afdb3036c1f95/odoo13_addon_hr_employee_language-13.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Downloading https://files.pythonhosted.org/packages/77/35/01da4e294bd1e93ad4c61e7f75262cbe7260721b7565d8b1d2ec40255cf4/odoo_addon_fieldservice_activity-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: Downloading https://files.pythonhosted.org/packages/d0/dc/c684dd70623088ad46eadba13715b0021d68aebd6c041640596bbb4cc1a1/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev6-py3-none-any.whl
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/20/35/bbc25bb0b9a3439da52765b0feb0d1cce38af1f137ebb15165487a9613fd/odoo_addon_helpdesk_mgmt-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: executing diffoscope
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-fieldservice-activity/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo12-addon-hr-employee-ppe]: executing diffoscope
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo12-addon-hr-employee-ppe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_employee_ppe-12.0.1.1.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_hr_employee_ppe-12.0.1.1.0.99.dev4-py3-none-any.whl.zip --markdown 20230623/o/odoo12-addon-hr-employee-ppe/12.0.1.1.0.99.dev3-12.0.1.1.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo12-addon-hr-employee-language]: executing diffoscope
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo12-addon-hr-employee-language]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_employee_language-12.0.1.0.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_hr_employee_language-12.0.1.0.0.99.dev4-py3-none-any.whl.zip --markdown 20230623/o/odoo12-addon-hr-employee-language/12.0.1.0.0.99.dev3-12.0.1.0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: executing diffoscope
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev6-py3-none-any.whl.zip --markdown 20230623/o/odoo12-addon-hr-attendance-sheet/12.0.1.0.0.99.dev5-12.0.1.0.0.99.dev6/diff.md --exclude *.pyd
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-helpdesk-mgmt/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo13-addon-hr-employee-language]: executing diffoscope
+[2023-06-23 05:28:22] INFO root fetch - processPackages [odoo13-addon-hr-employee-language]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_employee_language-13.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo13_addon_hr_employee_language-13.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230623/o/odoo13-addon-hr-employee-language/13.0.1.0.1.dev4-13.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-06-23 05:28:23] INFO root fetch - processPackages [dvc-gdrive]: Remove: archive file [/home/abi/fetcher/tmp/dvc-gdrive-2.19.2.tar.gz]
+[2023-06-23 05:28:23] INFO root fetch - processPackages [dvc-gdrive]: Remove: archive file [/home/abi/fetcher/tmp/dvc-gdrive-2.20.0.tar.gz]
+[2023-06-23 05:28:23] INFO root fetch - main [MainThread]: End processing [dvc-gdrive]: success
+[2023-06-23 05:28:23] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-23 05:28:23] INFO root fetch - processPackages [odoo-addon-fieldservice-activity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_activity-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-23 05:28:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-activity]: success
+[2023-06-23 05:28:23] INFO root fetch - processPackages [odoo12-addon-hr-employee-ppe]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_employee_ppe-12.0.1.1.0.99.dev3-py3-none-any.whl.zip]
+[2023-06-23 05:28:23] INFO root fetch - processPackages [odoo12-addon-hr-employee-ppe]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_employee_ppe-12.0.1.1.0.99.dev4-py3-none-any.whl.zip]
+[2023-06-23 05:28:23] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-employee-ppe]: success
+[2023-06-23 05:28:24] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev5-py3-none-any.whl.zip]
+[2023-06-23 05:28:24] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev6-py3-none-any.whl.zip]
+[2023-06-23 05:28:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-attendance-sheet]: success
+[2023-06-23 05:28:24] INFO root fetch - processPackages [odoo12-addon-hr-employee-language]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_employee_language-12.0.1.0.0.99.dev3-py3-none-any.whl.zip]
+[2023-06-23 05:28:24] INFO root fetch - processPackages [odoo12-addon-hr-employee-language]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_employee_language-12.0.1.0.0.99.dev4-py3-none-any.whl.zip]
+[2023-06-23 05:28:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-employee-language]: success
+[2023-06-23 05:28:24] INFO root fetch - processPackages [odoo13-addon-hr-employee-language]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_employee_language-13.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-23 05:28:24] INFO root fetch - processPackages [odoo13-addon-hr-employee-language]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_employee_language-13.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-23 05:28:24] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-employee-language]: success
+[2023-06-23 05:28:24] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-23 05:28:24] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-23 05:28:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-06-23 05:28:26] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-06-23 05:28:26] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-06-23 05:28:26] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-06-23 05:28:26] INFO root fetch - main [MainThread]: Store serial: [18613790]
