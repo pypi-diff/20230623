@@ -11683,3 +11683,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 09:58:26] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-23 09:58:26] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-23 09:58:26] INFO root fetch - main [MainThread]: Store serial: [18615275]
+[2023-06-23 10:03:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615275]
+[2023-06-23 10:03:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-23 10:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geomapi
+[2023-06-23 10:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onepassword-local-search
+[2023-06-23 10:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nfc-uid
+[2023-06-23 10:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exem-logs
+[2023-06-23 10:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Dakada
+[2023-06-23 10:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thipstercli
+[2023-06-23 10:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PVNet
+[2023-06-23 10:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snakecdysis
+[2023-06-23 10:03:35] INFO root fetch - processPackages [nfc-uid]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-06-23 10:03:35] INFO root fetch - processPackages [PVNet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-23 10:03:35] INFO root fetch - processPackages [Dakada]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-06-23 10:03:35] WARNING root fetch - processPackages [exem-logs]: Skipping, unable to determine old version
+[2023-06-23 10:03:35] INFO root fetch - main [MainThread]: End processing [exem-logs] error
+[2023-06-23 10:03:35] INFO root fetch - processPackages [thipstercli]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-23 10:03:35] INFO root fetch - processPackages [onepassword-local-search]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-23 10:03:35] INFO root fetch - processPackages [geomapi]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-23 10:03:35] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/4c/51/d2bdab730f3c1e3217b7d0772b8c45d02d919a1436598af2b6357d2395b8/thipstercli-0.4.3.tar.gz
+[2023-06-23 10:03:35] INFO root fetch - processPackages [Dakada]: Downloading https://files.pythonhosted.org/packages/90/8b/96e09cb2273ff4a64e0cf98b97eafe42881effbdca3135bac14675bc2475/Dakada-1.8.4.tar.gz
+[2023-06-23 10:03:35] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/ea/7e/8b2af464b2c11ee90aafaa04ec123420689e49a3c2b3ab4fc50843940056/PVNet-0.1.7.tar.gz
+[2023-06-23 10:03:35] INFO root fetch - processPackages [snakecdysis]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 10:03:35] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/f3/63/389d1d9ce6f2480b983e473e02c3f008c39c13303247949d704d86564750/thipstercli-0.5.0.tar.gz
+[2023-06-23 10:03:35] INFO root fetch - processPackages [nfc-uid]: Downloading https://files.pythonhosted.org/packages/fa/54/8693948800d9e0e9ce04eac59b114dfc4b7286408740d7553374db5c5504/nfc_uid-0.3.6.tar.gz
+[2023-06-23 10:03:35] INFO root fetch - processPackages [geomapi]: Downloading https://files.pythonhosted.org/packages/68/d9/2b2b6aeecdda82643bcb2d76b637fcdb789eabfbbf729789a65269bf6d39/geomapi-0.3.1.tar.gz
+[2023-06-23 10:03:35] INFO root fetch - processPackages [onepassword-local-search]: Downloading https://files.pythonhosted.org/packages/a7/91/afb293ede6a980b4ab281349eb7fd025ad8fa955c44ac6742c7d05381f93/onepassword%20local%20search-1.1.5.tar.gz
+[2023-06-23 10:03:35] INFO root fetch - processPackages [Dakada]: Downloading https://files.pythonhosted.org/packages/18/74/2edab493af2797103b50d1d00f325d97657594e66925b12dd2b53e6f13da/Dakada-1.9.0.tar.gz
+[2023-06-23 10:03:35] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-23 10:03:35] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.4.3.tar.gz tmp/thipstercli-0.5.0.tar.gz --markdown 20230623/t/thipstercli/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-23 10:03:36] INFO root fetch - processPackages [snakecdysis]: Downloading https://files.pythonhosted.org/packages/f0/00/8fe779bb8bfaa49c423c366c966f64c5afd2b723df191e3d8d96cde42998/snakecdysis-0.0.4.tar.gz
+[2023-06-23 10:03:36] INFO root fetch - processPackages [Dakada]: executing diffoscope
+[2023-06-23 10:03:36] INFO root fetch - processPackages [Dakada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dakada-1.8.4.tar.gz tmp/Dakada-1.9.0.tar.gz --markdown 20230623/D/Dakada/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-06-23 10:03:36] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/7b/6d/f6d2d68316979c477278e36b1a98abe9b6e86c9472055ba4e1e93132a78a/PVNet-0.1.8.tar.gz
+[2023-06-23 10:03:36] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-23 10:03:36] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.1.7.tar.gz tmp/PVNet-0.1.8.tar.gz --markdown 20230623/P/PVNet/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-23 10:03:36] INFO root fetch - processPackages [geomapi]: Downloading https://files.pythonhosted.org/packages/f0/dd/d4ed69e3dba1675f778d5b92f67cac7fbf3153ca153071fdf428aa79619d/geomapi-0.3.2.tar.gz
+[2023-06-23 10:03:36] INFO root fetch - processPackages [geomapi]: executing diffoscope
+[2023-06-23 10:03:36] INFO root fetch - processPackages [geomapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomapi-0.3.1.tar.gz tmp/geomapi-0.3.2.tar.gz --markdown 20230623/g/geomapi/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-23 10:03:36] INFO root fetch - processPackages [nfc-uid]: Downloading https://files.pythonhosted.org/packages/3f/60/bc965c5a7cdfc30ed88dbde343daa9bedc7b29f229972e78eff01d66d6f8/nfc_uid-0.4.0.tar.gz
+[2023-06-23 10:03:36] INFO root fetch - processPackages [nfc-uid]: executing diffoscope
+[2023-06-23 10:03:36] INFO root fetch - processPackages [nfc-uid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfc_uid-0.3.6.tar.gz tmp/nfc_uid-0.4.0.tar.gz --markdown 20230623/n/nfc-uid/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 10:03:36] INFO root fetch - processPackages [onepassword-local-search]: Downloading https://files.pythonhosted.org/packages/d8/5b/e7deece9a050f0261f3eede9fe1f49a6f89735de0002044ce3fc50cd45bc/onepassword%20local%20search-1.1.6.tar.gz
+[2023-06-23 10:03:36] INFO root fetch - processPackages [onepassword-local-search]: executing diffoscope
+[2023-06-23 10:03:36] INFO root fetch - processPackages [onepassword-local-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onepassword local search-1.1.5.tar.gz tmp/onepassword local search-1.1.6.tar.gz --markdown 20230623/o/onepassword-local-search/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-23 10:03:36] INFO root fetch - processPackages [snakecdysis]: Downloading https://files.pythonhosted.org/packages/a9/31/2d604963c277426bf0f71dda6b9dc209e98d671bdd33d62279cb718f7205/snakecdysis-0.0.5.tar.gz
+[2023-06-23 10:03:36] INFO root fetch - processPackages [snakecdysis]: executing diffoscope
+[2023-06-23 10:03:36] INFO root fetch - processPackages [snakecdysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakecdysis-0.0.4.tar.gz tmp/snakecdysis-0.0.5.tar.gz --markdown 20230623/s/snakecdysis/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 10:03:37] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.4.3.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.0.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-23 10:03:37] INFO root fetch - processPackages [Dakada]: Remove: archive file [/home/abi/fetcher/tmp/Dakada-1.8.4.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - processPackages [Dakada]: Remove: archive file [/home/abi/fetcher/tmp/Dakada-1.9.0.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - main [MainThread]: End processing [Dakada]: success
+[2023-06-23 10:03:37] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.7.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.8.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-23 10:03:37] INFO root fetch - processPackages [nfc-uid]: Remove: archive file [/home/abi/fetcher/tmp/nfc_uid-0.3.6.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - processPackages [nfc-uid]: Remove: archive file [/home/abi/fetcher/tmp/nfc_uid-0.4.0.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - main [MainThread]: End processing [nfc-uid]: success
+[2023-06-23 10:03:37] INFO root fetch - processPackages [onepassword-local-search]: Remove: archive file [/home/abi/fetcher/tmp/onepassword local search-1.1.5.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - processPackages [onepassword-local-search]: Remove: archive file [/home/abi/fetcher/tmp/onepassword local search-1.1.6.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - main [MainThread]: End processing [onepassword-local-search]: success
+[2023-06-23 10:03:37] INFO root fetch - processPackages [geomapi]: Remove: archive file [/home/abi/fetcher/tmp/geomapi-0.3.1.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - processPackages [geomapi]: Remove: archive file [/home/abi/fetcher/tmp/geomapi-0.3.2.tar.gz]
+[2023-06-23 10:03:37] INFO root fetch - main [MainThread]: End processing [geomapi]: success
+[2023-06-23 10:03:38] INFO root fetch - processPackages [snakecdysis]: Remove: archive file [/home/abi/fetcher/tmp/snakecdysis-0.0.4.tar.gz]
+[2023-06-23 10:03:38] INFO root fetch - processPackages [snakecdysis]: Remove: archive file [/home/abi/fetcher/tmp/snakecdysis-0.0.5.tar.gz]
+[2023-06-23 10:03:38] INFO root fetch - main [MainThread]: End processing [snakecdysis]: success
+[2023-06-23 10:03:38] INFO root fetch - main [MainThread]: Store serial: [18615301]
