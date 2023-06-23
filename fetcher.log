@@ -17638,3 +17638,216 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 14:34:36] INFO root fetch - processPackages [collective.ckeditor]: Remove: archive file [/home/abi/fetcher/tmp/collective.ckeditor-5.0.0b2.tar.gz]
 [2023-06-23 14:34:36] INFO root fetch - main [MainThread]: End processing [collective.ckeditor]: success
 [2023-06-23 14:34:36] INFO root fetch - main [MainThread]: Store serial: [18617787]
+[2023-06-23 14:39:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18617787]
+[2023-06-23 14:39:45] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-bank-python
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NeoBase
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-management
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lanablas
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiam-astro
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cicada
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-notification-sdk-preview
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swh.lister
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: projen
+[2023-06-23 14:39:45] INFO root fetch - processPackages [lanablas]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ml-management]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-06-23 14:39:45] INFO root fetch - processPackages [kiam-astro]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-06-23 14:39:45] INFO root fetch - processPackages [NeoBase]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 14:39:45] INFO root fetch - processPackages [cicada]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-23 14:39:45] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.756] Old Version: [0.1.748.post6]
+[2023-06-23 14:39:45] INFO root fetch - processPackages [swh.lister]: New version: [5.7.1] Old Version: [5.7.0]
+[2023-06-23 14:39:45] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 14:39:45] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-23 14:39:45] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/cb/ab/94503d3ecfef85f5c20d522b98197a3a2aac920a39cbd4f55cbbab22f340/lanablas-0.0.2.tar.gz
+[2023-06-23 14:39:45] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-06-23 14:39:45] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/cd/2e/c25b183dd9ac83194e32a92425fa44669555413aaa5ec2e253c9e4019a50/swh.lister-5.7.0.tar.gz
+[2023-06-23 14:39:45] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-23 14:39:45] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/db/6d/62885ac55804ec3ed3924a04cb9f228f9c64e6cd08e646c756e82fb6ee8e/lusid-notification-sdk-preview-0.1.748.post6.tar.gz
+[2023-06-23 14:39:45] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/e4/3a/7f1d5f6c60d45cd4928f172f2787fca4398ba0c6696a09c5d265e419b65b/ml-management-0.0.37.tar.gz
+[2023-06-23 14:39:45] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/b4/53/4b4f01141b8169f2bc36cbab336187c93b3d7c513e01de94771feafd459d/NeoBase-0.8.tar.gz
+[2023-06-23 14:39:45] INFO root fetch - processPackages [kiam-astro]: Downloading https://files.pythonhosted.org/packages/23/17/bc738a88064d0f58cb34f3de327607a67df0e7d2f3f2e4b4c4dcde324253/kiam_astro-3.1.1.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cicada]: Downloading https://files.pythonhosted.org/packages/7b/ad/dbfcc02090f4fc6a9ee7397269c5a8f44df53daf6ceff3aee26483fcd3ae/cicada-0.5.1.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-23 14:39:46] WARNING root fetch - processPackages [kiam-astro]: Skipping package: exceeds size limit 30607767>=10485760
+[2023-06-23 14:39:46] INFO root fetch - processPackages [kiam-astro]: Start processing: s3-url-helper
+[2023-06-23 14:39:46] INFO root fetch - main [MainThread]: End processing [kiam-astro] error
+[2023-06-23 14:39:46] INFO root fetch - processPackages [s3-url-helper]: New version: [0.3.0] Old Version: [0.2]
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/00/22/acd3848e9f0e8dc9133969a3744e86823c9f29b39f20639661b4224f33bf/lanablas-0.0.3.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/a2/01/33fca482020025cdb58eafc5cfe1c871efa1a425fb5a208b2fa7be8c77aa/swh.lister-5.7.1.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/57/e9/a12dcd29745a06757efbc9938839700396cdb776c7b77a98c043ed34a111/lusid-notification-sdk-preview-0.1.756.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/5a/52/31174518adac5e8e06c54bbffe2bc4f57506dab7ac7a89a1781e67d8b253/ml-management-0.0.38.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230623/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 14:39:46] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cicada]: Downloading https://files.pythonhosted.org/packages/7d/ab/c7d9b415eeeadbd461bfc7888c0bd1fbe4494836b4d0dd0343404e87c3db/cicada-0.6.0.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [swh.lister]: executing diffoscope
+[2023-06-23 14:39:46] INFO root fetch - processPackages [swh.lister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.lister-5.7.0.tar.gz tmp/swh.lister-5.7.1.tar.gz --markdown 20230623/s/swh.lister/5.7.0-5.7.1/diff.md --exclude *.pyd
+[2023-06-23 14:39:46] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-06-23 14:39:46] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.748.post6.tar.gz tmp/lusid-notification-sdk-preview-0.1.756.tar.gz --markdown 20230623/l/lusid-notification-sdk-preview/0.1.748.post6-0.1.756/diff.md --exclude *.pyd
+[2023-06-23 14:39:46] INFO root fetch - processPackages [lanablas]: executing diffoscope
+[2023-06-23 14:39:46] INFO root fetch - processPackages [s3-url-helper]: Downloading https://files.pythonhosted.org/packages/03/e8/6016e81b0680e576621114e4eafefa97535c46f0aed3503d1f3ef6474ead/s3_url_helper-0.2.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [lanablas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanablas-0.0.2.tar.gz tmp/lanablas-0.0.3.tar.gz --markdown 20230623/l/lanablas/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 14:39:46] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/1c/f1/8a7eff769f23a3a8cfc58c10f83fd688a54ca4051adf2fc99487632e3c4b/NeoBase-0.9.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-06-23 14:39:46] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.37.tar.gz tmp/ml-management-0.0.38.tar.gz --markdown 20230623/m/ml-management/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-23 14:39:46] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230623/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230623/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cicada]: executing diffoscope
+[2023-06-23 14:39:46] INFO root fetch - processPackages [cicada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cicada-0.5.1.tar.gz tmp/cicada-0.6.0.tar.gz --markdown 20230623/c/cicada/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-23 14:39:46] INFO root fetch - processPackages [NeoBase]: executing diffoscope
+[2023-06-23 14:39:46] INFO root fetch - processPackages [NeoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeoBase-0.8.tar.gz tmp/NeoBase-0.9.tar.gz --markdown 20230623/N/NeoBase/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-23 14:39:46] INFO root fetch - processPackages [s3-url-helper]: Downloading https://files.pythonhosted.org/packages/4c/9f/87804d3fca7aa78133e827f52bbdec186d70460f357174b03a4bc724dfb1/s3_url_helper-0.3.0.tar.gz
+[2023-06-23 14:39:46] INFO root fetch - processPackages [s3-url-helper]: executing diffoscope
+[2023-06-23 14:39:46] INFO root fetch - processPackages [s3-url-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3_url_helper-0.2.tar.gz tmp/s3_url_helper-0.3.0.tar.gz --markdown 20230623/s/s3-url-helper/0.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 14:39:47] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.2.tar.gz]
+[2023-06-23 14:39:47] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.3.tar.gz]
+[2023-06-23 14:39:47] INFO root fetch - processPackages [lanablas]: Start processing: visafx
+[2023-06-23 14:39:47] INFO root fetch - main [MainThread]: End processing [lanablas]: success
+[2023-06-23 14:39:48] WARNING root fetch - processPackages [visafx]: Skipping, unable to determine old version
+[2023-06-23 14:39:48] INFO root fetch - processPackages [visafx]: Start processing: gitlint-core
+[2023-06-23 14:39:48] INFO root fetch - main [MainThread]: End processing [visafx] error
+[2023-06-23 14:39:48] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-06-23 14:39:48] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-06-23 14:39:48] INFO root fetch - processPackages [cicada]: Remove: archive file [/home/abi/fetcher/tmp/cicada-0.5.1.tar.gz]
+[2023-06-23 14:39:48] INFO root fetch - processPackages [cicada]: Remove: archive file [/home/abi/fetcher/tmp/cicada-0.6.0.tar.gz]
+[2023-06-23 14:39:48] INFO root fetch - processPackages [cicada]: Start processing: gitlint
+[2023-06-23 14:39:48] INFO root fetch - main [MainThread]: End processing [cicada]: success
+[2023-06-23 14:39:48] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-23 14:39:48] INFO root fetch - processPackages [s3-url-helper]: Remove: archive file [/home/abi/fetcher/tmp/s3_url_helper-0.2.tar.gz]
+[2023-06-23 14:39:48] INFO root fetch - processPackages [s3-url-helper]: Remove: archive file [/home/abi/fetcher/tmp/s3_url_helper-0.3.0.tar.gz]
+[2023-06-23 14:39:48] INFO root fetch - processPackages [s3-url-helper]: Start processing: y2mate-api
+[2023-06-23 14:39:48] INFO root fetch - main [MainThread]: End processing [s3-url-helper]: success
+[2023-06-23 14:39:48] INFO root fetch - processPackages [y2mate-api]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-23 14:39:48] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-06-23 14:39:48] INFO root fetch - processPackages [y2mate-api]: Downloading https://files.pythonhosted.org/packages/65/5d/0e36308711db87106325610dcb0c14af9f5966112263618d5b7b40c87b0a/y2mate-api-0.0.7.tar.gz
+[2023-06-23 14:39:48] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-06-23 14:39:48] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-06-23 14:39:48] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230623/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-06-23 14:39:48] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-06-23 14:39:48] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-06-23 14:39:48] INFO root fetch - processPackages [projen]: Start processing: pyparaspace
+[2023-06-23 14:39:48] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-23 14:39:48] INFO root fetch - processPackages [pyparaspace]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-23 14:39:48] INFO root fetch - processPackages [y2mate-api]: Downloading https://files.pythonhosted.org/packages/d7/df/ac52f7471923fa69ef7ebd48b9ab0c1dae619af04d9bb49536ed6c636e49/y2mate-api-0.0.8.tar.gz
+[2023-06-23 14:39:49] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-06-23 14:39:49] INFO root fetch - processPackages [pyparaspace]: Downloading https://files.pythonhosted.org/packages/3f/f5/08e5ddbead6d4a4652fcd798f2fc13b5dd49762ec34caca86cd7aa8acc05/pyparaspace-0.1.3.tar.gz
+[2023-06-23 14:39:49] INFO root fetch - processPackages [y2mate-api]: executing diffoscope
+[2023-06-23 14:39:49] INFO root fetch - processPackages [y2mate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y2mate-api-0.0.7.tar.gz tmp/y2mate-api-0.0.8.tar.gz --markdown 20230623/y/y2mate-api/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-23 14:39:49] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-06-23 14:39:49] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230623/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 14:39:49] INFO root fetch - processPackages [pyparaspace]: Downloading https://files.pythonhosted.org/packages/4b/32/ef32ced15d5cbaa026ae66433d3e22b35e47f8eff36076cbc2f204255c7b/pyparaspace-0.1.4.tar.gz
+[2023-06-23 14:39:49] INFO root fetch - processPackages [pyparaspace]: executing diffoscope
+[2023-06-23 14:39:49] INFO root fetch - processPackages [pyparaspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparaspace-0.1.3.tar.gz tmp/pyparaspace-0.1.4.tar.gz --markdown 20230623/p/pyparaspace/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-23 14:39:49] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.37.tar.gz]
+[2023-06-23 14:39:49] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.38.tar.gz]
+[2023-06-23 14:39:49] INFO root fetch - processPackages [ml-management]: Start processing: few-shot-priming
+[2023-06-23 14:39:49] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-06-23 14:39:49] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 14:39:49] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 14:39:49] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-23 14:39:49] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-23 14:39:49] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: bigdl-orca-spark3
+[2023-06-23 14:39:49] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-23 14:39:49] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230621]
+[2023-06-23 14:39:49] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.8.tar.gz]
+[2023-06-23 14:39:49] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
+[2023-06-23 14:39:49] INFO root fetch - processPackages [NeoBase]: Start processing: hygiene-dm
+[2023-06-23 14:39:49] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
+[2023-06-23 14:39:49] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 14:39:49] INFO root fetch - processPackages [hygiene-dm]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-06-23 14:39:49] INFO root fetch - processPackages [hygiene-dm]: Downloading https://files.pythonhosted.org/packages/a1/70/cb44852dd48c24b357ac56c4f84f61d0f779d8256fde14d6431272d159a6/hygiene_dm-0.0.1.tar.gz
+[2023-06-23 14:39:49] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 14:39:49] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/a8/a8/e86063f2ca18ee79120d60541cb27dfa0ec7b07b3ac1a69c74707ecd6109/bigdl_orca_spark3-2.4.0b20230621-py3-none-manylinux1_x86_64.whl
+[2023-06-23 14:39:50] INFO root fetch - processPackages [hygiene-dm]: Downloading https://files.pythonhosted.org/packages/99/58/0cc481c36094679b98e0daebf3734b631c467b0b2628b95fe91110ac9d5f/hygiene_dm-0.0.5.tar.gz
+[2023-06-23 14:39:50] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207839>=10485760
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: kortical
+[2023-06-23 14:39:50] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-23 14:39:50] INFO root fetch - processPackages [hygiene-dm]: executing diffoscope
+[2023-06-23 14:39:50] INFO root fetch - processPackages [hygiene-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hygiene_dm-0.0.1.tar.gz tmp/hygiene_dm-0.0.5.tar.gz --markdown 20230623/h/hygiene-dm/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 14:39:50] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.748.post6.tar.gz]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.756.tar.gz]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Start processing: bigdl-friesian-spark3
+[2023-06-23 14:39:50] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-06-23 14:39:50] INFO root fetch - processPackages [kortical]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230621]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Start processing: bigdl-chronos-spark3
+[2023-06-23 14:39:50] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-23 14:39:50] INFO root fetch - processPackages [kortical]: Downloading https://files.pythonhosted.org/packages/68/9d/4f2df79cb699fd1c0e8c087442f0c81856307f5584994da47dab2729948a/kortical-2.1.4-py3-none-any.whl
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230621]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/69/b1/926b18e248dc32b2b0bccf6605b7479a99b99a51a77994364d37e3e14ed8/bigdl_friesian_spark3-2.4.0b20230621-py3-none-manylinux1_x86_64.whl
+[2023-06-23 14:39:50] WARNING root fetch - processPackages [kortical]: Skipping package: exceeds size limit 46880902>=10485760
+[2023-06-23 14:39:50] INFO root fetch - processPackages [kortical]: Start processing: printarg
+[2023-06-23 14:39:50] INFO root fetch - main [MainThread]: End processing [kortical] error
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/e8/ec/b5ab6989fec4b16904fd5ce77ad5345fa72287a3bded7b03e945fd248d6b/bigdl_friesian_spark3-2.4.0b20230622-py3-none-manylinux1_x86_64.whl
+[2023-06-23 14:39:50] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [gitlint-core]: Start processing: bigdl-spark3
+[2023-06-23 14:39:50] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/b4/10/33d8e3c8bfbdb9465abb6c0aae0181bd985184c423308794e241ff42a015/bigdl_chronos_spark3-2.4.0b20230621-py3-none-manylinux1_x86_64.whl
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230621]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [y2mate-api]: Remove: archive file [/home/abi/fetcher/tmp/y2mate-api-0.0.7.tar.gz]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [y2mate-api]: Remove: archive file [/home/abi/fetcher/tmp/y2mate-api-0.0.8.tar.gz]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [y2mate-api]: Start processing: webcam
+[2023-06-23 14:39:50] INFO root fetch - main [MainThread]: End processing [y2mate-api]: success
+[2023-06-23 14:39:50] WARNING root fetch - processPackages [printarg]: Skipping, unable to determine old version
+[2023-06-23 14:39:50] INFO root fetch - processPackages [printarg]: Start processing: QuNet
+[2023-06-23 14:39:50] INFO root fetch - main [MainThread]: End processing [printarg] error
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230621-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip --markdown 20230623/b/bigdl-friesian-spark3/2.4.0b20230621-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-23 14:39:50] INFO root fetch - processPackages [QuNet]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-06-23 14:39:50] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-06-23 14:39:50] INFO root fetch - processPackages [webcam]: New version: [1.3] Old Version: [1.2]
+[2023-06-23 14:39:50] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/57/24/0de9c7f5fafa6ca512ba0593169165280f4d2fbdf6525ba6a1523d19fe81/QuNet-0.0.96-py3-none-any.whl
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/5e/7a/6654fa109e24d60de69d2c912ef4e73cf1ff26504b74276134118f9535d2/bigdl_chronos_spark3-2.4.0b20230622-py3-none-manylinux1_x86_64.whl
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/41/9d/682efbb2a4907f111be7517b15541fcc77f3454ff3e1b12338e5562b29f1/bigdl_spark3-2.4.0b20230621-py3-none-manylinux1_x86_64.whl
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-23 14:39:50] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230621-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip --markdown 20230623/b/bigdl-chronos-spark3/2.4.0b20230621-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-23 14:39:50] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/52/09/95ac90e82c7726cb48a91735d45588906fa729c68b932abb06380b5d35a4/QuNet-0.0.97-py3-none-any.whl
+[2023-06-23 14:39:51] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/ea/7f/be9bef777150406a0cb5745a026760502676ee583c40d6b9a7bf4ecb8380/webcam-1.2.tar.gz
+[2023-06-23 14:39:51] INFO root fetch - processPackages [pyparaspace]: Remove: archive file [/home/abi/fetcher/tmp/pyparaspace-0.1.3.tar.gz]
+[2023-06-23 14:39:51] INFO root fetch - processPackages [pyparaspace]: Remove: archive file [/home/abi/fetcher/tmp/pyparaspace-0.1.4.tar.gz]
+[2023-06-23 14:39:51] INFO root fetch - main [MainThread]: End processing [pyparaspace]: success
+[2023-06-23 14:39:51] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-23 14:39:51] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.96-py3-none-any.whl.zip tmp/QuNet-0.0.97-py3-none-any.whl.zip --markdown 20230623/Q/QuNet/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-06-23 14:39:51] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/76/1b/fe6a4e9e178a724aededde2b04f92df8511181e8e6c10e6b23bd1931bc53/webcam-1.3.tar.gz
+[2023-06-23 14:39:51] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/81/76/2682223b692f2ac470de45b457bc93b0f50143746c3d38179f507d2c6010/bigdl_spark3-2.4.0b20230622-py3-none-manylinux1_x86_64.whl
+[2023-06-23 14:39:51] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-23 14:39:51] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230621-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip --markdown 20230623/b/bigdl-spark3/2.4.0b20230621-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-23 14:39:51] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 14:39:51] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 14:39:51] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 14:39:51] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-06-23 14:39:51] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-1.2.tar.gz tmp/webcam-1.3.tar.gz --markdown 20230623/w/webcam/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-23 14:39:51] INFO root fetch - processPackages [hygiene-dm]: Remove: archive file [/home/abi/fetcher/tmp/hygiene_dm-0.0.1.tar.gz]
+[2023-06-23 14:39:51] INFO root fetch - processPackages [hygiene-dm]: Remove: archive file [/home/abi/fetcher/tmp/hygiene_dm-0.0.5.tar.gz]
+[2023-06-23 14:39:51] INFO root fetch - main [MainThread]: End processing [hygiene-dm]: success
+[2023-06-23 14:39:52] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230621-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-23 14:39:52] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-23 14:39:52] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-23 14:39:52] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 14:39:52] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.97-py3-none-any.whl.zip]
+[2023-06-23 14:39:52] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-23 14:39:52] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230621-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-23 14:39:52] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-23 14:39:52] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-23 14:39:52] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.2.tar.gz]
+[2023-06-23 14:39:52] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.3.tar.gz]
+[2023-06-23 14:39:52] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-06-23 14:39:53] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230621-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-23 14:39:53] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-23 14:39:53] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-23 14:39:54] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.7.0.tar.gz]
+[2023-06-23 14:39:54] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.7.1.tar.gz]
+[2023-06-23 14:39:54] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
+[2023-06-23 14:39:54] INFO root fetch - main [MainThread]: Store serial: [18617864]
