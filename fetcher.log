@@ -15283,3 +15283,305 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 12:46:32] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.98.tar.gz]
 [2023-06-23 12:46:32] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-06-23 12:46:32] INFO root fetch - main [MainThread]: Store serial: [18616721]
+[2023-06-23 12:51:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616721]
+[2023-06-23 12:51:41] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-06-23 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kalm
+[2023-06-23 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robusta-cli
+[2023-06-23 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mds-account-de-skr04
+[2023-06-23 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: niota
+[2023-06-23 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cycode
+[2023-06-23 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sh-mongodb
+[2023-06-23 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mds-account-de-skr04
+[2023-06-23 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jam-ai
+[2023-06-23 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: statute-utils
+[2023-06-23 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: playsongs
+[2023-06-23 12:51:41] INFO root fetch - processPackages [statute-utils]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-23 12:51:41] INFO root fetch - processPackages [cycode]: New version: [0.2.6.dev2] Old Version: [0.2.6.dev1]
+[2023-06-23 12:51:41] INFO root fetch - processPackages [jam-ai]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-23 12:51:41] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:51:41] WARNING root fetch - processPackages [sh-mongodb]: Skipping, unable to determine old version
+[2023-06-23 12:51:41] INFO root fetch - processPackages [mds-account-de-skr04]: New version: [6.8.7] Old Version: [6.6.7]
+[2023-06-23 12:51:41] INFO root fetch - processPackages [sh-mongodb]: Start processing: kalm
+[2023-06-23 12:51:41] INFO root fetch - processPackages [niota]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-23 12:51:41] INFO root fetch - main [MainThread]: End processing [sh-mongodb] error
+[2023-06-23 12:51:41] INFO root fetch - processPackages [playsongs]: New version: [2023.1.0.1] Old Version: [2023.1.0.0]
+[2023-06-23 12:51:41] INFO root fetch - processPackages [mds-account-de-skr04]: New version: [6.8.7] Old Version: [6.6.7]
+[2023-06-23 12:51:41] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-23 12:51:41] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:51:42] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/68/35/91d27fa39ba050c361e2fc425f74e0e6b269cabd3bd1b1e921fa691e351f/jam_ai-0.1.4.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [playsongs]: Downloading https://files.pythonhosted.org/packages/10/6f/d67f39cba13598af34ba98665a537114e1d960f45c9d35ee680332d4dd52/playsongs-2023.1.0.0.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/f1/52/7ddfbca2b73998bf9b32be8b8c62957eea097ca60f30831ef5bc61db3787/cycode-0.2.6.dev1.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [mds-account-de-skr04]: Downloading https://files.pythonhosted.org/packages/e1/e4/baaa50249521416ca7f59253c2d2528114db13e8d064fee242eea988394b/mds_account_de_skr04-6.6.7.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [mds-account-de-skr04]: Downloading https://files.pythonhosted.org/packages/e1/e4/baaa50249521416ca7f59253c2d2528114db13e8d064fee242eea988394b/mds_account_de_skr04-6.6.7.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [niota]: Downloading https://files.pythonhosted.org/packages/e0/f2/2b92228e9457d55b9cad79f672cb3ac710857826c3cd7d8da712a17af12e/niota-0.7.0.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/83/2f/c9f8c2f6965d5fe8be0c6348c9ac08fadab3b031c959510a06c4beb530d1/statute_utils-0.3.2.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/39/60/df780a4cd33fb6c25e7e6b0c86022d93aaa4490b1a758140e3d98a02996e/robusta-cli-0.9.7.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [playsongs]: Downloading https://files.pythonhosted.org/packages/95/e0/d0396f43154ae36b44263699f565fb277cec666c6efc6f1efdfa58daad29/playsongs-2023.1.0.1.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/51/05/2b00cafe3193e930dea536fc67db9df985718c23dc8444acd330973e73c8/jam_ai-0.1.5.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [mds-account-de-skr04]: Downloading https://files.pythonhosted.org/packages/9d/b5/3f1e6887d96f5cb9aa8406ed80a647c41f7cb2e8d8128885a41fb14fddcf/mds_account_de_skr04-6.8.7.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/25/99/4c76f69fe106453d9b24514eb3a41a17467bc702f5813bec486127d15e26/cycode-0.2.6.dev2.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [mds-account-de-skr04]: Downloading https://files.pythonhosted.org/packages/9d/b5/3f1e6887d96f5cb9aa8406ed80a647c41f7cb2e8d8128885a41fb14fddcf/mds_account_de_skr04-6.8.7.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [playsongs]: executing diffoscope
+[2023-06-23 12:51:42] INFO root fetch - processPackages [playsongs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playsongs-2023.1.0.0.tar.gz tmp/playsongs-2023.1.0.1.tar.gz --markdown 20230623/p/playsongs/2023.1.0.0-2023.1.0.1/diff.md --exclude *.pyd
+[2023-06-23 12:51:42] INFO root fetch - processPackages [niota]: Downloading https://files.pythonhosted.org/packages/01/50/abd1f139e21f7045e2a873fbd58fa10f1b68ed80a7d63b8c2d07ef87149c/niota-0.8.0.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/1e/9a/791cf08be0da0a1910cc4dfbe1e3d393ef894c5f70aee26e8fe558733a8c/statute_utils-0.4.0.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 12:51:42] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-06-23 12:51:42] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev1.tar.gz tmp/cycode-0.2.6.dev2.tar.gz --markdown 20230623/c/cycode/0.2.6.dev1-0.2.6.dev2/diff.md --exclude *.pyd
+[2023-06-23 12:51:42] INFO root fetch - processPackages [jam-ai]: executing diffoscope
+[2023-06-23 12:51:42] INFO root fetch - processPackages [jam-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jam_ai-0.1.4.tar.gz tmp/jam_ai-0.1.5.tar.gz --markdown 20230623/j/jam-ai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-23 12:51:42] INFO root fetch - processPackages [niota]: executing diffoscope
+[2023-06-23 12:51:42] INFO root fetch - processPackages [niota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niota-0.7.0.tar.gz tmp/niota-0.8.0.tar.gz --markdown 20230623/n/niota/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-23 12:51:42] INFO root fetch - processPackages [mds-account-de-skr04]: executing diffoscope
+[2023-06-23 12:51:42] INFO root fetch - processPackages [mds-account-de-skr04]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mds_account_de_skr04-6.6.7.tar.gz tmp/mds_account_de_skr04-6.8.7.tar.gz --markdown 20230623/m/mds-account-de-skr04/6.6.7-6.8.7/diff.md --exclude *.pyd
+[2023-06-23 12:51:42] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:51:42] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:51:42] INFO root fetch - processPackages [mds-account-de-skr04]: executing diffoscope
+[2023-06-23 12:51:42] INFO root fetch - processPackages [mds-account-de-skr04]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mds_account_de_skr04-6.6.7.tar.gz tmp/mds_account_de_skr04-6.8.7.tar.gz --markdown 20230623/m/mds-account-de-skr04/6.6.7-6.8.7/diff.md --exclude *.pyd
+[2023-06-23 12:51:42] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:51:42] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:51:42] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-06-23 12:51:42] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.3.2.tar.gz tmp/statute_utils-0.4.0.tar.gz --markdown 20230623/s/statute-utils/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 12:51:43] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/9f/ff/a70074935ded21551e9900241be83e06dcddd697498c8fa3eeab30d0105c/robusta-cli-0.9.9.tar.gz
+[2023-06-23 12:51:43] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-06-23 12:51:43] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230623/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-23 12:51:43] INFO root fetch - processPackages [playsongs]: Remove: archive file [/home/abi/fetcher/tmp/playsongs-2023.1.0.0.tar.gz]
+[2023-06-23 12:51:43] INFO root fetch - processPackages [playsongs]: Remove: archive file [/home/abi/fetcher/tmp/playsongs-2023.1.0.1.tar.gz]
+[2023-06-23 12:51:43] INFO root fetch - processPackages [playsongs]: Start processing: AcraNetwork
+[2023-06-23 12:51:43] INFO root fetch - main [MainThread]: End processing [playsongs]: success
+[2023-06-23 12:51:44] INFO root fetch - processPackages [AcraNetwork]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [AcraNetwork]: Downloading https://files.pythonhosted.org/packages/36/22/643c455ac0c50d42916d52b9b476e86fe245f03e8d9e8b8ee8dc66fc7970/AcraNetwork-0.7.4.tar.gz
+[2023-06-23 12:51:44] INFO root fetch - processPackages [niota]: Remove: archive file [/home/abi/fetcher/tmp/niota-0.7.0.tar.gz]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [niota]: Remove: archive file [/home/abi/fetcher/tmp/niota-0.8.0.tar.gz]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [niota]: Start processing: nonebot-plugin-ocgbot-v2
+[2023-06-23 12:51:44] INFO root fetch - main [MainThread]: End processing [niota]: success
+[2023-06-23 12:51:44] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.4.tar.gz]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.5.tar.gz]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [jam-ai]: Start processing: ada-py
+[2023-06-23 12:51:44] INFO root fetch - main [MainThread]: End processing [jam-ai]: success
+[2023-06-23 12:51:44] INFO root fetch - processPackages [ada-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Downloading https://files.pythonhosted.org/packages/93/4c/574fc290a90932e0da8b154ce199dee8625fc7cd5db04f3156403fc19be7/nonebot_plugin_ocgbot_v2-0.1.6.tar.gz
+[2023-06-23 12:51:44] WARNING root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Skipping package: exceeds size limit 51954442>=10485760
+[2023-06-23 12:51:44] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Start processing: proactive
+[2023-06-23 12:51:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ocgbot-v2] error
+[2023-06-23 12:51:44] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-23 12:51:44] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [kalm]: Start processing: pydozer-log
+[2023-06-23 12:51:44] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 12:51:44] INFO root fetch - processPackages [ada-py]: Downloading https://files.pythonhosted.org/packages/8a/70/28c401b4087a2a0d07f0538b3f306bfe7a428a802bd063d3d1fc03715727/ada-py-0.0.8.tar.gz
+[2023-06-23 12:51:44] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-23 12:51:44] INFO root fetch - processPackages [proactive]: Start processing: sentry-relay
+[2023-06-23 12:51:44] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-23 12:51:44] INFO root fetch - processPackages [pydozer-log]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [AcraNetwork]: Downloading https://files.pythonhosted.org/packages/e8/d6/0fa21a06a24cc9d9763db8970944b4e1b837b1d07fb53fdb074d68f7147f/AcraNetwork-0.7.5.zip
+[2023-06-23 12:51:44] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev1.tar.gz]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev2.tar.gz]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [cycode]: Start processing: taipy
+[2023-06-23 12:51:44] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-06-23 12:51:44] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [taipy]: New version: [3.0.0.dev0] Old Version: [2.3.0.dev5]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [kalm]: Start processing: kalm
+[2023-06-23 12:51:44] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 12:51:44] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 12:51:44] INFO root fetch - processPackages [AcraNetwork]: executing diffoscope
+[2023-06-23 12:51:44] INFO root fetch - processPackages [AcraNetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AcraNetwork-0.7.4.tar.gz tmp/AcraNetwork-0.7.5.zip --markdown 20230623/A/AcraNetwork/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-23 12:51:44] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 12:51:44] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2023-06-23 12:51:44] INFO root fetch - processPackages [pydozer-log]: Downloading https://files.pythonhosted.org/packages/1e/25/5c086304ccad4f85a324a71b87a72dcbc8694a877d544fd86348ff799f66/pydozer_log-0.1.25-pp39-pypy39_pp73-manylinux_2_34_s390x.whl
+[2023-06-23 12:51:44] INFO root fetch - processPackages [taipy]: Downloading https://files.pythonhosted.org/packages/5f/38/58448e9e85a19e8b7f6d87237903b169c4303fc474084120193564fc0bf7/taipy-2.3.0.dev5.tar.gz
+[2023-06-23 12:51:44] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 12:51:44] INFO root fetch - processPackages [ada-py]: Downloading https://files.pythonhosted.org/packages/7a/1f/0045fd181d5ca07a1f786a6ae1e95f2d15b9eff9674fae3c6e4fef38fe0c/ada-py-0.0.9.tar.gz
+[2023-06-23 12:51:45] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.3.2.tar.gz]
+[2023-06-23 12:51:45] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.4.0.tar.gz]
+[2023-06-23 12:51:45] INFO root fetch - processPackages [statute-utils]: Start processing: inSis
+[2023-06-23 12:51:45] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-06-23 12:51:45] INFO root fetch - processPackages [mds-account-de-skr04]: Remove: archive file [/home/abi/fetcher/tmp/mds_account_de_skr04-6.6.7.tar.gz]
+[2023-06-23 12:51:45] INFO root fetch - processPackages [mds-account-de-skr04]: Remove: archive file [/home/abi/fetcher/tmp/mds_account_de_skr04-6.8.7.tar.gz]
+[2023-06-23 12:51:45] INFO root fetch - processPackages [mds-account-de-skr04]: Start processing: sap-ai-core-llm
+[2023-06-23 12:51:45] INFO root fetch - main [MainThread]: End processing [mds-account-de-skr04]: success
+[2023-06-23 12:51:45] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 12:51:45] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 12:51:45] INFO root fetch - processPackages [taipy]: Downloading https://files.pythonhosted.org/packages/79/98/132625d08365c80e42ea1d56dc0ab7340f6f04f76e4122f3160d1b78a8ba/taipy-3.0.0.dev0.tar.gz
+[2023-06-23 12:51:45] INFO root fetch - processPackages [ada-py]: executing diffoscope
+[2023-06-23 12:51:45] INFO root fetch - processPackages [ada-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ada-py-0.0.8.tar.gz tmp/ada-py-0.0.9.tar.gz --markdown 20230623/a/ada-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 12:51:45] WARNING root fetch - processPackages [inSis]: Skipping, unable to determine old version
+[2023-06-23 12:51:45] INFO root fetch - processPackages [inSis]: Start processing: jina
+[2023-06-23 12:51:45] INFO root fetch - main [MainThread]: End processing [inSis] error
+[2023-06-23 12:51:45] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-06-23 12:51:45] INFO root fetch - processPackages [sap-ai-core-llm]: New version: [1.0.18] Old Version: [1.0.10]
+[2023-06-23 12:51:45] INFO root fetch - processPackages [pydozer-log]: Downloading https://files.pythonhosted.org/packages/22/79/0404fac2e4b6a9b88754dff7b39452e211e210e0b79c57a18e8afc383fe6/pydozer_log-0.1.26-pp37-pypy37_pp73-manylinux_2_34_armv7l.whl
+[2023-06-23 12:51:45] INFO root fetch - processPackages [taipy]: executing diffoscope
+[2023-06-23 12:51:45] INFO root fetch - processPackages [taipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-2.3.0.dev5.tar.gz tmp/taipy-3.0.0.dev0.tar.gz --markdown 20230623/t/taipy/2.3.0.dev5-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-23 12:51:45] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2023-06-23 12:51:45] INFO root fetch - processPackages [sentry-relay]: Start processing: proactive-jupyter-kernel
+[2023-06-23 12:51:45] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2023-06-23 12:51:45] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-23 12:51:45] ERROR root fetch - processPackages [mds-account-de-skr04]: Diffoscope failed: gzip: tmp/mds_account_de_skr04-6.8.7.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/mds_account_de_skr04-6.8.7.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-23 12:51:45] INFO root fetch - processPackages [mds-account-de-skr04]: Start processing: datamazing
+[2023-06-23 12:51:45] INFO root fetch - main [MainThread]: End processing [mds-account-de-skr04] error
+[2023-06-23 12:51:45] INFO root fetch - processPackages [datamazing]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 12:51:45] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-23 12:51:45] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-06-23 12:51:45] INFO root fetch - processPackages [sap-ai-core-llm]: Downloading https://files.pythonhosted.org/packages/f4/47/451c1847ce3d01e7475da8557d342f58ebd40bcfa9123b9329b2f48f3c3d/sap_ai_core_llm-1.0.10-py3-none-any.whl
+[2023-06-23 12:51:45] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/4d/14/803f965ba7381a345e9e7f336b4394f4f07a0512c1a48aa9bb9b8505560c/datamazing-0.0.4.tar.gz
+[2023-06-23 12:51:45] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-23 12:51:45] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/1e/33/23056f43811daa293320eb3b805304e5ea1a96702b5977eef12b2c0c20f0/datamazing-0.0.5.tar.gz
+[2023-06-23 12:51:45] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.7.tar.gz]
+[2023-06-23 12:51:45] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
+[2023-06-23 12:51:45] INFO root fetch - processPackages [robusta-cli]: Start processing: CryptoDataHub
+[2023-06-23 12:51:45] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-06-23 12:51:45] WARNING root fetch - processPackages [CryptoDataHub]: Skipping, unable to determine old version
+[2023-06-23 12:51:45] INFO root fetch - processPackages [CryptoDataHub]: Start processing: esphome
+[2023-06-23 12:51:45] INFO root fetch - main [MainThread]: End processing [CryptoDataHub] error
+[2023-06-23 12:51:45] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-23 12:51:45] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230623/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-23 12:51:45] INFO root fetch - processPackages [sap-ai-core-llm]: Downloading https://files.pythonhosted.org/packages/1a/67/fa99956c9f62961cc639e5ea8a3eec1de6339585d68e9061da5d93078e23/sap_ai_core_llm-1.0.18-py3-none-any.whl
+[2023-06-23 12:51:45] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-06-23 12:51:45] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-0.0.4.tar.gz tmp/datamazing-0.0.5.tar.gz --markdown 20230623/d/datamazing/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 12:51:45] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-06-23 12:51:45] INFO root fetch - processPackages [esphome]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-23 12:51:45] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/34/6d/5f334a36ad0033c64cde00fd7372f9f1870903978d83bce06b10f493e89e/esphome-2023.6.1.tar.gz
+[2023-06-23 12:51:45] INFO root fetch - processPackages [sap-ai-core-llm]: executing diffoscope
+[2023-06-23 12:51:45] INFO root fetch - processPackages [sap-ai-core-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sap_ai_core_llm-1.0.10-py3-none-any.whl.zip tmp/sap_ai_core_llm-1.0.18-py3-none-any.whl.zip --markdown 20230623/s/sap-ai-core-llm/1.0.10-1.0.18/diff.md --exclude *.pyd
+[2023-06-23 12:51:45] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-06-23 12:51:45] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230623/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-06-23 12:51:46] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/5f/ca/b98441c3e6871b96a2d1006674f91b31cbbfe3d072c9441131985b656863/esphome-2023.6.2.tar.gz
+[2023-06-23 12:51:46] INFO root fetch - processPackages [AcraNetwork]: Remove: archive file [/home/abi/fetcher/tmp/AcraNetwork-0.7.4.tar.gz]
+[2023-06-23 12:51:46] INFO root fetch - processPackages [AcraNetwork]: Remove: archive file [/home/abi/fetcher/tmp/AcraNetwork-0.7.5.zip]
+[2023-06-23 12:51:46] INFO root fetch - processPackages [AcraNetwork]: Start processing: few-shot-priming
+[2023-06-23 12:51:46] INFO root fetch - main [MainThread]: End processing [AcraNetwork]: success
+[2023-06-23 12:51:46] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-23 12:51:46] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-23 12:51:46] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-23 12:51:46] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-23 12:51:46] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230623/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 12:51:46] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-06-23 12:51:46] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.6.1.tar.gz tmp/esphome-2023.6.2.tar.gz --markdown 20230623/e/esphome/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-23 12:51:47] INFO root fetch - processPackages [ada-py]: Remove: archive file [/home/abi/fetcher/tmp/ada-py-0.0.8.tar.gz]
+[2023-06-23 12:51:47] INFO root fetch - processPackages [ada-py]: Remove: archive file [/home/abi/fetcher/tmp/ada-py-0.0.9.tar.gz]
+[2023-06-23 12:51:47] INFO root fetch - processPackages [ada-py]: Start processing: pytest-dir-equal
+[2023-06-23 12:51:47] INFO root fetch - main [MainThread]: End processing [ada-py]: success
+[2023-06-23 12:51:47] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 12:51:47] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 12:51:47] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 12:51:47] INFO root fetch - processPackages [pydozer-log]: executing diffoscope
+[2023-06-23 12:51:47] INFO root fetch - processPackages [pydozer-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydozer_log-0.1.25-pp39-pypy39_pp73-manylinux_2_34_s390x.whl.zip tmp/pydozer_log-0.1.26-pp37-pypy37_pp73-manylinux_2_34_armv7l.whl.zip --markdown 20230623/p/pydozer-log/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-06-23 12:51:47] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-23 12:51:47] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-23 12:51:47] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-23 12:51:47] WARNING root fetch - processPackages [pytest-dir-equal]: Skipping, unable to determine old version
+[2023-06-23 12:51:47] INFO root fetch - main [MainThread]: End processing [pytest-dir-equal] error
+[2023-06-23 12:51:47] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-0.0.4.tar.gz]
+[2023-06-23 12:51:47] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-0.0.5.tar.gz]
+[2023-06-23 12:51:47] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-06-23 12:51:47] INFO root fetch - processPackages [sap-ai-core-llm]: Remove: archive file [/home/abi/fetcher/tmp/sap_ai_core_llm-1.0.10-py3-none-any.whl.zip]
+[2023-06-23 12:51:47] INFO root fetch - processPackages [sap-ai-core-llm]: Remove: archive file [/home/abi/fetcher/tmp/sap_ai_core_llm-1.0.18-py3-none-any.whl.zip]
+[2023-06-23 12:51:47] INFO root fetch - main [MainThread]: End processing [sap-ai-core-llm]: success
+[2023-06-23 12:51:48] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-23 12:51:48] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-23 12:51:48] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-23 12:51:48] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-06-23 12:51:48] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-06-23 12:51:48] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-06-23 12:51:48] INFO root fetch - processPackages [pydozer-log]: Remove: archive file [/home/abi/fetcher/tmp/pydozer_log-0.1.25-pp39-pypy39_pp73-manylinux_2_34_s390x.whl.zip]
+[2023-06-23 12:51:48] INFO root fetch - processPackages [pydozer-log]: Remove: archive file [/home/abi/fetcher/tmp/pydozer_log-0.1.26-pp37-pypy37_pp73-manylinux_2_34_armv7l.whl.zip]
+[2023-06-23 12:51:48] INFO root fetch - main [MainThread]: End processing [pydozer-log]: success
+[2023-06-23 12:51:53] INFO root fetch - processPackages [taipy]: Remove: archive file [/home/abi/fetcher/tmp/taipy-2.3.0.dev5.tar.gz]
+[2023-06-23 12:51:53] INFO root fetch - processPackages [taipy]: Remove: archive file [/home/abi/fetcher/tmp/taipy-3.0.0.dev0.tar.gz]
+[2023-06-23 12:51:53] INFO root fetch - main [MainThread]: End processing [taipy]: success
+[2023-06-23 12:52:32] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.1.tar.gz]
+[2023-06-23 12:52:32] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.2.tar.gz]
+[2023-06-23 12:52:32] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-06-23 12:52:32] INFO root fetch - main [MainThread]: Store serial: [18616856]
