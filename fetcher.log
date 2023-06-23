@@ -13145,3 +13145,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 11:16:32] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.0a4.tar.gz]
 [2023-06-23 11:16:32] INFO root fetch - main [MainThread]: End processing [voila]: success
 [2023-06-23 11:16:32] INFO root fetch - main [MainThread]: Store serial: [18615902]
+[2023-06-23 11:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615902]
+[2023-06-23 11:21:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: t2iapi
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: padawan
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LumosWeb
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trl
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ARIclicker
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: overhave
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unpywall
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exem-logs
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: breeze-strategies
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-core
+[2023-06-23 11:21:42] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev201] Old Version: [3.0.0.dev195]
+[2023-06-23 11:21:42] INFO root fetch - processPackages [LumosWeb]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-23 11:21:42] INFO root fetch - processPackages [padawan]: New version: [0.8] Old Version: [0.7]
+[2023-06-23 11:21:42] WARNING root fetch - processPackages [exem-logs]: Skipping, unable to determine old version
+[2023-06-23 11:21:42] INFO root fetch - processPackages [exem-logs]: Start processing: wordview
+[2023-06-23 11:21:42] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-23 11:21:42] INFO root fetch - main [MainThread]: End processing [exem-logs] error
+[2023-06-23 11:21:42] INFO root fetch - processPackages [unpywall]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-23 11:21:42] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230623092015] Old Version: [2.1.1.dev20230623080954]
+[2023-06-23 11:21:42] INFO root fetch - processPackages [overhave]: New version: [3.9.0] Old Version: [3.8.4]
+[2023-06-23 11:21:42] INFO root fetch - processPackages [trl]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-23 11:21:42] INFO root fetch - processPackages [wordview]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ARIclicker]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-23 11:21:42] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/91/11/84a145b0dbcc9429da350e26c9525e01d91c38139d89a6da1a6c67258c28/breeze_strategies-6.0.8.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/10/b4/300e82cfd7482fafbb3d3d83fdc9e0e9821d3d3ca69b236bc1e7c2b3a6d2/ARIclicker-0.2.1.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/b7/18/29993b57c4cb7f2442241d369c49532a45a5e701c36dee34d6d12f1bac08/trl-0.4.5.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/db/37/76cd80fbc7f4d650e2438167a4654c0b3ee15fe0ca9774684b0f7997ff4a/wordview-0.3.2.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c9/5f/6ef54417968e9c6ebf8d1e10eed401bb5c0dfe709bc20f37245b60cb4b7f/localstack-core-2.1.1.dev20230623080954.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/0c/ef/fedcde725c819e9cb739e4f203fbef7e70e3802ec45a368d5962ac3ff3e0/wordview-0.3.3.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/67/15/955be0673d288b6916685de01aa5e4f22e587cd4768370e94231ef30551c/t2iapi-3.0.0.dev195.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [LumosWeb]: Downloading https://files.pythonhosted.org/packages/bf/fe/e26ffa3c36631e4911e01e10f7b13d661da13dbe568c4c8bde0a4fc8cfbb/LumosWeb-1.0.3.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/35/d2/ab3a72dd99318a4ecf97364c7c67b8903528d6443e59e69d0e5cb8aa6d76/overhave-3.8.4.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-06-23 11:21:42] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.3.2.tar.gz tmp/wordview-0.3.3.tar.gz --markdown 20230623/w/wordview/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-23 11:21:42] INFO root fetch - processPackages [unpywall]: Downloading https://files.pythonhosted.org/packages/8e/de/33689b72dedb5f113f9ab0f18fb077e1448974ebfad6dd375b93288925dc/unpywall-0.2.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [padawan]: Downloading https://files.pythonhosted.org/packages/7d/0c/1fad7299980bef4a929db86a2d6f742a542f8b7d5e8c97fb224db565b59d/padawan-0.7.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/54/76/0e07b6102ef8a71640c128f71c76f8ddd943a0b38abd366c7bd5baadc5ff/ARIclicker-0.2.2.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/f9/af/eabc809d79f5eb400c5adcfb3b8a37476ff43336c479ff30b19e6db3f61b/breeze_strategies-6.0.9.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/02/cf/d887a265cf406b5f57fabbdd2a17138f29d9bc3a0e04d874a7396f475cad/trl-0.4.6.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-23 11:21:42] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.8.tar.gz tmp/breeze_strategies-6.0.9.tar.gz --markdown 20230623/b/breeze-strategies/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ARIclicker]: executing diffoscope
+[2023-06-23 11:21:42] INFO root fetch - processPackages [ARIclicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARIclicker-0.2.1.tar.gz tmp/ARIclicker-0.2.2.tar.gz --markdown 20230623/A/ARIclicker/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-23 11:21:42] INFO root fetch - processPackages [trl]: executing diffoscope
+[2023-06-23 11:21:42] INFO root fetch - processPackages [trl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trl-0.4.5.tar.gz tmp/trl-0.4.6.tar.gz --markdown 20230623/t/trl/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-23 11:21:42] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/cd/75/b1c9864444a42bf359e1cb5a83dfd718de317759bec53ac23a0d341bec72/t2iapi-3.0.0.dev201.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [LumosWeb]: Downloading https://files.pythonhosted.org/packages/a3/d7/4d19ad638dce2f9e4ed7075f304e8f85c5cd8580847e99f773ac16bdc2d2/LumosWeb-1.1.0.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [unpywall]: Downloading https://files.pythonhosted.org/packages/a4/60/99a791ea7a9730c8b855fdd14ce4000161f9d7ef40aea793e2ff15f7c7ae/unpywall-0.2.1.tar.gz
+[2023-06-23 11:21:42] INFO root fetch - processPackages [padawan]: Downloading https://files.pythonhosted.org/packages/97/04/ffaea62e6f3309d5677a3ff92029ed4fc6fde437d9a2eeaf82aa1aecf6d3/padawan-0.8.tar.gz
+[2023-06-23 11:21:43] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/3b/2c/ca40695220b3c96a956afa94d00efa8867bf3548d7cbb8fb09d146be2e1b/localstack-core-2.1.1.dev20230623092015.tar.gz
+[2023-06-23 11:21:43] INFO root fetch - processPackages [LumosWeb]: executing diffoscope
+[2023-06-23 11:21:43] INFO root fetch - processPackages [LumosWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LumosWeb-1.0.3.tar.gz tmp/LumosWeb-1.1.0.tar.gz --markdown 20230623/L/LumosWeb/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 11:21:43] INFO root fetch - processPackages [padawan]: executing diffoscope
+[2023-06-23 11:21:43] INFO root fetch - processPackages [padawan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padawan-0.7.tar.gz tmp/padawan-0.8.tar.gz --markdown 20230623/p/padawan/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-23 11:21:43] INFO root fetch - processPackages [unpywall]: executing diffoscope
+[2023-06-23 11:21:43] INFO root fetch - processPackages [unpywall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unpywall-0.2.tar.gz tmp/unpywall-0.2.1.tar.gz --markdown 20230623/u/unpywall/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-23 11:21:43] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/53/af/c768a33320940cbb4d2e9af53d090268fc9eb0b87bed8e10c081c668f698/overhave-3.9.0.tar.gz
+[2023-06-23 11:21:43] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-06-23 11:21:43] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev195.tar.gz tmp/t2iapi-3.0.0.dev201.tar.gz --markdown 20230623/t/t2iapi/3.0.0.dev195-3.0.0.dev201/diff.md --exclude *.pyd
+[2023-06-23 11:21:43] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-06-23 11:21:43] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-3.8.4.tar.gz tmp/overhave-3.9.0.tar.gz --markdown 20230623/o/overhave/3.8.4-3.9.0/diff.md --exclude *.pyd
+[2023-06-23 11:21:43] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-23 11:21:43] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230623080954.tar.gz tmp/localstack-core-2.1.1.dev20230623092015.tar.gz --markdown 20230623/l/localstack-core/2.1.1.dev20230623080954-2.1.1.dev20230623092015/diff.md --exclude *.pyd
+[2023-06-23 11:21:44] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.3.2.tar.gz]
+[2023-06-23 11:21:44] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.3.3.tar.gz]
+[2023-06-23 11:21:44] INFO root fetch - processPackages [wordview]: Start processing: DielModels
+[2023-06-23 11:21:44] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-06-23 11:21:44] WARNING root fetch - processPackages [DielModels]: Skipping, unable to determine old version
+[2023-06-23 11:21:44] INFO root fetch - main [MainThread]: End processing [DielModels] error
+[2023-06-23 11:21:44] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.8.tar.gz]
+[2023-06-23 11:21:44] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.9.tar.gz]
+[2023-06-23 11:21:44] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-23 11:21:44] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.2.1.tar.gz]
+[2023-06-23 11:21:44] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.2.2.tar.gz]
+[2023-06-23 11:21:44] INFO root fetch - main [MainThread]: End processing [ARIclicker]: success
+[2023-06-23 11:21:44] INFO root fetch - processPackages [LumosWeb]: Remove: archive file [/home/abi/fetcher/tmp/LumosWeb-1.0.3.tar.gz]
+[2023-06-23 11:21:44] INFO root fetch - processPackages [LumosWeb]: Remove: archive file [/home/abi/fetcher/tmp/LumosWeb-1.1.0.tar.gz]
+[2023-06-23 11:21:44] INFO root fetch - main [MainThread]: End processing [LumosWeb]: success
+[2023-06-23 11:21:45] INFO root fetch - processPackages [unpywall]: Remove: archive file [/home/abi/fetcher/tmp/unpywall-0.2.tar.gz]
+[2023-06-23 11:21:45] INFO root fetch - processPackages [unpywall]: Remove: archive file [/home/abi/fetcher/tmp/unpywall-0.2.1.tar.gz]
+[2023-06-23 11:21:45] INFO root fetch - main [MainThread]: End processing [unpywall]: success
+[2023-06-23 11:21:45] INFO root fetch - processPackages [padawan]: Remove: archive file [/home/abi/fetcher/tmp/padawan-0.7.tar.gz]
+[2023-06-23 11:21:45] INFO root fetch - processPackages [padawan]: Remove: archive file [/home/abi/fetcher/tmp/padawan-0.8.tar.gz]
+[2023-06-23 11:21:45] INFO root fetch - main [MainThread]: End processing [padawan]: success
+[2023-06-23 11:21:45] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev195.tar.gz]
+[2023-06-23 11:21:45] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev201.tar.gz]
+[2023-06-23 11:21:45] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-06-23 11:21:46] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.5.tar.gz]
+[2023-06-23 11:21:46] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.6.tar.gz]
+[2023-06-23 11:21:46] INFO root fetch - main [MainThread]: End processing [trl]: success
+[2023-06-23 11:21:47] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.8.4.tar.gz]
+[2023-06-23 11:21:47] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.9.0.tar.gz]
+[2023-06-23 11:21:47] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-06-23 11:21:52] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230623080954.tar.gz]
+[2023-06-23 11:21:52] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230623092015.tar.gz]
+[2023-06-23 11:21:52] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-23 11:21:52] INFO root fetch - main [MainThread]: Store serial: [18615965]
