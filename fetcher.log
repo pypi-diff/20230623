@@ -10987,3 +10987,95 @@
 [2023-06-23 09:26:43] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.8.tar.gz]
 [2023-06-23 09:26:43] INFO root fetch - main [MainThread]: End processing [mistapi]: success
 [2023-06-23 09:26:43] INFO root fetch - main [MainThread]: Store serial: [18615035]
+[2023-06-23 09:31:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18615035]
+[2023-06-23 09:31:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-23 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wodoo
+[2023-06-23 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iamlistening
+[2023-06-23 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rcmpy
+[2023-06-23 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tdnpathviz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2023-06-23 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalm
+[2023-06-23 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-cdffs
+[2023-06-23 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bluepyefe
+[2023-06-23 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amino.api
+[2023-06-23 09:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zpp-config
+[2023-06-23 09:31:52] INFO root fetch - processPackages [wodoo]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-23 09:31:52] INFO root fetch - processPackages [tdnpathviz]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2023-06-23 09:31:52] INFO root fetch - processPackages [cognite-cdffs]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-23 09:31:52] INFO root fetch - processPackages [iamlistening]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 09:31:52] INFO root fetch - processPackages [rcmpy]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-23 09:31:52] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-23 09:31:52] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-23 09:31:52] INFO root fetch - processPackages [bluepyefe]: New version: [2.2.59] Old Version: [2.2.55]
+[2023-06-23 09:31:52] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/ed/32/bcc339320d2526d5f507faa4346d34d02982c9bf5a82c751cada337c834f/wodoo-0.4.1.tar.gz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/82/30/7dfc3181293709fb5a092d3f34163ff9e41ce077f3b529ec39012b24fe7c/tdnpathviz-0.1.2.8-py3-none-any.whl
+[2023-06-23 09:31:52] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-23 09:31:52] INFO root fetch - processPackages [amino.api]: New version: [1.3.2.1] Old Version: [1.3.2]
+[2023-06-23 09:31:52] INFO root fetch - processPackages [zpp-config]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-23 09:31:52] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/61/3b/e39112d90208c6f265ac5019bf29c2f61dbbb54d9a85775da21b16089e77/iamlistening-0.1.8.tar.gz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [cognite-cdffs]: Downloading https://files.pythonhosted.org/packages/f8/66/ed9975e8584150e3eedd80fdc14049c638473de4d75a083ab3931742b94b/cognite_cdffs-0.2.4.tar.gz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [rcmpy]: Downloading https://files.pythonhosted.org/packages/61/dd/6cea9b95343a94c06f3784601912527ada2340d338df3f759573c43884e0/rcmpy-1.5.1.tar.gz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/b9/60/298542ef7ee37d802b5513b7fa27cf55aa9f3dd59de8f20e92c592761669/wodoo-0.4.2.tar.gz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/bf/6b/9e53fa99f8dc42f1cde7dd4fd6262654a22c30abb97540591a2a4b5d28a2/bluepyefe-2.2.59.tar.gz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/c4/ab/c33845d9bcb0da0781d8b86f3d500c0a2831024985fafecdada9fc1fe5fd/tdnpathviz-0.1.2.9-py3-none-any.whl
+[2023-06-23 09:31:52] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-23 09:31:52] INFO root fetch - processPackages [zpp-config]: Downloading https://files.pythonhosted.org/packages/6a/f7/5482f13b13009a80e5b760ef8046eae0766201f08fd52b6c3b3e2a86708c/zpp_config-1.2.0.tar.gz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [amino.api]: Downloading https://files.pythonhosted.org/packages/6d/ef/738b1c742669d3458d968ac7e7cad42dbb32cd8b5840bda62641c5f57795/amino.api-1.3.2.tar.gz
+[2023-06-23 09:31:52] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-06-23 09:31:52] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.1.tar.gz tmp/wodoo-0.4.2.tar.gz --markdown 20230623/w/wodoo/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-23 09:31:52] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2023-06-23 09:31:52] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.2.55.tar.gz tmp/bluepyefe-2.2.59.tar.gz --markdown 20230623/b/bluepyefe/2.2.55-2.2.59/diff.md --exclude *.pyd
+[2023-06-23 09:31:52] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-23 09:31:52] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230623/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-23 09:31:52] INFO root fetch - processPackages [tdnpathviz]: executing diffoscope
+[2023-06-23 09:31:52] INFO root fetch - processPackages [tdnpathviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip --markdown 20230623/t/tdnpathviz/0.1.2.8-0.1.2.9/diff.md --exclude *.pyd
+[2023-06-23 09:31:53] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-23 09:31:53] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230623/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-23 09:31:53] INFO root fetch - processPackages [rcmpy]: Downloading https://files.pythonhosted.org/packages/9b/20/308a432522a52259d0e46de13b5d24fb22950cd71e376b24a9e1f695c59e/rcmpy-1.5.2.tar.gz
+[2023-06-23 09:31:53] INFO root fetch - processPackages [cognite-cdffs]: Downloading https://files.pythonhosted.org/packages/83/ff/da10cbfc53a21306be923c3e53293a81420ac714c884a36138dea7aa65d5/cognite_cdffs-0.2.5.tar.gz
+[2023-06-23 09:31:53] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/d5/33/cb3acac345b9099f8d279aab58cbdc14715b3b752fd6200ed8bcbc50bf88/iamlistening-0.1.9.tar.gz
+[2023-06-23 09:31:53] INFO root fetch - processPackages [cognite-cdffs]: executing diffoscope
+[2023-06-23 09:31:53] INFO root fetch - processPackages [cognite-cdffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_cdffs-0.2.4.tar.gz tmp/cognite_cdffs-0.2.5.tar.gz --markdown 20230623/c/cognite-cdffs/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-23 09:31:53] INFO root fetch - processPackages [rcmpy]: executing diffoscope
+[2023-06-23 09:31:53] INFO root fetch - processPackages [rcmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcmpy-1.5.1.tar.gz tmp/rcmpy-1.5.2.tar.gz --markdown 20230623/r/rcmpy/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-23 09:31:53] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-06-23 09:31:53] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-0.1.8.tar.gz tmp/iamlistening-0.1.9.tar.gz --markdown 20230623/i/iamlistening/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 09:31:53] INFO root fetch - processPackages [zpp-config]: Downloading https://files.pythonhosted.org/packages/01/f5/c3196b92c17cf7438bdc8b15f022c0d76bef5bdc0bcb39bb4fded743c1aa/zpp_config-1.2.1.tar.gz
+[2023-06-23 09:31:53] INFO root fetch - processPackages [amino.api]: Downloading https://files.pythonhosted.org/packages/e4/d2/7acc6a4408d104c4cf1f5bcadd207aa4c476c39e06a4e08d188bab8087bd/amino.api-1.3.2.1.tar.gz
+[2023-06-23 09:31:53] INFO root fetch - processPackages [amino.api]: executing diffoscope
+[2023-06-23 09:31:53] INFO root fetch - processPackages [amino.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.api-1.3.2.tar.gz tmp/amino.api-1.3.2.1.tar.gz --markdown 20230623/a/amino.api/1.3.2-1.3.2.1/diff.md --exclude *.pyd
+[2023-06-23 09:31:53] INFO root fetch - processPackages [zpp-config]: executing diffoscope
+[2023-06-23 09:31:53] INFO root fetch - processPackages [zpp-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zpp_config-1.2.0.tar.gz tmp/zpp_config-1.2.1.tar.gz --markdown 20230623/z/zpp-config/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-23 09:31:54] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip]
+[2023-06-23 09:31:54] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip]
+[2023-06-23 09:31:54] INFO root fetch - main [MainThread]: End processing [tdnpathviz]: success
+[2023-06-23 09:31:54] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-23 09:31:54] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-23 09:31:54] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-23 09:31:54] INFO root fetch - processPackages [cognite-cdffs]: Remove: archive file [/home/abi/fetcher/tmp/cognite_cdffs-0.2.4.tar.gz]
+[2023-06-23 09:31:54] INFO root fetch - processPackages [cognite-cdffs]: Remove: archive file [/home/abi/fetcher/tmp/cognite_cdffs-0.2.5.tar.gz]
+[2023-06-23 09:31:54] INFO root fetch - main [MainThread]: End processing [cognite-cdffs]: success
+[2023-06-23 09:31:54] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.1.tar.gz]
+[2023-06-23 09:31:54] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.2.tar.gz]
+[2023-06-23 09:31:54] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-06-23 09:31:55] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.1.8.tar.gz]
+[2023-06-23 09:31:55] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.1.9.tar.gz]
+[2023-06-23 09:31:55] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-06-23 09:31:55] INFO root fetch - processPackages [zpp-config]: Remove: archive file [/home/abi/fetcher/tmp/zpp_config-1.2.0.tar.gz]
+[2023-06-23 09:31:55] INFO root fetch - processPackages [zpp-config]: Remove: archive file [/home/abi/fetcher/tmp/zpp_config-1.2.1.tar.gz]
+[2023-06-23 09:31:55] INFO root fetch - main [MainThread]: End processing [zpp-config]: success
+[2023-06-23 09:31:55] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.2.55.tar.gz]
+[2023-06-23 09:31:55] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.2.59.tar.gz]
+[2023-06-23 09:31:55] INFO root fetch - main [MainThread]: End processing [bluepyefe]: success
+[2023-06-23 09:31:55] INFO root fetch - processPackages [amino.api]: Remove: archive file [/home/abi/fetcher/tmp/amino.api-1.3.2.tar.gz]
+[2023-06-23 09:31:55] INFO root fetch - processPackages [amino.api]: Remove: archive file [/home/abi/fetcher/tmp/amino.api-1.3.2.1.tar.gz]
+[2023-06-23 09:31:55] INFO root fetch - main [MainThread]: End processing [amino.api]: success
+[2023-06-23 09:31:55] INFO root fetch - processPackages [rcmpy]: Remove: archive file [/home/abi/fetcher/tmp/rcmpy-1.5.1.tar.gz]
+[2023-06-23 09:31:55] INFO root fetch - processPackages [rcmpy]: Remove: archive file [/home/abi/fetcher/tmp/rcmpy-1.5.2.tar.gz]
+[2023-06-23 09:31:55] INFO root fetch - main [MainThread]: End processing [rcmpy]: success
+[2023-06-23 09:32:00] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-23 09:32:00] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-23 09:32:00] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-23 09:32:00] INFO root fetch - main [MainThread]: Store serial: [18615062]
