@@ -14252,3 +14252,308 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-23 12:02:41] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
 [2023-06-23 12:02:41] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
 [2023-06-23 12:02:41] INFO root fetch - main [MainThread]: Store serial: [18616345]
+[2023-06-23 12:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18616345]
+[2023-06-23 12:07:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rdfizer
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ppioner
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datalad-catalog
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taipy-rest
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdfizer
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdfizer
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nowcasting-datamodel
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bycon
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: up-esb
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swh.lister
+[2023-06-23 12:07:51] INFO root fetch - processPackages [swh.lister]: New version: [5.7.0] Old Version: [5.6.3]
+[2023-06-23 12:07:51] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ppioner]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-23 12:07:51] INFO root fetch - processPackages [taipy-rest]: New version: [3.0.0.dev0] Old Version: [2.3.0.dev2]
+[2023-06-23 12:07:51] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 12:07:51] INFO root fetch - processPackages [datalad-catalog]: New version: [0.2.2] Old Version: [0.2.1b0]
+[2023-06-23 12:07:51] INFO root fetch - processPackages [up-esb]: New version: [0.0.134] Old Version: [0.0.131]
+[2023-06-23 12:07:51] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-23 12:07:51] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-06-23 12:07:51] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-06-23 12:07:51] INFO root fetch - processPackages [ppioner]: Downloading https://files.pythonhosted.org/packages/51/a3/f1906b0ce9cf1fc8cfb1aa726b8a92cd69e65a46f440a9eac24e1209aa05/ppioner-0.0.6.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/96/c1/5b82073ab7bd0b60c17af6857c0cec29e6dd3177c6d439ceb87ec34c073d/swh.lister-5.6.3.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [up-esb]: Downloading https://files.pythonhosted.org/packages/34/c1/6a6cccd03537bbde1eb1a82afce4507e5338dd21f83b3620bbbccd913eda/up_esb-0.0.131.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/74/9f/699242558ac86e22f6b7763f2bf55cf458b93af663deb1bf1498a993fa38/nowcasting_datamodel-1.4.4.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [taipy-rest]: Downloading https://files.pythonhosted.org/packages/4d/b5/11a58eeaa21989d54328d2fb815670db6dbd307a903855b83ebf05db75c2/taipy-rest-2.3.0.dev2.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [datalad-catalog]: Downloading https://files.pythonhosted.org/packages/4d/59/2b0e5b4eccce32c1c45da359d19477660ca73adc830bcfec8a4d9754c15b/datalad_catalog-0.2.1b0.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [taipy-rest]: Downloading https://files.pythonhosted.org/packages/2c/e8/986f6becdb75b44220bf78d059add0aedd5c304968535a00690b2596351c/taipy-rest-3.0.0.dev0.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/cd/2e/c25b183dd9ac83194e32a92425fa44669555413aaa5ec2e253c9e4019a50/swh.lister-5.7.0.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [up-esb]: Downloading https://files.pythonhosted.org/packages/88/50/ad3c8fc6656ec8f561eebd394141d4527bfb58df1799bb46102da976fe57/up_esb-0.0.134.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [ppioner]: Downloading https://files.pythonhosted.org/packages/3c/28/7fea6914669fa34c711e360cb13bc499f0f6040ea58809e69327d740ba84/ppioner-0.0.7.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/9a/e3/667c76dd05a10e08720a48067006e1e851895846f5ad06e696ec16780488/nowcasting_datamodel-1.4.5.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [up-esb]: executing diffoscope
+[2023-06-23 12:07:52] INFO root fetch - processPackages [up-esb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_esb-0.0.131.tar.gz tmp/up_esb-0.0.134.tar.gz --markdown 20230623/u/up-esb/0.0.131-0.0.134/diff.md --exclude *.pyd
+[2023-06-23 12:07:52] INFO root fetch - processPackages [ppioner]: executing diffoscope
+[2023-06-23 12:07:52] INFO root fetch - processPackages [ppioner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppioner-0.0.6.tar.gz tmp/ppioner-0.0.7.tar.gz --markdown 20230623/p/ppioner/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-23 12:07:52] INFO root fetch - processPackages [taipy-rest]: executing diffoscope
+[2023-06-23 12:07:52] INFO root fetch - processPackages [taipy-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-rest-2.3.0.dev2.tar.gz tmp/taipy-rest-3.0.0.dev0.tar.gz --markdown 20230623/t/taipy-rest/2.3.0.dev2-3.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-23 12:07:52] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-06-23 12:07:52] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.4.tar.gz tmp/nowcasting_datamodel-1.4.5.tar.gz --markdown 20230623/n/nowcasting-datamodel/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-23 12:07:52] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230623/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230623/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-06-23 12:07:52] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230623/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-06-23 12:07:52] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-06-23 12:07:52] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230623/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-23 12:07:52] INFO root fetch - processPackages [swh.lister]: executing diffoscope
+[2023-06-23 12:07:52] INFO root fetch - processPackages [swh.lister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.lister-5.6.3.tar.gz tmp/swh.lister-5.7.0.tar.gz --markdown 20230623/s/swh.lister/5.6.3-5.7.0/diff.md --exclude *.pyd
+[2023-06-23 12:07:53] INFO root fetch - processPackages [datalad-catalog]: Downloading https://files.pythonhosted.org/packages/bc/f5/9fd52aa33ff6aac2b2db5b6cd08ba2feca735c2a7e73511cd545189cf218/datalad_catalog-0.2.2.tar.gz
+[2023-06-23 12:07:54] INFO root fetch - processPackages [ppioner]: Remove: archive file [/home/abi/fetcher/tmp/ppioner-0.0.6.tar.gz]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [ppioner]: Remove: archive file [/home/abi/fetcher/tmp/ppioner-0.0.7.tar.gz]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [ppioner]: Start processing: django-restful-translator
+[2023-06-23 12:07:54] INFO root fetch - main [MainThread]: End processing [ppioner]: success
+[2023-06-23 12:07:54] WARNING root fetch - processPackages [django-restful-translator]: Skipping, unable to determine old version
+[2023-06-23 12:07:54] INFO root fetch - processPackages [django-restful-translator]: Start processing: iseqdockertools
+[2023-06-23 12:07:54] INFO root fetch - main [MainThread]: End processing [django-restful-translator] error
+[2023-06-23 12:07:54] INFO root fetch - processPackages [iseqdockertools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.4.tar.gz]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.5.tar.gz]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [nowcasting-datamodel]: Start processing: kevbits
+[2023-06-23 12:07:54] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-06-23 12:07:54] INFO root fetch - processPackages [kevbits]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [taipy-rest]: Remove: archive file [/home/abi/fetcher/tmp/taipy-rest-2.3.0.dev2.tar.gz]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [taipy-rest]: Remove: archive file [/home/abi/fetcher/tmp/taipy-rest-3.0.0.dev0.tar.gz]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [taipy-rest]: Start processing: omero-iviewer
+[2023-06-23 12:07:54] INFO root fetch - main [MainThread]: End processing [taipy-rest]: success
+[2023-06-23 12:07:54] INFO root fetch - processPackages [omero-iviewer]: New version: [0.9.1] Old Version: [0.9.0.dev1]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [kevbits]: Downloading https://files.pythonhosted.org/packages/02/a1/4f15a9a4cd6ca75dc737db4df4691c53e2aced0a43650ac6c369c5303aae/kevbits-0.8.0.tar.gz
+[2023-06-23 12:07:54] INFO root fetch - processPackages [iseqdockertools]: Downloading https://files.pythonhosted.org/packages/71/1e/28b1c1874a65489a76da417d3d7a91ad195b141dd45a102bc45f685954b4/iseqdockertools-0.0.2.tar.gz
+[2023-06-23 12:07:54] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603874.tar.gz]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603926.tar.gz]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [rdfizer]: Start processing: openai-dbd
+[2023-06-23 12:07:54] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-06-23 12:07:54] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 12:07:54] INFO root fetch - processPackages [kevbits]: Downloading https://files.pythonhosted.org/packages/c2/c4/8a032c4648190c3c25cdfaadbeb6c649d5d7e6cfb48323e32b8f29d50aeb/kevbits-0.9.0.tar.gz
+[2023-06-23 12:07:54] INFO root fetch - processPackages [omero-iviewer]: Downloading https://files.pythonhosted.org/packages/d4/eb/e25760ed64b45692a0ed8f57a125e9ba79b3608844e2d1b332e46a68c53f/omero-iviewer-0.9.0.dev1.tar.gz
+[2023-06-23 12:07:54] INFO root fetch - processPackages [kevbits]: executing diffoscope
+[2023-06-23 12:07:54] INFO root fetch - processPackages [kevbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevbits-0.8.0.tar.gz tmp/kevbits-0.9.0.tar.gz --markdown 20230623/k/kevbits/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 12:07:54] INFO root fetch - processPackages [iseqdockertools]: Downloading https://files.pythonhosted.org/packages/ad/cd/64448a1ed159b52a49354530133526ce60547a22f6e1fabc89f955c7c12b/iseqdockertools-0.0.3.tar.gz
+[2023-06-23 12:07:54] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-23 12:07:54] INFO root fetch - processPackages [iseqdockertools]: executing diffoscope
+[2023-06-23 12:07:54] INFO root fetch - processPackages [iseqdockertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iseqdockertools-0.0.2.tar.gz tmp/iseqdockertools-0.0.3.tar.gz --markdown 20230623/i/iseqdockertools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-23 12:07:54] INFO root fetch - processPackages [omero-iviewer]: Downloading https://files.pythonhosted.org/packages/62/4b/3c30fc790e973102379d2c6cb2287e550e7c9a84626b49c99d5a3e9fdb88/omero-iviewer-0.9.1.tar.gz
+[2023-06-23 12:07:55] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-23 12:07:55] INFO root fetch - processPackages [up-esb]: Remove: archive file [/home/abi/fetcher/tmp/up_esb-0.0.131.tar.gz]
+[2023-06-23 12:07:55] INFO root fetch - processPackages [up-esb]: Remove: archive file [/home/abi/fetcher/tmp/up_esb-0.0.134.tar.gz]
+[2023-06-23 12:07:55] INFO root fetch - processPackages [up-esb]: Start processing: pycones
+[2023-06-23 12:07:55] INFO root fetch - main [MainThread]: End processing [up-esb]: success
+[2023-06-23 12:07:55] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-23 12:07:55] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230623/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 12:07:55] WARNING root fetch - processPackages [pycones]: Skipping, unable to determine old version
+[2023-06-23 12:07:55] INFO root fetch - main [MainThread]: End processing [pycones] error
+[2023-06-23 12:07:55] INFO root fetch - processPackages [omero-iviewer]: executing diffoscope
+[2023-06-23 12:07:55] INFO root fetch - processPackages [omero-iviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-iviewer-0.9.0.dev1.tar.gz tmp/omero-iviewer-0.9.1.tar.gz --markdown 20230623/o/omero-iviewer/0.9.0.dev1-0.9.1/diff.md --exclude *.pyd
+[2023-06-23 12:07:55] INFO root fetch - processPackages [datalad-catalog]: executing diffoscope
+[2023-06-23 12:07:55] INFO root fetch - processPackages [datalad-catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalad_catalog-0.2.1b0.tar.gz tmp/datalad_catalog-0.2.2.tar.gz --markdown 20230623/d/datalad-catalog/0.2.1b0-0.2.2/diff.md --exclude *.pyd
+[2023-06-23 12:07:55] INFO root fetch - processPackages [kevbits]: Remove: archive file [/home/abi/fetcher/tmp/kevbits-0.8.0.tar.gz]
+[2023-06-23 12:07:55] INFO root fetch - processPackages [kevbits]: Remove: archive file [/home/abi/fetcher/tmp/kevbits-0.9.0.tar.gz]
+[2023-06-23 12:07:55] INFO root fetch - main [MainThread]: End processing [kevbits]: success
+[2023-06-23 12:07:55] ERROR root fetch - processPackages [rdfizer]: Diffoscope failed: gzip: tmp/rdfizer-4.7.dev1682603926.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/rdfizer-4.7.dev1682603926.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-23 12:07:55] INFO root fetch - main [MainThread]: End processing [rdfizer] error
+[2023-06-23 12:07:55] ERROR root fetch - processPackages [rdfizer]: Diffoscope failed: gzip: tmp/rdfizer-4.7.dev1682603926.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/rdfizer-4.7.dev1682603926.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-23 12:07:55] INFO root fetch - main [MainThread]: End processing [rdfizer] error
+[2023-06-23 12:07:55] INFO root fetch - processPackages [iseqdockertools]: Remove: archive file [/home/abi/fetcher/tmp/iseqdockertools-0.0.2.tar.gz]
+[2023-06-23 12:07:55] INFO root fetch - processPackages [iseqdockertools]: Remove: archive file [/home/abi/fetcher/tmp/iseqdockertools-0.0.3.tar.gz]
+[2023-06-23 12:07:55] INFO root fetch - main [MainThread]: End processing [iseqdockertools]: success
+[2023-06-23 12:07:56] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-23 12:07:56] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-23 12:07:56] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-23 12:07:59] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.6.3.tar.gz]
+[2023-06-23 12:07:59] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.7.0.tar.gz]
+[2023-06-23 12:07:59] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
+[2023-06-23 12:08:00] INFO root fetch - processPackages [datalad-catalog]: Remove: archive file [/home/abi/fetcher/tmp/datalad_catalog-0.2.1b0.tar.gz]
+[2023-06-23 12:08:00] INFO root fetch - processPackages [datalad-catalog]: Remove: archive file [/home/abi/fetcher/tmp/datalad_catalog-0.2.2.tar.gz]
+[2023-06-23 12:08:00] INFO root fetch - main [MainThread]: End processing [datalad-catalog]: success
+[2023-06-23 12:08:01] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.8.tar.gz]
+[2023-06-23 12:08:01] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
+[2023-06-23 12:08:01] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-06-23 12:08:14] INFO root fetch - processPackages [omero-iviewer]: Remove: archive file [/home/abi/fetcher/tmp/omero-iviewer-0.9.0.dev1.tar.gz]
+[2023-06-23 12:08:14] INFO root fetch - processPackages [omero-iviewer]: Remove: archive file [/home/abi/fetcher/tmp/omero-iviewer-0.9.1.tar.gz]
+[2023-06-23 12:08:14] INFO root fetch - main [MainThread]: End processing [omero-iviewer]: success
+[2023-06-23 12:08:14] INFO root fetch - main [MainThread]: Store serial: [18616394]
