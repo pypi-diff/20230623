@@ -8376,3 +8376,49 @@
 [2023-06-23 06:05:52] INFO root fetch - processPackages [watex]: Remove: archive file [/home/abi/fetcher/tmp/watex-0.2.6.tar.gz]
 [2023-06-23 06:05:52] INFO root fetch - main [MainThread]: End processing [watex]: success
 [2023-06-23 06:05:52] INFO root fetch - main [MainThread]: Store serial: [18613986]
+[2023-06-23 06:10:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613986]
+[2023-06-23 06:11:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-23 06:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdf-docx-pic
+[2023-06-23 06:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdf-docx-pic
+[2023-06-23 06:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-devkit
+[2023-06-23 06:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BLACKFORGE2
+[2023-06-23 06:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: palmers-agents-general
+[2023-06-23 06:11:02] INFO root fetch - processPackages [BLACKFORGE2]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-23 06:11:02] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 06:11:02] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 06:11:02] INFO root fetch - processPackages [pdf-docx-pic]: New version: [4.0.1.0.0.1.2023.6.23.0a1] Old Version: [4.0.1.0.0.1.2023.6.23.0]
+[2023-06-23 06:11:02] INFO root fetch - processPackages [pdf-docx-pic]: New version: [4.0.1.0.0.1.2023.6.23.0a1] Old Version: [4.0.1.0.0.1.2023.6.23.0]
+[2023-06-23 06:11:02] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/e0/8f/aa1f9d4cc36a13bcbaccae0acceb8ecb4f4bedbc36e2a8f5faba7c325176/BLACKFORGE2-0.2.2.tar.gz
+[2023-06-23 06:11:02] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/a0/ba/bb9972f2c344a2bfc6289bc81301dc0b876b6cc6c50834a9b71e5b5ffdf4/palmers_agents_general-0.0.8.tar.gz
+[2023-06-23 06:11:02] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/9d/67/c04b6f60d63f9d92d3056161eca318fe42c6dc801cd68fb7fe2c75da6c7e/pdf_docx_pic-4.0.1.0.0.1.2023.6.23.0.tar.gz
+[2023-06-23 06:11:02] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/9d/67/c04b6f60d63f9d92d3056161eca318fe42c6dc801cd68fb7fe2c75da6c7e/pdf_docx_pic-4.0.1.0.0.1.2023.6.23.0.tar.gz
+[2023-06-23 06:11:02] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/61/cd/e3e3e79d25eaa13474a77df36729a9c49c52bf78a9aabee81eb71e0e9622/palmers_agents_general-0.0.9.tar.gz
+[2023-06-23 06:11:02] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-23 06:11:02] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/10/9a/bd8e64d2daf8052e9a9f11b385f301c27ac13fb9ed543a91b88c451f3369/BLACKFORGE2-0.2.3.tar.gz
+[2023-06-23 06:11:02] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/4b/11/7b398d936fb9141dbca464be4df266dccd03c1eaa28710c10f877c8813c5/pdf_docx_pic-4.0.1.0.0.1.2023.6.23.0a1.tar.gz
+[2023-06-23 06:11:02] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-06-23 06:11:02] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.8.tar.gz tmp/palmers_agents_general-0.0.9.tar.gz --markdown 20230623/p/palmers-agents-general/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 06:11:02] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/4b/11/7b398d936fb9141dbca464be4df266dccd03c1eaa28710c10f877c8813c5/pdf_docx_pic-4.0.1.0.0.1.2023.6.23.0a1.tar.gz
+[2023-06-23 06:11:02] INFO root fetch - processPackages [BLACKFORGE2]: executing diffoscope
+[2023-06-23 06:11:02] INFO root fetch - processPackages [BLACKFORGE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLACKFORGE2-0.2.2.tar.gz tmp/BLACKFORGE2-0.2.3.tar.gz --markdown 20230623/B/BLACKFORGE2/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-23 06:11:02] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-23 06:11:02] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-23 06:11:02] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_docx_pic-4.0.1.0.0.1.2023.6.23.0.tar.gz tmp/pdf_docx_pic-4.0.1.0.0.1.2023.6.23.0a1.tar.gz --markdown 20230623/p/pdf-docx-pic/4.0.1.0.0.1.2023.6.23.0-4.0.1.0.0.1.2023.6.23.0a1/diff.md --exclude *.pyd
+[2023-06-23 06:11:02] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_docx_pic-4.0.1.0.0.1.2023.6.23.0.tar.gz tmp/pdf_docx_pic-4.0.1.0.0.1.2023.6.23.0a1.tar.gz --markdown 20230623/p/pdf-docx-pic/4.0.1.0.0.1.2023.6.23.0-4.0.1.0.0.1.2023.6.23.0a1/diff.md --exclude *.pyd
+[2023-06-23 06:11:02] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-23 06:11:03] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-23 06:11:03] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230623/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 06:11:03] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.8.tar.gz]
+[2023-06-23 06:11:03] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.9.tar.gz]
+[2023-06-23 06:11:03] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-06-23 06:11:03] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf_docx_pic-4.0.1.0.0.1.2023.6.23.0.tar.gz]
+[2023-06-23 06:11:03] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf_docx_pic-4.0.1.0.0.1.2023.6.23.0a1.tar.gz]
+[2023-06-23 06:11:03] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-23 06:11:04] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-23 06:11:04] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.2.2.tar.gz]
+[2023-06-23 06:11:04] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.2.3.tar.gz]
+[2023-06-23 06:11:04] INFO root fetch - main [MainThread]: End processing [BLACKFORGE2]: success
+[2023-06-23 06:11:04] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-23 06:11:04] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-23 06:11:04] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-23 06:11:04] INFO root fetch - main [MainThread]: Store serial: [18613999]
