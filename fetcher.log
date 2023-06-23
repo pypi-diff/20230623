@@ -6822,3 +6822,29 @@
 [2023-06-23 04:02:20] INFO root fetch - processPackages [docformatter]: Remove: archive file [/home/abi/fetcher/tmp/docformatter-1.7.3.tar.gz]
 [2023-06-23 04:02:20] INFO root fetch - main [MainThread]: End processing [docformatter]: success
 [2023-06-23 04:02:20] INFO root fetch - main [MainThread]: Store serial: [18613414]
+[2023-06-23 04:07:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613414]
+[2023-06-23 04:07:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-23 04:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xroms
+[2023-06-23 04:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: captif-cpx-config
+[2023-06-23 04:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipyvue-flatsurf
+[2023-06-23 04:07:29] INFO root fetch - processPackages [xroms]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-23 04:07:29] INFO root fetch - processPackages [ipyvue-flatsurf]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-23 04:07:29] INFO root fetch - processPackages [captif-cpx-config]: New version: [0.9] Old Version: [0.8]
+[2023-06-23 04:07:29] INFO root fetch - processPackages [xroms]: Downloading https://files.pythonhosted.org/packages/ad/6a/2eac48fc741434497b831faea0d8351b6a9f0e628ddc7367f17df4248f14/xroms-0.3.0.tar.gz
+[2023-06-23 04:07:29] INFO root fetch - processPackages [ipyvue-flatsurf]: Downloading https://files.pythonhosted.org/packages/47/51/ba7062b647a65cfa458df560f2a820ef5f38791a8256505b9d87dfde6926/ipyvue_flatsurf-0.5.5-py2.py3-none-any.whl
+[2023-06-23 04:07:29] INFO root fetch - processPackages [captif-cpx-config]: Downloading https://files.pythonhosted.org/packages/5b/d6/37e5a128391bcf109730b8f93478929f1fd0aaea2e6d491f9fc8e0ab3c0a/captif_cpx_config-0.8.tar.gz
+[2023-06-23 04:07:29] WARNING root fetch - processPackages [xroms]: Skipping package: exceeds size limit 39566927>=10485760
+[2023-06-23 04:07:29] INFO root fetch - main [MainThread]: End processing [xroms] error
+[2023-06-23 04:07:30] INFO root fetch - processPackages [captif-cpx-config]: Downloading https://files.pythonhosted.org/packages/0d/49/17ffebfa229a949511a32a58f7e9534aa7f3cbb3662e0c8188898a429a8c/captif_cpx_config-0.9.tar.gz
+[2023-06-23 04:07:30] INFO root fetch - processPackages [captif-cpx-config]: executing diffoscope
+[2023-06-23 04:07:30] INFO root fetch - processPackages [captif-cpx-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_config-0.8.tar.gz tmp/captif_cpx_config-0.9.tar.gz --markdown 20230623/c/captif-cpx-config/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-23 04:07:30] INFO root fetch - processPackages [ipyvue-flatsurf]: Downloading https://files.pythonhosted.org/packages/e4/a8/78de8a16dcb438554aa73bb3e98faa66641e8541d4cb4f8fc528a86e7b05/ipyvue-flatsurf-0.5.6.tar.gz
+[2023-06-23 04:07:30] INFO root fetch - processPackages [ipyvue-flatsurf]: executing diffoscope
+[2023-06-23 04:07:30] INFO root fetch - processPackages [ipyvue-flatsurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyvue_flatsurf-0.5.5-py2.py3-none-any.whl.zip tmp/ipyvue-flatsurf-0.5.6.tar.gz --markdown 20230623/i/ipyvue-flatsurf/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-23 04:07:31] INFO root fetch - processPackages [captif-cpx-config]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_config-0.8.tar.gz]
+[2023-06-23 04:07:31] INFO root fetch - processPackages [captif-cpx-config]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_config-0.9.tar.gz]
+[2023-06-23 04:07:31] INFO root fetch - main [MainThread]: End processing [captif-cpx-config]: success
+[2023-06-23 04:07:33] INFO root fetch - processPackages [ipyvue-flatsurf]: Remove: archive file [/home/abi/fetcher/tmp/ipyvue_flatsurf-0.5.5-py2.py3-none-any.whl.zip]
+[2023-06-23 04:07:33] INFO root fetch - processPackages [ipyvue-flatsurf]: Remove: archive file [/home/abi/fetcher/tmp/ipyvue-flatsurf-0.5.6.tar.gz]
+[2023-06-23 04:07:33] INFO root fetch - main [MainThread]: End processing [ipyvue-flatsurf]: success
+[2023-06-23 04:07:33] INFO root fetch - main [MainThread]: Store serial: [18613434]
