@@ -8832,3 +8832,49 @@
 [2023-06-23 06:42:19] INFO root fetch - processPackages [odoo-addon-project-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-06-23 06:42:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-stock]: success
 [2023-06-23 06:42:19] INFO root fetch - main [MainThread]: Store serial: [18614145]
+[2023-06-23 06:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614145]
+[2023-06-23 06:47:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-23 06:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rubbrband
+[2023-06-23 06:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: greeting-green
+[2023-06-23 06:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: replay-trajectory-classification
+[2023-06-23 06:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-report-to-printer
+[2023-06-23 06:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-report-to-printer
+[2023-06-23 06:47:28] INFO root fetch - processPackages [replay-trajectory-classification]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-23 06:47:28] INFO root fetch - processPackages [rubbrband]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-23 06:47:28] INFO root fetch - processPackages [greeting-green]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-23 06:47:28] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: New version: [16.0.1.1.2.1] Old Version: [16.0.1.1.2]
+[2023-06-23 06:47:28] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: New version: [16.0.1.1.2.1] Old Version: [16.0.1.1.2]
+[2023-06-23 06:47:28] INFO root fetch - processPackages [greeting-green]: Downloading https://files.pythonhosted.org/packages/74/d4/22a7c957a6fff877ba35e70327edd21efecfbeabf83e3cf4487aea48b795/greeting_green-0.0.1.tar.gz
+[2023-06-23 06:47:28] INFO root fetch - processPackages [replay-trajectory-classification]: Downloading https://files.pythonhosted.org/packages/2f/f7/14c8317eaabbf1f3a40ce85ee462d7425d66bac7070d84e74ca0bb7b96b2/replay_trajectory_classification-1.3.8.tar.gz
+[2023-06-23 06:47:28] INFO root fetch - processPackages [rubbrband]: Downloading https://files.pythonhosted.org/packages/9a/6a/339d2de2b905c4ca5c1b8d607a549aac19aca5b69c2448a57055a8eaeeb7/rubbrband-0.2.5.tar.gz
+[2023-06-23 06:47:28] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/94/56/ee9a39561a28befc88cb5704817f939527485bc819d16f74edd48c9ad988/odoo_addon_base_report_to_printer-16.0.1.1.2-py3-none-any.whl
+[2023-06-23 06:47:28] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/94/56/ee9a39561a28befc88cb5704817f939527485bc819d16f74edd48c9ad988/odoo_addon_base_report_to_printer-16.0.1.1.2-py3-none-any.whl
+[2023-06-23 06:47:28] INFO root fetch - processPackages [greeting-green]: Downloading https://files.pythonhosted.org/packages/3a/96/ae6b2bcd00c5ab0e64ae97865677cc8570a2505c1abaa5f62755338b920a/greeting_green-0.0.2.tar.gz
+[2023-06-23 06:47:28] INFO root fetch - processPackages [rubbrband]: Downloading https://files.pythonhosted.org/packages/ff/b4/aabd5f69943eb24c88af188f8a2143019f0511380dc77909cbdf2cc844d8/rubbrband-0.2.6.tar.gz
+[2023-06-23 06:47:28] INFO root fetch - processPackages [greeting-green]: executing diffoscope
+[2023-06-23 06:47:28] INFO root fetch - processPackages [greeting-green]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greeting_green-0.0.1.tar.gz tmp/greeting_green-0.0.2.tar.gz --markdown 20230623/g/greeting-green/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-23 06:47:28] INFO root fetch - processPackages [replay-trajectory-classification]: Downloading https://files.pythonhosted.org/packages/10/e8/0f49a37cba428e44d73ba781ab4eca66599f171a59ebcf4f1dbf4233ac51/replay_trajectory_classification-1.3.9.tar.gz
+[2023-06-23 06:47:28] INFO root fetch - processPackages [rubbrband]: executing diffoscope
+[2023-06-23 06:47:28] INFO root fetch - processPackages [rubbrband]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubbrband-0.2.5.tar.gz tmp/rubbrband-0.2.6.tar.gz --markdown 20230623/r/rubbrband/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-23 06:47:28] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/cc/62/5b9e5c732e334f8654be03c08f637c2303249be4371506c01fa33a51e1c8/odoo_addon_base_report_to_printer-16.0.1.1.2.1-py3-none-any.whl
+[2023-06-23 06:47:28] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/cc/62/5b9e5c732e334f8654be03c08f637c2303249be4371506c01fa33a51e1c8/odoo_addon_base_report_to_printer-16.0.1.1.2.1-py3-none-any.whl
+[2023-06-23 06:47:28] INFO root fetch - processPackages [replay-trajectory-classification]: executing diffoscope
+[2023-06-23 06:47:28] INFO root fetch - processPackages [replay-trajectory-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replay_trajectory_classification-1.3.8.tar.gz tmp/replay_trajectory_classification-1.3.9.tar.gz --markdown 20230623/r/replay-trajectory-classification/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-23 06:47:28] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: executing diffoscope
+[2023-06-23 06:47:28] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_report_to_printer-16.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.1-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-base-report-to-printer/16.0.1.1.2-16.0.1.1.2.1/diff.md --exclude *.pyd
+[2023-06-23 06:47:28] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: executing diffoscope
+[2023-06-23 06:47:28] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_report_to_printer-16.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.1-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-base-report-to-printer/16.0.1.1.2-16.0.1.1.2.1/diff.md --exclude *.pyd
+[2023-06-23 06:47:29] INFO root fetch - processPackages [greeting-green]: Remove: archive file [/home/abi/fetcher/tmp/greeting_green-0.0.1.tar.gz]
+[2023-06-23 06:47:29] INFO root fetch - processPackages [greeting-green]: Remove: archive file [/home/abi/fetcher/tmp/greeting_green-0.0.2.tar.gz]
+[2023-06-23 06:47:29] INFO root fetch - main [MainThread]: End processing [greeting-green]: success
+[2023-06-23 06:47:29] INFO root fetch - processPackages [rubbrband]: Remove: archive file [/home/abi/fetcher/tmp/rubbrband-0.2.5.tar.gz]
+[2023-06-23 06:47:29] INFO root fetch - processPackages [rubbrband]: Remove: archive file [/home/abi/fetcher/tmp/rubbrband-0.2.6.tar.gz]
+[2023-06-23 06:47:29] INFO root fetch - main [MainThread]: End processing [rubbrband]: success
+[2023-06-23 06:47:30] INFO root fetch - processPackages [replay-trajectory-classification]: Remove: archive file [/home/abi/fetcher/tmp/replay_trajectory_classification-1.3.8.tar.gz]
+[2023-06-23 06:47:30] INFO root fetch - processPackages [replay-trajectory-classification]: Remove: archive file [/home/abi/fetcher/tmp/replay_trajectory_classification-1.3.9.tar.gz]
+[2023-06-23 06:47:30] INFO root fetch - main [MainThread]: End processing [replay-trajectory-classification]: success
+[2023-06-23 06:47:30] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-16.0.1.1.2-py3-none-any.whl.zip]
+[2023-06-23 06:47:30] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.1-py3-none-any.whl.zip]
+[2023-06-23 06:47:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-printer]: success
+[2023-06-23 06:47:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-printer]: success
+[2023-06-23 06:47:30] INFO root fetch - main [MainThread]: Store serial: [18614161]
