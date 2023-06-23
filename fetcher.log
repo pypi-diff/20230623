@@ -10163,3 +10163,105 @@
 [2023-06-23 08:33:38] INFO root fetch - processPackages [hikari-crescent]: Remove: archive file [/home/abi/fetcher/tmp/hikari_crescent-0.6.1.tar.gz]
 [2023-06-23 08:33:38] INFO root fetch - main [MainThread]: End processing [hikari-crescent]: success
 [2023-06-23 08:33:38] INFO root fetch - main [MainThread]: Store serial: [18614701]
+[2023-06-23 08:38:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614701]
+[2023-06-23 08:38:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-23 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jmcomic
+[2023-06-23 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytarrs
+[2023-06-23 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slpkg
+[2023-06-23 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tengu-py
+[2023-06-23 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buffalo
+[2023-06-23 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-ecosystem-services
+[2023-06-23 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gaoya
+[2023-06-23 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pylovens
+[2023-06-23 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: localstack-core
+[2023-06-23 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitaudit
+[2023-06-23 08:38:47] INFO root fetch - processPackages [pytarrs]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-23 08:38:47] INFO root fetch - processPackages [jmcomic]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-23 08:38:48] INFO root fetch - processPackages [tengu-py]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-23 08:38:48] INFO root fetch - processPackages [gaoya]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-23 08:38:48] INFO root fetch - processPackages [buffalo]: New version: [2.0.2rc4] Old Version: [2.0.2rc3]
+[2023-06-23 08:38:48] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-23 08:38:48] INFO root fetch - processPackages [pylovens]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-23 08:38:48] INFO root fetch - processPackages [slpkg]: New version: [4.9.0] Old Version: [4.8.9]
+[2023-06-23 08:38:48] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230622225753] Old Version: [2.1.1.dev20230622201917]
+[2023-06-23 08:38:48] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [buffalo]: Downloading https://files.pythonhosted.org/packages/50/db/603bc51378408237cb66eeda67656eac0e91d7082553347ad0c63347e930/buffalo-2.0.2rc3.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-23 08:38:48] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0e/70/f1677361bbbdd9ce22d9c60fd0a3df52f8b711874d961de7957ef9fb2059/localstack-core-2.1.1.dev20230622201917.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [pytarrs]: Downloading https://files.pythonhosted.org/packages/e5/17/20208c683abea48b695b63ba551e430871272a3adeef43723a27e8e30fd9/PyTarRs-0.1.0.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [gaoya]: Downloading https://files.pythonhosted.org/packages/89/66/b9f9ebf50283ce84692572c840b885f2b93b25a164eca5ad9467e0f253e5/gaoya-0.1.2-cp37-abi3-win_amd64.whl
+[2023-06-23 08:38:48] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/ef/c6/d234373cf49323786a8dbc2e2c826961f68c35706f4b06bd15cb00142077/jmcomic-2.0.5.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [pylovens]: Downloading https://files.pythonhosted.org/packages/67/b6/8c22c4117443a3d6503cb418513a69973a4de0129feec082b3312d99376b/pylovens-0.2.0.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/05/ee/0df27820939c5ecec072ae6c53c916af809fdf398cf39e36262e9f4811cd/tengu_py-0.5.0.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/9f/16/f9da161a787ff6f7552582693016e258b19c1643d65bab80b3dad44971b8/slpkg-4.8.9.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/62/23/ab1b679c03943ffa72280774afac0c098b3f34efb82619ed31b0d628516a/localstack-core-2.1.1.dev20230622225753.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [pytarrs]: Downloading https://files.pythonhosted.org/packages/fd/1f/500c7ca2cbdd3d346d3aea6911064a889ce934a5feab5f857b796ebcc16d/pytarrs-0.1.2.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [buffalo]: Downloading https://files.pythonhosted.org/packages/e1/95/adc571cfd1d19c94414015e3278d8d88f9f135a5becbccdc400fe1217804/buffalo-2.0.2rc4.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-23 08:38:48] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230623/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-23 08:38:48] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/2e/d6/9cc8f928135e910b01ce1013df3e5fdcffd416112ebcf0bfd68d34ea46ae/tengu_py-0.5.1.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/c2/2c/1140ee3a01ac1a5ae95c9a8dc3be6574a1182117dd3730e1d6da25a4adf0/jmcomic-2.0.6.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [pylovens]: Downloading https://files.pythonhosted.org/packages/16/f8/e123218b787511d053826cb7e68a467c83fcba2c14efef7b78644d825a96/pylovens-0.2.1.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [buffalo]: executing diffoscope
+[2023-06-23 08:38:48] INFO root fetch - processPackages [buffalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buffalo-2.0.2rc3.tar.gz tmp/buffalo-2.0.2rc4.tar.gz --markdown 20230623/b/buffalo/2.0.2rc3-2.0.2rc4/diff.md --exclude *.pyd
+[2023-06-23 08:38:48] INFO root fetch - processPackages [gaoya]: Downloading https://files.pythonhosted.org/packages/3d/1e/63a76bee30b4cdbde44272ba728c2d59b86cab7a2cf2cf2cd08a5a30bbf4/gaoya-0.2.0-cp37-abi3-win_amd64.whl
+[2023-06-23 08:38:48] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/52/20/0bf54890f09c392247e0671301c1d39e170087a7e0b955d913ece4713f2e/slpkg-4.9.0-py2.py3-none-any.whl
+[2023-06-23 08:38:48] INFO root fetch - processPackages [tengu-py]: executing diffoscope
+[2023-06-23 08:38:48] INFO root fetch - processPackages [tengu-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tengu_py-0.5.0.tar.gz tmp/tengu_py-0.5.1.tar.gz --markdown 20230623/t/tengu-py/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-23 08:38:48] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-06-23 08:38:48] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.0.5.tar.gz tmp/jmcomic-2.0.6.tar.gz --markdown 20230623/j/jmcomic/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-23 08:38:48] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-23 08:38:48] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230622201917.tar.gz tmp/localstack-core-2.1.1.dev20230622225753.tar.gz --markdown 20230623/l/localstack-core/2.1.1.dev20230622201917-2.1.1.dev20230622225753/diff.md --exclude *.pyd
+[2023-06-23 08:38:48] INFO root fetch - processPackages [pytarrs]: executing diffoscope
+[2023-06-23 08:38:48] INFO root fetch - processPackages [pytarrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTarRs-0.1.0.tar.gz tmp/pytarrs-0.1.2.tar.gz --markdown 20230623/p/pytarrs/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-23 08:38:48] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-06-23 08:38:48] INFO root fetch - processPackages [slpkg]: executing diffoscope
+[2023-06-23 08:38:48] INFO root fetch - processPackages [slpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slpkg-4.8.9.tar.gz tmp/slpkg-4.9.0-py2.py3-none-any.whl.zip --markdown 20230623/s/slpkg/4.8.9-4.9.0/diff.md --exclude *.pyd
+[2023-06-23 08:38:48] INFO root fetch - processPackages [pylovens]: executing diffoscope
+[2023-06-23 08:38:48] INFO root fetch - processPackages [pylovens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovens-0.2.0.tar.gz tmp/pylovens-0.2.1.tar.gz --markdown 20230623/p/pylovens/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-23 08:38:48] INFO root fetch - processPackages [gaoya]: executing diffoscope
+[2023-06-23 08:38:48] INFO root fetch - processPackages [gaoya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaoya-0.1.2-cp37-abi3-win_amd64.whl.zip tmp/gaoya-0.2.0-cp37-abi3-win_amd64.whl.zip --markdown 20230623/g/gaoya/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-23 08:38:48] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-06-23 08:38:48] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230623/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 08:38:50] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.5.0.tar.gz]
+[2023-06-23 08:38:50] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.5.1.tar.gz]
+[2023-06-23 08:38:50] INFO root fetch - processPackages [tengu-py]: Start processing: data-ecosystem-dependencies
+[2023-06-23 08:38:50] INFO root fetch - main [MainThread]: End processing [tengu-py]: success
+[2023-06-23 08:38:50] INFO root fetch - processPackages [data-ecosystem-dependencies]: New version: [202306.0.19] Old Version: [202306.0.18]
+[2023-06-23 08:38:50] INFO root fetch - processPackages [pytarrs]: Remove: archive file [/home/abi/fetcher/tmp/PyTarRs-0.1.0.tar.gz]
+[2023-06-23 08:38:50] INFO root fetch - processPackages [pytarrs]: Remove: archive file [/home/abi/fetcher/tmp/pytarrs-0.1.2.tar.gz]
+[2023-06-23 08:38:50] INFO root fetch - main [MainThread]: End processing [pytarrs]: success
+[2023-06-23 08:38:50] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/01/8c/6ce081d83c898f57ce02b29bc64896b2ed9b6c17ccf8c8418c27d8c36ffe/data_ecosystem_dependencies-202306.0.18.tar.gz
+[2023-06-23 08:38:50] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.0.5.tar.gz]
+[2023-06-23 08:38:50] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.0.6.tar.gz]
+[2023-06-23 08:38:50] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-06-23 08:38:50] INFO root fetch - processPackages [pylovens]: Remove: archive file [/home/abi/fetcher/tmp/pylovens-0.2.0.tar.gz]
+[2023-06-23 08:38:50] INFO root fetch - processPackages [pylovens]: Remove: archive file [/home/abi/fetcher/tmp/pylovens-0.2.1.tar.gz]
+[2023-06-23 08:38:50] INFO root fetch - main [MainThread]: End processing [pylovens]: success
+[2023-06-23 08:38:50] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/92/6b/8afa0ed526e9a5ce1c4380b77862e54f7cd46c06e6d37a4e62950aab8cbc/data_ecosystem_dependencies-202306.0.19.tar.gz
+[2023-06-23 08:38:50] INFO root fetch - processPackages [gaoya]: Remove: archive file [/home/abi/fetcher/tmp/gaoya-0.1.2-cp37-abi3-win_amd64.whl.zip]
+[2023-06-23 08:38:50] INFO root fetch - processPackages [gaoya]: Remove: archive file [/home/abi/fetcher/tmp/gaoya-0.2.0-cp37-abi3-win_amd64.whl.zip]
+[2023-06-23 08:38:50] INFO root fetch - main [MainThread]: End processing [gaoya]: success
+[2023-06-23 08:38:50] INFO root fetch - processPackages [data-ecosystem-dependencies]: executing diffoscope
+[2023-06-23 08:38:50] INFO root fetch - processPackages [data-ecosystem-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_dependencies-202306.0.18.tar.gz tmp/data_ecosystem_dependencies-202306.0.19.tar.gz --markdown 20230623/d/data-ecosystem-dependencies/202306.0.18-202306.0.19/diff.md --exclude *.pyd
+[2023-06-23 08:38:50] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-06-23 08:38:50] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-06-23 08:38:50] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-06-23 08:38:51] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-23 08:38:51] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-23 08:38:51] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-23 08:38:51] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.18.tar.gz]
+[2023-06-23 08:38:51] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.19.tar.gz]
+[2023-06-23 08:38:51] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
+[2023-06-23 08:38:51] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-4.8.9.tar.gz]
+[2023-06-23 08:38:51] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-4.9.0-py2.py3-none-any.whl.zip]
+[2023-06-23 08:38:51] INFO root fetch - main [MainThread]: End processing [slpkg]: success
+[2023-06-23 08:38:55] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622201917.tar.gz]
+[2023-06-23 08:38:55] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622225753.tar.gz]
+[2023-06-23 08:38:55] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-23 08:38:55] INFO root fetch - processPackages [buffalo]: Remove: archive file [/home/abi/fetcher/tmp/buffalo-2.0.2rc3.tar.gz]
+[2023-06-23 08:38:55] INFO root fetch - processPackages [buffalo]: Remove: archive file [/home/abi/fetcher/tmp/buffalo-2.0.2rc4.tar.gz]
+[2023-06-23 08:38:55] INFO root fetch - main [MainThread]: End processing [buffalo]: success
+[2023-06-23 08:38:55] INFO root fetch - main [MainThread]: Store serial: [18614739]
