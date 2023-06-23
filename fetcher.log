@@ -2452,3 +2452,150 @@
 [2023-06-23 02:32:29] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
 [2023-06-23 02:32:29] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
 [2023-06-23 02:32:29] INFO root fetch - main [MainThread]: Store serial: [18611833]
+[2023-06-23 02:37:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18611833]
+[2023-06-23 02:37:38] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-23 02:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-redshift
+[2023-06-23 02:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-snowflake
+[2023-06-23 02:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-serverless-clamscan
+[2023-06-23 02:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2023-06-23 02:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-06-23 02:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-jenkins
+[2023-06-23 02:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-ecs-service-extensions
+[2023-06-23 02:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brnet
+[2023-06-23 02:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-gitlab-runner
+[2023-06-23 02:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-github-actions
+[2023-06-23 02:37:38] INFO root fetch - processPackages [dbt-snowflake]: New version: [1.6.0b3] Old Version: [1.6.0b2]
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.5.0] Old Version: [2.4.99]
+[2023-06-23 02:37:38] INFO root fetch - processPackages [brnet]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 02:37:38] INFO root fetch - processPackages [dbt-redshift]: New version: [1.6.0b4] Old Version: [1.6.0b3]
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a9] Old Version: [2.0.1a8]
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-23 02:37:38] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-06-23 02:37:38] INFO root fetch - processPackages [brnet]: Downloading https://files.pythonhosted.org/packages/9d/36/5525f3ae93f79e0eef8eb7cd6ca4004412fa0eb4c4f9204a767071bcfa44/brnet-0.0.5.tar.gz
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/72/7f/05a5c2095fb33d9da5ad8d5d54bc772359e48c1c78aadeee131727003d8d/cdk-ecs-service-extensions-2.0.1a8.tar.gz
+[2023-06-23 02:37:38] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-23 02:37:38] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/ae/aa/7990c9a8f5a0aa0a9627b8316866e0ae776b0988ef83ea657d3057be257e/dbt-redshift-1.6.0b3.tar.gz
+[2023-06-23 02:37:38] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/f0/46/57ab29138a09529a501b3ee1150a26e73c45563c9deba4e1f5f250f2f090/dbt-snowflake-1.6.0b2.tar.gz
+[2023-06-23 02:37:38] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/c3/88/072c3034e29da4be52b0ab904d17b3173d2d1f9cbb956f5fc175f1953135/cdk-serverless-clamscan-2.4.99.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [brnet]: Downloading https://files.pythonhosted.org/packages/10/dc/204828c7878769d31f29e056afc42d2836c3926501159a13c5ad93d25d0a/brnet-0.0.6.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230623/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-23 02:37:39] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230623/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230623/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 02:37:39] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/15/d1/2b78dd2e6dd7f91fe2788fae09d4d72f2e14b9405c3da788c000967c40a2/dbt-redshift-1.6.0b4.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [brnet]: executing diffoscope
+[2023-06-23 02:37:39] INFO root fetch - processPackages [brnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brnet-0.0.5.tar.gz tmp/brnet-0.0.6.tar.gz --markdown 20230623/b/brnet/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/3a/e4/5e69e2eacca2e99bb3a1246dc67fb0a9c3bcbc83ab4adc04ddfc6e2f6b8a/cdk-serverless-clamscan-2.5.0.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230623/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-23 02:37:39] INFO root fetch - processPackages [dbt-redshift]: executing diffoscope
+[2023-06-23 02:37:39] INFO root fetch - processPackages [dbt-redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-redshift-1.6.0b3.tar.gz tmp/dbt-redshift-1.6.0b4.tar.gz --markdown 20230623/d/dbt-redshift/1.6.0b3-1.6.0b4/diff.md --exclude *.pyd
+[2023-06-23 02:37:39] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/f6/99/5780f27430718a4fc67da1932fa9a41253cae3cbec7ac6680ef1ac9c5903/dbt-snowflake-1.6.0b3.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230623/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.4.99.tar.gz tmp/cdk-serverless-clamscan-2.5.0.tar.gz --markdown 20230623/c/cdk-serverless-clamscan/2.4.99-2.5.0/diff.md --exclude *.pyd
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/4f/8d/abb31a165af680e8b0a59581ca2aee94485b1ad1db12d9445bbc9c0ddc3e/cdk-ecs-service-extensions-2.0.1a9.tar.gz
+[2023-06-23 02:37:39] INFO root fetch - processPackages [dbt-snowflake]: executing diffoscope
+[2023-06-23 02:37:39] INFO root fetch - processPackages [dbt-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-snowflake-1.6.0b2.tar.gz tmp/dbt-snowflake-1.6.0b3.tar.gz --markdown 20230623/d/dbt-snowflake/1.6.0b2-1.6.0b3/diff.md --exclude *.pyd
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-06-23 02:37:39] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz --markdown 20230623/c/cdk-ecs-service-extensions/2.0.1a8-2.0.1a9/diff.md --exclude *.pyd
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Start processing: cdktf-proxmox
+[2023-06-23 02:37:40] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: cdk-aurora-globaldatabase
+[2023-06-23 02:37:40] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-06-23 02:37:40] INFO root fetch - processPackages [brnet]: Remove: archive file [/home/abi/fetcher/tmp/brnet-0.0.5.tar.gz]
+[2023-06-23 02:37:40] INFO root fetch - processPackages [brnet]: Remove: archive file [/home/abi/fetcher/tmp/brnet-0.0.6.tar.gz]
+[2023-06-23 02:37:40] INFO root fetch - processPackages [brnet]: Start processing: atlaspy
+[2023-06-23 02:37:40] INFO root fetch - main [MainThread]: End processing [brnet]: success
+[2023-06-23 02:37:40] INFO root fetch - processPackages [atlaspy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-06-23 02:37:40] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230623/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-06-23 02:37:41] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/4f/f2/76fb5e452774ec7d09082ca568036e1a6c6127e700ee0f2ac3e34fab1e0c/atlaspy-0.0.4-py3-none-any.whl
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdktf-github-actions]: Start processing: reciprocal
+[2023-06-23 02:37:41] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230623/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-23 02:37:41] INFO root fetch - processPackages [reciprocal]: New version: [0.1.post0] Old Version: [0.1.2]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [reciprocal]: Downloading https://files.pythonhosted.org/packages/36/55/510943bb7d11863a965ee41901c1543b58acfeda96ecc9eb4b57c37cd572/reciprocal-0.1.2-py3-none-any.whl
+[2023-06-23 02:37:41] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/09/41/9e50e96180314100e59a1cff2476c3ee97713f7522a83f9b9a2cd52fe973/atlaspy-0.0.5.tar.gz
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdk8s-jenkins]: Start processing: everdrop-aws-cdk-constructs
+[2023-06-23 02:37:41] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-06-23 02:37:41] INFO root fetch - processPackages [dbt-redshift]: Remove: archive file [/home/abi/fetcher/tmp/dbt-redshift-1.6.0b3.tar.gz]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [dbt-redshift]: Remove: archive file [/home/abi/fetcher/tmp/dbt-redshift-1.6.0b4.tar.gz]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [dbt-redshift]: Start processing: protoletariat
+[2023-06-23 02:37:41] INFO root fetch - main [MainThread]: End processing [dbt-redshift]: success
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.4.99.tar.gz]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.0.tar.gz]
+[2023-06-23 02:37:41] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-06-23 02:37:41] INFO root fetch - processPackages [reciprocal]: Downloading https://files.pythonhosted.org/packages/02/5f/671fb3ec95546be48d0d4f2a2bb01555717dacdbfcd3ceb887d712824583/reciprocal-0.1.post0.tar.gz
+[2023-06-23 02:37:41] INFO root fetch - processPackages [reciprocal]: executing diffoscope
+[2023-06-23 02:37:41] INFO root fetch - processPackages [reciprocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reciprocal-0.1.2-py3-none-any.whl.zip tmp/reciprocal-0.1.post0.tar.gz --markdown 20230623/r/reciprocal/0.1.2-0.1.post0/diff.md --exclude *.pyd
+[2023-06-23 02:37:41] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [protoletariat]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/37/99/b196d5dd05d53436c3e9aad0a270d8ba6c1b1739d7a1335c4c6e1f2b85ca/everdrop-aws-cdk-constructs-0.0.90.tar.gz
+[2023-06-23 02:37:41] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt-snowflake-1.6.0b2.tar.gz]
+[2023-06-23 02:37:41] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt-snowflake-1.6.0b3.tar.gz]
+[2023-06-23 02:37:41] INFO root fetch - main [MainThread]: End processing [dbt-snowflake]: success
+[2023-06-23 02:37:41] INFO root fetch - processPackages [atlaspy]: executing diffoscope
+[2023-06-23 02:37:41] INFO root fetch - processPackages [atlaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlaspy-0.0.4-py3-none-any.whl.zip tmp/atlaspy-0.0.5.tar.gz --markdown 20230623/a/atlaspy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-23 02:37:41] ERROR root fetch - processPackages [reciprocal]: Diffoscope failed: Error: error creating container storage: the container name "thirsty_hofstadter" is already in use by "1940baae4d3c35367bb06889a699ec07a7c42c7688a215fbefe189dada2b8d0a". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-23 02:37:41] INFO root fetch - main [MainThread]: End processing [reciprocal] error
+[2023-06-23 02:37:41] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/98/94/136a7d37ba44da9db793f858b6a4584070f24c9b1d038b8350968e212198/everdrop-aws-cdk-constructs-0.0.91.tar.gz
+[2023-06-23 02:37:41] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/3c/4c/d507b7e8533b71f281c3eacf73e3380d4de279088fc5e0f4af52704abec5/protoletariat-3.2.8.tar.gz
+[2023-06-23 02:37:41] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-06-23 02:37:41] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.90.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.91.tar.gz --markdown 20230623/e/everdrop-aws-cdk-constructs/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-06-23 02:37:42] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/82/e9/8d4ccdda9f4ef2c3528285f9a792eedd538a2690ca7e808a885a3eb7116e/protoletariat-3.2.9.tar.gz
+[2023-06-23 02:37:42] INFO root fetch - processPackages [protoletariat]: executing diffoscope
+[2023-06-23 02:37:42] INFO root fetch - processPackages [protoletariat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoletariat-3.2.8.tar.gz tmp/protoletariat-3.2.9.tar.gz --markdown 20230623/p/protoletariat/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-06-23 02:37:42] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-06-23 02:37:42] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-06-23 02:37:42] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-06-23 02:37:42] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz]
+[2023-06-23 02:37:42] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz]
+[2023-06-23 02:37:42] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-06-23 02:37:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-06-23 02:37:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-06-23 02:37:43] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-06-23 02:37:43] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.90.tar.gz]
+[2023-06-23 02:37:43] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.91.tar.gz]
+[2023-06-23 02:37:43] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-06-23 02:37:43] INFO root fetch - processPackages [protoletariat]: Remove: archive file [/home/abi/fetcher/tmp/protoletariat-3.2.8.tar.gz]
+[2023-06-23 02:37:43] INFO root fetch - processPackages [protoletariat]: Remove: archive file [/home/abi/fetcher/tmp/protoletariat-3.2.9.tar.gz]
+[2023-06-23 02:37:43] INFO root fetch - main [MainThread]: End processing [protoletariat]: success
+[2023-06-23 02:38:13] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-23 02:38:13] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-23 02:38:13] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-23 02:38:32] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.4-py3-none-any.whl.zip]
+[2023-06-23 02:38:32] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.5.tar.gz]
+[2023-06-23 02:38:32] INFO root fetch - main [MainThread]: End processing [atlaspy]: success
+[2023-06-23 02:38:32] INFO root fetch - main [MainThread]: Store serial: [18611889]
