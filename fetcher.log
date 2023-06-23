@@ -8422,3 +8422,45 @@
 [2023-06-23 06:11:04] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
 [2023-06-23 06:11:04] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
 [2023-06-23 06:11:04] INFO root fetch - main [MainThread]: Store serial: [18613999]
+[2023-06-23 06:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613999]
+[2023-06-23 06:16:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-23 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blest
+[2023-06-23 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mrp-restrict-lot
+[2023-06-23 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-play-developer-api
+[2023-06-23 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyLauda
+[2023-06-23 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: greeting-green
+[2023-06-23 06:16:13] INFO root fetch - processPackages [pyLauda]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-23 06:16:13] INFO root fetch - processPackages [google-play-developer-api]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-23 06:16:13] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-06-23 06:16:13] INFO root fetch - processPackages [blest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 06:16:13] WARNING root fetch - processPackages [greeting-green]: Skipping, unable to determine old version
+[2023-06-23 06:16:13] INFO root fetch - main [MainThread]: End processing [greeting-green] error
+[2023-06-23 06:16:13] INFO root fetch - processPackages [blest]: Downloading https://files.pythonhosted.org/packages/34/f9/abad2aa3166398ddc3d15495c7ec7bf959300a059005961b9b00c6020161/BLEST-0.0.8.tar.gz
+[2023-06-23 06:16:13] INFO root fetch - processPackages [pyLauda]: Downloading https://files.pythonhosted.org/packages/c7/54/502d5d5f676f957f599eeed622ab0db862f0a55619e91d0af8d0a343b5ab/pyLauda-1.0.2.tar.gz
+[2023-06-23 06:16:13] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: Downloading https://files.pythonhosted.org/packages/d4/a9/22ef183c75f1d06716ba101b11156c90ae91f29ec8a15ac914bbc0e93928/odoo_addon_mrp_restrict_lot-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-23 06:16:13] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/1f/11/9e99c93aaaf42912794e9a840461c2860cc7b34dcd384aa64cadb2265363/google_play_developer_api-0.2.0.tar.gz
+[2023-06-23 06:16:13] INFO root fetch - processPackages [blest]: Downloading https://files.pythonhosted.org/packages/80/c6/65cfcd214fd6a6fc2df78cd86a9afd561fc78b5fc33aa7eae11a1591eb60/blest-0.0.9.tar.gz
+[2023-06-23 06:16:13] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: Downloading https://files.pythonhosted.org/packages/43/a7/5f15e7ffe1a945ffed1b3f91ceee16088fccda5ac67ba3c1c2046ff69203/odoo_addon_mrp_restrict_lot-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-23 06:16:13] INFO root fetch - processPackages [pyLauda]: Downloading https://files.pythonhosted.org/packages/38/c1/0f78d576a36e828f6f7d6ee30d05fc92e25c23bb52c4fa2ba5d82e868986/pyLauda-1.0.3.tar.gz
+[2023-06-23 06:16:13] INFO root fetch - processPackages [blest]: executing diffoscope
+[2023-06-23 06:16:13] INFO root fetch - processPackages [blest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLEST-0.0.8.tar.gz tmp/blest-0.0.9.tar.gz --markdown 20230623/b/blest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 06:16:13] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/66/b1/9662e41618396901874317c85c86a0a6e75a443811279b8a7d9707f56a75/google_play_developer_api-0.3.0.tar.gz
+[2023-06-23 06:16:13] INFO root fetch - processPackages [google-play-developer-api]: executing diffoscope
+[2023-06-23 06:16:13] INFO root fetch - processPackages [google-play-developer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_play_developer_api-0.2.0.tar.gz tmp/google_play_developer_api-0.3.0.tar.gz --markdown 20230623/g/google-play-developer-api/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-23 06:16:13] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: executing diffoscope
+[2023-06-23 06:16:13] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_restrict_lot-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mrp_restrict_lot-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230623/o/odoo-addon-mrp-restrict-lot/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-23 06:16:13] INFO root fetch - processPackages [pyLauda]: executing diffoscope
+[2023-06-23 06:16:13] INFO root fetch - processPackages [pyLauda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLauda-1.0.2.tar.gz tmp/pyLauda-1.0.3.tar.gz --markdown 20230623/p/pyLauda/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-23 06:16:14] INFO root fetch - processPackages [blest]: Remove: archive file [/home/abi/fetcher/tmp/BLEST-0.0.8.tar.gz]
+[2023-06-23 06:16:14] INFO root fetch - processPackages [blest]: Remove: archive file [/home/abi/fetcher/tmp/blest-0.0.9.tar.gz]
+[2023-06-23 06:16:14] INFO root fetch - main [MainThread]: End processing [blest]: success
+[2023-06-23 06:16:14] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.2.0.tar.gz]
+[2023-06-23 06:16:14] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.3.0.tar.gz]
+[2023-06-23 06:16:14] INFO root fetch - main [MainThread]: End processing [google-play-developer-api]: success
+[2023-06-23 06:16:14] INFO root fetch - processPackages [pyLauda]: Remove: archive file [/home/abi/fetcher/tmp/pyLauda-1.0.2.tar.gz]
+[2023-06-23 06:16:14] INFO root fetch - processPackages [pyLauda]: Remove: archive file [/home/abi/fetcher/tmp/pyLauda-1.0.3.tar.gz]
+[2023-06-23 06:16:14] INFO root fetch - main [MainThread]: End processing [pyLauda]: success
+[2023-06-23 06:16:15] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_restrict_lot-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-23 06:16:15] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_restrict_lot-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-23 06:16:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-restrict-lot]: success
+[2023-06-23 06:16:15] INFO root fetch - main [MainThread]: Store serial: [18614016]
