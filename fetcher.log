@@ -10055,3 +10055,111 @@
 [2023-06-23 08:27:33] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230623.tar.gz]
 [2023-06-23 08:27:33] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-06-23 08:27:33] INFO root fetch - main [MainThread]: Store serial: [18614630]
+[2023-06-23 08:32:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614630]
+[2023-06-23 08:32:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krptn
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slpkg
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zope.event
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streaming-indicators
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: petisco
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: get-eyedata
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oexp
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hikari-crescent
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipyeos
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openla-feature-representation
+[2023-06-23 08:32:42] INFO root fetch - processPackages [get-eyedata]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-23 08:32:42] INFO root fetch - processPackages [slpkg]: New version: [4.9.0] Old Version: [4.8.9]
+[2023-06-23 08:32:42] INFO root fetch - processPackages [streaming-indicators]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 08:32:42] INFO root fetch - processPackages [krptn]: New version: [0.6.4] Old Version: [0.6.2]
+[2023-06-23 08:32:42] INFO root fetch - processPackages [zope.event]: New version: [5.0] Old Version: [4.6]
+[2023-06-23 08:32:42] WARNING root fetch - processPackages [openla-feature-representation]: Skipping, unable to determine old version
+[2023-06-23 08:32:42] INFO root fetch - processPackages [openla-feature-representation]: Start processing: streamgen
+[2023-06-23 08:32:42] INFO root fetch - main [MainThread]: End processing [openla-feature-representation] error
+[2023-06-23 08:32:42] INFO root fetch - processPackages [oexp]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-06-23 08:32:42] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-06-23 08:32:42] INFO root fetch - processPackages [hikari-crescent]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ipyeos]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-23 08:32:42] WARNING root fetch - processPackages [streamgen]: Skipping, unable to determine old version
+[2023-06-23 08:32:42] INFO root fetch - processPackages [streamgen]: Start processing: my-latest-hello-world
+[2023-06-23 08:32:42] INFO root fetch - main [MainThread]: End processing [streamgen] error
+[2023-06-23 08:32:42] INFO root fetch - processPackages [zope.event]: Downloading https://files.pythonhosted.org/packages/42/49/ba8610674cad200da2f9c87b5f52fdcf18b02dd743a8a1e90726803cc42f/zope.event-4.6.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/b3/65/8620d7dc685cc0da6e269f2b45e025f95060054c569247c3fceecf3be30b/petisco-2.0.0rc1.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/85/4c/bde62c7c187f4ca63e5947fe17cae936a6b9dd01e8afe47026f824763809/oexp-0.8.5.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [my-latest-hello-world]: New version: [0.0.6] Old Version: [0.0.3]
+[2023-06-23 08:32:42] INFO root fetch - processPackages [krptn]: Downloading https://files.pythonhosted.org/packages/dd/5b/6aa25795b4610252e5ef33f98d8adb77f1e62e3b2b8ae1b4932351de297a/krptn-0.6.2.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [zope.event]: Downloading https://files.pythonhosted.org/packages/46/c2/427f1867bb96555d1d34342f1dd97f8c420966ab564d58d18469a1db8736/zope.event-5.0.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/0c/ad/97961b42a21862d0f52b563c9bbc8118ff6a255cafa8783c70a6c84ca6c5/get_eyedata-1.2.0-py3-none-any.whl
+[2023-06-23 08:32:42] INFO root fetch - processPackages [hikari-crescent]: Downloading https://files.pythonhosted.org/packages/7b/17/92b37b577a3c946491f302ac570e491b74f8a9e70e1dcaf3199a6ca2bd86/hikari_crescent-0.6.0.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/a8/31/f4f8c82d93f79a2969ce1e754a862acf207431d0f462f085d4b44a8d2ffb/oexp-0.9.0.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [zope.event]: executing diffoscope
+[2023-06-23 08:32:42] INFO root fetch - processPackages [zope.event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.event-4.6.tar.gz tmp/zope.event-5.0.tar.gz --markdown 20230623/z/zope.event/4.6-5.0/diff.md --exclude *.pyd
+[2023-06-23 08:32:42] INFO root fetch - processPackages [streaming-indicators]: Downloading https://files.pythonhosted.org/packages/2f/18/86fd7fd75eb2e7d23303403314f216057e19555ecc1ede4dd6f64215b143/streaming_indicators-0.0.3.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/9f/16/f9da161a787ff6f7552582693016e258b19c1643d65bab80b3dad44971b8/slpkg-4.8.9.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [my-latest-hello-world]: Downloading https://files.pythonhosted.org/packages/4a/7c/fd18aaa960068805f03f9cdeb4afd487f94d4f1c3a53dedf357e6e7af349/my-latest-hello-world-0.0.3.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [ipyeos]: Downloading https://files.pythonhosted.org/packages/55/95/abda8617403ca4580df9591f00aee2731f40317a8e1153cf2a1a8696d6e8/ipyeos-0.4.3.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [oexp]: executing diffoscope
+[2023-06-23 08:32:42] INFO root fetch - processPackages [oexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oexp-0.8.5.tar.gz tmp/oexp-0.9.0.tar.gz --markdown 20230623/o/oexp/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 08:32:42] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/9f/69/e0b679bc00873c4c7a09d2cab4f7ef496d0ad45541fa1318c2c70c58fd33/petisco-2.0.0rc2.tar.gz
+[2023-06-23 08:32:42] INFO root fetch - processPackages [my-latest-hello-world]: Downloading https://files.pythonhosted.org/packages/74/a4/76a5ba51bffa837721f9c98f6763342587b1de24734bdda381cee6d09e5e/my-latest-hello-world-0.0.6.tar.gz
+[2023-06-23 08:32:43] INFO root fetch - processPackages [my-latest-hello-world]: executing diffoscope
+[2023-06-23 08:32:43] INFO root fetch - processPackages [my-latest-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-latest-hello-world-0.0.3.tar.gz tmp/my-latest-hello-world-0.0.6.tar.gz --markdown 20230623/m/my-latest-hello-world/0.0.3-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 08:32:43] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-23 08:32:43] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc1.tar.gz tmp/petisco-2.0.0rc2.tar.gz --markdown 20230623/p/petisco/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-06-23 08:32:43] INFO root fetch - processPackages [krptn]: Downloading https://files.pythonhosted.org/packages/b9/54/60681cda011e588c772afcee606279406265198f12818be3af65a8c75500/krptn-0.6.4.tar.gz
+[2023-06-23 08:32:43] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/60/d1/9088b297441aae3879c11b15e4b740809d6c84a5b28f012d5a425def7284/get_eyedata-1.2.1-py3-none-any.whl
+[2023-06-23 08:32:43] INFO root fetch - processPackages [hikari-crescent]: Downloading https://files.pythonhosted.org/packages/ef/0f/1bac2dcd04eac65c1cc4691f1fd8ba38de2b51230ee641ac8f7cd9435bf9/hikari_crescent-0.6.1.tar.gz
+[2023-06-23 08:32:43] INFO root fetch - processPackages [get-eyedata]: executing diffoscope
+[2023-06-23 08:32:43] INFO root fetch - processPackages [get-eyedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_eyedata-1.2.0-py3-none-any.whl.zip tmp/get_eyedata-1.2.1-py3-none-any.whl.zip --markdown 20230623/g/get-eyedata/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-23 08:32:43] INFO root fetch - processPackages [streaming-indicators]: Downloading https://files.pythonhosted.org/packages/36/f8/70a1d7a2b881da700b990f9414fc8f870b98ed624e6e545b603a56dbbc71/streaming_indicators-0.0.4.tar.gz
+[2023-06-23 08:32:43] INFO root fetch - processPackages [hikari-crescent]: executing diffoscope
+[2023-06-23 08:32:43] INFO root fetch - processPackages [ipyeos]: Downloading https://files.pythonhosted.org/packages/14/cb/ddb006e3a1adc0003ef678e6e3be3fa151fa0639ba60fef8c1e22d7bbfbb/ipyeos-0.4.4.tar.gz
+[2023-06-23 08:32:43] INFO root fetch - processPackages [hikari-crescent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_crescent-0.6.0.tar.gz tmp/hikari_crescent-0.6.1.tar.gz --markdown 20230623/h/hikari-crescent/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-23 08:32:43] INFO root fetch - processPackages [streaming-indicators]: executing diffoscope
+[2023-06-23 08:32:43] INFO root fetch - processPackages [streaming-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streaming_indicators-0.0.3.tar.gz tmp/streaming_indicators-0.0.4.tar.gz --markdown 20230623/s/streaming-indicators/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 08:32:43] INFO root fetch - processPackages [krptn]: executing diffoscope
+[2023-06-23 08:32:43] INFO root fetch - processPackages [krptn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krptn-0.6.2.tar.gz tmp/krptn-0.6.4.tar.gz --markdown 20230623/k/krptn/0.6.2-0.6.4/diff.md --exclude *.pyd
+[2023-06-23 08:32:43] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/78/eb/992f451dfdb76d923b9cb11585f3dc609a2a087ebd8f2883a82ab02e4b07/slpkg-4.9.0.tar.gz
+[2023-06-23 08:32:43] INFO root fetch - processPackages [slpkg]: executing diffoscope
+[2023-06-23 08:32:43] INFO root fetch - processPackages [slpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slpkg-4.8.9.tar.gz tmp/slpkg-4.9.0.tar.gz --markdown 20230623/s/slpkg/4.8.9-4.9.0/diff.md --exclude *.pyd
+[2023-06-23 08:32:43] INFO root fetch - processPackages [ipyeos]: executing diffoscope
+[2023-06-23 08:32:43] INFO root fetch - processPackages [ipyeos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyeos-0.4.3.tar.gz tmp/ipyeos-0.4.4.tar.gz --markdown 20230623/i/ipyeos/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-23 08:32:44] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.8.5.tar.gz]
+[2023-06-23 08:32:44] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.9.0.tar.gz]
+[2023-06-23 08:32:44] INFO root fetch - processPackages [oexp]: Start processing: screen-cls
+[2023-06-23 08:32:44] INFO root fetch - main [MainThread]: End processing [oexp]: success
+[2023-06-23 08:32:44] INFO root fetch - processPackages [screen-cls]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-23 08:32:44] INFO root fetch - processPackages [zope.event]: Remove: archive file [/home/abi/fetcher/tmp/zope.event-4.6.tar.gz]
+[2023-06-23 08:32:44] INFO root fetch - processPackages [zope.event]: Remove: archive file [/home/abi/fetcher/tmp/zope.event-5.0.tar.gz]
+[2023-06-23 08:32:44] INFO root fetch - main [MainThread]: End processing [zope.event]: success
+[2023-06-23 08:32:44] INFO root fetch - processPackages [my-latest-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/my-latest-hello-world-0.0.3.tar.gz]
+[2023-06-23 08:32:44] INFO root fetch - processPackages [my-latest-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/my-latest-hello-world-0.0.6.tar.gz]
+[2023-06-23 08:32:44] INFO root fetch - main [MainThread]: End processing [my-latest-hello-world]: success
+[2023-06-23 08:32:44] INFO root fetch - processPackages [screen-cls]: Downloading https://files.pythonhosted.org/packages/f3/0d/b5acdd8b1f95863db323eca4df9cd1adee881b67201e05d9c22a09994ba4/screen_cls-1.0.4.tar.gz
+[2023-06-23 08:32:44] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.2.0-py3-none-any.whl.zip]
+[2023-06-23 08:32:44] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.2.1-py3-none-any.whl.zip]
+[2023-06-23 08:32:44] INFO root fetch - main [MainThread]: End processing [get-eyedata]: success
+[2023-06-23 08:32:44] INFO root fetch - processPackages [screen-cls]: Downloading https://files.pythonhosted.org/packages/29/b2/0ed6433a175b065f318e17cf2a33e954fba7b2dbd6de207b9a3f1b915293/screen_cls-1.0.5.tar.gz
+[2023-06-23 08:32:44] INFO root fetch - processPackages [screen-cls]: executing diffoscope
+[2023-06-23 08:32:44] INFO root fetch - processPackages [screen-cls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screen_cls-1.0.4.tar.gz tmp/screen_cls-1.0.5.tar.gz --markdown 20230623/s/screen-cls/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-23 08:32:45] INFO root fetch - processPackages [streaming-indicators]: Remove: archive file [/home/abi/fetcher/tmp/streaming_indicators-0.0.3.tar.gz]
+[2023-06-23 08:32:45] INFO root fetch - processPackages [streaming-indicators]: Remove: archive file [/home/abi/fetcher/tmp/streaming_indicators-0.0.4.tar.gz]
+[2023-06-23 08:32:45] INFO root fetch - main [MainThread]: End processing [streaming-indicators]: success
+[2023-06-23 08:32:45] INFO root fetch - processPackages [ipyeos]: Remove: archive file [/home/abi/fetcher/tmp/ipyeos-0.4.3.tar.gz]
+[2023-06-23 08:32:45] INFO root fetch - processPackages [ipyeos]: Remove: archive file [/home/abi/fetcher/tmp/ipyeos-0.4.4.tar.gz]
+[2023-06-23 08:32:45] INFO root fetch - main [MainThread]: End processing [ipyeos]: success
+[2023-06-23 08:32:45] INFO root fetch - processPackages [krptn]: Remove: archive file [/home/abi/fetcher/tmp/krptn-0.6.2.tar.gz]
+[2023-06-23 08:32:45] INFO root fetch - processPackages [krptn]: Remove: archive file [/home/abi/fetcher/tmp/krptn-0.6.4.tar.gz]
+[2023-06-23 08:32:45] INFO root fetch - main [MainThread]: End processing [krptn]: success
+[2023-06-23 08:32:45] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-4.8.9.tar.gz]
+[2023-06-23 08:32:45] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-4.9.0.tar.gz]
+[2023-06-23 08:32:45] INFO root fetch - main [MainThread]: End processing [slpkg]: success
+[2023-06-23 08:32:46] INFO root fetch - processPackages [screen-cls]: Remove: archive file [/home/abi/fetcher/tmp/screen_cls-1.0.4.tar.gz]
+[2023-06-23 08:32:46] INFO root fetch - processPackages [screen-cls]: Remove: archive file [/home/abi/fetcher/tmp/screen_cls-1.0.5.tar.gz]
+[2023-06-23 08:32:46] INFO root fetch - main [MainThread]: End processing [screen-cls]: success
+[2023-06-23 08:32:47] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc1.tar.gz]
+[2023-06-23 08:32:47] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc2.tar.gz]
+[2023-06-23 08:32:47] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-23 08:33:38] INFO root fetch - processPackages [hikari-crescent]: Remove: archive file [/home/abi/fetcher/tmp/hikari_crescent-0.6.0.tar.gz]
+[2023-06-23 08:33:38] INFO root fetch - processPackages [hikari-crescent]: Remove: archive file [/home/abi/fetcher/tmp/hikari_crescent-0.6.1.tar.gz]
+[2023-06-23 08:33:38] INFO root fetch - main [MainThread]: End processing [hikari-crescent]: success
+[2023-06-23 08:33:38] INFO root fetch - main [MainThread]: Store serial: [18614701]
