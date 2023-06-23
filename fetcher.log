@@ -10400,3 +10400,56 @@
 [2023-06-23 08:51:26] INFO root fetch - processPackages [open-space-toolkit-core]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_core-0.7.1-py39-none-any.whl.zip]
 [2023-06-23 08:51:26] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-core]: success
 [2023-06-23 08:51:26] INFO root fetch - main [MainThread]: Store serial: [18614792]
+[2023-06-23 08:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18614792]
+[2023-06-23 08:56:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-23 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynmeagps
+[2023-06-23 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantplay
+[2023-06-23 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slpkg
+[2023-06-23 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stoobly-agent
+[2023-06-23 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytele2api
+[2023-06-23 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: almavik
+[2023-06-23 08:56:49] INFO root fetch - processPackages [quantplay]: New version: [1.2.98] Old Version: [1.2.97]
+[2023-06-23 08:56:49] INFO root fetch - processPackages [pytele2api]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-23 08:56:49] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-23 08:56:49] INFO root fetch - processPackages [pynmeagps]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 08:56:49] INFO root fetch - processPackages [slpkg]: New version: [4.9.0b0] Old Version: [4.9.0]
+[2023-06-23 08:56:49] INFO root fetch - processPackages [almavik]: New version: [5.0] Old Version: [351.1]
+[2023-06-23 08:56:49] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2023-06-23 08:56:49] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/52/20/0bf54890f09c392247e0671301c1d39e170087a7e0b955d913ece4713f2e/slpkg-4.9.0-py2.py3-none-any.whl
+[2023-06-23 08:56:49] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/22/02/555b6524da2ff5d19ea3c0a2292273f9ebe12cfa5389690ec2c9ee39cd22/quantplay-1.2.97.tar.gz
+[2023-06-23 08:56:49] INFO root fetch - processPackages [pytele2api]: Downloading https://files.pythonhosted.org/packages/0a/bd/d0d3a3029659b6e061bc346f50d0dc50c46f086f717c0e5b7a01c0bb15cf/pytele2api-0.1.5.tar.gz
+[2023-06-23 08:56:49] INFO root fetch - processPackages [pynmeagps]: Downloading https://files.pythonhosted.org/packages/86/11/d07532664983049560a2cc15cca1f126305db42affbcde1fa9a25fbb608e/pynmeagps-1.0.8.tar.gz
+[2023-06-23 08:56:49] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2023-06-23 08:56:49] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/43/71/f8f52134d85d521094906041116d9c15a7ebacf0755e82a2396c2728f637/slpkg-4.9.0b0.tar.gz
+[2023-06-23 08:56:49] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/14/09/1ef2b4c2a013c87dbf867a1c65bbc30fcb73157e60c78f1edf8fd495ee44/almavik-351.1.tar.gz
+[2023-06-23 08:56:49] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-06-23 08:56:49] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230623/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-23 08:56:49] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85078284>=10485760
+[2023-06-23 08:56:49] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-23 08:56:50] INFO root fetch - processPackages [pytele2api]: Downloading https://files.pythonhosted.org/packages/da/a6/32b81dd8ee821c239e06570f1597ca7168ed56b39151bb5f65ed994d5867/pytele2api-0.1.6.tar.gz
+[2023-06-23 08:56:50] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/68/5f/e11dcf0f734cc1734a41ea2b57e2506200b025d814aed5a0f58d05972f8d/quantplay-1.2.98.tar.gz
+[2023-06-23 08:56:50] INFO root fetch - processPackages [pynmeagps]: Downloading https://files.pythonhosted.org/packages/f2/7c/538ebb6a9317ab0dad32cb32f0ed63512b095231228692c599a5989c34cf/pynmeagps-1.0.9.tar.gz
+[2023-06-23 08:56:50] INFO root fetch - processPackages [slpkg]: executing diffoscope
+[2023-06-23 08:56:50] INFO root fetch - processPackages [slpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slpkg-4.9.0-py2.py3-none-any.whl.zip tmp/slpkg-4.9.0b0.tar.gz --markdown 20230623/s/slpkg/4.9.0-4.9.0b0/diff.md --exclude *.pyd
+[2023-06-23 08:56:50] INFO root fetch - processPackages [pytele2api]: executing diffoscope
+[2023-06-23 08:56:50] INFO root fetch - processPackages [pytele2api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytele2api-0.1.5.tar.gz tmp/pytele2api-0.1.6.tar.gz --markdown 20230623/p/pytele2api/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-23 08:56:50] INFO root fetch - processPackages [pynmeagps]: executing diffoscope
+[2023-06-23 08:56:50] INFO root fetch - processPackages [pynmeagps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynmeagps-1.0.8.tar.gz tmp/pynmeagps-1.0.9.tar.gz --markdown 20230623/p/pynmeagps/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-23 08:56:50] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-06-23 08:56:50] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.97.tar.gz tmp/quantplay-1.2.98.tar.gz --markdown 20230623/q/quantplay/1.2.97-1.2.98/diff.md --exclude *.pyd
+[2023-06-23 08:56:51] INFO root fetch - processPackages [pytele2api]: Remove: archive file [/home/abi/fetcher/tmp/pytele2api-0.1.5.tar.gz]
+[2023-06-23 08:56:51] INFO root fetch - processPackages [pytele2api]: Remove: archive file [/home/abi/fetcher/tmp/pytele2api-0.1.6.tar.gz]
+[2023-06-23 08:56:51] INFO root fetch - main [MainThread]: End processing [pytele2api]: success
+[2023-06-23 08:56:51] INFO root fetch - processPackages [pynmeagps]: Remove: archive file [/home/abi/fetcher/tmp/pynmeagps-1.0.8.tar.gz]
+[2023-06-23 08:56:51] INFO root fetch - processPackages [pynmeagps]: Remove: archive file [/home/abi/fetcher/tmp/pynmeagps-1.0.9.tar.gz]
+[2023-06-23 08:56:51] INFO root fetch - main [MainThread]: End processing [pynmeagps]: success
+[2023-06-23 08:56:51] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2023-06-23 08:56:51] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2023-06-23 08:56:51] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-06-23 08:56:51] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.2.97.tar.gz]
+[2023-06-23 08:56:51] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.2.98.tar.gz]
+[2023-06-23 08:56:51] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-06-23 08:57:44] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-4.9.0-py2.py3-none-any.whl.zip]
+[2023-06-23 08:57:44] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-4.9.0b0.tar.gz]
+[2023-06-23 08:57:44] INFO root fetch - main [MainThread]: End processing [slpkg]: success
+[2023-06-23 08:57:44] INFO root fetch - main [MainThread]: Store serial: [18614809]
