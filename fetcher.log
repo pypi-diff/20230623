@@ -20803,3 +20803,163 @@ EOFError: EOF read where object expected
 [2023-06-23 16:32:16] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9187210536722.tar.gz]
 [2023-06-23 16:32:16] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-06-23 16:32:16] INFO root fetch - main [MainThread]: Store serial: [18619098]
+[2023-06-23 16:37:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18619098]
+[2023-06-23 16:37:27] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-23 16:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flattentool
+[2023-06-23 16:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvclive
+[2023-06-23 16:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: io4edge-client
+[2023-06-23 16:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text2text
+[2023-06-23 16:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: JrKit
+[2023-06-23 16:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wave-venture
+[2023-06-23 16:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dot-tools
+[2023-06-23 16:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deeplc
+[2023-06-23 16:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: terencePDF
+[2023-06-23 16:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-oci
+[2023-06-23 16:37:27] INFO root fetch - processPackages [flattentool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-23 16:37:27] INFO root fetch - processPackages [pulumi-oci]: New version: [1.1.0a1687471141] Old Version: [1.1.0a1687457552]
+[2023-06-23 16:37:27] INFO root fetch - processPackages [dvclive]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-23 16:37:27] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/a5/92/c6498a2925d58695538e1c3fe249b1b1324cebf56d5e71b08ab8c82bbe98/pulumi_oci-1.1.0a1687457552.tar.gz
+[2023-06-23 16:37:27] INFO root fetch - processPackages [text2text]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-23 16:37:27] WARNING root fetch - processPackages [JrKit]: Skipping, unable to determine old version
+[2023-06-23 16:37:27] INFO root fetch - processPackages [JrKit]: Start processing: cognite-power-ops
+[2023-06-23 16:37:27] INFO root fetch - main [MainThread]: End processing [JrKit] error
+[2023-06-23 16:37:27] WARNING root fetch - processPackages [terencePDF]: Skipping, unable to determine old version
+[2023-06-23 16:37:27] INFO root fetch - processPackages [terencePDF]: Start processing: ocfworker
+[2023-06-23 16:37:27] INFO root fetch - processPackages [dot-tools]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-23 16:37:27] INFO root fetch - main [MainThread]: End processing [terencePDF] error
+[2023-06-23 16:37:28] INFO root fetch - processPackages [wave-venture]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 16:37:28] INFO root fetch - processPackages [io4edge-client]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-23 16:37:28] INFO root fetch - processPackages [deeplc]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-06-23 16:37:28] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-23 16:37:28] WARNING root fetch - processPackages [ocfworker]: Skipping, unable to determine old version
+[2023-06-23 16:37:28] INFO root fetch - processPackages [ocfworker]: Start processing: icenet
+[2023-06-23 16:37:28] INFO root fetch - main [MainThread]: End processing [ocfworker] error
+[2023-06-23 16:37:28] INFO root fetch - processPackages [flattentool]: Downloading https://files.pythonhosted.org/packages/e4/b1/7b1343f3452b15111129392f5a7dc708f363bcecd21bb593af0ed9478288/flattentool-0.8.0.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [dvclive]: Downloading https://files.pythonhosted.org/packages/66/d5/2fbdc2bc7f6f5dc0b8605db9b9fb47f2a5bb5a7656b106d88d7f3c3e9ca4/dvclive-2.8.1.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [icenet]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-23 16:37:28] INFO root fetch - processPackages [dot-tools]: Downloading https://files.pythonhosted.org/packages/2b/f0/b6bd9a502eef6f44a512381b6f8354dfc00b22a3e8f87ba73008b9099be0/dot_tools-1.2.0.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [io4edge-client]: Downloading https://files.pythonhosted.org/packages/5c/c2/d5108a6f4304e45232475941c6f7236f44f7f1838a44f0e6c89a08736bc9/io4edge_client-0.3.0.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [wave-venture]: Downloading https://files.pythonhosted.org/packages/86/63/14b399b719164dbb5ea50dd18c359c13aaec38ac61b47a8c0a7f0c976cf5/wave-venture-0.0.8.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [deeplc]: Downloading https://files.pythonhosted.org/packages/2a/b8/1ecf226f1601e1f74528adaf8ca75c478163e1438058ab39e9a281697db7/deeplc-2.2.1.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-23 16:37:28] WARNING root fetch - processPackages [deeplc]: Skipping package: exceeds size limit 32146408>=10485760
+[2023-06-23 16:37:28] INFO root fetch - processPackages [deeplc]: Start processing: ghga-connector
+[2023-06-23 16:37:28] INFO root fetch - main [MainThread]: End processing [deeplc] error
+[2023-06-23 16:37:28] INFO root fetch - processPackages [icenet]: Downloading https://files.pythonhosted.org/packages/f5/13/2751a8d351bb0c59ab2d17b276a4d8a0845cb25003c10fb68481e5289ce0/icenet-0.2.4.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-23 16:37:28] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230623/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-23 16:37:28] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/d9/8a/61bb4565a85b3422311ec80c58bd175911dc7c61d61b6f9d7bb0d9dfe5a2/text2text-1.0.9.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [ghga-connector]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-06-23 16:37:28] INFO root fetch - processPackages [dot-tools]: Downloading https://files.pythonhosted.org/packages/c6/76/92371edae8e405ecd545af4f60bf7cd09dac1c25849a6a75c3dc624ca166/dot_tools-1.3.0.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [dvclive]: Downloading https://files.pythonhosted.org/packages/16/af/7547206a4f0151a9591ece3673b7ed5dafb16a50bdbe5fc338a4ca58374e/dvclive-2.9.0.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [io4edge-client]: Downloading https://files.pythonhosted.org/packages/3f/a3/7e4f4a0c493efbcf9d88f43d8f5c77e6fcc5b331034ed7a73045c2f1f0b6/io4edge_client-0.4.0.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/ae/85/853411ccaa27e79008de5dfa5956973425c9f87044e96c5ee76b6dd534d5/text2text-1.1.0.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [flattentool]: Downloading https://files.pythonhosted.org/packages/09/22/70a7062ac30e226d3871d6fabda7100aac47a708cd25b91373dd1f606c35/flattentool-0.9.0.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [wave-venture]: Downloading https://files.pythonhosted.org/packages/5a/a6/6033e5990114a1a5889a219b0e865c4a8e21c79d32e113b71c42f6b09cb3/wave-venture-0.0.9.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [dot-tools]: executing diffoscope
+[2023-06-23 16:37:28] INFO root fetch - processPackages [dot-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dot_tools-1.2.0.tar.gz tmp/dot_tools-1.3.0.tar.gz --markdown 20230623/d/dot-tools/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-23 16:37:28] INFO root fetch - processPackages [icenet]: Downloading https://files.pythonhosted.org/packages/14/ab/d0d9982cdd0e65d5f83ff4f3b567cf293e5a45f54211cf0d7b65c85465e0/icenet-0.2.5.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [io4edge-client]: executing diffoscope
+[2023-06-23 16:37:28] INFO root fetch - processPackages [io4edge-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/io4edge_client-0.3.0.tar.gz tmp/io4edge_client-0.4.0.tar.gz --markdown 20230623/i/io4edge-client/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-23 16:37:28] INFO root fetch - processPackages [ghga-connector]: Downloading https://files.pythonhosted.org/packages/a5/d2/f66463e78f1f1f4de77b2e8ea9a3302093d2e99b80854c9ce179b4d3f12a/ghga_connector-0.3.3.tar.gz
+[2023-06-23 16:37:28] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-23 16:37:28] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.0.9.tar.gz tmp/text2text-1.1.0.tar.gz --markdown 20230623/t/text2text/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 16:37:28] INFO root fetch - processPackages [flattentool]: executing diffoscope
+[2023-06-23 16:37:28] INFO root fetch - processPackages [flattentool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flattentool-0.8.0.tar.gz tmp/flattentool-0.9.0.tar.gz --markdown 20230623/f/flattentool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 16:37:28] INFO root fetch - processPackages [wave-venture]: executing diffoscope
+[2023-06-23 16:37:28] INFO root fetch - processPackages [wave-venture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wave-venture-0.0.8.tar.gz tmp/wave-venture-0.0.9.tar.gz --markdown 20230623/w/wave-venture/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 16:37:28] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/5a/90/87e12db177dc172a22f23dfefef067217b06c877075dfca171819dc61517/pulumi_oci-1.1.0a1687471141.tar.gz
+[2023-06-23 16:37:29] INFO root fetch - processPackages [icenet]: executing diffoscope
+[2023-06-23 16:37:29] INFO root fetch - processPackages [icenet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icenet-0.2.4.tar.gz tmp/icenet-0.2.5.tar.gz --markdown 20230623/i/icenet/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-23 16:37:29] INFO root fetch - processPackages [ghga-connector]: Downloading https://files.pythonhosted.org/packages/08/66/3b737d3075944dea665ede7e57c5f72744e27f7eb0e29be65ef3b5116722/ghga_connector-0.3.5.tar.gz
+[2023-06-23 16:37:29] INFO root fetch - processPackages [ghga-connector]: executing diffoscope
+[2023-06-23 16:37:29] INFO root fetch - processPackages [ghga-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_connector-0.3.3.tar.gz tmp/ghga_connector-0.3.5.tar.gz --markdown 20230623/g/ghga-connector/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-06-23 16:37:29] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-06-23 16:37:29] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.1.0a1687457552.tar.gz tmp/pulumi_oci-1.1.0a1687471141.tar.gz --markdown 20230623/p/pulumi-oci/1.1.0a1687457552-1.1.0a1687471141/diff.md --exclude *.pyd
+[2023-06-23 16:37:29] INFO root fetch - processPackages [dvclive]: executing diffoscope
+[2023-06-23 16:37:29] INFO root fetch - processPackages [dvclive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvclive-2.8.1.tar.gz tmp/dvclive-2.9.0.tar.gz --markdown 20230623/d/dvclive/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-23 16:37:30] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [cognite-power-ops]: Start processing: udmp-parser
+[2023-06-23 16:37:30] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-23 16:37:30] WARNING root fetch - processPackages [udmp-parser]: Skipping, unable to determine old version
+[2023-06-23 16:37:30] INFO root fetch - processPackages [udmp-parser]: Start processing: zenodoclient
+[2023-06-23 16:37:30] INFO root fetch - main [MainThread]: End processing [udmp-parser] error
+[2023-06-23 16:37:30] INFO root fetch - processPackages [zenodoclient]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [dot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dot_tools-1.2.0.tar.gz]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [dot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dot_tools-1.3.0.tar.gz]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [dot-tools]: Start processing: stormevents
+[2023-06-23 16:37:30] INFO root fetch - main [MainThread]: End processing [dot-tools]: success
+[2023-06-23 16:37:30] INFO root fetch - processPackages [stormevents]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [stormevents]: Downloading https://files.pythonhosted.org/packages/4a/a4/f4e008764785b14073ca2c901ab3fec0734ece381716d6e31ebcb68027f1/stormevents-2.2.0-py3-none-any.whl
+[2023-06-23 16:37:30] INFO root fetch - processPackages [zenodoclient]: Downloading https://files.pythonhosted.org/packages/7c/ae/b9fe90bf641205112a0cb08fd97e176fd7feecc0de1d08701ea115e94ec5/zenodoclient-0.5.0.tar.gz
+[2023-06-23 16:37:30] INFO root fetch - processPackages [io4edge-client]: Remove: archive file [/home/abi/fetcher/tmp/io4edge_client-0.3.0.tar.gz]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [io4edge-client]: Remove: archive file [/home/abi/fetcher/tmp/io4edge_client-0.4.0.tar.gz]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [io4edge-client]: Start processing: PVNet
+[2023-06-23 16:37:30] INFO root fetch - main [MainThread]: End processing [io4edge-client]: success
+[2023-06-23 16:37:30] INFO root fetch - processPackages [PVNet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/7b/6d/f6d2d68316979c477278e36b1a98abe9b6e86c9472055ba4e1e93132a78a/PVNet-0.1.8.tar.gz
+[2023-06-23 16:37:30] INFO root fetch - processPackages [stormevents]: Downloading https://files.pythonhosted.org/packages/2c/9a/75a16bdf830ec58c19ea558eac0a842357eb5a913c3a110197e5d9ae2e0e/stormevents-2.2.1-py3-none-any.whl
+[2023-06-23 16:37:30] INFO root fetch - processPackages [stormevents]: executing diffoscope
+[2023-06-23 16:37:30] INFO root fetch - processPackages [stormevents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stormevents-2.2.0-py3-none-any.whl.zip tmp/stormevents-2.2.1-py3-none-any.whl.zip --markdown 20230623/s/stormevents/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-23 16:37:30] INFO root fetch - processPackages [zenodoclient]: Downloading https://files.pythonhosted.org/packages/ac/3a/296b70bc30d096c6e2003771d62c516e5231b57a0aaa12b1ad06c21e898c/zenodoclient-0.5.1.tar.gz
+[2023-06-23 16:37:30] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/22/47/90df65af5c3e3947e52879c7daf7788464a87a25ffcce9bcd1519242a781/PVNet-0.1.9.tar.gz
+[2023-06-23 16:37:30] INFO root fetch - processPackages [wave-venture]: Remove: archive file [/home/abi/fetcher/tmp/wave-venture-0.0.8.tar.gz]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [wave-venture]: Remove: archive file [/home/abi/fetcher/tmp/wave-venture-0.0.9.tar.gz]
+[2023-06-23 16:37:30] INFO root fetch - processPackages [wave-venture]: Start processing: PySide6-Fluent-Widgets
+[2023-06-23 16:37:30] INFO root fetch - main [MainThread]: End processing [wave-venture]: success
+[2023-06-23 16:37:30] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-23 16:37:31] INFO root fetch - processPackages [flattentool]: Remove: archive file [/home/abi/fetcher/tmp/flattentool-0.8.0.tar.gz]
+[2023-06-23 16:37:31] INFO root fetch - processPackages [flattentool]: Remove: archive file [/home/abi/fetcher/tmp/flattentool-0.9.0.tar.gz]
+[2023-06-23 16:37:31] INFO root fetch - processPackages [flattentool]: Start processing: py4jps
+[2023-06-23 16:37:31] INFO root fetch - main [MainThread]: End processing [flattentool]: success
+[2023-06-23 16:37:31] INFO root fetch - processPackages [py4jps]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-23 16:37:31] INFO root fetch - processPackages [zenodoclient]: executing diffoscope
+[2023-06-23 16:37:31] INFO root fetch - processPackages [zenodoclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenodoclient-0.5.0.tar.gz tmp/zenodoclient-0.5.1.tar.gz --markdown 20230623/z/zenodoclient/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-23 16:37:31] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-23 16:37:31] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.1.8.tar.gz tmp/PVNet-0.1.9.tar.gz --markdown 20230623/P/PVNet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 16:37:31] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0a/b9/6b582109e2831c3fb9f5b6c89c209c11ee6f4641f38b7a0447a88f01be4f/PySide6-Fluent-Widgets-0.9.6.tar.gz
+[2023-06-23 16:37:31] INFO root fetch - processPackages [py4jps]: Downloading https://files.pythonhosted.org/packages/78/42/c19dfc9b4b84b0a566c91233badf811675c0e67496eb2637024a115a0d7b/py4jps-1.0.8.tar.gz
+[2023-06-23 16:37:31] INFO root fetch - processPackages [icenet]: Remove: archive file [/home/abi/fetcher/tmp/icenet-0.2.4.tar.gz]
+[2023-06-23 16:37:31] INFO root fetch - processPackages [icenet]: Remove: archive file [/home/abi/fetcher/tmp/icenet-0.2.5.tar.gz]
+[2023-06-23 16:37:31] INFO root fetch - processPackages [icenet]: Start processing: transformers-supporter
+[2023-06-23 16:37:31] INFO root fetch - main [MainThread]: End processing [icenet]: success
+[2023-06-23 16:37:31] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-23 16:37:31] INFO root fetch - processPackages [ghga-connector]: Remove: archive file [/home/abi/fetcher/tmp/ghga_connector-0.3.3.tar.gz]
+[2023-06-23 16:37:31] INFO root fetch - processPackages [ghga-connector]: Remove: archive file [/home/abi/fetcher/tmp/ghga_connector-0.3.5.tar.gz]
+[2023-06-23 16:37:31] INFO root fetch - main [MainThread]: End processing [ghga-connector]: success
+[2023-06-23 16:37:31] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-23 16:37:31] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/50/bc/8aecce2286bd60e5f79cd9795ab16fa16bf69cc135a6a396fba44b3729a0/PySide6-Fluent-Widgets-0.9.7.tar.gz
+[2023-06-23 16:37:31] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-23 16:37:31] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-23 16:37:31] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230623/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 16:37:31] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-06-23 16:37:31] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.9.6.tar.gz tmp/PySide6-Fluent-Widgets-0.9.7.tar.gz --markdown 20230623/P/PySide6-Fluent-Widgets/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-23 16:37:31] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.0.9.tar.gz]
+[2023-06-23 16:37:31] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.0.tar.gz]
+[2023-06-23 16:37:31] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-23 16:37:32] WARNING root fetch - processPackages [py4jps]: Skipping package: exceeds size limit 92613788>=10485760
+[2023-06-23 16:37:32] INFO root fetch - main [MainThread]: End processing [py4jps] error
+[2023-06-23 16:37:32] INFO root fetch - processPackages [stormevents]: Remove: archive file [/home/abi/fetcher/tmp/stormevents-2.2.0-py3-none-any.whl.zip]
+[2023-06-23 16:37:32] INFO root fetch - processPackages [stormevents]: Remove: archive file [/home/abi/fetcher/tmp/stormevents-2.2.1-py3-none-any.whl.zip]
+[2023-06-23 16:37:32] INFO root fetch - main [MainThread]: End processing [stormevents]: success
+[2023-06-23 16:37:32] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.8.tar.gz]
+[2023-06-23 16:37:32] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-0.1.9.tar.gz]
+[2023-06-23 16:37:32] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-23 16:37:32] INFO root fetch - processPackages [zenodoclient]: Remove: archive file [/home/abi/fetcher/tmp/zenodoclient-0.5.0.tar.gz]
+[2023-06-23 16:37:32] INFO root fetch - processPackages [zenodoclient]: Remove: archive file [/home/abi/fetcher/tmp/zenodoclient-0.5.1.tar.gz]
+[2023-06-23 16:37:32] INFO root fetch - main [MainThread]: End processing [zenodoclient]: success
+[2023-06-23 16:37:33] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-23 16:37:33] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-23 16:37:33] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-23 16:37:34] INFO root fetch - processPackages [dvclive]: Remove: archive file [/home/abi/fetcher/tmp/dvclive-2.8.1.tar.gz]
+[2023-06-23 16:37:34] INFO root fetch - processPackages [dvclive]: Remove: archive file [/home/abi/fetcher/tmp/dvclive-2.9.0.tar.gz]
+[2023-06-23 16:37:34] INFO root fetch - main [MainThread]: End processing [dvclive]: success
+[2023-06-23 16:37:35] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.6.tar.gz]
+[2023-06-23 16:37:35] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.7.tar.gz]
+[2023-06-23 16:37:35] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-06-23 16:38:26] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.1.0a1687457552.tar.gz]
+[2023-06-23 16:38:26] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.1.0a1687471141.tar.gz]
+[2023-06-23 16:38:26] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-06-23 16:38:26] INFO root fetch - main [MainThread]: Store serial: [18619164]
