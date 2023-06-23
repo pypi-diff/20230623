@@ -7099,3 +7099,42 @@
 [2023-06-23 04:29:21] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.4.9.tar.gz]
 [2023-06-23 04:29:21] INFO root fetch - main [MainThread]: End processing [hdx-python-country]: success
 [2023-06-23 04:29:21] INFO root fetch - main [MainThread]: Store serial: [18613534]
+[2023-06-23 04:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18613534]
+[2023-06-23 04:34:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-23 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowflake-ml-python
+[2023-06-23 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elife-dummy-python-release-project
+[2023-06-23 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ArmaQDL
+[2023-06-23 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shaidata
+[2023-06-23 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psalpsdtools
+[2023-06-23 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anchor-gpt
+[2023-06-23 04:34:29] WARNING root fetch - processPackages [shaidata]: Skipping, unable to determine old version
+[2023-06-23 04:34:29] INFO root fetch - main [MainThread]: End processing [shaidata] error
+[2023-06-23 04:34:29] WARNING root fetch - processPackages [anchor-gpt]: Skipping, unable to determine old version
+[2023-06-23 04:34:29] INFO root fetch - main [MainThread]: End processing [anchor-gpt] error
+[2023-06-23 04:34:29] INFO root fetch - processPackages [ArmaQDL]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-23 04:34:29] WARNING root fetch - processPackages [psalpsdtools]: Skipping, unable to determine old version
+[2023-06-23 04:34:29] INFO root fetch - main [MainThread]: End processing [psalpsdtools] error
+[2023-06-23 04:34:29] INFO root fetch - processPackages [snowflake-ml-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-23 04:34:29] INFO root fetch - processPackages [elife-dummy-python-release-project]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-23 04:34:30] INFO root fetch - processPackages [elife-dummy-python-release-project]: Downloading https://files.pythonhosted.org/packages/e8/99/f507815e1d6731629a36570ca8f83d0c74ba6e042ccdcb2d1cb3929cb430/elife-dummy-python-release-project-0.0.3.tar.gz
+[2023-06-23 04:34:30] INFO root fetch - processPackages [ArmaQDL]: Downloading https://files.pythonhosted.org/packages/f1/cd/9f39840bfefb7f5fa3580db27677868985e2ff2c4f25185226ce50de9217/armaqdl-0.8.0.tar.gz
+[2023-06-23 04:34:30] INFO root fetch - processPackages [snowflake-ml-python]: Downloading https://files.pythonhosted.org/packages/12/da/9cb8aae0d3445989c1cfbe04d48d1609ef7a486e0de114850e75976a6190/snowflake_ml_python-1.0.1-py3-none-any.whl
+[2023-06-23 04:34:30] INFO root fetch - processPackages [ArmaQDL]: Downloading https://files.pythonhosted.org/packages/7c/93/13f18473e8f1f34d2ddf0ccbec0bc3f150e1bf2815abdcfaaecc94861d5d/armaqdl-0.9.0.tar.gz
+[2023-06-23 04:34:30] INFO root fetch - processPackages [elife-dummy-python-release-project]: Downloading https://files.pythonhosted.org/packages/de/09/ced276c787168607426d29d76c613199e66e3dbc5a049860b3bc5dbd99a5/elife-dummy-python-release-project-0.0.4.tar.gz
+[2023-06-23 04:34:30] INFO root fetch - processPackages [ArmaQDL]: executing diffoscope
+[2023-06-23 04:34:30] INFO root fetch - processPackages [ArmaQDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armaqdl-0.8.0.tar.gz tmp/armaqdl-0.9.0.tar.gz --markdown 20230623/A/ArmaQDL/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-23 04:34:30] INFO root fetch - processPackages [snowflake-ml-python]: Downloading https://files.pythonhosted.org/packages/59/d0/e242d23e4dbdd3140d5a2692b5cdf9853095245d2ad48b78b876d97912c5/snowflake_ml_python-1.0.2-py3-none-any.whl
+[2023-06-23 04:34:30] INFO root fetch - processPackages [elife-dummy-python-release-project]: executing diffoscope
+[2023-06-23 04:34:30] INFO root fetch - processPackages [elife-dummy-python-release-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elife-dummy-python-release-project-0.0.3.tar.gz tmp/elife-dummy-python-release-project-0.0.4.tar.gz --markdown 20230623/e/elife-dummy-python-release-project/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-23 04:34:30] INFO root fetch - processPackages [snowflake-ml-python]: executing diffoscope
+[2023-06-23 04:34:30] INFO root fetch - processPackages [snowflake-ml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_ml_python-1.0.1-py3-none-any.whl.zip tmp/snowflake_ml_python-1.0.2-py3-none-any.whl.zip --markdown 20230623/s/snowflake-ml-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-23 04:34:31] INFO root fetch - processPackages [elife-dummy-python-release-project]: Remove: archive file [/home/abi/fetcher/tmp/elife-dummy-python-release-project-0.0.3.tar.gz]
+[2023-06-23 04:34:31] INFO root fetch - processPackages [elife-dummy-python-release-project]: Remove: archive file [/home/abi/fetcher/tmp/elife-dummy-python-release-project-0.0.4.tar.gz]
+[2023-06-23 04:34:31] INFO root fetch - main [MainThread]: End processing [elife-dummy-python-release-project]: success
+[2023-06-23 04:34:31] INFO root fetch - processPackages [ArmaQDL]: Remove: archive file [/home/abi/fetcher/tmp/armaqdl-0.8.0.tar.gz]
+[2023-06-23 04:34:31] INFO root fetch - processPackages [ArmaQDL]: Remove: archive file [/home/abi/fetcher/tmp/armaqdl-0.9.0.tar.gz]
+[2023-06-23 04:34:31] INFO root fetch - main [MainThread]: End processing [ArmaQDL]: success
+[2023-06-23 04:34:43] INFO root fetch - processPackages [snowflake-ml-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_ml_python-1.0.1-py3-none-any.whl.zip]
+[2023-06-23 04:34:43] INFO root fetch - processPackages [snowflake-ml-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_ml_python-1.0.2-py3-none-any.whl.zip]
+[2023-06-23 04:34:43] INFO root fetch - main [MainThread]: End processing [snowflake-ml-python]: success
+[2023-06-23 04:34:43] INFO root fetch - main [MainThread]: Store serial: [18613558]
