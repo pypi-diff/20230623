@@ -20245,3 +20245,144 @@ EOFError: EOF read where object expected
 [2023-06-23 16:10:57] INFO root fetch - processPackages [scoop-template-engine]: Remove: archive file [/home/abi/fetcher/tmp/scoop-template-engine-1.1.3.tar.gz]
 [2023-06-23 16:10:57] INFO root fetch - main [MainThread]: End processing [scoop-template-engine]: success
 [2023-06-23 16:10:57] INFO root fetch - main [MainThread]: Store serial: [18618870]
+[2023-06-23 16:16:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18618870]
+[2023-06-23 16:16:08] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-23 16:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taln2x
+[2023-06-23 16:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fmpsdk
+[2023-06-23 16:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genepass
+[2023-06-23 16:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlopsrobotics
+[2023-06-23 16:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: surpyvor
+[2023-06-23 16:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onnx-tool
+[2023-06-23 16:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bluepyefe
+[2023-06-23 16:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apysc
+[2023-06-23 16:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: antgo
+[2023-06-23 16:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-cisco-support-plugin
+[2023-06-23 16:16:08] INFO root fetch - processPackages [genepass]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-23 16:16:08] WARNING root fetch - processPackages [taln2x]: Skipping, unable to determine old version
+[2023-06-23 16:16:08] INFO root fetch - processPackages [taln2x]: Start processing: brighteyes-ism
+[2023-06-23 16:16:08] INFO root fetch - main [MainThread]: End processing [taln2x] error
+[2023-06-23 16:16:08] INFO root fetch - processPackages [fmpsdk]: New version: [20230623.0] Old Version: [20230522.0]
+[2023-06-23 16:16:08] INFO root fetch - processPackages [bluepyefe]: New version: [2.2.61] Old Version: [2.2.59]
+[2023-06-23 16:16:08] INFO root fetch - processPackages [surpyvor]: New version: [0.8.1] Old Version: [0.6.0]
+[2023-06-23 16:16:08] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 16:16:08] INFO root fetch - processPackages [onnx-tool]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-23 16:16:08] INFO root fetch - processPackages [brighteyes-ism]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-23 16:16:08] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-23 16:16:08] INFO root fetch - processPackages [apysc]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-23 16:16:09] INFO root fetch - processPackages [mlopsrobotics]: New version: [0.2] Old Version: [0.1.0]
+[2023-06-23 16:16:09] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/bf/6b/9e53fa99f8dc42f1cde7dd4fd6262654a22c30abb97540591a2a4b5d28a2/bluepyefe-2.2.59.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/1c/e7/709d9dec7d8dda1f1e50b3bc2af3fd7c52e7f8ed3a7dc95bc80f8fb6e05e/netbox-cisco-support-plugin-0.0.5.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/ad/b8/0e28e6b32c9c8269cb7dadbe6a40eda95c116082dc38c75820edb87933fc/apysc-2.8.8.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [genepass]: Downloading https://files.pythonhosted.org/packages/f1/98/89b3b8816060ca6e41f773328322f611dac7deaea5cad43cf2ac65e1d353/genepass-0.1.4.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [fmpsdk]: Downloading https://files.pythonhosted.org/packages/b8/1b/80da69ca96cb84aec9382bab0670a304fc7c520bf8dc5187de64ea98fa8a/fmpsdk-20230522.0.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [onnx-tool]: Downloading https://files.pythonhosted.org/packages/26/56/1bf79105f210e72c42ee5930d2f2767c7966e57b8ca7a272bb13da049edf/onnx-tool-0.7.1.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [surpyvor]: Downloading https://files.pythonhosted.org/packages/17/7e/84feee51ef4fd82d1d4edc5c2e3ac32c0639943021494d59fd480377ac47/surpyvor-0.6.0.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [mlopsrobotics]: Downloading https://files.pythonhosted.org/packages/74/f9/41b1d9921fae2e95d0b2aea0fab38091358e3d3e5568a768dd670d0248a3/mlopsrobotics-0.1.0.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [brighteyes-ism]: Downloading https://files.pythonhosted.org/packages/55/bf/f2f7b965eb522221d3719cffd41ce34b4d8ce7a9e3db18974655843e332f/brighteyes-ism-1.2.0.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/58/a3/a6f7e250674b7eb884049e28bf937c78e1643e143c22675e29337194cf49/apysc-2.8.9.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/56/d3/555ba8b753dc05a528723b51c3f0a656792924094fbc8bf3daedfe22e1b7/bluepyefe-2.2.61.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [genepass]: Downloading https://files.pythonhosted.org/packages/fc/67/3238038b5860b7f4eb332956e8d07d91a6a670c22bbca14fcb4bb4bde09a/genepass-0.1.5.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [surpyvor]: Downloading https://files.pythonhosted.org/packages/39/78/e52b7a2dc0a52d9ca401ca21e8817966e55cac05007b6b102c25114e7014/surpyvor-0.8.1.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [onnx-tool]: Downloading https://files.pythonhosted.org/packages/12/f8/ce4ad13154dd72d847f6fd86863ee6ec181688158910e8f61c420298e4fd/onnx-tool-0.7.2.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/4d/c6/32d6e84435f20ade09889d9c936c0b896d2036856d917898f5a65e10da2a/netbox-cisco-support-plugin-0.0.6.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [fmpsdk]: Downloading https://files.pythonhosted.org/packages/9b/2f/85fcd282d95be338b4a7fab9b2bedfd93797a1435f3a5f196a19d299d914/fmpsdk-20230623.0.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-23 16:16:09] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.8.8.tar.gz tmp/apysc-2.8.9.tar.gz --markdown 20230623/a/apysc/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-23 16:16:09] INFO root fetch - processPackages [brighteyes-ism]: Downloading https://files.pythonhosted.org/packages/3f/78/3d0bbef0f898d17b8abb586f4b8d758ba5ff19cd1f52de9e6467484f7685/brighteyes-ism-1.2.1.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [mlopsrobotics]: Downloading https://files.pythonhosted.org/packages/51/ba/bbab9d12d7eb0cfbd0052bc079d59353b564849a18eaa394fa7a2e2b03c0/mlopsrobotics-0.2.tar.gz
+[2023-06-23 16:16:09] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-23 16:16:09] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230623/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 16:16:09] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2023-06-23 16:16:09] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.2.59.tar.gz tmp/bluepyefe-2.2.61.tar.gz --markdown 20230623/b/bluepyefe/2.2.59-2.2.61/diff.md --exclude *.pyd
+[2023-06-23 16:16:09] INFO root fetch - processPackages [genepass]: executing diffoscope
+[2023-06-23 16:16:09] INFO root fetch - processPackages [genepass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepass-0.1.4.tar.gz tmp/genepass-0.1.5.tar.gz --markdown 20230623/g/genepass/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-23 16:16:09] INFO root fetch - processPackages [mlopsrobotics]: executing diffoscope
+[2023-06-23 16:16:09] INFO root fetch - processPackages [mlopsrobotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlopsrobotics-0.1.0.tar.gz tmp/mlopsrobotics-0.2.tar.gz --markdown 20230623/m/mlopsrobotics/0.1.0-0.2/diff.md --exclude *.pyd
+[2023-06-23 16:16:09] INFO root fetch - processPackages [surpyvor]: executing diffoscope
+[2023-06-23 16:16:09] INFO root fetch - processPackages [surpyvor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surpyvor-0.6.0.tar.gz tmp/surpyvor-0.8.1.tar.gz --markdown 20230623/s/surpyvor/0.6.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-23 16:16:09] INFO root fetch - processPackages [onnx-tool]: executing diffoscope
+[2023-06-23 16:16:09] INFO root fetch - processPackages [onnx-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx-tool-0.7.1.tar.gz tmp/onnx-tool-0.7.2.tar.gz --markdown 20230623/o/onnx-tool/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-23 16:16:09] INFO root fetch - processPackages [fmpsdk]: executing diffoscope
+[2023-06-23 16:16:09] INFO root fetch - processPackages [fmpsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmpsdk-20230522.0.tar.gz tmp/fmpsdk-20230623.0.tar.gz --markdown 20230623/f/fmpsdk/20230522.0-20230623.0/diff.md --exclude *.pyd
+[2023-06-23 16:16:09] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-23 16:16:09] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.5.tar.gz tmp/netbox-cisco-support-plugin-0.0.6.tar.gz --markdown 20230623/n/netbox-cisco-support-plugin/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-23 16:16:09] INFO root fetch - processPackages [brighteyes-ism]: executing diffoscope
+[2023-06-23 16:16:09] INFO root fetch - processPackages [brighteyes-ism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brighteyes-ism-1.2.0.tar.gz tmp/brighteyes-ism-1.2.1.tar.gz --markdown 20230623/b/brighteyes-ism/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-23 16:16:11] INFO root fetch - processPackages [genepass]: Remove: archive file [/home/abi/fetcher/tmp/genepass-0.1.4.tar.gz]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [genepass]: Remove: archive file [/home/abi/fetcher/tmp/genepass-0.1.5.tar.gz]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [genepass]: Start processing: pptreport
+[2023-06-23 16:16:11] INFO root fetch - main [MainThread]: End processing [genepass]: success
+[2023-06-23 16:16:11] INFO root fetch - processPackages [pptreport]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [mlopsrobotics]: Remove: archive file [/home/abi/fetcher/tmp/mlopsrobotics-0.1.0.tar.gz]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [mlopsrobotics]: Remove: archive file [/home/abi/fetcher/tmp/mlopsrobotics-0.2.tar.gz]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [mlopsrobotics]: Start processing: hipersim
+[2023-06-23 16:16:11] INFO root fetch - main [MainThread]: End processing [mlopsrobotics]: success
+[2023-06-23 16:16:11] INFO root fetch - processPackages [hipersim]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [pptreport]: Downloading https://files.pythonhosted.org/packages/49/70/bba18fd6fa312110b67f549130acbc9311a128dca82e65558b57529ed108/pptreport-1.0.0.tar.gz
+[2023-06-23 16:16:11] INFO root fetch - processPackages [hipersim]: Downloading https://files.pythonhosted.org/packages/37/cf/36ea8a0ca8a17fe1b44624920359d732835cff030140c270aa0ee66c91e7/hipersim-0.0.7.tar.gz
+[2023-06-23 16:16:11] INFO root fetch - processPackages [surpyvor]: Remove: archive file [/home/abi/fetcher/tmp/surpyvor-0.6.0.tar.gz]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [surpyvor]: Remove: archive file [/home/abi/fetcher/tmp/surpyvor-0.8.1.tar.gz]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [surpyvor]: Start processing: ontoloviz
+[2023-06-23 16:16:11] INFO root fetch - main [MainThread]: End processing [surpyvor]: success
+[2023-06-23 16:16:11] INFO root fetch - processPackages [ontoloviz]: New version: [1.6.0] Old Version: [1.5.8]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.5.tar.gz]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.6.tar.gz]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: fastly
+[2023-06-23 16:16:11] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-23 16:16:11] INFO root fetch - processPackages [fastly]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-06-23 16:16:11] INFO root fetch - processPackages [pptreport]: Downloading https://files.pythonhosted.org/packages/4a/a1/a864305931d759284bbcb17ca65f265c44589717e737e7cf65da74eeb262/pptreport-1.1.0.tar.gz
+[2023-06-23 16:16:12] INFO root fetch - processPackages [ontoloviz]: Downloading https://files.pythonhosted.org/packages/8c/48/ece4cfee3e638a6c71d1a48a8cbcc6e55f3fa88d2c1a796aac9c5c941cbe/ontoloviz-1.5.8.tar.gz
+[2023-06-23 16:16:12] INFO root fetch - processPackages [brighteyes-ism]: Remove: archive file [/home/abi/fetcher/tmp/brighteyes-ism-1.2.0.tar.gz]
+[2023-06-23 16:16:12] INFO root fetch - processPackages [brighteyes-ism]: Remove: archive file [/home/abi/fetcher/tmp/brighteyes-ism-1.2.1.tar.gz]
+[2023-06-23 16:16:12] INFO root fetch - processPackages [brighteyes-ism]: Start processing: syngen
+[2023-06-23 16:16:12] INFO root fetch - main [MainThread]: End processing [brighteyes-ism]: success
+[2023-06-23 16:16:12] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-23 16:16:12] INFO root fetch - processPackages [hipersim]: Downloading https://files.pythonhosted.org/packages/0e/80/1d448610952beae09def12c19650855b7bf9cbc8e5eaca5f8753a7db3025/hipersim-0.0.9.tar.gz
+[2023-06-23 16:16:12] INFO root fetch - processPackages [fmpsdk]: Remove: archive file [/home/abi/fetcher/tmp/fmpsdk-20230522.0.tar.gz]
+[2023-06-23 16:16:12] INFO root fetch - processPackages [fmpsdk]: Remove: archive file [/home/abi/fetcher/tmp/fmpsdk-20230623.0.tar.gz]
+[2023-06-23 16:16:12] INFO root fetch - main [MainThread]: End processing [fmpsdk]: success
+[2023-06-23 16:16:12] INFO root fetch - processPackages [pptreport]: executing diffoscope
+[2023-06-23 16:16:12] INFO root fetch - processPackages [pptreport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pptreport-1.0.0.tar.gz tmp/pptreport-1.1.0.tar.gz --markdown 20230623/p/pptreport/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-23 16:16:12] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/8a/4f/b2c083dc3ad063c91a209f59833ea648ebd979271ff1099e1705c9af7a7d/fastly-2.2.1.tar.gz
+[2023-06-23 16:16:12] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/d1/5c/1a07748f97870290d6219c56768425459aa1519f941153183894348fc83a/syngen-0.1.8.tar.gz
+[2023-06-23 16:16:12] INFO root fetch - processPackages [hipersim]: executing diffoscope
+[2023-06-23 16:16:12] INFO root fetch - processPackages [hipersim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hipersim-0.0.7.tar.gz tmp/hipersim-0.0.9.tar.gz --markdown 20230623/h/hipersim/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-23 16:16:12] INFO root fetch - processPackages [ontoloviz]: Downloading https://files.pythonhosted.org/packages/ac/73/06f5cec127e85b6b81147fbd1e5d9e9feec62f88e2603ae60dd44faffbb9/ontoloviz-1.6.0.tar.gz
+[2023-06-23 16:16:12] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/23/98/77f0cb9c8e57aa30b9f991c2c1ac00bda898d3a8ed51a0fff3469dadbc29/fastly-2.2.2.tar.gz
+[2023-06-23 16:16:12] INFO root fetch - processPackages [ontoloviz]: executing diffoscope
+[2023-06-23 16:16:12] INFO root fetch - processPackages [ontoloviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontoloviz-1.5.8.tar.gz tmp/ontoloviz-1.6.0.tar.gz --markdown 20230623/o/ontoloviz/1.5.8-1.6.0/diff.md --exclude *.pyd
+[2023-06-23 16:16:12] INFO root fetch - processPackages [fastly]: executing diffoscope
+[2023-06-23 16:16:12] INFO root fetch - processPackages [fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastly-2.2.1.tar.gz tmp/fastly-2.2.2.tar.gz --markdown 20230623/f/fastly/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-06-23 16:16:12] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-06-23 16:16:12] ERROR root fetch - processPackages [fastly]: Diffoscope failed: Error: error creating container storage: the container name "dreamy_lichterman" is already in use by "d1d348a453c38417ae583fa2654049e1e003b1b8f65bed0012858e571c670495". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-23 16:16:12] INFO root fetch - main [MainThread]: End processing [fastly] error
+[2023-06-23 16:16:12] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-06-23 16:16:12] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230623:/home/abi/fetcher/20230623:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230623/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-23 16:16:13] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.2.59.tar.gz]
+[2023-06-23 16:16:13] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.2.61.tar.gz]
+[2023-06-23 16:16:13] INFO root fetch - main [MainThread]: End processing [bluepyefe]: success
+[2023-06-23 16:16:13] INFO root fetch - processPackages [onnx-tool]: Remove: archive file [/home/abi/fetcher/tmp/onnx-tool-0.7.1.tar.gz]
+[2023-06-23 16:16:13] INFO root fetch - processPackages [onnx-tool]: Remove: archive file [/home/abi/fetcher/tmp/onnx-tool-0.7.2.tar.gz]
+[2023-06-23 16:16:13] INFO root fetch - main [MainThread]: End processing [onnx-tool]: success
+[2023-06-23 16:16:13] INFO root fetch - processPackages [pptreport]: Remove: archive file [/home/abi/fetcher/tmp/pptreport-1.0.0.tar.gz]
+[2023-06-23 16:16:13] INFO root fetch - processPackages [pptreport]: Remove: archive file [/home/abi/fetcher/tmp/pptreport-1.1.0.tar.gz]
+[2023-06-23 16:16:13] INFO root fetch - main [MainThread]: End processing [pptreport]: success
+[2023-06-23 16:16:13] INFO root fetch - processPackages [hipersim]: Remove: archive file [/home/abi/fetcher/tmp/hipersim-0.0.7.tar.gz]
+[2023-06-23 16:16:13] INFO root fetch - processPackages [hipersim]: Remove: archive file [/home/abi/fetcher/tmp/hipersim-0.0.9.tar.gz]
+[2023-06-23 16:16:13] INFO root fetch - main [MainThread]: End processing [hipersim]: success
+[2023-06-23 16:16:14] INFO root fetch - processPackages [ontoloviz]: Remove: archive file [/home/abi/fetcher/tmp/ontoloviz-1.5.8.tar.gz]
+[2023-06-23 16:16:14] INFO root fetch - processPackages [ontoloviz]: Remove: archive file [/home/abi/fetcher/tmp/ontoloviz-1.6.0.tar.gz]
+[2023-06-23 16:16:14] INFO root fetch - main [MainThread]: End processing [ontoloviz]: success
+[2023-06-23 16:16:14] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-06-23 16:16:14] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-06-23 16:16:14] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-06-23 16:16:19] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-23 16:16:19] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-23 16:16:19] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-23 16:16:19] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.8.tar.gz]
+[2023-06-23 16:16:19] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.9.tar.gz]
+[2023-06-23 16:16:19] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-23 16:16:19] INFO root fetch - main [MainThread]: Store serial: [18618917]
